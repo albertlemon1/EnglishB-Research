@@ -6,7 +6,7 @@ Contexto para retomar el proyecto en una sesión nueva. Léelo entero antes de t
 
 App de autoaprendizaje para hispanohablantes, Banda B del MCER: 270 h en cuatro subniveles (B1.1 60 h, B1.2 60 h, B2.1 75 h, B2.2 75 h), 54 módulos, 270 lecciones. La estructura completa está en `content/course.json` (fuente única); `docs/ESTRUCTURA_BANDA_B.md` se genera desde ahí.
 
-**Estado (2026-11-09):** publicados el Módulo 1 (l01–l05, 233 audios) y el Módulo 2 (l06–l10, 248 audios), fusionados en `main` y desplegados en GitHub Pages. El Módulo 3, «Everyday Technology & Digital Life» (dominio TD, l11–l15, 231 audios), está terminado en la rama `claude/modulo-3-inicio-akpkjk` (pendiente de PR). **Siguiente: Módulo 4**, «Practical Problem-Solving & Daily Hassles» (l16–l20; gramática: First Conditional y too / (not) enough; AFH: letras mudas y grupos consonánticos finales como *fixed*, *crashed*). Solo se genera un módulo cuando el usuario lo pide.
+**Estado (2026-11-09):** publicados el Módulo 1 (l01–l05, 233 audios), el Módulo 2 (l06–l10, 248 audios) y el Módulo 3, «Everyday Technology & Digital Life» (l11–l15, 231 audios): los tres fusionados en `main` (PR #6 para el 3) y desplegados en GitHub Pages. **Siguiente: Módulo 4**, «Practical Problem-Solving & Daily Hassles» (dominio TD + WD, l16–l20; gramática: First Conditional y too / (not) enough; AFH: letras mudas y grupos consonánticos finales como *fixed*, *crashed*). Solo se genera un módulo cuando el usuario lo pide.
 
 El usuario escribe en español y revisa en el móvil. Responde en español neutro (nada de «vosotros», «os», «vuestra»).
 
@@ -40,7 +40,7 @@ SPA estática: módulos ES sin dependencias y **sin paso de build**. Es una PWA 
 
 ## Contenido
 
-Rutas: `content/<subnivel>/<módulo>/`, con `module.json`, `lNN.json` (número **global** de lección) y `review.json`; audios en `audio/<subnivel>/<módulo>/` más `manifest.json`. **Usa `content/b1-1/m03/` o `m02/` como plantilla** (el 3 es el más reciente, y no usa `tone`): son los módulos más completos y ya incluye tipos que el Módulo 1 no tiene (`intonation`, `variants`, `task.input` y un modelo con diálogo).
+Rutas: `content/<subnivel>/<módulo>/`, con `module.json`, `lNN.json` (número **global** de lección) y `review.json`; audios en `audio/<subnivel>/<módulo>/` más `manifest.json`. **Usa `content/b1-1/m03/` como plantilla general** (el más reciente; no usa `tone`) y `m02/` cuando necesites tipos que el 3 no tiene: `intonation`, `variants` (tags con `tone`) y un modelo de tarea con diálogo (`lines[]`). El Módulo 1 es el más sencillo.
 
 Esquema de lección: `id`, `n`, `title`, `titleEs`, `minutes`, `summary`, `canDo[]`, `focus{grammar, lexis, afh}`, `warmup`, más los bloques:
 
@@ -56,7 +56,7 @@ Esquema de lección: `id`, `n`, `title`, `titleEs`, `minutes`, `summary`, `canDo
 - `practice[]`, con sus tipos:
   - choice (`text` con `___`), gap (`accept[]`), order (`words`/`answer`), fix (`wrong`/`accept[]`);
   - stress (`syllables`/`answer`/`audioRef`), dictation, intonation (`answer: rise|fall`).
-- `task`: `{title, format: voice|text|email, scenario, brief, input?, steps, length, minWords, frames, chunks[{label, re}], checks[], extra, model{parts[]}, selfCheck}`.
+- `task`: `{title, format: voice|text|email, scenario, brief, input? (solo el examen de mediación), steps, length, minWords, frames, chunks[{label, re}], checks[], extra, model{parts[]}, selfCheck}`.
   - `checks` apunta a funciones de `assets/js/checks.js`; si añades una, pruébala con frases correctas e incorrectas.
 
 Reglas de redacción:
@@ -121,14 +121,14 @@ python3 tools/build_structure_doc.py
 
 ## Despliegue
 
-- **GitHub Pages:** `.github/workflows/pages.yml` ejecuta `check_content.py`, copia la app a `_site` y despliega al hacer push a `main` (o con workflow_dispatch). El entorno `github-pages` ya acepta `main`.
+- **GitHub Pages:** `.github/workflows/pages.yml` ejecuta `check_content.py`, copia la app a `_site` y despliega al hacer push a `main` (o con workflow_dispatch). El entorno `github-pages` ya acepta `main`. No corre en los PR: si falla, lo verás tras fusionar. El contenedor de Claude no alcanza `github.io` (el proxy da 403), así que el sitio en vivo lo revisa el usuario en el móvil; desde aquí solo se puede consultar el estado del workflow con las herramientas de GitHub.
 - **Netlify:** `netlify.toml`, sin build, publica `.`. Las reglas de headers solo admiten un comodín final (`/audio/*`).
 - **Local:** `tools/serve.py`, sin caché; busca un puerto libre.
 
 ## Git
 
 - Repositorio `albertlemon1/EnglishB-Research`, público. Rama de trabajo: la que indique la sesión (el Módulo 3 se hizo en `claude/modulo-3-inicio-akpkjk`).
-- Si el PR de la rama ya está fusionado, reiníciala desde `main`: `git fetch origin main && git checkout -B <rama> origin/main`.
+- Si el PR de la rama ya está fusionado (como el del Módulo 3), reiníciala desde `main` antes de empezar: `git fetch origin main && git checkout -B <rama> origin/main`.
 - Push con `git push -u origin <rama>`. No hagas force-push ni operaciones destructivas.
 - Abre un PR a `main` solo cuando el usuario lo pida; el usuario lo fusiona.
 - Los mensajes de commit explican el porqué de las decisiones. No pongas identificadores de modelo en commits ni PRs.
