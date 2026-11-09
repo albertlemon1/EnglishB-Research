@@ -1,0 +1,2087 @@
+{
+ "engine": "Kokoro-82M v1.0 (ONNX) + misaki G2P",
+ "sampleRate": 24000,
+ "format": "mp3 64 kbps mono",
+ "count": 231,
+ "clips": {
+  "l11-cc-1a": {
+   "file": "l11-cc-1a.mp3",
+   "duration": 2.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I use this app to track my sleep.",
+   "hash": "3379bc9ee34b"
+  },
+  "l11-cc-1b": {
+   "file": "l11-cc-1b.mp3",
+   "duration": 3.3,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We use a shared calendar to plan the week.",
+   "hash": "f5f67f20be61"
+  },
+  "l11-cc-2a": {
+   "file": "l11-cc-2a.mp3",
+   "duration": 2.62,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If you tap the icon, the app opens.",
+   "hash": "de1b254d9bd9"
+  },
+  "l11-cc-2b": {
+   "file": "l11-cc-2b.mp3",
+   "duration": 3.62,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "When the storage is full, the phone stops saving photos.",
+   "hash": "1f54c693c24a"
+  },
+  "l11-cc-3a": {
+   "file": "l11-cc-3a.mp3",
+   "duration": 2.53,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I usually check my email twice a day.",
+   "hash": "0d7f7755a537"
+  },
+  "l11-cc-3b": {
+   "file": "l11-cc-3b.mp3",
+   "duration": 2.19,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "My phone is always on silent.",
+   "hash": "c3a972a31073"
+  },
+  "l11-dict-1": {
+   "file": "l11-dict-1.mp3",
+   "duration": 3.88,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "When I get a notification, I check it right away.",
+   "hash": "98da6b9171b9"
+  },
+  "l11-dlg-01": {
+   "file": "l11-dlg-01.mp3",
+   "duration": 4.64,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Leo, your phone is always buzzing. What apps do you use every day?",
+   "hash": "7db593988c2a"
+  },
+  "l11-dlg-02": {
+   "file": "l11-dlg-02.mp3",
+   "duration": 6.03,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Mostly messaging apps and a music app. I use my calendar to remind me about classes, too.",
+   "hash": "7b9b3a1f82ef"
+  },
+  "l11-dlg-03": {
+   "file": "l11-dlg-03.mp3",
+   "duration": 5.22,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Isn't that annoying? If you get a notification every minute, you can't focus!",
+   "hash": "b622e10565f7"
+  },
+  "l11-dlg-04": {
+   "file": "l11-dlg-04.mp3",
+   "duration": 5.92,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "It is! That's why I turned on Do Not Disturb. When it's on, only my mom can call me.",
+   "hash": "5692b5593977"
+  },
+  "l11-dlg-05": {
+   "file": "l11-dlg-05.mp3",
+   "duration": 7.07,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Smart. I log in to my email only twice a day. If I check it more often, I waste the whole morning.",
+   "hash": "291fae1d5117"
+  },
+  "l11-dlg-06": {
+   "file": "l11-dlg-06.mp3",
+   "duration": 3.66,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Do you back up your photos? My storage is almost full.",
+   "hash": "afaedee1537f"
+  },
+  "l11-dlg-07": {
+   "file": "l11-dlg-07.mp3",
+   "duration": 7.41,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Yes, they sync automatically when I'm on Wi-Fi. If your storage is full, your phone stops saving new photos.",
+   "hash": "210835885317"
+  },
+  "l11-dlg-08": {
+   "file": "l11-dlg-08.mp3",
+   "duration": 4.59,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Seriously? Then I need to delete some apps. Thanks for the tip!",
+   "hash": "ef398338c460"
+  },
+  "l11-gd": {
+   "file": "l11-gd.mp3",
+   "duration": 5.15,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If you tap the icon, the app opens. When the battery is low, the screen gets darker.",
+   "hash": "23c13c35e8f3"
+  },
+  "l11-ph-notification-ex": {
+   "file": "l11-ph-notification-ex.mp3",
+   "duration": 3.51,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I turned off every notification except my messages.",
+   "hash": "cd2c03fb46b0"
+  },
+  "l11-ph-notification-slow": {
+   "file": "l11-ph-notification-slow.mp3",
+   "duration": 1.96,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Notification.",
+   "hash": "48a6dc30c11d"
+  },
+  "l11-ph-notification-uk": {
+   "file": "l11-ph-notification-uk.mp3",
+   "duration": 1.81,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Notification.",
+   "hash": "9c08ccf62ae8"
+  },
+  "l11-ph-notification-us": {
+   "file": "l11-ph-notification-us.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Notification.",
+   "hash": "0796d27ae20f"
+  },
+  "l11-ph-screenshot-ex": {
+   "file": "l11-ph-screenshot-ex.mp3",
+   "duration": 2.57,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I took a screenshot of the error message.",
+   "hash": "3870be1fff11"
+  },
+  "l11-ph-screenshot-slow": {
+   "file": "l11-ph-screenshot-slow.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Screenshot.",
+   "hash": "99715fea070e"
+  },
+  "l11-ph-screenshot-uk": {
+   "file": "l11-ph-screenshot-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Screenshot.",
+   "hash": "491c5e6c07c9"
+  },
+  "l11-ph-screenshot-us": {
+   "file": "l11-ph-screenshot-us.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Screenshot.",
+   "hash": "f07bfd1b872e"
+  },
+  "l11-ph-smartphone-ex": {
+   "file": "l11-ph-smartphone-ex.mp3",
+   "duration": 3.11,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "My smartphone is almost out of battery.",
+   "hash": "9dacd8e8fed6"
+  },
+  "l11-ph-smartphone-slow": {
+   "file": "l11-ph-smartphone-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Smartphone.",
+   "hash": "520303c0e20d"
+  },
+  "l11-ph-smartphone-uk": {
+   "file": "l11-ph-smartphone-uk.mp3",
+   "duration": 1.38,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Smartphone.",
+   "hash": "1d1b3bb01bdd"
+  },
+  "l11-ph-smartphone-us": {
+   "file": "l11-ph-smartphone-us.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Smartphone.",
+   "hash": "ac6fe1836df7"
+  },
+  "l11-ph-storage-ex": {
+   "file": "l11-ph-storage-ex.mp3",
+   "duration": 2.51,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "My phone has almost no storage left.",
+   "hash": "be72a84f02b8"
+  },
+  "l11-ph-storage-slow": {
+   "file": "l11-ph-storage-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Storage.",
+   "hash": "5ed0bfb9e163"
+  },
+  "l11-ph-storage-uk": {
+   "file": "l11-ph-storage-uk.mp3",
+   "duration": 1.29,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Storage.",
+   "hash": "4c40395e2894"
+  },
+  "l11-ph-storage-us": {
+   "file": "l11-ph-storage-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Storage.",
+   "hash": "f1b9a9b73c33"
+  },
+  "l11-ph-sync-ex": {
+   "file": "l11-ph-sync-ex.mp3",
+   "duration": 2.38,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "My notes sync across all my devices.",
+   "hash": "744cccbacf98"
+  },
+  "l11-ph-sync-slow": {
+   "file": "l11-ph-sync-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Sync.",
+   "hash": "53dcef116e43"
+  },
+  "l11-ph-sync-uk": {
+   "file": "l11-ph-sync-uk.mp3",
+   "duration": 1.38,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Sync.",
+   "hash": "6a10634f1215"
+  },
+  "l11-ph-sync-us": {
+   "file": "l11-ph-sync-us.mp3",
+   "duration": 1.17,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Sync.",
+   "hash": "c18a99ee73e8"
+  },
+  "l11-reg-c1": {
+   "file": "l11-reg-c1.mp3",
+   "duration": 2.55,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm glued to my phone all day, honestly.",
+   "hash": "45ad2c054391"
+  },
+  "l11-reg-c2": {
+   "file": "l11-reg-c2.mp3",
+   "duration": 4.55,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I live in my calendar app. If it's not in there, it doesn't happen.",
+   "hash": "5d3bbed1e78f"
+  },
+  "l11-reg-f1": {
+   "file": "l11-reg-f1.mp3",
+   "duration": 4.79,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I rely on a task-management application to organise my daily workload.",
+   "hash": "c09060736b18"
+  },
+  "l11-reg-f2": {
+   "file": "l11-reg-f2.mp3",
+   "duration": 6.01,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "The application synchronises your data automatically whenever it is connected to the internet.",
+   "hash": "f44f5e6efd5c"
+  },
+  "l11-reg-n1": {
+   "file": "l11-reg-n1.mp3",
+   "duration": 2.43,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I use a calendar app to plan my day.",
+   "hash": "97ca29763c97"
+  },
+  "l11-reg-n2": {
+   "file": "l11-reg-n2.mp3",
+   "duration": 3.66,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "When I get a notification, I check it right away.",
+   "hash": "37611531f4bf"
+  },
+  "l11-reg-n3": {
+   "file": "l11-reg-n3.mp3",
+   "duration": 3.56,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "If I turn on Do Not Disturb, my phone stays silent.",
+   "hash": "bbff3b6d862a"
+  },
+  "l11-scn": {
+   "file": "l11-scn.mp3",
+   "duration": 25.45,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi Maya! You asked about my phone routine, so here it is. I use my calendar app to plan my day, and I keep my notes in a separate app. When I get a notification, I check it right away, but if I turn on Do Not Disturb, my phone stays silent. I also back up my photos to the cloud every Sunday, so if I lose my phone, I don't lose my memories. My screen time is, honestly, too high, but I'm working on it!",
+   "hash": "4f55dc497122"
+  },
+  "l11-task-formal": {
+   "file": "l11-task-formal.mp3",
+   "duration": 12.21,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I rely on a task-management application to organise my daily workload. The application synchronises my data automatically whenever it is connected to the internet.",
+   "hash": "45b80930cfa1"
+  },
+  "l11-task-model": {
+   "file": "l11-task-model.mp3",
+   "duration": 25.41,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi, I'm Alex. I use a calendar app to plan my week, and I usually check my messages twice a day. When I get a notification, I read it at once, but if I turn on Do Not Disturb, my phone stays silent. I back up my photos every Sunday, so if I lose my phone, I don't lose them. My screen time is too high, so this month I'm trying to reduce it.",
+   "hash": "195117f77107"
+  },
+  "l12-cc-1a": {
+   "file": "l12-cc-1a.mp3",
+   "duration": 2.08,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Open the file and click Share.",
+   "hash": "494aaa54dd9f"
+  },
+  "l12-cc-1b": {
+   "file": "l12-cc-1b.mp3",
+   "duration": 2.47,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Don't close the chat window.",
+   "hash": "4148294973d5"
+  },
+  "l12-cc-2a": {
+   "file": "l12-cc-2a.mp3",
+   "duration": 2.02,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Could you give me access, please?",
+   "hash": "ee4f822fd7ba"
+  },
+  "l12-cc-2b": {
+   "file": "l12-cc-2b.mp3",
+   "duration": 2.81,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Would you mind sending the request?",
+   "hash": "f4b615e6c3a3"
+  },
+  "l12-cc-3a": {
+   "file": "l12-cc-3a.mp3",
+   "duration": 3.28,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If you don't have permission, you can't open the file.",
+   "hash": "beea26bd5d25"
+  },
+  "l12-cc-3b": {
+   "file": "l12-cc-3b.mp3",
+   "duration": 3.58,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "If you forget your password, you can reset it online.",
+   "hash": "dc8df42cada2"
+  },
+  "l12-dict-1": {
+   "file": "l12-dict-1.mp3",
+   "duration": 3.07,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "Could you give me access to the shared folder, please?",
+   "hash": "2dc2cdeb9d3c"
+  },
+  "l12-dlg-01": {
+   "file": "l12-dlg-01.mp3",
+   "duration": 4.45,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "IT Support, Daniel speaking. How can I help?",
+   "hash": "eb4734d920ca"
+  },
+  "l12-dlg-02": {
+   "file": "l12-dlg-02.mp3",
+   "duration": 5.6,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi Daniel. I can't open the project folder. Could you check my permissions, please?",
+   "hash": "3373d8ac9dca"
+  },
+  "l12-dlg-03": {
+   "file": "l12-dlg-03.mp3",
+   "duration": 3.83,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Of course. Can you tell me your username?",
+   "hash": "d52a0adc728e"
+  },
+  "l12-dlg-04": {
+   "file": "l12-dlg-04.mp3",
+   "duration": 3.51,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It's priya dot s. Should I send you a screenshot?",
+   "hash": "ee8ccdc998c6"
+  },
+  "l12-dlg-05": {
+   "file": "l12-dlg-05.mp3",
+   "duration": 10.07,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "No, that's fine. Please wait a moment. Right, you have view-only access. If you want to edit files, you need approval from your manager.",
+   "hash": "9066e6c4c869"
+  },
+  "l12-dlg-06": {
+   "file": "l12-dlg-06.mp3",
+   "duration": 5.06,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I see. Would you mind sending the request to her? I'm in a bit of a hurry.",
+   "hash": "b69b2210a276"
+  },
+  "l12-dlg-07": {
+   "file": "l12-dlg-07.mp3",
+   "duration": 7.32,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Not at all. Don't close the chat. I'll send it now, and you'll get an email as soon as she approves it.",
+   "hash": "96546e6266b6"
+  },
+  "l12-dlg-08": {
+   "file": "l12-dlg-08.mp3",
+   "duration": 4.15,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Perfect, thank you so much. Don't forget to copy me on the email!",
+   "hash": "dec5e907b52b"
+  },
+  "l12-gd": {
+   "file": "l12-gd.mp3",
+   "duration": 7.22,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Open the file, click Share and type your colleague's email. Don't forget to choose Can edit. Please wait for the confirmation.",
+   "hash": "cdde3569a15a"
+  },
+  "l12-ph-access-ex": {
+   "file": "l12-ph-access-ex.mp3",
+   "duration": 2.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I need access to the shared drive.",
+   "hash": "df78fc714532"
+  },
+  "l12-ph-access-slow": {
+   "file": "l12-ph-access-slow.mp3",
+   "duration": 1.79,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Access.",
+   "hash": "6e86d36e3e20"
+  },
+  "l12-ph-access-uk": {
+   "file": "l12-ph-access-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Access.",
+   "hash": "0496fb491b50"
+  },
+  "l12-ph-access-us": {
+   "file": "l12-ph-access-us.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Access.",
+   "hash": "fca921128360"
+  },
+  "l12-ph-locked-out-ex": {
+   "file": "l12-ph-locked-out-ex.mp3",
+   "duration": 2.17,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I'm locked out of my account again.",
+   "hash": "90e8a052f8c2"
+  },
+  "l12-ph-locked-out-slow": {
+   "file": "l12-ph-locked-out-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Locked out.",
+   "hash": "3524b5a825b5"
+  },
+  "l12-ph-locked-out-uk": {
+   "file": "l12-ph-locked-out-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Locked out.",
+   "hash": "f1333034a1c7"
+  },
+  "l12-ph-locked-out-us": {
+   "file": "l12-ph-locked-out-us.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Locked out.",
+   "hash": "8258420ddf7c"
+  },
+  "l12-ph-password-ex": {
+   "file": "l12-ph-password-ex.mp3",
+   "duration": 2.79,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Never share your password with anyone.",
+   "hash": "fd9dcfb2d9bb"
+  },
+  "l12-ph-password-slow": {
+   "file": "l12-ph-password-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Password.",
+   "hash": "33023a683829"
+  },
+  "l12-ph-password-uk": {
+   "file": "l12-ph-password-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Password.",
+   "hash": "c29afc75bc56"
+  },
+  "l12-ph-password-us": {
+   "file": "l12-ph-password-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Password.",
+   "hash": "1f552b090b1d"
+  },
+  "l12-ph-permission-ex": {
+   "file": "l12-ph-permission-ex.mp3",
+   "duration": 3.04,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "You need permission to edit this file.",
+   "hash": "f694c3c15a7a"
+  },
+  "l12-ph-permission-slow": {
+   "file": "l12-ph-permission-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Permission.",
+   "hash": "bcac36b168de"
+  },
+  "l12-ph-permission-uk": {
+   "file": "l12-ph-permission-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Permission.",
+   "hash": "5805cc68403d"
+  },
+  "l12-ph-permission-us": {
+   "file": "l12-ph-permission-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Permission.",
+   "hash": "0b5bbcf5ce48"
+  },
+  "l12-ph-username-ex": {
+   "file": "l12-ph-username-ex.mp3",
+   "duration": 2.4,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Enter your username and your password.",
+   "hash": "9c6d10f5159d"
+  },
+  "l12-ph-username-slow": {
+   "file": "l12-ph-username-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Username.",
+   "hash": "db17153ca560"
+  },
+  "l12-ph-username-uk": {
+   "file": "l12-ph-username-uk.mp3",
+   "duration": 1.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Username.",
+   "hash": "af0c5410797e"
+  },
+  "l12-ph-username-us": {
+   "file": "l12-ph-username-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Username.",
+   "hash": "f17003757888"
+  },
+  "l12-reg-c1": {
+   "file": "l12-reg-c1.mp3",
+   "duration": 3.51,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Hey, can you add me to the folder? I can't get in.",
+   "hash": "68d3a11efaad"
+  },
+  "l12-reg-c2": {
+   "file": "l12-reg-c2.mp3",
+   "duration": 3.87,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Ugh, I'm locked out again. Can you send me the invite?",
+   "hash": "68726a9f8d94"
+  },
+  "l12-reg-f1": {
+   "file": "l12-reg-f1.mp3",
+   "duration": 3.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I would be grateful if you could grant me access to the shared drive.",
+   "hash": "c05e2bcf9952"
+  },
+  "l12-reg-f2": {
+   "file": "l12-reg-f2.mp3",
+   "duration": 5.16,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Would you mind approving my access request at your earliest convenience?",
+   "hash": "917d6c5e7bc5"
+  },
+  "l12-reg-n1": {
+   "file": "l12-reg-n1.mp3",
+   "duration": 2.7,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Could you give me access to the folder, please?",
+   "hash": "7a3a4cc2e7af"
+  },
+  "l12-reg-n2": {
+   "file": "l12-reg-n2.mp3",
+   "duration": 3.0,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Can I get edit access to the document?",
+   "hash": "90f718b54744"
+  },
+  "l12-reg-n3": {
+   "file": "l12-reg-n3.mp3",
+   "duration": 3.28,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Please send me the invitation to the shared calendar.",
+   "hash": "e0a906041287"
+  },
+  "l12-scn": {
+   "file": "l12-scn.mp3",
+   "duration": 20.77,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi Daniel, I'm Priya from the design team. I'm locked out of the shared project folder, and I need to upload some files today. Could you give me access, please? I use my work email to log in. If I don't have permission, I can't open the folder, so I'd really appreciate your help. Please let me know if you need anything else. Thanks, Priya",
+   "hash": "67708534f2ab"
+  },
+  "l12-task-formal": {
+   "file": "l12-task-formal.mp3",
+   "duration": 12.93,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Dear Mr Hughes, I would be grateful if you could grant me access to the shared drive. Would you mind confirming when the permission is active? Thank you in advance for your assistance. Yours sincerely, Emma Clarke",
+   "hash": "262be47aa35e"
+  },
+  "l12-task-model": {
+   "file": "l12-task-model.mp3",
+   "duration": 21.3,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Daniel, I'm Sarah from the bookstore team. I'm locked out of the shared schedule, and I need to update it today. If I don't have edit permission, I can't change anything. Could you give me edit access, please? I use my work email to log in. Please let me know if you need my manager's approval. Thanks for your help! Best, Sarah",
+   "hash": "1bf8680a9d21"
+  },
+  "l13-cc-1a": {
+   "file": "l13-cc-1a.mp3",
+   "duration": 2.98,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If you feel distracted, put your phone away.",
+   "hash": "8b3be8d88e47"
+  },
+  "l13-cc-1b": {
+   "file": "l13-cc-1b.mp3",
+   "duration": 2.51,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "When a task takes two minutes, do it now.",
+   "hash": "5c23825d5e9a"
+  },
+  "l13-cc-2a": {
+   "file": "l13-cc-2a.mp3",
+   "duration": 2.45,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Why don't you mute them for an hour?",
+   "hash": "7c1fab286c31"
+  },
+  "l13-cc-2b": {
+   "file": "l13-cc-2b.mp3",
+   "duration": 2.19,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Try closing the tabs you don't need.",
+   "hash": "2060f2100c65"
+  },
+  "l13-cc-3a": {
+   "file": "l13-cc-3a.mp3",
+   "duration": 3.71,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "If I write everything down, I always sleep better.",
+   "hash": "d77350050459"
+  },
+  "l13-cc-3b": {
+   "file": "l13-cc-3b.mp3",
+   "duration": 3.09,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "When I mute my phone, I usually finish early.",
+   "hash": "c9b664f46315"
+  },
+  "l13-dict-1": {
+   "file": "l13-dict-1.mp3",
+   "duration": 3.47,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.9,
+   "text": "If you feel distracted, put your phone in another room.",
+   "hash": "d9a9c675cf2b"
+  },
+  "l13-dlg-01": {
+   "file": "l13-dlg-01.mp3",
+   "duration": 4.13,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Alex, how do you stay so organized? You always finish early.",
+   "hash": "dbae48261fe6"
+  },
+  "l13-dlg-02": {
+   "file": "l13-dlg-02.mp3",
+   "duration": 6.54,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Honestly, I make a to-do list every night. If I write everything down, I sleep better.",
+   "hash": "bc771955a0eb"
+  },
+  "l13-dlg-03": {
+   "file": "l13-dlg-03.mp3",
+   "duration": 4.15,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I tried that, but my list gets too long. What do you do then?",
+   "hash": "01e1db23a84b"
+  },
+  "l13-dlg-04": {
+   "file": "l13-dlg-04.mp3",
+   "duration": 6.54,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Pick only three tasks for the day. When a task takes less than two minutes, do it right away.",
+   "hash": "20a0dc6359f1"
+  },
+  "l13-dlg-05": {
+   "file": "l13-dlg-05.mp3",
+   "duration": 5.32,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Nice. What about distractions? My notifications drive me crazy.",
+   "hash": "d7796a49a4d1"
+  },
+  "l13-dlg-06": {
+   "file": "l13-dlg-06.mp3",
+   "duration": 6.2,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Why don't you mute them for an hour? If you turn on focus mode, nothing interrupts you.",
+   "hash": "0d322a78cfa6"
+  },
+  "l13-dlg-07": {
+   "file": "l13-dlg-07.mp3",
+   "duration": 3.07,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "And what about all those open tabs on my laptop?",
+   "hash": "e411833a08fc"
+  },
+  "l13-dlg-08": {
+   "file": "l13-dlg-08.mp3",
+   "duration": 6.22,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Try closing everything you don't need. If you can't close a tab, bookmark it for later.",
+   "hash": "27aa96216609"
+  },
+  "l13-gd": {
+   "file": "l13-gd.mp3",
+   "duration": 6.65,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If you feel distracted, put your phone in another room. When a task takes less than two minutes, do it right away.",
+   "hash": "836f66793118"
+  },
+  "l13-ph-desktop-ex": {
+   "file": "l13-ph-desktop-ex.mp3",
+   "duration": 2.0,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I keep my desktop clean.",
+   "hash": "fb6772182a0b"
+  },
+  "l13-ph-desktop-slow": {
+   "file": "l13-ph-desktop-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Desktop.",
+   "hash": "57b68524c7a7"
+  },
+  "l13-ph-desktop-uk": {
+   "file": "l13-ph-desktop-uk.mp3",
+   "duration": 1.59,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Desktop.",
+   "hash": "47ac752ee347"
+  },
+  "l13-ph-desktop-us": {
+   "file": "l13-ph-desktop-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Desktop.",
+   "hash": "9ee1145f32f6"
+  },
+  "l13-ph-scroll-ex": {
+   "file": "l13-ph-scroll-ex.mp3",
+   "duration": 2.11,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I scroll through my feed too much.",
+   "hash": "4dab680f6389"
+  },
+  "l13-ph-scroll-slow": {
+   "file": "l13-ph-scroll-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Scroll.",
+   "hash": "489615c193a8"
+  },
+  "l13-ph-scroll-uk": {
+   "file": "l13-ph-scroll-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Scroll.",
+   "hash": "04d683c2a6d9"
+  },
+  "l13-ph-scroll-us": {
+   "file": "l13-ph-scroll-us.mp3",
+   "duration": 1.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Scroll.",
+   "hash": "e80c6cd12962"
+  },
+  "l13-ph-shortcut-ex": {
+   "file": "l13-ph-shortcut-ex.mp3",
+   "duration": 2.3,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Learn one keyboard shortcut a day.",
+   "hash": "b81a1cfabc9f"
+  },
+  "l13-ph-shortcut-slow": {
+   "file": "l13-ph-shortcut-slow.mp3",
+   "duration": 1.66,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Shortcut.",
+   "hash": "d03d3113c7c1"
+  },
+  "l13-ph-shortcut-uk": {
+   "file": "l13-ph-shortcut-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Shortcut.",
+   "hash": "aa21d90861f3"
+  },
+  "l13-ph-shortcut-us": {
+   "file": "l13-ph-shortcut-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Shortcut.",
+   "hash": "d751700438ef"
+  },
+  "l13-ph-skip-ex": {
+   "file": "l13-ph-skip-ex.mp3",
+   "duration": 2.02,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "You can skip this step.",
+   "hash": "52a07a31e9d4"
+  },
+  "l13-ph-skip-slow": {
+   "file": "l13-ph-skip-slow.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Skip.",
+   "hash": "9a53795b6c42"
+  },
+  "l13-ph-skip-uk": {
+   "file": "l13-ph-skip-uk.mp3",
+   "duration": 1.06,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Skip.",
+   "hash": "88cb57687753"
+  },
+  "l13-ph-skip-us": {
+   "file": "l13-ph-skip-us.mp3",
+   "duration": 1.17,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Skip.",
+   "hash": "f51658a82b85"
+  },
+  "l13-ph-turn-off-ex": {
+   "file": "l13-ph-turn-off-ex.mp3",
+   "duration": 2.66,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Turn off notifications while you work.",
+   "hash": "acb1a95e3de5"
+  },
+  "l13-ph-turn-off-slow": {
+   "file": "l13-ph-turn-off-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Turn off.",
+   "hash": "ca3056984d1f"
+  },
+  "l13-ph-turn-off-uk": {
+   "file": "l13-ph-turn-off-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Turn off.",
+   "hash": "2741fcada217"
+  },
+  "l13-ph-turn-off-us": {
+   "file": "l13-ph-turn-off-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Turn off.",
+   "hash": "4f91539b34df"
+  },
+  "l13-reg-c1": {
+   "file": "l13-reg-c1.mp3",
+   "duration": 3.81,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Seriously, mute your group chats. Total game changer.",
+   "hash": "33311e069b0c"
+  },
+  "l13-reg-c2": {
+   "file": "l13-reg-c2.mp3",
+   "duration": 4.19,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I'm obsessed with keyboard shortcuts. They save me so much time!",
+   "hash": "f95800f6163d"
+  },
+  "l13-reg-f1": {
+   "file": "l13-reg-f1.mp3",
+   "duration": 3.79,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I would recommend scheduling specific times to check your email.",
+   "hash": "0f2f24f3a50e"
+  },
+  "l13-reg-f2": {
+   "file": "l13-reg-f2.mp3",
+   "duration": 5.67,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Disabling non-essential notifications helps to maintain concentration.",
+   "hash": "ebb23d7676bb"
+  },
+  "l13-reg-n1": {
+   "file": "l13-reg-n1.mp3",
+   "duration": 3.32,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "If you write everything down, you sleep better.",
+   "hash": "92b3a2b9f3ce"
+  },
+  "l13-reg-n2": {
+   "file": "l13-reg-n2.mp3",
+   "duration": 2.19,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Try closing the tabs you don't need.",
+   "hash": "2060f2100c65"
+  },
+  "l13-reg-n3": {
+   "file": "l13-reg-n3.mp3",
+   "duration": 2.19,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Why don't you turn on focus mode?",
+   "hash": "fa595168c252"
+  },
+  "l13-scn": {
+   "file": "l13-scn.mp3",
+   "duration": 19.78,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Okay, productivity hack time! If you feel distracted, put your phone in another room. Mute group chats while you work. You can read them later. Use keyboard shortcuts, too: they save me, like, an hour a day. And don't check email first thing in the morning. Try doing your hardest task first. Trust me, it works!",
+   "hash": "bf534282f88d"
+  },
+  "l13-task-formal": {
+   "file": "l13-task-formal.mp3",
+   "duration": 11.19,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I would recommend scheduling fixed times to check your email. If notifications are disabled during working hours, concentration improves considerably.",
+   "hash": "78e26d5d192e"
+  },
+  "l13-task-model": {
+   "file": "l13-task-model.mp3",
+   "duration": 19.7,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi everyone! Here are my three tips. If you feel stuck on a task, take a short break. Why don't you try working in twenty-five-minute blocks? When I do that, I finish earlier. Mute your group chats while you work: you can read them later. And use keyboard shortcuts, because they save me an hour a day. Trust me, it works!",
+   "hash": "5b9858acfdd5"
+  },
+  "l14-cc-1a": {
+   "file": "l14-cc-1a.mp3",
+   "duration": 3.98,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If you click on a suspicious link, malware can install itself.",
+   "hash": "fb6b6c8fbf36"
+  },
+  "l14-cc-1b": {
+   "file": "l14-cc-1b.mp3",
+   "duration": 3.62,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "If someone knows your password, they can read your messages.",
+   "hash": "111da1dd9549"
+  },
+  "l14-cc-2a": {
+   "file": "l14-cc-2a.mp3",
+   "duration": 2.45,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Never share your verification code.",
+   "hash": "3150b841a526"
+  },
+  "l14-cc-2b": {
+   "file": "l14-cc-2b.mp3",
+   "duration": 2.83,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Always log out of shared computers.",
+   "hash": "961ae0a4d9e9"
+  },
+  "l14-cc-3a": {
+   "file": "l14-cc-3a.mp3",
+   "duration": 2.85,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Unless you click the link, your account is safe.",
+   "hash": "d094e6306b36"
+  },
+  "l14-cc-3b": {
+   "file": "l14-cc-3b.mp3",
+   "duration": 3.45,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Your account stays locked unless you enter the code.",
+   "hash": "7bf1b0e6127d"
+  },
+  "l14-dict-1": {
+   "file": "l14-dict-1.mp3",
+   "duration": 3.79,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.9,
+   "text": "Please do not disclose your credentials to any third party.",
+   "hash": "62537aed9de2"
+  },
+  "l14-dlg-01": {
+   "file": "l14-dlg-01.mp3",
+   "duration": 6.85,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Alex, look at this message. Your bank account is locked. Click here to verify. Is this real?",
+   "hash": "4b134dbf970f"
+  },
+  "l14-dlg-02": {
+   "file": "l14-dlg-02.mp3",
+   "duration": 3.87,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "That looks like a scam. Don't click on the link!",
+   "hash": "6f700fee7bf3"
+  },
+  "l14-dlg-03": {
+   "file": "l14-dlg-03.mp3",
+   "duration": 1.49,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "How can you tell?",
+   "hash": "b6626528624f"
+  },
+  "l14-dlg-04": {
+   "file": "l14-dlg-04.mp3",
+   "duration": 8.74,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "If a message creates panic or asks for your password, it's usually a scam. Banks never ask for your password by message.",
+   "hash": "cdec5640bd9c"
+  },
+  "l14-dlg-05": {
+   "file": "l14-dlg-05.mp3",
+   "duration": 2.74,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Good point. What should I do with it?",
+   "hash": "386e9c40f30a"
+  },
+  "l14-dlg-06": {
+   "file": "l14-dlg-06.mp3",
+   "duration": 5.6,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Delete it and report it as spam. And always check the sender's address first.",
+   "hash": "2b6e1df5a206"
+  },
+  "l14-dlg-07": {
+   "file": "l14-dlg-07.mp3",
+   "duration": 3.15,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Okay. Should I change my password too?",
+   "hash": "050a62edc979"
+  },
+  "l14-dlg-08": {
+   "file": "l14-dlg-08.mp3",
+   "duration": 8.67,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Only if you clicked the link. Unless you clicked it, your account is safe. But turn on two-factor authentication anyway.",
+   "hash": "e177287d550e"
+  },
+  "l14-gd": {
+   "file": "l14-gd.mp3",
+   "duration": 11.06,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If you use the same password everywhere, one leak puts all your accounts at risk. Never share a verification code with anyone, and always check the sender before you click.",
+   "hash": "5276f3162b37"
+  },
+  "l14-ph-privacy-ex": {
+   "file": "l14-ph-privacy-ex.mp3",
+   "duration": 2.6,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I check my privacy settings every month.",
+   "hash": "553666b7eb90"
+  },
+  "l14-ph-privacy-slow": {
+   "file": "l14-ph-privacy-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Privacy.",
+   "hash": "22e9f89780f2"
+  },
+  "l14-ph-privacy-uk": {
+   "file": "l14-ph-privacy-uk.mp3",
+   "duration": 1.29,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Privacy.",
+   "hash": "10966b1d97eb"
+  },
+  "l14-ph-privacy-us": {
+   "file": "l14-ph-privacy-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Privacy.",
+   "hash": "d6ff6621f4d5"
+  },
+  "l14-ph-scam-ex": {
+   "file": "l14-ph-scam-ex.mp3",
+   "duration": 2.02,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "That looks like a scam.",
+   "hash": "efe5a4be0f52"
+  },
+  "l14-ph-scam-slow": {
+   "file": "l14-ph-scam-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Scam.",
+   "hash": "b8ba4ad82dc3"
+  },
+  "l14-ph-scam-uk": {
+   "file": "l14-ph-scam-uk.mp3",
+   "duration": 1.29,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Scam.",
+   "hash": "fbfb6a55df03"
+  },
+  "l14-ph-scam-us": {
+   "file": "l14-ph-scam-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Scam.",
+   "hash": "ec65ea66d053"
+  },
+  "l14-ph-security-ex": {
+   "file": "l14-ph-security-ex.mp3",
+   "duration": 3.11,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Online security is everyone's job.",
+   "hash": "74b2b92a0a70"
+  },
+  "l14-ph-security-slow": {
+   "file": "l14-ph-security-slow.mp3",
+   "duration": 1.79,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Security.",
+   "hash": "5a978803966c"
+  },
+  "l14-ph-security-uk": {
+   "file": "l14-ph-security-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Security.",
+   "hash": "df205e1e0194"
+  },
+  "l14-ph-security-us": {
+   "file": "l14-ph-security-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Security.",
+   "hash": "ed79d3fa42c1"
+  },
+  "l14-ph-spam-ex": {
+   "file": "l14-ph-spam-ex.mp3",
+   "duration": 2.06,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "My inbox is full of spam.",
+   "hash": "1be12f594017"
+  },
+  "l14-ph-spam-slow": {
+   "file": "l14-ph-spam-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Spam.",
+   "hash": "5451bdaf2e6d"
+  },
+  "l14-ph-spam-uk": {
+   "file": "l14-ph-spam-uk.mp3",
+   "duration": 1.12,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Spam.",
+   "hash": "ff54206b78be"
+  },
+  "l14-ph-spam-us": {
+   "file": "l14-ph-spam-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Spam.",
+   "hash": "99409834a30b"
+  },
+  "l14-ph-verification-code-ex": {
+   "file": "l14-ph-verification-code-ex.mp3",
+   "duration": 3.17,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "We just sent a verification code to your phone.",
+   "hash": "dbbc19a88b8d"
+  },
+  "l14-ph-verification-code-slow": {
+   "file": "l14-ph-verification-code-slow.mp3",
+   "duration": 2.23,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Verification code.",
+   "hash": "e12a33d1af21"
+  },
+  "l14-ph-verification-code-uk": {
+   "file": "l14-ph-verification-code-uk.mp3",
+   "duration": 2.0,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Verification code.",
+   "hash": "96ac68e8bd70"
+  },
+  "l14-ph-verification-code-us": {
+   "file": "l14-ph-verification-code-us.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Verification code.",
+   "hash": "538f344c07a0"
+  },
+  "l14-reg-c1": {
+   "file": "l14-reg-c1.mp3",
+   "duration": 3.1,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Dude, that's so sketchy. Don't click it!",
+   "hash": "d61843857f4f"
+  },
+  "l14-reg-c2": {
+   "file": "l14-reg-c2.mp3",
+   "duration": 4.0,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "My inbox is full of spam. I just delete everything.",
+   "hash": "cb0fe0191806"
+  },
+  "l14-reg-f1": {
+   "file": "l14-reg-f1.mp3",
+   "duration": 3.77,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Please do not disclose your credentials to any third party.",
+   "hash": "b47c8f716335"
+  },
+  "l14-reg-f2": {
+   "file": "l14-reg-f2.mp3",
+   "duration": 5.11,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Unauthorised access to your account may result in the loss of personal data.",
+   "hash": "d220e49c358e"
+  },
+  "l14-reg-n1": {
+   "file": "l14-reg-n1.mp3",
+   "duration": 3.49,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Never share your verification code with anyone.",
+   "hash": "75f956a28e37"
+  },
+  "l14-reg-n2": {
+   "file": "l14-reg-n2.mp3",
+   "duration": 3.66,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "If a message asks for your password, it's probably a scam.",
+   "hash": "ea7563050d5f"
+  },
+  "l14-reg-n3": {
+   "file": "l14-reg-n3.mp3",
+   "duration": 2.32,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Always log out of shared computers.",
+   "hash": "c35df01e1b5e"
+  },
+  "l14-scn": {
+   "file": "l14-scn.mp3",
+   "duration": 27.81,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Dear colleagues, please remember these basic security rules. Never share your password or verification code with anyone, even if they say they work for IT. If you click on a suspicious link, malware can install itself on your computer. Always log out of shared computers, and don't use the same password on different sites. Unless you report a scam quickly, other people can be affected too. Thank you, Daniel Hughes, IT Support",
+   "hash": "d6c1d8c40a74"
+  },
+  "l14-task-formal": {
+   "file": "l14-task-formal.mp3",
+   "duration": 9.08,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Please do not disclose your credentials to any third party. Unauthorised access to your account may result in the loss of personal data.",
+   "hash": "aa501f046915"
+  },
+  "l14-task-model": {
+   "file": "l14-task-model.mp3",
+   "duration": 23.09,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi family! Here are our safety rules. Never share your password or verification code with anyone. Always log out of shared computers. Don't click on links from strangers: if you click on a scam link, someone can steal your data. Unless you're sure about a message, call the person first. Please send me any strange message and I'll check it. Stay safe!",
+   "hash": "4e4b698a4a78"
+  },
+  "l15-cc-1a": {
+   "file": "l15-cc-1a.mp3",
+   "duration": 3.45,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "First, open the app. Then tap Settings.",
+   "hash": "ac750ce3da78"
+  },
+  "l15-cc-1b": {
+   "file": "l15-cc-1b.mp3",
+   "duration": 4.26,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Next, select Security. Finally, tap Confirm.",
+   "hash": "65c0af1d2d81"
+  },
+  "l15-cc-2a": {
+   "file": "l15-cc-2a.mp3",
+   "duration": 2.62,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Once you see the menu, select Security.",
+   "hash": "778c9ec24c6d"
+  },
+  "l15-cc-2b": {
+   "file": "l15-cc-2b.mp3",
+   "duration": 3.39,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "As soon as the download finishes, open the file.",
+   "hash": "ee0cc18e1ac5"
+  },
+  "l15-cc-3a": {
+   "file": "l15-cc-3a.mp3",
+   "duration": 1.87,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Make sure your sound is on.",
+   "hash": "95b21b92ef70"
+  },
+  "l15-cc-3b": {
+   "file": "l15-cc-3b.mp3",
+   "duration": 1.89,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Don't forget to press Save.",
+   "hash": "ddcdffa1afe4"
+  },
+  "l15-dict-1": {
+   "file": "l15-dict-1.mp3",
+   "duration": 3.47,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "Once you see the menu, select Two-step verification.",
+   "hash": "fc63c34d065f"
+  },
+  "l15-dlg-01": {
+   "file": "l15-dlg-01.mp3",
+   "duration": 5.17,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Priya, can you walk me through turning on two-step verification? I'm lost.",
+   "hash": "1e6071f5fa10"
+  },
+  "l15-dlg-02": {
+   "file": "l15-dlg-02.mp3",
+   "duration": 3.45,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Sure. First, open the Settings app on your phone.",
+   "hash": "4bd0cb8df4c0"
+  },
+  "l15-dlg-03": {
+   "file": "l15-dlg-03.mp3",
+   "duration": 2.81,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Okay, I'm in Settings. What now?",
+   "hash": "db757adeb688"
+  },
+  "l15-dlg-04": {
+   "file": "l15-dlg-04.mp3",
+   "duration": 5.73,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Then scroll down and tap Security. Once you see the menu, select Two-step verification.",
+   "hash": "82465ba13dd4"
+  },
+  "l15-dlg-05": {
+   "file": "l15-dlg-05.mp3",
+   "duration": 3.1,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Done. It's asking for my phone number.",
+   "hash": "c1d9b3117814"
+  },
+  "l15-dlg-06": {
+   "file": "l15-dlg-06.mp3",
+   "duration": 5.0,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Enter it and tap Next. After that, you'll get a verification code by text.",
+   "hash": "8b9565182c96"
+  },
+  "l15-dlg-07": {
+   "file": "l15-dlg-07.mp3",
+   "duration": 3.13,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Okay, got it! Do I type the code here?",
+   "hash": "6908ae2882df"
+  },
+  "l15-dlg-08": {
+   "file": "l15-dlg-08.mp3",
+   "duration": 5.02,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Yes. Finally, tap Confirm. Make sure you save the backup codes.",
+   "hash": "f4f0862216ab"
+  },
+  "l15-gd": {
+   "file": "l15-gd.mp3",
+   "duration": 9.07,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "First, open Settings. Then tap Security. Once the menu opens, select Two-step verification. Finally, enter the code we send you.",
+   "hash": "486ad6669486"
+  },
+  "l15-ph-finally-ex": {
+   "file": "l15-ph-finally-ex.mp3",
+   "duration": 2.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Finally, confirm the code on your screen.",
+   "hash": "6c49b06777e6"
+  },
+  "l15-ph-finally-slow": {
+   "file": "l15-ph-finally-slow.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Finally.",
+   "hash": "553592bdbb52"
+  },
+  "l15-ph-finally-uk": {
+   "file": "l15-ph-finally-uk.mp3",
+   "duration": 1.53,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Finally.",
+   "hash": "c622bbf97c64"
+  },
+  "l15-ph-finally-us": {
+   "file": "l15-ph-finally-us.mp3",
+   "duration": 1.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Finally.",
+   "hash": "9584db578b9d"
+  },
+  "l15-ph-install-ex": {
+   "file": "l15-ph-install-ex.mp3",
+   "duration": 2.19,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Tap Install and wait a moment.",
+   "hash": "ff150a6d486e"
+  },
+  "l15-ph-install-slow": {
+   "file": "l15-ph-install-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Install.",
+   "hash": "244afb1bb988"
+  },
+  "l15-ph-install-uk": {
+   "file": "l15-ph-install-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Install.",
+   "hash": "a4519a190b93"
+  },
+  "l15-ph-install-us": {
+   "file": "l15-ph-install-us.mp3",
+   "duration": 1.23,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Install.",
+   "hash": "8e7c2f4997c4"
+  },
+  "l15-ph-once-ex": {
+   "file": "l15-ph-once-ex.mp3",
+   "duration": 2.62,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Once you see the menu, select Security.",
+   "hash": "778c9ec24c6d"
+  },
+  "l15-ph-once-slow": {
+   "file": "l15-ph-once-slow.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Once.",
+   "hash": "0f256237fcf7"
+  },
+  "l15-ph-once-uk": {
+   "file": "l15-ph-once-uk.mp3",
+   "duration": 1.34,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Once.",
+   "hash": "dcf3004618d0"
+  },
+  "l15-ph-once-us": {
+   "file": "l15-ph-once-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Once.",
+   "hash": "1f6598a57fd1"
+  },
+  "l15-ph-settings-ex": {
+   "file": "l15-ph-settings-ex.mp3",
+   "duration": 3.26,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Open the settings menu and tap Security.",
+   "hash": "dacda3bf53a1"
+  },
+  "l15-ph-settings-slow": {
+   "file": "l15-ph-settings-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Settings.",
+   "hash": "4e6b2f02fefa"
+  },
+  "l15-ph-settings-uk": {
+   "file": "l15-ph-settings-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Settings.",
+   "hash": "147a7aca3c33"
+  },
+  "l15-ph-settings-us": {
+   "file": "l15-ph-settings-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Settings.",
+   "hash": "c36bb60ec442"
+  },
+  "l15-ph-step-by-step-ex": {
+   "file": "l15-ph-step-by-step-ex.mp3",
+   "duration": 2.43,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I'll give you step-by-step instructions.",
+   "hash": "f900faeabd22"
+  },
+  "l15-ph-step-by-step-slow": {
+   "file": "l15-ph-step-by-step-slow.mp3",
+   "duration": 1.91,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Step-by-step.",
+   "hash": "79d0c81ff97e"
+  },
+  "l15-ph-step-by-step-uk": {
+   "file": "l15-ph-step-by-step-uk.mp3",
+   "duration": 1.61,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Step-by-step.",
+   "hash": "bd43205ab702"
+  },
+  "l15-ph-step-by-step-us": {
+   "file": "l15-ph-step-by-step-us.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Step-by-step.",
+   "hash": "13c00982314a"
+  },
+  "l15-reg-c1": {
+   "file": "l15-reg-c1.mp3",
+   "duration": 4.43,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Okay, so, first, open the app. Then just tap the big green button.",
+   "hash": "f7f0fc449bef"
+  },
+  "l15-reg-c2": {
+   "file": "l15-reg-c2.mp3",
+   "duration": 4.0,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Easy peasy! Click the link, hit Join, and you're in.",
+   "hash": "8790efaed8d5"
+  },
+  "l15-reg-f1": {
+   "file": "l15-reg-f1.mp3",
+   "duration": 3.13,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "To begin, please navigate to the Settings menu.",
+   "hash": "c58921645d45"
+  },
+  "l15-reg-f2": {
+   "file": "l15-reg-f2.mp3",
+   "duration": 4.79,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Once the installation is complete, the system requests your credentials.",
+   "hash": "c3c256ef3d19"
+  },
+  "l15-reg-n1": {
+   "file": "l15-reg-n1.mp3",
+   "duration": 3.96,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "First, open Settings. Then tap Security.",
+   "hash": "21064b8412e0"
+  },
+  "l15-reg-n2": {
+   "file": "l15-reg-n2.mp3",
+   "duration": 3.43,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Once you see the menu, select Two-step verification.",
+   "hash": "c415b3d75cc6"
+  },
+  "l15-reg-n3": {
+   "file": "l15-reg-n3.mp3",
+   "duration": 3.0,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "After that, you'll get a code by text message.",
+   "hash": "9fdc9325e9cf"
+  },
+  "l15-scn": {
+   "file": "l15-scn.mp3",
+   "duration": 24.15,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Maya! Here's how to join our video call. First, open the app store on your phone and search for the video-call app. Next, tap Install. Once it's installed, open it and create an account. After that, click the link I sent you. Finally, allow the camera and the microphone. Make sure your sound is on. That's it!",
+   "hash": "a6fb1fc80a20"
+  },
+  "l15-task-formal": {
+   "file": "l15-task-formal.mp3",
+   "duration": 10.74,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "To begin, please navigate to the Settings menu. Once the installation is complete, the system requests your credentials. Finally, restart the device.",
+   "hash": "c2fa0e615e92"
+  },
+  "l15-task-model": {
+   "file": "l15-task-model.mp3",
+   "duration": 22.91,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Hi Grandpa! Let's back up your photos. I'll show you how. First, open the Photos app. Then tap your profile picture and select Backup. Once you see the switch, turn it on. After that, connect to Wi-Fi. Make sure your phone is charging. Finally, wait until the bar is full. Don't forget to check again next week. You can do it!",
+   "hash": "675168ed6e37"
+  },
+  "m03-rv-dict-1": {
+   "file": "m03-rv-dict-1.mp3",
+   "duration": 4.04,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "First, open Settings. Then tap Security.",
+   "hash": "73989cd17d94"
+  }
+ }
+}

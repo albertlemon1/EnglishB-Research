@@ -1,0 +1,803 @@
+{
+  "id": "l15",
+  "n": 15,
+  "title": "Giving Clear Step-by-Step Digital Instructions",
+  "titleEs": "Dar instrucciones digitales claras paso a paso",
+  "minutes": 60,
+  "summary": "Guía a alguien paso a paso con secuenciadores (*First, Then, Once, Finally*) e imperativos.",
+  "canDo": [
+    "Puedo ordenar las instrucciones con *First, Then / Next, After that, Finally*.",
+    "Puedo enlazar pasos con *Once / As soon as* + presente simple, sin *will*.",
+    "Puedo añadir avisos con *Make sure…* y *Don't forget to…*",
+    "Puedo pronunciar *step-by-step*, *install*, *once* y *finally* con claridad."
+  ],
+  "focus": {
+    "grammar": "Secuenciadores (First, Then, Next, After that, Finally) · Once / As soon as + presente · imperativos · Make sure",
+    "lexis": "tap, select, enter, scroll down, go to Settings, install, make sure, step-by-step, easy peasy",
+    "afh": "Grupo st- (step, install, settings) sin /e/ · once = /wʌns/ · acento en step-by-step y finally"
+  },
+  "warmup": "Piensa en una tarea digital que hagas sin pensar (descargar una app, hacer una copia de seguridad). ¿Podrías explicársela a un familiar en cuatro pasos?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Cómo unirse a la videollamada",
+      "context": "Alex le deja un mensaje de voz a Maya para explicarle cómo entrar a la videollamada del grupo.",
+      "speaker": "alex",
+      "to": "Maya",
+      "audio": "l15-scn",
+      "text": "Hi Maya! Here's how to join our video call. {{First}}, open the app store on your phone and search for the video-call app. {{Next}}, tap Install. {{Once it's installed}}, open it and create an account. {{After that}}, click the link I sent you. {{Finally}}, allow the camera and the microphone. {{Make sure}} your sound is on. That's it!"
+    },
+    "dialogue": {
+      "title": "Paso a paso por teléfono",
+      "context": "Leo está perdido con los ajustes de su móvil y Priya lo guía.",
+      "lines": [
+        {
+          "speaker": "leo",
+          "audio": "l15-dlg-01",
+          "text": "Priya, can you walk me through turning on two-step verification? I'm lost."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l15-dlg-02",
+          "text": "Sure. {{First}}, open the Settings app on your phone."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l15-dlg-03",
+          "text": "Okay, I'm in Settings. What now?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l15-dlg-04",
+          "text": "{{Then}} scroll down and tap Security. {{Once you see}} the menu, select Two-step verification."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l15-dlg-05",
+          "text": "Done. It's asking for my phone number."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l15-dlg-06",
+          "text": "{{Enter}} it and tap Next. {{After that}}, you'll get a verification code by text."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l15-dlg-07",
+          "text": "Okay, got it! Do I type the code here?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l15-dlg-08",
+          "text": "Yes. {{Finally}}, tap Confirm. {{Make sure}} you save the backup codes."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué quiere hacer Leo?",
+        "options": [
+          "Cambiar su contraseña",
+          "Activar la verificación en dos pasos",
+          "Borrar una aplicación"
+        ],
+        "answer": 1,
+        "explain": "*Can you walk me through turning on two-step verification?* (*walk someone through* = guiar paso a paso)."
+      },
+      {
+        "q": "Tras bajar por la pantalla, ¿qué debe tocar?",
+        "options": [
+          "Security",
+          "Next",
+          "Confirm"
+        ],
+        "answer": 0,
+        "explain": "*Then scroll down and tap Security.*"
+      },
+      {
+        "q": "¿Qué recibirá Leo tras introducir su teléfono?",
+        "options": [
+          "Un correo electrónico",
+          "Un código por mensaje de texto",
+          "Una llamada"
+        ],
+        "answer": 1,
+        "explain": "*You'll get a verification code by text.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos y familia, mensajes rápidos.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l15-reg-c1",
+            "text": "Okay, so, first, open the app. Then just tap the big green button.",
+            "note": "*Just* suaviza la instrucción: «solo tienes que…»."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l15-reg-c2",
+            "text": "Easy peasy! Click the link, hit Join, and you're in.",
+            "note": "*Easy peasy* = facilísimo. *Hit* = pulsar (coloquial)."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Explicaciones a compañeros, clases, mensajes de ayuda.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l15-reg-n1",
+            "text": "First, open Settings. Then tap Security.",
+            "note": "Secuenciador + imperativo."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l15-reg-n2",
+            "text": "Once you see the menu, select Two-step verification.",
+            "note": "*Once* + presente simple, sin *will*."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l15-reg-n3",
+            "text": "After that, you'll get a code by text message.",
+            "note": "*After that* retoma el paso anterior."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Manuales, guías de usuario, atención al cliente.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l15-reg-f1",
+            "text": "To begin, please navigate to the Settings menu.",
+            "note": "*Navigate to* = ir a. *To begin* = para empezar."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l15-reg-f2",
+            "text": "Once the installation is complete, the system requests your credentials.",
+            "note": "Presente simple en las dos partes: así se escribe un manual."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "First, … Then … Finally, …",
+        "es": "primero…, luego…, por último…",
+        "register": "neutral"
+      },
+      {
+        "en": "Once you see…",
+        "es": "una vez que veas…",
+        "register": "neutral"
+      },
+      {
+        "en": "After that, …",
+        "es": "después de eso, …",
+        "register": "neutral"
+      },
+      {
+        "en": "go to Settings",
+        "es": "ve a Ajustes",
+        "register": "neutral"
+      },
+      {
+        "en": "scroll down / tap / select",
+        "es": "baja / toca / selecciona",
+        "register": "neutral"
+      },
+      {
+        "en": "Make sure (you…)",
+        "es": "asegúrate de que…",
+        "register": "neutral"
+      },
+      {
+        "en": "Easy peasy!",
+        "es": "¡facilísimo!",
+        "register": "casual"
+      },
+      {
+        "en": "To begin, please navigate to…",
+        "es": "para empezar, acceda a…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Easy peasy! Just hit Join.",
+        "answer": "casual",
+        "explain": "*Easy peasy* y *hit* son coloquiales."
+      },
+      {
+        "text": "First, open Settings. Then tap Security.",
+        "answer": "neutral",
+        "explain": "Instrucciones estándar."
+      },
+      {
+        "text": "To begin, please navigate to the Settings menu.",
+        "answer": "formal",
+        "explain": "*Navigate to* y *To begin, please* son propios de un manual."
+      },
+      {
+        "text": "Okay, so, first, open the app.",
+        "answer": "casual",
+        "explain": "*Okay, so* es una muletilla oral informal."
+      },
+      {
+        "text": "Once the installation is complete, the system requests your credentials.",
+        "answer": "formal",
+        "explain": "Vocabulario de manual: *installation is complete*, *credentials*."
+      },
+      {
+        "text": "After that, you'll get a code by text message.",
+        "answer": "neutral",
+        "explain": "Claro y estándar."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Priya explica un proceso en cuatro pasos. Fíjate en las palabras que abren cada paso y en el verbo que sigue a *Once*.",
+    "speaker": "ryan",
+    "audio": "l15-gd",
+    "text": "{{First}}, open Settings. {{Then}} tap Security. {{Once}} the menu {{opens}}, select Two-step verification. {{Finally}}, enter the code we send you.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué señalan *First*, *Then*, *Once* y *Finally*?",
+        "options": [
+          "El orden en que se hacen las acciones.",
+          "El lugar donde ocurren.",
+          "Cuánto dura cada paso."
+        ],
+        "answer": 0,
+        "explain": "Son secuenciadores: marcan el orden del proceso, del primer paso al último."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué tiempo verbal sigue a *Once* en *Once the menu opens*?",
+        "options": [
+          "Presente simple (*opens*), no *will open*.",
+          "*Will* + verbo base.",
+          "Pasado simple."
+        ],
+        "answer": 0,
+        "explain": "Tras *once*, *as soon as* o *when* hablamos del presente aunque sea una instrucción: *Once the menu opens…*."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Le explicas a alguien que no domina la tecnología cómo hacerlo. ¿Qué versión es mejor?",
+        "options": [
+          "First, tap Settings. Then scroll down. You'll see Security.",
+          "Go to Settings, security, two-step, confirm.",
+          "Obviously, just enable two-step verification in the security panel."
+        ],
+        "answer": 0,
+        "explain": "Un paso por frase, con secuenciadores y un aviso de lo que va a ver (*You'll see…*). *Obviously* hace sentir tonto al oyente."
+      }
+    ],
+    "rule": {
+      "points": [
+        "Los secuenciadores ordenan los pasos: *First, Then / Next, After that, Finally*.",
+        "*Once / As soon as / When* + presente simple enlaza dos pasos, sin *will*.",
+        "Cada paso es un imperativo: un verbo, una acción.",
+        "Añade avisos con *Make sure…* y *Don't forget to…*"
+      ],
+      "formulas": [
+        "First, Next, After that, Finally + imperativo",
+        "Once + sujeto + presente, imperativo",
+        "Make sure (that) + sujeto + presente"
+      ],
+      "note": "En español decimos «cuando veas el menú, selecciona…» con subjuntivo. En inglés no hay subjuntivo aquí: basta con el presente simple (*Once you see the menu, select…*)."
+    }
+  },
+  "phonetics": {
+    "intro": "Para dar instrucciones por voz hay tres trampas: la e delante de st- (*step*, *install*, *settings*), la /w/ escondida en *once* y el acento de *step-by-step*.",
+    "items": [
+      {
+        "id": "step-by-step",
+        "term": "Step-by-step",
+        "pos": "adj.",
+        "meaning": "paso a paso",
+        "ipa": {
+          "us": "/ˌstep baɪ ˈstep/",
+          "uk": "/ˌstep baɪ ˈstep/"
+        },
+        "afh": "step-bai-STEP",
+        "say": "Step-by-step.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*St-* sin e: «sss-tep», nunca «es-tep»."
+          },
+          {
+            "type": "stress",
+            "text": "Dos acentos: el más fuerte cae en el último STEP; el primero es secundario."
+          },
+          {
+            "type": "weak",
+            "text": "*By* es corto y débil: «bai», sin alargarlo como en *bye*."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "I'll give you step-by-step instructions."
+        }
+      },
+      {
+        "id": "once",
+        "term": "Once",
+        "pos": "adv.",
+        "meaning": "una vez (que)",
+        "ipa": {
+          "us": "/wʌns/",
+          "uk": "/wʌns/"
+        },
+        "afh": "UANS",
+        "say": "Once.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "Empieza con /w/: «uans». Si la omites, suena a «ans»."
+          },
+          {
+            "type": "vowel",
+            "text": "La o aquí es /ʌ/, una a corta, igual que en *one*."
+          },
+          {
+            "type": "spelling",
+            "text": "¡No se pronuncia como se escribe! Termina en /ns/, con /s/, no en «e»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "Once you see the menu, select Security."
+        }
+      },
+      {
+        "id": "finally",
+        "term": "Finally",
+        "pos": "adv.",
+        "meaning": "por último, finalmente",
+        "ipa": {
+          "us": "/ˈfaɪ.nə.li/",
+          "uk": "/ˈfaɪ.nə.li/"
+        },
+        "afh": "FÁI-na-li",
+        "say": "Finally.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "El acento va en la primera sílaba, FI. No digas «fi-NAL-mente»."
+          },
+          {
+            "type": "vowel",
+            "text": "La primera sílaba es el diptongo /aɪ/: «fai»."
+          },
+          {
+            "type": "weak",
+            "text": "*-ally* se reduce a «na-li»: tres sílabas, no cuatro."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "Finally, confirm the code on your screen."
+        }
+      },
+      {
+        "id": "install",
+        "term": "Install",
+        "pos": "v.",
+        "meaning": "instalar",
+        "ipa": {
+          "us": "/ɪnˈstɔl/",
+          "uk": "/ɪnˈstɔːl/"
+        },
+        "afh": "in-STÓL",
+        "say": "Install.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "El acento va en la 2.ª sílaba, STALL."
+          },
+          {
+            "type": "s-cluster",
+            "text": "*St* dentro de la palabra: «in-STÓL», sin vocal extra («in-es-TÓL»)."
+          },
+          {
+            "type": "vowel",
+            "text": "La a de *stall* es /ɔ/, abierta y redondeada; la ll final es «oscura»."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "Tap Install and wait a moment."
+        }
+      },
+      {
+        "id": "settings",
+        "term": "Settings",
+        "pos": "n.",
+        "meaning": "ajustes",
+        "ipa": {
+          "us": "/ˈset̬.ɪŋz/",
+          "uk": "/ˈset.ɪŋz/"
+        },
+        "afh": "SÉ-tinz",
+        "say": "Settings.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba: SET."
+          },
+          {
+            "type": "consonant",
+            "text": "*-ings* termina en /ɪŋz/: la n es nasal velar y la z final es sonora; no digas «ings»."
+          },
+          {
+            "type": "flap",
+            "text": "En inglés americano, la t entre vocales suena como una r suave: «SÉ-rinz»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "Open the settings menu and tap Security."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Ordenar los pasos: secuenciadores",
+        "formula": "First, … · Then … · Next, … · After that, … · Finally, … (+ imperativo)",
+        "usage": "Para guiar paso a paso. Un secuenciador por paso; *First* abre y *Finally* cierra.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l15-cc-1a",
+            "text": "{{First}}, open the app. {{Then}} tap Settings."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l15-cc-1b",
+            "text": "{{Next}}, select Security. {{Finally}}, tap Confirm."
+          }
+        ]
+      },
+      {
+        "title": "Enlazar pasos: Once / As soon as + presente",
+        "formula": "Once / As soon as / When + sujeto + presente, imperativo",
+        "usage": "Para decir qué hacer cuando se cumple una condición del paso anterior.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l15-cc-2a",
+            "text": "{{Once you see}} the menu, select Security."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l15-cc-2b",
+            "text": "{{As soon as}} the download finishes, open the file."
+          }
+        ]
+      },
+      {
+        "title": "Avisos: Make sure / Don't forget to",
+        "formula": "Make sure (that) + sujeto + presente · Don't forget to + verbo base",
+        "usage": "Para avisar de un detalle importante o de un paso que se olvida con facilidad.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l15-cc-3a",
+            "text": "{{Make sure}} your sound is on."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l15-cc-3b",
+            "text": "{{Don't forget to}} press Save."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Will tras once",
+        "text": "«Cuando se abra el menú» pide subjuntivo en español. En inglés es presente simple.",
+        "wrong": "Once the menu will open, select Security.",
+        "right": "Once the menu opens, select Security."
+      },
+      {
+        "title": "At the end frente a Finally",
+        "text": "*At the end* es «al final de algo» (de la película, del camino). Para el último paso usa *Finally*. Y para el primero, *First*.",
+        "wrong": "At first, open the app. At the end, tap Save.",
+        "right": "First, open the app. Finally, tap Save."
+      },
+      {
+        "title": "After of that",
+        "text": "«Después de eso» es *after that*. *After* no lleva *of* delante del pronombre.",
+        "wrong": "After of that, tap Save.",
+        "right": "After that, tap Save."
+      },
+      {
+        "title": "Enter frente a open",
+        "text": "«Entrar en una app» es *open the app* o *go to*. *Enter* es para introducir datos (*enter the code*).",
+        "wrong": "Enter the Settings app.",
+        "right": "Open the Settings app."
+      },
+      {
+        "title": "Epéntesis en step y once sin /w/",
+        "text": "Por «estep» añadimos una e. Y *once* empieza con /w/ aunque no se escriba.",
+        "wrong": "«es-TEP», «ons»",
+        "right": "/step/ («sss-TEP»), /wʌns/ («UANS»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "___ the download finishes, open the file.",
+      "options": [
+        "Once",
+        "Before of",
+        "At the end"
+      ],
+      "answer": 0,
+      "explain": "*Once* + presente simple."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Once the menu ___, select Security.",
+      "options": [
+        "opens",
+        "will open",
+        "opened"
+      ],
+      "answer": 0,
+      "explain": "Presente simple tras *once*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el secuenciador para el último paso.",
+      "text": "___, tap Confirm.",
+      "options": [
+        "Finally",
+        "At the end",
+        "In the final"
+      ],
+      "answer": 0,
+      "explain": "*Finally* cierra la secuencia."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "___ that, you'll get a code by text.",
+      "options": [
+        "After",
+        "After of",
+        "After than"
+      ],
+      "answer": 0,
+      "explain": "*After that*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el verbo correcto.",
+      "text": "___ the Settings app on your phone.",
+      "options": [
+        "Open",
+        "Enter",
+        "Come in"
+      ],
+      "answer": 0,
+      "explain": "*Open* una app; *enter* un dato."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa el primer paso.",
+      "text": "___, open Settings.",
+      "accept": [
+        "First"
+      ],
+      "explain": "*First* abre la secuencia."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa el aviso.",
+      "text": "Make ___ you save the backup codes.",
+      "accept": [
+        "sure"
+      ],
+      "explain": "*Make sure* = asegúrate."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin comas).",
+      "words": [
+        "First",
+        "open",
+        "Settings",
+        "then",
+        "tap",
+        "Security"
+      ],
+      "answer": "First open Settings then tap Security",
+      "explain": "Secuenciadores + imperativo."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin coma).",
+      "words": [
+        "Once",
+        "you",
+        "see",
+        "the",
+        "menu",
+        "select",
+        "Security"
+      ],
+      "answer": "Once you see the menu select Security",
+      "explain": "*Once* + presente, imperativo."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "Once the menu will open, select Security.",
+      "accept": [
+        "Once the menu opens, select Security."
+      ],
+      "explain": "Sin *will* tras *once*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "At the end, tap Confirm.",
+      "accept": [
+        "Finally, tap Confirm."
+      ],
+      "explain": "El último paso: *Finally*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "After of that, tap Save.",
+      "accept": [
+        "After that, tap Save."
+      ],
+      "explain": "*After that*, sin *of*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *install* lleva el acento?",
+      "word": "install",
+      "syllables": [
+        "in",
+        "stall"
+      ],
+      "answer": 1,
+      "audioRef": "l15-ph-install-us",
+      "explain": "in-**STALL**: acento en la 2.ª sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *finally* lleva el acento?",
+      "word": "finally",
+      "syllables": [
+        "fi",
+        "nal",
+        "ly"
+      ],
+      "answer": 0,
+      "audioRef": "l15-ph-finally-us",
+      "explain": "**FI**-nal-ly: acento en la primera sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "priya",
+      "audio": "l15-dict-1",
+      "text": "Once you see the menu, select Two-step verification.",
+      "explain": "*Once* + presente simple, imperativo."
+    }
+  ],
+  "task": {
+    "title": "Guía a un amigo paso a paso",
+    "format": "voice",
+    "scenario": "Un amigo no domina la tecnología y te pide ayuda con una tarea digital: unirse a una videollamada, hacer una copia de seguridad de sus fotos o cambiar una contraseña. Elige una y graba (o escribe) las instrucciones.",
+    "brief": "Give a friend clear step-by-step instructions for one digital task.",
+    "steps": [
+      "Di qué van a hacer (*Let's… / I'll show you how to…*).",
+      "Da cuatro o cinco pasos con *First, Then / Next, After that, Finally*.",
+      "Usa *Once* o *As soon as* + presente al menos una vez.",
+      "Añade un aviso (*Make sure… / Don't forget to…*) y cierra con ánimo."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 50,
+    "frames": [
+      "Hi ___! Let's ___ . I'll show you how.",
+      "First, open ___ . Then ___ .",
+      "Once you see ___, ___ .",
+      "After that, ___ . Finally, ___ .",
+      "Make sure ___ . / Don't forget to ___ ."
+    ],
+    "chunks": [
+      {
+        "label": "First",
+        "re": "\\bfirst\\b"
+      },
+      {
+        "label": "Then / Next",
+        "re": "\\b(then|next)\\b"
+      },
+      {
+        "label": "After that",
+        "re": "\\bafter that\\b"
+      },
+      {
+        "label": "Finally",
+        "re": "\\bfinally\\b"
+      },
+      {
+        "label": "Once / As soon as",
+        "re": "\\b(once|as soon as)\\b[^.!?,]{3,50},"
+      },
+      {
+        "label": "Make sure / Don't forget",
+        "re": "\\b(make sure|don't forget to)\\b"
+      }
+    ],
+    "checks": [
+      "onceWill",
+      "atTheEnd",
+      "afterOf",
+      "enterApp",
+      "loginVerb"
+    ],
+    "extra": {
+      "title": "Extra: las mismas instrucciones en un manual",
+      "brief": "Rewrite two steps for a formal user guide.",
+      "frames": [
+        "To begin, please navigate to ___. Once ___, the system ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "maya",
+          "audio": "l15-task-model",
+          "text": "Hi Grandpa! Let's back up your photos. I'll show you how. {{First}}, open the Photos app. {{Then}} tap your profile picture and select Backup. {{Once you see}} the switch, turn it on. {{After that}}, connect to Wi-Fi. {{Make sure}} your phone is charging. {{Finally}}, wait until the bar is full. {{Don't forget to}} check again next week. You can do it!",
+          "label": "Copia de seguridad (neutro)",
+          "notes": [
+            "Secuenciadores en orden: *First, Then, After that, Finally*.",
+            "*Once you see…* va con presente. *Make sure* y *Don't forget to* añaden los avisos."
+          ]
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l15-task-formal",
+          "text": "To begin, {{please navigate to}} the Settings menu. {{Once the installation is complete}}, the system {{requests}} your credentials. {{Finally}}, restart the device.",
+          "label": "Manual de usuario (formal)",
+          "notes": [
+            "*Please navigate to* sustituye a *go to*.",
+            "Presente simple en las dos partes: *Once the installation is complete, the system requests…*."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste un secuenciador por paso, en orden (*First… Finally*)?",
+      "¿Usaste presente simple tras *once / as soon as* (sin *will*)?",
+      "¿Usaste *Finally* (y no *At the end*) y *After that* (y no *After of that*)?",
+      "¿Usaste *open* para las apps y *enter* para los datos?",
+      "¿Cada paso es un imperativo corto, con un verbo por acción?"
+    ]
+  }
+}

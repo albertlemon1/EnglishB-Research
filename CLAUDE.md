@@ -6,7 +6,7 @@ Contexto para retomar el proyecto en una sesión nueva. Léelo entero antes de t
 
 App de autoaprendizaje para hispanohablantes, Banda B del MCER: 270 h en cuatro subniveles (B1.1 60 h, B1.2 60 h, B2.1 75 h, B2.2 75 h), 54 módulos, 270 lecciones. La estructura completa está en `content/course.json` (fuente única); `docs/ESTRUCTURA_BANDA_B.md` se genera desde ahí.
 
-**Estado (2026-11-09):** publicados el Módulo 1 (l01–l05, 233 audios) y el Módulo 2 (l06–l10, 248 audios), los dos fusionados en `main` y desplegados en GitHub Pages. **Siguiente: Módulo 3**, «Everyday Technology & Digital Life» (dominio TD, lecciones l11–l15; gramática: Zero Conditional, imperativos y secuenciadores; AFH: acento en sustantivos compuestos (PASSword) y grupos sp-/st-/sk-). Solo se genera un módulo cuando el usuario lo pide.
+**Estado (2026-11-09):** publicados el Módulo 1 (l01–l05, 233 audios) y el Módulo 2 (l06–l10, 248 audios), fusionados en `main` y desplegados en GitHub Pages. El Módulo 3, «Everyday Technology & Digital Life» (dominio TD, l11–l15, 231 audios), está terminado en la rama `claude/modulo-3-inicio-akpkjk` (pendiente de PR). **Siguiente: Módulo 4**, «Practical Problem-Solving & Daily Hassles» (l16–l20; gramática: First Conditional y too / (not) enough; AFH: letras mudas y grupos consonánticos finales como *fixed*, *crashed*). Solo se genera un módulo cuando el usuario lo pide.
 
 El usuario escribe en español y revisa en el móvil. Responde en español neutro (nada de «vosotros», «os», «vuestra»).
 
@@ -40,7 +40,7 @@ SPA estática: módulos ES sin dependencias y **sin paso de build**. Es una PWA 
 
 ## Contenido
 
-Rutas: `content/<subnivel>/<módulo>/`, con `module.json`, `lNN.json` (número **global** de lección) y `review.json`; audios en `audio/<subnivel>/<módulo>/` más `manifest.json`. **Usa `content/b1-1/m02/` como plantilla**: es el módulo más completo y ya incluye tipos que el Módulo 1 no tiene (`intonation`, `variants`, `task.input` y un modelo con diálogo).
+Rutas: `content/<subnivel>/<módulo>/`, con `module.json`, `lNN.json` (número **global** de lección) y `review.json`; audios en `audio/<subnivel>/<módulo>/` más `manifest.json`. **Usa `content/b1-1/m03/` o `m02/` como plantilla** (el 3 es el más reciente, y no usa `tone`): son los módulos más completos y ya incluye tipos que el Módulo 1 no tiene (`intonation`, `variants`, `task.input` y un modelo con diálogo).
 
 Esquema de lección: `id`, `n`, `title`, `titleEs`, `minutes`, `summary`, `canDo[]`, `focus{grammar, lexis, afh}`, `warmup`, más los bloques:
 
@@ -62,7 +62,7 @@ Esquema de lección: `id`, `n`, `title`, `titleEs`, `minutes`, `summary`, `canDo
 Reglas de redacción:
 
 - Marcado en línea: `{{chunk}}` resalta, `**negrita**`, `*inglés dentro del español*`. **Nunca dejes espacio antes de una contracción**: `I{{'ve lived}}`, no `I {{'ve lived}}` (el validador lo detecta).
-- Los IDs de audio son **únicos en todo el curso**. Los del repaso llevan prefijo de módulo (`m03-rv-…`).
+- Los IDs de audio son **únicos en todo el curso**. Los del repaso llevan prefijo de módulo (`m04-rv-…` en el próximo).
 - Cualquier clip: objeto con `speaker` + `audio` + `text`; `tts` (opcional) es el texto que se sintetiza, con fonemas forzados `[word](/fonemas/)` en notación misaki; `tone: "rise"|"fall"` solo en clips con question tag.
 - Repasa el material fuente con ojo crítico. En los módulos 1 y 2 se corrigieron IPA, sílabas, ejemplos agramaticales y falsos amigos mal etiquetados (ver «Correcciones» en el README). Documenta las correcciones que hagas.
 - Nombres de personajes: evita los que el fonemizador lea mal («Inês» se leyó «circumflex»). Si hace falta, añade el nombre al `LEXICON` de `generate_audio.py`. Revisa también la coherencia de las biografías entre lecciones (fechas, años).
@@ -79,12 +79,13 @@ Cada voz se asocia a un registro para que el oído relacione voz y formalidad.
 | Alex | `am_michael` | Neutro |
 | Sarah | `af_sarah` | Neutro |
 | Ryan | `am_fenrir` | Neutro; narra los textos de análisis |
+| Daniel | `bm_daniel` | Soporte técnico, formal UK (desde el Módulo 3) |
 | Emma | `bf_emma` | Formal UK y modelo de pronunciación británica |
 | George | `bm_george` | Formal UK |
 | Priya | `af_aoede` | Neutro, canadiense |
 | Oliver | `bm_fable` | Neutro UK |
 
-Los personajes nuevos se añaden a `cast.json` y a `cast` del `module.json`. El Módulo 3 (tecnología) puede reutilizar el reparto o añadir uno o dos personajes, por ejemplo soporte técnico en registro formal.
+Los personajes nuevos se añaden a `cast.json` y a `cast` del `module.json`. El Módulo 3 añadió a Daniel (soporte técnico). El Módulo 4 (problemas cotidianos, atención al cliente) puede reutilizarlo.
 
 ## Audio: generación y control de calidad
 
@@ -98,9 +99,9 @@ pip install https://github.com/explosion/spacy-models/releases/download/en_core_
 curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
 curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
 
-python3 tools/tts/generate_audio.py --module content/b1-1/m03 --out audio/b1-1/m03 --model <onnx> --voices <bin> [--only id…] [--force] [--list]
-python3 tools/tts/qa_audio.py audio/b1-1/m03            # inteligibilidad (ASR offline, WER)
-python3 tools/tts/qa_audio.py audio/b1-1/m03 --tones-only
+python3 tools/tts/generate_audio.py --module content/b1-1/m04 --out audio/b1-1/m04 --model <onnx> --voices <bin> [--only id…] [--force] [--list]
+python3 tools/tts/qa_audio.py audio/b1-1/m04            # inteligibilidad (ASR offline, WER)
+python3 tools/tts/qa_audio.py audio/b1-1/m04 --tones-only
 python3 tools/check_content.py                          # debe terminar en OK
 python3 tools/build_structure_doc.py
 ```
@@ -108,7 +109,7 @@ python3 tools/build_structure_doc.py
 - Kokoro-82M (ONNX) + misaki G2P (US/GB). Salida en MP3 mono a 64 kbps, normalizado a −20 dBFS. Velocidades: 0.95 por defecto, 0.92 para el coach, 0.72 para el lento y 0.9 para el dictado. Solo se regeneran los clips cuyo hash cambió.
 - **Question tags:** Kokoro no sube el tono de forma fiable. Los clips con `tone` pasan por `tools/tts/intonation.py`, que impone la curva con PSOLA de Praat, la mide y falla si la tag se mueve menos de 3 semitonos en la dirección declarada.
 - **No afirmes nada de un audio sin medirlo.** En el Módulo 2, una explicación decía que *Have you ever…?* sube, y la medición mostró que bajaba; se retiró. Si el contenido dice «sube» o «baja», el audio tiene que hacerlo.
-- PocketSphinx da falsos positivos en frases muy cortas y en voces UK: compara con otra voz antes de reasignar. Si un clip no se entiende, cambia la voz o el `tts`.
+- PocketSphinx da falsos positivos en frases muy cortas y en voces UK: compara con otra voz antes de reasignar. `am_puck` (Leo) es la voz que peor puntúa: si un clip suyo falla y con `am_michael` no, reformula la frase (en el Módulo 3, *tap* → *press*). Si un clip no se entiende, cambia la voz o el `tts`.
 - Si un override de fonemas suena mal, cambia el override, no el texto. Ejemplo: `follow up` → `[follow](/fˈɑlO/) [up](/ˈʌp/)`.
 
 ## Verificación antes de entregar
@@ -126,7 +127,7 @@ python3 tools/build_structure_doc.py
 
 ## Git
 
-- Repositorio `albertlemon1/EnglishB-Research`, público. Rama de trabajo: `claude/english-course-band-b-module-1-fnjm7s` (salvo que la sesión indique otra).
+- Repositorio `albertlemon1/EnglishB-Research`, público. Rama de trabajo: la que indique la sesión (el Módulo 3 se hizo en `claude/modulo-3-inicio-akpkjk`).
 - Si el PR de la rama ya está fusionado, reiníciala desde `main`: `git fetch origin main && git checkout -B <rama> origin/main`.
 - Push con `git push -u origin <rama>`. No hagas force-push ni operaciones destructivas.
 - Abre un PR a `main` solo cuando el usuario lo pida; el usuario lo fusiona.

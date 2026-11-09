@@ -1,0 +1,87 @@
+{
+  "id": "m03",
+  "sublevel": "b1-1",
+  "n": 3,
+  "title": "Everyday Technology & Digital Life",
+  "titleEs": "Tecnología cotidiana y vida digital",
+  "hours": 5,
+  "domains": [
+    "TD"
+  ],
+  "intro": "La tecnología es el tema de este módulo. Aprenderás a describir tus apps y rutinas digitales, a pedir ayuda y permisos, a compartir trucos de productividad, a proteger tus datos y a guiar a otra persona paso a paso. Tres herramientas te acompañan: el Zero Conditional (If you tap the icon, the app opens), los imperativos y los secuenciadores (First, Then, Finally).",
+  "canDo": [
+    "Describir para qué uso mis apps y cómo funcionan con use … to y el Zero Conditional.",
+    "Pedir ayuda, acceso y permisos con imperativos y peticiones corteses.",
+    "Recomendar trucos de productividad con If + presente + imperativo.",
+    "Explicar riesgos y reglas de seguridad con Never, Always y unless.",
+    "Dar instrucciones paso a paso con secuenciadores y Once + presente."
+  ],
+  "focus": {
+    "grammar": "Zero Conditional · imperativos afirmativos y negativos · Could you / Would you mind · Never / Always / unless · secuenciadores (First, Then, Finally) · Once + presente",
+    "lexis": "use … to, back up, sync, locked out, grant access, shortcut, mute, scam, verification code, step-by-step, make sure",
+    "afh": "Acento en sustantivos compuestos (SMART-phone, PASS-word, SHORT-cut) · grupos sp- / st- / sk- sin /e/ · /v/ frente a /b/ · once = /wʌns/"
+  },
+  "cast": [
+    "coach",
+    "maya",
+    "leo",
+    "alex",
+    "sarah",
+    "priya",
+    "ryan",
+    "emma",
+    "george",
+    "daniel"
+  ],
+  "lessons": [
+    "l11",
+    "l12",
+    "l13",
+    "l14",
+    "l15"
+  ],
+  "blocks": [
+    {
+      "id": "lexical",
+      "n": 1,
+      "name": "Input léxico",
+      "short": "Input",
+      "text": "Escenario real, conversación y mapa de tres registros."
+    },
+    {
+      "id": "discovery",
+      "n": 2,
+      "name": "Descubrimiento guiado",
+      "short": "Descubre",
+      "text": "Deduce la regla con tres preguntas: significado, forma y uso."
+    },
+    {
+      "id": "phonetics",
+      "n": 3,
+      "name": "Glosario fonético dual",
+      "short": "Fonética",
+      "text": "IPA US/UK + Anclaje Fonético Hispanohablante."
+    },
+    {
+      "id": "consolidation",
+      "n": 4,
+      "name": "Consolidación y L1",
+      "short": "Consolida",
+      "text": "Estructuras, matices y errores típicos del español."
+    },
+    {
+      "id": "practice",
+      "n": 5,
+      "name": "Práctica",
+      "short": "Practica",
+      "text": "Ejercicios con corrección inmediata, entonación y dictado."
+    },
+    {
+      "id": "task",
+      "n": 6,
+      "name": "Tarea y autoevaluación",
+      "short": "Tarea",
+      "text": "Produce un mensaje real, compáralo con el modelo y revísalo."
+    }
+  ]
+}

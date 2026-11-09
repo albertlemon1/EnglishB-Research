@@ -1,0 +1,801 @@
+{
+  "id": "l14",
+  "n": 14,
+  "title": "Protecting Personal Data & Online Safety Basics",
+  "titleEs": "Proteger tus datos personales y la seguridad en línea",
+  "minutes": 60,
+  "summary": "Explica riesgos y reglas de seguridad con el Zero Conditional, *Never / Always / Don't* y *unless*.",
+  "canDo": [
+    "Puedo explicar un riesgo con *If* + presente + *can* (*If you click…, malware can install itself*).",
+    "Puedo dar reglas claras con *Never*, *Always* y *Don't* + verbo base.",
+    "Puedo señalar una excepción con *unless*.",
+    "Puedo pronunciar *spam*, *scam*, *privacy* y *verification* con la /v/ y los grupos sp- / sk- bien articulados."
+  ],
+  "focus": {
+    "grammar": "Zero Conditional para riesgos (if + presente, can / presente) · Never / Always / Don't + verbo base · unless · information incontable",
+    "lexis": "scam, spam, phishing, suspicious link, strong password, two-factor authentication, verification code, log out, personal data",
+    "afh": "Grupos sp- / sk- (spam, scam) sin /e/ · /v/ frente a /b/ (privacy, verification) · acento en security"
+  },
+  "warmup": "Piensa en el último mensaje sospechoso que recibiste. ¿Qué te hizo dudar? ¿Qué regla de seguridad le darías a un familiar?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Un aviso de seguridad del equipo de TI",
+      "context": "Daniel, del soporte técnico, envía a todo el personal un recordatorio con las reglas básicas de seguridad.",
+      "speaker": "daniel",
+      "to": "todo el personal",
+      "audio": "l14-scn",
+      "text": "Dear colleagues, {{please remember}} these basic security rules. {{Never share}} your password or verification code with anyone, even if they say they work for IT. {{If you click}} on a suspicious link, malware can install itself on your computer. {{Always log out}} of shared computers, and {{don't use}} the same password on different sites. {{Unless you report}} a scam quickly, other people can be affected too. Thank you, Daniel Hughes, IT Support"
+    },
+    "dialogue": {
+      "title": "¿Esto es real o es una estafa?",
+      "context": "Maya recibe un mensaje sospechoso y se lo enseña a Alex.",
+      "lines": [
+        {
+          "speaker": "maya",
+          "audio": "l14-dlg-01",
+          "text": "Alex, look at this message. Your bank account is locked. Click here to verify. Is this real?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l14-dlg-02",
+          "text": "{{That looks like a scam}}. {{Don't click}} on the link!"
+        },
+        {
+          "speaker": "maya",
+          "audio": "l14-dlg-03",
+          "text": "How can you tell?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l14-dlg-04",
+          "text": "{{If a message creates}} panic or asks for your password, it's usually a scam. Banks never ask for your password by message."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l14-dlg-05",
+          "text": "Good point. What should I do with it?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l14-dlg-06",
+          "text": "{{Delete}} it and report it as spam. And {{always check}} the sender's address first."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l14-dlg-07",
+          "text": "Okay. Should I change my password too?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l14-dlg-08",
+          "text": "Only if you clicked the link. {{Unless you clicked}} it, your account is safe. But {{turn on}} two-factor authentication anyway."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué piensa Alex del mensaje?",
+        "options": [
+          "Que es una estafa",
+          "Que es de su banco",
+          "Que es un mensaje de un amigo"
+        ],
+        "answer": 0,
+        "explain": "*That looks like a scam.*"
+      },
+      {
+        "q": "Según Alex, ¿qué suele indicar una estafa?",
+        "options": [
+          "Que tiene faltas de ortografía",
+          "Que crea pánico o pide la contraseña",
+          "Que viene de un número desconocido"
+        ],
+        "answer": 1,
+        "explain": "*If a message creates panic or asks for your password, it's usually a scam.*"
+      },
+      {
+        "q": "¿Cuándo debería Maya cambiar su contraseña?",
+        "options": [
+          "Siempre, por seguridad",
+          "Solo si hizo clic en el enlace",
+          "Nunca"
+        ],
+        "answer": 1,
+        "explain": "*Only if you clicked the link. Unless you clicked it, your account is safe.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos y familia, chats.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l14-reg-c1",
+            "text": "Dude, that's so sketchy. Don't click it!",
+            "note": "*Sketchy* = sospechoso, dudoso (coloquial)."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l14-reg-c2",
+            "text": "My inbox is full of spam. I just delete everything.",
+            "note": "*Spam* = correo no deseado."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Consejos entre compañeros, avisos de uso general.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l14-reg-n1",
+            "text": "Never share your verification code with anyone.",
+            "note": "*Never* + verbo base: prohibición absoluta."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l14-reg-n2",
+            "text": "If a message asks for your password, it's probably a scam.",
+            "note": "Zero Conditional con *probably*."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l14-reg-n3",
+            "text": "Always log out of shared computers.",
+            "note": "*Always* + verbo base."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Avisos oficiales, bancos, políticas de empresa.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l14-reg-f1",
+            "text": "Please do not disclose your credentials to any third party.",
+            "note": "*Disclose* = revelar. *Credentials* = credenciales. *Third party* = terceros."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l14-reg-f2",
+            "text": "Unauthorised access to your account may result in the loss of personal data.",
+            "note": "*May result in* = puede provocar. *Unauthorised* es ortografía británica."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "a suspicious link",
+        "es": "un enlace sospechoso",
+        "register": "neutral"
+      },
+      {
+        "en": "That looks like a scam.",
+        "es": "Eso parece una estafa.",
+        "register": "neutral"
+      },
+      {
+        "en": "a strong password",
+        "es": "una contraseña segura",
+        "register": "neutral"
+      },
+      {
+        "en": "two-factor authentication",
+        "es": "verificación en dos pasos",
+        "register": "neutral"
+      },
+      {
+        "en": "a verification code",
+        "es": "un código de verificación",
+        "register": "neutral"
+      },
+      {
+        "en": "log out of (an account)",
+        "es": "cerrar sesión en",
+        "register": "neutral"
+      },
+      {
+        "en": "sketchy",
+        "es": "sospechoso, dudoso",
+        "register": "casual"
+      },
+      {
+        "en": "disclose (information)",
+        "es": "revelar (información)",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Dude, that's so sketchy.",
+        "answer": "casual",
+        "explain": "*Dude* y *sketchy* son coloquiales."
+      },
+      {
+        "text": "Never share your verification code with anyone.",
+        "answer": "neutral",
+        "explain": "Regla clara y estándar."
+      },
+      {
+        "text": "Please do not disclose your credentials to any third party.",
+        "answer": "formal",
+        "explain": "*Disclose*, *credentials* y *third party* son vocabulario formal."
+      },
+      {
+        "text": "My inbox is full of spam.",
+        "answer": "casual",
+        "explain": "Queja informal."
+      },
+      {
+        "text": "Unauthorised access may result in the loss of personal data.",
+        "answer": "formal",
+        "explain": "*May result in* y *unauthorised* son típicos de un aviso oficial."
+      },
+      {
+        "text": "Always log out of shared computers.",
+        "answer": "neutral",
+        "explain": "Consejo claro, válido en cualquier contexto."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Un aviso de seguridad mezcla riesgos y reglas. Fíjate en el tiempo verbal de cada frase y en qué palabra abre las órdenes.",
+    "speaker": "ryan",
+    "audio": "l14-gd",
+    "text": "If you {{use}} the same password everywhere, one leak {{puts}} all your accounts at risk. {{Never share}} a verification code with anyone, and {{always check}} the sender before you click.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué expresa la primera frase?",
+        "options": [
+          "Un riesgo general: siempre que se hace esto, ocurre eso.",
+          "Un riesgo que solo pasó ayer.",
+          "Una predicción incierta sobre el futuro."
+        ],
+        "answer": 0,
+        "explain": "Zero Conditional: *if* + presente, presente. Fíjate en la -s de *puts*."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma sigue a *Never* y *always* en las dos reglas?",
+        "options": [
+          "Verbo base (*Never share*, *always check*).",
+          "Verbo en -ing (*Never sharing*).",
+          "*To* + verbo (*Never to share*)."
+        ],
+        "answer": 0,
+        "explain": "Tras *Never* y *Always* usamos el verbo base, como en cualquier imperativo."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Estás escribiendo un cartel de seguridad para un banco. ¿Qué versión es más adecuada?",
+        "options": [
+          "Never share your PIN with anyone.",
+          "You could maybe not share your PIN sometimes.",
+          "Please try to maybe avoid sharing your PIN."
+        ],
+        "answer": 0,
+        "explain": "En una advertencia de seguridad no se suaviza: *Never* es claro y directo. Suavizar la regla le quita fuerza."
+      }
+    ],
+    "rule": {
+      "points": [
+        "Riesgos y hechos de seguridad: *If* + presente, presente o *can / may* + verbo base.",
+        "Reglas absolutas: *Never* / *Always* + verbo base (*Never share…*, *Always log out…*).",
+        "*Don't* + verbo base prohíbe una acción concreta.",
+        "*Unless* + presente = *if … not*: *Unless you click, your account is safe.*"
+      ],
+      "formulas": [
+        "If + presente, presente / can + verbo base",
+        "Never / Always + verbo base",
+        "Unless + presente, presente"
+      ],
+      "note": "En una advertencia no se suaviza: *Never share…* es lo normal. Para pedir algo a alguien, en cambio, sí conviene la cortesía de *Could you…?* (Lección 12)."
+    }
+  },
+  "phonetics": {
+    "intro": "En la seguridad digital el hispanohablante tropieza con tres cosas: la e delante de sp- y sk- (*spam*, *scam*), la /v/ (*privacy*, *verification*) y el acento de *security*.",
+    "items": [
+      {
+        "id": "spam",
+        "term": "Spam",
+        "pos": "n.",
+        "meaning": "correo no deseado",
+        "ipa": {
+          "us": "/spæm/",
+          "uk": "/spæm/"
+        },
+        "afh": "SPAM",
+        "say": "Spam.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Sp-* sin e: «sss-pam», nunca «es-pam»."
+          },
+          {
+            "type": "vowel",
+            "text": "La a es /æ/, una vocal abierta entre la a y la e españolas."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina cerrando los labios en /m/; no añadas una vocal final."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "My inbox is full of spam."
+        }
+      },
+      {
+        "id": "scam",
+        "term": "Scam",
+        "pos": "n.",
+        "meaning": "estafa",
+        "ipa": {
+          "us": "/skæm/",
+          "uk": "/skæm/"
+        },
+        "afh": "SKAM",
+        "say": "Scam.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Sc-* aquí es /sk/: «sss-kam», sin e delante."
+          },
+          {
+            "type": "vowel",
+            "text": "La a es /æ/: boca bien abierta."
+          },
+          {
+            "type": "consonant",
+            "text": "Cierra los labios al final: /m/."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "That looks like a scam."
+        }
+      },
+      {
+        "id": "security",
+        "term": "Security",
+        "pos": "n.",
+        "meaning": "seguridad",
+        "ipa": {
+          "us": "/sɪˈkjʊr.ə.t̬i/",
+          "uk": "/sɪˈkjʊə.rɪ.ti/"
+        },
+        "afh": "si-KIÚ-ri-ri",
+        "say": "Security.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "El acento va en KIU, la 2.ª sílaba. «Seguridad» lo lleva en RI."
+          },
+          {
+            "type": "consonant",
+            "text": "*Cu* suena /kju/, «kiu». No digas «se-KU-ri-ti»."
+          },
+          {
+            "type": "flap",
+            "text": "En inglés americano, la t entre vocales suena como una r suave: «si-KIÚ-ri-ri»."
+          }
+        ],
+        "example": {
+          "speaker": "daniel",
+          "text": "Online security is everyone's job."
+        }
+      },
+      {
+        "id": "privacy",
+        "term": "Privacy",
+        "pos": "n.",
+        "meaning": "privacidad",
+        "ipa": {
+          "us": "/ˈpraɪ.və.si/",
+          "uk": "/ˈprɪv.ə.si/"
+        },
+        "afh": "PRÁI-va-si",
+        "say": "Privacy.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La v es /v/: dientes superiores sobre el labio inferior. Nunca una b."
+          },
+          {
+            "type": "vowel",
+            "text": "En EE. UU. la primera sílaba es el diptongo /aɪ/ («prai»). En Reino Unido es /ɪ/ corta: «PRIV-a-si»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "I check my privacy settings every month."
+        }
+      },
+      {
+        "id": "verification-code",
+        "term": "Verification code",
+        "pos": "n.",
+        "meaning": "código de verificación",
+        "ipa": {
+          "us": "/ˌver.ə.fɪˈkeɪ.ʃən koʊd/",
+          "uk": "/ˌver.ɪ.fɪˈkeɪ.ʃən kəʊd/"
+        },
+        "afh": "ve-ri-fi-KEI-shen koud",
+        "say": "Verification code.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La v es /v/ con el labio mordido: «ve-ri-fi». Evita «be-ri-fi»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento principal en KEI (4.ª sílaba) y secundario en VER."
+          },
+          {
+            "type": "vowel",
+            "text": "*Code* lleva el diptongo «ou», no una o simple."
+          }
+        ],
+        "example": {
+          "speaker": "daniel",
+          "text": "We just sent a verification code to your phone."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Riesgos: Zero Conditional con can",
+        "formula": "If + sujeto + presente, sujeto + can / presente",
+        "usage": "Para explicar qué puede ocurrir cada vez que se hace algo arriesgado.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l14-cc-1a",
+            "text": "{{If you click}} on a suspicious link, malware {{can install}} itself."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l14-cc-1b",
+            "text": "{{If someone knows}} your password, they {{can read}} your messages."
+          }
+        ]
+      },
+      {
+        "title": "Reglas absolutas: Never / Always / Don't",
+        "formula": "Never / Always + verbo base · Don't + verbo base",
+        "usage": "Para prohibir u obligar sin matices, como en un cartel de seguridad. Nunca combines *Don't* y *never*.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l14-cc-2a",
+            "text": "{{Never share}} your verification code."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l14-cc-2b",
+            "text": "{{Always log out}} of shared computers."
+          }
+        ]
+      },
+      {
+        "title": "Excepciones: unless",
+        "formula": "Unless + sujeto + presente, sujeto + presente (= if … not)",
+        "usage": "Para decir «a menos que» sin repetir el negativo: *unless* ya incluye el «no».",
+        "examples": [
+          {
+            "speaker": "sarah",
+            "audio": "l14-cc-3a",
+            "text": "{{Unless you click}} the link, your account is safe."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l14-cc-3b",
+            "text": "Your account stays locked {{unless you enter}} the code."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Will en el Zero Conditional",
+        "text": "Tras *if* se queda el presente; el riesgo habitual también va en presente o con *can*.",
+        "wrong": "If you will click on it, malware can install.",
+        "right": "If you click on it, malware can install."
+      },
+      {
+        "title": "Unless + negativo",
+        "text": "«A menos que no hagas clic» es un calco. *Unless* ya significa «si no», así que no añadas otro *not*.",
+        "wrong": "Unless you don't click the link, your account is safe.",
+        "right": "Unless you click the link, your account is safe."
+      },
+      {
+        "title": "Doble negación",
+        "text": "En inglés estándar, un solo negativo por oración. «No compartas nunca» se dice *Never share*.",
+        "wrong": "Don't never share your password.",
+        "right": "Never share your password."
+      },
+      {
+        "title": "Information es incontable",
+        "text": "Igual que *advice*: no tiene plural y lleva verbo en singular.",
+        "wrong": "Your personal informations are safe.",
+        "right": "Your personal information is safe."
+      },
+      {
+        "title": "Epéntesis y v / b",
+        "text": "Por «espam» y «escam» añadimos una /e/; por «privacidad», convertimos la /v/ en b. Pega los dientes al labio y empieza directo con la /s/.",
+        "wrong": "«es-PAM», «PRÁI-ba-si»",
+        "right": "/spæm/ («sss-PAM»), /ˈpraɪ.və.si/ («PRÁI-va-si»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you use the same password everywhere, one leak ___ all your accounts at risk.",
+      "options": [
+        "put",
+        "puts",
+        "will puts"
+      ],
+      "answer": 1,
+      "explain": "Tercera persona: *puts*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "___ share your verification code with anyone.",
+      "options": [
+        "Never",
+        "No",
+        "Don't never"
+      ],
+      "answer": 0,
+      "explain": "*Never* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "___ you click the link, your account is safe.",
+      "options": [
+        "Unless",
+        "Only",
+        "While"
+      ],
+      "answer": 0,
+      "explain": "*Unless* = a menos que."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Your personal ___ is safe with us.",
+      "options": [
+        "informations",
+        "information",
+        "informationes"
+      ],
+      "answer": 1,
+      "explain": "*Information* es incontable."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la regla.",
+      "text": "___ log out of shared computers.",
+      "accept": [
+        "Always"
+      ],
+      "explain": "*Always* + verbo base."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "Your account stays locked ___ you enter the code.",
+      "accept": [
+        "unless"
+      ],
+      "explain": "*Unless* = si no."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Never",
+        "share",
+        "your",
+        "verification",
+        "code",
+        "with",
+        "anyone"
+      ],
+      "answer": "Never share your verification code with anyone",
+      "explain": "*Never* + verbo base."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin coma).",
+      "words": [
+        "Unless",
+        "you",
+        "click",
+        "the",
+        "link",
+        "your",
+        "account",
+        "is",
+        "safe"
+      ],
+      "answer": "Unless you click the link your account is safe",
+      "explain": "*Unless* + presente."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "Unless you don't click the link, your account is safe.",
+      "accept": [
+        "Unless you click the link, your account is safe."
+      ],
+      "explain": "*Unless* ya lleva el negativo."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Don't never share your password.",
+      "accept": [
+        "Never share your password.",
+        "Don't ever share your password.",
+        "Don't share your password."
+      ],
+      "explain": "Un solo negativo."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Your personal informations are safe.",
+      "accept": [
+        "Your personal information is safe."
+      ],
+      "explain": "*Information* es incontable."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *security* lleva el acento?",
+      "word": "security",
+      "syllables": [
+        "se",
+        "cu",
+        "ri",
+        "ty"
+      ],
+      "answer": 1,
+      "audioRef": "l14-ph-security-us",
+      "explain": "se-**CU**-ri-ty: acento en la 2.ª sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *verification* lleva el acento principal?",
+      "word": "verification",
+      "syllables": [
+        "ve",
+        "ri",
+        "fi",
+        "ca",
+        "tion"
+      ],
+      "answer": 3,
+      "audioRef": "l14-ph-verification-code-us",
+      "explain": "ve-ri-fi-**CA**-tion: acento en la 4.ª sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "emma",
+      "audio": "l14-dict-1",
+      "text": "Please do not disclose your credentials to any third party.",
+      "explain": "Aviso formal: *do not disclose*."
+    }
+  ],
+  "task": {
+    "title": "Reglas de seguridad para la familia",
+    "format": "text",
+    "scenario": "Tu familia usa mucho el móvil y recibe mensajes sospechosos. Escribe en el chat familiar unas reglas de seguridad claras.",
+    "brief": "Write short online-safety rules for your family group chat.",
+    "steps": [
+      "Abre con un saludo y anuncia las reglas (*Here are our safety rules*).",
+      "Da dos reglas absolutas con *Never*, *Always* o *Don't*.",
+      "Explica un riesgo con *If* + presente + *can*.",
+      "Añade una excepción con *unless* y pide que te enseñen cualquier mensaje raro."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi family! Here are our safety rules.",
+      "Never ___ . Always ___ .",
+      "If you ___, someone can ___ .",
+      "Unless you're sure ___, ___ .",
+      "Please send me any ___ and I'll check it."
+    ],
+    "chunks": [
+      {
+        "label": "Never / Always",
+        "re": "\\b(never|always)\\s+[a-z]+"
+      },
+      {
+        "label": "Don't + verbo",
+        "re": "\\bdon't\\s+[a-z]+"
+      },
+      {
+        "label": "If + presente, can",
+        "re": "\\bif\\b[^.!?,]{3,50},[^.!?]{0,30}\\bcan\\b"
+      },
+      {
+        "label": "unless",
+        "re": "\\bunless\\b"
+      },
+      {
+        "label": "scam / spam / suspicious",
+        "re": "\\b(scam|spam|suspicious|phishing|sketchy)\\b"
+      },
+      {
+        "label": "password / code / log out",
+        "re": "\\b(passwords?|verification code|log(s|ged)? out|two-factor)\\b"
+      }
+    ],
+    "checks": [
+      "ifWill",
+      "unlessNot",
+      "doubleNegative",
+      "noImperative",
+      "uncountable",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: un aviso formal",
+      "brief": "Write a two-sentence formal notice for customers.",
+      "frames": [
+        "Please do not disclose your ___ to any third party."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "sarah",
+          "audio": "l14-task-model",
+          "text": "Hi family! Here are our safety rules. {{Never share}} your password or verification code with anyone. {{Always log out}} of shared computers. {{Don't click}} on links from strangers: {{if you click}} on a scam link, someone {{can steal}} your data. {{Unless you're sure}} about a message, call the person first. Please send me any strange message and I'll check it. Stay safe!",
+          "label": "Reglas para la familia (neutro)",
+          "notes": [
+            "*Never share* y *Always log out*: reglas absolutas con verbo base.",
+            "*If you click…, someone can steal*: Zero Conditional con *can*. *Unless you're sure* no lleva otro negativo."
+          ]
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l14-task-formal",
+          "text": "Please {{do not disclose}} your credentials to any third party. {{Unauthorised access}} to your account {{may result in}} the loss of personal data.",
+          "label": "Aviso formal",
+          "notes": [
+            "*Do not* (sin contracción) y *disclose* elevan el registro.",
+            "*May result in* = puede provocar. *Unauthorised* es ortografía británica."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste presente tras *if* (sin *will*)?",
+      "¿Usaste verbo base tras *Never / Always / Don't* y un solo negativo por oración?",
+      "¿Usaste *unless* sin añadir otro *not*?",
+      "¿Escribiste *information* en singular, sin -s?",
+      "¿Tus reglas son claras y directas, sin suavizar como en un cartel?"
+    ]
+  }
+}

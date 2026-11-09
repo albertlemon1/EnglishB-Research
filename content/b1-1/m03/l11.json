@@ -1,0 +1,772 @@
+{
+  "id": "l11",
+  "n": 11,
+  "title": "Describing Everyday Apps, Tools & Digital Routines",
+  "titleEs": "Describir apps, herramientas y rutinas digitales",
+  "minutes": 60,
+  "summary": "Explica para qué usas tus apps y cómo funcionan con *use … to* y el Zero Conditional.",
+  "canDo": [
+    "Puedo explicar para qué uso una app o un dispositivo con *I use … to…*.",
+    "Puedo describir cómo funciona algo que siempre ocurre con *If / When* + presente + presente.",
+    "Puedo hablar de mi rutina digital con adverbios de frecuencia.",
+    "Puedo pronunciar *smartphone* y *screenshot* sin /e/ inicial y con el acento en la primera parte."
+  ],
+  "focus": {
+    "grammar": "Zero Conditional (if / when + presente, presente) · use … to · adverbios de frecuencia",
+    "lexis": "I use … to…, turn on / turn off, back up, keep track of, sync, screen time, be glued to",
+    "afh": "Acento en sustantivos compuestos (SMART-phone) · s-clusters sm-, scr-, st- sin /e/"
+  },
+  "warmup": "Piensa en las tres apps que abres cada mañana. ¿Para qué sirve cada una? Intenta explicarlo en una frase que empiece con *I use…*",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Mi rutina con el móvil",
+      "context": "Maya le preguntó a Priya cómo organiza su día con el móvil. Priya le responde con un mensaje de voz.",
+      "speaker": "priya",
+      "to": "Maya",
+      "audio": "l11-scn",
+      "text": "Hi Maya! You asked about my phone routine, so here it is. {{I use}} my calendar app {{to plan}} my day, and I keep my notes in a separate app. {{When I get}} a notification, I check it right away, but {{if I turn on}} Do Not Disturb, my phone stays silent. I also {{back up}} my photos to the cloud every Sunday, so {{if I lose}} my phone, I don't lose my memories. My screen time is, honestly, too high, but I'm working on it!"
+    },
+    "dialogue": {
+      "title": "Un móvil que no para de sonar",
+      "context": "Maya y Leo toman un café después de clase.",
+      "lines": [
+        {
+          "speaker": "maya",
+          "audio": "l11-dlg-01",
+          "text": "Leo, your phone is always buzzing. {{What apps do you use}} every day?"
+        },
+        {
+          "speaker": "leo",
+          "audio": "l11-dlg-02",
+          "text": "Mostly messaging apps and a music app. I {{use}} my calendar {{to remind}} me about classes, too."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l11-dlg-03",
+          "text": "Isn't that annoying? {{If you get}} a notification every minute, you can't focus!"
+        },
+        {
+          "speaker": "leo",
+          "audio": "l11-dlg-04",
+          "text": "It is! That's why I {{turned on}} Do Not Disturb. {{When it's on}}, only my mom can call me."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l11-dlg-05",
+          "text": "Smart. I {{log in}} to my email only twice a day. {{If I check}} it more often, I waste the whole morning."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l11-dlg-06",
+          "text": "Do you {{back up}} your photos? My storage is almost full."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l11-dlg-07",
+          "text": "Yes, they {{sync}} automatically when I'm on Wi-Fi. {{If your storage is full}}, your phone stops saving new photos."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l11-dlg-08",
+          "text": "Seriously? Then I need to delete some apps. Thanks for the tip!"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Para qué usa Leo su calendario?",
+        "options": [
+          "Para pagar las clases",
+          "Para recordar sus clases",
+          "Para hacer fotos"
+        ],
+        "answer": 1,
+        "explain": "*I use my calendar to remind me about classes.* (*use … to* + verbo = para qué sirve)."
+      },
+      {
+        "q": "¿Qué ocurre cuando Leo activa No molestar?",
+        "options": [
+          "Nadie puede llamarlo",
+          "Todos pueden llamarlo",
+          "Solo su madre puede llamarlo"
+        ],
+        "answer": 2,
+        "explain": "*When it's on, only my mom can call me.*"
+      },
+      {
+        "q": "Según Maya, ¿qué pasa si el almacenamiento está lleno?",
+        "options": [
+          "El móvil deja de guardar fotos nuevas",
+          "El móvil se apaga",
+          "Las fotos se borran solas"
+        ],
+        "answer": 0,
+        "explain": "*If your storage is full, your phone stops saving new photos.* Fíjate en la -s de *stops*."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats de grupo, redes sociales.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l11-reg-c1",
+            "text": "I'm glued to my phone all day, honestly.",
+            "note": "*Be glued to* = estar pegado a algo."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l11-reg-c2",
+            "text": "I live in my calendar app. If it's not in there, it doesn't happen.",
+            "note": "*Live in* una app = pasar el día en ella. Es coloquial."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Conversaciones cotidianas, clases, compañeros.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l11-reg-n1",
+            "text": "I use a calendar app to plan my day.",
+            "note": "*Use … to* + verbo base: para qué sirve."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l11-reg-n2",
+            "text": "When I get a notification, I check it right away.",
+            "note": "Zero Conditional con *when*: presente + presente."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l11-reg-n3",
+            "text": "If I turn on Do Not Disturb, my phone stays silent.",
+            "note": "*Stays*: la -s de la 3.ª persona."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Correos de trabajo, manuales, atención al cliente.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l11-reg-f1",
+            "text": "I rely on a task-management application to organise my daily workload.",
+            "note": "*Rely on … to* es la versión formal de *use … to*. *Organise* es ortografía británica."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l11-reg-f2",
+            "text": "The application synchronises your data automatically whenever it is connected to the internet.",
+            "note": "*Whenever* = cada vez que. Zero Conditional formal."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "I use (an app) to + verbo",
+        "es": "uso (una app) para…",
+        "register": "neutral"
+      },
+      {
+        "en": "turn on / turn off",
+        "es": "encender, activar / apagar, desactivar",
+        "register": "neutral"
+      },
+      {
+        "en": "back up (my photos)",
+        "es": "hacer una copia de seguridad",
+        "register": "neutral"
+      },
+      {
+        "en": "keep track of (my tasks)",
+        "es": "llevar el control de",
+        "register": "neutral"
+      },
+      {
+        "en": "screen time",
+        "es": "tiempo de pantalla",
+        "register": "neutral"
+      },
+      {
+        "en": "sync across devices",
+        "es": "sincronizarse entre dispositivos",
+        "register": "neutral"
+      },
+      {
+        "en": "be glued to (my phone)",
+        "es": "estar pegado a (el móvil)",
+        "register": "casual"
+      },
+      {
+        "en": "rely on (a tool) to…",
+        "es": "depender de / confiar en (una herramienta) para…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "I'm glued to my phone.",
+        "answer": "casual",
+        "explain": "*Be glued to* es coloquial."
+      },
+      {
+        "text": "I use a calendar app to plan my day.",
+        "answer": "neutral",
+        "explain": "Clara y válida en cualquier situación."
+      },
+      {
+        "text": "The application synchronises your data automatically.",
+        "answer": "formal",
+        "explain": "Lenguaje de manual o atención al cliente."
+      },
+      {
+        "text": "I live in my notes app.",
+        "answer": "casual",
+        "explain": "Exageración coloquial entre amigos."
+      },
+      {
+        "text": "I rely on a task-management application to organise my workload.",
+        "answer": "formal",
+        "explain": "*Rely on* y *task-management application* son propios de un perfil o un correo profesional."
+      },
+      {
+        "text": "If I turn on Do Not Disturb, my phone stays silent.",
+        "answer": "neutral",
+        "explain": "Explicación sencilla y estándar."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Las dos frases explican cómo funciona un móvil. Fíjate en los verbos: ¿en qué tiempo están, y por qué no aparece *will*?",
+    "speaker": "ryan",
+    "audio": "l11-gd",
+    "text": "{{If}} you {{tap}} the icon, the app {{opens}}. {{When}} the battery {{is}} low, the screen {{gets}} darker.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué describen estas frases?",
+        "options": [
+          "Un momento concreto de ayer.",
+          "Algo que siempre ocurre cuando se cumple la condición.",
+          "Algo que quizá ocurra mañana."
+        ],
+        "answer": 1,
+        "explain": "Son hechos generales: cada vez que tocas el icono, la app se abre. No hablan de un día concreto ni de una predicción."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué tiempo verbal aparece en las dos mitades de cada frase?",
+        "options": [
+          "Presente simple en las dos mitades, sin *will*.",
+          "Presente simple tras *if* y *will* en el resultado.",
+          "Pasado simple tras *if* y presente en el resultado."
+        ],
+        "answer": 0,
+        "explain": "Zero Conditional: *if / when* + presente simple, presente simple. Fíjate también en la -s de *opens* y *gets*."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Un amigo te pregunta cómo funciona tu app de fotos. ¿Qué respuesta es más natural?",
+        "options": [
+          "If you tap the cloud icon, the photo uploads.",
+          "If you will tap the cloud icon, the photo will upload.",
+          "If you tapped the cloud icon, the photo uploads."
+        ],
+        "answer": 0,
+        "explain": "Para explicar cómo funciona algo habitual usamos presente en las dos mitades. *If you will tap…* suena a error típico del hispanohablante."
+      }
+    ],
+    "rule": {
+      "points": [
+        "Zero Conditional = *if / when* + presente simple, presente simple.",
+        "Sirve para hechos y resultados que siempre se cumplen: cómo funciona una app, un aparato o una rutina.",
+        "No lleva *will* ni en la parte de *if* ni en el resultado.",
+        "Puedes invertir el orden y se quita la coma: *The app opens if you tap the icon.*"
+      ],
+      "formulas": [
+        "If / When + sujeto + presente, sujeto + presente",
+        "Sujeto + presente + if + sujeto + presente"
+      ],
+      "note": "En español también decimos «si tocas el icono, se abre», pero es fácil colar un futuro por influencia de «se abrirá». En inglés, para hechos generales, todo va en presente (y no olvides la -s: *the app opens*)."
+    }
+  },
+  "phonetics": {
+    "intro": "El vocabulario digital esconde dos trampas para el hispanohablante: los sustantivos compuestos (*SMART-phone*) llevan el acento en la primera parte, y los grupos con s- (*smart, screen, storage*) no admiten la e de apoyo.",
+    "items": [
+      {
+        "id": "smartphone",
+        "term": "Smartphone",
+        "pos": "n.",
+        "meaning": "teléfono inteligente",
+        "ipa": {
+          "us": "/ˈsmɑrt.foʊn/",
+          "uk": "/ˈsmɑːt.fəʊn/"
+        },
+        "afh": "SMART-foun",
+        "say": "Smartphone.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Sm-* es un grupo: empieza con una /s/ larga y sin vocal, «sss-mart», nunca «es-mart»."
+          },
+          {
+            "type": "stress",
+            "text": "Sustantivo compuesto: el acento va en la primera parte, SMART. *Phone* se debilita."
+          },
+          {
+            "type": "vowel",
+            "text": "La o de *phone* es el diptongo «ou», no una o simple."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "My smartphone is almost out of battery."
+        }
+      },
+      {
+        "id": "screenshot",
+        "term": "Screenshot",
+        "pos": "n.",
+        "meaning": "captura de pantalla",
+        "ipa": {
+          "us": "/ˈskriːn.ʃɑt/",
+          "uk": "/ˈskriːn.ʃɒt/"
+        },
+        "afh": "SKRIIN-shat",
+        "say": "Screenshot.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Scr-* es /skr/: una /s/ larga y directa a la /k/. No digas «es-kriin»."
+          },
+          {
+            "type": "vowel",
+            "text": "*Screen* lleva /iː/, larga y tensa: «skriin», no «skrin» con i corta."
+          },
+          {
+            "type": "stress",
+            "text": "Compuesto: el acento cae en SCREEN."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "I took a screenshot of the error message."
+        }
+      },
+      {
+        "id": "notification",
+        "term": "Notification",
+        "pos": "n.",
+        "meaning": "notificación",
+        "ipa": {
+          "us": "/ˌnoʊ.t̬ɪ.fɪˈkeɪ.ʃən/",
+          "uk": "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/"
+        },
+        "afh": "nou-ti-fi-KEI-shen",
+        "say": "Notification.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "El acento principal va en KEI, la 4.ª sílaba. En español «notificación» lo lleva en CA, pero el patrón inglés es distinto."
+          },
+          {
+            "type": "consonant",
+            "text": "*-tion* se pronuncia /ʃən/, «shen». No digas «sion» ni «cion»."
+          },
+          {
+            "type": "flap",
+            "text": "En inglés americano, la primera t entre vocales suena como una r suave: «nou-ri-fi-KEI-shen»."
+          }
+        ],
+        "example": {
+          "speaker": "leo",
+          "text": "I turned off every notification except my messages."
+        }
+      },
+      {
+        "id": "storage",
+        "term": "Storage",
+        "pos": "n.",
+        "meaning": "almacenamiento",
+        "ipa": {
+          "us": "/ˈstɔːr.ɪdʒ/",
+          "uk": "/ˈstɔː.rɪdʒ/"
+        },
+        "afh": "STÓR-idy",
+        "say": "Storage.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*St-* sin e: «sss-tór». Es el mismo error de «estación» al revés: no añadas la vocal."
+          },
+          {
+            "type": "spelling",
+            "text": "*-age* aquí suena /ɪdʒ/, «idy». No es «eich»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba: STOR."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "My phone has almost no storage left."
+        }
+      },
+      {
+        "id": "sync",
+        "term": "Sync",
+        "pos": "v.",
+        "meaning": "sincronizar(se)",
+        "ipa": {
+          "us": "/sɪŋk/",
+          "uk": "/sɪŋk/"
+        },
+        "afh": "SINK",
+        "say": "Sync.",
+        "alerts": [
+          {
+            "type": "vowel",
+            "text": "La y es /ɪ/ corta: suena igual que *sink*. No digas «saink» ni «sinc» con vocal larga."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en /ŋk/: la n suena como en «banco». No añadas una e final."
+          },
+          {
+            "type": "spelling",
+            "text": "Se escribe *sync* como verbo y como sustantivo (*a sync error*)."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "My notes sync across all my devices."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Para qué sirve una herramienta: use … to",
+        "formula": "Sujeto + use + herramienta + to + verbo base",
+        "usage": "Para explicar la función de una app o un dispositivo. Con *for* hay que usar -ing: *I use it for sending messages*.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l11-cc-1a",
+            "text": "I {{use}} this app {{to track}} my sleep."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l11-cc-1b",
+            "text": "We {{use}} a shared calendar {{to plan}} the week."
+          }
+        ]
+      },
+      {
+        "title": "Cómo funciona algo: Zero Conditional",
+        "formula": "If / When + sujeto + presente, sujeto + presente",
+        "usage": "Para hechos que siempre se cumplen: qué pasa cada vez que haces algo con un aparato o una app.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l11-cc-2a",
+            "text": "{{If you tap}} the icon, the app {{opens}}."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l11-cc-2b",
+            "text": "{{When the storage is}} full, the phone {{stops}} saving photos."
+          }
+        ]
+      },
+      {
+        "title": "Con qué frecuencia: adverbios con presente simple",
+        "formula": "Sujeto + always / usually / often / sometimes / never + verbo · be + adverbio",
+        "usage": "El adverbio va antes del verbo, pero después de *be*: *I usually check…*, *My phone is always on silent*.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l11-cc-3a",
+            "text": "I {{usually check}} my email twice a day."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l11-cc-3b",
+            "text": "My phone {{is always}} on silent."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Will en el Zero Conditional",
+        "text": "«Si pulsas, se abrirá» invita a colocar un futuro. Para hechos generales, usa presente en las dos mitades.",
+        "wrong": "If you will tap the icon, the app will open.",
+        "right": "If you tap the icon, the app opens."
+      },
+      {
+        "title": "La -s de la 3.ª persona",
+        "text": "En el resultado el sujeto suele ser *it*, *the app*, *the screen*: el verbo lleva -s.",
+        "wrong": "If the battery is low, the screen get darker.",
+        "right": "If the battery is low, the screen gets darker."
+      },
+      {
+        "title": "For + infinitivo",
+        "text": "«Para enviar» se dice *to send*. *For* se combina con -ing: *for sending*, nunca con el infinitivo.",
+        "wrong": "I use this app for to send messages.",
+        "right": "I use this app to send messages. / I use this app for sending messages."
+      },
+      {
+        "title": "Log in (verbo) frente a login (sustantivo)",
+        "text": "El verbo son dos palabras: *log in*. *Login* en una palabra es el sustantivo (*my login details*). Lo mismo con *back up* / *backup* y *set up* / *setup*.",
+        "wrong": "I login to my account every day.",
+        "right": "I log in to my account every day."
+      },
+      {
+        "title": "Epéntesis en screen y smartphone",
+        "text": "Por «estación» o «escáner», añadimos una /e/ delante de s + consonante. Empieza directamente con la /s/ alargada.",
+        "wrong": "«es-KRIIN», «es-MART-foun»",
+        "right": "/skriːn/ («sss-KRIIN»), /ˈsmɑrt.foʊn/ («sss-MART-foun»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you press this button, the screen ___ on.",
+      "options": [
+        "turns",
+        "will turn",
+        "turned"
+      ],
+      "answer": 0,
+      "explain": "Zero Conditional: presente en las dos mitades, con la -s de *turns*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "I use my phone ___ my steps.",
+      "options": [
+        "for count",
+        "to count",
+        "counting"
+      ],
+      "answer": 1,
+      "explain": "*Use … to* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "When the battery ___ low, the phone warns you.",
+      "options": [
+        "will be",
+        "is",
+        "was"
+      ],
+      "answer": 1,
+      "explain": "Hecho general → presente tras *when*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "If you don't ___ up your files, you can lose them.",
+      "accept": [
+        "back"
+      ],
+      "explain": "*Back up* = hacer una copia de seguridad."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "I",
+        "use",
+        "this",
+        "app",
+        "to",
+        "track",
+        "my",
+        "sleep"
+      ],
+      "answer": "I use this app to track my sleep",
+      "explain": "*Use … to* + verbo base."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "The",
+        "app",
+        "opens",
+        "if",
+        "you",
+        "tap",
+        "the",
+        "icon"
+      ],
+      "answer": "The app opens if you tap the icon",
+      "explain": "Si *if* va en medio, no hace falta coma."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "If you will tap the icon, the app opens.",
+      "accept": [
+        "If you tap the icon, the app opens."
+      ],
+      "explain": "Sin *will* tras *if*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "I use this app for to send messages.",
+      "accept": [
+        "I use this app to send messages.",
+        "I use this app for sending messages."
+      ],
+      "explain": "*To* + verbo, o *for* + -ing."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "I login to my account every day.",
+      "accept": [
+        "I log in to my account every day."
+      ],
+      "explain": "El verbo es *log in*, en dos palabras."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué parte de *smartphone* lleva el acento?",
+      "word": "smartphone",
+      "syllables": [
+        "smart",
+        "phone"
+      ],
+      "answer": 0,
+      "audioRef": "l11-ph-smartphone-us",
+      "explain": "**SMART**-phone: sustantivo compuesto, acento en la primera parte."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *notification* lleva el acento principal?",
+      "word": "notification",
+      "syllables": [
+        "no",
+        "ti",
+        "fi",
+        "ca",
+        "tion"
+      ],
+      "answer": 3,
+      "audioRef": "l11-ph-notification-us",
+      "explain": "no-ti-fi-**CA**-tion (/keɪ/): acento en la 4.ª sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "alex",
+      "audio": "l11-dict-1",
+      "text": "When I get a notification, I check it right away.",
+      "explain": "Zero Conditional con *when*: presente + presente."
+    }
+  ],
+  "task": {
+    "title": "Tu rutina digital",
+    "format": "voice",
+    "scenario": "Un compañero nuevo de tu clase de inglés te pregunta cómo usas el móvil y las apps cada día. Escribe (o graba) tu respuesta.",
+    "brief": "Describe your daily digital routine to a new classmate.",
+    "steps": [
+      "Di qué apps usas y para qué sirven (*I use … to…*).",
+      "Di con qué frecuencia las abres (*I usually / always / never…*).",
+      "Explica cómo funciona algo con un Zero Conditional (*If I turn on…, my phone…*).",
+      "Cuenta algo que haces para cuidar tus datos (*I back up…*) y algo que quieres cambiar (*I want to reduce my screen time*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "I use ___ to ___.",
+      "I usually / always / never ___ .",
+      "If I ___, my phone ___ .  /  When I ___, I ___ .",
+      "I back up my ___ every ___ .",
+      "I want to reduce my ___ ."
+    ],
+    "chunks": [
+      {
+        "label": "use … to",
+        "re": "\\b(use|uses|using)\\b[^.!?]{0,40}\\bto\\s+[a-z]+"
+      },
+      {
+        "label": "frecuencia",
+        "re": "\\b(always|usually|often|sometimes|never|rarely|every (day|week|morning|night|sunday))\\b"
+      },
+      {
+        "label": "Zero Conditional",
+        "re": "\\b(if|when)\\b[^.!?,]{3,50},\\s*\\w+"
+      },
+      {
+        "label": "back up / sync / turn on",
+        "re": "\\b(back(s|ed)? up|sync(s|ed)?|turn(s|ed)? (on|off)|log(s|ged)? in)\\b"
+      },
+      {
+        "label": "screen time / notifications",
+        "re": "\\b(screen time|notifications?|storage|battery)\\b"
+      }
+    ],
+    "checks": [
+      "ifWill",
+      "forToInfinitive",
+      "loginVerb",
+      "proDrop",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: una herramienta de trabajo en registro formal",
+      "brief": "Describe a work tool in two formal sentences.",
+      "frames": [
+        "I rely on ___ to ___.",
+        "The application ___ automatically whenever ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l11-task-model",
+          "text": "Hi, I'm Alex. {{I use}} a calendar app {{to plan}} my week, and I {{usually}} check my messages twice a day. {{When I get}} a notification, I read it at once, but {{if I turn on}} Do Not Disturb, my phone stays silent. I {{back up}} my photos every Sunday, so {{if I lose}} my phone, I don't lose them. My screen time is too high, so this month I'm trying to reduce it.",
+          "label": "Rutina digital (neutro)",
+          "notes": [
+            "Zero Conditional: *when I get… I read*, *if I turn on… stays*. Presente en las dos mitades y -s en *stays*.",
+            "*I use … to plan*: para qué sirve la herramienta."
+          ]
+        },
+        {
+          "speaker": "george",
+          "audio": "l11-task-formal",
+          "text": "I {{rely on}} a task-management application {{to organise}} my daily workload. The application {{synchronises}} my data automatically {{whenever}} it is connected to the internet.",
+          "label": "Herramienta de trabajo (formal)",
+          "notes": [
+            "*Rely on … to* es la versión formal de *use … to*. *Whenever* = cada vez que.",
+            "Ortografía británica: *organise*, *synchronises*."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste presente simple en las dos partes del *if / when* (sin *will*)?",
+      "¿Pusiste la -s en *he / she / it* (*the app opens*)?",
+      "¿Usaste *to* + verbo (no *for to*) para decir para qué sirve algo?",
+      "¿Escribiste *log in* (verbo) y no *login*?",
+      "¿Todas tus oraciones tienen sujeto explícito?"
+    ]
+  }
+}
