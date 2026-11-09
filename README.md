@@ -6,18 +6,38 @@ App web de autoaprendizaje para la Banda B del MCER (270 horas, de B1.1 a B2.2).
 - **Módulo 1 completo** (B1.1 · *Personal Life, Routines & Current Projects*): 5 lecciones de 1 hora y un repaso del módulo.
 - **233 audios** generados con voces neuronales, guardados en `audio/b1-1/m01/` y servidos por la propia app (también sin conexión).
 
-## Abrir la app
+## Ejecutar la app
 
-La app es estática (HTML, CSS y JavaScript sin dependencias ni compilación). Necesita servirse por HTTP porque carga el contenido en JSON:
+Es una app estática: HTML, CSS y JavaScript sin dependencias ni paso de compilación. Todas las rutas del proyecto son relativas, así que los mismos archivos funcionan igual en los tres entornos de abajo, estén en la raíz de un dominio o bajo una subruta. Necesita servirse por HTTP (no abrir `index.html` con doble clic) porque carga el contenido como JSON.
+
+### En local
 
 ```bash
+python3 tools/serve.py          # sirve en http://localhost:8000 (o el siguiente puerto libre) y abre el navegador
+# o, el clásico, si prefieres no usar el script:
 python3 -m http.server 8000
-# abre http://localhost:8000
 ```
 
-### Publicarla en GitHub Pages
+`tools/serve.py` desactiva la caché del navegador en cada recarga (para no ver una lección o un audio desactualizados mientras editas) y abre la pestaña automáticamente. La grabación de voz y la instalación como PWA funcionan en `localhost`; la descarga de audios para uso sin conexión y el modo offline del service worker solo se activan en un origen HTTPS real (GitHub Pages o Netlify), no en local.
 
-El flujo `.github/workflows/pages.yml` valida el contenido y publica la app al hacer push a `main`. Solo hay que activarlo una vez en **Settings → Pages → Build and deployment → Source: GitHub Actions**. Una vez publicada, se puede instalar en el móvil como app (PWA) y descargar los audios del módulo para usarlos sin conexión.
+### GitHub Pages
+
+El flujo `.github/workflows/pages.yml` valida el contenido y publica la app al hacer push a `main`. Pasos de activación, una sola vez:
+
+1. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+2. Al activar Pages por primera vez, GitHub crea un entorno `github-pages` y lo restringe automáticamente a la rama que era la rama por defecto del repositorio en ese momento. Si luego publicas desde otra rama (por ejemplo, si cambias la rama por defecto a `main` más tarde), ese despliegue se rechazará en segundos con un entorno que nunca llega a ejecutar ningún paso. Para permitir `main`: **Settings → Environments → `github-pages` → Deployment branches and tags → Add deployment branch or tag rule → `main`.** Esto es más fiable que cambiar la rama por defecto del repositorio, que en algunos navegadores móviles puede fallar con "Could not change default branch".
+3. Lanza la publicación una vez desde **Actions → Publicar la app en GitHub Pages → Run workflow**, eligiendo `main`.
+
+La URL queda en `https://<usuario>.github.io/<repositorio>/`. Con Pages, la grabación de voz y la descarga de audios para uso sin conexión ya funcionan, y la app se puede instalar en el móvil como PWA.
+
+### Netlify
+
+No hace falta ninguna configuración manual: `netlify.toml` ya trae todo lo necesario (sin comando de build, directorio de publicación en la raíz, cabeceras de caché). Dos formas de desplegar:
+
+- **Conectando el repositorio:** en Netlify, *Add new site → Import an existing project*, elige el repositorio; Netlify lee `netlify.toml` y despliega sin pedir nada más. Cada push a la rama que elijas se publica solo.
+- **Arrastrando la carpeta:** en [app.netlify.com/drop](https://app.netlify.com/drop), arrastra la carpeta del proyecto. Útil para una prueba rápida sin conectar GitHub.
+
+A diferencia de GitHub Pages, Netlify sirve el sitio en la raíz del dominio y no tiene el problema de rama por defecto / entorno restringido, así que publicar desde `main` funciona desde el primer despliegue.
 
 ## Qué incluye cada lección
 
@@ -65,11 +85,14 @@ El generador lee los clips directamente del contenido (`audio` + `speaker` + `te
 
 ```
 index.html, sw.js, manifest.webmanifest   App (PWA)
+netlify.toml                              Config de despliegue en Netlify (sin build)
+.github/workflows/pages.yml               Config de despliegue en GitHub Pages
 assets/css, assets/js                     Interfaz (módulos ES, sin dependencias)
 content/course.json                       Estructura completa de la Banda B
 content/cast.json                         Reparto de voces
 content/b1-1/m01/                         Módulo 1: module.json, l01–l05.json, review.json
 audio/b1-1/m01/                           233 MP3 + manifest.json
+tools/serve.py                            Servidor local de desarrollo
 tools/                                    Generación y validación de audio y contenido
 docs/ESTRUCTURA_BANDA_B.md                Estructura del curso (generada desde course.json)
 ```
