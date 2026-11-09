@@ -1,0 +1,768 @@
+{
+  "id": "l16",
+  "n": 16,
+  "title": "Reporting Common Glitches & Household / Tech Issues",
+  "titleEs": "Reportar fallos comunes en casa y con la tecnología",
+  "minutes": 60,
+  "summary": "Describe fallos con *keep + -ing* y explica por qué son un problema con *too* y *(not) enough*.",
+  "canDo": [
+    "Puedo describir un fallo que se repite con *keep + -ing* (*It keeps crashing*).",
+    "Puedo explicar por qué algo es un problema con *too* + adjetivo y *(not)* + adjetivo + *enough*.",
+    "Puedo decir que falta algo con *(not) enough* + sustantivo (*not enough memory*).",
+    "Puedo pronunciar *crashed* y *fixed* en una sola sílaba y *wrong* sin la w."
+  ],
+  "focus": {
+    "grammar": "too + adjetivo · (not) + adjetivo + enough · (not) enough + sustantivo · keep + -ing · has stopped working",
+    "lexis": "keep crashing, stop working, act up, be down, glitch, out of order, too slow, not strong enough, report a fault",
+    "afh": "Grupos consonánticos finales con -ed (crashed, fixed) · w muda en wrong · gl- y -tch en glitch"
+  },
+  "warmup": "Piensa en el último aparato que te falló: el wifi, el portátil, la lavadora… ¿Qué hacía exactamente? ¿Era un fallo puntual o se repetía?",
+  "lexical": {
+    "scenario": {
+      "format": "text",
+      "title": "Un mensaje a la administración del edificio",
+      "context": "Sarah escribe al administrador de su edificio, el señor Lee, para reportar varios fallos de su apartamento.",
+      "speaker": "sarah",
+      "to": "Mr Lee, administración del edificio",
+      "audio": "l16-scn",
+      "text": "Hi Mr Lee, I'm Sarah from apartment 4B. {{I'd like to report}} a couple of problems. Since Monday, the Wi-Fi in the building {{keeps dropping}}, and the signal {{isn't strong enough}} for video calls. Also, the hallway light {{keeps flickering}}, and the washing machine in the laundry room {{has stopped working}}. Honestly, I think it's {{too old}} to repair. Could someone take a look this week? Thanks, Sarah",
+      "tts": "Hi Mister Lee, I'm Sarah from apartment four B. I'd like to report a couple of problems. Since Monday, the Wi-Fi in the building keeps dropping, and the signal isn't strong enough for video calls. Also, the hallway light keeps flickering, and the washing machine in the laundry room has stopped working. Honestly, I think it's too old to repair. Could someone take a look this week? Thanks, Sarah"
+    },
+    "dialogue": {
+      "title": "Un portátil que no aguanta",
+      "context": "Leo le cuenta a Maya que su portátil vuelve a fallar.",
+      "lines": [
+        {
+          "speaker": "leo",
+          "audio": "l16-dlg-01",
+          "text": "Ugh, my laptop {{keeps crashing}}. I lost half my essay this morning!"
+        },
+        {
+          "speaker": "maya",
+          "audio": "l16-dlg-02",
+          "text": "Again? What happened this time?"
+        },
+        {
+          "speaker": "leo",
+          "audio": "l16-dlg-03",
+          "text": "I opened a lot of tabs, and it just froze. Then the screen went black."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l16-dlg-04",
+          "text": "Your laptop is {{too old}} for all those programs. It {{doesn't have enough memory}}."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l16-dlg-05",
+          "text": "I know, but a new one is {{too expensive}} right now. I can't afford it."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l16-dlg-06",
+          "text": "Have you updated it recently? Maybe the software is {{out of date}}."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l16-dlg-07",
+          "text": "No... And the battery {{doesn't last long enough}} either. It dies after an hour."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l16-dlg-08",
+          "text": "Okay, let's take it to the repair shop. If they can fix it, you won't need a new one."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué le pasa al portátil de Leo?",
+        "options": [
+          "Se bloquea una y otra vez",
+          "No enciende",
+          "Se le cayó al suelo"
+        ],
+        "answer": 0,
+        "explain": "*My laptop keeps crashing.* (*keep + -ing* = no para de…)."
+      },
+      {
+        "q": "¿Por qué Leo no compra un portátil nuevo?",
+        "options": [
+          "Porque no le gustan los modelos nuevos",
+          "Porque es demasiado caro",
+          "Porque el suyo es nuevo"
+        ],
+        "answer": 1,
+        "explain": "*A new one is too expensive right now.*"
+      },
+      {
+        "q": "¿Qué problema tiene la batería?",
+        "options": [
+          "Se calienta demasiado",
+          "No carga",
+          "No dura lo suficiente"
+        ],
+        "answer": 2,
+        "explain": "*The battery doesn't last long enough. It dies after an hour.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, familia, chats de grupo.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l16-reg-c1",
+            "text": "My phone's acting up again. It's so annoying!",
+            "note": "*Act up* = fallar, dar guerra (coloquial)."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l16-reg-c2",
+            "text": "My battery's dead, and the charger's broken too. Great.",
+            "note": "*Dead* = sin batería. *Great* con ironía = «genial», «lo que faltaba»."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Vecinos, compañeros, soporte técnico, mensajes cotidianos.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l16-reg-n1",
+            "text": "My laptop keeps crashing when I open the video app.",
+            "note": "*Keep + -ing* para un fallo que se repite."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l16-reg-n2",
+            "text": "The signal isn't strong enough for video calls.",
+            "note": "*Not* + adjetivo + *enough*: insuficiente."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l16-reg-n3",
+            "text": "The printer has stopped working.",
+            "note": "*Has stopped working*: el fallo empezó antes y sigue ahora."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Reclamaciones por escrito, avisos oficiales, administración.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l16-reg-f1",
+            "text": "I am writing to report a fault with the heating system.",
+            "note": "*Report a fault* = notificar una avería. *Fault* es muy británico."
+          },
+          {
+            "speaker": "george",
+            "audio": "l16-reg-f2",
+            "text": "We have received several reports of intermittent connection problems.",
+            "note": "*Intermittent* = que va y viene."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "keep + -ing (keeps crashing)",
+        "es": "no parar de (bloquearse)",
+        "register": "neutral"
+      },
+      {
+        "en": "stop working",
+        "es": "dejar de funcionar",
+        "register": "neutral"
+      },
+      {
+        "en": "act up",
+        "es": "fallar, dar guerra",
+        "register": "casual"
+      },
+      {
+        "en": "be dead (a battery)",
+        "es": "estar sin batería",
+        "register": "casual"
+      },
+      {
+        "en": "too slow / too old",
+        "es": "demasiado lento / viejo",
+        "register": "neutral"
+      },
+      {
+        "en": "not … enough (not strong enough)",
+        "es": "no lo bastante (fuerte)",
+        "register": "neutral"
+      },
+      {
+        "en": "out of order",
+        "es": "averiado, fuera de servicio",
+        "register": "neutral"
+      },
+      {
+        "en": "report a fault",
+        "es": "notificar una avería",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "My phone's acting up again.",
+        "answer": "casual",
+        "explain": "*Act up* es coloquial."
+      },
+      {
+        "text": "The printer has stopped working.",
+        "answer": "neutral",
+        "explain": "Descripción clara y estándar."
+      },
+      {
+        "text": "I am writing to report a fault with the heating system.",
+        "answer": "formal",
+        "explain": "*I am writing to report* y *fault* son propios de una carta formal."
+      },
+      {
+        "text": "My battery's dead. Great.",
+        "answer": "casual",
+        "explain": "Ironía y frases cortas: registro coloquial."
+      },
+      {
+        "text": "We have received several reports of intermittent connection problems.",
+        "answer": "formal",
+        "explain": "Vocabulario de aviso oficial: *received reports*, *intermittent*."
+      },
+      {
+        "text": "The signal isn't strong enough for video calls.",
+        "answer": "neutral",
+        "explain": "Explicación precisa, válida en cualquier contexto."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Sarah describe tres problemas de su apartamento. Fíjate en dónde van *too* y *enough* respecto al adjetivo o al sustantivo.",
+    "speaker": "ryan",
+    "audio": "l16-gd",
+    "text": "The Wi-Fi is {{too slow}} for video calls, and the signal {{isn't strong enough}} in my bedroom. There {{aren't enough}} outlets in the kitchen, either.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué expresan *too slow* y *isn't strong enough*?",
+        "options": [
+          "*Too* indica exceso (más de lo aceptable); *not … enough*, falta (menos de lo necesario).",
+          "Las dos significan «muy».",
+          "*Too* es un elogio y *not … enough*, una queja."
+        ],
+        "answer": 0,
+        "explain": "Los dos describen un problema: el wifi tiene «demasiada» lentitud y la señal «no llega» al nivel necesario."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Dónde va *enough* con un adjetivo y con un sustantivo?",
+        "options": [
+          "Detrás del adjetivo (*strong enough*) y delante del sustantivo (*enough outlets*).",
+          "Siempre delante.",
+          "Siempre detrás."
+        ],
+        "answer": 0,
+        "explain": "*Strong enough* (adjetivo + *enough*) frente a *enough outlets* (*enough* + sustantivo)."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Vas a reportar el problema a la administración. ¿Qué frase es más precisa y educada?",
+        "options": [
+          "The signal isn't strong enough for video calls in my apartment.",
+          "The Wi-Fi is very bad.",
+          "Your Wi-Fi is too terrible."
+        ],
+        "answer": 0,
+        "explain": "Dice qué falla y para qué no sirve. *Very bad* es vago y *too terrible* suena agresivo."
+      }
+    ],
+    "rule": {
+      "points": [
+        "*Too* + adjetivo = exceso, más de lo aceptable: *too slow*, *too expensive*.",
+        "*(Not)* + adjetivo + *enough* = suficiente o insuficiente: *(not) strong enough*.",
+        "*(Not) enough* + sustantivo = (no) hay suficiente: *enough memory*, *enough outlets*.",
+        "Para decir para qué: *too slow for video calls* (*for* + sustantivo) / *not fast enough to stream* (*to* + verbo)."
+      ],
+      "formulas": [
+        "too + adjetivo (+ for + sustantivo / + to + verbo)",
+        "(not) + adjetivo + enough",
+        "(not) enough + sustantivo"
+      ],
+      "note": "«Muy» no es *too*: *very* describe y *too* se queja. *It's very fast* es una buena noticia; *it's too fast*, un problema. Y «demasiado lento» nunca es *too much slow*."
+    }
+  },
+  "phonetics": {
+    "intro": "Al reportar fallos aparecen muchos pasados en -ed. El hispanohablante tiende a añadir una vocal al final (*fix-ed*, *crash-ed*) o a perder consonantes del grupo final. Además, hay letras que no se pronuncian, como la w de *wrong*.",
+    "items": [
+      {
+        "id": "glitch",
+        "term": "Glitch",
+        "pos": "n.",
+        "meaning": "fallo técnico menor",
+        "ipa": {
+          "us": "/ɡlɪtʃ/",
+          "uk": "/ɡlɪtʃ/"
+        },
+        "afh": "GLICH",
+        "say": "Glitch.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "*Gl-* es un grupo: g y l juntas, sin vocal entre ellas. Nada de «gue-lich»."
+          },
+          {
+            "type": "vowel",
+            "text": "La i es /ɪ/, corta y relajada."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en /tʃ/, como la «ch» española, pero sin añadir una e al final: «glich», no «gliche»."
+          }
+        ],
+        "example": {
+          "speaker": "leo",
+          "text": "There's a weird glitch in this app."
+        }
+      },
+      {
+        "id": "crashed",
+        "term": "Crashed",
+        "pos": "v.",
+        "meaning": "se colgó, se bloqueó",
+        "ipa": {
+          "us": "/kræʃt/",
+          "uk": "/kræʃt/"
+        },
+        "afh": "KRASHT",
+        "say": "Crashed.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "Tras /ʃ/, -ed suena /t/: una sola sílaba, «krasht». Nunca «kra-shed»."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en el grupo /ʃt/: dos consonantes seguidas, sin vocal de apoyo."
+          },
+          {
+            "type": "vowel",
+            "text": "La a es /æ/: abierta, entre la a y la e españolas."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "My laptop crashed in the middle of a call."
+        }
+      },
+      {
+        "id": "fixed",
+        "term": "Fixed",
+        "pos": "v.",
+        "meaning": "arregló, arreglado",
+        "ipa": {
+          "us": "/fɪkst/",
+          "uk": "/fɪkst/"
+        },
+        "afh": "FIKST",
+        "say": "Fixed.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "La x ya es /ks/, así que -ed suena /t/: «fikst», una sola sílaba. Nada de «fik-sed»."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en tres consonantes, /kst/. Si dejas caer la t, suena a *fix* (presente)."
+          },
+          {
+            "type": "vowel",
+            "text": "La i es /ɪ/ corta: no «fiikst»."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "The technician fixed the washing machine this morning."
+        }
+      },
+      {
+        "id": "wrong",
+        "term": "Wrong",
+        "pos": "adj.",
+        "meaning": "mal, incorrecto",
+        "ipa": {
+          "us": "/rɔŋ/",
+          "uk": "/rɒŋ/"
+        },
+        "afh": "RONG",
+        "say": "Wrong.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La w es muda: «rong». Pasa lo mismo en *write*, *wrap* y *wrist*."
+          },
+          {
+            "type": "consonant",
+            "text": "La r inglesa no vibra: la lengua se curva hacia atrás sin tocar el paladar."
+          },
+          {
+            "type": "consonant",
+            "text": "*-ng* final es un solo sonido nasal, /ŋ/: no pronuncies una g al final («rong-g»)."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "Something's wrong with the washing machine."
+        }
+      },
+      {
+        "id": "doesnt-work",
+        "term": "Doesn't work",
+        "pos": "expr.",
+        "meaning": "no funciona",
+        "ipa": {
+          "us": "/ˌdʌz.ənt ˈwɝk/",
+          "uk": "/ˌdʌz.ənt ˈwɜːk/"
+        },
+        "afh": "dá-zent-UÉRK",
+        "say": "Doesn't work.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La s de *doesn't* es /z/ sonora, con zumbido: «dá-zent», no «dá-sent»."
+          },
+          {
+            "type": "linking",
+            "text": "En el habla rápida, la t de *doesn't* casi no se oye delante de *work*: «dázen-uérk»."
+          },
+          {
+            "type": "vowel",
+            "text": "*Work* lleva una vocal con r, /ɝ/: no digas «uork» con o."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "The printer doesn't work again."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Exceso: too + adjetivo",
+        "formula": "too + adjetivo (+ for + sustantivo / + to + verbo)",
+        "usage": "Para decir que algo supera lo aceptable y por eso es un problema.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l16-cc-1a",
+            "text": "The Wi-Fi is {{too slow}} for video calls."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l16-cc-1b",
+            "text": "A new laptop is {{too expensive}} right now."
+          }
+        ]
+      },
+      {
+        "title": "Insuficiente: (not) + adjetivo + enough / (not) enough + sustantivo",
+        "formula": "(not) + adjetivo + enough · (not) enough + sustantivo",
+        "usage": "Para decir que algo no llega al nivel necesario o que falta un recurso.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l16-cc-2a",
+            "text": "The signal {{isn't strong enough}}."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l16-cc-2b",
+            "text": "It {{doesn't have enough memory}}."
+          }
+        ]
+      },
+      {
+        "title": "Fallos repetidos y estado actual: keep + -ing / has stopped",
+        "formula": "Sujeto + keep(s) + verbo -ing · Sujeto + has / have stopped + verbo -ing",
+        "usage": "*Keep + -ing* = el fallo se repite una y otra vez. *Has stopped working* = dejó de funcionar y sigue así.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l16-cc-3a",
+            "text": "My laptop {{keeps crashing}}."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l16-cc-3b",
+            "text": "The printer {{has stopped working}}."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Too much + adjetivo",
+        "text": "«Demasiado lento» es *too slow*. *Too much* solo va con sustantivos incontables (*too much noise*).",
+        "wrong": "The Wi-Fi is too much slow.",
+        "right": "The Wi-Fi is too slow."
+      },
+      {
+        "title": "Enough delante del adjetivo",
+        "text": "Con adjetivos, *enough* va detrás: «lo bastante fuerte» = *strong enough*.",
+        "wrong": "The signal isn't enough strong.",
+        "right": "The signal isn't strong enough."
+      },
+      {
+        "title": "Very frente a too",
+        "text": "*Too* siempre expresa un problema. Para elogiar algo, usa *very* o *really*.",
+        "wrong": "The new phone is too good, I love it!",
+        "right": "The new phone is really good. I love it!"
+      },
+      {
+        "title": "Keep + infinitivo",
+        "text": "«No para de bloquearse» = *keeps crashing*. *Keep* se combina con -ing, nunca con *to*.",
+        "wrong": "My laptop keeps to crash.",
+        "right": "My laptop keeps crashing."
+      },
+      {
+        "title": "-ed con sílaba extra",
+        "text": "Tras /ʃ/, /s/ o /k/, -ed suena /t/ y no añade sílaba. *Crashed* y *fixed* tienen una sola sílaba.",
+        "wrong": "«KRA-shed», «FIK-sed»",
+        "right": "/kræʃt/ («krasht»), /fɪkst/ («fikst»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "The Wi-Fi is ___ slow for video calls.",
+      "options": [
+        "too",
+        "very much",
+        "enough"
+      ],
+      "answer": 0,
+      "explain": "Exceso → *too* + adjetivo."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el orden correcto.",
+      "text": "The signal isn't ___ to make video calls.",
+      "options": [
+        "enough strong",
+        "strong enough",
+        "too strong"
+      ],
+      "answer": 1,
+      "explain": "*Enough* va detrás del adjetivo."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el orden correcto.",
+      "text": "My phone doesn't have ___ to install the update.",
+      "options": [
+        "enough space",
+        "space enough",
+        "too space"
+      ],
+      "answer": 0,
+      "explain": "*Enough* va delante del sustantivo."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "My laptop keeps ___ when I open the app.",
+      "options": [
+        "to crash",
+        "crashing",
+        "crash"
+      ],
+      "answer": 1,
+      "explain": "*Keep* + -ing."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "This laptop is ___ old to run the new software.",
+      "accept": [
+        "too"
+      ],
+      "explain": "*Too old to run*: demasiado viejo para…"
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "The battery doesn't last long ___.",
+      "accept": [
+        "enough"
+      ],
+      "explain": "*Long enough*: adjetivo + *enough*."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "The",
+        "printer",
+        "has",
+        "stopped",
+        "working"
+      ],
+      "answer": "The printer has stopped working",
+      "explain": "*Has stopped working*: dejó de funcionar y sigue así."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "The",
+        "screen",
+        "isn't",
+        "bright",
+        "enough"
+      ],
+      "answer": "The screen isn't bright enough",
+      "explain": "*Not* + adjetivo + *enough*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "The Wi-Fi is too much slow.",
+      "accept": [
+        "The Wi-Fi is too slow."
+      ],
+      "explain": "Con adjetivos, *too* sin *much*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "The signal isn't enough strong.",
+      "accept": [
+        "The signal isn't strong enough.",
+        "The signal is not strong enough."
+      ],
+      "explain": "*Strong enough*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "My phone keeps to freeze.",
+      "accept": [
+        "My phone keeps freezing."
+      ],
+      "explain": "*Keep* + -ing."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "alex",
+      "audio": "l16-dict-1",
+      "text": "My laptop keeps crashing, and the battery doesn't last long enough.",
+      "explain": "*Keeps crashing* + *not* + adjetivo + *enough*."
+    }
+  ],
+  "task": {
+    "title": "Reporta los fallos de tu casa",
+    "format": "text",
+    "scenario": "En tu casa fallan dos o tres cosas: el wifi, una luz, un electrodoméstico… Escribe un mensaje a la administración del edificio (o a la persona que te alquila la vivienda) para reportarlas.",
+    "brief": "Report two or three household or tech problems to your building manager.",
+    "steps": [
+      "Saluda, di quién eres y para qué escribes (*I'm … from apartment… I'd like to report…*).",
+      "Describe un fallo que se repite (*keeps + -ing*) y desde cuándo (*since…*).",
+      "Explica por qué es un problema con *too* + adjetivo o *(not) … enough*.",
+      "Añade otro fallo (*has stopped working*), pide que alguien lo revise y despídete."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi ___, I'm ___ from apartment ___. I'd like to report ___.",
+      "Since ___, the ___ keeps ___ing.",
+      "The ___ is too ___ / isn't ___ enough for ___.",
+      "Also, the ___ has stopped working.",
+      "Could someone take a look ___? Thanks, ___"
+    ],
+    "chunks": [
+      {
+        "label": "I'd like to report",
+        "re": "\\b(i'd like to report|i would like to report|i'm writing to report|i am writing to report)\\b"
+      },
+      {
+        "label": "keep + -ing",
+        "re": "\\bkeeps?\\s+[a-z]+ing\\b"
+      },
+      {
+        "label": "too + adjetivo",
+        "re": "\\btoo\\s+[a-z]+"
+      },
+      {
+        "label": "enough",
+        "re": "\\benough\\b"
+      },
+      {
+        "label": "stopped working / doesn't work",
+        "re": "\\b(stopped working|isn't working|doesn't work|is down|out of order)\\b"
+      },
+      {
+        "label": "Could someone…?",
+        "re": "\\bcould (someone|you|somebody)\\b"
+      }
+    ],
+    "checks": [
+      "tooMuchAdj",
+      "enoughBeforeAdj",
+      "keepTo",
+      "doesntS",
+      "sinceDuration",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: la versión formal",
+      "brief": "Write one formal sentence to report a fault.",
+      "frames": [
+        "I am writing to report a fault with ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l16-task-model",
+          "text": "Hi Mr Lee, I'm Alex from apartment 2C. {{I'd like to report}} two problems. Since last week, the internet {{keeps disconnecting}}, especially in the evening. The connection {{isn't stable enough}} for my work calls. Also, the kitchen light {{has stopped working}}. I changed the bulb, but it's still {{too dark}} to cook at night, so I think the problem is the wiring. {{Could someone}} take a look this week? Thanks, Alex",
+          "tts": "Hi Mister Lee, I'm Alex from apartment two C. I'd like to report two problems. Since last week, the internet keeps disconnecting, especially in the evening. The connection isn't stable enough for my work calls. Also, the kitchen light has stopped working. I changed the bulb, but it's still too dark to cook at night, so I think the problem is the wiring. Could someone take a look this week? Thanks, Alex",
+          "label": "Mensaje a la administración (neutro)",
+          "notes": [
+            "*Keeps disconnecting* (fallo repetido) y *has stopped working* (estado actual).",
+            "*Isn't stable enough for…* y *too dark to cook*: por qué cada fallo es un problema."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l16-task-formal",
+          "text": "{{I am writing to report a fault}} with the heating system in flat 6. The radiators {{are not warm enough}}, and the boiler {{keeps switching off}}. I would be grateful if a technician could inspect it at your earliest convenience.",
+          "tts": "I am writing to report a fault with the heating system in flat six. The radiators are not warm enough, and the boiler keeps switching off. I would be grateful if a technician could inspect it at your earliest convenience.",
+          "label": "Notificación de avería (formal)",
+          "notes": [
+            "*Report a fault*, *I would be grateful if* y *at your earliest convenience* elevan el registro.",
+            "*Flat* es el término británico para «apartamento»."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste *too* + adjetivo, sin *much*?",
+      "¿Pusiste *enough* detrás del adjetivo y delante del sustantivo?",
+      "¿Usaste *keep* + -ing para los fallos que se repiten?",
+      "¿Usaste *since* con un punto de inicio y *for* con una duración?",
+      "¿Pediste ayuda con una pregunta cortés (*Could someone…?*)?"
+    ]
+  }
+}

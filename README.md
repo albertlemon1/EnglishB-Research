@@ -69,6 +69,7 @@ Cada voz está asignada a un registro y un contexto, para que el oído asocie la
 | Priya | `af_aoede` | CA | Registro neutro: nueva amiga de Sarah en el meetup (desde el Módulo 2) |
 | Oliver | `bm_fable` | UK | Registro neutro británico: organizador del meetup (desde el Módulo 2) |
 | Daniel | `bm_daniel` | UK | Registro formal: soporte técnico (TI), correos y llamadas (desde el Módulo 3) |
+| Grace | `af_nova` | US | Registro neutro: atención al cliente de una compañía de internet (desde el Módulo 4; audio aún sin generar) |
 
 ### Regenerar los audios
 
@@ -145,3 +146,20 @@ La ficha del Módulo 3 solo aporta los títulos de las lecciones, la gramática 
 - **Comprobaciones nuevas** en `checks.js`: `ifWill`, `forToInfinitive`, `loginVerb`, `couldTo`, `mindTo`, `noImperative`, `whyDontTo`, `uncountable`, `makeDoList`, `unlessNot`, `doubleNegative`, `onceWill`, `atTheEnd`, `afterOf` y `enterApp`. Se probaron con frases correctas e incorrectas.
 - **Revisión del audio**: PocketSphinx marcó cuatro clips. Dos eran de Leo (`am_puck`, la voz con peor WER del curso): *Got it! Do I type it here?* se cambió por *Okay, got it! Do I type the code here?* y *Don't forget to tap Save* por *…press Save*. Los otros dos (*Easy peasy…* y *Finally, confirm the code…* en voz UK) dieron el mismo error con otras voces: falsos positivos del reconocedor.
 - **Fonemas**: se comprobó con el fonemizador que los clips dicen lo que afirma el IPA (*sync* /sɪŋk/, *once* /wʌns/, la t suelta de *notification* y *settings* en EE. UU., *privacy* con /ɪ/ en UK). En *Turn off* se fuerza el acento principal en *off* para que el audio coincida con la alerta.
+
+## Módulos en borrador: primero el texto, el audio al final
+
+Desde el Módulo 4, los módulos se escriben y se publican en dos fases: primero el contenido y, al final, los audios de varios módulos de una vez.
+
+- En `course.json`, un módulo con `"status": "draft"` tiene sus textos completos, pero todavía no tiene audio. Cada clip conserva `audio` + `speaker` + `text` (y `tts` cuando hace falta), con IDs únicos, así que los botones de audio ya están en su sitio.
+- `check_content.py` valida los borradores igual que los publicados (JSON, hablantes, respuestas de los ejercicios, contracciones, unicidad de IDs), pero no exige los MP3 ni el manifiesto.
+- La app oculta los borradores, salvo que se abra con `?borrador` (por ejemplo, `…/index.html?borrador#m04`). En ese modo, el módulo muestra la etiqueta «Borrador · audio pendiente» y los botones de audio avisan de que el audio aún no existe.
+- Para publicar un borrador: genera el audio con `generate_audio.py`, pasa `qa_audio.py`, cambia el estado a `available` y vuelve a ejecutar `check_content.py`.
+
+## Notas del Módulo 4 (problemas prácticos, l16–l20) · borrador
+
+- **Gramática en espiral**: l16 *too / (not) enough* y *keep + -ing*; l17 First Conditional frente al Zero Conditional del Módulo 3, más *It says…*; l18 First Conditional para ofrecer y prometer, y *as soon as / when* + presente; l19 *will* (seguro) frente a *might* (posible) y *If that doesn't work…*; l20 *if / unless* con compromisos y Present Perfect + *since* (Módulo 2) para confirmar.
+- **AFH**: letras mudas (*wrong, should, receipt, half, doubt, hour*), grupos finales con -ed (*crashed, fixed, asked, replaced, switched off, plugged in, resolved, confirmed*) y acento sustantivo / verbo (*BREAKdown / break DOWN*, *REset / reSET*).
+- **Reparto**: George atiende en la tienda de electrónica (l18 y l20); Grace (`af_nova`), nueva, en la compañía de internet de Sarah (l20). El administrador del edificio de l16 (*Mr Lee*) solo aparece por escrito, para no asignar a George dos trabajos.
+- **Fonemas comprobados con misaki antes de generar el audio**: el fonemizador acentuaba *reset* en SET también como sustantivo, *broke down* en BROKE y leía *issue* en UK como /ˈɪʃjuː/. Para que el audio coincida con las alertas, se fuerzan los fonemas con `ttsUs` / `ttsUk` / `tts`.
+- **Comprobaciones nuevas** en `checks.js`: `tooMuchAdj`, `enoughBeforeAdj`, `keepTo`, `doesntS`, `explainMe`, `messageTells`, `askFor`, `returnMoney`, `mightTo`, `doubtsQuestions` y `aHour`, probadas con frases correctas e incorrectas y contra los modelos de tarea.

@@ -6,7 +6,9 @@ Contexto para retomar el proyecto en una sesión nueva. Léelo entero antes de t
 
 App de autoaprendizaje para hispanohablantes, Banda B del MCER: 270 h en cuatro subniveles (B1.1 60 h, B1.2 60 h, B2.1 75 h, B2.2 75 h), 54 módulos, 270 lecciones. La estructura completa está en `content/course.json` (fuente única); `docs/ESTRUCTURA_BANDA_B.md` se genera desde ahí.
 
-**Estado (2026-11-09):** publicados el Módulo 1 (l01–l05, 233 audios), el Módulo 2 (l06–l10, 248 audios) y el Módulo 3, «Everyday Technology & Digital Life» (l11–l15, 231 audios): los tres fusionados en `main` (PR #6 para el 3) y desplegados en GitHub Pages. **Siguiente: Módulo 4**, «Practical Problem-Solving & Daily Hassles» (dominio TD + WD, l16–l20; gramática: First Conditional y too / (not) enough; AFH: letras mudas y grupos consonánticos finales como *fixed*, *crashed*). Solo se genera un módulo cuando el usuario lo pide.
+**Estado (2026-11-09):** publicados con audio el Módulo 1 (l01–l05, 233 audios), el Módulo 2 (l06–l10, 248) y el Módulo 3 (l11–l15, 231), fusionados en `main` y desplegados en GitHub Pages. El Módulo 4, «Practical Problem-Solving & Daily Hassles» (l16–l20), tiene el texto completo y está en `"status": "draft"`: sus 235 clips están definidos, pero sin generar.
+
+**Plan de trabajo acordado con el usuario (desde el Módulo 4):** se escribe un módulo cada vez y se hace push al terminarlo. **Solo se crean los textos y el contenido**, con los huecos de audio ya puestos (`audio` + `speaker` + `text`, IDs únicos). **No se generan los audios** hasta que el usuario lo pida al final, para varios módulos a la vez. Cada módulo nuevo entra como `"status": "draft"`. **Siguiente: Módulo 5**, «Life Styles, Well-Being & Time Balance» (l21–l25; gramática: should / ought to / have to y adjetivo + enough; AFH: schwa en sílabas átonas, como *comfortable* o *vegetable*).
 
 El usuario escribe en español y revisa en el móvil. Responde en español neutro (nada de «vosotros», «os», «vuestra»).
 
@@ -24,7 +26,7 @@ Los documentos fuente (diseño curricular, ficha del Módulo 1 y estructura de B
 
 SPA estática: módulos ES sin dependencias y **sin paso de build**. Es una PWA con service worker.
 
-- Rutas hash: `#inicio`, `#ruta`, `#metodo`, `#m02`, `#m02-l06`, `#m02-l06-lexical`, `#m02-repaso`. La app es independiente del módulo: un módulo aparece al marcarlo `"status": "available"` en `course.json`.
+- Rutas hash: `#inicio`, `#ruta`, `#metodo`, `#m02`, `#m02-l06`, `#m02-l06-lexical`, `#m02-repaso`. La app es independiente del módulo: un módulo aparece al marcarlo `"status": "available"` en `course.json`. Los módulos `"draft"` (texto sin audio) solo se ven con `?borrador` (p. ej. `index.html?borrador#m04`); allí los botones de audio muestran «Audio pendiente».
 - `assets/js/`:
   - `data.js`: registro y carga a partir de `course.json`;
   - `views.js`: inicio, ruta, módulo, lección, repaso y método;
@@ -40,7 +42,7 @@ SPA estática: módulos ES sin dependencias y **sin paso de build**. Es una PWA 
 
 ## Contenido
 
-Rutas: `content/<subnivel>/<módulo>/`, con `module.json`, `lNN.json` (número **global** de lección) y `review.json`; audios en `audio/<subnivel>/<módulo>/` más `manifest.json`. **Usa `content/b1-1/m03/` como plantilla general** (el más reciente; no usa `tone`) y `m02/` cuando necesites tipos que el 3 no tiene: `intonation`, `variants` (tags con `tone`) y un modelo de tarea con diálogo (`lines[]`). El Módulo 1 es el más sencillo.
+Rutas: `content/<subnivel>/<módulo>/`, con `module.json`, `lNN.json` (número **global** de lección) y `review.json`; audios en `audio/<subnivel>/<módulo>/` más `manifest.json`. **Usa `content/b1-1/m04/` o `m03/` como plantilla general** (los más recientes; no usan `tone`; el 4 tiene `variants` sin tono para contrastes de acento) y `m02/` cuando necesites tipos que el 3 no tiene: `intonation`, `variants` (tags con `tone`) y un modelo de tarea con diálogo (`lines[]`). El Módulo 1 es el más sencillo.
 
 Esquema de lección: `id`, `n`, `title`, `titleEs`, `minutes`, `summary`, `canDo[]`, `focus{grammar, lexis, afh}`, `warmup`, más los bloques:
 
@@ -62,7 +64,7 @@ Esquema de lección: `id`, `n`, `title`, `titleEs`, `minutes`, `summary`, `canDo
 Reglas de redacción:
 
 - Marcado en línea: `{{chunk}}` resalta, `**negrita**`, `*inglés dentro del español*`. **Nunca dejes espacio antes de una contracción**: `I{{'ve lived}}`, no `I {{'ve lived}}` (el validador lo detecta).
-- Los IDs de audio son **únicos en todo el curso**. Los del repaso llevan prefijo de módulo (`m04-rv-…` en el próximo).
+- Los IDs de audio son **únicos en todo el curso**. Los del repaso llevan prefijo de módulo (`m05-rv-…` en el próximo).
 - Cualquier clip: objeto con `speaker` + `audio` + `text`; `tts` (opcional) es el texto que se sintetiza, con fonemas forzados `[word](/fonemas/)` en notación misaki; `tone: "rise"|"fall"` solo en clips con question tag.
 - Repasa el material fuente con ojo crítico. En los módulos 1 y 2 se corrigieron IPA, sílabas, ejemplos agramaticales y falsos amigos mal etiquetados (ver «Correcciones» en el README). Documenta las correcciones que hagas.
 - Nombres de personajes: evita los que el fonemizador lea mal («Inês» se leyó «circumflex»). Si hace falta, añade el nombre al `LEXICON` de `generate_audio.py`. Revisa también la coherencia de las biografías entre lecciones (fechas, años).
@@ -84,8 +86,9 @@ Cada voz se asocia a un registro para que el oído relacione voz y formalidad.
 | George | `bm_george` | Formal UK |
 | Priya | `af_aoede` | Neutro, canadiense |
 | Oliver | `bm_fable` | Neutro UK |
+| Grace | `af_nova` | Neutro US; atención al cliente de la compañía de internet (desde el Módulo 4) |
 
-Los personajes nuevos se añaden a `cast.json` y a `cast` del `module.json`. El Módulo 3 añadió a Daniel (soporte técnico). El Módulo 4 (problemas cotidianos, atención al cliente) puede reutilizarlo.
+Los personajes nuevos se añaden a `cast.json` y a `cast` del `module.json`. El Módulo 3 añadió a Daniel (soporte técnico interno de la empresa de Priya) y el Módulo 4 añadió a Grace (compañía de internet). George atiende en la tienda de electrónica de las lecciones 18 y 20. No le des a un personaje dos trabajos incompatibles.
 
 ## Audio: generación y control de calidad
 
@@ -99,9 +102,9 @@ pip install https://github.com/explosion/spacy-models/releases/download/en_core_
 curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
 curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
 
-python3 tools/tts/generate_audio.py --module content/b1-1/m04 --out audio/b1-1/m04 --model <onnx> --voices <bin> [--only id…] [--force] [--list]
-python3 tools/tts/qa_audio.py audio/b1-1/m04            # inteligibilidad (ASR offline, WER)
-python3 tools/tts/qa_audio.py audio/b1-1/m04 --tones-only
+python3 tools/tts/generate_audio.py --module content/b1-1/mNN --out audio/b1-1/mNN --model <onnx> --voices <bin> [--only id…] [--force] [--list]
+python3 tools/tts/qa_audio.py audio/b1-1/mNN            # inteligibilidad (ASR offline, WER)
+python3 tools/tts/qa_audio.py audio/b1-1/mNN --tones-only
 python3 tools/check_content.py                          # debe terminar en OK
 python3 tools/build_structure_doc.py
 ```
@@ -114,9 +117,9 @@ python3 tools/build_structure_doc.py
 
 ## Verificación antes de entregar
 
-1. `check_content.py` OK, sin audios huérfanos ni ausentes.
-2. QA de audio: WER razonable y tonos correctos.
-3. Recorrer con Playwright todas las rutas del módulo en móvil, escritorio y modo oscuro: sin errores de consola ni desbordamiento, cada botón de audio apunta a un MP3 real y el Módulo 1 sigue funcionando (regresión).
+1. `check_content.py` OK, sin audios huérfanos ni ausentes (en los borradores solo valida el contenido y los IDs).
+2. QA de audio: WER razonable y tonos correctos (no aplica a los borradores). Antes de generar, comprueba con misaki que los fonemas de cada entrada de fonética coinciden con lo que afirman el IPA y las alertas; si no, fuerza los fonemas con `ttsUs` / `ttsUk` / `tts`.
+3. Recorrer con Playwright todas las rutas del módulo (con `?borrador` si es un borrador) en móvil, escritorio y modo oscuro: sin errores de consola ni desbordamiento, cada botón de audio apunta a un MP3 real y el Módulo 1 sigue funcionando (regresión).
 4. Servidor local: `python3 tools/serve.py`.
 
 ## Despliegue

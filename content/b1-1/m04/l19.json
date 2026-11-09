@@ -1,0 +1,814 @@
+{
+  "id": "l19",
+  "n": 19,
+  "title": "Finding Temporary Fixes & Practical Workarounds",
+  "titleEs": "Encontrar arreglos provisionales y soluciones prácticas",
+  "minutes": 60,
+  "summary": "Propón un arreglo provisional y un plan B con *If that doesn't work…*, *will* y *might*.",
+  "canDo": [
+    "Puedo proponer un arreglo provisional (*For now, … / In the meantime, …*).",
+    "Puedo encadenar un plan B con *If that doesn't work, …*.",
+    "Puedo distinguir un resultado seguro (*will*) de uno posible (*might*).",
+    "Puedo pronunciar *half* sin la l y *switched off* como un solo bloque."
+  ],
+  "focus": {
+    "grammar": "First Conditional con will (seguro) y might / may (posible) · If that doesn't work, … · should = lo esperable · enough + sustantivo",
+    "lexis": "a quick fix, a temporary fix, for now, in the meantime, switch off / on, unplug, plug in, do the trick, as a temporary measure",
+    "afh": "l muda en half · grupos finales con -ed y linking (switched off, plugged in) · acento sustantivo / verbo en reset · temporary en US y UK"
+  },
+  "warmup": "Piensa en un apaño que hiciste cuando algo falló: una cinta adhesiva, otro cable, compartir datos del móvil… ¿Era una solución definitiva o solo para salir del paso?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Un apaño para el datáfono",
+      "context": "En el café donde trabaja Leo, el datáfono falla. Leo deja un mensaje de voz a sus compañeros.",
+      "speaker": "leo",
+      "to": "sus compañeros del café",
+      "audio": "l19-scn",
+      "text": "Hey guys, quick heads-up about the card machine. It froze twice this morning. {{For now}}, here's {{a quick fix}}: {{switch it off}}, wait thirty seconds, and switch it on again. {{If that doesn't work}}, {{unplug}} the router too. {{If it still doesn't connect}}, we{{'ll take}} cash only {{in the meantime}}. The technician {{might come}} tomorrow, but he isn't sure. See you later!"
+    },
+    "dialogue": {
+      "title": "Media hora antes del evento",
+      "context": "Sarah organiza una charla en la librería y el proyector no funciona. Alex la ayuda.",
+      "lines": [
+        {
+          "speaker": "sarah",
+          "audio": "l19-dlg-01",
+          "text": "Alex, the projector won't connect to my laptop, and the event starts in half an hour!"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l19-dlg-02",
+          "text": "Okay, don't panic. Have you tried {{unplugging}} the cable and {{plugging it in}} again?"
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l19-dlg-03",
+          "text": "Twice. And the cable {{isn't long enough}} to reach the table anyway."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l19-dlg-04",
+          "text": "Right. {{If we move}} the table closer, the cable {{will reach}}. {{If that doesn't work}}, we {{might use}} my laptop instead."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l19-dlg-05",
+          "text": "But my slides are on mine. There {{isn't enough time}} to copy everything."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l19-dlg-06",
+          "text": "No problem. {{If you email}} them to me, {{I'll open}} them on mine in two minutes."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l19-dlg-07",
+          "text": "Smart! It's not perfect, but it'll {{do the trick}} for tonight."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l19-dlg-08",
+          "text": "Exactly. It's {{a temporary fix}}. Tomorrow we'll buy a longer cable."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Por qué el cable no llega a la mesa?",
+        "options": [
+          "Porque está roto",
+          "Porque no es lo bastante largo",
+          "Porque es de otro modelo"
+        ],
+        "answer": 1,
+        "explain": "*The cable isn't long enough to reach the table.*"
+      },
+      {
+        "q": "¿Qué harán si mover la mesa no funciona?",
+        "options": [
+          "Cancelar el evento",
+          "Comprar otro proyector",
+          "Usar el portátil de Alex"
+        ],
+        "answer": 2,
+        "explain": "*If that doesn't work, we might use my laptop instead.*"
+      },
+      {
+        "q": "¿Cuál es la solución definitiva?",
+        "options": [
+          "Comprar un cable más largo",
+          "Cambiar de sala",
+          "Llamar al técnico"
+        ],
+        "answer": 0,
+        "explain": "*It's a temporary fix. Tomorrow we'll buy a longer cable.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, compañeros de confianza, chats.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l19-reg-c1",
+            "text": "Just give it a good restart. Works every time!",
+            "note": "*Give it a restart* = reiniciarlo. *Works every time* omite el sujeto, algo típico del habla muy informal."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l19-reg-c2",
+            "text": "It's a bit of a hack, but it does the trick.",
+            "note": "*Hack* = apaño, truco. *Do the trick* = servir, funcionar."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros, vecinos, mensajes de trabajo.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l19-reg-n1",
+            "text": "If that doesn't work, we might use my laptop instead.",
+            "note": "*Might* + verbo base: solo es una posibilidad."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l19-reg-n2",
+            "text": "For now, we're using a temporary fix.",
+            "note": "*For now* = de momento."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l19-reg-n3",
+            "text": "If you switch it off and on again, it should work.",
+            "note": "*Should* = debería: es lo esperable, pero no seguro."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Avisos de empresa, instrucciones oficiales.",
+        "items": [
+          {
+            "speaker": "daniel",
+            "audio": "l19-reg-f1",
+            "text": "As a temporary measure, please use the backup printer on the second floor.",
+            "note": "*As a temporary measure* = como medida provisional."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l19-reg-f2",
+            "text": "A permanent solution will be implemented next week.",
+            "note": "*Will be implemented* = se aplicará. La voz pasiva se estudia en B1.2: por ahora, solo reconócela."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "a quick fix / a temporary fix",
+        "es": "un apaño rápido / un arreglo provisional",
+        "register": "neutral"
+      },
+      {
+        "en": "for now / in the meantime",
+        "es": "de momento / mientras tanto",
+        "register": "neutral"
+      },
+      {
+        "en": "switch off / switch on",
+        "es": "apagar / encender",
+        "register": "neutral"
+      },
+      {
+        "en": "unplug / plug in",
+        "es": "desenchufar / enchufar",
+        "register": "neutral"
+      },
+      {
+        "en": "If that doesn't work, …",
+        "es": "si eso no funciona, …",
+        "register": "neutral"
+      },
+      {
+        "en": "It should work.",
+        "es": "debería funcionar",
+        "register": "neutral"
+      },
+      {
+        "en": "do the trick",
+        "es": "servir, funcionar",
+        "register": "casual"
+      },
+      {
+        "en": "as a temporary measure",
+        "es": "como medida provisional",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "It's a bit of a hack, but it does the trick.",
+        "answer": "casual",
+        "explain": "*Hack* y *do the trick* son coloquiales."
+      },
+      {
+        "text": "For now, we're using a temporary fix.",
+        "answer": "neutral",
+        "explain": "Claro y estándar."
+      },
+      {
+        "text": "As a temporary measure, please use the backup printer.",
+        "answer": "formal",
+        "explain": "*As a temporary measure* es propio de un aviso oficial."
+      },
+      {
+        "text": "Just give it a good restart!",
+        "answer": "casual",
+        "explain": "Consejo entre amigos, muy informal."
+      },
+      {
+        "text": "A permanent solution will be implemented next week.",
+        "answer": "formal",
+        "explain": "Pasiva y *implement*: lenguaje institucional."
+      },
+      {
+        "text": "If that doesn't work, we might use my laptop.",
+        "answer": "neutral",
+        "explain": "Plan B expresado con naturalidad."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Alex propone dos soluciones. Compara el verbo del resultado en cada frase: ¿está igual de seguro en las dos?",
+    "speaker": "ryan",
+    "audio": "l19-gd",
+    "text": "{{If}} we {{move}} the table closer, the cable {{will reach}}. {{If}} that {{doesn't work}}, we {{might use}} my laptop instead.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué diferencia hay entre *will reach* y *might use*?",
+        "options": [
+          "*Will*: Alex está seguro del resultado; *might*: es solo una posibilidad.",
+          "Ninguna: los dos expresan certeza.",
+          "*Might* habla del pasado."
+        ],
+        "answer": 0,
+        "explain": "Alex sabe que el cable llegará; usar su portátil es una opción posible, no un plan cerrado."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma sigue a *might*?",
+        "options": [
+          "Verbo base (*might use*).",
+          "*To* + verbo (*might to use*).",
+          "Verbo en -ing (*might using*)."
+        ],
+        "answer": 0,
+        "explain": "*Might* es un modal, como *will* o *can*: va seguido del verbo base."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "¿Para qué sirve *If that doesn't work, …*?",
+        "options": [
+          "Para proponer un plan B por si falla la primera solución.",
+          "Para quejarse de la primera solución.",
+          "Para cerrar la conversación."
+        ],
+        "answer": 0,
+        "explain": "Encadenar soluciones transmite calma y control: si falla una, ya hay otra."
+      }
+    ],
+    "rule": {
+      "points": [
+        "First Conditional con *will* = resultado seguro; con *might / may* = resultado posible.",
+        "*If that doesn't work, …* encadena un plan B.",
+        "Tras *might / may / should* va el verbo base, sin *to*.",
+        "*Should* en el resultado = lo esperable: *If you restart it, it should work.*"
+      ],
+      "formulas": [
+        "If + presente, will + verbo base (seguro)",
+        "If + presente, might / may + verbo base (posible)",
+        "If that doesn't work, + plan B"
+      ],
+      "note": "«Puede que usemos mi portátil» lleva subjuntivo en español. En inglés basta con *might* + verbo base: *we might use my laptop*."
+    }
+  },
+  "phonetics": {
+    "intro": "Al proponer un apaño, el hispanohablante tropieza con la l muda de *half*, con los grupos de consonantes en *switched off* y *plugged in*, que deben ir enlazados, y con el acento de *reset*, que cambia según sea sustantivo o verbo.",
+    "items": [
+      {
+        "id": "temporary",
+        "term": "Temporary",
+        "pos": "adj.",
+        "meaning": "provisional, temporal",
+        "ipa": {
+          "us": "/ˈtem.pə.rer.i/",
+          "uk": "/ˈtem.pər.ər.i/"
+        },
+        "afh": "TÉM-pa-re-ri",
+        "say": "Temporary.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, TEM. En español, «temporal» lo lleva al final."
+          },
+          {
+            "type": "variant",
+            "text": "En EE. UU. suena «TÉM-pa-re-ri», con la tercera sílaba bien clara. En Reino Unido esa sílaba se reduce a schwa y, en el habla rápida, la palabra puede quedar en «TÉM-pra-ri»."
+          },
+          {
+            "type": "vowel",
+            "text": "Las sílabas átonas se reducen a schwa: no pronuncies cada vocal como en español."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "It's only a temporary fix."
+        }
+      },
+      {
+        "id": "switched-off",
+        "term": "Switched off",
+        "pos": "phr. v.",
+        "meaning": "apagado, apagó",
+        "ipa": {
+          "us": "/ˌswɪtʃt ˈɔf/",
+          "uk": "/ˌswɪtʃt ˈɒf/"
+        },
+        "afh": "suicht-ÓF",
+        "say": "Switched off.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "Tras /tʃ/, -ed suena /t/: «switcht», una sola sílaba."
+          },
+          {
+            "type": "consonant",
+            "text": "*Switched* acaba en el grupo /tʃt/: no lo reduzcas a «swich»."
+          },
+          {
+            "type": "linking",
+            "text": "La /t/ final se une a la vocal de *off*: «swich-tof»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "I switched off the router and waited a minute."
+        }
+      },
+      {
+        "id": "plugged-in",
+        "term": "Plugged in",
+        "pos": "adj.",
+        "meaning": "enchufado",
+        "ipa": {
+          "us": "/ˌplʌɡd ˈɪn/",
+          "uk": "/ˌplʌɡd ˈɪn/"
+        },
+        "afh": "plagd-ÍN",
+        "say": "Plugged in.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "Tras /ɡ/ (sonora), -ed suena /d/: «plagd», sin sílaba extra."
+          },
+          {
+            "type": "linking",
+            "text": "La /d/ se une a *in*: «plag-din»."
+          },
+          {
+            "type": "vowel",
+            "text": "La u de *plug* es /ʌ/: una a corta, «plag», no «plug»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "Is the cable plugged in properly?"
+        }
+      },
+      {
+        "id": "half",
+        "term": "Half",
+        "pos": "n.",
+        "meaning": "mitad, media",
+        "ipa": {
+          "us": "/hæf/",
+          "uk": "/hɑːf/"
+        },
+        "afh": "HAF",
+        "say": "Half.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La l es muda: «haf». Pasa lo mismo en *calf*, *walk* y *talk*."
+          },
+          {
+            "type": "consonant",
+            "text": "La h es un soplo suave, no una jota."
+          },
+          {
+            "type": "variant",
+            "text": "En EE. UU., /æ/ abierta; en Reino Unido, /ɑː/ larga: «haaf»."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "The event starts in half an hour."
+        }
+      },
+      {
+        "id": "reset",
+        "term": "Reset",
+        "pos": "n. / v.",
+        "meaning": "reinicio / reiniciar",
+        "ipa": {
+          "us": "/ˈriː.set/ (n.) · /ˌriːˈset/ (v.)",
+          "uk": "/ˈriː.set/ (n.) · /ˌriːˈset/ (v.)"
+        },
+        "afh": "RÍI-set (sust.) · rii-SÉT (verbo)",
+        "say": "A reset. To reset.",
+        "ttsUs": "A [reset](/ɹˈisˌɛt/). To [reset](/ɹˌisˈɛt/).",
+        "ttsUk": "A [reset](/ɹˈiːsˌɛt/). To [reset](/ɹˌiːsˈɛt/).",
+        "variants": [
+          {
+            "speaker": "coach",
+            "audio": "l19-ph-reset-noun",
+            "text": "Try a factory reset.",
+            "tts": "Try a factory [reset](/ɹˈisˌɛt/).",
+            "label": "Sustantivo: RE-set"
+          },
+          {
+            "speaker": "coach",
+            "audio": "l19-ph-reset-verb",
+            "text": "Reset the router and try again.",
+            "label": "Verbo: re-SET"
+          }
+        ],
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Como sustantivo (*a reset*), acento en RE. Como verbo (*to reset*), en SET."
+          },
+          {
+            "type": "vowel",
+            "text": "*Re-* lleva /iː/ larga: «rii»."
+          },
+          {
+            "type": "consonant",
+            "text": "La t final se pronuncia: no digas «rii-sé»."
+          }
+        ],
+        "example": {
+          "speaker": "daniel",
+          "text": "If that doesn't work, try a factory reset."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "¿Seguro o posible? will / might",
+        "formula": "If + presente, will + verbo base (seguro) · If + presente, might / may + verbo base (posible)",
+        "usage": "Para distinguir lo que sabes que pasará de lo que solo puede pasar.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l19-cc-1a",
+            "text": "{{If we move}} the table, the cable {{will reach}}."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l19-cc-1b",
+            "text": "{{If that doesn't work}}, we {{might use}} your laptop."
+          }
+        ]
+      },
+      {
+        "title": "El plan B: If that doesn't work, …",
+        "formula": "If that doesn't work, + imperativo / will / might + verbo base",
+        "usage": "Para encadenar soluciones: primero lo más sencillo y, si falla, la alternativa.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l19-cc-2a",
+            "text": "{{If that doesn't work}}, {{unplug}} the router."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l19-cc-2b",
+            "text": "{{If the problem persists}}, use the backup printer."
+          }
+        ]
+      },
+      {
+        "title": "Dejar claro que es provisional: for now / in the meantime",
+        "formula": "For now, … · In the meantime, … · It's a quick fix / a temporary fix",
+        "usage": "Para avisar de que la solución no es definitiva.",
+        "examples": [
+          {
+            "speaker": "leo",
+            "audio": "l19-cc-3a",
+            "text": "{{For now}}, we're taking cash only."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l19-cc-3b",
+            "text": "It's {{a quick fix}}, but it {{does the trick}}."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Might + to",
+        "text": "*Might* es un modal: va seguido del verbo base, igual que *can* o *will*.",
+        "wrong": "We might to use my laptop.",
+        "right": "We might use my laptop."
+      },
+      {
+        "title": "Will tras if",
+        "text": "Tras *if* va el presente, aunque hables del futuro.",
+        "wrong": "If the technician will come tomorrow, we'll fix it.",
+        "right": "If the technician comes tomorrow, we'll fix it."
+      },
+      {
+        "title": "Abrir / cerrar un aparato",
+        "text": "«Apagar / encender» un aparato es *switch off / on* o *turn off / on*. *Open / close* se usa con puertas, ventanas o apps.",
+        "wrong": "Close the router and open it again.",
+        "right": "Switch off the router and switch it on again."
+      },
+      {
+        "title": "Enough detrás del sustantivo",
+        "text": "Con sustantivos, *enough* va delante: *enough time*, *enough space*.",
+        "wrong": "There isn't time enough.",
+        "right": "There isn't enough time."
+      },
+      {
+        "title": "La l de half y el -ed de switched",
+        "text": "*Half* no pronuncia la l, y *switched* termina en /tʃt/ sin sílaba extra.",
+        "wrong": "«HALF» con l, «swit-SHED»",
+        "right": "/hæf/ («haf»), /swɪtʃt/ («switcht»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If that doesn't work, we ___ use my laptop instead.",
+      "options": [
+        "might",
+        "might to",
+        "are might"
+      ],
+      "answer": 0,
+      "explain": "*Might* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you switch it off and on again, it ___ work.",
+      "options": [
+        "should",
+        "should to",
+        "shoulds"
+      ],
+      "answer": 0,
+      "explain": "*Should* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el orden correcto.",
+      "text": "There isn't ___ to copy all the files.",
+      "options": [
+        "enough time",
+        "time enough",
+        "too time"
+      ],
+      "answer": 0,
+      "explain": "*Enough* + sustantivo."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Is the cable ___ in properly?",
+      "options": [
+        "plugged",
+        "plug",
+        "plugging"
+      ],
+      "answer": 0,
+      "explain": "*Plugged in* = enchufado."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "___ now, we're using a temporary fix.",
+      "accept": [
+        "For"
+      ],
+      "explain": "*For now* = de momento."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "It's not perfect, but it'll do the ___.",
+      "accept": [
+        "trick"
+      ],
+      "explain": "*Do the trick* = servir, funcionar."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin coma).",
+      "words": [
+        "If",
+        "that",
+        "doesn't",
+        "work",
+        "we",
+        "might",
+        "use",
+        "my",
+        "laptop"
+      ],
+      "answer": "If that doesn't work we might use my laptop",
+      "explain": "Plan B con *might*."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Switch",
+        "it",
+        "off",
+        "and",
+        "on",
+        "again"
+      ],
+      "answer": "Switch it off and on again",
+      "explain": "Con pronombre, *it* va entre el verbo y la partícula."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "We might to use my laptop instead.",
+      "accept": [
+        "We might use my laptop instead."
+      ],
+      "explain": "Sin *to* tras *might*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "If the technician will come tomorrow, we'll fix it.",
+      "accept": [
+        "If the technician comes tomorrow, we'll fix it.",
+        "If the technician comes tomorrow, we will fix it."
+      ],
+      "explain": "Presente tras *if*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "The cable isn't enough long.",
+      "accept": [
+        "The cable isn't long enough.",
+        "The cable is not long enough."
+      ],
+      "explain": "Adjetivo + *enough*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *temporary* lleva el acento?",
+      "word": "temporary",
+      "syllables": [
+        "tem",
+        "po",
+        "ra",
+        "ry"
+      ],
+      "answer": 0,
+      "audioRef": "l19-ph-temporary-us",
+      "explain": "**TEM**-po-ra-ry: acento en la primera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba lleva el acento en el sustantivo *a reset*?",
+      "word": "reset",
+      "syllables": [
+        "re",
+        "set"
+      ],
+      "answer": 0,
+      "audioRef": "l19-ph-reset-noun",
+      "explain": "Sustantivo: **RE**-set. El verbo es re-**SET**."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "alex",
+      "audio": "l19-dict-1",
+      "text": "If that doesn't work, we might use my laptop instead.",
+      "explain": "Plan B: *If that doesn't work* + *might*."
+    }
+  ],
+  "task": {
+    "title": "Un apaño mientras llega el técnico",
+    "format": "voice",
+    "scenario": "En tu casa o en tu trabajo algo ha dejado de funcionar y el técnico no puede venir hasta dentro de unos días. Graba (o escribe) un mensaje de voz para tus compañeros con un arreglo provisional y un plan B.",
+    "brief": "Leave a voice message with a temporary fix and a plan B until the technician comes.",
+    "steps": [
+      "Explica el problema y cuándo llegará la solución definitiva (*The technician can't come until…*).",
+      "Da el arreglo provisional con imperativos (*For now, switch off… / unplug…*).",
+      "Añade un plan B (*If that doesn't work, …*).",
+      "Di qué puede pasar con *might* y qué hacer mientras tanto (*in the meantime*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi everyone, quick update about the ___. The technician can't come until ___.",
+      "For now, here's a quick fix: ___.",
+      "If that doesn't work, ___.",
+      "In the meantime, ___.",
+      "The technician might ___, so it should be fine soon."
+    ],
+    "chunks": [
+      {
+        "label": "for now / in the meantime",
+        "re": "\\b(for now|in the meantime|meanwhile)\\b"
+      },
+      {
+        "label": "quick / temporary fix",
+        "re": "\\b((quick|temporary) (fix|solution|measure)|workaround)\\b"
+      },
+      {
+        "label": "If that doesn't work",
+        "re": "\\bif (that|it|this) (doesn't|does not) work\\b"
+      },
+      {
+        "label": "might / may",
+        "re": "\\b(might|may)\\s+[a-z]+"
+      },
+      {
+        "label": "switch off / unplug",
+        "re": "\\b((switch|turn)(ed|es)?\\s+(it\\s+)?(off|on)|unplug|plug(ged)? (it )?in)\\b"
+      },
+      {
+        "label": "enough",
+        "re": "\\benough\\b"
+      }
+    ],
+    "checks": [
+      "ifWill",
+      "mightTo",
+      "keepTo",
+      "tooMuchAdj",
+      "enoughBeforeAdj",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el aviso formal",
+      "brief": "Write a two-sentence formal notice with a temporary measure.",
+      "frames": [
+        "As a temporary measure, please ___. If the problem persists, ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l19-task-model",
+          "text": "Hi everyone, quick update about the Wi-Fi. The router {{keeps disconnecting}}, and the technician can't come until Thursday. {{For now}}, here's {{a quick fix}}: {{switch off}} the router, wait thirty seconds and switch it on again. {{If that doesn't work}}, use the cable in the living room. It {{isn't long enough}} to reach the bedrooms, so we'll have to work in the living room {{in the meantime}}. The technician {{might replace}} the router, so it {{should}} be fine soon.",
+          "label": "Mensaje de voz (neutro)",
+          "notes": [
+            "*For now*, *a quick fix* e *in the meantime* dejan claro que es provisional.",
+            "*If that doesn't work* introduce el plan B; *might replace* (posible) frente a *should be fine* (lo esperable)."
+          ]
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l19-task-formal",
+          "text": "{{As a temporary measure}}, please use the backup printer on the second floor. {{If the problem persists}}, our technician {{will replace}} the main printer on Monday.",
+          "label": "Aviso de empresa (formal)",
+          "notes": [
+            "*As a temporary measure* sustituye a *for now*.",
+            "*If the problem persists, … will…*: First Conditional formal."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste presente tras *if* (sin *will*)?",
+      "¿Usaste *might* + verbo base (sin *to*) para lo que solo es posible?",
+      "¿Diste un plan B con *If that doesn't work, …*?",
+      "¿Dejaste claro que es provisional (*for now*, *in the meantime*)?",
+      "¿Pusiste *enough* detrás del adjetivo y delante del sustantivo?"
+    ]
+  }
+}

@@ -99,6 +99,15 @@
       "voice": "bm_daniel",
       "lang": "en-gb",
       "bio": "Atiende al personal por correo y por teléfono. Registro formal británico, amable y claro."
+    },
+    "grace": {
+      "name": "Grace",
+      "role": "Atención al cliente (proveedor de internet)",
+      "register": "neutral",
+      "accent": "US",
+      "voice": "af_nova",
+      "lang": "en-us",
+      "bio": "Atiende llamadas y reclamaciones de una compañía de internet. Clara, paciente y resolutiva."
     }
   }
 }

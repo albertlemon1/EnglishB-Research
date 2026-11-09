@@ -39,7 +39,7 @@ def main() -> None:
         w(f"- **Foco fonético (AFH):** {s['focus']['afh']}")
         w(f"- **Andamiaje:** {s['scaffolding']}\n")
         for m in s["modules"]:
-            status = " — ✅ contenido y audios disponibles" if m.get("status") == "available" else ""
+            status = {"available": " — ✅ contenido y audios disponibles", "draft": " — 📝 contenido listo, audio pendiente"}.get(m.get("status"), "")
             doms = ", ".join(c["domains"][d]["name"] for d in m["domains"])
             w(f"### M{m['n']:02d} · {m['title']}{status}\n")
             w(f"*{doms}* · Gramática: {m['grammar']} · AFH: {m['afh']}\n")
