@@ -1,0 +1,275 @@
+{
+  "id": "l02",
+  "n": 2,
+  "title": "Adapting to New Habits, Schedules & Workloads",
+  "titleEs": "Adaptarse a nuevos hábitos, horarios y cargas de trabajo",
+  "minutes": 60,
+  "summary": "Describe cambios graduales en tu rutina con adjust to / get used to + -ing.",
+  "canDo": [
+    "Puedo describir un cambio de rutina que está ocurriendo poco a poco.",
+    "Puedo usar *adjust to* y *get used to* seguidos de verbo en -ing.",
+    "Puedo hablar de mi carga de trabajo (*workload*) en distintos registros.",
+    "Puedo pronunciar *routine*, *workload* y *adjusting* con el acento y las vocales correctas."
+  ],
+  "focus": {
+    "grammar": "Present Continuous para transiciones; to (preposición) + -ing",
+    "lexis": "get used to, adjust to, get the hang of it, juggle, workload",
+    "afh": "Vocal /ʌ/ y africada /dʒ/; acento de palabras compuestas"
+  },
+  "warmup": "¿Qué hábito nuevo has empezado últimamente (madrugar, hacer ejercicio, estudiar inglés)? ¿Te ha costado? Piensa cómo lo explicarías.",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Nota de voz de Sarah",
+      "context": "Sarah le cuenta a una compañera de estudio cómo está combinando sus clases con un plan de ejercicio.",
+      "speaker": "sarah",
+      "to": "su compañera de estudio",
+      "audio": "l02-scn",
+      "text": "Lately, I've been trying to balance my daily study routine with a new exercise plan. It felt like a {{heavy workload}} at first, but I'm {{gradually getting used to waking up}} early and managing my daily schedule more smoothly."
+    },
+    "dialogue": {
+      "title": "Café antes de clase",
+      "context": "Leo ve a Sarah llena de energía y le pregunta por su secreto.",
+      "lines": [
+        { "speaker": "leo", "audio": "l02-dlg-01", "text": "Hey Sarah, you look full of energy! What's your secret?" },
+        { "speaker": "sarah", "audio": "l02-dlg-02", "text": "Ha! Honestly, I've started waking up at six to go running before class." },
+        { "speaker": "leo", "audio": "l02-dlg-03", "text": "Six? No way. How are you {{coping with}} that?" },
+        { "speaker": "sarah", "audio": "l02-dlg-04", "text": "It was tough at first, but I'm slowly {{getting used to it}}. The first week, I was exhausted." },
+        { "speaker": "leo", "audio": "l02-dlg-05", "text": "I'm {{juggling a lot}} right now, too: a part-time job, two courses and the gym." },
+        { "speaker": "sarah", "audio": "l02-dlg-06", "text": "That's a {{heavy workload}}. How do you manage it?" },
+        { "speaker": "leo", "audio": "l02-dlg-07", "text": "I'm still {{adjusting to}} the new timetable, but I'm {{getting the hang of it}}. I plan everything on Sunday night." },
+        { "speaker": "sarah", "audio": "l02-dlg-08", "text": "Smart. I'm {{gradually building}} a routine like that, too." }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Por qué Sarah tiene tanta energía?", "options": ["Se levanta a las seis para correr", "Toma mucho café", "Ha dejado uno de sus cursos"], "answer": 0, "explain": "*I've started waking up at six to go running before class.*" },
+      { "q": "¿Cómo se sintió Sarah la primera semana?", "options": ["Muy motivada", "Agotada", "Aburrida"], "answer": 1, "explain": "*The first week, I was exhausted.*" },
+      { "q": "¿Qué hace Leo para organizarse?", "options": ["Trabaja menos horas", "Va al gimnasio por la mañana", "Planifica todo el domingo por la noche"], "answer": 2, "explain": "*I plan everything on Sunday night.*" }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, charlas informales, redes sociales.",
+        "items": [
+          { "speaker": "leo", "audio": "l02-reg-c1", "text": "I'm juggling a lot right now, but I'm getting the hang of it.", "note": "*Juggle* = hacer malabares con muchas tareas." },
+          { "speaker": "maya", "audio": "l02-reg-c2", "text": "Slowly getting into the groove with my new routine.", "note": "Sin *I'm* al inicio: elipsis típica de redes y chats. Solo en registro muy informal." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Conversación cotidiana con compañeros, profesores o familia.",
+        "items": [
+          { "speaker": "sarah", "audio": "l02-reg-n1", "text": "I am gradually adjusting to my new daily routine.", "note": "Proceso en marcha, tono claro y disciplinado." },
+          { "speaker": "ryan", "audio": "l02-reg-n2", "text": "I'm handling a heavier workload these days.", "note": "*Handle a workload* = manejar una carga de trabajo." },
+          { "speaker": "sarah", "audio": "l02-reg-n3", "text": "It took me a while to get used to the new timetable.", "note": "Mirada al pasado: ya está adaptada." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Cartas de motivación, evaluaciones, informes.",
+        "items": [
+          { "speaker": "emma", "audio": "l02-reg-f1", "text": "I am currently acclimating to a more demanding schedule.", "note": "*Acclimate* (US) / *acclimatise* (UK): aclimatarse." },
+          { "speaker": "george", "audio": "l02-reg-f2", "text": "I have successfully adapted to managing multiple simultaneous responsibilities.", "note": "*Adapted to + -ing*: misma regla, registro elevado." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "juggle a lot (of things)", "es": "hacer malabares con muchas cosas", "register": "casual" },
+      { "en": "get the hang of it", "es": "pillarle el truco / agarrarle la mano", "register": "casual" },
+      { "en": "get into the groove", "es": "coger el ritmo", "register": "casual" },
+      { "en": "cope with (something)", "es": "sobrellevar, arreglárselas con", "register": "neutral" },
+      { "en": "get used to + -ing", "es": "acostumbrarse a", "register": "neutral" },
+      { "en": "adjust to + -ing", "es": "adaptarse a", "register": "neutral" },
+      { "en": "handle a heavy workload", "es": "manejar mucha carga de trabajo", "register": "neutral" },
+      { "en": "acclimate to (a new role)", "es": "aclimatarse a", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "I'm getting the hang of it.", "answer": "casual", "explain": "Expresión idiomática y relajada." },
+      { "text": "I'm adjusting to the new schedule.", "answer": "neutral", "explain": "Correcta y clara en casi cualquier situación." },
+      { "text": "I have successfully adapted to the new responsibilities.", "answer": "formal", "explain": "*Successfully adapted* y *responsibilities*: tono de informe o carta." },
+      { "text": "Totally getting into the groove!", "answer": "casual", "explain": "Elipsis del sujeto + *totally*: muy informal." },
+      { "text": "I am currently acclimating to a more demanding role.", "answer": "formal", "explain": "*Currently acclimating* y *demanding role*: registro profesional." },
+      { "text": "I'm handling a heavier workload these days.", "answer": "neutral", "explain": "Natural y profesional sin ser rígido." }
+    ]
+  },
+  "discovery": {
+    "intro": "Fíjate en la palabra que viene justo después de *adjusting to*.",
+    "speaker": "ryan",
+    "audio": "l02-gd",
+    "text": "I am gradually {{adjusting to waking up}} at 6 AM every day, even though it was difficult at the beginning.",
+    "questions": [
+      { "kind": "semantic", "q": "¿El proceso de adaptación está cerrado o sigue avanzando?", "options": ["Está cerrado: ya se adaptó del todo.", "Sigue avanzando poco a poco.", "Todavía no ha empezado."], "answer": 1, "explain": "*Gradually* + *am adjusting* (Present Continuous) muestran un cambio que está ocurriendo ahora, paso a paso." },
+      { "kind": "syntactic", "q": "¿Qué forma verbal sigue a *adjusting to*?", "options": ["Infinitivo: adjusting to wake up", "Verbo -ing: adjusting to waking up", "Participio: adjusting to woken up"], "answer": 1, "explain": "Aquí *to* es una preposición, no parte del infinitivo. Después de una preposición, el verbo va en -ing." },
+      { "kind": "pragmatic", "q": "Hablas con tu jefa sobre tu nuevo horario. ¿Qué frase es la más apropiada?", "options": ["I'm totally getting the hang of it, no sweat!", "I'm adjusting to the new schedule.", "Getting into the groove, boss."], "answer": 1, "explain": "*Adjusting to the new schedule* transmite disciplina y constancia en registro neutro. Las otras dos son demasiado informales para tu jefa." }
+    ],
+    "rule": {
+      "points": [
+        "*Adjust to*, *get used to*, *be used to* y *look forward to* llevan *to* preposicional: después va un sustantivo o un verbo en -ing.",
+        "Prueba rápida: si puedes poner un sustantivo después de *to* (*adjusting to the routine*), es preposición → usa -ing.",
+        "Para cambios que están ocurriendo en esta etapa de tu vida: *am / is / are + gradually / slowly + -ing*."
+      ],
+      "formulas": ["adjust to + -ing", "get used to + -ing", "be + gradually + -ing"],
+      "note": "*I used to wake up late* (antes solía) no es lo mismo que *I'm used to waking up early* (estoy acostumbrado). Lo verás a fondo en B1.2."
+    }
+  },
+  "phonetics": {
+    "intro": "Esta lección trabaja vocales que no existen en español (/ʌ/, /ɜː/, /æ/) y la africada /dʒ/.",
+    "items": [
+      {
+        "id": "workload", "term": "Workload", "pos": "n.", "meaning": "carga de trabajo",
+        "ipa": { "us": "/ˈwɝːk.loʊd/", "uk": "/ˈwɜːk.ləʊd/" },
+        "afh": "UÉRK-loud",
+        "say": "Workload.",
+        "alerts": [
+          { "type": "stress", "text": "Palabra compuesta: el acento va en la 1.ª parte, WORK. Dila en una sola emisión, sin pausa entre *work* y *load*." },
+          { "type": "vowel", "text": "*Wor-* no suena «uor»: es la vocal central /ɜː/, parecida a una e relajada con la boca neutra." },
+          { "type": "vowel", "text": "*Load* lleva el diptongo «ou» (/oʊ/ US, /əʊ/ UK), no una o simple." }
+        ],
+        "example": { "speaker": "ryan", "text": "I'm handling a heavier workload these days." }
+      },
+      {
+        "id": "adjusting-to", "term": "Adjusting to", "pos": "v. + prep.", "meaning": "adaptándose a",
+        "ipa": { "us": "/əˈdʒʌs.tɪŋ tə/", "uk": "/əˈdʒʌs.tɪŋ tə/" },
+        "afh": "a-DYÁS-ting-ta",
+        "say": "Adjusting to.",
+        "alerts": [
+          { "type": "consonant", "text": "La j es /dʒ/ («dy», como la y enfática de «¡yo!»), nunca la jota española /x/." },
+          { "type": "vowel", "text": "La u es /ʌ/: una a corta y relajada. «a-DYÁS-ting», no «a-DYÚS-ting»." },
+          { "type": "weak", "text": "*To* se reduce a /tə/ («ta») delante de consonante: *adjusting to waking*." }
+        ],
+        "example": { "speaker": "sarah", "text": "I'm gradually adjusting to waking up at six." }
+      },
+      {
+        "id": "hang-of-it", "term": "Getting the hang of it", "pos": "expr.", "meaning": "pillándole el truco",
+        "ipa": { "us": "/ˈɡet̬.ɪŋ ðə ˈhæŋ əv ɪt/", "uk": "/ˈɡet.ɪŋ ðə ˈhæŋ əv ɪt/" },
+        "afh": "GUÉ-ring dha HÁNG-a-vit",
+        "say": "Getting the hang of it.",
+        "alerts": [
+          { "type": "linking", "text": "*Hang of it* se dice como una palabra: «HÁNG-a-vit». La v de *of* se une a *it*." },
+          { "type": "consonant", "text": "*The* lleva /ð/: la d suave de «nada», con la lengua rozando los dientes. No es una d fuerte." },
+          { "type": "vowel", "text": "*Hang* lleva /æ/: abre la boca como para «a» pero con los labios de «e»." }
+        ],
+        "example": { "speaker": "leo", "text": "It was hard at first, but I'm getting the hang of it." }
+      },
+      {
+        "id": "acclimate", "term": "Acclimate", "pos": "v.", "meaning": "aclimatarse",
+        "ipa": { "us": "/ˈæk.lə.meɪt/", "uk": "/əˈklaɪ.mə.taɪz/ (acclimatise)" },
+        "afh": "ÁK-la-meit",
+        "say": "Acclimate.",
+        "sayUk": "Acclimatise.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 1.ª sílaba, AK. El español «aclimatar» empuja el acento al final: evítalo." },
+          { "type": "vowel", "text": "Termina en el diptongo /eɪt/ («eit»). En EE. UU. también se oye /əˈklaɪ.mət/." },
+          { "type": "variant", "text": "En Reino Unido se prefiere *acclimatise* /əˈklaɪ.mə.taɪz/, con acento en la 2.ª sílaba." }
+        ],
+        "example": { "speaker": "emma", "text": "I am currently acclimating to a more demanding schedule." }
+      },
+      {
+        "id": "routine", "term": "Routine", "pos": "n.", "meaning": "rutina",
+        "ipa": { "us": "/ruːˈtiːn/", "uk": "/ruːˈtiːn/" },
+        "afh": "ru-TÍIN",
+        "say": "Routine.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: ru-TEEN. No la acentúes como «RU-tina»." },
+          { "type": "vowel", "text": "Dos vocales largas: /uː/ en *rou-* y /iː/ en *-tine*. Alárgalas." }
+        ],
+        "example": { "speaker": "sarah", "text": "I'm gradually building a new morning routine." }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Adaptación gradual: be adjusting to / be getting used to",
+        "formula": "Sujeto + be + adjusting to / getting used to + verbo -ing (o sustantivo)",
+        "usage": "Describe el proceso de acostumbrar la mente o el cuerpo a algo nuevo. La trampa es poner infinitivo: *to* es preposición, así que exige -ing.",
+        "examples": [
+          { "speaker": "coach", "audio": "l02-cc-1a", "text": "I am gradually {{adjusting to preparing}} my meals in advance." },
+          { "speaker": "leo", "audio": "l02-cc-1b", "text": "I'm {{getting used to studying}} on the bus." }
+        ]
+      },
+      {
+        "title": "Transiciones de vida: Present Continuous + gradually / slowly",
+        "formula": "Sujeto + am / is / are + gradually / slowly + verbo -ing",
+        "usage": "Cambios progresivos que están ocurriendo en esta etapa de tu vida. Subraya la evolución constante.",
+        "examples": [
+          { "speaker": "coach", "audio": "l02-cc-2a", "text": "I am {{slowly building}} a more consistent reading habit." },
+          { "speaker": "sarah", "audio": "l02-cc-2b", "text": "My sleep {{is gradually improving}}." }
+        ]
+      },
+      {
+        "title": "Carga de trabajo: handle / manage a workload",
+        "formula": "Sujeto + handle / manage + (heavy / demanding) workload",
+        "usage": "Expresa la capacidad de organizar muchas responsabilidades sin colapsar.",
+        "examples": [
+          { "speaker": "alex", "audio": "l02-cc-3a", "text": "She {{is managing a heavy workload}} between college and work." },
+          { "speaker": "george", "audio": "l02-cc-3b", "text": "Our team {{handles a demanding workload}} every December." }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Infinitivo en lugar de -ing tras to", "text": "«Me estoy acostumbrando a levantarme» lleva a decir *adjusting to wake up*. Error: *to* es preposición.", "wrong": "I'm adjusting to wake up early.", "right": "I'm adjusting to waking up early." },
+      { "title": "Omitir el auxiliar be", "text": "En los tiempos continuos, *am / is / are* es obligatorio.", "wrong": "I adjusting to the new job.", "right": "I am adjusting to the new job." },
+      { "title": "Used to frente a be used to", "text": "*Used to + verbo base* = solía (hábito pasado). *Be used to + -ing* = estar acostumbrado.", "wrong": "I'm used to wake up early.", "right": "I'm used to waking up early." },
+      { "title": "Acento de acclimate", "text": "No acentúes la i por analogía con «aclimatar». En inglés americano, el acento va en la 1.ª sílaba.", "wrong": "ac-cli-MATE", "right": "/ˈæk.lə.meɪt/ (AK-la-meit)" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "I'm slowly getting used to ___ at six.", "options": ["wake up", "waking up", "woke up"], "answer": 1, "explain": "*Get used to* + -ing." },
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "She ___ to the new timetable.", "options": ["is adjusting", "adjusting", "is adjust"], "answer": 0, "explain": "Present Continuous: *be + -ing*. No olvides el auxiliar." },
+    { "type": "gap", "prompt": "Escribe el verbo entre paréntesis en la forma correcta.", "text": "We're adjusting to ___ (work) from home.", "accept": ["working"], "explain": "*Adjust to* + -ing → *working*." },
+    { "type": "gap", "prompt": "Completa la expresión informal.", "text": "It was hard at first, but now I'm getting the ___ of it.", "accept": ["hang"], "explain": "*Get the hang of it* = pillarle el truco." },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["I'm", "gradually", "building", "a", "new", "morning", "routine"], "answer": "I'm gradually building a new morning routine", "explain": "*Be + gradually + -ing* para un cambio en progreso." },
+    { "type": "fix", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "I'm used to wake up early.", "accept": ["I'm used to waking up early.", "I am used to waking up early."], "explain": "*Be used to* + -ing = estar acostumbrado." },
+    { "type": "fix", "prompt": "Corrige el error.", "wrong": "I adjusting to my new job.", "accept": ["I am adjusting to my new job.", "I'm adjusting to my new job."], "explain": "Falta el auxiliar *am*." },
+    { "type": "stress", "prompt": "¿Qué sílaba lleva el acento?", "word": "routine", "syllables": ["rou", "tine"], "answer": 1, "audioRef": "l02-ph-routine-us", "explain": "rou-**TINE**: acento en la 2.ª sílaba, a diferencia de «RU-tina»." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "sarah", "audio": "l02-dict-1", "text": "It took me a while to get used to the new timetable.", "explain": "*It took me a while* = me llevó un tiempo." }
+  ],
+  "task": {
+    "title": "Tu nueva rutina",
+    "format": "text",
+    "scenario": "Tu comunidad de estudio en línea tiene un foro llamado «New habits». Escribe una publicación contando un cambio de rutina que estás haciendo ahora.",
+    "brief": "Write a post for your study community about a new habit you are adapting to.",
+    "steps": [
+      "Presenta el cambio (*Lately, I've been trying to…*).",
+      "Explica cómo fue al principio y cómo va ahora (*At first… but I'm gradually getting used to + -ing*).",
+      "Di qué te sigue costando (*I'm still adjusting to + -ing*).",
+      "Comparte un consejo con el grupo (*My tip: …*)."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 55,
+    "frames": [
+      "Lately, I've been trying to ___.",
+      "At first, it felt like ___, but I'm gradually getting used to ___ing.",
+      "I'm still adjusting to ___ing.",
+      "My tip: ___."
+    ],
+    "chunks": [
+      { "label": "get used to + -ing", "re": "\\b(get|getting|got|gotten)\\s+used\\s+to\\s+\\w+ing\\b" },
+      { "label": "adjust to + -ing", "re": "\\badjust(ing|ed|s)?\\s+to\\s+\\w+ing\\b" },
+      { "label": "gradually / slowly + -ing", "re": "\\b(gradually|slowly)\\s+\\w+ing\\b" },
+      { "label": "workload", "re": "\\bworkload\\b" },
+      { "label": "get the hang of it", "re": "\\bhang of it\\b" },
+      { "label": "handle / manage", "re": "\\b(handl|manag)(e|es|ed|ing)\\b" }
+    ],
+    "checks": ["toInfinitive", "beOmission", "proDrop", "capitalI", "actually"],
+    "extra": {
+      "title": "Extra: una frase para tu informe de beca",
+      "brief": "Escribe una frase formal sobre tu adaptación, para un informe académico.",
+      "frames": ["I have successfully adapted to ___ing."]
+    },
+    "model": {
+      "parts": [
+        { "label": "Publicación en el foro (neutro)", "speaker": "sarah", "audio": "l02-task-model", "text": "Hi everyone! Lately, I've been trying to combine my evening classes with a new job at a bookstore. At first, it felt like a {{heavy workload}}, but I'm {{gradually getting used to studying}} on the bus and reviewing my notes during lunch. I'm {{still adjusting to waking up}} at 6:30, to be honest! My tip: plan your week on Sunday night. It really helps you {{handle}} everything more smoothly.", "tts": "Hi everyone! Lately, I've been trying to combine my evening classes with a new job at a bookstore. At first, it felt like a heavy workload, but I'm gradually getting used to studying on the bus and reviewing my notes during lunch. I'm still adjusting to waking up at six thirty, to be honest! My tip: plan your week on Sunday night. It really helps you handle everything more smoothly.", "notes": ["Dos veces *to + -ing* (*getting used to studying*, *adjusting to waking up*).", "*Gradually* subraya que el cambio sigue en marcha."] },
+        { "label": "Frase para el informe de beca (formal)", "speaker": "george", "audio": "l02-task-formal", "text": "I have {{successfully adapted to managing}} my academic and professional responsibilities simultaneously.", "notes": ["Misma regla (*adapted to + -ing*) en registro elevado."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Pusiste verbo en -ing después de *adjust to* y *get used to*?",
+      "¿Incluiste *am / is / are* en todas las formas continuas?",
+      "¿Usaste *gradually* o *slowly* para mostrar un cambio en progreso?",
+      "¿Todas tus oraciones tienen sujeto explícito?",
+      "¿El tono es adecuado para un foro (neutro, sin slang excesivo)?"
+    ]
+  }
+}

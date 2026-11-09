@@ -1,0 +1,32 @@
+{
+  "id": "m01",
+  "sublevel": "b1-1",
+  "n": 1,
+  "title": "Personal Life, Routines & Current Projects",
+  "titleEs": "Vida personal, rutinas y proyectos en curso",
+  "hours": 5,
+  "domains": ["LC", "WD"],
+  "intro": "Tu vida diaria es el primer escenario de la Banda B. En este módulo aprenderás a contar cómo van tus planes, cómo te adaptas a los cambios, qué metas te pones, cómo resuelves imprevistos y qué has conseguido. Cada mensaje lo verás en tres registros: con amigos, en el día a día y en contextos formales.",
+  "canDo": [
+    "Informar del estado de un plan: lo hecho, lo que está en proceso y lo pendiente.",
+    "Describir cómo me adapto a nuevos hábitos y cargas de trabajo.",
+    "Formular metas con próximos pasos y plazos.",
+    "Explicar un imprevisto, su impacto y la solución en marcha.",
+    "Hacer balance de mis logros e hitos."
+  ],
+  "focus": {
+    "grammar": "Present Perfect + already / yet / still · Present Continuous para procesos · to (preposición) + -ing · Past Simple frente a Present Perfect",
+    "lexis": "on track, sort out, get used to, get the hang of it, aim to, prior to, move on to, run into, workaround, come a long way, milestone",
+    "afh": "S-clusters sin /e/ epentética · acento de palabra · linking · -ed sin sílaba extra · flap T"
+  },
+  "cast": ["coach", "maya", "leo", "alex", "sarah", "ryan", "emma", "george"],
+  "lessons": ["l01", "l02", "l03", "l04", "l05"],
+  "blocks": [
+    { "id": "lexical", "n": 1, "name": "Input léxico", "short": "Input", "text": "Escenario real, conversación y mapa de tres registros." },
+    { "id": "discovery", "n": 2, "name": "Descubrimiento guiado", "short": "Descubre", "text": "Deduce la regla con tres preguntas: significado, forma y uso." },
+    { "id": "phonetics", "n": 3, "name": "Glosario fonético dual", "short": "Fonética", "text": "IPA US/UK + Anclaje Fonético Hispanohablante." },
+    { "id": "consolidation", "n": 4, "name": "Consolidación y L1", "short": "Consolida", "text": "Estructuras, matices y errores típicos del español." },
+    { "id": "practice", "n": 5, "name": "Práctica", "short": "Practica", "text": "Ejercicios con corrección inmediata y dictado." },
+    { "id": "task", "n": 6, "name": "Tarea y autoevaluación", "short": "Tarea", "text": "Produce un mensaje real, compáralo con el modelo y revísalo." }
+  ]
+}

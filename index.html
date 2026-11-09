@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inglés Banda B</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Curso de autoaprendizaje de inglés B1–B2 para hispanohablantes: enfoque léxico, descubrimiento guiado, tareas reales y Anclaje Fonético Hispanohablante.">
+<meta name="theme-color" content="#f3f4f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1419" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400..700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Charis+SIL:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="assets/css/app.css">
+<script>
+  try {
+    var s = JSON.parse(localStorage.getItem("bandb:v1") || "{}").settings || {};
+    if (s.theme === "dark" || s.theme === "light") document.documentElement.setAttribute("data-theme", s.theme);
+  } catch (e) {}
+</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Banda B, inicio">
+      <span class="brand-mark" aria-hidden="true">B</span>
+      <span><span class="brand-name">Banda B</span><span class="brand-sub">Inglés B1–B2 · autoaprendizaje</span></span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#inicio" data-nav="inicio">Inicio</a>
+      <a href="#ruta" data-nav="ruta">Ruta</a>
+      <a href="#metodo" data-nav="metodo">Método</a>
+    </nav>
+    <button type="button" class="icon-btn speed-btn" data-speed aria-label="Velocidad de los audios">1×</button>
+    <button type="button" class="icon-btn" data-theme-toggle aria-label="Cambiar tema"></button>
+  </div>
+</header>
+
+<main id="app" tabindex="-1">
+  <div class="wrap skeleton" aria-hidden="true"><i></i><i></i><i></i></div>
+</main>
+
+<nav class="tabbar" aria-label="Secciones">
+  <a href="#inicio" data-nav="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11l8-6 8 6v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></svg>Inicio</a>
+  <a href="#ruta" data-nav="ruta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="18" r="2.4"/><path d="M8.4 6H15a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6.6"/></svg>Ruta</a>
+  <a href="#metodo" data-nav="metodo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5zM20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg>Método</a>
+</nav>
+
+<noscript><div class="wrap block"><div class="error-box"><h3>Activa JavaScript</h3><p>La app necesita JavaScript para mostrar las lecciones y reproducir los audios.</p></div></div></noscript>
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

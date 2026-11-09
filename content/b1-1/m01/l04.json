@@ -1,0 +1,276 @@
+{
+  "id": "l04",
+  "n": 4,
+  "title": "Explaining Unexpected Disruptions & Daily Solutions",
+  "titleEs": "Explicar imprevistos y soluciones cotidianas",
+  "minutes": 60,
+  "summary": "Cuenta un imprevisto (Past Simple) y la solución en marcha (Present Continuous).",
+  "canDo": [
+    "Puedo explicar un imprevisto, su impacto y la solución que estoy aplicando.",
+    "Puedo combinar Past Simple (el problema) y Present Continuous (la solución).",
+    "Puedo pasar de *we hit a wall* (casual) a *we encountered a disruption* (formal).",
+    "Puedo pronunciar *encountered* sin sílabas extra y *workaround* con /w/ suave."
+  ],
+  "focus": {
+    "grammar": "Past Simple (irrupción) + Present Continuous (gestión activa)",
+    "lexis": "run into, hit a wall, work through, temporary workaround, bottleneck",
+    "afh": "Sufijo -ed sin sílaba extra; flap T; /w/ semivocal"
+  },
+  "warmup": "Recuerda la última vez que algo salió mal (internet, transporte, un aparato). ¿Qué pasó? ¿Qué hiciste para salir del paso?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Mensaje de Ryan al grupo",
+      "context": "Ryan y sus compañeros tienen una presentación en línea. Ryan avisa al profesor de un problema técnico.",
+      "speaker": "ryan",
+      "to": "el grupo de la presentación",
+      "audio": "l04-scn",
+      "text": "We {{ran into}} an unexpected issue with the internet connection this morning, which {{put us behind schedule}}. However, we're currently {{working through it}} and using a mobile hotspot as a {{temporary solution}}."
+    },
+    "dialogue": {
+      "title": "Llamada al servicio técnico",
+      "context": "Ryan llama a su proveedor de internet. George, del servicio de atención al cliente, responde en registro formal.",
+      "lines": [
+        { "speaker": "george", "audio": "l04-dlg-01", "text": "Good morning, you're through to FibreNet Support. My name is George. How may I help you?", "tts": "Good morning, you're through to Fibre Net Support. My name is George. How may I help you?" },
+        { "speaker": "ryan", "audio": "l04-dlg-02", "text": "Hi, George. We {{ran into}} a problem with our internet connection this morning. It {{keeps dropping}} every few minutes." },
+        { "speaker": "george", "audio": "l04-dlg-03", "text": "I'm sorry to hear that. When did you first notice the issue?" },
+        { "speaker": "ryan", "audio": "l04-dlg-04", "text": "Around eight. It {{put us way behind schedule}}. We had an online presentation at nine." },
+        { "speaker": "george", "audio": "l04-dlg-05", "text": "I understand. We {{have identified}} a minor system failure in your area, and our engineers {{are currently resolving}} it." },
+        { "speaker": "ryan", "audio": "l04-dlg-06", "text": "Okay. Is there anything we can do {{in the meantime}}?" },
+        { "speaker": "george", "audio": "l04-dlg-07", "text": "As a {{temporary workaround}}, I would recommend using a mobile hotspot. The issue should be fully resolved by this afternoon." },
+        { "speaker": "ryan", "audio": "l04-dlg-08", "text": "That's what we're doing right now. Thanks for your help." },
+        { "speaker": "george", "audio": "l04-dlg-09", "text": "You're very welcome. We apologize for the {{disruption}}." }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Cuál es el problema?", "options": ["La conexión se corta cada pocos minutos", "No tienen cobertura móvil", "El ordenador no enciende"], "answer": 0, "explain": "*It keeps dropping every few minutes.* (*keep + -ing* = no dejar de…)" },
+      { "q": "¿Por qué el momento es especialmente malo?", "options": ["Tienen una reunión con el casero", "Tienen una presentación en línea a las nueve", "Están de viaje"], "answer": 1, "explain": "*We had an online presentation at nine.*" },
+      { "q": "¿Cuál es la solución provisional?", "options": ["Cambiar de proveedor", "Esperar hasta la tarde sin hacer nada", "Usar un punto de acceso móvil (hotspot)"], "answer": 2, "explain": "*As a temporary workaround, I would recommend using a mobile hotspot.*" }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, mensajería instantánea, conversación informal.",
+        "items": [
+          { "speaker": "leo", "audio": "l04-reg-c1", "text": "We hit a wall with the setup, but we're sorting it out.", "tts": "We [hit](/hˈɪɾ/) a wall with the setup, but we're sorting it out.", "note": "*Hit a wall* = atascarse, no poder avanzar." },
+          { "speaker": "maya", "audio": "l04-reg-c2", "text": "Ran into a small hiccup, but no big deal.", "note": "*Hiccup* = pequeño contratiempo. Sin sujeto: elipsis muy informal." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Explicar imprevistos en el día a día.",
+        "items": [
+          { "speaker": "ryan", "audio": "l04-reg-n1", "text": "We ran into an unexpected problem, but we are resolving it now.", "note": "Problema (pasado) + solución (ahora)." },
+          { "speaker": "sarah", "audio": "l04-reg-n2", "text": "We found a temporary workaround for the issue.", "note": "*Workaround* = solución provisional, un parche." },
+          { "speaker": "alex", "audio": "l04-reg-n3", "text": "The slow Wi-Fi was the main bottleneck this morning.", "note": "*Bottleneck* = cuello de botella." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Atención al cliente, reclamaciones, correos institucionales.",
+        "items": [
+          { "speaker": "george", "audio": "l04-reg-f1", "text": "We encountered an unforeseen technical disruption during the operation.", "note": "*Encounter* + *unforeseen*: vocabulario de informe." },
+          { "speaker": "emma", "audio": "l04-reg-f2", "text": "The issue is actively being mitigated by the support team.", "note": "Pasiva continua: el foco está en la gestión." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "run into (a problem)", "es": "toparse con (un problema)", "register": "neutral" },
+      { "en": "hit a wall", "es": "atascarse, no poder avanzar", "register": "casual" },
+      { "en": "a (small) hiccup", "es": "un pequeño contratiempo", "register": "casual" },
+      { "en": "put someone behind schedule", "es": "retrasar a alguien", "register": "neutral" },
+      { "en": "work through (an issue)", "es": "ir resolviendo (un problema)", "register": "neutral" },
+      { "en": "temporary workaround", "es": "solución provisional", "register": "neutral" },
+      { "en": "in the meantime", "es": "mientras tanto", "register": "neutral" },
+      { "en": "encounter / mitigate", "es": "encontrarse con / mitigar", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "Ran into a small hiccup, no big deal.", "answer": "casual", "explain": "Elipsis, *hiccup* y *no big deal*: chat entre amigos." },
+      { "text": "We encountered an unforeseen disruption.", "answer": "formal", "explain": "*Encountered* + *unforeseen disruption*: informe o correo institucional." },
+      { "text": "We found a temporary workaround.", "answer": "neutral", "explain": "Claro y profesional." },
+      { "text": "We hit a wall with the setup.", "answer": "casual", "explain": "Expresión idiomática relajada." },
+      { "text": "The issue is actively being mitigated.", "answer": "formal", "explain": "Pasiva continua y *mitigated*." },
+      { "text": "We ran into a problem, but we're fixing it now.", "answer": "neutral", "explain": "Phrasal verb estándar en un tono equilibrado." }
+    ]
+  },
+  "discovery": {
+    "intro": "La frase combina dos momentos distintos. Identifica cuál es cuál.",
+    "speaker": "ryan",
+    "audio": "l04-gd",
+    "text": "Yesterday we {{encountered}} a minor system failure, but our team {{is actively resolving}} the problem.",
+    "questions": [
+      { "kind": "semantic", "q": "¿Cuándo ocurrió el problema y cuándo ocurre la solución?", "options": ["Los dos ocurren ahora.", "El problema, ayer (terminado); la solución, ahora (en curso).", "Los dos ocurrieron ayer."], "answer": 1, "explain": "*Yesterday … encountered*: hecho pasado y cerrado. *Is actively resolving*: acción en desarrollo en este momento." },
+      { "kind": "syntactic", "q": "¿Qué tiempos verbales se combinan?", "options": ["Past Simple (encountered) + Present Continuous (is resolving)", "Present Perfect + Past Simple", "Present Simple + futuro con will"], "answer": 0, "explain": "Past Simple para la irrupción imprevista; Present Continuous para la acción correctora en marcha." },
+      { "kind": "pragmatic", "q": "Un cliente está molesto por un retraso. ¿Qué frase transmite más control?", "options": ["We have a problem. Sorry.", "Actually we have a problem.", "We ran into an issue, but we're working through it right now."], "answer": 2, "explain": "Reconoce el problema y muestra acción inmediata. Ojo: *actually* no significa «actualmente», sino «en realidad»." }
+    ],
+    "rule": {
+      "points": [
+        "Imprevisto puntual en el pasado: Past Simple (*ran into, encountered, broke*) con *yesterday, this morning, at eight*.",
+        "Gestión en marcha: Present Continuous con *currently, actively, right now* (*we're working through it*).",
+        "Estructura para explicar un imprevisto: problema → impacto → solución en curso → plazo."
+      ],
+      "formulas": ["Past Simple → problema", "be + -ing → solución", "by + plazo"],
+      "note": "*Actually* = «en realidad». Para «actualmente», usa *currently* o *at the moment*."
+    }
+  },
+  "phonetics": {
+    "intro": "El sufijo -ed y la t entre vocales son dos de las marcas más claras del acento hispano. Escucha con atención.",
+    "items": [
+      {
+        "id": "encountered", "term": "Encountered", "pos": "v.", "meaning": "se encontró con, tuvo",
+        "ipa": { "us": "/ɪnˈkaʊn.t̬ɚd/", "uk": "/ɪnˈkaʊn.təd/" },
+        "afh": "in-KÁUN-terd",
+        "say": "Encountered.",
+        "alerts": [
+          { "type": "ed", "text": "Tras /r/ o vocal, -ed suena /d/ y NO añade sílaba: tres sílabas (en-COUN-tered), nunca cuatro («en-coun-te-red»)." },
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: COUN." }
+        ],
+        "example": { "speaker": "george", "text": "We encountered an unforeseen technical disruption." }
+      },
+      {
+        "id": "bottleneck", "term": "Bottleneck", "pos": "n.", "meaning": "cuello de botella",
+        "ipa": { "us": "/ˈbɑː.t̬əl.nek/", "uk": "/ˈbɒt.əl.nek/" },
+        "afh": "BÁ-rl-nek",
+        "say": "Bottleneck.",
+        "alerts": [
+          { "type": "stress", "text": "Palabra compuesta: acento en la 1.ª parte, BOT." },
+          { "type": "consonant", "text": "*-tle* es una l silábica, casi sin vocal: «bot-l», no «bo-te-le»." },
+          { "type": "flap", "text": "En EE. UU. la tt suena como la r suave de «pero»: «BÁ-rl-nek»." }
+        ],
+        "example": { "speaker": "alex", "text": "The slow Wi-Fi was the main bottleneck this morning." }
+      },
+      {
+        "id": "hit-a-wall", "term": "Hit a wall", "pos": "expr.", "meaning": "atascarse",
+        "ipa": { "us": "/ˌhɪt̬ ə ˈwɑːl/", "uk": "/ˌhɪt ə ˈwɔːl/" },
+        "afh": "hi-ra-UÓL",
+        "say": "Hit a wall.",
+        "ttsUs": "[Hit](/hˈɪɾ/) a wall.",
+        "alerts": [
+          { "type": "flap", "text": "En EE. UU., la t de *hit* delante de vocal se convierte en la r suave de «pero»: «hi-ra-wall»." },
+          { "type": "linking", "text": "*Hit a* se une en una sola sílaba rítmica: no hagas pausa." },
+          { "type": "consonant", "text": "La h es una aspiración suave, como un suspiro. No es la jota española." }
+        ],
+        "example": { "speaker": "leo", "text": "We hit a wall with the setup, but we're sorting it out.", "tts": "We [hit](/hˈɪɾ/) a wall with the setup, but we're sorting it out." }
+      },
+      {
+        "id": "mitigate", "term": "Mitigate", "pos": "v.", "meaning": "mitigar, atenuar",
+        "ipa": { "us": "/ˈmɪt̬.ə.ɡeɪt/", "uk": "/ˈmɪt.ɪ.ɡeɪt/" },
+        "afh": "MÍ-ri-gueit",
+        "say": "Mitigate.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: MIT. El español «mitigar» lo lleva al final." },
+          { "type": "vowel", "text": "Termina en /ɡeɪt/ («gueit»): g dura y diptongo /eɪ/." }
+        ],
+        "example": { "speaker": "emma", "text": "The issue is actively being mitigated by the support team." }
+      },
+      {
+        "id": "workaround", "term": "Workaround", "pos": "n.", "meaning": "solución provisional",
+        "ipa": { "us": "/ˈwɝːk.ə.raʊnd/", "uk": "/ˈwɜːk.ə.raʊnd/" },
+        "afh": "UÉRK-a-raund",
+        "say": "Workaround.",
+        "alerts": [
+          { "type": "consonant", "text": "La w es una semivocal suave (como la u de «huevo» sin la g): nunca «güerk»." },
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: WORK." },
+          { "type": "linking", "text": "*Work‿around* se une: «UÉR-ka-raund»." }
+        ],
+        "example": { "speaker": "sarah", "text": "We found a temporary workaround for the issue." }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Obstáculos imprevistos: run into / encounter",
+        "formula": "Sujeto + ran into / encountered + (unexpected) + sustantivo",
+        "usage": "Introduce un contratiempo no planeado. *Run into* es el estándar para el día a día; *encounter* eleva el registro.",
+        "examples": [
+          { "speaker": "alex", "audio": "l04-cc-1a", "text": "We {{ran into}} an unexpected delay with our flight." },
+          { "speaker": "george", "audio": "l04-cc-1b", "text": "Our engineers {{encountered}} a minor fault in the system." }
+        ]
+      },
+      {
+        "title": "Soluciones en progreso: work through / resolve",
+        "formula": "Sujeto + be + working through / resolving + sustantivo",
+        "usage": "Muestra que, a pesar del obstáculo, no estás paralizado: estás aplicando acciones correctivas.",
+        "examples": [
+          { "speaker": "coach", "audio": "l04-cc-2a", "text": "Don't worry, I {{am working through}} the issue right now." },
+          { "speaker": "ryan", "audio": "l04-cc-2b", "text": "The technician {{is resolving}} the problem as we speak." }
+        ]
+      },
+      {
+        "title": "Soluciones temporales: a temporary workaround",
+        "formula": "Sujeto + use / find + a temporary workaround (for + sustantivo)",
+        "usage": "Un parche para salir del paso mientras llega la solución definitiva.",
+        "examples": [
+          { "speaker": "sarah", "audio": "l04-cc-3a", "text": "Taking the bus was a good {{temporary workaround}} while the car was being repaired." },
+          { "speaker": "coach", "audio": "l04-cc-3b", "text": "We found a {{temporary workaround}} for the printer issue." }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Run into frente a run out of", "text": "*Run into* = toparse con un problema o una persona. *Run out of* = quedarse sin un recurso (tiempo, dinero, batería).", "wrong": "We ran out of a problem.", "right": "We ran into a problem. / We ran out of time." },
+      { "title": "Sílaba extra en -ed", "text": "*Encountered* tiene tres sílabas. La -ed solo añade sílaba (/ɪd/) tras t o d (*started, needed*).", "wrong": "«en-coun-te-red» (4 sílabas)", "right": "/ɪnˈkaʊn.təd/ (3 sílabas)" },
+      { "title": "Actually no es «actualmente»", "text": "*Actually* significa «en realidad». Para hablar del momento presente usa *currently*.", "wrong": "Actually we are dealing with a problem.", "right": "Currently we are dealing with a problem." },
+      { "title": "La w de workaround", "text": "Pronúnciala como semivocal suave /w/, sin el sonido «gü» del español.", "wrong": "«güerk-a-raund»", "right": "/ˈwɜːk.ə.raʊnd/" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "Yesterday we ___ a problem with the server.", "options": ["run into", "ran into", "are running into"], "answer": 1, "explain": "Hecho pasado y cerrado (*yesterday*) → Past Simple." },
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "Don't worry, the team ___ the issue right now.", "options": ["is resolving", "resolved", "resolves"], "answer": 0, "explain": "Acción en curso (*right now*) → Present Continuous." },
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "___, we are working from the library because the Wi-Fi is down.", "options": ["Actually", "Currently", "Lately"], "answer": 1, "explain": "«Actualmente» = *currently*. *Actually* = en realidad." },
+    { "type": "gap", "prompt": "Completa el chunk.", "text": "We used a mobile hotspot as a temporary ___.", "accept": ["workaround", "solution", "fix"], "explain": "*Temporary workaround* = solución provisional." },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["We", "ran", "into", "an", "unexpected", "issue", "this", "morning"], "answer": "We ran into an unexpected issue this morning", "explain": "Sujeto + *ran into* + problema + momento." },
+    { "type": "fix", "prompt": "Corrige el error.", "wrong": "We ran out of a problem with the printer.", "accept": ["We ran into a problem with the printer."], "explain": "Toparse con un problema = *run into*." },
+    { "type": "fix", "prompt": "Corrige el falso amigo.", "wrong": "Actually we are dealing with a technical problem.", "accept": ["Currently we are dealing with a technical problem.", "Currently, we are dealing with a technical problem.", "At the moment we are dealing with a technical problem.", "At the moment, we are dealing with a technical problem.", "We are currently dealing with a technical problem."], "explain": "«Actualmente» = *currently* / *at the moment*." },
+    { "type": "stress", "prompt": "¿Cuántas sílabas tiene *encountered* y dónde está el acento?", "word": "encountered", "syllables": ["en", "coun", "tered"], "answer": 1, "audioRef": "l04-ph-encountered-us", "explain": "Tres sílabas: en-**COUN**-tered. La -ed no añade una cuarta." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "george", "audio": "l04-dict-1", "text": "The issue should be fully resolved by this afternoon.", "explain": "*Should be resolved* = debería estar resuelto (pasiva con modal)." }
+  ],
+  "task": {
+    "title": "Explica un imprevisto",
+    "format": "email",
+    "scenario": "Mañana tienes que entregar un trabajo importante, pero tu portátil ha dejado de funcionar esta mañana. Escribe a tu profesor o profesora explicando la situación.",
+    "brief": "Write a short message to your teacher explaining an unexpected problem.",
+    "steps": [
+      "Explica qué pasó (Past Simple: *I ran into…*).",
+      "Di cuál es el impacto (*It put me behind schedule with…*).",
+      "Explica qué estás haciendo ahora (Present Continuous: *I'm currently…*).",
+      "Menciona la solución provisional y cuándo esperas resolverlo (*In the meantime… / by…*)."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 55,
+    "frames": [
+      "Unfortunately, I ran into ___ this morning.",
+      "It put me behind schedule with ___.",
+      "I'm currently ___ing.",
+      "In the meantime, I'm using ___ as a temporary workaround.",
+      "I expect to ___ by ___."
+    ],
+    "chunks": [
+      { "label": "run into", "re": "\\b(ran|run|running|runs)\\s+into\\b" },
+      { "label": "behind schedule", "re": "\\bbehind schedule\\b" },
+      { "label": "currently + -ing", "re": "\\bcurrently\\s+\\w+ing\\b|\\b(am|is|are|'m|'re)\\s+currently\\s+\\w+ing\\b" },
+      { "label": "work through", "re": "\\bwork(ing|ed|s)?\\s+through\\b" },
+      { "label": "temporary workaround", "re": "\\btemporary\\s+(workaround|solution|fix)\\b" },
+      { "label": "in the meantime", "re": "\\bin the meantime\\b" }
+    ],
+    "checks": ["actually", "runOutOfProblem", "proDrop", "capitalI"],
+    "extra": {
+      "title": "Extra: comunicado formal",
+      "brief": "Escribe una frase como si fueras el servicio técnico, en registro formal.",
+      "frames": ["We encountered ___; the issue is currently being ___, and we expect ___ by ___."]
+    },
+    "model": {
+      "parts": [
+        { "label": "Mensaje al profesor (neutro)", "speaker": "ryan", "audio": "l04-task-model", "text": "Hi Professor Lee, unfortunately, I {{ran into}} a problem with my laptop this morning: it suddenly stopped working, and this {{put me behind schedule}} with the final report. I'm {{currently working through}} the issue with the university's tech support. {{In the meantime}}, I'm using a library computer as a {{temporary workaround}}, and my files are safe in the cloud. I expect to submit the report by Friday at noon. Thank you for your understanding.", "notes": ["Problema en Past Simple (*ran into, stopped*), gestión en Present Continuous (*I'm currently working through*).", "Termina con un plazo concreto: *by Friday at noon*."] },
+        { "label": "Comunicado del servicio técnico (formal)", "speaker": "george", "audio": "l04-task-formal", "text": "We {{encountered}} an unforeseen technical disruption; the issue {{is currently being mitigated}}, and we expect full service to be restored by this afternoon.", "notes": ["Pasiva continua (*is being mitigated*) para centrarse en la gestión."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Contaste el problema en Past Simple y la solución en Present Continuous?",
+      "¿Evitaste *actually* con el sentido de «actualmente»?",
+      "¿Usaste *run into* (no *run out of*) para el problema?",
+      "¿Incluiste un plazo concreto con *by*?",
+      "¿El tono es respetuoso y transmite control de la situación?"
+    ]
+  }
+}

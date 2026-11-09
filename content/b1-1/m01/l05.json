@@ -1,0 +1,275 @@
+{
+  "id": "l05",
+  "n": 5,
+  "title": "Summarizing Personal Achievements & Life Milestones",
+  "titleEs": "Resumir logros personales e hitos vitales",
+  "minutes": 60,
+  "summary": "Haz balance de tus logros con el Present Perfect, make progress y well-positioned.",
+  "canDo": [
+    "Puedo resumir mis logros recientes y explicar cómo me preparan para lo que viene.",
+    "Puedo elegir entre Present Perfect (periodo abierto) y Past Simple (momento terminado).",
+    "Puedo celebrar un avance en registro casual y describirlo en registro formal.",
+    "Puedo acentuar *progress* como sustantivo y pronunciar *milestone* sin /e/."
+  ],
+  "focus": {
+    "grammar": "Present Perfect para logros acumulados; adjetivos compuestos (well-positioned)",
+    "lexis": "come a long way, make steady progress, make headway, milestone",
+    "afh": "Acento sustantivo / verbo (PROgress / proGRESS); s-cluster interno"
+  },
+  "warmup": "Mira atrás: ¿qué has conseguido en los últimos meses de lo que te sientas orgulloso u orgullosa? Piensa en un logro grande y uno pequeño.",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "El brindis de Maya",
+      "context": "Cena de fin de año del grupo de estudio. Maya levanta su copa y hace balance del año.",
+      "speaker": "maya",
+      "to": "el grupo de estudio",
+      "audio": "l05-scn",
+      "text": "{{Looking back}} at this past year, I feel {{we've come a long way}}. We {{have made steady progress}} with our personal projects and {{achieved a couple of major milestones}}, so we are {{well-positioned}} for the upcoming challenges."
+    },
+    "dialogue": {
+      "title": "Balance de fin de año",
+      "context": "Después del brindis, Leo y Sarah repasan lo que han conseguido este año.",
+      "lines": [
+        { "speaker": "leo", "audio": "l05-dlg-01", "text": "Can you believe it's already December? This year {{flew by}}." },
+        { "speaker": "sarah", "audio": "l05-dlg-02", "text": "I know! But {{looking back}}, {{we've come a long way}}." },
+        { "speaker": "leo", "audio": "l05-dlg-03", "text": "Totally. Remember when I couldn't even order a coffee in English?" },
+        { "speaker": "sarah", "audio": "l05-dlg-04", "text": "And now you've given two presentations at work! That's a {{major milestone}}." },
+        { "speaker": "leo", "audio": "l05-dlg-05", "text": "Thanks! You've {{made steady progress}}, too. You've finished three online courses." },
+        { "speaker": "sarah", "audio": "l05-dlg-06", "text": "Four, actually! And I've {{made really good headway}} with my writing." },
+        { "speaker": "leo", "audio": "l05-dlg-07", "text": "So we're {{well-positioned}} for next year's goals." },
+        { "speaker": "sarah", "audio": "l05-dlg-08", "text": "Definitely. Next stop: B2!", "tts": "Definitely. Next stop: B two!" }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Cuál es el gran hito de Leo?", "options": ["Ha dado dos presentaciones en el trabajo", "Ha terminado cuatro cursos", "Ha viajado al extranjero"], "answer": 0, "explain": "*Now you've given two presentations at work! That's a major milestone.*" },
+      { "q": "¿Cuántos cursos en línea ha terminado Sarah?", "options": ["Tres", "Cuatro", "Dos"], "answer": 1, "explain": "*Four, actually!* Aquí *actually* corrige un dato: «en realidad, cuatro»." },
+      { "q": "¿Qué significa *This year flew by*?", "options": ["Este año viajé mucho", "Este año fue difícil", "Este año pasó volando"], "answer": 2, "explain": "*Fly by* = pasar muy rápido (el tiempo)." }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Balance con amigos, reflexiones personales.",
+        "items": [
+          { "speaker": "maya", "audio": "l05-reg-c1", "text": "We've come a long way this year!", "note": "Celebra el camino recorrido." },
+          { "speaker": "leo", "audio": "l05-reg-c2", "text": "We've made really good headway with our routine.", "note": "*Headway* = avance en algo que costaba." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Resumen de logros en estudio, trabajo o metas.",
+        "items": [
+          { "speaker": "sarah", "audio": "l05-reg-n1", "text": "We have made steady progress over the last few months.", "note": "*Steady* = constante, sin altibajos." },
+          { "speaker": "alex", "audio": "l05-reg-n2", "text": "I have achieved my main personal milestones for this term.", "note": "*Milestone* = hito." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Evaluaciones anuales, perfiles profesionales, ensayos.",
+        "items": [
+          { "speaker": "emma", "audio": "l05-reg-f1", "text": "Significant milestones have been successfully achieved.", "note": "Pasiva en Present Perfect: tono de informe." },
+          { "speaker": "george", "audio": "l05-reg-f2", "text": "The progress made thus far positions us advantageously for future growth.", "note": "*Thus far* = hasta ahora (formal)." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "look back (at)", "es": "mirar atrás, hacer balance", "register": "neutral" },
+      { "en": "come a long way", "es": "avanzar muchísimo", "register": "casual" },
+      { "en": "fly by (time)", "es": "pasar volando", "register": "casual" },
+      { "en": "make steady progress", "es": "progresar de forma constante", "register": "neutral" },
+      { "en": "make headway (with)", "es": "avanzar (en algo difícil)", "register": "neutral" },
+      { "en": "achieve a milestone", "es": "alcanzar un hito", "register": "neutral" },
+      { "en": "be well-positioned (to / for)", "es": "estar bien posicionado (para)", "register": "neutral" },
+      { "en": "thus far", "es": "hasta ahora", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "We've come a long way!", "answer": "casual", "explain": "Exclamación emotiva entre amigos." },
+      { "text": "Significant milestones have been achieved.", "answer": "formal", "explain": "Pasiva y *significant milestones*: informe anual." },
+      { "text": "I have made steady progress this term.", "answer": "neutral", "explain": "Correcto y profesional sin rigidez." },
+      { "text": "The progress made thus far is encouraging.", "answer": "formal", "explain": "*Thus far* pertenece al registro escrito formal." },
+      { "text": "This year flew by!", "answer": "casual", "explain": "Expresión coloquial sobre el tiempo." },
+      { "text": "We are well-positioned for next year.", "answer": "neutral", "explain": "Seguro y profesional." }
+    ]
+  },
+  "discovery": {
+    "intro": "Observa el tiempo verbal y la palabra con guion.",
+    "speaker": "ryan",
+    "audio": "l05-gd",
+    "text": "Our study group {{has achieved}} several key milestones this month, and we are {{well-positioned}} to pass the final assessment.",
+    "questions": [
+      { "kind": "semantic", "q": "¿Los hitos (*milestones*) son hechos aislados del pasado o un acumulado que explica el presente?", "options": ["Un acumulado que explica la situación actual.", "Hechos aislados sin relación con el presente.", "Planes para el futuro."], "answer": 0, "explain": "Por eso se usa el Present Perfect (*has achieved*): los logros de un periodo que sigue abierto (*this month*) sostienen el estado actual." },
+      { "kind": "syntactic", "q": "¿Cómo se forma *well-positioned*?", "options": ["Adjetivo good + verbo position", "Adverbio well + participio positioned, con guion", "Sustantivo well + gerundio positioning"], "answer": 1, "explain": "*Well* + participio forma un adjetivo compuesto que describe un estado (*well-prepared, well-known, well-organized*)." },
+      { "kind": "pragmatic", "q": "¿Qué frase celebra más el esfuerzo del camino recorrido?", "options": ["We made progress.", "Progress was made.", "We've come a long way."], "answer": 2, "explain": "*Made progress* es descriptivo y neutro; *come a long way* transmite orgullo por todo el recorrido." }
+    ],
+    "rule": {
+      "points": [
+        "Logros de un periodo que sigue abierto (*this month, this year, so far*): *have / has + participio*.",
+        "Momento terminado (*last year, in March, two weeks ago*): Past Simple.",
+        "Adjetivo compuesto *well + participio* para describir un estado logrado: *well-positioned, well-prepared*."
+      ],
+      "formulas": ["have/has + participio (this year)", "Past Simple (last year)", "well + participio"],
+      "note": "Con un equipo o grupo como sujeto, el inglés americano usa singular: *The team has achieved…* En Reino Unido también se oye *The team have achieved…*"
+    }
+  },
+  "phonetics": {
+    "intro": "Esta lección contrasta el acento de sustantivo y verbo, y repasa los grupos con s.",
+    "items": [
+      {
+        "id": "milestone", "term": "Milestone", "pos": "n.", "meaning": "hito",
+        "ipa": { "us": "/ˈmaɪl.stoʊn/", "uk": "/ˈmaɪl.stəʊn/" },
+        "afh": "MÁIL-stoun",
+        "say": "Milestone.",
+        "alerts": [
+          { "type": "s-cluster", "text": "Grupo *st* interno: pásalo directo, sin vocal de apoyo. Nunca «mail-es-toun»." },
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: MILE." },
+          { "type": "vowel", "text": "*Mile* = /aɪ/ («mail»); *stone* = diptongo «ou»." }
+        ],
+        "example": { "speaker": "alex", "text": "We have achieved a couple of major milestones this year." }
+      },
+      {
+        "id": "progress", "term": "Progress", "pos": "n.", "meaning": "progreso, avance",
+        "ipa": { "us": "/ˈprɑː.ɡres/", "uk": "/ˈprəʊ.ɡres/" },
+        "afh": "PRÁ-gres (US) · PRÓU-gres (UK)",
+        "say": "Progress.",
+        "ttsUs": "[Progress](/pɹˈɑɡɹɛs/).",
+        "ttsUk": "[Progress](/pɹˈQɡɹɛs/).",
+        "alerts": [
+          { "type": "stress", "text": "Como sustantivo, el acento va en la 1.ª sílaba: PRO-gress. Como verbo (*to progress*), en la 2.ª: pro-GRESS." },
+          { "type": "vowel", "text": "La o cambia según el acento: /ɑː/ en EE. UU. («PRÁ»), /əʊ/ en Reino Unido («PRÓU»)." }
+        ],
+        "example": { "speaker": "sarah", "text": "We're making steady progress, and the project is progressing well." }
+      },
+      {
+        "id": "long-way", "term": "Come a long way", "pos": "expr.", "meaning": "avanzar muchísimo",
+        "ipa": { "us": "/ˌkʌm ə ˈlɑːŋ ˈweɪ/", "uk": "/ˌkʌm ə ˈlɒŋ ˈweɪ/" },
+        "afh": "ka-ma-LONG-UÉI",
+        "say": "Come a long way.",
+        "alerts": [
+          { "type": "linking", "text": "La m de *come* se une con *a*: «ka-ma-long-wei»." },
+          { "type": "vowel", "text": "*Come* lleva /ʌ/ («kam»), no se lee como el verbo español «come»." }
+        ],
+        "example": { "speaker": "maya", "text": "Looking back at this year, we've come a long way!" }
+      },
+      {
+        "id": "headway", "term": "Headway", "pos": "n.", "meaning": "avance (en algo difícil)",
+        "ipa": { "us": "/ˈhed.weɪ/", "uk": "/ˈhed.weɪ/" },
+        "afh": "HÉD-uei",
+        "say": "Headway.",
+        "alerts": [
+          { "type": "vowel", "text": "*Ea* suena /e/: «hed», no «he-ad»." },
+          { "type": "consonant", "text": "La h es aspirada y suave, no la jota española." },
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: HEAD." }
+        ],
+        "example": { "speaker": "leo", "text": "We've made really good headway with our routine." }
+      },
+      {
+        "id": "well-positioned", "term": "Well-positioned", "pos": "adj.", "meaning": "bien posicionado",
+        "ipa": { "us": "/ˌwel pəˈzɪʃ.ənd/", "uk": "/ˌwel pəˈzɪʃ.ənd/" },
+        "afh": "uel-pa-ZÍ-shand",
+        "say": "Well-positioned.",
+        "alerts": [
+          { "type": "consonant", "text": "La s de *position* es /z/ sonora (zumbido de abeja), no /s/." },
+          { "type": "ed", "text": "Tras /n/, -ed suena /d/ sin sílaba extra: «pa-ZI-shand», no «po-si-sio-ned»." },
+          { "type": "stress", "text": "Acento en *-si-* de *positioned*." }
+        ],
+        "example": { "speaker": "alex", "text": "We are well-positioned for the upcoming challenges." }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Logros acumulados: Present Perfect + milestones",
+        "formula": "Sujeto + have / has + achieved + (key / major) milestones",
+        "usage": "Conecta las metas alcanzadas en el pasado reciente con el orgullo y la preparación del presente.",
+        "examples": [
+          { "speaker": "coach", "audio": "l05-cc-1a", "text": "I {{have achieved}} my main health goals this semester." },
+          { "speaker": "emma", "audio": "l05-cc-1b", "text": "The team {{has reached}} an important milestone this quarter." }
+        ]
+      },
+      {
+        "title": "Progreso constante: make steady progress / headway",
+        "formula": "Sujeto + make + steady progress / headway + (on / with + sustantivo)",
+        "usage": "El avance no es casual ni intermitente: es fruto de la constancia.",
+        "examples": [
+          { "speaker": "sarah", "audio": "l05-cc-2a", "text": "We are {{making steady progress}} with our Spanish course." },
+          { "speaker": "leo", "audio": "l05-cc-2b", "text": "I've finally {{made some headway}} with my thesis." }
+        ]
+      },
+      {
+        "title": "Estado logrado: well-positioned",
+        "formula": "Sujeto + be + well-positioned + (to + infinitivo / for + sustantivo)",
+        "usage": "Un estado ideal alcanzado gracias a acciones previas; proyecta confianza hacia el futuro.",
+        "examples": [
+          { "speaker": "coach", "audio": "l05-cc-3a", "text": "After months of practice, she {{is well-positioned to}} take the exam." },
+          { "speaker": "george", "audio": "l05-cc-3b", "text": "The company {{is well-positioned for}} future growth." }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Acento de progress (sustantivo)", "text": "Por analogía con «progreso», el hispanohablante acentúa la 2.ª sílaba. Como sustantivo, el acento va en la 1.ª.", "wrong": "«pro-GRESS» (sustantivo)", "right": "/ˈprəʊ.ɡres/ («PRO-gress»)" },
+      { "title": "Has con sujetos singulares", "text": "*He / she / it* y, en inglés americano, *the team* o *the group* llevan *has*.", "wrong": "Our team have achieved great results. (US)", "right": "Our team has achieved great results." },
+      { "title": "Present Perfect con tiempo terminado", "text": "En español puedes decir «He terminado el curso el año pasado». En inglés, con un momento terminado, se usa Past Simple.", "wrong": "I have finished the course last year.", "right": "I finished the course last year." },
+      { "title": "Guion en adjetivos compuestos", "text": "Delante de un sustantivo, el guion es obligatorio: *a well-positioned team*. Después de *be*, se aceptan ambas formas; en este curso usamos el guion.", "wrong": "a well positioned team", "right": "a well-positioned team" },
+      { "title": "Epéntesis en milestone", "text": "No digas «mail-es-toun». Mantén la /s/ pegada a la /t/.", "wrong": "«mail-es-TOUN»", "right": "/ˈmaɪl.stəʊn/ («MÁIL-stoun»)" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "This year, I ___ three online courses.", "options": ["have completed", "completed", "complete"], "answer": 0, "explain": "Periodo abierto (*this year*) + logro acumulado → Present Perfect." },
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "Last year, I ___ my first presentation in English.", "options": ["have given", "gave", "give"], "answer": 1, "explain": "Momento terminado (*last year*) → Past Simple." },
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "The study group ___ several milestones this month.", "options": ["have achieve", "has achieved", "achieving"], "answer": 1, "explain": "Sujeto singular (*the study group*) → *has* + participio." },
+    { "type": "gap", "prompt": "Completa la expresión.", "text": "Looking back, we've come a long ___!", "accept": ["way"], "explain": "*Come a long way* = avanzar muchísimo." },
+    { "type": "gap", "prompt": "Completa con el adverbio correcto.", "text": "After all that practice, she is ___-positioned to pass the exam.", "accept": ["well"], "explain": "*Well* + participio → *well-positioned*." },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["We", "have", "made", "steady", "progress", "with", "our", "routine"], "answer": "We have made steady progress with our routine", "explain": "*Make steady progress with* + sustantivo." },
+    { "type": "fix", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "I have finished the course last year.", "accept": ["I finished the course last year."], "explain": "Con *last year* (tiempo terminado) se usa Past Simple." },
+    { "type": "stress", "prompt": "*Progress* como sustantivo: ¿qué sílaba lleva el acento?", "word": "progress", "syllables": ["pro", "gress"], "answer": 0, "audioRef": "l05-ph-progress-us", "explain": "**PRO**-gress (sustantivo). El verbo es pro-**GRESS**." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "emma", "audio": "l05-dict-1", "text": "Significant milestones have been successfully achieved this year.", "explain": "Pasiva en Present Perfect: *have been achieved*." }
+  ],
+  "task": {
+    "title": "Tu balance del año",
+    "format": "text",
+    "scenario": "Tu grupo de estudio publica una newsletter de fin de año. Cada miembro escribe un párrafo corto haciendo balance de sus logros.",
+    "brief": "Write a short reflection for your study group's end-of-year newsletter.",
+    "steps": [
+      "Abre con una mirada atrás (*Looking back at this year…*).",
+      "Menciona dos logros con Present Perfect (*I have…*) y un recuerdo concreto con Past Simple (*Last month, I…*).",
+      "Describe tu progreso (*I've made steady progress with…*) y tu mayor hito (*milestone*).",
+      "Cierra mirando al futuro (*I'm well-positioned to…*)."
+    ],
+    "length": "80–110 palabras",
+    "minWords": 60,
+    "frames": [
+      "Looking back at this year, I feel I've come a long way.",
+      "I have ___ and I've made steady progress with ___.",
+      "My biggest milestone? Last ___, I ___.",
+      "I'm well-positioned to ___."
+    ],
+    "chunks": [
+      { "label": "looking back", "re": "\\blooking back\\b" },
+      { "label": "come a long way", "re": "\\bcome a long way\\b" },
+      { "label": "steady progress / headway", "re": "\\b(steady progress|headway)\\b" },
+      { "label": "milestone", "re": "\\bmilestones?\\b" },
+      { "label": "well-positioned", "re": "\\bwell[- ]positioned\\b" },
+      { "label": "Present Perfect", "re": "\\b(have|has|'ve)\\s+(\\w+\\s+)?(\\w+ed|made|done|been|given|written|taken|won|grown|become|begun|met|learned|learnt|achieved|finished|completed)\\b" }
+    ],
+    "checks": ["perfectWithPastTime", "teamHave", "wellPositioned", "proDrop", "capitalI"],
+    "extra": {
+      "title": "Extra: frase para tu evaluación anual",
+      "brief": "Resume tu año en una frase formal, como en una evaluación de desempeño.",
+      "frames": ["Over the past year, ___ have been successfully achieved, and the progress made thus far ___."]
+    },
+    "model": {
+      "parts": [
+        { "label": "Párrafo para la newsletter (neutro)", "speaker": "sarah", "audio": "l05-task-model", "text": "{{Looking back}} at this past year, I feel {{I've come a long way}}. In January, I could barely follow a conversation in English. Since then, I {{have completed}} four online courses, and I've {{made steady progress}} with my writing. My biggest {{milestone}}? Last month, I gave my first presentation in English at work, and my team loved it. I still make mistakes, of course, but I'm {{well-positioned}} to start B2 next term. Thanks for all your support!", "tts": "Looking back at this past year, I feel I've come a long way. In January, I could barely follow a conversation in English. Since then, I have completed four online courses, and I've made steady progress with my writing. My biggest milestone? Last month, I gave my first presentation in English at work, and my team loved it. I still make mistakes, of course, but I'm well-positioned to start B two next term. Thanks for all your support!", "notes": ["Present Perfect para el acumulado (*since then, I have completed*), Past Simple para el momento concreto (*last month, I gave*).", "Cierre con *well-positioned to + infinitivo*."] },
+        { "label": "Evaluación anual (formal)", "speaker": "emma", "audio": "l05-task-formal", "text": "Over the past year, significant milestones {{have been successfully achieved}}, and the progress made {{thus far}} positions the group advantageously for the next level.", "notes": ["Pasiva en Present Perfect y *thus far*: registro de informe."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste Present Perfect para los logros de un periodo abierto?",
+      "¿Usaste Past Simple con momentos terminados (*last month, in January*)?",
+      "¿Concordaste *has* con sujetos singulares?",
+      "¿Escribiste *well-positioned* con guion?",
+      "¿Tu párrafo equilibra orgullo y humildad, como pide una newsletter?"
+    ]
+  }
+}

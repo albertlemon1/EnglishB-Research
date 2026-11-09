@@ -1,0 +1,275 @@
+{
+  "id": "l03",
+  "n": 3,
+  "title": "Setting Personal Goals & Short-Term Next Steps",
+  "titleEs": "Fijar metas personales y próximos pasos a corto plazo",
+  "minutes": 60,
+  "summary": "Formula metas y pasos con aim to, plan to, prior to + -ing y move on to.",
+  "canDo": [
+    "Puedo formular una meta personal y sus próximos pasos con plazos.",
+    "Puedo distinguir *to* de infinitivo (*aim to finish*) y *to* preposición (*prior to starting*).",
+    "Puedo ordenar acciones en el tiempo con *prior to*, *once* y *move on to*.",
+    "Puedo pronunciar la k muda de *knock* y unir *kick off* sin cortes."
+  ],
+  "focus": {
+    "grammar": "aim / plan to + infinitivo; prior to + -ing; by + plazo",
+    "lexis": "knock out, kick off, move on to, next step, objective",
+    "afh": "Letra muda (knock); linking consonante–vocal; /v/ final"
+  },
+  "warmup": "¿Cuál es tu meta principal para este mes? ¿Qué tienes que hacer antes de poder empezar? Escríbelo mentalmente en tres pasos.",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Diario de metas de Alex",
+      "context": "Alex graba cada lunes un audio corto con sus metas de la semana.",
+      "speaker": "alex",
+      "to": "sí mismo",
+      "audio": "l03-scn",
+      "text": "{{My main goal}} for this month is to improve my language fluency. {{I aim to finish}} reading this chapter {{by tonight}} so I can {{move on to}} the next module. {{I'm planning to organize}} my study notes {{prior to starting}} the new practice topic."
+    },
+    "dialogue": {
+      "title": "La web de fotografía de Maya",
+      "context": "Maya y Alex van a crear juntos la web de fotografía de Maya este fin de semana.",
+      "lines": [
+        { "speaker": "maya", "audio": "l03-dlg-01", "text": "So, are we still {{kicking off}} the website project tomorrow morning?" },
+        { "speaker": "alex", "audio": "l03-dlg-02", "text": "Yes! {{My goal is to}} have the homepage ready {{by Sunday}}." },
+        { "speaker": "maya", "audio": "l03-dlg-03", "text": "Great. I'm going to {{knock out}} the photo selection tonight." },
+        { "speaker": "alex", "audio": "l03-dlg-04", "text": "Perfect. {{Prior to uploading}} anything, though, we need to resize the images." },
+        { "speaker": "maya", "audio": "l03-dlg-05", "text": "Good point. {{I aim to}} finish that by ten." },
+        { "speaker": "alex", "audio": "l03-dlg-06", "text": "Then, once the homepage is done, we can {{move on to}} the contact page." },
+        { "speaker": "maya", "audio": "l03-dlg-07", "text": "And before we launch, let's do a quick review together." },
+        { "speaker": "alex", "audio": "l03-dlg-08", "text": "Deal. {{Next step}}: coffee and a to-do list!" }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Qué va a hacer Maya esta noche?", "options": ["Diseñar la página de contacto", "Seleccionar las fotos", "Lanzar la web"], "answer": 1, "explain": "*I'm going to knock out the photo selection tonight.*" },
+      { "q": "¿Qué tienen que hacer antes de subir las imágenes?", "options": ["Redimensionarlas", "Hacer una revisión", "Comprar un dominio"], "answer": 0, "explain": "*Prior to uploading anything, we need to resize the images.*" },
+      { "q": "¿Cuándo pasarán a la página de contacto?", "options": ["Esta noche", "Antes de seleccionar las fotos", "Cuando terminen la página de inicio"], "answer": 2, "explain": "*Once the homepage is done, we can move on to the contact page.*" }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Charla entre amigos, metas personales informales.",
+        "items": [
+          { "speaker": "leo", "audio": "l03-reg-c1", "text": "I'm going to knock out this task today.", "note": "*Knock out* = despachar algo rápido." },
+          { "speaker": "maya", "audio": "l03-reg-c2", "text": "Let's kick off the weekend project tomorrow morning.", "note": "*Kick off* = arrancar, dar el pistoletazo de salida." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Planificación personal, metas de estudio o trabajo.",
+        "items": [
+          { "speaker": "alex", "audio": "l03-reg-n1", "text": "I aim to complete this activity before noon.", "note": "*Aim to* = proponerse (intención reflexionada)." },
+          { "speaker": "sarah", "audio": "l03-reg-n2", "text": "We are planning to move on to the next step.", "note": "Transición ordenada entre fases." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Planes de desarrollo, acuerdos formales, informes.",
+        "items": [
+          { "speaker": "emma", "audio": "l03-reg-f1", "text": "Our primary objective is to finalize this project phase.", "note": "*Primary objective* = objetivo principal." },
+          { "speaker": "george", "audio": "l03-reg-f2", "text": "Prior to initiating the next phase, all preliminary criteria must be met.", "note": "*Prior to + -ing* sustituye a *before* en textos formales." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "knock out (a task)", "es": "despachar, quitarse algo de encima", "register": "casual" },
+      { "en": "kick off (a project)", "es": "arrancar, dar inicio", "register": "casual" },
+      { "en": "aim to + verbo", "es": "proponerse", "register": "neutral" },
+      { "en": "plan to + verbo", "es": "planear", "register": "neutral" },
+      { "en": "move on to (the next step)", "es": "pasar a (lo siguiente)", "register": "neutral" },
+      { "en": "by (tonight / Friday)", "es": "para / a más tardar (plazo)", "register": "neutral" },
+      { "en": "prior to + -ing", "es": "antes de (formal)", "register": "formal" },
+      { "en": "primary objective", "es": "objetivo principal", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "Let's knock this out before lunch.", "answer": "casual", "explain": "*Knock out* y *let's*: energía informal." },
+      { "text": "I aim to finish the report by Friday.", "answer": "neutral", "explain": "Intención clara con plazo, adecuada en estudio o trabajo." },
+      { "text": "Prior to initiating the next phase, all criteria must be met.", "answer": "formal", "explain": "*Prior to initiating* y la pasiva modal *must be met*." },
+      { "text": "Time to kick off the weekend project!", "answer": "casual", "explain": "*Kick off* con tono entusiasta." },
+      { "text": "Our primary objective is to finalize this phase.", "answer": "formal", "explain": "*Primary objective* y *finalize*: lenguaje de plan formal." },
+      { "text": "We're planning to move on to the next unit.", "answer": "neutral", "explain": "Natural y correcto en cualquier contexto de estudio." }
+    ]
+  },
+  "discovery": {
+    "intro": "Hay dos *to* en esta frase. Uno es parte del infinitivo y el otro es una preposición. ¿Puedes ver la diferencia?",
+    "speaker": "ryan",
+    "audio": "l03-gd",
+    "text": "We are {{planning to complete}} the preliminary review {{prior to launching}} the new website.",
+    "questions": [
+      { "kind": "semantic", "q": "¿Qué ocurre primero?", "options": ["El lanzamiento de la web", "La revisión preliminar", "Ocurren a la vez"], "answer": 1, "explain": "*Prior to* = antes de. La revisión debe estar terminada antes del lanzamiento." },
+      { "kind": "syntactic", "q": "¿Qué forma sigue a *prior to*?", "options": ["Verbo -ing o sustantivo: prior to launching / prior to the launch", "Verbo base: prior to start", "Participio: prior to launched"], "answer": 0, "explain": "En *planning to complete*, *to* forma el infinitivo. En *prior to launching*, *to* es preposición: exige -ing o un sustantivo." },
+      { "kind": "pragmatic", "q": "¿Qué diferencia hay entre *knock out a task* y *aim to complete a task*?", "options": ["Las dos son formales.", "*Knock out* significa cancelar la tarea.", "*Knock out* transmite energía y rapidez (casual); *aim to complete* transmite intención planificada (neutro)."], "answer": 2, "explain": "*Knock out* = despachar algo con energía para quitártelo de encima. *Aim to complete* suena reflexivo y organizado." }
+    ],
+    "rule": {
+      "points": [
+        "Intención o plan: *aim to / plan to / want to* + verbo base (infinitivo).",
+        "Secuencia formal: *prior to* + verbo -ing o sustantivo (*prior to starting, prior to the meeting*).",
+        "Transición: *move on to* + sustantivo o -ing. Plazo límite: *by* + momento (*by tonight*)."
+      ],
+      "formulas": ["aim to + base", "prior to + -ing", "move on to + noun", "by + deadline"],
+      "note": "*By tonight* marca un plazo («para esta noche»). *Until tonight* marca una duración («hasta esta noche»). No son intercambiables."
+    }
+  },
+  "phonetics": {
+    "intro": "Cuidado con las letras que no suenan y con las uniones entre palabras: ahí se nota el acento hispano.",
+    "items": [
+      {
+        "id": "knock-out", "term": "Knock out", "pos": "phr. v.", "meaning": "despachar (una tarea)",
+        "ipa": { "us": "/ˌnɑːk ˈaʊt/", "uk": "/ˌnɒk ˈaʊt/" },
+        "afh": "na-KÁUT",
+        "say": "Knock out.",
+        "alerts": [
+          { "type": "silent", "text": "La k inicial es completamente muda: *knock* suena igual que «nok» (US «nak»)." },
+          { "type": "linking", "text": "Une la k final con *out*: «no-KÁUT». Es una sola emisión." }
+        ],
+        "example": { "speaker": "leo", "text": "I'm going to knock out this task before lunch." }
+      },
+      {
+        "id": "kick-off", "term": "Kick off", "pos": "phr. v.", "meaning": "arrancar, dar inicio",
+        "ipa": { "us": "/ˌkɪk ˈɑːf/", "uk": "/ˌkɪk ˈɒf/" },
+        "afh": "ki-KÓF",
+        "say": "Kick off.",
+        "alerts": [
+          { "type": "linking", "text": "Une la k final de *kick* con *off*: «ki-KÓF»." },
+          { "type": "vowel", "text": "La i de *kick* es /ɪ/ corta y relajada, no la i tensa del español." },
+          { "type": "stress", "text": "En los phrasal verbs, la partícula suele llevar el acento: kick OFF, knock OUT." }
+        ],
+        "example": { "speaker": "maya", "text": "Let's kick off the weekend project tomorrow morning." }
+      },
+      {
+        "id": "objective", "term": "Objective", "pos": "n.", "meaning": "objetivo",
+        "ipa": { "us": "/əbˈdʒek.tɪv/", "uk": "/əbˈdʒek.tɪv/" },
+        "afh": "ab-DYÉK-tiv",
+        "say": "Objective.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: JEC. La o inicial se reduce a schwa /ə/." },
+          { "type": "consonant", "text": "Termina en /v/ labiodental: dientes superiores sobre el labio inferior. No la conviertas en b ni la omitas." },
+          { "type": "consonant", "text": "La j es /dʒ/ («dy»), no la jota española." }
+        ],
+        "example": { "speaker": "emma", "text": "Our primary objective is to finalize this project phase." }
+      },
+      {
+        "id": "prior-to", "term": "Prior to", "pos": "prep.", "meaning": "antes de (formal)",
+        "ipa": { "us": "/ˈpraɪ.ɚ tə/", "uk": "/ˈpraɪ.ə tə/" },
+        "afh": "PRÁI-er-ta",
+        "say": "Prior to.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: PRAI." },
+          { "type": "vowel", "text": "La i es el diptongo /aɪ/ («ai»)." },
+          { "type": "weak", "text": "*To* se reduce a /tə/ en el habla natural." }
+        ],
+        "example": { "speaker": "alex", "text": "Prior to starting the new topic, I'm planning to organize my notes." }
+      },
+      {
+        "id": "move-on-to", "term": "Move on to", "pos": "phr. v.", "meaning": "pasar a",
+        "ipa": { "us": "/ˌmuːv ˈɑːn tə/", "uk": "/ˌmuːv ˈɒn tə/" },
+        "afh": "mu-VÓN-ta",
+        "say": "Move on to.",
+        "alerts": [
+          { "type": "linking", "text": "La v de *move* se une a *on*: «mu-VÓN»." },
+          { "type": "consonant", "text": "/v/ con dientes y labio, nunca b: «muv», no «mub»." },
+          { "type": "vowel", "text": "*Move* lleva /uː/ larga: «muuv»." }
+        ],
+        "example": { "speaker": "sarah", "text": "Once we finish this exercise, we can move on to the next unit." }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Intenciones y objetivos: aim to / plan to",
+        "formula": "Sujeto + aim to / plan to + verbo base",
+        "usage": "Expresa una intención consciente a corto plazo. Más reflexivo que *going to* y menos rígido que una promesa formal.",
+        "examples": [
+          { "speaker": "coach", "audio": "l03-cc-1a", "text": "I {{aim to finish}} my reading assignment before 8 PM.", "tts": "I aim to finish my reading assignment before eight p.m." },
+          { "speaker": "sarah", "audio": "l03-cc-1b", "text": "We're {{planning to visit}} my parents next weekend." }
+        ]
+      },
+      {
+        "title": "Anteposición formal: prior to",
+        "formula": "Prior to + verbo -ing (o sustantivo), sujeto + verbo principal",
+        "usage": "Sustituto elegante de *before*. Marca un requisito que debe cumplirse antes de pasar a la siguiente etapa.",
+        "examples": [
+          { "speaker": "coach", "audio": "l03-cc-2a", "text": "{{Prior to making}} a decision, I plan to compare all options." },
+          { "speaker": "george", "audio": "l03-cc-2b", "text": "Please read the instructions {{prior to the exam}}." }
+        ]
+      },
+      {
+        "title": "Transición entre tareas: move on to / kick off",
+        "formula": "move on to + sustantivo / -ing · kick off + sustantivo",
+        "usage": "Marcan el cambio de ritmo: cerrar una fase y arrancar la siguiente.",
+        "examples": [
+          { "speaker": "alex", "audio": "l03-cc-3a", "text": "Once we finish this exercise, we can {{move on to}} the next unit." },
+          { "speaker": "maya", "audio": "l03-cc-3b", "text": "We {{kicked off}} the project with a short meeting." }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Prior to + infinitivo", "text": "Error frecuente: tratar *to* como parte del infinitivo. En *prior to*, *to* es preposición.", "wrong": "Prior to start the course, I bought the books.", "right": "Prior to starting the course, I bought the books." },
+      { "title": "Move on sin to", "text": "No omitas *to* cuando indicas a dónde pasas.", "wrong": "Let's move on the next chapter.", "right": "Let's move on to the next chapter." },
+      { "title": "By frente a until", "text": "«Para el viernes» (plazo) es *by Friday*, no *until Friday* (duración).", "wrong": "I need to finish the report until Friday.", "right": "I need to finish the report by Friday." },
+      { "title": "La k muda de knock", "text": "No pronuncies la k inicial («ke-nok»). En *knock, know, knee*, la k es muda.", "wrong": "«ke-nok aut»", "right": "/nɒk aʊt/ («no-KÁUT»)" },
+      { "title": "La /v/ final de objective", "text": "No la conviertas en b ni la elimines: «ob-yec-ti» o «ob-yec-tib» suenan extraños.", "wrong": "«ob-YEC-tib»", "right": "/əbˈdʒek.tɪv/" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "Prior to ___ the website, we need a final review.", "options": ["launch", "launching", "launched"], "answer": 1, "explain": "*Prior to* + -ing." },
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "I aim ___ two chapters this week.", "options": ["to read", "reading", "to reading"], "answer": 0, "explain": "*Aim to* + verbo base (infinitivo)." },
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "I need to send the application ___ Friday at noon.", "options": ["until", "by", "since"], "answer": 1, "explain": "Plazo límite → *by*." },
+    { "type": "gap", "prompt": "Completa con la preposición que falta.", "text": "Once we finish the homepage, we can move on ___ the contact page.", "accept": ["to"], "explain": "*Move on to* + destino." },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["Let's", "kick", "off", "the", "project", "tomorrow", "morning"], "answer": "Let's kick off the project tomorrow morning", "explain": "*Kick off* + objeto + momento." },
+    { "type": "fix", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "Prior to start the exam, read the instructions.", "accept": ["Prior to starting the exam, read the instructions."], "explain": "*Prior to* + -ing → *starting*." },
+    { "type": "fix", "prompt": "Corrige el error.", "wrong": "Let's move on the next topic.", "accept": ["Let's move on to the next topic.", "Let us move on to the next topic."], "explain": "Falta *to* en *move on to*." },
+    { "type": "stress", "prompt": "¿Qué sílaba lleva el acento?", "word": "objective", "syllables": ["ob", "jec", "tive"], "answer": 1, "audioRef": "l03-ph-objective-us", "explain": "ob-**JEC**-tive." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "alex", "audio": "l03-dict-1", "text": "I aim to finish the first draft by tonight.", "explain": "*By tonight* = como muy tarde esta noche." }
+  ],
+  "task": {
+    "title": "Tu plan de la semana",
+    "format": "text",
+    "scenario": "Tienes un compañero de responsabilidad (accountability partner) que te ayuda a cumplir tus metas. Cada lunes le envías tu plan de la semana.",
+    "brief": "Send your weekly goals message to your accountability partner.",
+    "steps": [
+      "Di tu meta principal (*My main goal this week is to…*).",
+      "Añade dos pasos con plazo (*I aim to… by…*).",
+      "Di qué harás antes de empezar (*Prior to + -ing…*).",
+      "Indica a qué pasarás después (*Once I…, I'll move on to…*) y qué vas a despachar mañana (*knock out*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "My main goal this week is to ___.",
+      "I aim to ___ by ___.",
+      "Prior to ___ing, I'm planning to ___.",
+      "Once I ___, I'll move on to ___.",
+      "Tomorrow, I'm going to knock out ___."
+    ],
+    "chunks": [
+      { "label": "aim to / plan to", "re": "\\b(aim|aims|aiming|plan|plans|planning)\\s+to\\s+\\w+" },
+      { "label": "prior to + -ing", "re": "\\bprior to\\s+\\w+ing\\b" },
+      { "label": "move on to", "re": "\\bmov(e|es|ed|ing)\\s+on\\s+to\\b" },
+      { "label": "by + plazo", "re": "\\bby\\s+(tonight|tomorrow|monday|tuesday|wednesday|thursday|friday|saturday|sunday|noon|the end|next|\\d)" },
+      { "label": "knock out / kick off", "re": "\\b(knock|kick)(s|ed|ing)?\\s+(\\w+\\s+)?(out|off)\\b" },
+      { "label": "main goal / objective", "re": "\\b(main goal|objective)\\b" }
+    ],
+    "checks": ["toInfinitive", "moveOnNoTo", "untilDeadline", "proDrop", "capitalI"],
+    "extra": {
+      "title": "Extra: versión para un plan formal",
+      "brief": "Reescribe tu meta en una frase formal, como si fuera un plan de desarrollo profesional.",
+      "frames": ["Our / My primary objective is to ___. Prior to ___ing, ___ must be ___."]
+    },
+    "model": {
+      "parts": [
+        { "label": "Mensaje a tu accountability partner (neutro)", "speaker": "alex", "audio": "l03-task-model", "text": "Hi Sam! Here's my plan for the week. {{My main goal}} is to improve my listening skills. {{I aim to finish}} two podcast episodes {{by Wednesday}}. {{Prior to listening}}, I'm planning to review the key vocabulary, so I don't get lost. Once I finish the episodes, I'll {{move on to}} the speaking exercises. And tomorrow morning, I'm going to {{knock out}} the grammar homework before work. Wish me luck!", "notes": ["Plazos con *by*, secuencia con *prior to* y *once*, transición con *move on to*.", "*Knock out* aporta energía en un mensaje neutro-casual."] },
+        { "label": "Plan de desarrollo (formal)", "speaker": "emma", "audio": "l03-task-formal", "text": "{{Our primary objective}} for this week is to complete the listening module. {{Prior to initiating}} the speaking phase, all review activities must be finalized.", "notes": ["*Initiating*, *finalized* y la pasiva modal elevan el registro."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste *aim to / plan to* + verbo base?",
+      "¿Pusiste -ing después de *prior to*?",
+      "¿Incluiste *to* en *move on to*?",
+      "¿Marcaste los plazos con *by* (no con *until*)?",
+      "¿Cada paso tiene un verbo de acción claro?"
+    ]
+  }
+}
