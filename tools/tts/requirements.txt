@@ -1,0 +1,12 @@
+# Audio generation (offline neural TTS). Python 3.10+ and ffmpeg on PATH.
+kokoro-onnx==0.6.1
+soundfile>=0.12
+numpy
+spacy>=3.8
+num2words
+regex
+# misaki is installed without its optional heavy extras:
+#   pip install --no-deps misaki==0.7.4
+#   pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+# Optional QA (speech recognition smoke test):
+pocketsphinx

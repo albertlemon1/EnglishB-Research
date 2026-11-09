@@ -1,0 +1,2105 @@
+{
+ "engine": "Kokoro-82M v1.0 (ONNX) + misaki G2P",
+ "sampleRate": 24000,
+ "format": "mp3 64 kbps mono",
+ "count": 233,
+ "clips": {
+  "l01-cc-1a": {
+   "file": "l01-cc-1a.mp3",
+   "duration": 3.13,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We are currently on track for tomorrow's dinner.",
+   "hash": "bafe5479d787"
+  },
+  "l01-cc-1b": {
+   "file": "l01-cc-1b.mp3",
+   "duration": 2.64,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I'm on track to finish the course by June.",
+   "hash": "8fdd6d1f4ee4"
+  },
+  "l01-cc-2a": {
+   "file": "l01-cc-2a.mp3",
+   "duration": 3.0,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I have already reserved our table at the restaurant.",
+   "hash": "aa2aeebfad0b"
+  },
+  "l01-cc-2b": {
+   "file": "l01-cc-2b.mp3",
+   "duration": 2.36,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Tom has already sorted out the cake.",
+   "hash": "9a783effb482"
+  },
+  "l01-cc-3a": {
+   "file": "l01-cc-3a.mp3",
+   "duration": 3.85,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I am still waiting for Alex to confirm if he needs a ride.",
+   "hash": "79a0fd5472af"
+  },
+  "l01-cc-3b": {
+   "file": "l01-cc-3b.mp3",
+   "duration": 2.36,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We're still figuring out who's driving.",
+   "hash": "e0930e86fd83"
+  },
+  "l01-dict-1": {
+   "file": "l01-dict-1.mp3",
+   "duration": 5.19,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "Don't worry, everything is under control. I'll keep you posted.",
+   "hash": "1e77c06c9947"
+  },
+  "l01-dlg-01": {
+   "file": "l01-dlg-01.mp3",
+   "duration": 5.62,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Maya, I just got your message. So, are we still on track for Saturday?",
+   "hash": "b0ce91a48bce"
+  },
+  "l01-dlg-02": {
+   "file": "l01-dlg-02.mp3",
+   "duration": 7.77,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Totally. Everything's under control. I've already booked the accommodation, a small guesthouse near the old town.",
+   "hash": "6836861ee426"
+  },
+  "l01-dlg-03": {
+   "file": "l01-dlg-03.mp3",
+   "duration": 3.98,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Great! Have you sorted out the train tickets yet?",
+   "hash": "9baa0e61d43e"
+  },
+  "l01-dlg-04": {
+   "file": "l01-dlg-04.mp3",
+   "duration": 7.35,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Yep, they're all sorted. I've already sent you the e-tickets by email. We leave at 8:15 on Saturday morning.",
+   "hash": "30ddb9f86d00"
+  },
+  "l01-dlg-05": {
+   "file": "l01-dlg-05.mp3",
+   "duration": 5.4,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Perfect. What about Sunday? Have you planned anything yet?",
+   "hash": "15fa7fa8d647"
+  },
+  "l01-dlg-06": {
+   "file": "l01-dlg-06.mp3",
+   "duration": 8.09,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Not yet. I'm still figuring out the itinerary. There's a market, a museum and a boat tour, but we can't do everything.",
+   "hash": "9dacbcff8fdc"
+  },
+  "l01-dlg-07": {
+   "file": "l01-dlg-07.mp3",
+   "duration": 4.85,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Let's prioritize the boat tour. I can check the schedule tonight.",
+   "hash": "9a86bcfcd7fa"
+  },
+  "l01-dlg-08": {
+   "file": "l01-dlg-08.mp3",
+   "duration": 6.35,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Deal. I'm still waiting for the guesthouse to confirm the check-in time, so I'll keep you posted.",
+   "hash": "1dde36582944"
+  },
+  "l01-gd": {
+   "file": "l01-gd.mp3",
+   "duration": 5.16,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I have already reserved the venue, but we are still waiting for the final attendance list.",
+   "hash": "d43379c0d979"
+  },
+  "l01-ph-accommodation-ex": {
+   "file": "l01-ph-accommodation-ex.mp3",
+   "duration": 3.07,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "We're fully on track with the accommodation bookings.",
+   "hash": "397e85ca1e90"
+  },
+  "l01-ph-accommodation-slow": {
+   "file": "l01-ph-accommodation-slow.mp3",
+   "duration": 1.83,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Accommodation.",
+   "hash": "fdee6408de97"
+  },
+  "l01-ph-accommodation-uk": {
+   "file": "l01-ph-accommodation-uk.mp3",
+   "duration": 1.61,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Accommodation.",
+   "hash": "6c5f331737a2"
+  },
+  "l01-ph-accommodation-us": {
+   "file": "l01-ph-accommodation-us.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Accommodation.",
+   "hash": "2eac3f733bc8"
+  },
+  "l01-ph-itinerary-ex": {
+   "file": "l01-ph-itinerary-ex.mp3",
+   "duration": 3.04,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I'm still figuring out the itinerary for Sunday.",
+   "hash": "678c90f89b24"
+  },
+  "l01-ph-itinerary-slow": {
+   "file": "l01-ph-itinerary-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Itinerary.",
+   "hash": "bb27f292b00d"
+  },
+  "l01-ph-itinerary-uk": {
+   "file": "l01-ph-itinerary-uk.mp3",
+   "duration": 1.81,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Itinerary.",
+   "hash": "b9fb7cad0493"
+  },
+  "l01-ph-itinerary-us": {
+   "file": "l01-ph-itinerary-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Itinerary.",
+   "hash": "4cbc5a8204b3"
+  },
+  "l01-ph-schedule-ex": {
+   "file": "l01-ph-schedule-ex.mp3",
+   "duration": 2.6,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We're right on schedule for Saturday.",
+   "hash": "43e41a3fe3e7"
+  },
+  "l01-ph-schedule-slow": {
+   "file": "l01-ph-schedule-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Schedule.",
+   "hash": "f2f7e9fef114"
+  },
+  "l01-ph-schedule-uk": {
+   "file": "l01-ph-schedule-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Schedule.",
+   "hash": "b1bbed5c5d15"
+  },
+  "l01-ph-schedule-us": {
+   "file": "l01-ph-schedule-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Schedule.",
+   "hash": "4e136e9587e8"
+  },
+  "l01-ph-sorted-out-ex": {
+   "file": "l01-ph-sorted-out-ex.mp3",
+   "duration": 2.94,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Don't worry, I've already sorted out the tickets.",
+   "hash": "70285b450e7b"
+  },
+  "l01-ph-sorted-out-slow": {
+   "file": "l01-ph-sorted-out-slow.mp3",
+   "duration": 1.81,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Sorted out.",
+   "hash": "7c913959fd23"
+  },
+  "l01-ph-sorted-out-uk": {
+   "file": "l01-ph-sorted-out-uk.mp3",
+   "duration": 1.55,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Sorted out.",
+   "hash": "aae797c22591"
+  },
+  "l01-ph-sorted-out-us": {
+   "file": "l01-ph-sorted-out-us.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Sorted out.",
+   "hash": "ada6ca868f07"
+  },
+  "l01-ph-status-ex": {
+   "file": "l01-ph-status-ex.mp3",
+   "duration": 2.7,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Can you give me a quick status update?",
+   "hash": "4b6eb9894b14"
+  },
+  "l01-ph-status-slow": {
+   "file": "l01-ph-status-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Status.",
+   "hash": "0bd3892df604"
+  },
+  "l01-ph-status-uk": {
+   "file": "l01-ph-status-uk.mp3",
+   "duration": 1.7,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Status.",
+   "hash": "14b344804147"
+  },
+  "l01-ph-status-us": {
+   "file": "l01-ph-status-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Status.",
+   "hash": "51c08c60f782"
+  },
+  "l01-reg-c1": {
+   "file": "l01-reg-c1.mp3",
+   "duration": 1.96,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Everything's under control.",
+   "hash": "ca8313411c30"
+  },
+  "l01-reg-c2": {
+   "file": "l01-reg-c2.mp3",
+   "duration": 1.96,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We're keeping on top of things.",
+   "hash": "5c0be373f52b"
+  },
+  "l01-reg-c3": {
+   "file": "l01-reg-c3.mp3",
+   "duration": 2.13,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I've already sorted out the tickets.",
+   "hash": "db44e9fc9546"
+  },
+  "l01-reg-f1": {
+   "file": "l01-reg-f1.mp3",
+   "duration": 3.71,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "All arrangements are proceeding according to the initial schedule.",
+   "hash": "7858b0fa6090"
+  },
+  "l01-reg-f2": {
+   "file": "l01-reg-f2.mp3",
+   "duration": 3.49,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "The preliminary bookings have been completed.",
+   "hash": "bba1e5842fe9"
+  },
+  "l01-reg-f3": {
+   "file": "l01-reg-f3.mp3",
+   "duration": 3.28,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The itinerary for Sunday is still being finalized.",
+   "hash": "b0067c32ab29"
+  },
+  "l01-reg-n1": {
+   "file": "l01-reg-n1.mp3",
+   "duration": 2.81,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We are currently on track with the plans.",
+   "hash": "48eb11d206ab"
+  },
+  "l01-reg-n2": {
+   "file": "l01-reg-n2.mp3",
+   "duration": 2.32,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I have already booked the accommodation.",
+   "hash": "60307c888d11"
+  },
+  "l01-reg-n3": {
+   "file": "l01-reg-n3.mp3",
+   "duration": 3.15,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'm still working on the itinerary for Sunday.",
+   "hash": "abf2c3e36297"
+  },
+  "l01-scn": {
+   "file": "l01-scn.mp3",
+   "duration": 13.44,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Hey Alex! Just checking in about our weekend trip. Don't worry, we're fully on track with the accommodation bookings. I've already sorted out the train tickets, but I'm still figuring out the itinerary for Sunday.",
+   "hash": "f8738b483477"
+  },
+  "l01-task-formal": {
+   "file": "l01-task-formal.mp3",
+   "duration": 10.87,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Dear Ms Clark, I am writing to confirm that our reservation for eight guests on Friday has been completed. We are still awaiting confirmation regarding the use of our own music.",
+   "hash": "e81bbd1d7b0b"
+  },
+  "l01-task-model": {
+   "file": "l01-task-model.mp3",
+   "duration": 21.75,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Hey everyone! Just checking in about Laura's birthday dinner on Friday. Good news: I've already booked a table for eight at Bella Vista, and Tom has already sorted out the cake. We're totally on track! I'm still waiting for the restaurant to confirm if we can bring our own music, and I haven't ordered the decorations yet. I'll keep you posted!",
+   "hash": "c6112ea6bc59"
+  },
+  "l02-cc-1a": {
+   "file": "l02-cc-1a.mp3",
+   "duration": 4.11,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I am gradually adjusting to preparing my meals in advance.",
+   "hash": "43cf83c1eccd"
+  },
+  "l02-cc-1b": {
+   "file": "l02-cc-1b.mp3",
+   "duration": 2.4,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm getting used to studying on the bus.",
+   "hash": "13026df8178d"
+  },
+  "l02-cc-2a": {
+   "file": "l02-cc-2a.mp3",
+   "duration": 3.41,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I am slowly building a more consistent reading habit.",
+   "hash": "f2500319617c"
+  },
+  "l02-cc-2b": {
+   "file": "l02-cc-2b.mp3",
+   "duration": 2.34,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "My sleep is gradually improving.",
+   "hash": "c9c03e6b5fd3"
+  },
+  "l02-cc-3a": {
+   "file": "l02-cc-3a.mp3",
+   "duration": 3.96,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "She is managing a heavy workload between college and work.",
+   "hash": "6859bb59c969"
+  },
+  "l02-cc-3b": {
+   "file": "l02-cc-3b.mp3",
+   "duration": 4.56,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Our team handles a demanding workload every December.",
+   "hash": "4696fd601a8a"
+  },
+  "l02-dict-1": {
+   "file": "l02-dict-1.mp3",
+   "duration": 3.21,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.9,
+   "text": "It took me a while to get used to the new timetable.",
+   "hash": "71da58364f54"
+  },
+  "l02-dlg-01": {
+   "file": "l02-dlg-01.mp3",
+   "duration": 3.66,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Hey Sarah, you look full of energy! What's your secret?",
+   "hash": "dd9d6c8daa2c"
+  },
+  "l02-dlg-02": {
+   "file": "l02-dlg-02.mp3",
+   "duration": 5.05,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Ha! Honestly, I've started waking up at six to go running before class.",
+   "hash": "4ac10efeae7e"
+  },
+  "l02-dlg-03": {
+   "file": "l02-dlg-03.mp3",
+   "duration": 3.83,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Six? No way. How are you coping with that?",
+   "hash": "e31c8bea99ab"
+  },
+  "l02-dlg-04": {
+   "file": "l02-dlg-04.mp3",
+   "duration": 5.69,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "It was tough at first, but I'm slowly getting used to it. The first week, I was exhausted.",
+   "hash": "4bf22c456655"
+  },
+  "l02-dlg-05": {
+   "file": "l02-dlg-05.mp3",
+   "duration": 4.99,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm juggling a lot right now, too: a part-time job, two courses and the gym.",
+   "hash": "589b30c1f76c"
+  },
+  "l02-dlg-06": {
+   "file": "l02-dlg-06.mp3",
+   "duration": 3.36,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "That's a heavy workload. How do you manage it?",
+   "hash": "bbe5a9492131"
+  },
+  "l02-dlg-07": {
+   "file": "l02-dlg-07.mp3",
+   "duration": 6.62,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm still adjusting to the new timetable, but I'm getting the hang of it. I plan everything on Sunday night.",
+   "hash": "40f8c031841d"
+  },
+  "l02-dlg-08": {
+   "file": "l02-dlg-08.mp3",
+   "duration": 4.0,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Smart. I'm gradually building a routine like that, too.",
+   "hash": "d4ed929a06c0"
+  },
+  "l02-gd": {
+   "file": "l02-gd.mp3",
+   "duration": 6.88,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I am gradually adjusting to waking up at 6 AM every day, even though it was difficult at the beginning.",
+   "hash": "419c9babc732"
+  },
+  "l02-ph-acclimate-ex": {
+   "file": "l02-ph-acclimate-ex.mp3",
+   "duration": 3.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I am currently acclimating to a more demanding schedule.",
+   "hash": "ae5ec25ff8cd"
+  },
+  "l02-ph-acclimate-slow": {
+   "file": "l02-ph-acclimate-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Acclimate.",
+   "hash": "b2b1b66db110"
+  },
+  "l02-ph-acclimate-uk": {
+   "file": "l02-ph-acclimate-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Acclimatise.",
+   "hash": "b68f4ead8caf"
+  },
+  "l02-ph-acclimate-us": {
+   "file": "l02-ph-acclimate-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Acclimate.",
+   "hash": "6446a178e77c"
+  },
+  "l02-ph-adjusting-to-ex": {
+   "file": "l02-ph-adjusting-to-ex.mp3",
+   "duration": 3.07,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I'm gradually adjusting to waking up at six.",
+   "hash": "722c58f0d363"
+  },
+  "l02-ph-adjusting-to-slow": {
+   "file": "l02-ph-adjusting-to-slow.mp3",
+   "duration": 1.87,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Adjusting to.",
+   "hash": "3dbe0b23cc35"
+  },
+  "l02-ph-adjusting-to-uk": {
+   "file": "l02-ph-adjusting-to-uk.mp3",
+   "duration": 1.7,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Adjusting to.",
+   "hash": "3ea499c3b46f"
+  },
+  "l02-ph-adjusting-to-us": {
+   "file": "l02-ph-adjusting-to-us.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Adjusting to.",
+   "hash": "6e7a9c45ebd0"
+  },
+  "l02-ph-hang-of-it-ex": {
+   "file": "l02-ph-hang-of-it-ex.mp3",
+   "duration": 2.96,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "It was hard at first, but I'm getting the hang of it.",
+   "hash": "b1afc43066c4"
+  },
+  "l02-ph-hang-of-it-slow": {
+   "file": "l02-ph-hang-of-it-slow.mp3",
+   "duration": 2.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Getting the hang of it.",
+   "hash": "9f115e84b761"
+  },
+  "l02-ph-hang-of-it-uk": {
+   "file": "l02-ph-hang-of-it-uk.mp3",
+   "duration": 1.89,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Getting the hang of it.",
+   "hash": "9701502b6260"
+  },
+  "l02-ph-hang-of-it-us": {
+   "file": "l02-ph-hang-of-it-us.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Getting the hang of it.",
+   "hash": "0975ccaa586a"
+  },
+  "l02-ph-routine-ex": {
+   "file": "l02-ph-routine-ex.mp3",
+   "duration": 2.77,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I'm gradually building a new morning routine.",
+   "hash": "d90973361524"
+  },
+  "l02-ph-routine-slow": {
+   "file": "l02-ph-routine-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Routine.",
+   "hash": "f1bfb493487b"
+  },
+  "l02-ph-routine-uk": {
+   "file": "l02-ph-routine-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Routine.",
+   "hash": "aeda31bfda35"
+  },
+  "l02-ph-routine-us": {
+   "file": "l02-ph-routine-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Routine.",
+   "hash": "5bf67b320fb8"
+  },
+  "l02-ph-workload-ex": {
+   "file": "l02-ph-workload-ex.mp3",
+   "duration": 2.7,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'm handling a heavier workload these days.",
+   "hash": "c9fc2eae275e"
+  },
+  "l02-ph-workload-slow": {
+   "file": "l02-ph-workload-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Workload.",
+   "hash": "7e664c173e68"
+  },
+  "l02-ph-workload-uk": {
+   "file": "l02-ph-workload-uk.mp3",
+   "duration": 1.59,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Workload.",
+   "hash": "51569cf0177d"
+  },
+  "l02-ph-workload-us": {
+   "file": "l02-ph-workload-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Workload.",
+   "hash": "28d032fca8bb"
+  },
+  "l02-reg-c1": {
+   "file": "l02-reg-c1.mp3",
+   "duration": 3.45,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm juggling a lot right now, but I'm getting the hang of it.",
+   "hash": "15522f3bdd9e"
+  },
+  "l02-reg-c2": {
+   "file": "l02-reg-c2.mp3",
+   "duration": 3.21,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Slowly getting into the groove with my new routine.",
+   "hash": "37fea19e3538"
+  },
+  "l02-reg-f1": {
+   "file": "l02-reg-f1.mp3",
+   "duration": 3.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I am currently acclimating to a more demanding schedule.",
+   "hash": "ae5ec25ff8cd"
+  },
+  "l02-reg-f2": {
+   "file": "l02-reg-f2.mp3",
+   "duration": 6.31,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I have successfully adapted to managing multiple simultaneous responsibilities.",
+   "hash": "d0228d3a8e09"
+  },
+  "l02-reg-n1": {
+   "file": "l02-reg-n1.mp3",
+   "duration": 3.15,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I am gradually adjusting to my new daily routine.",
+   "hash": "753b394e0ef9"
+  },
+  "l02-reg-n2": {
+   "file": "l02-reg-n2.mp3",
+   "duration": 2.7,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'm handling a heavier workload these days.",
+   "hash": "c9fc2eae275e"
+  },
+  "l02-reg-n3": {
+   "file": "l02-reg-n3.mp3",
+   "duration": 3.09,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "It took me a while to get used to the new timetable.",
+   "hash": "2209cbe92d29"
+  },
+  "l02-scn": {
+   "file": "l02-scn.mp3",
+   "duration": 13.34,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Lately, I've been trying to balance my daily study routine with a new exercise plan. It felt like a heavy workload at first, but I'm gradually getting used to waking up early and managing my daily schedule more smoothly.",
+   "hash": "fa7f78b7bbf5"
+  },
+  "l02-task-formal": {
+   "file": "l02-task-formal.mp3",
+   "duration": 7.91,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I have successfully adapted to managing my academic and professional responsibilities simultaneously.",
+   "hash": "7222ff78c88c"
+  },
+  "l02-task-model": {
+   "file": "l02-task-model.mp3",
+   "duration": 23.61,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi everyone! Lately, I've been trying to combine my evening classes with a new job at a bookstore. At first, it felt like a heavy workload, but I'm gradually getting used to studying on the bus and reviewing my notes during lunch. I'm still adjusting to waking up at 6:30, to be honest! My tip: plan your week on Sunday night. It really helps you handle everything more smoothly.",
+   "hash": "dc84e68a01a3"
+  },
+  "l03-cc-1a": {
+   "file": "l03-cc-1a.mp3",
+   "duration": 3.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I aim to finish my reading assignment before 8 PM.",
+   "hash": "5ea9284de304"
+  },
+  "l03-cc-1b": {
+   "file": "l03-cc-1b.mp3",
+   "duration": 3.17,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We're planning to visit my parents next weekend.",
+   "hash": "e4e7497a9a72"
+  },
+  "l03-cc-2a": {
+   "file": "l03-cc-2a.mp3",
+   "duration": 4.07,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Prior to making a decision, I plan to compare all options.",
+   "hash": "ccfa7d0cc753"
+  },
+  "l03-cc-2b": {
+   "file": "l03-cc-2b.mp3",
+   "duration": 3.85,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Please read the instructions prior to the exam.",
+   "hash": "1661d608a47d"
+  },
+  "l03-cc-3a": {
+   "file": "l03-cc-3a.mp3",
+   "duration": 4.62,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Once we finish this exercise, we can move on to the next unit.",
+   "hash": "5be5de8f7a5d"
+  },
+  "l03-cc-3b": {
+   "file": "l03-cc-3b.mp3",
+   "duration": 2.66,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "We kicked off the project with a short meeting.",
+   "hash": "20bfbdcc3bb9"
+  },
+  "l03-dict-1": {
+   "file": "l03-dict-1.mp3",
+   "duration": 3.28,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "I aim to finish the first draft by tonight.",
+   "hash": "206d53b9379b"
+  },
+  "l03-dlg-01": {
+   "file": "l03-dlg-01.mp3",
+   "duration": 4.03,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "So, are we still kicking off the website project tomorrow morning?",
+   "hash": "f4c7e4625b52"
+  },
+  "l03-dlg-02": {
+   "file": "l03-dlg-02.mp3",
+   "duration": 4.6,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Yes! My goal is to have the homepage ready by Sunday.",
+   "hash": "c1bb39cd4d64"
+  },
+  "l03-dlg-03": {
+   "file": "l03-dlg-03.mp3",
+   "duration": 3.74,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Great. I'm going to knock out the photo selection tonight.",
+   "hash": "ffe5adc26cbe"
+  },
+  "l03-dlg-04": {
+   "file": "l03-dlg-04.mp3",
+   "duration": 5.96,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Perfect. Prior to uploading anything, though, we need to resize the images.",
+   "hash": "48e3281297fb"
+  },
+  "l03-dlg-05": {
+   "file": "l03-dlg-05.mp3",
+   "duration": 3.27,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Good point. I aim to finish that by ten.",
+   "hash": "1e247ce551a3"
+  },
+  "l03-dlg-06": {
+   "file": "l03-dlg-06.mp3",
+   "duration": 4.81,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Then, once the homepage is done, we can move on to the contact page.",
+   "hash": "09689123c7c6"
+  },
+  "l03-dlg-07": {
+   "file": "l03-dlg-07.mp3",
+   "duration": 3.47,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "And before we launch, let's do a quick review together.",
+   "hash": "c4992140c736"
+  },
+  "l03-dlg-08": {
+   "file": "l03-dlg-08.mp3",
+   "duration": 4.02,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Deal. Next step: coffee and a to-do list!",
+   "hash": "7b46dcbb0ea7"
+  },
+  "l03-gd": {
+   "file": "l03-gd.mp3",
+   "duration": 5.13,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We are planning to complete the preliminary review prior to launching the new website.",
+   "hash": "78250bd568ac"
+  },
+  "l03-ph-kick-off-ex": {
+   "file": "l03-ph-kick-off-ex.mp3",
+   "duration": 3.09,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Let's kick off the weekend project tomorrow morning.",
+   "hash": "71dd13a7e46c"
+  },
+  "l03-ph-kick-off-slow": {
+   "file": "l03-ph-kick-off-slow.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Kick off.",
+   "hash": "d04628c8fcba"
+  },
+  "l03-ph-kick-off-uk": {
+   "file": "l03-ph-kick-off-uk.mp3",
+   "duration": 1.7,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Kick off.",
+   "hash": "4012c660cd82"
+  },
+  "l03-ph-kick-off-us": {
+   "file": "l03-ph-kick-off-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Kick off.",
+   "hash": "e23a85ad6956"
+  },
+  "l03-ph-knock-out-ex": {
+   "file": "l03-ph-knock-out-ex.mp3",
+   "duration": 2.79,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm going to knock out this task before lunch.",
+   "hash": "c72c08aff9f4"
+  },
+  "l03-ph-knock-out-slow": {
+   "file": "l03-ph-knock-out-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Knock out.",
+   "hash": "5113f1374970"
+  },
+  "l03-ph-knock-out-uk": {
+   "file": "l03-ph-knock-out-uk.mp3",
+   "duration": 1.38,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Knock out.",
+   "hash": "f3f59cdcbcfc"
+  },
+  "l03-ph-knock-out-us": {
+   "file": "l03-ph-knock-out-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Knock out.",
+   "hash": "48678ef55595"
+  },
+  "l03-ph-move-on-to-ex": {
+   "file": "l03-ph-move-on-to-ex.mp3",
+   "duration": 4.15,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Once we finish this exercise, we can move on to the next unit.",
+   "hash": "a564cc77a702"
+  },
+  "l03-ph-move-on-to-slow": {
+   "file": "l03-ph-move-on-to-slow.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Move on to.",
+   "hash": "5b519f01ad84"
+  },
+  "l03-ph-move-on-to-uk": {
+   "file": "l03-ph-move-on-to-uk.mp3",
+   "duration": 1.61,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Move on to.",
+   "hash": "4c8bb35b416e"
+  },
+  "l03-ph-move-on-to-us": {
+   "file": "l03-ph-move-on-to-us.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Move on to.",
+   "hash": "977e395afb00"
+  },
+  "l03-ph-objective-ex": {
+   "file": "l03-ph-objective-ex.mp3",
+   "duration": 3.71,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Our primary objective is to finalize this project phase.",
+   "hash": "d48c743a8ffa"
+  },
+  "l03-ph-objective-slow": {
+   "file": "l03-ph-objective-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Objective.",
+   "hash": "051f65552256"
+  },
+  "l03-ph-objective-uk": {
+   "file": "l03-ph-objective-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Objective.",
+   "hash": "4002cfb7cff0"
+  },
+  "l03-ph-objective-us": {
+   "file": "l03-ph-objective-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Objective.",
+   "hash": "225e7b8a3455"
+  },
+  "l03-ph-prior-to-ex": {
+   "file": "l03-ph-prior-to-ex.mp3",
+   "duration": 4.69,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Prior to starting the new topic, I'm planning to organize my notes.",
+   "hash": "d6eac238a749"
+  },
+  "l03-ph-prior-to-slow": {
+   "file": "l03-ph-prior-to-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Prior to.",
+   "hash": "5eb5410764db"
+  },
+  "l03-ph-prior-to-uk": {
+   "file": "l03-ph-prior-to-uk.mp3",
+   "duration": 1.87,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Prior to.",
+   "hash": "3fa9748a6582"
+  },
+  "l03-ph-prior-to-us": {
+   "file": "l03-ph-prior-to-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Prior to.",
+   "hash": "dee8fa023dd3"
+  },
+  "l03-reg-c1": {
+   "file": "l03-reg-c1.mp3",
+   "duration": 2.38,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm going to knock out this task today.",
+   "hash": "795e35e6be81"
+  },
+  "l03-reg-c2": {
+   "file": "l03-reg-c2.mp3",
+   "duration": 3.09,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Let's kick off the weekend project tomorrow morning.",
+   "hash": "71dd13a7e46c"
+  },
+  "l03-reg-f1": {
+   "file": "l03-reg-f1.mp3",
+   "duration": 3.71,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Our primary objective is to finalize this project phase.",
+   "hash": "d48c743a8ffa"
+  },
+  "l03-reg-f2": {
+   "file": "l03-reg-f2.mp3",
+   "duration": 5.54,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Prior to initiating the next phase, all preliminary criteria must be met.",
+   "hash": "8f7c12dc3e08"
+  },
+  "l03-reg-n1": {
+   "file": "l03-reg-n1.mp3",
+   "duration": 3.39,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I aim to complete this activity before noon.",
+   "hash": "cad0c985734d"
+  },
+  "l03-reg-n2": {
+   "file": "l03-reg-n2.mp3",
+   "duration": 2.53,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We are planning to move on to the next step.",
+   "hash": "b3ddcce58377"
+  },
+  "l03-scn": {
+   "file": "l03-scn.mp3",
+   "duration": 15.79,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "My main goal for this month is to improve my language fluency. I aim to finish reading this chapter by tonight so I can move on to the next module. I'm planning to organize my study notes prior to starting the new practice topic.",
+   "hash": "bd8a8e429b5a"
+  },
+  "l03-task-formal": {
+   "file": "l03-task-formal.mp3",
+   "duration": 9.35,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Our primary objective for this week is to complete the listening module. Prior to initiating the speaking phase, all review activities must be finalized.",
+   "hash": "fac11dcb35b6"
+  },
+  "l03-task-model": {
+   "file": "l03-task-model.mp3",
+   "duration": 28.38,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Sam! Here's my plan for the week. My main goal is to improve my listening skills. I aim to finish two podcast episodes by Wednesday. Prior to listening, I'm planning to review the key vocabulary, so I don't get lost. Once I finish the episodes, I'll move on to the speaking exercises. And tomorrow morning, I'm going to knock out the grammar homework before work. Wish me luck!",
+   "hash": "e59c85872f7a"
+  },
+  "l04-cc-1a": {
+   "file": "l04-cc-1a.mp3",
+   "duration": 3.77,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We ran into an unexpected delay with our flight.",
+   "hash": "038bff313540"
+  },
+  "l04-cc-1b": {
+   "file": "l04-cc-1b.mp3",
+   "duration": 4.26,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Our engineers encountered a minor fault in the system.",
+   "hash": "7264dfe3936c"
+  },
+  "l04-cc-2a": {
+   "file": "l04-cc-2a.mp3",
+   "duration": 3.11,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Don't worry, I am working through the issue right now.",
+   "hash": "0e5c69074a36"
+  },
+  "l04-cc-2b": {
+   "file": "l04-cc-2b.mp3",
+   "duration": 3.28,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "The technician is resolving the problem as we speak.",
+   "hash": "dc5872c2b2b1"
+  },
+  "l04-cc-3a": {
+   "file": "l04-cc-3a.mp3",
+   "duration": 4.81,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Taking the bus was a good temporary workaround while the car was being repaired.",
+   "hash": "35d67b2d5c56"
+  },
+  "l04-cc-3b": {
+   "file": "l04-cc-3b.mp3",
+   "duration": 3.3,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We found a temporary workaround for the printer issue.",
+   "hash": "869a280f056c"
+  },
+  "l04-dict-1": {
+   "file": "l04-dict-1.mp3",
+   "duration": 4.09,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.9,
+   "text": "The issue should be fully resolved by this afternoon.",
+   "hash": "bf206baf8f46"
+  },
+  "l04-dlg-01": {
+   "file": "l04-dlg-01.mp3",
+   "duration": 7.37,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Good morning, you're through to FibreNet Support. My name is George. How may I help you?",
+   "hash": "0025062cbed1"
+  },
+  "l04-dlg-02": {
+   "file": "l04-dlg-02.mp3",
+   "duration": 7.39,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Hi, George. We ran into a problem with our internet connection this morning. It keeps dropping every few minutes.",
+   "hash": "405e27a68bfa"
+  },
+  "l04-dlg-03": {
+   "file": "l04-dlg-03.mp3",
+   "duration": 5.28,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I'm sorry to hear that. When did you first notice the issue?",
+   "hash": "7248e777ba7c"
+  },
+  "l04-dlg-04": {
+   "file": "l04-dlg-04.mp3",
+   "duration": 5.79,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Around eight. It put us way behind schedule. We had an online presentation at nine.",
+   "hash": "54d0608c39c1"
+  },
+  "l04-dlg-05": {
+   "file": "l04-dlg-05.mp3",
+   "duration": 8.89,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I understand. We have identified a minor system failure in your area, and our engineers are currently resolving it.",
+   "hash": "b455723a48c8"
+  },
+  "l04-dlg-06": {
+   "file": "l04-dlg-06.mp3",
+   "duration": 3.59,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Okay. Is there anything we can do in the meantime?",
+   "hash": "99778cdfb53b"
+  },
+  "l04-dlg-07": {
+   "file": "l04-dlg-07.mp3",
+   "duration": 8.82,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "As a temporary workaround, I would recommend using a mobile hotspot. The issue should be fully resolved by this afternoon.",
+   "hash": "5bdf8e43e241"
+  },
+  "l04-dlg-08": {
+   "file": "l04-dlg-08.mp3",
+   "duration": 3.3,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "That's what we're doing right now. Thanks for your help.",
+   "hash": "1f899c3bc730"
+  },
+  "l04-dlg-09": {
+   "file": "l04-dlg-09.mp3",
+   "duration": 4.73,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "You're very welcome. We apologize for the disruption.",
+   "hash": "3898d3752a96"
+  },
+  "l04-gd": {
+   "file": "l04-gd.mp3",
+   "duration": 6.41,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Yesterday we encountered a minor system failure, but our team is actively resolving the problem.",
+   "hash": "b930f0383547"
+  },
+  "l04-ph-bottleneck-ex": {
+   "file": "l04-ph-bottleneck-ex.mp3",
+   "duration": 3.79,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The slow Wi-Fi was the main bottleneck this morning.",
+   "hash": "4404effdbcf4"
+  },
+  "l04-ph-bottleneck-slow": {
+   "file": "l04-ph-bottleneck-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Bottleneck.",
+   "hash": "b1e5a5643c89"
+  },
+  "l04-ph-bottleneck-uk": {
+   "file": "l04-ph-bottleneck-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Bottleneck.",
+   "hash": "9e196a007161"
+  },
+  "l04-ph-bottleneck-us": {
+   "file": "l04-ph-bottleneck-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Bottleneck.",
+   "hash": "37c7a8966467"
+  },
+  "l04-ph-encountered-ex": {
+   "file": "l04-ph-encountered-ex.mp3",
+   "duration": 4.17,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We encountered an unforeseen technical disruption.",
+   "hash": "85bf47e709e4"
+  },
+  "l04-ph-encountered-slow": {
+   "file": "l04-ph-encountered-slow.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Encountered.",
+   "hash": "e6c5796f4157"
+  },
+  "l04-ph-encountered-uk": {
+   "file": "l04-ph-encountered-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Encountered.",
+   "hash": "5878c8c408b8"
+  },
+  "l04-ph-encountered-us": {
+   "file": "l04-ph-encountered-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Encountered.",
+   "hash": "b5f1052a03c7"
+  },
+  "l04-ph-hit-a-wall-ex": {
+   "file": "l04-ph-hit-a-wall-ex.mp3",
+   "duration": 3.04,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We hit a wall with the setup, but we're sorting it out.",
+   "hash": "bcebdaec2e23"
+  },
+  "l04-ph-hit-a-wall-slow": {
+   "file": "l04-ph-hit-a-wall-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Hit a wall.",
+   "hash": "5de6d3421cbf"
+  },
+  "l04-ph-hit-a-wall-uk": {
+   "file": "l04-ph-hit-a-wall-uk.mp3",
+   "duration": 1.53,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Hit a wall.",
+   "hash": "62f44fbfe9bd"
+  },
+  "l04-ph-hit-a-wall-us": {
+   "file": "l04-ph-hit-a-wall-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Hit a wall.",
+   "hash": "27f441a3420e"
+  },
+  "l04-ph-mitigate-ex": {
+   "file": "l04-ph-mitigate-ex.mp3",
+   "duration": 3.62,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The issue is actively being mitigated by the support team.",
+   "hash": "504ff93a3498"
+  },
+  "l04-ph-mitigate-slow": {
+   "file": "l04-ph-mitigate-slow.mp3",
+   "duration": 1.66,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Mitigate.",
+   "hash": "a469de9aa06c"
+  },
+  "l04-ph-mitigate-uk": {
+   "file": "l04-ph-mitigate-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Mitigate.",
+   "hash": "5cee276f3f89"
+  },
+  "l04-ph-mitigate-us": {
+   "file": "l04-ph-mitigate-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Mitigate.",
+   "hash": "e4e1dcf453b7"
+  },
+  "l04-ph-workaround-ex": {
+   "file": "l04-ph-workaround-ex.mp3",
+   "duration": 2.64,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We found a temporary workaround for the issue.",
+   "hash": "9c63497c196d"
+  },
+  "l04-ph-workaround-slow": {
+   "file": "l04-ph-workaround-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Workaround.",
+   "hash": "661fba42b731"
+  },
+  "l04-ph-workaround-uk": {
+   "file": "l04-ph-workaround-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Workaround.",
+   "hash": "f831d21295b3"
+  },
+  "l04-ph-workaround-us": {
+   "file": "l04-ph-workaround-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Workaround.",
+   "hash": "8ef9a5e625a4"
+  },
+  "l04-reg-c1": {
+   "file": "l04-reg-c1.mp3",
+   "duration": 3.04,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We hit a wall with the setup, but we're sorting it out.",
+   "hash": "bcebdaec2e23"
+  },
+  "l04-reg-c2": {
+   "file": "l04-reg-c2.mp3",
+   "duration": 3.02,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Ran into a small hiccup, but no big deal.",
+   "hash": "5e17e2403bfa"
+  },
+  "l04-reg-f1": {
+   "file": "l04-reg-f1.mp3",
+   "duration": 5.56,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We encountered an unforeseen technical disruption during the operation.",
+   "hash": "256211f3fe49"
+  },
+  "l04-reg-f2": {
+   "file": "l04-reg-f2.mp3",
+   "duration": 3.62,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The issue is actively being mitigated by the support team.",
+   "hash": "504ff93a3498"
+  },
+  "l04-reg-n1": {
+   "file": "l04-reg-n1.mp3",
+   "duration": 4.13,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We ran into an unexpected problem, but we are resolving it now.",
+   "hash": "f839fb7ff30b"
+  },
+  "l04-reg-n2": {
+   "file": "l04-reg-n2.mp3",
+   "duration": 2.64,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We found a temporary workaround for the issue.",
+   "hash": "9c63497c196d"
+  },
+  "l04-reg-n3": {
+   "file": "l04-reg-n3.mp3",
+   "duration": 3.79,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The slow Wi-Fi was the main bottleneck this morning.",
+   "hash": "4404effdbcf4"
+  },
+  "l04-scn": {
+   "file": "l04-scn.mp3",
+   "duration": 12.49,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We ran into an unexpected issue with the internet connection this morning, which put us behind schedule. However, we're currently working through it and using a mobile hotspot as a temporary solution.",
+   "hash": "6ec39ba8973f"
+  },
+  "l04-task-formal": {
+   "file": "l04-task-formal.mp3",
+   "duration": 10.92,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We encountered an unforeseen technical disruption; the issue is currently being mitigated, and we expect full service to be restored by this afternoon.",
+   "hash": "cc4eb1b9e9be"
+  },
+  "l04-task-model": {
+   "file": "l04-task-model.mp3",
+   "duration": 27.22,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Hi Professor Lee, unfortunately, I ran into a problem with my laptop this morning: it suddenly stopped working, and this put me behind schedule with the final report. I'm currently working through the issue with the university's tech support. In the meantime, I'm using a library computer as a temporary workaround, and my files are safe in the cloud. I expect to submit the report by Friday at noon. Thank you for your understanding.",
+   "hash": "475827249737"
+  },
+  "l05-cc-1a": {
+   "file": "l05-cc-1a.mp3",
+   "duration": 3.11,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I have achieved my main health goals this semester.",
+   "hash": "3c2ff4c5d31a"
+  },
+  "l05-cc-1b": {
+   "file": "l05-cc-1b.mp3",
+   "duration": 3.34,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The team has reached an important milestone this quarter.",
+   "hash": "0298e9c4ef2a"
+  },
+  "l05-cc-2a": {
+   "file": "l05-cc-2a.mp3",
+   "duration": 3.11,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We are making steady progress with our Spanish course.",
+   "hash": "da73c790a6f8"
+  },
+  "l05-cc-2b": {
+   "file": "l05-cc-2b.mp3",
+   "duration": 2.79,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I've finally made some headway with my thesis.",
+   "hash": "ee69339b3cd6"
+  },
+  "l05-cc-3a": {
+   "file": "l05-cc-3a.mp3",
+   "duration": 4.24,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "After months of practice, she is well-positioned to take the exam.",
+   "hash": "fa6460ae7cfc"
+  },
+  "l05-cc-3b": {
+   "file": "l05-cc-3b.mp3",
+   "duration": 3.68,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "The company is well-positioned for future growth.",
+   "hash": "75319580e4c6"
+  },
+  "l05-dict-1": {
+   "file": "l05-dict-1.mp3",
+   "duration": 3.94,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.9,
+   "text": "Significant milestones have been successfully achieved this year.",
+   "hash": "07ed3aa9f995"
+  },
+  "l05-dlg-01": {
+   "file": "l05-dlg-01.mp3",
+   "duration": 3.87,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Can you believe it's already December? This year flew by.",
+   "hash": "5ed0168f16f7"
+  },
+  "l05-dlg-02": {
+   "file": "l05-dlg-02.mp3",
+   "duration": 3.55,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I know! But looking back, we've come a long way.",
+   "hash": "68d09c1c83fc"
+  },
+  "l05-dlg-03": {
+   "file": "l05-dlg-03.mp3",
+   "duration": 4.49,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Totally. Remember when I couldn't even order a coffee in English?",
+   "hash": "f19123b13461"
+  },
+  "l05-dlg-04": {
+   "file": "l05-dlg-04.mp3",
+   "duration": 4.92,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "And now you've given two presentations at work! That's a major milestone.",
+   "hash": "f1abff22023f"
+  },
+  "l05-dlg-05": {
+   "file": "l05-dlg-05.mp3",
+   "duration": 5.36,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Thanks! You've made steady progress, too. You've finished three online courses.",
+   "hash": "53e1eec82d81"
+  },
+  "l05-dlg-06": {
+   "file": "l05-dlg-06.mp3",
+   "duration": 4.23,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Four, actually! And I've made really good headway with my writing.",
+   "hash": "c6ca0bdc7288"
+  },
+  "l05-dlg-07": {
+   "file": "l05-dlg-07.mp3",
+   "duration": 2.7,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "So we're well-positioned for next year's goals.",
+   "hash": "b678a5e77849"
+  },
+  "l05-dlg-08": {
+   "file": "l05-dlg-08.mp3",
+   "duration": 3.13,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Definitely. Next stop: B2!",
+   "hash": "320c4e7ec2e2"
+  },
+  "l05-gd": {
+   "file": "l05-gd.mp3",
+   "duration": 7.33,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Our study group has achieved several key milestones this month, and we are well-positioned to pass the final assessment.",
+   "hash": "8f18b315d10e"
+  },
+  "l05-ph-headway-ex": {
+   "file": "l05-ph-headway-ex.mp3",
+   "duration": 2.75,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We've made really good headway with our routine.",
+   "hash": "d589b778da9e"
+  },
+  "l05-ph-headway-slow": {
+   "file": "l05-ph-headway-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Headway.",
+   "hash": "0eb1adfb680d"
+  },
+  "l05-ph-headway-uk": {
+   "file": "l05-ph-headway-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Headway.",
+   "hash": "1aca76f14bd7"
+  },
+  "l05-ph-headway-us": {
+   "file": "l05-ph-headway-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Headway.",
+   "hash": "593623e41713"
+  },
+  "l05-ph-long-way-ex": {
+   "file": "l05-ph-long-way-ex.mp3",
+   "duration": 3.02,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Looking back at this year, we've come a long way!",
+   "hash": "61f64faea577"
+  },
+  "l05-ph-long-way-slow": {
+   "file": "l05-ph-long-way-slow.mp3",
+   "duration": 1.89,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Come a long way.",
+   "hash": "004139e05afc"
+  },
+  "l05-ph-long-way-uk": {
+   "file": "l05-ph-long-way-uk.mp3",
+   "duration": 1.7,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Come a long way.",
+   "hash": "ff19e2d23f86"
+  },
+  "l05-ph-long-way-us": {
+   "file": "l05-ph-long-way-us.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Come a long way.",
+   "hash": "5067f624b47e"
+  },
+  "l05-ph-milestone-ex": {
+   "file": "l05-ph-milestone-ex.mp3",
+   "duration": 3.81,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We have achieved a couple of major milestones this year.",
+   "hash": "02c379defeda"
+  },
+  "l05-ph-milestone-slow": {
+   "file": "l05-ph-milestone-slow.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Milestone.",
+   "hash": "5d20426bf292"
+  },
+  "l05-ph-milestone-uk": {
+   "file": "l05-ph-milestone-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Milestone.",
+   "hash": "87e9e877df3f"
+  },
+  "l05-ph-milestone-us": {
+   "file": "l05-ph-milestone-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Milestone.",
+   "hash": "707c619a1121"
+  },
+  "l05-ph-progress-ex": {
+   "file": "l05-ph-progress-ex.mp3",
+   "duration": 3.88,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We're making steady progress, and the project is progressing well.",
+   "hash": "931a60b6d6a9"
+  },
+  "l05-ph-progress-slow": {
+   "file": "l05-ph-progress-slow.mp3",
+   "duration": 1.66,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Progress.",
+   "hash": "ffd5cec7dbfe"
+  },
+  "l05-ph-progress-uk": {
+   "file": "l05-ph-progress-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Progress.",
+   "hash": "b3e3568f5b25"
+  },
+  "l05-ph-progress-us": {
+   "file": "l05-ph-progress-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Progress.",
+   "hash": "c22321c46211"
+  },
+  "l05-ph-well-positioned-ex": {
+   "file": "l05-ph-well-positioned-ex.mp3",
+   "duration": 3.39,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We are well-positioned for the upcoming challenges.",
+   "hash": "deaf55c8001d"
+  },
+  "l05-ph-well-positioned-slow": {
+   "file": "l05-ph-well-positioned-slow.mp3",
+   "duration": 1.81,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Well-positioned.",
+   "hash": "a1bd69b1e8b3"
+  },
+  "l05-ph-well-positioned-uk": {
+   "file": "l05-ph-well-positioned-uk.mp3",
+   "duration": 1.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Well-positioned.",
+   "hash": "6ce1d9ac3b85"
+  },
+  "l05-ph-well-positioned-us": {
+   "file": "l05-ph-well-positioned-us.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Well-positioned.",
+   "hash": "44039f01bf18"
+  },
+  "l05-reg-c1": {
+   "file": "l05-reg-c1.mp3",
+   "duration": 1.98,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "We've come a long way this year!",
+   "hash": "e37514d01e63"
+  },
+  "l05-reg-c2": {
+   "file": "l05-reg-c2.mp3",
+   "duration": 2.75,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We've made really good headway with our routine.",
+   "hash": "d589b778da9e"
+  },
+  "l05-reg-f1": {
+   "file": "l05-reg-f1.mp3",
+   "duration": 3.41,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Significant milestones have been successfully achieved.",
+   "hash": "0ec8b0f15c08"
+  },
+  "l05-reg-f2": {
+   "file": "l05-reg-f2.mp3",
+   "duration": 5.65,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "The progress made thus far positions us advantageously for future growth.",
+   "hash": "0bfad35c84b0"
+  },
+  "l05-reg-n1": {
+   "file": "l05-reg-n1.mp3",
+   "duration": 3.15,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We have made steady progress over the last few months.",
+   "hash": "9d3a813ce7da"
+  },
+  "l05-reg-n2": {
+   "file": "l05-reg-n2.mp3",
+   "duration": 4.05,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I have achieved my main personal milestones for this term.",
+   "hash": "451f3242d9b3"
+  },
+  "l05-scn": {
+   "file": "l05-scn.mp3",
+   "duration": 12.92,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Looking back at this past year, I feel we've come a long way. We have made steady progress with our personal projects and achieved a couple of major milestones, so we are well-positioned for the upcoming challenges.",
+   "hash": "9668abc9ff13"
+  },
+  "l05-task-formal": {
+   "file": "l05-task-formal.mp3",
+   "duration": 9.25,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Over the past year, significant milestones have been successfully achieved, and the progress made thus far positions the group advantageously for the next level.",
+   "hash": "5f20a5969b96"
+  },
+  "l05-task-model": {
+   "file": "l05-task-model.mp3",
+   "duration": 27.57,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Looking back at this past year, I feel I've come a long way. In January, I could barely follow a conversation in English. Since then, I have completed four online courses, and I've made steady progress with my writing. My biggest milestone? Last month, I gave my first presentation in English at work, and my team loved it. I still make mistakes, of course, but I'm well-positioned to start B2 next term. Thanks for all your support!",
+   "hash": "99e85faef27f"
+  },
+  "rv-dict-1": {
+   "file": "rv-dict-1.mp3",
+   "duration": 3.32,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.9,
+   "text": "We ran into a small problem, but we're working through it.",
+   "hash": "6133070291de"
+  },
+  "rv-dict-2": {
+   "file": "rv-dict-2.mp3",
+   "duration": 3.28,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.9,
+   "text": "All arrangements are proceeding according to schedule.",
+   "hash": "38f822a32ea3"
+  }
+ }
+}

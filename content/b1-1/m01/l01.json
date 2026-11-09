@@ -1,0 +1,277 @@
+{
+  "id": "l01",
+  "n": 1,
+  "title": "Updating Plans, Status & Priorities in Daily Life",
+  "titleEs": "Actualizar planes, estados y prioridades en la vida diaria",
+  "minutes": 60,
+  "summary": "Informa qué está hecho, qué sigue en proceso y qué falta, con already, still y yet.",
+  "canDo": [
+    "Puedo informar del estado de un plan: qué está hecho, qué sigue en proceso y qué falta.",
+    "Puedo usar *already*, *still* y *yet* en la posición correcta.",
+    "Puedo decir lo mismo en registro casual, neutro y formal.",
+    "Puedo pronunciar *schedule* y *status* sin añadir una /e/ al principio."
+  ],
+  "focus": {
+    "grammar": "Present Perfect + already / yet; be + still + -ing",
+    "lexis": "on track, sort out, figure out, keep someone posted",
+    "afh": "S-cluster inicial (schedule, status); acento en palabras largas"
+  },
+  "warmup": "Piensa en un plan que estés organizando ahora (un viaje, una cena, una mudanza). ¿Qué ya está hecho? ¿Qué sigue pendiente? Tenlo en mente: lo usarás en la tarea final.",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Mensaje de voz de Maya",
+      "context": "Maya y Alex se van de fin de semana. Maya le deja un mensaje de voz con el estado del plan.",
+      "speaker": "maya",
+      "to": "Alex",
+      "audio": "l01-scn",
+      "text": "Hey Alex! {{Just checking in}} about our weekend trip. Don't worry, we're fully {{on track}} with the accommodation bookings. I've already {{sorted out}} the train tickets, but I'm {{still figuring out}} the itinerary for Sunday."
+    },
+    "dialogue": {
+      "title": "Alex le devuelve la llamada",
+      "context": "Alex escucha el mensaje y llama a Maya para repasar los detalles del viaje.",
+      "lines": [
+        { "speaker": "alex", "audio": "l01-dlg-01", "text": "Hi Maya, I just got your message. So, are we still {{on track}} for Saturday?" },
+        { "speaker": "maya", "audio": "l01-dlg-02", "text": "Totally. {{Everything's under control}}. I've {{already booked}} the accommodation, a small guesthouse near the old town." },
+        { "speaker": "alex", "audio": "l01-dlg-03", "text": "Great! Have you {{sorted out}} the train tickets {{yet}}?" },
+        { "speaker": "maya", "audio": "l01-dlg-04", "text": "Yep, they're all sorted. I've {{already sent}} you the e-tickets by email. We leave at 8:15 on Saturday morning.", "tts": "Yep, they're all sorted. I've already sent you the e-tickets by email. We leave at eight fifteen on Saturday morning." },
+        { "speaker": "alex", "audio": "l01-dlg-05", "text": "Perfect. What about Sunday? Have you planned anything {{yet}}?" },
+        { "speaker": "maya", "audio": "l01-dlg-06", "text": "Not yet. I'm {{still figuring out}} the itinerary. There's a market, a museum and a boat tour, but we can't do everything." },
+        { "speaker": "alex", "audio": "l01-dlg-07", "text": "Let's {{prioritize}} the boat tour. I can check the {{schedule}} tonight." },
+        { "speaker": "maya", "audio": "l01-dlg-08", "text": "Deal. I'm {{still waiting}} for the guesthouse to confirm the check-in time, so I'll {{keep you posted}}." }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Qué tareas ya están terminadas?", "options": ["El alojamiento y los billetes de tren", "El itinerario del domingo", "La hora del check-in"], "answer": 0, "explain": "Maya dice *I've already booked the accommodation* y *they're all sorted* (los billetes)." },
+      { "q": "¿Qué sigue pendiente?", "options": ["Los billetes de tren", "El itinerario del domingo y la hora del check-in", "La reserva de la casa de huéspedes"], "answer": 1, "explain": "*I'm still figuring out the itinerary* y *I'm still waiting for the guesthouse to confirm the check-in time*." },
+      { "q": "Maya termina con *I'll keep you posted*. ¿Qué significa?", "options": ["Te enviaré una postal", "Te esperaré en la estación", "Te mantendré informado"], "answer": 2, "explain": "*Keep someone posted* = mantener a alguien al tanto de las novedades." }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats de grupo, mensajes de voz.",
+        "items": [
+          { "speaker": "maya", "audio": "l01-reg-c1", "text": "Everything's under control.", "note": "Tranquilidad total, tono relajado." },
+          { "speaker": "leo", "audio": "l01-reg-c2", "text": "We're keeping on top of things.", "note": "Lo tenemos todo controlado y al día." },
+          { "speaker": "maya", "audio": "l01-reg-c3", "text": "I've already sorted out the tickets.", "note": "*Sort out* = resolver u organizar algo rápido." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Coordinación diaria con conocidos, compañeros o familia.",
+        "items": [
+          { "speaker": "alex", "audio": "l01-reg-n1", "text": "We are currently on track with the plans.", "note": "Avanza según lo previsto." },
+          { "speaker": "sarah", "audio": "l01-reg-n2", "text": "I have already booked the accommodation.", "note": "Confirmación clara de una tarea cerrada." },
+          { "speaker": "alex", "audio": "l01-reg-n3", "text": "I'm still working on the itinerary for Sunday.", "note": "Proceso abierto, sin dramatismo." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Correos de confirmación, reservas, trámites.",
+        "items": [
+          { "speaker": "emma", "audio": "l01-reg-f1", "text": "All arrangements are proceeding according to the initial schedule.", "note": "Todo avanza según el calendario inicial." },
+          { "speaker": "george", "audio": "l01-reg-f2", "text": "The preliminary bookings have been completed.", "note": "Pasiva: el foco está en la tarea, no en la persona." },
+          { "speaker": "emma", "audio": "l01-reg-f3", "text": "The itinerary for Sunday is still being finalized.", "note": "Pasiva continua: proceso en curso, tono institucional." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "just checking in (about…)", "es": "solo quería saber cómo va (…)", "register": "casual" },
+      { "en": "be on track (with / for…)", "es": "ir según lo previsto", "register": "neutral" },
+      { "en": "be under control", "es": "estar bajo control", "register": "casual" },
+      { "en": "keep on top of things", "es": "tenerlo todo al día", "register": "casual" },
+      { "en": "sort out (the tickets)", "es": "resolver, dejar listo", "register": "casual" },
+      { "en": "figure out (the itinerary)", "es": "averiguar, decidir pensando", "register": "neutral" },
+      { "en": "keep someone posted", "es": "mantener a alguien informado", "register": "neutral" },
+      { "en": "proceed according to schedule", "es": "avanzar según el calendario", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "No worries, it's all sorted!", "answer": "casual", "explain": "*No worries* y *it's all sorted* son típicos de un chat entre amigos." },
+      { "text": "All arrangements have been confirmed.", "answer": "formal", "explain": "Pasiva, sin contracciones y con *arrangements*: registro de correo formal." },
+      { "text": "We are on track with the plans.", "answer": "neutral", "explain": "Claro y correcto, sirve para casi cualquier contexto." },
+      { "text": "We're keeping on top of things.", "answer": "casual", "explain": "Expresión idiomática y relajada." },
+      { "text": "The reservation is proceeding according to schedule.", "answer": "formal", "explain": "*Proceeding according to schedule* es lenguaje institucional." },
+      { "text": "I have already booked the tickets.", "answer": "neutral", "explain": "Present Perfect estándar, sin slang ni formalidad excesiva." }
+    ]
+  },
+  "discovery": {
+    "intro": "Lee y escucha la frase. No busques la regla todavía: responde a las tres preguntas y la regla aparecerá sola.",
+    "speaker": "ryan",
+    "audio": "l01-gd",
+    "text": "I {{have already reserved}} the venue, but we {{are still waiting}} for the final attendance list.",
+    "questions": [
+      { "kind": "semantic", "q": "¿La reserva del lugar (*venue*) está terminada o sigue pendiente?", "options": ["Terminada: la tarea está cerrada.", "Pendiente: todavía no se ha hecho.", "No se puede saber."], "answer": 0, "explain": "*Have already reserved* presenta la reserva como un logro cerrado que importa ahora. *Already* subraya que se hizo antes de este momento, o antes de lo esperado." },
+      { "kind": "syntactic", "q": "¿Qué patrón verbal hay en cada parte de la frase?", "options": ["did + verbo base / still + infinitivo", "have + participio / be + still + verbo -ing", "have + infinitivo / still + participio"], "answer": 1, "explain": "Logro: *have + already + participio* (reserved). Proceso activo: *be + still + -ing* (are still waiting). *Already* va entre el auxiliar y el participio; *still* va justo después de *be*." },
+      { "kind": "pragmatic", "q": "Tu amigo está nervioso por la fiesta. ¿Qué frase le da más tranquilidad sobre cómo va el plan ahora?", "options": ["I reserved the venue.", "I will reserve the venue.", "I have already reserved the venue."], "answer": 2, "explain": "*I reserved* solo cuenta un hecho pasado. *I have already reserved* lo conecta con el presente: esa tarea está cerrada y el plan avanza." }
+    ],
+    "rule": {
+      "points": [
+        "Tarea terminada con efecto en el presente: *have / has + already + participio*.",
+        "Proceso que continúa: *am / is / are + still + verbo -ing*.",
+        "En negativas y preguntas, *yet* va al final: *I haven't booked it yet. / Have you booked it yet?*"
+      ],
+      "formulas": ["have/has + already + participio", "be + still + -ing", "haven't … yet / … yet?"],
+      "note": "En inglés americano informal también oirás *I already booked it* (Past Simple + already). En registro neutro, formal y en exámenes, usa el Present Perfect."
+    }
+  },
+  "phonetics": {
+    "intro": "Escucha cada modelo a velocidad natural y en lento. Compara la versión estadounidense (US) y la británica (UK).",
+    "items": [
+      {
+        "id": "schedule", "term": "Schedule", "pos": "n.", "meaning": "horario, calendario",
+        "ipa": { "us": "/ˈskedʒ.uːl/", "uk": "/ˈʃedʒ.uːl/" },
+        "afh": "SKÉ-dyul",
+        "say": "Schedule.",
+        "alerts": [
+          { "type": "s-cluster", "text": "Empieza con /s/ directa, sin vocal de apoyo: nunca «eschedule». Truco: alarga la s, «sss-kedyul»." },
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: SKE." },
+          { "type": "variant", "text": "En Reino Unido suele sonar /ˈʃedʒ.uːl/ («SHÉ-dyul»). Las dos son correctas." }
+        ],
+        "example": { "speaker": "alex", "text": "We're right on schedule for Saturday." }
+      },
+      {
+        "id": "sorted-out", "term": "Sorted out", "pos": "phr. v.", "meaning": "resuelto, organizado",
+        "ipa": { "us": "/ˌsɔːr.t̬ɪd ˈaʊt/", "uk": "/ˌsɔː.tɪd ˈaʊt/" },
+        "afh": "sor-ti-DÁUT",
+        "say": "Sorted out.",
+        "alerts": [
+          { "type": "linking", "text": "Une la d final con la vocal de *out*: «sor-ti-DÁUT», sin pausa entre palabras." },
+          { "type": "ed", "text": "*Sorted* termina en /ɪd/ (sílaba extra) porque la raíz acaba en t." },
+          { "type": "flap", "text": "En inglés americano la t entre vocales suena como la r suave de «pero»: «sor-ri-DÁUT»." }
+        ],
+        "example": { "speaker": "maya", "text": "Don't worry, I've already sorted out the tickets." }
+      },
+      {
+        "id": "accommodation", "term": "Accommodation", "pos": "n.", "meaning": "alojamiento",
+        "ipa": { "us": "/əˌkɑː.məˈdeɪ.ʃən/", "uk": "/əˌkɒm.əˈdeɪ.ʃən/" },
+        "afh": "a-ko-ma-DÉI-shan",
+        "say": "Accommodation.",
+        "alerts": [
+          { "type": "stress", "text": "Cinco sílabas; el acento fuerte cae en la 4.ª: DEI." },
+          { "type": "consonant", "text": "*-tion* suena /ʃən/ («shan»), nunca «sión» como en español." },
+          { "type": "spelling", "text": "Se escribe con doble c y doble m: acco**mm**odation (no «acomodation»)." }
+        ],
+        "example": { "speaker": "maya", "text": "We're fully on track with the accommodation bookings." }
+      },
+      {
+        "id": "itinerary", "term": "Itinerary", "pos": "n.", "meaning": "itinerario, plan de viaje",
+        "ipa": { "us": "/aɪˈtɪn.ə.rer.i/", "uk": "/aɪˈtɪn.ər.ər.i/" },
+        "afh": "ai-TÍ-na-re-ri",
+        "say": "Itinerary.",
+        "alerts": [
+          { "type": "vowel", "text": "La i inicial es el diptongo /aɪ/: «ai», no «i»." },
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: TIN. No digas «iti-ne-RA-rio»." }
+        ],
+        "example": { "speaker": "maya", "text": "I'm still figuring out the itinerary for Sunday." }
+      },
+      {
+        "id": "status", "term": "Status", "pos": "n.", "meaning": "estado, situación",
+        "ipa": { "us": "/ˈsteɪ.t̬əs/", "uk": "/ˈsteɪ.təs/" },
+        "afh": "STÉI-tas",
+        "say": "Status.",
+        "alerts": [
+          { "type": "s-cluster", "text": "Trampa directa del español «estatus»: en inglés no hay e inicial. Empieza con /st/." },
+          { "type": "vowel", "text": "La a es el diptongo /eɪ/: «STÉI», no «STA»." }
+        ],
+        "example": { "speaker": "alex", "text": "Can you give me a quick status update?" }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Avance según lo previsto: be on track",
+        "formula": "Sujeto + be + on track + (for + sustantivo / to + infinitivo)",
+        "usage": "Indica que un plan avanza según el calendario, sin desviaciones. Transmite certeza y tranquilidad.",
+        "examples": [
+          { "speaker": "alex", "audio": "l01-cc-1a", "text": "We are currently {{on track for}} tomorrow's dinner." },
+          { "speaker": "sarah", "audio": "l01-cc-1b", "text": "I'm {{on track to}} finish the course by June." }
+        ]
+      },
+      {
+        "title": "Tareas terminadas: Present Perfect + already",
+        "formula": "Sujeto + have / has + already + participio",
+        "usage": "*Already* va entre el auxiliar y el participio. Confirma que la tarea está cerrada antes de ahora o antes de lo esperado.",
+        "examples": [
+          { "speaker": "coach", "audio": "l01-cc-2a", "text": "I {{have already reserved}} our table at the restaurant." },
+          { "speaker": "maya", "audio": "l01-cc-2b", "text": "Tom {{has already sorted out}} the cake." }
+        ]
+      },
+      {
+        "title": "Procesos en curso: still + -ing",
+        "formula": "Sujeto + be + still + verbo -ing",
+        "usage": "*Still* va justo después de *be* (am still, is still). Muestra que la actividad continúa y aún no ha terminado.",
+        "examples": [
+          { "speaker": "coach", "audio": "l01-cc-3a", "text": "I {{am still waiting}} for Alex to confirm if he needs a ride." },
+          { "speaker": "leo", "audio": "l01-cc-3b", "text": "We're {{still figuring out}} who's driving." }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Sujeto nulo (pro-drop)", "text": "En español puedes omitir el sujeto («Estoy esperando a Alex»). En inglés el sujeto es obligatorio.", "wrong": "Am still waiting for Alex.", "right": "I am still waiting for Alex." },
+      { "title": "Posición de already", "text": "El español permite «Ya reservé» o «Reservé ya». En inglés neutro, *already* va entre el auxiliar y el participio.", "wrong": "I have booked already the hotel.", "right": "I have already booked the hotel." },
+      { "title": "Already frente a yet", "text": "*Already* en afirmaciones de tareas hechas. *Yet* en negativas y preguntas, al final de la frase.", "wrong": "I haven't finished already.", "right": "I haven't finished yet." },
+      { "title": "Epéntesis en grupos s-", "text": "No añadas una /e/ de apoyo al hablar ni al escribir palabras como *schedule*, *status* o *start*.", "wrong": "«es-tatus», «es-kedyul»", "right": "/ˈsteɪ.təs/, /ˈskedʒ.uːl/" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "I have ___ booked the accommodation, so don't worry.", "options": ["already", "yet", "still"], "answer": 0, "explain": "Afirmación de una tarea terminada → *already*, entre *have* y el participio." },
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "We haven't chosen the restaurant ___.", "options": ["already", "yet", "still"], "answer": 1, "explain": "Negativa → *yet* al final de la frase." },
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "I'm ___ waiting for Alex to confirm.", "options": ["yet", "already", "still"], "answer": 2, "explain": "Proceso que continúa → *be + still + -ing*." },
+    { "type": "gap", "prompt": "Completa el chunk.", "text": "Good news: we're fully on ___ with the bookings.", "accept": ["track"], "explain": "*Be on track* = ir según lo previsto." },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["I've", "already", "sorted", "out", "the", "train", "tickets"], "answer": "I've already sorted out the train tickets", "explain": "Auxiliar + *already* + participio + partícula + objeto." },
+    { "type": "fix", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "Am still figuring out the itinerary.", "accept": ["I am still figuring out the itinerary.", "I'm still figuring out the itinerary."], "explain": "Falta el sujeto. En inglés es obligatorio: *I am / I'm…*" },
+    { "type": "fix", "prompt": "Corrige la posición de *already*.", "wrong": "I have booked already the hotel.", "accept": ["I have already booked the hotel.", "I've already booked the hotel."], "explain": "*Already* va entre el auxiliar y el participio." },
+    { "type": "stress", "prompt": "¿Qué sílaba lleva el acento principal?", "word": "accommodation", "syllables": ["ac", "com", "mo", "da", "tion"], "answer": 3, "audioRef": "l01-ph-accommodation-us", "explain": "ac-com-mo-**DA**-tion: el acento fuerte cae en la 4.ª sílaba." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "alex", "audio": "l01-dict-1", "text": "Don't worry, everything is under control. I'll keep you posted.", "explain": "Fíjate en *I'll* (I will) y en el chunk *keep you posted*." }
+  ],
+  "task": {
+    "title": "Actualiza a tu grupo",
+    "format": "voice",
+    "scenario": "Tu grupo de amigos organiza la cena de cumpleaños de una amiga este viernes. Tú te encargas de coordinar. Envía un mensaje (escrito o de voz) al chat del grupo con el estado del plan.",
+    "brief": "Send a short status update to your friends' group chat.",
+    "steps": [
+      "Saluda y di de qué plan hablas (*Just checking in about…*).",
+      "Di dos cosas que ya están hechas (*I've already… / … has already…*).",
+      "Di una cosa que sigue en proceso (*I'm still…*) y otra que todavía no está hecha (*… yet*).",
+      "Cierra con el siguiente paso (*I'll keep you posted*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hey everyone! Just checking in about ___.",
+      "Good news: I've already ___, and ___ has already ___.",
+      "We're on track with ___.",
+      "I'm still ___, and I haven't ___ yet.",
+      "I'll keep you posted!"
+    ],
+    "chunks": [
+      { "label": "just checking in", "re": "\\bjust checking in\\b" },
+      { "label": "already", "re": "\\balready\\b" },
+      { "label": "still + -ing", "re": "\\bstill\\s+\\w+ing\\b" },
+      { "label": "yet", "re": "\\byet\\b" },
+      { "label": "on track", "re": "\\bon track\\b" },
+      { "label": "sort out", "re": "\\bsort(ed|ing|s)?\\s+(\\w+\\s+)?out\\b" },
+      { "label": "keep you posted", "re": "\\bkeep (you|everyone|everybody|y'all|u) posted\\b" }
+    ],
+    "checks": ["proDrop", "alreadyEnd", "yetAffirmative", "capitalI", "actually"],
+    "extra": {
+      "title": "Extra: una frase formal",
+      "brief": "Escribe una sola frase para el restaurante confirmando la reserva, en registro formal (sin contracciones ni slang).",
+      "frames": ["Dear ___, I am writing to confirm that ___ has been completed."]
+    },
+    "model": {
+      "parts": [
+        { "label": "Mensaje al grupo (casual)", "speaker": "maya", "audio": "l01-task-model", "text": "Hey everyone! {{Just checking in}} about Laura's birthday dinner on Friday. Good news: I've {{already booked}} a table for eight at Bella Vista, and Tom {{has already sorted out}} the cake. We're totally {{on track}}! I'm {{still waiting}} for the restaurant to confirm if we can bring our own music, and I haven't ordered the decorations {{yet}}. I'll {{keep you posted}}!", "notes": ["Dos tareas hechas con *already*, una en proceso con *still* y una pendiente con *yet*.", "Todas las oraciones tienen sujeto explícito."] },
+        { "label": "Frase formal para el restaurante", "speaker": "emma", "audio": "l01-task-formal", "text": "Dear Ms Clark, I am writing to confirm that our reservation for eight guests on Friday {{has been completed}}. We are {{still awaiting}} confirmation regarding the use of our own music.", "notes": ["Sin contracciones. *Awaiting confirmation regarding…* eleva el registro."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Pusiste *already* entre el auxiliar y el participio (*I've already booked*)?",
+      "¿Usaste *still + -ing* para lo que sigue en proceso?",
+      "¿Usaste *yet* solo en negativas o preguntas?",
+      "¿Todas tus oraciones tienen sujeto explícito (*I, we, it…*)?",
+      "En la frase formal, ¿evitaste contracciones y slang (*sorted, totally*)?"
+    ]
+  }
+}

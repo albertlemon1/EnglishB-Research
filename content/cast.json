@@ -1,0 +1,13 @@
+{
+  "note": "Reparto de voces del Módulo 1. Cada voz se asigna según el registro y el contexto: casual (amistades), neutro (coordinación cotidiana), formal (instituciones, atención al cliente) y modelos de pronunciación.",
+  "speakers": {
+    "coach": { "name": "Nora", "role": "Coach de pronunciación", "register": "model", "accent": "US", "voice": "af_heart", "lang": "en-us", "bio": "Modelos de pronunciación lentos y a velocidad natural. Ejemplos clave de gramática." },
+    "maya": { "name": "Maya", "role": "Amiga organizadora", "register": "casual", "accent": "US", "voice": "af_bella", "lang": "en-us", "bio": "Planifica los viajes del grupo. Mensajes de voz, chats y brindis." },
+    "leo": { "name": "Leo", "role": "Amigo y compañero de clase", "register": "casual", "accent": "US", "voice": "am_puck", "lang": "en-us", "bio": "Trabaja a tiempo parcial y estudia dos cursos. Habla rápido y con slang." },
+    "alex": { "name": "Alex", "role": "Amigo de Maya", "register": "neutral", "accent": "US", "voice": "am_michael", "lang": "en-us", "bio": "Ordenado y claro. Coordina planes y proyectos personales." },
+    "sarah": { "name": "Sarah", "role": "Compañera de estudio", "register": "neutral", "accent": "US", "voice": "af_sarah", "lang": "en-us", "bio": "Combina estudios, trabajo y deporte. Comparte rutinas y metas." },
+    "ryan": { "name": "Ryan", "role": "Compañero de piso", "register": "neutral", "accent": "US", "voice": "am_fenrir", "lang": "en-us", "bio": "Lee los textos de análisis gramatical y explica imprevistos." },
+    "emma": { "name": "Emma", "role": "Coordinadora académica", "register": "formal", "accent": "UK", "voice": "bf_emma", "lang": "en-gb", "bio": "Correos, confirmaciones y comunicados formales. Modelo de pronunciación británica." },
+    "george": { "name": "George", "role": "Atención al cliente", "register": "formal", "accent": "UK", "voice": "bm_george", "lang": "en-gb", "bio": "Servicio técnico e institucional. Registro formal británico." }
+  }
+}

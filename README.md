@@ -1,0 +1,92 @@
+# Inglés Banda B · B1–B2 para hispanohablantes
+
+App web de autoaprendizaje para la Banda B del MCER (270 horas, de B1.1 a B2.2). Combina Enfoque Léxico, Descubrimiento Guiado, Enseñanza Basada en Tareas (TBLT) y el **Anclaje Fonético Hispanohablante (AFH)**.
+
+- **Estructura completa** de la Banda B: 4 subniveles, 54 módulos y 270 lecciones, con dominios temáticos, foco gramatical (EGP), léxico (EVP) y fonético (AFH) por módulo, y la prueba de transición *The Threshold Gate*. Ver [`docs/ESTRUCTURA_BANDA_B.md`](docs/ESTRUCTURA_BANDA_B.md).
+- **Módulo 1 completo** (B1.1 · *Personal Life, Routines & Current Projects*): 5 lecciones de 1 hora y un repaso del módulo.
+- **233 audios** generados con voces neuronales, guardados en `audio/b1-1/m01/` y servidos por la propia app (también sin conexión).
+
+## Abrir la app
+
+La app es estática (HTML, CSS y JavaScript sin dependencias ni compilación). Necesita servirse por HTTP porque carga el contenido en JSON:
+
+```bash
+python3 -m http.server 8000
+# abre http://localhost:8000
+```
+
+### Publicarla en GitHub Pages
+
+El flujo `.github/workflows/pages.yml` valida el contenido y publica la app al hacer push a `main`. Solo hay que activarlo una vez en **Settings → Pages → Build and deployment → Source: GitHub Actions**. Una vez publicada, se puede instalar en el móvil como app (PWA) y descargar los audios del módulo para usarlos sin conexión.
+
+## Qué incluye cada lección
+
+Cada lección sigue la misma matriz de seis bloques, con navegación por pasos y progreso guardado en el navegador:
+
+| Bloque | Contenido |
+|---|---|
+| 1 · Input léxico | Mensaje de voz real, conversación ampliada con reproducción continua, preguntas de comprensión, **mapa de tres registros** (casual / neutro / formal), quiz de registro y banco de chunks con traducción al tocar. |
+| 2 · Descubrimiento guiado | Texto de análisis con el rasgo criterial resaltado y tres CCQs (significado, forma, uso) con corrección inmediata. La regla se desbloquea al responder. |
+| 3 · Glosario fonético dual | 5 términos por lección con IPA estadounidense y británica, audio US, US lento y UK, respelling AFH, alertas (s-cluster, acento, vocal, linking, -ed, flap T…), ejemplo en contexto y **grabación de tu voz para comparar**. |
+| 4 · Consolidación y L1 | Fórmula, matiz y ejemplos con audio de cada estructura + matriz de interferencias del español con pares ✕ / ✓. |
+| 5 · Práctica | 9 ejercicios: elección, huecos, ordenar, corregir el error típico, acento de palabra y dictado con comparación palabra a palabra. |
+| 6 · Tarea TBLT | Escenario real, plantillas de frases que se insertan con un toque, detección en vivo de los chunks usados, **revisión asistida de errores L1**, modelo comentado con audio y autoevaluación. |
+
+## Voces
+
+Cada voz está asignada a un registro y un contexto, para que el oído asocie la voz con el nivel de formalidad:
+
+| Personaje | Voz Kokoro | Acento | Uso |
+|---|---|---|---|
+| Nora (coach) | `af_heart` | US | Modelos de pronunciación (normal y lento) y ejemplos de gramática |
+| Maya | `af_bella` | US | Registro casual: mensajes de voz, chats, brindis |
+| Leo | `am_puck` | US | Registro casual: slang, amigos |
+| Alex | `am_michael` | US | Registro neutro: coordinación de planes |
+| Sarah | `af_sarah` | US | Registro neutro: estudio y rutinas |
+| Ryan | `am_fenrir` | US | Textos de análisis gramatical, imprevistos |
+| Emma | `bf_emma` | UK | Registro formal y modelo de pronunciación británica |
+| George | `bm_george` | UK | Registro formal: atención al cliente, institucional |
+
+### Regenerar los audios
+
+Los audios se generan sin conexión con [Kokoro-82M](https://github.com/thewh1teagle/kokoro-onnx) (ONNX) y fonemización `misaki` (US / GB), que respeta heterónimos y permite forzar pronunciaciones (por ejemplo `[progress](/pɹˈɑɡɹɛs/)` para el sustantivo). El volumen se iguala entre voces y se exporta a MP3 mono de 64 kbps.
+
+```bash
+pip install -r tools/tts/requirements.txt
+pip install --no-deps misaki==0.7.4
+curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+python3 tools/tts/generate_audio.py --model kokoro-v1.0.onnx --voices voices-v1.0.bin
+```
+
+El generador lee los clips directamente del contenido (`audio` + `speaker` + `text`/`tts`) y solo regenera los que cambiaron. `tools/tts/qa_audio.py` hace una prueba de inteligibilidad con reconocimiento de voz offline y `tools/check_content.py` comprueba que cada audio referenciado existe y que las respuestas de los ejercicios son coherentes.
+
+## Organización del repositorio
+
+```
+index.html, sw.js, manifest.webmanifest   App (PWA)
+assets/css, assets/js                     Interfaz (módulos ES, sin dependencias)
+content/course.json                       Estructura completa de la Banda B
+content/cast.json                         Reparto de voces
+content/b1-1/m01/                         Módulo 1: module.json, l01–l05.json, review.json
+audio/b1-1/m01/                           233 MP3 + manifest.json
+tools/                                    Generación y validación de audio y contenido
+docs/ESTRUCTURA_BANDA_B.md                Estructura del curso (generada desde course.json)
+```
+
+## Correcciones aplicadas al material fuente del Módulo 1
+
+Al convertir la ficha del módulo en lecciones interactivas se corrigieron estos puntos:
+
+- **Bloque 4 (Tarea TBLT + Self-Check)**: no aparecía en la ficha; se añadió a las cinco lecciones según la matriz atómica del diseño curricular (tarea, plantillas, modelo comentado y autoevaluación).
+- **IPA**: se dan las dos variantes (US y UK) y coinciden con los audios. *Accommodation* empieza por schwa /ə/, no por /a/.
+- ***Adjusting to***: se eliminó la alerta de «s-cluster / epéntesis», que no aplica. Ahora las alertas tratan /dʒ/ frente a la jota, la vocal /ʌ/ y la forma débil de *to*.
+- ***Objective***: la matriz L1 hablaba de una «/t/ final»; la palabra termina en /v/ labiodental.
+- ***Encountered***: tiene tres sílabas (en-COUN-tered). El error del hispanohablante es pronunciar cuatro («en-coun-te-red»).
+- **Ejemplo de *workaround***: «Using taking the bus…» era agramatical; ahora es *Taking the bus was a good temporary workaround while the car was being repaired.*
+- **Epéntesis en L01**: *sorted* no tiene grupo s- inicial; los ejemplos son *schedule*, *status* y *start*.
+- ***Acclimate***: no es un falso amigo; el problema es el acento. Se añade la variante británica *acclimatise*.
+- **Guion en *well-positioned***: obligatorio delante de un sustantivo; tras *be* se aceptan ambas formas.
+- **Elipsis del sujeto** (*Slowly getting into the groove*, *Ran into a small hiccup*): se explica como rasgo de registro muy informal, para no contradecir la regla de sujeto obligatorio.
+- **Already + Past Simple**: se aclara que en inglés americano informal también se oye *I already booked it*.
+- **AFH**: respelling coherente con la ortografía española (*gue* para /ɡe/, *dy* para /dʒ/, *dh* para /ð/) y leyenda dentro de la app.
