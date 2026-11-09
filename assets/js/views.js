@@ -156,7 +156,8 @@ export async function moduleView(modId) {
   }).join("");
   const cando = mod.canDo.map((c, i) => `<li class="${store.checked(`${modId}-cando`, i) ? "on" : ""}"><label style="cursor:pointer"><input type="checkbox" class="sr-only" data-cando="${i}" ${store.checked(`${modId}-cando`, i) ? "checked" : ""} id="cando-${i}">${esc(c)}</label></li>`).join("");
   const totalClips = Object.keys(window.__manifest || {}).length;
-  const canCache = "serviceWorker" in navigator && navigator.serviceWorker.controller;
+  let canCache = false;
+  try { canCache = Boolean("serviceWorker" in navigator && navigator.serviceWorker.controller); } catch { canCache = false; }
   const html = `
     <div class="wrap">
       <section class="module-hero">

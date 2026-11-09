@@ -158,8 +158,10 @@ async function boot() {
   window.__manifest = clips;
   audio.setBase("audio/b1-1/m01/", clips);
   await render();
-  if ("serviceWorker" in navigator && /^(https:|http:\/\/(localhost|127\.0\.0\.1))/.test(location.href)) {
-    navigator.serviceWorker.register("sw.js").catch(() => { /* not available here (e.g. sandboxed preview) */ });
-  }
+  try {
+    if ("serviceWorker" in navigator && /^(https:|http:\/\/(localhost|127\.0\.0\.1))/.test(location.href)) {
+      navigator.serviceWorker.register("sw.js").catch(() => { /* not available here */ });
+    }
+  } catch { /* sandboxed views refuse service workers */ }
 }
 boot();
