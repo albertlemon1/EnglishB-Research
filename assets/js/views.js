@@ -156,8 +156,12 @@ export async function moduleView(modId) {
   }).join("");
   const cando = mod.canDo.map((c, i) => `<li class="${store.checked(`${modId}-cando`, i) ? "on" : ""}"><label style="cursor:pointer"><input type="checkbox" class="sr-only" data-cando="${i}" ${store.checked(`${modId}-cando`, i) ? "checked" : ""} id="cando-${i}">${esc(c)}</label></li>`).join("");
   const totalClips = Object.keys(window.__manifest || {}).length;
+  let swSupported = false;
   let canCache = false;
-  try { canCache = Boolean("serviceWorker" in navigator && navigator.serviceWorker.controller); } catch { canCache = false; }
+  try {
+    swSupported = "serviceWorker" in navigator;
+    canCache = Boolean(swSupported && navigator.serviceWorker.controller);
+  } catch { swSupported = canCache = false; }
   const html = `
     <div class="wrap">
       <section class="module-hero">
@@ -182,7 +186,7 @@ export async function moduleView(modId) {
         <div class="section-head"><h3>Las voces del módulo</h3><p>Ocho voces neuronales, cada una asignada a un registro y un contexto. Toca para escuchar una muestra.</p></div>
         <div class="cast">${people}</div>
       </section>
-      ${canCache ? `<section class="panel offline" style="margin-top:24px" data-offline><div class="row" style="justify-content:space-between"><div><b>Usar sin conexión</b><p class="small muted">Guarda los ${totalClips} audios del módulo en este dispositivo.</p></div><button type="button" class="btn ghost small" data-cache-audio>${icon.download}<span>Descargar audios</span></button></div><div class="progress-line" hidden><i></i></div></section>` : ""}
+      <div data-offline-slot>${canCache ? offlinePanelHTML(totalClips) : ""}</div>
     </div>`;
   return {
     title: `${mod.title} · Banda B`,
@@ -194,22 +198,46 @@ export async function moduleView(modId) {
         store.setChecked(`${modId}-cando`, Number(cb.dataset.cando), cb.checked);
         cb.closest("li").classList.toggle("on", cb.checked);
       });
-      root.querySelector("[data-cache-audio]")?.addEventListener("click", async (ev) => {
-        const btn = ev.currentTarget;
-        btn.disabled = true;
-        const bar = root.querySelector("[data-offline] .progress-line");
-        bar.hidden = false;
-        const ids = Object.keys(window.__manifest || {});
-        let n = 0;
-        for (let i = 0; i < ids.length; i += 6) {
-          await Promise.all(ids.slice(i, i + 6).map((id) => fetch(audio.url(id)).then(() => { n++; }).catch(() => {})));
-          bar.style.setProperty("--w", `${Math.round((n / ids.length) * 100)}%`);
-        }
-        btn.querySelector("span").textContent = n === ids.length ? "Audios guardados" : `${n}/${ids.length} guardados`;
-        toast(n === ids.length ? "Módulo disponible sin conexión" : "Algunos audios no se pudieron guardar");
-      });
+      wireOfflinePanel(root, totalClips);
+      // The service worker often finishes installing and claiming this page a
+      // beat after the first paint (registration starts only once the first
+      // view has rendered, so it never blocks it). Without this, a first-ever
+      // visit that lands directly on the module page never shows the
+      // download button, even though offline support is ready moments later.
+      if (!canCache && swSupported) {
+        const onControlled = () => {
+          if (!document.body.contains(root) || root.querySelector("[data-cache-audio]")) return;
+          const slot = root.querySelector("[data-offline-slot]");
+          if (!slot) return;
+          slot.innerHTML = offlinePanelHTML(totalClips);
+          wireOfflinePanel(root, totalClips);
+        };
+        navigator.serviceWorker.addEventListener("controllerchange", onControlled, { once: true });
+        navigator.serviceWorker.ready.then(() => { if (navigator.serviceWorker.controller) onControlled(); }).catch(() => {});
+      }
     },
   };
+}
+
+function offlinePanelHTML(totalClips) {
+  return `<section class="panel offline" style="margin-top:24px" data-offline><div class="row" style="justify-content:space-between"><div><b>Usar sin conexión</b><p class="small muted">Guarda los ${totalClips} audios del módulo en este dispositivo.</p></div><button type="button" class="btn ghost small" data-cache-audio>${icon.download}<span>Descargar audios</span></button></div><div class="progress-line" hidden><i></i></div></section>`;
+}
+
+function wireOfflinePanel(root, totalClips) {
+  root.querySelector("[data-cache-audio]")?.addEventListener("click", async (ev) => {
+    const btn = ev.currentTarget;
+    btn.disabled = true;
+    const bar = root.querySelector("[data-offline] .progress-line");
+    bar.hidden = false;
+    const ids = Object.keys(window.__manifest || {});
+    let n = 0;
+    for (let i = 0; i < ids.length; i += 6) {
+      await Promise.all(ids.slice(i, i + 6).map((id) => fetch(audio.url(id)).then(() => { n++; }).catch(() => {})));
+      bar.style.setProperty("--w", `${Math.round((n / ids.length) * 100)}%`);
+    }
+    btn.querySelector("span").textContent = n === ids.length ? "Audios guardados" : `${n}/${ids.length} guardados`;
+    toast(n === ids.length ? "Módulo disponible sin conexión" : "Algunos audios no se pudieron guardar");
+  });
 }
 
 // ---------------------------------------------------------------- lesson (overview + blocks)

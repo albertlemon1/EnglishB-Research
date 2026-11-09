@@ -151,6 +151,16 @@ addEventListener("resize", closeGloss);
 addEventListener("hashchange", render);
 
 // ---------------------------------------------------------------- boot
+try {
+  // Start registration immediately, in parallel with the first render's own
+  // data fetches, instead of after them: the module page can ask whether the
+  // worker already controls this page (to offer "save audios for offline"),
+  // and the sooner registration starts, the sooner that becomes true.
+  if ("serviceWorker" in navigator && /^(https:|http:\/\/(localhost|127\.0\.0\.1))/.test(location.href)) {
+    navigator.serviceWorker.register("sw.js").catch(() => { /* not available here */ });
+  }
+} catch { /* sandboxed views refuse service workers */ }
+
 async function boot() {
   applyTheme(store.settings.theme || "system");
   applySpeed(store.settings.speed || 1);
@@ -158,10 +168,5 @@ async function boot() {
   window.__manifest = clips;
   audio.setBase("audio/b1-1/m01/", clips);
   await render();
-  try {
-    if ("serviceWorker" in navigator && /^(https:|http:\/\/(localhost|127\.0\.0\.1))/.test(location.href)) {
-      navigator.serviceWorker.register("sw.js").catch(() => { /* not available here */ });
-    }
-  } catch { /* sandboxed views refuse service workers */ }
 }
 boot();
