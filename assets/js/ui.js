@@ -57,6 +57,7 @@ export const ALERTS = {
   flap: { sym: "ɾ", label: "Flap T (US)" },
   weak: { sym: "ə", label: "Forma débil" },
   silent: { sym: "k̸", label: "Letra muda" },
+  intonation: { sym: "↗↘", label: "Entonación" },
   variant: { sym: "UK", label: "Variante" },
   spelling: { sym: "Aa", label: "Ortografía" },
 };

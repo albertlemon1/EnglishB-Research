@@ -43,7 +43,7 @@ Cada lección sigue la misma matriz de seis bloques: Input léxico (tres registr
 4. Explaining Unexpected Disruptions & Daily Solutions
 5. Summarizing Personal Achievements & Life Milestones
 
-### M02 · Social Interactions & Making Connections
+### M02 · Social Interactions & Making Connections — ✅ contenido y audios disponibles
 
 *Lifestyle, Culture & Plurilingualism, Behavioral Science & Interpersonal Dynamics* · Gramática: Present Perfect vs Past Simple (experiencias); question tags simples · AFH: Entonación de question tags; /h/ aspirada frente a la jota
 

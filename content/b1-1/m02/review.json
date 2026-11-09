@@ -1,0 +1,20 @@
+{
+  "id": "review",
+  "title": "Module 2 Review",
+  "titleEs": "Repaso del Módulo 2",
+  "intro": "Doce preguntas que mezclan las cinco lecciones, con dos de entonación. Si fallas alguna, la explicación te dice a qué lección volver.",
+  "items": [
+    { "type": "choice", "lesson": "l06", "prompt": "Elige la palabra correcta.", "text": "I've lived in this city ___ 2019.", "options": ["for", "since", "from"], "answer": 1, "explain": "2019 es un punto de inicio → *since*. (Lección 06)" },
+    { "type": "choice", "lesson": "l06", "prompt": "Elige la forma correcta.", "text": "She ___ to Toronto when she was ten.", "options": ["moved", "has moved", "moves"], "answer": 0, "explain": "*When she was ten* es un momento terminado → Past Simple. (Lección 06)" },
+    { "type": "choice", "lesson": "l07", "prompt": "Elige la question tag correcta.", "text": "You speak Portuguese, ___?", "options": ["isn't it", "do you", "don't you"], "answer": 2, "explain": "*You speak* → *don't you?* (Lección 07)" },
+    { "type": "intonation", "lesson": "l07", "prompt": "Escucha. ¿La tag sube o baja?", "speaker": "sarah", "audio": "m02-rv-into-1", "text": "The meeting starts at seven, doesn't it?", "answer": "rise", "explain": "Sube ↗: Sarah no está segura y pregunta de verdad. (Lección 07)" },
+    { "type": "gap", "lesson": "l07", "prompt": "Completa la frase.", "text": "Sorry, I didn't quite ___ that. Could you repeat it?", "accept": ["catch"], "explain": "*I didn't quite catch that* = no lo he entendido bien. (Lección 07)" },
+    { "type": "choice", "lesson": "l08", "prompt": "Elige la forma correcta.", "text": "I ___ you the link. Can you check your inbox?", "options": ["just have sent", "have just sent", "have sent just"], "answer": 1, "explain": "*Just* va entre el auxiliar y el participio. (Lección 08)" },
+    { "type": "choice", "lesson": "l08", "prompt": "Elige la forma correcta.", "text": "We lost touch after university, but we ___ again last month.", "options": ["reconnected", "have reconnected", "reconnect"], "answer": 0, "explain": "*Last month* → Past Simple. (Lección 08)" },
+    { "type": "fix", "lesson": "l09", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "I knew Priya at a networking event last week.", "accept": ["I met Priya at a networking event last week."], "explain": "Conocer a alguien por primera vez → *met*. (Lección 09)" },
+    { "type": "choice", "lesson": "l09", "prompt": "Elige la palabra correcta.", "text": "He's ___ to Lisbon, so he isn't here this week.", "options": ["been", "gone", "went"], "answer": 1, "explain": "Fue y sigue allí → *gone*. (Lección 09)" },
+    { "type": "choice", "lesson": "l10", "prompt": "Elige la question tag correcta.", "text": "You went to the meetup, ___?", "options": ["didn't you", "don't you", "wasn't it"], "answer": 0, "explain": "Past Simple → *didn't you?* (Lección 10)" },
+    { "type": "intonation", "lesson": "l10", "prompt": "Escucha. ¿La tag sube o baja?", "speaker": "oliver", "audio": "m02-rv-into-2", "text": "Lovely day, isn't it?", "answer": "fall", "explain": "Baja ↘: Oliver invita a charlar, no pregunta por el tiempo. (Lección 10)" },
+    { "type": "dictation", "lesson": "l08", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "emma", "audio": "m02-rv-dict-1", "text": "Thank you for taking the time to meet with me last week.", "explain": "Apertura de un correo formal de seguimiento. (Lección 08)" }
+  ]
+}

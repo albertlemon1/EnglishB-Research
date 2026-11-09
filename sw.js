@@ -1,7 +1,10 @@
 // Offline support: the app shell and content are network-first (updates arrive as soon as
 // you are online); audio is cache-first, so every clip you have played, or downloaded from
 // the module page, keeps working without a connection.
-const VERSION = "bandb-2026-11-09";
+// Only the shell and the course structure are precached. Module content is cached the
+// first time it is viewed, or all at once by the module page's "download" button, so
+// publishing a new module never requires editing this file.
+const VERSION = "bandb-2026-11-09-m02";
 const SHELL = `bandb-shell-${VERSION}`;
 const AUDIO = "bandb-audio-v1";
 const FONTS = "bandb-fonts-v1";
@@ -24,14 +27,6 @@ const PRECACHE = [
   "assets/img/icon.svg",
   "content/course.json",
   "content/cast.json",
-  "content/b1-1/m01/module.json",
-  "content/b1-1/m01/l01.json",
-  "content/b1-1/m01/l02.json",
-  "content/b1-1/m01/l03.json",
-  "content/b1-1/m01/l04.json",
-  "content/b1-1/m01/l05.json",
-  "content/b1-1/m01/review.json",
-  "audio/b1-1/m01/manifest.json",
 ];
 
 self.addEventListener("install", (event) => {

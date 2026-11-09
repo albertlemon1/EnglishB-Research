@@ -184,6 +184,7 @@ function phonetics(ctx) {
           <div class="ph-row"><span class="acc">UK</span><span class="ipa">${esc(it.ipa.uk)}</span><span class="btns">${playBtn(`${base}-uk`, { size: "sm", label: "Modelo británico" })}</span></div>
         </div>
         <div class="afh"><span class="eyebrow">AFH · cómo sonarlo</span><span class="resp">/${esc(it.afh)}/</span></div>
+        ${it.variants ? `<div class="ph-variants"><span class="eyebrow">Escucha la diferencia</span>${it.variants.map((v) => `<div class="ph-variant">${playBtn(v.audio, { size: "sm", label: v.label })}<div><b>${esc(v.label)}</b><p class="en">${fmt(v.text)}</p></div></div>`).join("")}</div>` : ""}
         <div class="alerts">${it.alerts.map(alertHTML).join("")}</div>
         ${ex ? `<div class="ph-ex">${playBtn(`${base}-ex`, { size: "sm", label: `Ejemplo con ${who(cast, ex.speaker).name}` })}<p>${fmt(ex.text)}</p></div>` : ""}
         ${recControls(`${lk}-${it.id}`, "Grabar y comparar")}
@@ -239,11 +240,19 @@ function mountConsolidation(root, ctx) {
 }
 
 // ---------------------------------------------------------------- 5 · practice
+const PRACTICE_TYPES = { choice: "elección", gap: "huecos", order: "orden", fix: "corrección de errores típicos", stress: "acento", intonation: "entonación", dictation: "dictado" };
+
+function practiceIntro(items) {
+  const names = [...new Set(items.map((it) => it.type || "choice"))].map((t) => PRACTICE_TYPES[t]).filter(Boolean);
+  const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} y ${names[names.length - 1]}` : names[0] || "";
+  return `${list.charAt(0).toUpperCase()}${list.slice(1)}. Cuenta tu primer intento.`;
+}
+
 function practice(ctx) {
   const { lesson, lk } = ctx;
   const items = lesson.practice.map((it, i) => renderItem(it, i, `${lk}-pr`)).join("");
   return `
-    ${blockHead(4, BLOCKS[4], "Elección, huecos, orden, corrección de errores típicos, acento y dictado. Cuenta tu primer intento.")}
+    ${blockHead(4, BLOCKS[4], practiceIntro(lesson.practice))}
     <div class="ex-head"><span class="eyebrow">${lesson.practice.length} ejercicios</span><div data-score>${resultCard(`${lk}-pr`, lesson.practice.length)}</div></div>
     <div class="practice narrow">${items}</div>
     <div data-final></div>`;
@@ -263,16 +272,43 @@ function mountPractice(root, ctx) {
 }
 
 // ---------------------------------------------------------------- 6 · task
+function dialogueLines(lines, cast) {
+  return lines.map((l) => {
+    const p = who(cast, l.speaker);
+    return `<div class="line reg-${p.register}" data-line="${esc(l.audio)}">${avatar(l.speaker, cast, "sm")}<div class="bubble"><b>${esc(p.name)}</b><p>${fmt(l.text)}</p></div>${playBtn(l.audio, { size: "sm", label: `Escuchar a ${p.name}` })}</div>`;
+  }).join("");
+}
+
 function modelHTML(task, cast) {
   return task.model.parts.map((p) => {
+    const notes = p.notes ? `<ul class="notes">${p.notes.map((n) => `<li>${fmt(n)}</li>`).join("")}</ul>` : "";
+    // A model can be a dialogue (several voices, one clip per line) instead of a single text.
+    if (p.lines) {
+      const ids = p.lines.map((l) => l.audio).join(",");
+      const total = p.lines.reduce((n, l) => n + audio.duration(l.audio), 0);
+      return `
+      <article class="model-part">
+        <div class="voice-head"><div class="who"><b>${esc(p.label)}</b><span>${[...new Set(p.lines.map((l) => who(cast, l.speaker).name))].join(" y ")} · ${fmtTime(total)}</span></div><button type="button" class="btn small" data-seq="${esc(ids)}">${icon.headphones}<span>Escuchar el diálogo</span></button></div>
+        <div class="dialogue">${dialogueLines(p.lines, cast)}</div>
+        ${notes}
+      </article>`;
+    }
     const s = who(cast, p.speaker);
     return `
       <article class="model-part reg-${s.register}">
         <div class="voice-head">${avatar(p.speaker, cast)}<div class="who"><b>${esc(p.label)}</b><span>${speakerLine(cast, p.speaker)} · ${fmtTime(audio.duration(p.audio))}</span></div>${playBtn(p.audio, { size: "lg", solid: true, label: "Escuchar el modelo" })}</div>
         <p class="voice-text">${fmt(p.text)}</p>
-        ${p.notes ? `<ul class="notes">${p.notes.map((n) => `<li>${fmt(n)}</li>`).join("")}</ul>` : ""}
+        ${notes}
       </article>`;
   }).join("");
+}
+
+// Optional input for the task: a message the learner has to answer (e.g. a
+// confusing voice note that calls for clarifying questions).
+function taskInputHTML(input, cast) {
+  if (!input) return "";
+  const s = who(cast, input.speaker);
+  return `<div class="task-input reg-${s.register}"><div class="voice-head">${avatar(input.speaker, cast, "sm")}<div class="who"><b>${esc(input.title)}</b><span>${speakerLine(cast, input.speaker)} · ${fmtTime(audio.duration(input.audio))}</span></div>${playBtn(input.audio, { solid: true, label: "Escuchar el mensaje" })}</div><p class="en">${fmt(input.text)}</p></div>`;
 }
 
 function chunkChips(task, text) {
@@ -296,6 +332,7 @@ function taskBlock(ctx) {
       <div class="row"><span class="chip accent">${esc(formatLabel)}</span><span class="chip">${esc(t.length)}</span></div>
       <h3>${esc(t.title)}</h3>
       <p>${fmt(t.scenario)}</p>
+      ${taskInputHTML(t.input, cast)}
       <p class="en muted"><em>${esc(t.brief)}</em></p>
       <ol class="steps">${t.steps.map((s) => `<li>${fmt(s)}</li>`).join("")}</ol>
       <div class="stack" style="gap:8px"><span class="eyebrow">Plantillas de frases · toca una para insertarla</span><div class="frames">${t.frames.map((f) => `<button type="button" class="frame" data-frame="${esc(f)}">${esc(f)}</button>`).join("")}</div></div>

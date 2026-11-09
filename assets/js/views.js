@@ -1,6 +1,8 @@
 // Page-level views. Each returns { title, html, mount? }.
+// Nothing here is tied to a particular module: every view reads the module's own
+// metadata (sublevel, numbering, cast, review) through data.js.
 import { esc, fmt, icon, playBtn, avatar, regMeter, REG, ALERTS, toast } from "./ui.js";
-import { data, AVAILABLE } from "./data.js";
+import { data } from "./data.js";
 import { store } from "./store.js";
 import { audio } from "./audio.js";
 import { BLOCKS, RENDER, MOUNT, alertHTML } from "./blocks.js";
@@ -13,6 +15,10 @@ function lessonProgress(mod, lessonId) {
   return store.blocksDone(lessonKey(mod, lessonId)) / BLOCKS.length;
 }
 
+function lessonDone(mod, lessonId) {
+  return store.isBlockDone(lessonKey(mod, lessonId), "task");
+}
+
 function nextBlockRoute(mod, lessonId) {
   const lk = lessonKey(mod, lessonId);
   const b = BLOCKS.find((x) => !store.isBlockDone(lk, x.id)) || BLOCKS[0];
@@ -23,64 +29,105 @@ function crumbs(items) {
   return `<nav class="crumbs" aria-label="Ruta de navegación">${items.map((it, i) => (it.href ? `<a href="#${esc(it.href)}">${esc(it.label)}</a>` : `<span>${esc(it.label)}</span>`) + (i < items.length - 1 ? '<span aria-hidden="true">›</span>' : "")).join("")}</nav>`;
 }
 
+// Completed lessons across every published module, in course order.
+async function progressSummary() {
+  const all = await data.modules();
+  const modules = await Promise.all(Object.values(all).map(async (info) => {
+    const mod = await data.module(info.id);
+    const done = mod.lessons.filter((l) => lessonDone(info.id, l)).length;
+    return { info, mod, done };
+  }));
+  modules.sort((a, b) => a.info.n - b.info.n);
+  const bySublevel = {};
+  let total = 0;
+  for (const m of modules) {
+    bySublevel[m.info.sublevel] = (bySublevel[m.info.sublevel] || 0) + m.done;
+    total += m.done;
+  }
+  return { modules, bySublevel, total };
+}
+
 // The band: 270 hours as four proportional segments with one tick per module.
-function bandHTML(course, { link = false } = {}) {
-  const doneLessons = (sub) => (sub.id === "b1-1" ? countDoneLessons() : 0);
-  const segs = course.sublevels.map((s, i) => {
-    const total = s.modules.length * 5;
-    const fill = Math.round((doneLessons(s) / total) * 100);
+function bandHTML(course, summary, { link = false, current = null } = {}) {
+  const segs = course.sublevels.map((s) => {
+    const total = s.modules.reduce((n, m) => n + m.lessons.length, 0);
+    const fill = Math.round(((summary.bySublevel[s.id] || 0) / total) * 100);
     const tag = link ? "button" : "div";
-    const seg = `<${tag} ${link ? `type="button" data-scroll="${s.id}"` : ""} class="band-seg ${s.id === "b1-1" ? "is-current" : ""}" style="flex:${s.hours};--fill:${fill}%;--n:${s.modules.length}" aria-label="${esc(`${s.code} ${s.name}: ${s.hours} horas, ${s.modules.length} módulos`)}"><span class="fill"></span><span class="ticks"></span><b>${esc(s.code)}</b><span class="hrs tnum">${s.hours} h</span></${tag}>`;
+    const seg = `<${tag} ${link ? `type="button" data-scroll="${s.id}"` : ""} class="band-seg ${s.id === current ? "is-current" : ""}" style="flex:${s.hours};--fill:${fill}%;--n:${s.modules.length}" aria-label="${esc(`${s.code} ${s.name}: ${s.hours} horas, ${s.modules.length} módulos`)}"><span class="fill"></span><span class="ticks"></span><b>${esc(s.code)}</b><span class="hrs tnum">${s.hours} h</span></${tag}>`;
     const gate = s.id === course.gate.after ? `<span class="band-gate" title="${esc(course.gate.title)}"><i></i></span>` : "";
     return seg + gate;
   }).join("");
-  return `<div class="band"><div class="band-track">${segs}</div><div class="band-legend"><span>270 horas · 54 módulos · 270 lecciones</span><span>◆ ${esc(course.gate.title)} (hora 120)</span><span class="tnum">${countDoneLessons()} lecciones completadas</span></div></div>`;
+  const lessons = course.sublevels.reduce((n, s) => n + s.modules.reduce((k, m) => k + m.lessons.length, 0), 0);
+  const modules = course.sublevels.reduce((n, s) => n + s.modules.length, 0);
+  return `<div class="band"><div class="band-track">${segs}</div><div class="band-legend"><span>${course.totalHours} horas · ${modules} módulos · ${lessons} lecciones</span><span>◆ ${esc(course.gate.title)} (hora ${course.gate.lesson})</span><span class="tnum">${summary.total} lecciones completadas</span></div></div>`;
 }
 
-function countDoneLessons() {
-  return ["l01", "l02", "l03", "l04", "l05"].filter((l) => store.isBlockDone(lessonKey("m01", l), "task")).length;
+// Where the learner should go next: the last block they visited if that lesson
+// isn't finished yet, otherwise the first unfinished lesson in course order.
+async function nextStep(summary) {
+  const all = await data.modules();
+  const lm = store.last && /^(m\d\d)-(l\d\d)-(\w+)$/.exec(store.last);
+  if (lm && all[lm[1]]) {
+    const mod = await data.module(lm[1]);
+    if (mod.lessons.includes(lm[2]) && !lessonDone(lm[1], lm[2])) {
+      return { modId: lm[1], lessonId: lm[2], route: store.last, resume: true };
+    }
+  }
+  for (const m of summary.modules) {
+    const l = m.mod.lessons.find((x) => !lessonDone(m.info.id, x));
+    if (l) return { modId: m.info.id, lessonId: l, route: nextBlockRoute(m.info.id, l), resume: false };
+  }
+  const lastMod = summary.modules[summary.modules.length - 1];
+  const l = lastMod.mod.lessons[lastMod.mod.lessons.length - 1];
+  return { modId: lastMod.info.id, lessonId: l, route: `${lastMod.info.id}-repaso`, resume: false, finished: true };
 }
 
 // ---------------------------------------------------------------- home
 export async function home() {
-  const [course, mod] = await Promise.all([data.course(), data.module("m01")]);
-  const lessons = await data.allLessons("m01");
-  const last = store.last;
-  let cont;
-  const lastMatch = last && /^m01-(l\d\d)-(\w+)$/.exec(last);
-  if (lastMatch) {
-    const l = lessons.find((x) => x.id === lastMatch[1]);
-    const b = BLOCKS.find((x) => x.id === lastMatch[2]);
-    cont = { route: last, lesson: l, block: b };
-  } else {
-    const l = lessons.find((x) => lessonProgress("m01", x.id) < 1) || lessons[0];
-    const route = nextBlockRoute("m01", l.id);
-    cont = { route, lesson: l, block: BLOCKS.find((b) => route.endsWith(b.id)) };
-  }
-  const p = lessonProgress("m01", cont.lesson.id);
+  const [course, summary] = await Promise.all([data.course(), progressSummary()]);
+  const step = await nextStep(summary);
+  const all = await data.modules();
+  const info = all[step.modId];
+  const [mod, lessons, review] = await Promise.all([data.module(step.modId), data.allLessons(step.modId), data.review(step.modId)]);
+  const lesson = lessons.find((x) => x.id === step.lessonId);
+  const blockId = step.route.split("-").pop();
+  const block = BLOCKS.find((b) => b.id === blockId);
+  const p = lessonProgress(step.modId, lesson.id);
+  const anyProgress = summary.total > 0 || Boolean(store.last);
+  const eyebrow = step.finished ? "Has terminado los módulos publicados" : step.resume ? "Continúa donde lo dejaste" : anyProgress ? "Tu siguiente lección" : "Empieza aquí";
+  const cta = step.finished ? "Repasar el módulo" : step.resume ? "Continuar" : p > 0 ? "Continuar la lección" : "Empezar la lección";
+  const meta = step.finished
+    ? `${info.code} · Módulo ${pad(info.n)} · Repaso del módulo`
+    : `${info.code} · Módulo ${pad(info.n)} · Lección ${pad(lesson.n)} · Bloque: ${esc(block?.name || BLOCKS[0].name)}`;
   const pillarsKey = { lexical: "<mark>on track</mark>", discovery: "?", tblt: "→", afh: "/ə/" };
+  const moduleList = summary.modules.length > 1 ? `
+          <section class="stack">
+            <div class="section-head"><span class="eyebrow">Módulos publicados</span><h3>Tus módulos</h3></div>
+            <div class="lesson-list">${summary.modules.map((m) => moduleRow(m)).join("")}</div>
+          </section>` : "";
   const html = `
     <div class="wrap">
       <section class="hero">
         <span class="eyebrow">Inglés para hispanohablantes · MCER</span>
         <h1>Banda <span class="b">B</span> <span class="range">B1 → B2</span></h1>
         <p class="lead">Un sistema de autoaprendizaje de 270 horas para superar la meseta del nivel intermedio: chunks reales en tres registros, gramática que descubres tú y una pronunciación que anticipa los errores del español.</p>
-        ${bandHTML(course)}
+        ${bandHTML(course, summary, { current: info.sublevel })}
       </section>
       <div class="grid-2" style="margin-top:24px">
         <div class="stack-lg">
           <article class="continue">
-            <span class="eyebrow">${last ? "Continúa donde lo dejaste" : "Empieza aquí"}</span>
-            <h3 class="en">${esc(cont.lesson.title)}</h3>
-            <p class="meta">B1.1 · Módulo 01 · Lección ${pad(cont.lesson.n)} · Bloque: ${esc(cont.block.name)}</p>
-            <div class="bar" style="--w:${Math.round(p * 100)}%"><i></i></div>
-            <a class="btn" href="#${esc(cont.route)}">${last ? "Continuar" : "Empezar la lección"}${icon.arrowR}</a>
+            <span class="eyebrow">${eyebrow}</span>
+            <h3 class="en">${esc(step.finished ? review.title : lesson.title)}</h3>
+            <p class="meta">${meta}</p>
+            <div class="bar" style="--w:${Math.round((step.finished ? 1 : p) * 100)}%"><i></i></div>
+            <a class="btn" href="#${esc(step.route)}">${cta}${icon.arrowR}</a>
           </article>
           <section class="stack">
-            <div class="section-head"><span class="eyebrow">B1.1 · Módulo 01 · 5 horas</span><h3 class="en">${esc(mod.title)}</h3></div>
-            <div class="lesson-list">${lessons.map((l) => lessonRow("m01", l)).join("")}${reviewRow()}</div>
-            <a class="btn ghost" href="#m01">Ver el módulo completo${icon.arrowR}</a>
+            <div class="section-head"><span class="eyebrow">${esc(info.code)} · Módulo ${pad(info.n)} · ${mod.hours} horas</span><h3 class="en">${esc(mod.title)}</h3></div>
+            <div class="lesson-list">${lessons.map((l) => lessonRow(step.modId, l)).join("")}${reviewRow(step.modId, review)}</div>
+            <a class="btn ghost" href="#${esc(step.modId)}">Ver el módulo completo${icon.arrowR}</a>
           </section>
+          ${moduleList}
         </div>
         <aside class="stack">
           <span class="eyebrow">Método</span>
@@ -94,28 +141,41 @@ export async function home() {
 
 function lessonRow(mod, l) {
   const p = lessonProgress(mod, l.id);
-  const done = store.isBlockDone(lessonKey(mod, l.id), "task");
+  const done = lessonDone(mod, l.id);
   return `<a class="lesson-row ${done ? "done" : ""}" href="#${esc(lessonKey(mod, l.id))}"><span class="num">${done ? icon.check.replace("<svg", '<svg width="20" height="20"') : pad(l.n)}</span><span class="t"><strong>${esc(l.title)}</strong><span>${esc(l.titleEs)}</span></span><span class="ring" style="--v:${p.toFixed(3)}" aria-label="${Math.round(p * 100)}% completado"><span>${Math.round(p * 6)}/6</span></span></a>`;
 }
 
-function reviewRow() {
-  const sc = store.score("m01-review");
-  return `<a class="lesson-row" href="#m01-repaso"><span class="num">R</span><span class="t"><strong>Module 1 Review</strong><span>Repaso del módulo · 12 preguntas</span></span><span class="chip ${sc.answered ? "ok" : ""} tnum">${sc.answered ? `${sc.correct}/12` : "12"}</span></a>`;
+function reviewRow(modId, review) {
+  const set = `${modId}-review`;
+  const total = review.items.length;
+  const sc = store.score(set);
+  return `<a class="lesson-row" href="#${esc(modId)}-repaso"><span class="num">R</span><span class="t"><strong>${esc(review.title)}</strong><span>${esc(review.titleEs)} · ${total} preguntas</span></span><span class="chip ${sc.answered ? "ok" : ""} tnum">${sc.answered ? `${sc.correct}/${total}` : total}</span></a>`;
+}
+
+function moduleRow(m) {
+  const total = m.mod.lessons.length;
+  const p = m.done / total;
+  const done = m.done === total;
+  return `<a class="lesson-row ${done ? "done" : ""}" href="#${esc(m.info.id)}"><span class="num">${done ? icon.check.replace("<svg", '<svg width="20" height="20"') : `M${pad(m.info.n)}`}</span><span class="t"><strong>${esc(m.mod.title)}</strong><span>${esc(m.info.code)} · ${esc(m.mod.titleEs)}</span></span><span class="ring" style="--v:${p.toFixed(3)}" aria-label="${m.done} de ${total} lecciones completadas"><span>${m.done}/${total}</span></span></a>`;
 }
 
 // ---------------------------------------------------------------- course map
 export async function map() {
-  const course = await data.course();
+  const [course, summary, all] = await Promise.all([data.course(), progressSummary(), data.modules()]);
   let lessonStart = 0;
   const subs = course.sublevels.map((s) => {
     const first = lessonStart + 1;
     const mods = s.modules.map((m) => {
       const start = lessonStart;
       lessonStart += m.lessons.length;
-      const available = m.status === "available" && AVAILABLE[m.id];
+      const available = Boolean(all[m.id]);
+      const prog = summary.modules.find((x) => x.info.id === m.id);
+      const chip = available
+        ? `<span class="chip ok">${prog && prog.done ? `${prog.done}/${m.lessons.length} completadas` : "Disponible"}</span>`
+        : m.gate ? '<span class="chip gate">Evaluación</span>' : '<span class="chip">En diseño</span>';
       return `
         <article class="mod ${available ? "available" : ""} ${m.gate ? "gate-mod" : ""}">
-          <div class="mod-top"><span class="mod-n">M${pad(m.n)}</span>${available ? '<span class="chip ok">Disponible</span>' : m.gate ? '<span class="chip gate">Evaluación</span>' : '<span class="chip">En diseño</span>'}</div>
+          <div class="mod-top"><span class="mod-n">M${pad(m.n)}</span>${chip}</div>
           <h4>${esc(m.title)}</h4>
           <div class="tags">${m.domains.map((d) => `<span class="chip" title="${esc(course.domains[d].es)}">${esc(course.domains[d].name)}</span>`).join("")}</div>
           <p class="focusline"><b>Gramática:</b> ${esc(m.grammar)}<br><b>AFH:</b> ${esc(m.afh)}</p>
@@ -132,10 +192,11 @@ export async function map() {
       </section>
       ${gate}`;
   }).join('<hr class="divider">');
+  const current = summary.modules.find((m) => m.done < m.mod.lessons.length)?.info.sublevel || summary.modules[0]?.info.sublevel;
   const html = `
     <div class="wrap stack-lg" style="padding-top:28px">
       <header class="section-head"><span class="eyebrow">Estructura del curso</span><h1 style="font-size:var(--s-2xl)">La ruta de la Banda B</h1><p class="lead">Cuatro subniveles en espiral: las mismas estructuras y colocaciones vuelven en contextos cada vez más complejos. Cada lección dura una hora y sigue la misma matriz de seis bloques.</p></header>
-      ${bandHTML(course, { link: true })}
+      ${bandHTML(course, summary, { link: true, current })}
       <div class="stack-lg">${subs}</div>
     </div>`;
   return { title: "La ruta · Banda B", html };
@@ -147,15 +208,15 @@ function gateHTML(g) {
 
 // ---------------------------------------------------------------- module
 export async function moduleView(modId) {
-  const [course, mod, cast, lessons] = await Promise.all([data.course(), data.module(modId), data.cast(), data.allLessons(modId)]);
-  const sub = course.sublevels.find((s) => s.id === mod.sublevel);
-  const sample = (spk) => Object.entries(window.__manifest || {}).find(([id, m]) => m.speaker === spk && !id.includes("-ph-"))?.[0];
+  const [course, info, mod, cast, lessons, review, clips] = await Promise.all([data.course(), data.info(modId), data.module(modId), data.cast(), data.allLessons(modId), data.review(modId), data.audio(modId)]);
+  const sub = course.sublevels.find((s) => s.id === info.sublevel);
+  const sample = (spk) => Object.entries(clips).find(([id, m]) => m.speaker === spk && !id.includes("-ph-"))?.[0];
   const people = mod.cast.map((id) => {
     const s = cast[id];
     return `<div class="person reg-${s.register}">${avatar(id, cast)}<div><b>${esc(s.name)} <span class="muted" style="font-weight:500">· ${esc(s.accent)}</span></b><span>${esc(s.role)} · ${esc(REG[s.register]?.short || "")}</span></div>${playBtn(sample(id), { size: "sm", label: `Escuchar la voz de ${s.name}` })}</div>`;
   }).join("");
   const cando = mod.canDo.map((c, i) => `<li class="${store.checked(`${modId}-cando`, i) ? "on" : ""}"><label style="cursor:pointer"><input type="checkbox" class="sr-only" data-cando="${i}" ${store.checked(`${modId}-cando`, i) ? "checked" : ""} id="cando-${i}">${esc(c)}</label></li>`).join("");
-  const totalClips = Object.keys(window.__manifest || {}).length;
+  const totalClips = Object.keys(clips).length;
   let swSupported = false;
   let canCache = false;
   try {
@@ -175,7 +236,7 @@ export async function moduleView(modId) {
       <div class="grid-2" style="margin-top:20px">
         <section class="stack">
           <h3>Lecciones</h3>
-          <div class="lesson-list">${lessons.map((l) => lessonRow(modId, l)).join("")}${reviewRow()}</div>
+          <div class="lesson-list">${lessons.map((l) => lessonRow(modId, l)).join("")}${reviewRow(modId, review)}</div>
         </section>
         <aside class="stack">
           <div class="panel stack"><span class="eyebrow">Al terminar podrás… (toca para autoevaluarte)</span><ul class="cando">${cando}</ul></div>
@@ -183,7 +244,7 @@ export async function moduleView(modId) {
         </aside>
       </div>
       <section class="stack" style="margin-top:32px">
-        <div class="section-head"><h3>Las voces del módulo</h3><p>Ocho voces neuronales, cada una asignada a un registro y un contexto. Toca para escuchar una muestra.</p></div>
+        <div class="section-head"><h3>Las voces del módulo</h3><p>${mod.cast.length} voces neuronales, cada una asignada a un registro y un contexto. Toca para escuchar una muestra.</p></div>
         <div class="cast">${people}</div>
       </section>
       <div data-offline-slot>${canCache ? offlinePanelHTML(totalClips) : ""}</div>
@@ -198,19 +259,18 @@ export async function moduleView(modId) {
         store.setChecked(`${modId}-cando`, Number(cb.dataset.cando), cb.checked);
         cb.closest("li").classList.toggle("on", cb.checked);
       });
-      wireOfflinePanel(root, totalClips);
+      wireOfflinePanel(root, modId);
       // The service worker often finishes installing and claiming this page a
-      // beat after the first paint (registration starts only once the first
-      // view has rendered, so it never blocks it). Without this, a first-ever
-      // visit that lands directly on the module page never shows the
-      // download button, even though offline support is ready moments later.
+      // beat after the first paint. Without this, a first-ever visit that lands
+      // directly on a module page never shows the download button, even though
+      // offline support is ready moments later.
       if (!canCache && swSupported) {
         const onControlled = () => {
           if (!document.body.contains(root) || root.querySelector("[data-cache-audio]")) return;
           const slot = root.querySelector("[data-offline-slot]");
           if (!slot) return;
           slot.innerHTML = offlinePanelHTML(totalClips);
-          wireOfflinePanel(root, totalClips);
+          wireOfflinePanel(root, modId);
         };
         navigator.serviceWorker.addEventListener("controllerchange", onControlled, { once: true });
         navigator.serviceWorker.ready.then(() => { if (navigator.serviceWorker.controller) onControlled(); }).catch(() => {});
@@ -220,39 +280,42 @@ export async function moduleView(modId) {
 }
 
 function offlinePanelHTML(totalClips) {
-  return `<section class="panel offline" style="margin-top:24px" data-offline><div class="row" style="justify-content:space-between"><div><b>Usar sin conexión</b><p class="small muted">Guarda los ${totalClips} audios del módulo en este dispositivo.</p></div><button type="button" class="btn ghost small" data-cache-audio>${icon.download}<span>Descargar audios</span></button></div><div class="progress-line" hidden><i></i></div></section>`;
+  return `<section class="panel offline" style="margin-top:24px" data-offline><div class="row" style="justify-content:space-between"><div><b>Usar sin conexión</b><p class="small muted">Guarda las lecciones y los ${totalClips} audios del módulo en este dispositivo.</p></div><button type="button" class="btn ghost small" data-cache-audio>${icon.download}<span>Descargar audios</span></button></div><div class="progress-line" hidden><i></i></div></section>`;
 }
 
-function wireOfflinePanel(root, totalClips) {
+// Fetching through the page lets the service worker store each response: the
+// module's JSON files (network-first cache) and every clip (cache-first).
+function wireOfflinePanel(root, modId) {
   root.querySelector("[data-cache-audio]")?.addEventListener("click", async (ev) => {
     const btn = ev.currentTarget;
     btn.disabled = true;
     const bar = root.querySelector("[data-offline] .progress-line");
     bar.hidden = false;
-    const ids = Object.keys(window.__manifest || {});
+    const files = await data.moduleFiles(modId);
+    const urls = [...files, ...Object.keys(audio.clips(modId)).map((id) => audio.url(id))];
     let n = 0;
-    for (let i = 0; i < ids.length; i += 6) {
-      await Promise.all(ids.slice(i, i + 6).map((id) => fetch(audio.url(id)).then(() => { n++; }).catch(() => {})));
-      bar.style.setProperty("--w", `${Math.round((n / ids.length) * 100)}%`);
+    for (let i = 0; i < urls.length; i += 6) {
+      await Promise.all(urls.slice(i, i + 6).map((u) => fetch(u).then((r) => { if (r.ok) n++; }).catch(() => {})));
+      bar.style.setProperty("--w", `${Math.round((n / urls.length) * 100)}%`);
     }
-    btn.querySelector("span").textContent = n === ids.length ? "Audios guardados" : `${n}/${ids.length} guardados`;
-    toast(n === ids.length ? "Módulo disponible sin conexión" : "Algunos audios no se pudieron guardar");
+    btn.querySelector("span").textContent = n === urls.length ? "Audios guardados" : `${n}/${urls.length} guardados`;
+    toast(n === urls.length ? "Módulo disponible sin conexión" : "Algunos archivos no se pudieron guardar");
   });
 }
 
 // ---------------------------------------------------------------- lesson (overview + blocks)
 export async function lessonView(modId, lessonId, blockId) {
-  const [mod, cast, lesson] = await Promise.all([data.module(modId), data.cast(), data.lesson(modId, lessonId)]);
+  const [info, mod, cast, lesson] = await Promise.all([data.info(modId), data.module(modId), data.cast(), data.lesson(modId, lessonId), data.audio(modId)]);
   const lk = lessonKey(modId, lessonId);
   const idx = mod.lessons.indexOf(lessonId);
   const nextLesson = mod.lessons[idx + 1];
-  const next = nextLesson ? { route: lessonKey(modId, nextLesson), label: `Lección ${pad(idx + 2)}` } : { route: `${modId}-repaso`, label: "Repaso del módulo" };
+  const next = nextLesson ? { route: lessonKey(modId, nextLesson), label: `Lección ${pad(lesson.n + 1)}` } : { route: `${modId}-repaso`, label: "Repaso del módulo" };
 
   const stepper = (active) => `<nav class="stepper" aria-label="Bloques de la lección" data-stepper><div class="wrap"><ol>${BLOCKS.map((b, i) => `<li><a href="#${lk}-${b.id}" class="${store.isBlockDone(lk, b.id) ? "done" : ""}" ${active === b.id ? 'aria-current="step"' : ""}><span class="n">${store.isBlockDone(lk, b.id) ? "✓" : i + 1}</span><span class="lbl">${esc(b.short)}</span></a></li>`).join("")}</ol></div></nav>`;
 
   const head = `
     <div class="wrap lesson-head">
-      ${crumbs([{ label: "Ruta", href: "ruta" }, { label: "B1.1" }, { label: `Módulo ${pad(mod.n)}`, href: modId }, { label: `Lección ${pad(lesson.n)}`, href: blockId ? lk : null }])}
+      ${crumbs([{ label: "Ruta", href: "ruta" }, { label: info.code }, { label: `Módulo ${pad(mod.n)}`, href: modId }, { label: `Lección ${pad(lesson.n)}`, href: blockId ? lk : null }])}
       <h1>${esc(lesson.title)}</h1>
       ${blockId ? "" : `<p class="es">${esc(lesson.titleEs)}</p>`}
     </div>`;
@@ -315,11 +378,11 @@ export async function lessonView(modId, lessonId, blockId) {
 
 // ---------------------------------------------------------------- review
 export async function reviewView(modId) {
-  const [mod, review] = await Promise.all([data.module(modId), data.review(modId)]);
+  const [info, mod, review] = await Promise.all([data.info(modId), data.module(modId), data.review(modId), data.audio(modId)]);
   const set = `${modId}-review`;
   const html = `
     <div class="wrap block">
-      ${crumbs([{ label: "Ruta", href: "ruta" }, { label: "B1.1" }, { label: `Módulo ${pad(mod.n)}`, href: modId }, { label: "Repaso" }])}
+      ${crumbs([{ label: "Ruta", href: "ruta" }, { label: info.code }, { label: `Módulo ${pad(mod.n)}`, href: modId }, { label: "Repaso" }])}
       <header class="block-head"><span class="eyebrow">Repaso del módulo</span><h1 style="font-size:var(--s-2xl)" class="en">${esc(review.title)}</h1><p class="lead">${esc(review.intro)}</p></header>
       <div data-score>${resultCard(set, review.items.length)}</div>
       <div class="practice narrow">${review.items.map((it, i) => renderItem(it, i, set)).join("")}</div>
@@ -344,8 +407,10 @@ export async function reviewView(modId) {
 
 // ---------------------------------------------------------------- method
 export async function methodView() {
-  const [course, mod] = await Promise.all([data.course(), data.module("m01")]);
+  const [course, cast, all] = await Promise.all([data.course(), data.cast(), data.modules()]);
+  const mod = await data.module(Object.keys(all)[0]);
   const legend = Object.entries(ALERTS).map(([type, a]) => alertHTML({ type, text: ALERT_TEXT[type] || "" })).join("");
+  const voices = (lv) => Object.values(cast).filter((s) => s.register === lv).map((s) => `${s.name} (${s.accent})`).join(", ");
   const html = `
     <div class="wrap stack-lg" style="padding-top:28px">
       <header class="section-head"><span class="eyebrow">Metodología</span><h1 style="font-size:var(--s-2xl)">Cómo funciona la Banda B</h1><p class="lead">Tres enfoques con respaldo empírico (Enfoque Léxico, Descubrimiento Guiado y TBLT) más una capa correctiva propia para hispanohablantes: el Anclaje Fonético Hispanohablante.</p></header>
@@ -356,7 +421,7 @@ export async function methodView() {
         <div class="matrix">${mod.blocks.map((b) => `<div class="cell"><span class="n">${b.n}</span><h4>${esc(b.name)}</h4><p>${esc(b.text)}</p></div>`).join("")}</div></section>
 
       <section class="stack"><div class="section-head"><h3>Tres registros, tres grupos de voces</h3><p>El error más frecuente del hispanohablante intermedio es de registro: demasiado informal en contextos profesionales, o al revés. Por eso cada mensaje se presenta en tres niveles, y cada nivel tiene sus propias voces.</p></div>
-        <div class="grid-3">${["casual", "neutral", "formal"].map((lv) => `<div class="panel stack reg-${lv}"><div class="row" style="justify-content:space-between"><b style="color:var(--reg)">${REG[lv].label}</b>${regMeter(lv)}</div><p class="small muted">${REG_TEXT[lv]}</p></div>`).join("")}</div></section>
+        <div class="grid-3">${["casual", "neutral", "formal"].map((lv) => `<div class="panel stack reg-${lv}"><div class="row" style="justify-content:space-between"><b style="color:var(--reg)">${REG[lv].label}</b>${regMeter(lv)}</div><p class="small muted">${REG_TEXT[lv]} Voces: ${esc(voices(lv))}.</p></div>`).join("")}</div></section>
 
       <section class="stack"><div class="section-head"><h3>Alertas del AFH</h3><p>Cada término del glosario fonético lleva una o varias alertas que anticipan el error antes de que ocurra.</p></div><div class="legend">${legend}</div></section>
 
@@ -394,9 +459,9 @@ export async function methodView() {
 }
 
 const REG_TEXT = {
-  casual: "Amistades, chats y mensajes de voz. Phrasal verbs, idioms y elipsis del sujeto. Voces: Maya y Leo (EE. UU.).",
-  neutral: "Coordinación diaria con compañeros, profesores o familia. Correcto y claro en casi cualquier contexto. Voces: Alex, Sarah y Ryan (EE. UU.).",
-  formal: "Correos institucionales, informes y atención al cliente. Pasivas, sin contracciones. Voces: Emma y George (Reino Unido).",
+  casual: "Amistades, chats y mensajes de voz. Phrasal verbs, idioms y elipsis del sujeto.",
+  neutral: "Coordinación diaria con compañeros, profesores o familia. Correcto y claro en casi cualquier contexto.",
+  formal: "Correos institucionales, informes y atención al cliente. Pasivas, sin contracciones.",
 };
 
 const ALERT_TEXT = {
@@ -408,7 +473,8 @@ const ALERT_TEXT = {
   ed: "El sufijo -ed suena /t/, /d/ o /ɪd/; solo añade sílaba tras t o d.",
   flap: "En EE. UU., la t entre vocales suena como la r suave de «pero».",
   weak: "Palabras funcionales que se reducen a schwa: *to* → /tə/.",
-  silent: "Letras que se escriben pero no se pronuncian: la k de *knock*.",
+  silent: "Letras que se escriben pero no se pronuncian: la k de *knock*, la h de *honest*.",
+  intonation: "La melodía cambia el mensaje: ↗ al final pregunta de verdad; ↘ busca acuerdo o confirma.",
   variant: "Diferencias entre la pronunciación estadounidense y la británica.",
   spelling: "Trampas ortográficas por influencia del español.",
 };

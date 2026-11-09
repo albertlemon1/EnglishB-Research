@@ -38,6 +38,12 @@ const KIND = {
   fix: "Corrige",
   stress: "Acento",
   dictation: "Dictado",
+  intonation: "Entonación",
+};
+
+const TONES = {
+  rise: { sym: "↗", label: "Sube: pregunta de verdad (no está seguro)" },
+  fall: { sym: "↘", label: "Baja: busca confirmación o acuerdo" },
 };
 
 const LETTERS = ["A", "B", "C", "D"];
@@ -103,6 +109,15 @@ export function renderItem(item, i, setKey, { numbered = true, kind } = {}) {
     return `<div ${base}>${head(item, i, kindKey, numbered)}<p class="q-text">${fmt(prompt)}</p><div class="row">${playBtn(item.audioRef, { size: "sm", label: `Escuchar ${item.word}` })}<div class="syllables">${syl}</div></div><div class="fb">${saved ? feedback(saved.ok, item.explain) : ""}</div></div>`;
   }
 
+  if (type === "intonation") {
+    const opts = ["rise", "fall"].map((tone) => {
+      let cls = "";
+      if (saved) { if (tone === item.answer) cls = "is-right"; else if (tone === saved.v) cls = "is-wrong"; }
+      return `<button type="button" class="opt ${cls}" data-tone="${tone}" ${saved ? "disabled" : ""}><span class="k">${TONES[tone].sym}</span><span>${TONES[tone].label}</span></button>`;
+    }).join("");
+    return `<div ${base}>${head(item, i, kindKey, numbered)}<p class="q-text">${fmt(prompt)}</p><div class="row">${playBtn(item.audio, { label: "Escuchar la frase" })}<p class="q-sentence" style="flex:1;min-width:0">${fmt(item.text)}</p></div><div class="opts">${opts}</div><div class="fb">${saved ? feedback(saved.ok, item.explain) : ""}</div></div>`;
+  }
+
   if (type === "dictation") {
     const val = saved ? esc(saved.v) : "";
     const cls = saved ? (saved.ok ? "is-right" : "is-wrong") : "";
@@ -146,6 +161,7 @@ function grade(item, value) {
     case "gap": case "fix": return item.accept.some((a) => norm(a) === norm(value));
     case "order": return norm(value) === norm(item.answer);
     case "dictation": return norm(value) === norm(item.text);
+    case "intonation": return value === item.answer;
     default: return false;
   }
 }
@@ -171,6 +187,8 @@ export function mountItems(root, items, setKey, onChange = () => {}) {
     const item = items[Number(box.dataset.idx)];
     const opt = ev.target.closest("[data-opt]");
     if (opt && !opt.disabled) return answer(box, Number(opt.dataset.opt));
+    const tone = ev.target.closest("[data-tone]");
+    if (tone && !tone.disabled) return answer(box, tone.dataset.tone);
     const syl = ev.target.closest("[data-syl]");
     if (syl && !syl.disabled) return answer(box, Number(syl.dataset.syl));
     const word = ev.target.closest("[data-word]");

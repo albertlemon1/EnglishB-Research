@@ -3,17 +3,25 @@ import { store } from "./store.js";
 
 const el = new Audio();
 el.preload = "auto";
-let base = "audio/b1-1/m01/";
 let current = null; // { id, btn }
 let queue = null; // { ids, index, onStep, onEnd }
-let manifest = {};
+// Clip ids are unique across the whole course (they carry the global lesson
+// number, e.g. l06-scn, or a module prefix for reviews), so one index serves
+// every module that has been loaded.
+const index = new Map(); // id -> { base, meta }
+const byModule = new Map(); // module id -> clips object
 
 export const audio = {
-  setBase(path, clips = {}) { base = path; manifest = clips; },
-  url(id) { return `${base}${id}.mp3`; },
-  duration(id) { return manifest[id]?.duration || 0; },
-  has(id) { return Boolean(manifest[id]); },
-  meta(id) { return manifest[id]; },
+  register(mod, base, clips = {}) {
+    byModule.set(mod, clips);
+    for (const [id, meta] of Object.entries(clips)) index.set(id, { base, meta });
+  },
+  isRegistered(mod) { return byModule.has(mod); },
+  clips(mod) { return byModule.get(mod) || {}; },
+  url(id) { const e = index.get(id); return e ? `${e.base}${id}.mp3` : ""; },
+  duration(id) { return index.get(id)?.meta.duration || 0; },
+  has(id) { return index.has(id); },
+  meta(id) { return index.get(id)?.meta; },
 
   toggle(id, btn) {
     if (current && current.id === id && !el.paused) { el.pause(); return; }

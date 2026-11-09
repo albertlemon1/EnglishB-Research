@@ -1,0 +1,278 @@
+{
+  "id": "l06",
+  "n": 6,
+  "title": "Introducing Yourself & Pitching Personal Background",
+  "titleEs": "Presentarte y contar tu trayectoria personal",
+  "minutes": 60,
+  "summary": "Preséntate y resume tu trayectoria con for, since y el Past Simple.",
+  "canDo": [
+    "Puedo presentarme en 30 segundos: de dónde soy, qué hago y desde cuándo.",
+    "Puedo usar el Present Perfect con *for* y *since* para lo que empezó en el pasado y sigue.",
+    "Puedo pasar al Past Simple para hechos terminados (*I moved here three years ago*).",
+    "Puedo pronunciar *studied* sin /e/ inicial y acentuar *career* en la segunda sílaba."
+  ],
+  "focus": {
+    "grammar": "Present Perfect + for / since vs Past Simple + ago / in",
+    "lexis": "originally from, I work as, grow up, be into, How long have you…?",
+    "afh": "S-cluster (studied); career frente a carrier; /h/ aspirada (hometown)"
+  },
+  "warmup": "Imagina que entras en una sala llena de gente nueva y tienes 30 segundos para presentarte. ¿Qué dirías: de dónde eres, a qué te dedicas, desde cuándo vives donde vives?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Ronda de presentaciones en el meetup",
+      "context": "Primera sesión del meetup Global Connect. Cada persona se presenta al grupo. Habla Priya, una diseñadora canadiense.",
+      "speaker": "priya",
+      "to": "el grupo",
+      "audio": "l06-scn",
+      "text": "Hi everyone, I'm Priya. I'm {{originally from}} Toronto, but {{I've lived here for}} about two years. {{I work as}} a UX designer, and I've been in the tech industry {{since}} 2021. {{Before that, I studied}} psychology, which is actually how I got into design. {{I've never been}} to a language exchange before, so I'm really excited to meet you all!",
+      "tts": "Hi everyone, I'm Priya. I'm originally from Toronto, but I've lived here for about two years. I work as a UX designer, and I've been in the tech industry since twenty twenty-one. Before that, I studied psychology, which is actually how I got into design. I've never been to a language exchange before, so I'm really excited to meet you all!"
+    },
+    "dialogue": {
+      "title": "Después de la ronda",
+      "context": "Sarah se acerca a Priya para seguir la conversación.",
+      "lines": [
+        { "speaker": "sarah", "audio": "l06-dlg-01", "text": "Hi Priya, I'm Sarah. I really enjoyed your intro! {{How long have you worked}} in design?" },
+        { "speaker": "priya", "audio": "l06-dlg-02", "text": "Thanks! {{I've worked}} in design {{for}} about five years now. What about you? {{What do you do}}?" },
+        { "speaker": "sarah", "audio": "l06-dlg-03", "text": "I work at a bookstore, and I'm taking evening classes in graphic design." },
+        { "speaker": "priya", "audio": "l06-dlg-04", "text": "Oh, nice! {{Have you always lived}} here?" },
+        { "speaker": "sarah", "audio": "l06-dlg-05", "text": "No, {{I grew up}} in a small town near Seattle. {{I moved here three years ago}}." },
+        { "speaker": "priya", "audio": "l06-dlg-06", "text": "And {{have you ever lived}} anywhere else abroad?" },
+        { "speaker": "sarah", "audio": "l06-dlg-07", "text": "Yes, {{I spent a year}} in Lisbon when I was at university. I loved it." },
+        { "speaker": "priya", "audio": "l06-dlg-08", "text": "Lisbon! {{I've always wanted}} to go there. {{I've never been}}, but {{it's on my list}}." }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Cuánto tiempo lleva Priya trabajando en diseño?", "options": ["Unos cinco años", "Desde que llegó a la ciudad", "Tres años"], "answer": 0, "explain": "*I've worked in design for about five years now.* (*for* + duración)." },
+      { "q": "¿Dónde creció Sarah?", "options": ["En Lisboa", "En un pueblo cerca de Seattle", "En Toronto"], "answer": 1, "explain": "*I grew up in a small town near Seattle.* (*grow up* = crecer, criarse)." },
+      { "q": "¿Qué significa *It's on my list*?", "options": ["Ya lo he hecho", "Lo tengo en la agenda de mañana", "Quiero hacerlo algún día"], "answer": 2, "explain": "*It's on my list* = lo tengo pendiente, quiero hacerlo en algún momento." }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Fiestas, amigos de amigos, redes sociales.",
+        "items": [
+          { "speaker": "leo", "audio": "l06-reg-c1", "text": "Hey, I'm Leo! I'm really into music, and I work at a café.", "note": "*Be into* = gustarle algo a alguien, tener afición por." },
+          { "speaker": "maya", "audio": "l06-reg-c2", "text": "I've been here for, like, four years now.", "note": "*Like* como muletilla: muy frecuente al hablar, evítalo por escrito." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Meetups, primeras clases, reuniones con gente nueva.",
+        "items": [
+          { "speaker": "priya", "audio": "l06-reg-n1", "text": "I'm originally from Toronto, but I've lived here for two years.", "note": "*Originally from* + lugar de origen; *but* + dónde vives ahora." },
+          { "speaker": "alex", "audio": "l06-reg-n2", "text": "Hi, I'm Alex. I work as a project coordinator.", "note": "*I work as a* + profesión (con artículo)." },
+          { "speaker": "sarah", "audio": "l06-reg-n3", "text": "I've worked at the bookstore since last spring.", "note": "*Since* + punto de inicio." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Conferencias, entrevistas, eventos profesionales.",
+        "items": [
+          { "speaker": "emma", "audio": "l06-reg-f1", "text": "Good evening. My name is Emma Clarke, and I am the programme coordinator at the Language Centre.", "note": "Nombre completo + cargo. *Programme* es la ortografía británica." },
+          { "speaker": "george", "audio": "l06-reg-f2", "text": "Allow me to introduce myself. I have over ten years of experience in customer relations.", "note": "*Allow me to introduce myself* = permítanme presentarme." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "be originally from (Toronto)", "es": "ser originario de", "register": "neutral" },
+      { "en": "I work as a (designer)", "es": "trabajo de / como", "register": "neutral" },
+      { "en": "What do you do?", "es": "¿a qué te dedicas?", "register": "neutral" },
+      { "en": "grow up (in…)", "es": "crecer, criarse (en…)", "register": "neutral" },
+      { "en": "be into (music)", "es": "gustarle algo a alguien", "register": "casual" },
+      { "en": "How long have you…?", "es": "¿cuánto tiempo llevas…?", "register": "neutral" },
+      { "en": "It's on my list", "es": "lo tengo pendiente", "register": "casual" },
+      { "en": "allow me to introduce myself", "es": "permítanme presentarme", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "I'm really into hiking.", "answer": "casual", "explain": "*Be into* es coloquial." },
+      { "text": "Allow me to introduce myself.", "answer": "formal", "explain": "Fórmula de presentación formal, típica de un evento profesional." },
+      { "text": "I work as a nurse.", "answer": "neutral", "explain": "Clara y correcta en cualquier contexto." },
+      { "text": "I've got, like, a million hobbies.", "answer": "casual", "explain": "*Like* como muletilla y la exageración *a million*." },
+      { "text": "I have extensive experience in project management.", "answer": "formal", "explain": "*Extensive experience*: lenguaje de entrevista o perfil profesional." },
+      { "text": "I'm originally from Lima.", "answer": "neutral", "explain": "Neutra: sirve con amigos y en el trabajo." }
+    ]
+  },
+  "discovery": {
+    "intro": "Las dos mitades de la frase hablan del pasado, pero no usan el mismo tiempo verbal. ¿Por qué?",
+    "speaker": "ryan",
+    "audio": "l06-gd",
+    "text": "I {{moved}} here three years ago, and I {{have worked}} at the same company {{since}} 2022.",
+    "tts": "I moved here three years ago, and I have worked at the same company since twenty twenty-two.",
+    "questions": [
+      { "kind": "semantic", "q": "¿Sigue trabajando en la misma empresa?", "options": ["No, ya la dejó.", "Sí: empezó en 2022 y sigue allí.", "No se puede saber."], "answer": 1, "explain": "*Have worked … since 2022* describe una situación que empezó en el pasado y continúa ahora." },
+      { "kind": "syntactic", "q": "¿Por qué *moved* va en Past Simple y *have worked* en Present Perfect?", "options": ["*Moved* es un hecho terminado (*three years ago*); *have worked* es una situación que sigue.", "Porque *move* es un verbo irregular.", "Porque *have worked* es más formal."], "answer": 0, "explain": "Momento terminado → Past Simple (*ago, in 2019, last year*). Desde el pasado hasta hoy → Present Perfect + *for/since*." },
+      { "kind": "pragmatic", "q": "En una entrevista te preguntan: *How long have you worked in sales?* ¿Qué respuesta es correcta?", "options": ["I work in sales since six years.", "I've worked in sales for six years.", "I worked in sales for six years."], "answer": 1, "explain": "*I work … since* calca el español «trabajo desde hace». *I worked* daría a entender que ya no trabajas en ventas." }
+    ],
+    "rule": {
+      "points": [
+        "Hecho terminado con momento concreto: Past Simple (*I moved here three years ago*).",
+        "Situación que empezó en el pasado y sigue: *have / has + participio* + *for* (duración) o *since* (punto de inicio).",
+        "Para preguntar por la duración: *How long have you + participio…?*"
+      ],
+      "formulas": ["Past Simple + ago / in 2019", "have + participio + for + duración", "have + participio + since + inicio"],
+      "note": "En español decimos «vivo aquí desde hace dos años» (presente). En inglés no es presente: *I've lived here for two years*."
+    }
+  },
+  "phonetics": {
+    "intro": "En tu presentación, el acento hispano suele aparecer en tres sitios: la /e/ antes de st- (*studied*), el acento de palabra (*career*) y la h, que en inglés es un soplo, no una jota.",
+    "items": [
+      {
+        "id": "background", "term": "Background", "pos": "n.", "meaning": "trayectoria, formación",
+        "ipa": { "us": "/ˈbæk.ɡraʊnd/", "uk": "/ˈbæk.ɡraʊnd/" },
+        "afh": "BÁK-graund",
+        "say": "Background.",
+        "alerts": [
+          { "type": "stress", "text": "Palabra compuesta: acento en la 1.ª parte, BACK." },
+          { "type": "vowel", "text": "*Back* lleva /æ/: entre la a y la e del español, con la boca bien abierta." },
+          { "type": "consonant", "text": "El grupo /kɡr/ va seguido: «bak-graund», sin meter una vocal entre la k y la g." }
+        ],
+        "example": { "speaker": "alex", "text": "My background is in engineering, but I work in sales now." }
+      },
+      {
+        "id": "experience", "term": "Experience", "pos": "n.", "meaning": "experiencia",
+        "ipa": { "us": "/ɪkˈspɪr.i.əns/", "uk": "/ɪkˈspɪə.ri.əns/" },
+        "afh": "ik-SPÍ-ri-ens",
+        "say": "Experience.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: SPEER. El español «experiencia» lo lleva en la penúltima." },
+          { "type": "s-cluster", "text": "Dentro de la palabra hay un grupo /sp/: «ik-SPI», no «eks-pe»." },
+          { "type": "vowel", "text": "La e inicial se reduce a /ɪ/, muy corta: «ik», no «eks»." }
+        ],
+        "example": { "speaker": "george", "text": "I have over ten years of experience in customer relations." }
+      },
+      {
+        "id": "career", "term": "Career", "pos": "n.", "meaning": "carrera profesional",
+        "ipa": { "us": "/kəˈrɪr/", "uk": "/kəˈrɪə/" },
+        "afh": "ka-RÍR",
+        "say": "Career.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: ca-REER. La primera se reduce a schwa /ə/." },
+          { "type": "vowel", "text": "No la confundas con *carrier* /ˈkær.i.ər/ («KÁ-ri-er», transportista): cambian el acento y las vocales." }
+        ],
+        "example": { "speaker": "priya", "text": "I started my career as a psychology researcher." }
+      },
+      {
+        "id": "studied", "term": "Studied", "pos": "v.", "meaning": "estudié, estudió",
+        "ipa": { "us": "/ˈstʌd.id/", "uk": "/ˈstʌd.ɪd/" },
+        "afh": "STÁ-did",
+        "say": "Studied.",
+        "alerts": [
+          { "type": "s-cluster", "text": "Trampa directa del español «estudié»: empieza con /st/, sin e. Alarga la s: «sss-tadid»." },
+          { "type": "vowel", "text": "La u es /ʌ/: una a corta y relajada, «STA», no «STU»." },
+          { "type": "ed", "text": "Solo dos sílabas: STU-died. La terminación no añade una tercera." }
+        ],
+        "example": { "speaker": "priya", "text": "Before that, I studied psychology in Toronto." }
+      },
+      {
+        "id": "hometown", "term": "Hometown", "pos": "n.", "meaning": "ciudad o pueblo natal",
+        "ipa": { "us": "/ˈhoʊm.taʊn/", "uk": "/ˈhəʊm.taʊn/" },
+        "afh": "HÓUM-taun",
+        "say": "Hometown.",
+        "alerts": [
+          { "type": "consonant", "text": "La h es un soplo suave, como cuando empañas un cristal. La jota española /x/ raspa la garganta: no es lo mismo." },
+          { "type": "stress", "text": "Palabra compuesta: acento en HOME." },
+          { "type": "vowel", "text": "*Home* lleva el diptongo «ou», no una o simple." }
+        ],
+        "example": { "speaker": "sarah", "text": "My hometown is a small town near Seattle." }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Trayectoria hasta hoy: Present Perfect + for / since",
+        "formula": "Sujeto + have / has + participio + for + duración / since + punto de inicio",
+        "usage": "Para lo que empezó en el pasado y sigue ahora: dónde vives, dónde trabajas, cuánto tiempo llevas con algo.",
+        "examples": [
+          { "speaker": "coach", "audio": "l06-cc-1a", "text": "I{{'ve lived}} here {{for}} two years." },
+          { "speaker": "sarah", "audio": "l06-cc-1b", "text": "She{{'s worked}} at the hospital {{since}} 2020.", "tts": "She's worked at the hospital since twenty twenty." }
+        ]
+      },
+      {
+        "title": "Hechos terminados: Past Simple + marcador de tiempo",
+        "formula": "Sujeto + verbo en pasado + ago / in + año / when + frase",
+        "usage": "Para los datos cerrados de tu historia: dónde naciste, qué estudiaste, cuándo te mudaste.",
+        "examples": [
+          { "speaker": "coach", "audio": "l06-cc-2a", "text": "I {{moved}} here three years {{ago}}." },
+          { "speaker": "priya", "audio": "l06-cc-2b", "text": "I {{studied}} psychology at the University of Toronto." }
+        ]
+      },
+      {
+        "title": "Preguntar por la trayectoria: How long…? / Have you ever…?",
+        "formula": "How long + have / has + sujeto + participio…? · Have you ever + participio…?",
+        "usage": "Las dos preguntas más útiles para conocer a alguien: cuánto tiempo lleva con algo y qué experiencias ha tenido.",
+        "examples": [
+          { "speaker": "sarah", "audio": "l06-cc-3a", "text": "{{How long have you worked}} in design?" },
+          { "speaker": "priya", "audio": "l06-cc-3b", "text": "{{Have you ever lived}} abroad?" }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Presente en lugar de Present Perfect", "text": "«Vivo aquí desde 2021» lleva a decir *I live here since 2021*. Si la situación empezó en el pasado y sigue, usa Present Perfect.", "wrong": "I live here since 2021.", "right": "I've lived here since 2021." },
+      { "title": "Since con una duración", "text": "«Desde hace cinco años» no es *since five years*. Con duración, *for*; con punto de inicio, *since*.", "wrong": "I've worked here since five years.", "right": "I've worked here for five years." },
+      { "title": "Present Perfect con momento terminado", "text": "Con *ago*, *last year* o una fecha, el inglés exige Past Simple.", "wrong": "I've moved here three years ago.", "right": "I moved here three years ago." },
+      { "title": "Epéntesis en studied", "text": "La influencia de «estudié» añade una /e/ al principio. Empieza directamente con /st/.", "wrong": "«es-TA-did»", "right": "/ˈstʌd.id/ («STÁ-did»)" },
+      { "title": "Career no es carrier", "text": "*Career* (carrera profesional) lleva el acento al final. *Carrier* (transportista, operadora) lo lleva al principio.", "wrong": "«KÁ-rier» (career)", "right": "/kəˈrɪə/ («ka-RÍR»)" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "I've lived here ___ 2021.", "options": ["since", "for", "from"], "answer": 0, "explain": "2021 es un punto de inicio → *since*." },
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "She has worked as a nurse ___ six years.", "options": ["since", "for", "during"], "answer": 1, "explain": "*Six years* es una duración → *for*." },
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "I ___ to this city three years ago.", "options": ["have moved", "moved", "move"], "answer": 1, "explain": "*Three years ago* marca un momento terminado → Past Simple." },
+    { "type": "gap", "prompt": "Completa la pregunta.", "text": "How long ___ you known Priya?", "accept": ["have"], "explain": "*How long have you + participio…?*" },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["I've", "worked", "in", "design", "for", "five", "years"], "answer": "I've worked in design for five years", "explain": "Present Perfect + *for* + duración." },
+    { "type": "fix", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "I live here since 2020.", "accept": ["I've lived here since 2020.", "I have lived here since 2020."], "explain": "Situación que empezó en 2020 y sigue → Present Perfect." },
+    { "type": "fix", "prompt": "Corrige el error.", "wrong": "I have worked here since three years.", "accept": ["I have worked here for three years.", "I've worked here for three years."], "explain": "Con duración, *for*." },
+    { "type": "stress", "prompt": "¿Qué sílaba lleva el acento de *career*?", "word": "career", "syllables": ["ca", "reer"], "answer": 1, "audioRef": "l06-ph-career-us", "explain": "ca-**REER**: acento en la 2.ª sílaba." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "priya", "audio": "l06-dict-1", "text": "I'm originally from Toronto, but I've lived here for two years.", "explain": "*Originally from* + *I've lived here for* + duración." }
+  ],
+  "task": {
+    "title": "Tu presentación en 30 segundos",
+    "format": "voice",
+    "scenario": "Es la primera sesión de un meetup internacional y te toca presentarte ante el grupo. Escribe (o graba) tu presentación.",
+    "brief": "Introduce yourself to an international meetup group in about 30 seconds.",
+    "steps": [
+      "Di tu nombre y de dónde eres (*I'm originally from…*).",
+      "Di dónde vives y desde cuándo (*I've lived in … for / since…*).",
+      "Di a qué te dedicas y desde cuándo (*I work as… / I've been at … since…*).",
+      "Añade un dato terminado de tu pasado (*Before that, I studied…*) y algo que nunca has hecho pero quieres hacer (*I've never…*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi everyone, I'm ___. I'm originally from ___.",
+      "I've lived in ___ for ___ / since ___.",
+      "I work as a ___, and I've been at ___ since ___.",
+      "Before that, I studied ___.",
+      "I've never ___, but it's on my list!"
+    ],
+    "chunks": [
+      { "label": "originally from", "re": "\\boriginally from\\b" },
+      { "label": "have + for / since", "re": "\\b(have|has|'ve|'s)\\s+(\\w+\\s+)?\\w+(ed|en|t|ne|n)?\\b[^.!?]{0,40}\\b(for|since)\\b" },
+      { "label": "I work as", "re": "\\bwork(s|ed)?\\s+as\\s+(a|an)\\b" },
+      { "label": "Past Simple + ago / in", "re": "\\b(ago|in (19|20)\\d\\d|when I was)\\b" },
+      { "label": "I've never", "re": "\\b(I've|I have)\\s+never\\b" },
+      { "label": "before that", "re": "\\bbefore that\\b" }
+    ],
+    "checks": ["presentSince", "sinceDuration", "perfectWithPastTime", "proDrop", "capitalI"],
+    "extra": {
+      "title": "Extra: una frase para tu perfil profesional",
+      "brief": "Escribe una frase formal para la sección «Acerca de» de tu perfil profesional.",
+      "frames": ["I have over ___ years of experience in ___ and have specialised in ___ since ___."]
+    },
+    "model": {
+      "parts": [
+        { "label": "Presentación en el meetup (neutro)", "speaker": "maya", "audio": "l06-task-model", "text": "Hi everyone, I'm Maya. I'm {{originally from}} San Diego, but {{I've lived here for}} almost four years. {{I work as}} a travel agent, and {{I've been at}} my current agency {{since}} 2022. {{Before that, I studied}} tourism and worked in a hotel for two years. In my free time, I'm really into salsa and photography. {{I've never}} tried surfing, but {{it's on my list}} for this summer! Nice to meet you all.", "tts": "Hi everyone, I'm Maya. I'm originally from San Diego, but I've lived here for almost four years. I work as a travel agent, and I've been at my current agency since twenty twenty-two. Before that, I studied tourism and worked in a hotel for two years. In my free time, I'm really into salsa and photography. I've never tried surfing, but it's on my list for this summer! Nice to meet you all.", "notes": ["Present Perfect + *for/since* para lo que sigue (*I've lived here for…*, *I've been at… since…*).", "Past Simple para lo terminado (*I studied tourism*, *worked in a hotel for two years*: ese trabajo ya acabó)."] },
+        { "label": "Perfil profesional (formal)", "speaker": "emma", "audio": "l06-task-formal", "text": "I {{have over six years of experience}} in the travel industry and {{have specialised}} in group itineraries {{since}} 2022.", "tts": "I have over six years of experience in the travel industry and have specialised in group itineraries since twenty twenty-two.", "notes": ["*Have over … years of experience in* es la fórmula estándar de un perfil profesional. *Specialised* lleva ortografía británica."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste Present Perfect (no presente) para lo que empezó en el pasado y sigue?",
+      "¿Usaste *for* con duraciones y *since* con puntos de inicio?",
+      "¿Pasaste al Past Simple para los hechos terminados (*ago, in 2019, before that*)?",
+      "¿Todas tus oraciones tienen sujeto explícito?",
+      "¿Cabe tu presentación en unos 30 segundos?"
+    ]
+  }
+}

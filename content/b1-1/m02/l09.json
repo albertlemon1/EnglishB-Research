@@ -1,0 +1,278 @@
+{
+  "id": "l09",
+  "n": 9,
+  "title": "Expanding Your Circle & Making New Friends / Contacts",
+  "titleEs": "Ampliar tu círculo y hacer nuevos amigos o contactos",
+  "minutes": 60,
+  "summary": "Habla de experiencias con Have you ever…?, da detalles en Past Simple y presenta a otras personas.",
+  "canDo": [
+    "Puedo abrir una conversación preguntando por experiencias (*Have you ever…?*).",
+    "Puedo pasar al Past Simple cuando doy los detalles (*Yes, I tried it last summer*).",
+    "Puedo presentar a dos personas y proponer un plan en grupo.",
+    "Puedo pronunciar *honest* con h muda y *hang out* sin añadir una /g/."
+  ],
+  "focus": {
+    "grammar": "Have you ever…? / I've never… → detalles en Past Simple; been vs gone",
+    "lexis": "Have you two met?, hit it off, hang out, make friends, Count me in!, get to know",
+    "afh": "h muda (honest) frente a h aspirada (hang out); forma débil de have"
+  },
+  "warmup": "Piensa en la última vez que conociste a alguien nuevo. ¿Qué pregunta rompió el hielo? ¿Qué teníais en común?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Mensaje de voz de Leo",
+      "context": "Leo se ha apuntado a un grupo de escalada y se lo cuenta a Maya.",
+      "speaker": "leo",
+      "to": "Maya",
+      "audio": "l09-scn",
+      "text": "Hey Maya! Guess what? {{I've finally joined}} that climbing group {{I told you about}}. {{I went to my first session on Saturday}}, and everyone was super friendly. {{I've already made}} a couple of friends, and we're {{hanging out}} again this weekend. {{Have you ever tried}} climbing? You should come with us!"
+    },
+    "dialogue": {
+      "title": "En el evento de networking",
+      "context": "Oliver presenta a Alex y a Priya en un evento profesional.",
+      "lines": [
+        { "speaker": "oliver", "audio": "l09-dlg-01", "text": "Alex, {{have you met}} Priya? She's the designer {{I told you about}}." },
+        { "speaker": "alex", "audio": "l09-dlg-02", "text": "No, {{I haven't}}. Nice to meet you, Priya. Oliver {{has told me great things}} about your work." },
+        { "speaker": "priya", "audio": "l09-dlg-03", "text": "Oh, that's kind! Nice to meet you too. {{Have you been}} to one of these events {{before}}?" },
+        { "speaker": "alex", "audio": "l09-dlg-04", "text": "Yes, {{I came to one last spring}}, but I didn't know anyone, so I left early." },
+        { "speaker": "priya", "audio": "l09-dlg-05", "text": "I know the feeling! {{Have you ever tried}} the climbing group Leo goes to? It's a great way to meet people." },
+        { "speaker": "alex", "audio": "l09-dlg-06", "text": "I haven't, but {{I've always wanted}} to try climbing. Is it hard for beginners?" },
+        { "speaker": "priya", "audio": "l09-dlg-07", "text": "Not at all. {{I went for the first time last month}}, and I loved it. We should all go together." },
+        { "speaker": "oliver", "audio": "l09-dlg-08", "text": "{{Count me in}}! I'll make a group chat so we can organise it." }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Alex conocía a Priya antes del evento?", "options": ["No, se conocen ahora", "Sí, trabajan juntos", "Sí, fueron juntos a escalar"], "answer": 0, "explain": "*Have you met Priya? — No, I haven't.*" },
+      { "q": "¿Qué pasó la última vez que Alex fue a un evento así?", "options": ["Conoció a Priya", "No conocía a nadie y se fue pronto", "No pudo entrar"], "answer": 1, "explain": "*I came to one last spring, but I didn't know anyone, so I left early.*" },
+      { "q": "¿Qué significa *Count me in!*?", "options": ["Cuéntame más", "No me interesa", "¡Cuenta conmigo!"], "answer": 2, "explain": "*Count me in* = apúntame, cuenta conmigo. Lo contrario es *Count me out*." }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, grupos de chat, planes informales.",
+        "items": [
+          { "speaker": "maya", "audio": "l09-reg-c1", "text": "This is my buddy Leo. He's awesome.", "note": "*Buddy* = colega, amigo (informal, sobre todo en EE. UU.)." },
+          { "speaker": "leo", "audio": "l09-reg-c2", "text": "We totally hit it off!", "note": "*Hit it off* = caerse bien desde el primer momento." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Eventos, meetups, compañeros nuevos.",
+        "items": [
+          { "speaker": "oliver", "audio": "l09-reg-n1", "text": "Have you two met? Alex, this is Priya.", "note": "La forma más natural de presentar a dos personas." },
+          { "speaker": "alex", "audio": "l09-reg-n2", "text": "I'd love to stay in touch. Are you on LinkedIn?", "note": "Para cerrar un primer contacto profesional sin rigidez." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Eventos institucionales, reuniones con clientes.",
+        "items": [
+          { "speaker": "george", "audio": "l09-reg-f1", "text": "Allow me to introduce my colleague, Emma Clarke.", "note": "*Allow me to introduce* + cargo + nombre." },
+          { "speaker": "emma", "audio": "l09-reg-f2", "text": "It's a pleasure to make your acquaintance.", "note": "Muy formal; hoy suena algo ceremonioso." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "Have you two met?", "es": "¿ya se conocen?", "register": "neutral" },
+      { "en": "let me introduce you to (someone)", "es": "déjame presentarte a", "register": "neutral" },
+      { "en": "hit it off", "es": "caerse bien enseguida", "register": "casual" },
+      { "en": "hang out", "es": "quedar, pasar el rato", "register": "casual" },
+      { "en": "make friends", "es": "hacer amigos", "register": "neutral" },
+      { "en": "get to know (someone)", "es": "llegar a conocer (a alguien)", "register": "neutral" },
+      { "en": "Count me in!", "es": "¡cuenta conmigo!", "register": "casual" },
+      { "en": "make someone's acquaintance", "es": "tener el gusto de conocer", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "We totally hit it off!", "answer": "casual", "explain": "*Totally* + *hit it off*: muy coloquial." },
+      { "text": "It's a pleasure to make your acquaintance.", "answer": "formal", "explain": "Fórmula ceremoniosa." },
+      { "text": "Have you two met?", "answer": "neutral", "explain": "Natural en cualquier evento." },
+      { "text": "Count me in!", "answer": "casual", "explain": "Entusiasta e informal." },
+      { "text": "Allow me to introduce my colleague.", "answer": "formal", "explain": "*Allow me to* eleva el registro." },
+      { "text": "I'd love to stay in touch.", "answer": "neutral", "explain": "Amable y profesional a la vez." }
+    ]
+  },
+  "discovery": {
+    "intro": "Una pregunta, una respuesta y un dato extra. Observa cuándo cambia el tiempo verbal.",
+    "speaker": "ryan",
+    "audio": "l09-gd",
+    "text": "Have you {{ever tried}} climbing? Yes, I {{tried}} it last summer, and I{{'ve gone}} back twice since then.",
+    "questions": [
+      { "kind": "semantic", "q": "¿La primera pregunta busca un momento concreto?", "options": ["No: pregunta si alguna vez, en toda tu vida, lo has hecho.", "Sí, el verano pasado.", "Pregunta por el futuro."], "answer": 0, "explain": "*Have you ever…?* pregunta por la experiencia, sin importar cuándo." },
+      { "kind": "syntactic", "q": "En la respuesta, ¿por qué pasa de *have tried* a *tried*?", "options": ["Porque la respuesta es negativa.", "Al dar un detalle concreto (*last summer*) se pasa al Past Simple.", "Es lo mismo; se pueden intercambiar."], "answer": 1, "explain": "Experiencia → Present Perfect. Detalle con momento concreto → Past Simple. Y *since then* vuelve al Present Perfect." },
+      { "kind": "pragmatic", "q": "Quieres empezar a hablar con alguien en un evento. ¿Qué pregunta abre mejor la conversación?", "options": ["You went to events?", "Did you ever go to events?", "Have you been to one of these events before?"], "answer": 2, "explain": "Las preguntas de experiencia con Present Perfect son el abridor natural; después, los detalles en Past Simple." }
+    ],
+    "rule": {
+      "points": [
+        "Experiencia de vida, sin momento concreto: *Have you ever + participio?* / *I've never + participio*.",
+        "Al dar detalles (cuándo, dónde, cómo fue): Past Simple.",
+        "Patrón de conversación: Present Perfect para abrir → Past Simple para el detalle."
+      ],
+      "formulas": ["Have you ever + participio?", "I've never + participio", "Yes, I + Past Simple + last…"],
+      "note": "*Been* frente a *gone*: *She's been to Lisbon* (fue y volvió) · *She's gone to Lisbon* (fue y sigue allí)."
+    }
+  },
+  "phonetics": {
+    "intro": "Esta lección contrasta la h aspirada (*hang out*) con la h muda (*honest*) y trabaja las formas débiles de *have you*.",
+    "items": [
+      {
+        "id": "hang-out", "term": "Hang out", "pos": "phr. v.", "meaning": "quedar, pasar el rato",
+        "ipa": { "us": "/ˌhæŋ ˈaʊt/", "uk": "/ˌhæŋ ˈaʊt/" },
+        "afh": "ha-NGÁUT",
+        "say": "Hang out.",
+        "alerts": [
+          { "type": "consonant", "text": "La h es un soplo suave, no jota: «hang», no «jang»." },
+          { "type": "consonant", "text": "*Ng* es un solo sonido /ŋ/, como la n de «tengo» sin la g. No añadas una /g/: «ha-NGAUT», nunca «jang-gaut»." },
+          { "type": "linking", "text": "El sonido /ŋ/ se une a *out* sin pausa." }
+        ],
+        "example": { "speaker": "leo", "text": "We're hanging out again this weekend." }
+      },
+      {
+        "id": "honest", "term": "Honest", "pos": "adj.", "meaning": "sincero, honesto",
+        "ipa": { "us": "/ˈɑː.nɪst/", "uk": "/ˈɒn.ɪst/" },
+        "afh": "Á-nist (US) · Ó-nist (UK)",
+        "say": "Honest.",
+        "alerts": [
+          { "type": "silent", "text": "La h es muda, como en español: «Ó-nist». Lo mismo en *hour*, *honour* y *heir*. Por eso se dice *an honest person*." },
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: HON." },
+          { "type": "consonant", "text": "Termina en /st/: no la cortes («ó-nis») ni añadas una e («ó-nis-te»)." }
+        ],
+        "example": { "speaker": "priya", "text": "To be honest, I was nervous before my first session." }
+      },
+      {
+        "id": "acquaintance", "term": "Acquaintance", "pos": "n.", "meaning": "conocido, conocida",
+        "ipa": { "us": "/əˈkweɪn.təns/", "uk": "/əˈkweɪn.təns/" },
+        "afh": "a-KUÉIN-tens",
+        "say": "Acquaintance.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: QUAIN." },
+          { "type": "spelling", "text": "*Cqu* suena /kw/, un solo grupo: la c no se pronuncia aparte." },
+          { "type": "vowel", "text": "*Ai* es el diptongo /eɪ/: «kuéin»." }
+        ],
+        "example": { "speaker": "alex", "text": "He's not a close friend, just an acquaintance from work." }
+      },
+      {
+        "id": "introduce", "term": "Introduce", "pos": "v.", "meaning": "presentar (a alguien)",
+        "ipa": { "us": "/ˌɪn.trəˈduːs/", "uk": "/ˌɪn.trəˈdjuːs/" },
+        "afh": "in-tra-DÚUS (US) · in-tra-DIÚUS (UK)",
+        "say": "Introduce.",
+        "alerts": [
+          { "type": "stress", "text": "Acento principal en la 3.ª sílaba: DUCE." },
+          { "type": "variant", "text": "En Reino Unido suena una /j/ antes de la u: /djuːs/." },
+          { "type": "weak", "text": "La sílaba central se reduce: «in-tra», no «in-tro»." }
+        ],
+        "example": { "speaker": "maya", "text": "Leo, let me introduce you to Priya." }
+      },
+      {
+        "id": "have-you-ever", "term": "Have you ever…?", "pos": "expr.", "meaning": "¿alguna vez has…?",
+        "ipa": { "us": "/həv jə ˈev.ɚ/", "uk": "/həv jə ˈev.ə/" },
+        "afh": "hav-ya-É-ver",
+        "say": "Have you ever?",
+        "ttsUs": "[Have](/həv/) [you](/jə/) ever?",
+        "ttsUk": "[Have](/həv/) [you](/jə/) ever?",
+        "alerts": [
+          { "type": "weak", "text": "En el habla natural *have* se reduce a /həv/ y *you* a /jə/: «hav-ya-É-ver». La fuerza va en EVER." },
+          { "type": "consonant", "text": "La h de *have* es un soplo ligero; nunca jota." },
+          { "type": "intonation", "text": "Es una pregunta de sí o no: la voz sube al final ↗." }
+        ],
+        "example": { "speaker": "priya", "text": "Have you ever tried the climbing group Leo goes to?", "tts": "[Have](/həv/) [you](/jə/) ever tried the climbing group Leo goes to?" }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Experiencias: Have you ever…? / I've never…",
+        "formula": "Have you ever + participio…? · I've never + participio",
+        "usage": "Preguntan y hablan de la experiencia en general, sin decir cuándo.",
+        "examples": [
+          { "speaker": "coach", "audio": "l09-cc-1a", "text": "{{Have you ever been}} to a language exchange?" },
+          { "speaker": "alex", "audio": "l09-cc-1b", "text": "{{I've never tried}} rock climbing." }
+        ]
+      },
+      {
+        "title": "Del Present Perfect al Past Simple: dar detalles",
+        "formula": "Have you ever…? → Yes, I + Past Simple + cuándo / dónde",
+        "usage": "En cuanto aparece un momento concreto, cambia al Past Simple.",
+        "examples": [
+          { "speaker": "priya", "audio": "l09-cc-2a", "text": "Yes, I {{went}} climbing for the first time {{last month}}." },
+          { "speaker": "sarah", "audio": "l09-cc-2b", "text": "I{{'ve met}} him before. We {{met}} at Oliver's party." }
+        ]
+      },
+      {
+        "title": "Presentar a otras personas",
+        "formula": "Have you two met? · Let me introduce you to + persona · This is + nombre",
+        "usage": "Añade un dato de cada persona para facilitar la conversación.",
+        "examples": [
+          { "speaker": "maya", "audio": "l09-cc-3a", "text": "Leo, {{let me introduce you to}} Priya." },
+          { "speaker": "george", "audio": "l09-cc-3b", "text": "{{Allow me to introduce}} my colleague, Emma Clarke." }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Know no es «conocer» siempre", "text": "«Conocí a Priya ayer» es *I met Priya yesterday*. *Know* es conocer a alguien desde hace tiempo.", "wrong": "I knew Priya yesterday at the event.", "right": "I met Priya yesterday at the event." },
+      { "title": "Hacer amigos: make, no do", "text": "El calco de «hacer» lleva a *do friends*. En inglés es *make friends*.", "wrong": "I did a lot of friends at the club.", "right": "I made a lot of friends at the club." },
+      { "title": "Present Perfect con momento concreto", "text": "Si dices cuándo, usa Past Simple.", "wrong": "I've tried climbing last summer.", "right": "I tried climbing last summer." },
+      { "title": "Been frente a gone", "text": "Para la experiencia de ir y volver, *been*. *Gone* significa que la persona sigue allí.", "wrong": "She's gone to Lisbon twice.", "right": "She's been to Lisbon twice." },
+      { "title": "La h muda de honest", "text": "Aquí la h no suena. Pronunciarla como jota es doble error.", "wrong": "«JÓ-nest»", "right": "/ˈɒn.ɪst/ («Ó-nist»)" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "___ you ever tried rock climbing?", "options": ["Did", "Have", "Do"], "answer": 1, "explain": "Pregunta de experiencia → *Have you ever…?*" },
+    { "type": "choice", "prompt": "Elige el verbo correcto.", "text": "I ___ Priya at a networking event last month.", "options": ["knew", "have met", "met"], "answer": 2, "explain": "Conocer a alguien por primera vez, en un momento concreto → *met*." },
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "She's ___ to Berlin three times. She loves it.", "options": ["been", "gone", "went"], "answer": 0, "explain": "Experiencia de ir y volver → *been*." },
+    { "type": "gap", "prompt": "Completa la frase.", "text": "I've ___ been to a language exchange before.", "accept": ["never"], "explain": "*I've never been…* = nunca he ido…" },
+    { "type": "gap", "prompt": "Escribe el verbo en pasado.", "text": "At the club, I ___ a lot of new friends. (make)", "accept": ["made"], "explain": "*Make friends* → *made friends*." },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["Have", "you", "two", "met", "before"], "answer": "Have you two met before", "explain": "La pregunta clásica para presentar a dos personas." },
+    { "type": "fix", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "I knew my best friend at university in 2015.", "accept": ["I met my best friend at university in 2015."], "explain": "Conocer por primera vez → *met*." },
+    { "type": "stress", "prompt": "¿Qué sílaba lleva el acento de *acquaintance*?", "word": "acquaintance", "syllables": ["ac", "quain", "tance"], "answer": 1, "audioRef": "l09-ph-acquaintance-us", "explain": "ac-**QUAIN**-tance." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "oliver", "audio": "l09-dict-1", "text": "Count me in! I'll make a group chat so we can organise it.", "explain": "*Organise* con s es la ortografía británica; *organize* también se acepta." }
+  ],
+  "task": {
+    "title": "Presenta a dos amigos",
+    "format": "text",
+    "scenario": "Tienes dos amigos que todavía no se conocen y crees que se llevarían muy bien. Escribe un mensaje en un chat de grupo para presentarlos.",
+    "brief": "Introduce two friends to each other in a group chat.",
+    "steps": [
+      "Saluda a los dos y explica por qué quieres que se conozcan.",
+      "Presenta a cada uno con un dato (*This is… She works as…*).",
+      "Señala una experiencia que comparten (*You've both been to…*).",
+      "Añade un detalle pasado (*Last week, … told me…*) y propón un plan (*Why don't we…?*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi both! I'd love you two to meet.",
+      "___, this is ___. She / He ___.",
+      "You've both ___, so ___.",
+      "Last week, ___ told me ___.",
+      "Why don't we all hang out ___?"
+    ],
+    "chunks": [
+      { "label": "you two / both", "re": "\\b(you two|both)\\b" },
+      { "label": "this is", "re": "\\bthis is\\b" },
+      { "label": "Present Perfect de experiencia", "re": "\\b(have|has|'ve)\\s+(both\\s+|ever\\s+|never\\s+)?(been|tried|done|seen|met|lived|worked|visited)\\b" },
+      { "label": "Past Simple con momento", "re": "\\b(last\\s+\\w+|yesterday|ago)\\b" },
+      { "label": "hang out", "re": "\\bhang(ing)?\\s+out\\b" },
+      { "label": "hit it off", "re": "\\bhit it off\\b" }
+    ],
+    "checks": ["makeFriendsDo", "knowMeet", "perfectWithPastTime", "proDrop", "capitalI"],
+    "extra": {
+      "title": "Extra: presentación profesional por correo",
+      "brief": "Escribe dos frases formales presentando a dos contactos profesionales por correo electrónico.",
+      "frames": ["Dear ___, allow me to introduce ___, who ___.", "I believe you would both benefit from ___."]
+    },
+    "model": {
+      "parts": [
+        { "label": "Mensaje de grupo de Maya (casual)", "speaker": "maya", "audio": "l09-task-model", "text": "Hi both! I'd love {{you two}} to meet. Leo, {{this is}} Priya. She's a UX designer, and she's just joined our climbing group. Priya, {{this is}} Leo. He works at a café and makes the best playlists ever. {{You've both been}} to Lisbon, so you'll have plenty to talk about! {{Last week}}, Priya {{told}} me she wants to learn the guitar, and Leo has taught guitar for years. Why don't we all {{hang out}} this Saturday? I think you'll really {{hit it off}}!", "notes": ["*You've both been to Lisbon*: experiencia compartida en Present Perfect.", "*Last week, Priya told me…*: el detalle con momento concreto va en Past Simple."] },
+        { "label": "Presentación por correo (formal)", "speaker": "george", "audio": "l09-task-formal", "text": "Dear Ms Clarke, {{allow me to introduce}} Priya Shah, a UX designer who {{has worked}} on several projects for travel companies. I believe you would both benefit from a conversation about the new booking platform.", "notes": ["*Who has worked on…* resume la experiencia relevante de la persona presentada."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Presentaste a cada persona con un dato concreto?",
+      "¿Usaste el Present Perfect para la experiencia compartida (*You've both been…*)?",
+      "¿Pasaste al Past Simple para el detalle con momento concreto?",
+      "¿Usaste *make friends* y *meet* (no *do friends* ni *know* para «conocer»)?",
+      "¿Terminaste con un plan concreto?"
+    ]
+  }
+}

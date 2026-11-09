@@ -2,11 +2,17 @@
 import { icon, esc, toast } from "./ui.js";
 import { audio } from "./audio.js";
 import { store } from "./store.js";
-import { data } from "./data.js";
 import { home, map, moduleView, lessonView, reviewView, methodView } from "./views.js";
 
 const app = document.getElementById("app");
 const BLOCK_IDS = "lexical|discovery|phonetics|consolidation|practice|task";
+
+const NOT_FOUND = { title: "Página no encontrada", html: `<div class="wrap block"><div class="error-box"><h3>No encontramos esa página</h3><p>El enlace puede estar incompleto, o ese módulo todavía no está publicado. Vuelve al inicio o abre la ruta del curso.</p><div class="row"><a class="btn" href="#inicio">Ir al inicio</a><a class="btn ghost" href="#ruta">Ver la ruta</a></div></div></div>` };
+
+// Wraps a view loader so that a module that isn't published, or a lesson that
+// doesn't belong to the module in the URL, shows the not-found page instead of
+// a generic loading error.
+const guard = (loader) => () => loader().catch((err) => { if (err?.notFound) return NOT_FOUND; throw err; });
 
 function resolve(hash) {
   const h = hash.replace(/^#/, "");
@@ -14,10 +20,10 @@ function resolve(hash) {
   if (!h || h === "inicio") return { nav: "inicio", load: () => home() };
   if (h === "ruta") return { nav: "ruta", load: () => map() };
   if (h === "metodo") return { nav: "metodo", load: () => methodView() };
-  if ((m = /^(m01)$/.exec(h))) return { nav: "ruta", load: () => moduleView(m[1]) };
-  if ((m = /^(m01)-repaso$/.exec(h))) return { nav: "ruta", load: () => reviewView(m[1]) };
-  if ((m = new RegExp(`^(m01)-(l0[1-5])(?:-(${BLOCK_IDS}))?$`).exec(h))) return { nav: "ruta", load: () => lessonView(m[1], m[2], m[3]), lesson: true };
-  return { nav: "", load: async () => ({ title: "Página no encontrada", html: `<div class="wrap block"><div class="error-box"><h3>No encontramos esa página</h3><p>El enlace puede estar incompleto. Vuelve al inicio para continuar.</p><a class="btn" href="#inicio">Ir al inicio</a></div></div>` }) };
+  if ((m = /^(m\d\d)$/.exec(h))) return { nav: "ruta", load: guard(() => moduleView(m[1])) };
+  if ((m = /^(m\d\d)-repaso$/.exec(h))) return { nav: "ruta", load: guard(() => reviewView(m[1])) };
+  if ((m = new RegExp(`^(m\\d\\d)-(l\\d\\d)(?:-(${BLOCK_IDS}))?$`).exec(h))) return { nav: "ruta", load: guard(() => lessonView(m[1], m[2], m[3])), lesson: true };
+  return { nav: "", load: async () => NOT_FOUND };
 }
 
 let renderId = 0;
@@ -164,9 +170,8 @@ try {
 async function boot() {
   applyTheme(store.settings.theme || "system");
   applySpeed(store.settings.speed || 1);
-  const clips = await data.manifest("m01");
-  window.__manifest = clips;
-  audio.setBase("audio/b1-1/m01/", clips);
+  // Each view loads its own module's audio manifest (data.audio), so nothing
+  // module-specific happens here.
   await render();
 }
 boot();

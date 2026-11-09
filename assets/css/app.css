@@ -615,7 +615,17 @@ main { padding-bottom: 72px; }
 .al-consonant { --al: var(--neutral); --al-soft: var(--neutral-soft); }
 .al-ed { --al: var(--ok); --al-soft: var(--ok-soft); }
 .al-flap { --al: var(--casual); --al-soft: var(--casual-soft); }
+.al-intonation { --al: var(--accent); --al-soft: var(--accent-soft); }
+.al-intonation .sym { font-size: 0.8rem; letter-spacing: -0.04em; }
 .al-weak, .al-silent, .al-variant, .al-spelling { --al: var(--ink-2); --al-soft: var(--surface-2); }
+.ph-variants { display: grid; gap: 8px; padding: 12px; border-radius: 12px; background: var(--accent-soft); }
+.ph-variants .eyebrow { color: var(--accent); }
+.ph-variant { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; align-items: center; }
+.ph-variant b { display: block; font-size: var(--s-xs); color: var(--ink-2); }
+.ph-variant p { font-size: 1.02rem; line-height: 1.4; }
+.task-input { display: grid; gap: 10px; padding: 14px 16px; border-radius: var(--r-md); background: var(--reg-soft, var(--surface-2)); }
+.task-input .voice-head { gap: 10px; }
+.task-input p.en { font-size: 1.04rem; line-height: 1.55; }
 .ph-ex { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; align-items: center; padding-top: 12px; border-top: 1px dashed var(--line); }
 .ph-ex p { font: italic 400 1.02rem/1.45 var(--f-en); }
 .rec { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }

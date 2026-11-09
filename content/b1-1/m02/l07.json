@@ -1,0 +1,288 @@
+{
+  "id": "l07",
+  "n": 7,
+  "title": "Active Listening & Asking Clarifying Questions",
+  "titleEs": "Escucha activa y preguntas de aclaración",
+  "minutes": 60,
+  "summary": "Pide que te repitan, aclara significados y confirma con question tags.",
+  "canDo": [
+    "Puedo pedir que me repitan o me expliquen una palabra sin cortar la conversación.",
+    "Puedo comprobar información con una question tag (*It's at seven, isn't it?*).",
+    "Puedo resumir lo que he entendido para confirmarlo (*Just to make sure I understand…*).",
+    "Puedo distinguir de oído una tag que pregunta (↗) de una que busca acuerdo (↘)."
+  ],
+  "focus": {
+    "grammar": "Question tags: afirmativa → tag negativa y viceversa; auxiliar + pronombre",
+    "lexis": "Could you repeat that?, What do you mean by…?, Just to make sure I understand, Got it",
+    "afh": "Entonación de las question tags (↗ / ↘); formas débiles (what do you mean)"
+  },
+  "warmup": "¿Qué haces cuando no entiendes algo en inglés: asientes y sigues, o lo preguntas? Piensa en una frase que te gustaría tener preparada para esos momentos.",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Mensaje de voz de Oliver",
+      "context": "Oliver, el organizador del meetup, deja a Sarah un mensaje rápido con cambios para la próxima sesión.",
+      "speaker": "oliver",
+      "to": "Sarah",
+      "audio": "l07-scn",
+      "text": "Hi Sarah, it's Oliver from Global Connect. Just a quick message about Thursday's session. We're meeting at seven this time, {{not at six}}, at the café on Bridge Street, {{the one next to the station}}. Could you bring the name tags? Oh, and it's a {{potluck}}, so bring something small to share. {{Cheers}}!"
+    },
+    "dialogue": {
+      "title": "Sarah llama para aclararlo",
+      "context": "La línea tenía ruido y hay una palabra que Sarah no conoce. Llama a Oliver para confirmar los detalles.",
+      "lines": [
+        { "speaker": "sarah", "audio": "l07-dlg-01", "text": "Hi Oliver, it's Sarah. I got your message, but the line was a bit noisy. The meeting's at seven, {{isn't it}}?", "tone": "rise" },
+        { "speaker": "oliver", "audio": "l07-dlg-02", "text": "{{That's right}}, seven o'clock. We've moved it back an hour." },
+        { "speaker": "sarah", "audio": "l07-dlg-03", "text": "Okay. And sorry, {{what do you mean by}} 'potluck'? {{I've never heard}} that word before." },
+        { "speaker": "oliver", "audio": "l07-dlg-04", "text": "Oh, it just means everyone brings a dish to share. Nothing fancy." },
+        { "speaker": "sarah", "audio": "l07-dlg-05", "text": "I see. {{So, basically}}, it's like a shared dinner?" },
+        { "speaker": "oliver", "audio": "l07-dlg-06", "text": "{{Exactly}}. Crisps, a salad, some biscuits… anything works." },
+        { "speaker": "sarah", "audio": "l07-dlg-07", "text": "{{Got it}}. {{Just to make sure I understand}}: the café on Bridge Street, next to the station, at seven, and I bring the name tags and a snack. {{Right}}?" },
+        { "speaker": "oliver", "audio": "l07-dlg-08", "text": "Perfect. {{You've got it}}. See you on Thursday!" }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿A qué hora es la reunión?", "options": ["A las seis, como siempre", "A las siete", "A las once"], "answer": 1, "explain": "*Seven o'clock. We've moved it back an hour.* (*move back* = retrasar)." },
+      { "q": "¿Qué es un *potluck*?", "options": ["Una comida en la que cada persona lleva un plato para compartir", "Un restaurante caro", "Una reunión sin comida"], "answer": 0, "explain": "*Everyone brings a dish to share.*" },
+      { "q": "¿Qué hace Sarah con *Just to make sure I understand…*?", "options": ["Cambia el plan", "Resume la información para confirmarla", "Se despide sin confirmar"], "answer": 1, "explain": "Repite los datos clave y termina con *Right?* para que Oliver los confirme." }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats, conversación rápida.",
+        "items": [
+          { "speaker": "leo", "audio": "l07-reg-c1", "text": "Wait, what do you mean?", "note": "Directo y espontáneo; con amigos está bien." },
+          { "speaker": "maya", "audio": "l07-reg-c2", "text": "Sorry, say that again?", "note": "Elipsis: falta *Could you*. Muy frecuente al hablar." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros, clases, llamadas cotidianas.",
+        "items": [
+          { "speaker": "alex", "audio": "l07-reg-n1", "text": "Sorry, could you repeat that, please?", "note": "La fórmula segura para casi cualquier situación." },
+          { "speaker": "sarah", "audio": "l07-reg-n2", "text": "What do you mean by 'potluck'?", "note": "*What do you mean by* + la palabra que no entiendes." },
+          { "speaker": "priya", "audio": "l07-reg-n3", "text": "Just to make sure I understand, we meet at the station, right?", "note": "Resumir para confirmar: escucha activa." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Reuniones de trabajo, atención al cliente, entrevistas.",
+        "items": [
+          { "speaker": "emma", "audio": "l07-reg-f1", "text": "I'm sorry, I didn't quite catch that. Would you mind repeating it?", "note": "*Didn't quite catch that* suaviza: el problema es tuyo, no del otro." },
+          { "speaker": "george", "audio": "l07-reg-f2", "text": "Could you clarify what you mean by 'flexible hours'?", "note": "*Clarify* eleva el registro; ojo al orden: *what you mean*." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "Sorry, say that again?", "es": "¿perdona, me lo repites?", "register": "casual" },
+      { "en": "Could you repeat that?", "es": "¿podrías repetirlo?", "register": "neutral" },
+      { "en": "What do you mean by…?", "es": "¿qué quieres decir con…?", "register": "neutral" },
+      { "en": "Just to make sure I understand…", "es": "para asegurarme de que lo entiendo…", "register": "neutral" },
+      { "en": "So, basically…", "es": "o sea, que básicamente…", "register": "casual" },
+      { "en": "Got it / You've got it", "es": "entendido / exacto, eso es", "register": "casual" },
+      { "en": "That's right / Exactly", "es": "así es / exacto", "register": "neutral" },
+      { "en": "I didn't quite catch that", "es": "no le he entendido bien", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "Wait, what?", "answer": "casual", "explain": "Muy directo: solo con confianza." },
+      { "text": "Would you mind repeating that?", "answer": "formal", "explain": "*Would you mind + -ing* es la petición más cortés." },
+      { "text": "What do you mean by 'flexible'?", "answer": "neutral", "explain": "Clara y educada en casi cualquier contexto." },
+      { "text": "Got it, thanks!", "answer": "casual", "explain": "Respuesta rápida y relajada." },
+      { "text": "Could you clarify the deadline, please?", "answer": "formal", "explain": "*Clarify* y *deadline*: contexto profesional." },
+      { "text": "Sorry, could you speak a bit more slowly?", "answer": "neutral", "explain": "Educada sin ser rígida." }
+    ]
+  },
+  "discovery": {
+    "intro": "Sarah no hace preguntas normales: añade una pequeña coletilla al final. Observa cómo se forma.",
+    "speaker": "ryan",
+    "audio": "l07-gd",
+    "text": "The meeting {{is}} at seven, {{isn't it}}? And you {{don't}} need anything else, {{do you}}?",
+    "tone": ["rise", "rise"],
+    "questions": [
+      { "kind": "semantic", "q": "¿Sarah está totalmente segura de la hora?", "options": ["Sí, no tiene ninguna duda.", "Cree que es a las siete, pero quiere confirmarlo.", "No tiene ni idea."], "answer": 1, "explain": "La question tag convierte una afirmación en una comprobación: «es a las siete, ¿no?»." },
+      { "kind": "syntactic", "q": "¿Cómo se forma la question tag?", "options": ["Siempre *isn't it*, como el «¿no?» español.", "Se repite el verbo principal: *meets it?*", "El auxiliar de la frase en forma contraria + el pronombre del sujeto."], "answer": 2, "explain": "*is* → *isn't it?*; *don't* → *do you?*. Afirmativa → tag negativa; negativa → tag afirmativa." },
+      { "kind": "pragmatic", "q": "Al final de una tag, ¿qué cambia la entonación?", "options": ["Si sube ↗ pregunta de verdad; si baja ↘ busca acuerdo o confirma algo que ya sabe.", "Nada: siempre sube porque es una pregunta.", "Si sube, el hablante está enfadado."], "answer": 0, "explain": "Sarah no está segura de la hora, por eso sus dos tags suben. En el bloque de fonética oirás la diferencia." }
+    ],
+    "rule": {
+      "points": [
+        "Frase afirmativa → tag negativa: *It's at seven, isn't it?* Frase negativa → tag afirmativa: *You don't need anything, do you?*",
+        "La tag repite el auxiliar (*is, are, do, does, have, can, will…*) y el pronombre del sujeto. Si no hay auxiliar, usa *do / does / did*: *You live here, don't you?*",
+        "Entonación: ↗ sube = pregunta real, no estás seguro. ↘ baja = ya lo sabes y buscas acuerdo."
+      ],
+      "formulas": ["afirmativa, + tag negativa?", "negativa, + tag afirmativa?", "↗ duda · ↘ confirmación"],
+      "note": "El hispanohablante tiende a usar *isn't it?* para todo, como el «¿no?» o «¿verdad?» del español. En inglés la tag cambia con cada frase: *You're tired, aren't you?* · *She lives here, doesn't she?* · Y una excepción: *I'm late, aren't I?*"
+    }
+  },
+  "phonetics": {
+    "intro": "Escucha la diferencia entre una tag que pregunta y una que confirma. Después, practica las palabras que más usarás para pedir aclaraciones.",
+    "items": [
+      {
+        "id": "isnt-it", "term": "Isn't it?", "pos": "tag", "meaning": "¿no?, ¿verdad?",
+        "ipa": { "us": "/ˈɪz.ənt ɪt/", "uk": "/ˈɪz.ənt ɪt/" },
+        "afh": "Í-zn-tit",
+        "say": "Isn't it?",
+        "variants": [
+          { "label": "↗ Sube: no estás seguro, preguntas de verdad", "speaker": "coach", "audio": "l07-ph-isnt-it-rise", "text": "It's at seven, isn't it?", "tone": "rise" },
+          { "label": "↘ Baja: ya lo sabes, buscas acuerdo", "speaker": "coach", "audio": "l07-ph-isnt-it-fall", "text": "It's a lovely day, isn't it?", "tone": "fall" }
+        ],
+        "alerts": [
+          { "type": "intonation", "text": "La melodía decide el significado: ↗ al final = pregunta real; ↘ = «¿a que sí?». Escucha los dos ejemplos de arriba." },
+          { "type": "linking", "text": "*Isn't it* se dice de un tirón: «Í-zn-tit». La t final de *isn't* se une a *it*." },
+          { "type": "consonant", "text": "La s de *isn't* es /z/ sonora (zumbido), y la n es silábica: casi no hay vocal entre z y n." }
+        ],
+        "example": { "speaker": "sarah", "text": "The meeting's at seven, isn't it?", "tone": "rise" }
+      },
+      {
+        "id": "clarify", "term": "Clarify", "pos": "v.", "meaning": "aclarar",
+        "ipa": { "us": "/ˈkler.ə.faɪ/", "uk": "/ˈklær.ɪ.faɪ/" },
+        "afh": "KLÉ-ri-fai",
+        "say": "Clarify.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: CLA. El español «clarificar» lo lleva al final." },
+          { "type": "vowel", "text": "Termina en el diptongo /aɪ/: «fai», no «fi»." }
+        ],
+        "example": { "speaker": "george", "text": "Could you clarify what you mean by flexible hours?" }
+      },
+      {
+        "id": "pardon", "term": "Pardon?", "pos": "interj.", "meaning": "¿cómo dice?, ¿perdón?",
+        "ipa": { "us": "/ˈpɑːr.dən/", "uk": "/ˈpɑː.dən/" },
+        "afh": "PÁR-dn",
+        "say": "Pardon?",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: PAR-don. No es el «per-DÓN» español." },
+          { "type": "vowel", "text": "La segunda sílaba casi desaparece: n silábica, «PÁR-dn»." },
+          { "type": "variant", "text": "En Reino Unido la r no suena: /ˈpɑː.dən/. Sirve para pedir que repitan, no para disculparte." }
+        ],
+        "example": { "speaker": "emma", "text": "Pardon? I didn't quite catch your name." }
+      },
+      {
+        "id": "exactly", "term": "Exactly", "pos": "adv.", "meaning": "exacto, exactamente",
+        "ipa": { "us": "/ɪɡˈzækt.li/", "uk": "/ɪɡˈzækt.li/" },
+        "afh": "ig-ZÁKT-li",
+        "say": "Exactly.",
+        "alerts": [
+          { "type": "consonant", "text": "La x suena /ɡz/, sonora: «ig-ZAK», no «eks-AK» como en «exacto»." },
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: ZAK." },
+          { "type": "silent", "text": "En el habla rápida la t casi desaparece: «ig-ZÁK-li»." }
+        ],
+        "example": { "speaker": "oliver", "text": "Exactly. Anything works, nothing fancy." }
+      },
+      {
+        "id": "what-do-you-mean", "term": "What do you mean?", "pos": "expr.", "meaning": "¿qué quieres decir?",
+        "ipa": { "us": "/ˌwʌt̬ də jə ˈmiːn/", "uk": "/ˌwɒt də jə ˈmiːn/" },
+        "afh": "uát-da-ya-MÍIN",
+        "say": "What do you mean?",
+        "ttsUs": "What [do](/də/) [you](/jə/) mean?",
+        "ttsUk": "What [do](/də/) [you](/jə/) mean?",
+        "alerts": [
+          { "type": "weak", "text": "*Do you* se reduce a /də jə/ («da-ya»). Si pronuncias «du yu» con vocales plenas, suena lento y robótico." },
+          { "type": "stress", "text": "La fuerza va en la palabra clave, MEAN: «what-da-ya-MEAN»." }
+        ],
+        "example": { "speaker": "sarah", "text": "Sorry, what do you mean by potluck?", "tts": "Sorry, what [do](/də/) [you](/jə/) mean by potluck?" }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Pedir que repitan o aclaren",
+        "formula": "Sorry, could you + repeat that / say that again / speak more slowly? · What do you mean by…?",
+        "usage": "Empieza con *Sorry* para suavizar. *Could you* es educado en casi cualquier contexto.",
+        "examples": [
+          { "speaker": "coach", "audio": "l07-cc-1a", "text": "{{Sorry, could you say that again}}?" },
+          { "speaker": "alex", "audio": "l07-cc-1b", "text": "{{Could you speak a bit more slowly}}, please?" }
+        ]
+      },
+      {
+        "title": "Comprobar información: question tags",
+        "formula": "frase afirmativa + auxiliar negativo + pronombre? · frase negativa + auxiliar afirmativo + pronombre?",
+        "usage": "Úsalas cuando creas saber algo y quieras confirmarlo. Con duda, la tag sube ↗.",
+        "examples": [
+          { "speaker": "coach", "audio": "l07-cc-2a", "text": "You're coming on Thursday, {{aren't you}}?", "tone": "rise" },
+          { "speaker": "sarah", "audio": "l07-cc-2b", "text": "She doesn't eat meat, {{does she}}?", "tone": "rise" }
+        ]
+      },
+      {
+        "title": "Resumir para confirmar: So… / Just to make sure…",
+        "formula": "Just to make sure I understand: + resumen + right? · So, basically, + resumen?",
+        "usage": "Repetir con tus palabras demuestra que escuchas y evita malentendidos.",
+        "examples": [
+          { "speaker": "priya", "audio": "l07-cc-3a", "text": "{{Just to make sure I understand}}: we meet at seven, {{right}}?" },
+          { "speaker": "maya", "audio": "l07-cc-3b", "text": "{{So, basically}}, everyone brings a dish?" }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "*Isn't it?* para todo", "text": "El «¿no?» español es invariable; la question tag inglesa no. Copia el auxiliar y el sujeto de cada frase.", "wrong": "You live near here, isn't it?", "right": "You live near here, don't you?" },
+      { "title": "Misma polaridad en la tag", "text": "Para comprobar información, la tag lleva la polaridad contraria a la frase.", "wrong": "It's at seven, is it?", "right": "It's at seven, isn't it?" },
+      { "title": "Pardon no es «perdón»", "text": "*Pardon?* sirve para pedir que repitan. Para disculparte, usa *Sorry*.", "wrong": "Pardon for being late.", "right": "Sorry for being late." },
+      { "title": "La tag de *I am*", "text": "Con *I am*, la tag negativa es *aren't I?*, no *amn't I?* ni *isn't it?*", "wrong": "I'm next, isn't it?", "right": "I'm next, aren't I?" },
+      { "title": "Exactly con /ks/", "text": "Por analogía con «exacto», el hispanohablante dice «eks». En inglés es /ɡz/.", "wrong": "«eks-AKT-li»", "right": "/ɪɡˈzækt.li/ («ig-ZÁKT-li»)" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la question tag correcta.", "text": "You live near the station, ___?", "options": ["isn't it", "don't you", "do you"], "answer": 1, "explain": "*You live* (sin auxiliar, presente) → *don't you?*" },
+    { "type": "choice", "prompt": "Elige la question tag correcta.", "text": "She isn't coming tonight, ___?", "options": ["is she", "isn't she", "does she"], "answer": 0, "explain": "Frase negativa (*isn't*) → tag afirmativa (*is she?*)." },
+    { "type": "choice", "prompt": "Elige la question tag correcta.", "text": "They've met before, ___?", "options": ["didn't they", "aren't they", "haven't they"], "answer": 2, "explain": "*They've* = *they have* → *haven't they?*" },
+    { "type": "gap", "prompt": "Completa la tag.", "text": "I'm late, ___ I?", "accept": ["aren't"], "explain": "Con *I am*, la tag es *aren't I?*" },
+    { "type": "intonation", "prompt": "Escucha. ¿La tag sube o baja?", "speaker": "sarah", "audio": "l07-into-1", "text": "We meet at seven, don't we?", "answer": "rise", "explain": "Sube ↗: Sarah no está segura de la hora y pregunta de verdad." },
+    { "type": "intonation", "prompt": "Escucha. ¿La tag sube o baja?", "speaker": "maya", "audio": "l07-into-2", "text": "It's a great place, isn't it?", "answer": "fall", "explain": "Baja ↘: Maya ya opina que el sitio es genial y busca que estés de acuerdo." },
+    { "type": "fix", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "You work in marketing, isn't it?", "accept": ["You work in marketing, don't you?"], "explain": "*You work* → *don't you?*" },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["Just", "to", "make", "sure", "I", "understand"], "answer": "Just to make sure I understand", "explain": "La fórmula para resumir y confirmar." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "oliver", "audio": "l07-dict-1", "text": "We've moved it back an hour, so it starts at seven.", "explain": "*Move back* = retrasar. Fíjate en *we've* (we have)." }
+  ],
+  "task": {
+    "title": "Aclara un mensaje confuso",
+    "format": "voice",
+    "scenario": "Leo te ha dejado un mensaje de voz muy poco claro sobre un plan del sábado. Escúchalo y respóndele pidiendo las aclaraciones que necesites.",
+    "brief": "Reply to Leo's confusing voice message and ask for the details you need.",
+    "input": {
+      "title": "Mensaje de voz de Leo",
+      "speaker": "leo",
+      "audio": "l07-task-input",
+      "text": "Hey! So, the thing's on Saturday at the place near the park. Bring the stuff, and we need it all there before ten-ish, yeah? See you!"
+    },
+    "steps": [
+      "Agradece el mensaje y avisa de que tienes preguntas.",
+      "Pide que te aclare al menos dos cosas vagas (*What do you mean by…? / Could you tell me…?*).",
+      "Comprueba un dato con una question tag (*It's on Saturday, isn't it?*).",
+      "Resume lo que has entendido para confirmarlo (*Just to make sure I understand…, right?*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi ___, thanks for the message! Just a couple of quick questions.",
+      "What do you mean by '___'?",
+      "Could you tell me ___?",
+      "It's on Saturday, isn't it?",
+      "Just to make sure I understand: ___, right?"
+    ],
+    "chunks": [
+      { "label": "What do you mean by", "re": "\\bwhat do you mean by\\b" },
+      { "label": "Could you…?", "re": "\\bcould you\\b" },
+      { "label": "question tag", "re": "\\b(isn't|aren't|don't|doesn't|didn't|haven't|hasn't|won't|can't|wasn't|weren't|is|are|do|does|did|have|has|will|can)\\s+(it|you|he|she|we|they|I|there)\\s*\\?" },
+      { "label": "Just to make sure", "re": "\\bjust to make sure\\b" },
+      { "label": "…right?", "re": "\\bright\\s*\\?" },
+      { "label": "Sorry", "re": "\\bsorry\\b" }
+    ],
+    "checks": ["tagIsntItAll", "indirectQuestion", "proDrop", "capitalI"],
+    "extra": {
+      "title": "Extra: la misma pregunta, a tu jefa",
+      "brief": "Reformula una de tus preguntas en registro formal, como si escribieras a tu jefa.",
+      "frames": ["Could you please clarify ___?", "Would you mind confirming ___?"]
+    },
+    "model": {
+      "parts": [
+        { "label": "Respuesta a Leo (neutro)", "speaker": "sarah", "audio": "l07-task-model", "text": "Hi Leo, thanks for the message! Just a couple of quick questions. {{What do you mean by}} 'the thing'? Is it Maya's birthday picnic? It's on Saturday, {{isn't it}}? And sorry, which place near the park do you mean, the café or the playground? Also, {{could you tell me what 'the stuff' is}}? Plates? Drinks? {{Just to make sure I understand}}: we need everything there before ten, {{right}}? Thanks!", "tone": "rise", "notes": ["*Could you tell me what 'the stuff' is?*: en la pregunta indirecta el verbo va al final, no *what is the stuff*.", "La tag *isn't it?* sube porque Sarah no está segura del día."] },
+        { "label": "La misma pregunta, a tu jefa (formal)", "speaker": "george", "audio": "l07-task-formal", "text": "{{Could you please clarify}} the exact time and location of Saturday's event? I would also appreciate it if you could confirm what we are expected to bring.", "notes": ["*I would appreciate it if you could…* es una petición muy cortés."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Pediste al menos dos aclaraciones con *What do you mean by…?* o *Could you…?*",
+      "¿Tu question tag copia el auxiliar y el sujeto de su frase (no *isn't it?* para todo)?",
+      "En *Could you tell me…?*, ¿pusiste el verbo al final (*where the café is*)?",
+      "¿Terminaste resumiendo lo que entendiste para confirmarlo?",
+      "¿Sonaría amable tu mensaje, aunque el de Leo fuera caótico?"
+    ]
+  }
+}

@@ -3,8 +3,8 @@
 App web de autoaprendizaje para la Banda B del MCER (270 horas, de B1.1 a B2.2). Combina Enfoque Léxico, Descubrimiento Guiado, Enseñanza Basada en Tareas (TBLT) y el **Anclaje Fonético Hispanohablante (AFH)**.
 
 - **Estructura completa** de la Banda B: 4 subniveles, 54 módulos y 270 lecciones, con dominios temáticos, foco gramatical (EGP), léxico (EVP) y fonético (AFH) por módulo, y la prueba de transición *The Threshold Gate*. Ver [`docs/ESTRUCTURA_BANDA_B.md`](docs/ESTRUCTURA_BANDA_B.md).
-- **Módulo 1 completo** (B1.1 · *Personal Life, Routines & Current Projects*): 5 lecciones de 1 hora y un repaso del módulo.
-- **233 audios** generados con voces neuronales, guardados en `audio/b1-1/m01/` y servidos por la propia app (también sin conexión).
+- **Módulos 1 y 2 completos** (B1.1): *Personal Life, Routines & Current Projects* y *Social Interactions & Making Connections*, con 5 lecciones de 1 hora y un repaso cada uno.
+- **481 audios** generados con diez voces neuronales (233 del Módulo 1 y 248 del Módulo 2), guardados en `audio/<subnivel>/<módulo>/` y servidos por la propia app (también sin conexión).
 
 ## Ejecutar la app
 
@@ -49,8 +49,8 @@ Cada lección sigue la misma matriz de seis bloques, con navegación por pasos y
 | 2 · Descubrimiento guiado | Texto de análisis con el rasgo criterial resaltado y tres CCQs (significado, forma, uso) con corrección inmediata. La regla se desbloquea al responder. |
 | 3 · Glosario fonético dual | 5 términos por lección con IPA estadounidense y británica, audio US, US lento y UK, respelling AFH, alertas (s-cluster, acento, vocal, linking, -ed, flap T…), ejemplo en contexto y **grabación de tu voz para comparar**. |
 | 4 · Consolidación y L1 | Fórmula, matiz y ejemplos con audio de cada estructura + matriz de interferencias del español con pares ✕ / ✓. |
-| 5 · Práctica | 9 ejercicios: elección, huecos, ordenar, corregir el error típico, acento de palabra y dictado con comparación palabra a palabra. |
-| 6 · Tarea TBLT | Escenario real, plantillas de frases que se insertan con un toque, detección en vivo de los chunks usados, **revisión asistida de errores L1**, modelo comentado con audio y autoevaluación. |
+| 5 · Práctica | 9 ejercicios: elección, huecos, ordenar, corregir el error típico, acento de palabra, entonación (↗ / ↘, desde el Módulo 2) y dictado con comparación palabra a palabra. |
+| 6 · Tarea TBLT | Escenario real (a veces con un mensaje de audio que hay que responder), plantillas de frases que se insertan con un toque, detección en vivo de los chunks usados, **revisión asistida de errores L1**, modelo comentado con audio y autoevaluación. |
 
 ## Voces
 
@@ -66,6 +66,8 @@ Cada voz está asignada a un registro y un contexto, para que el oído asocie la
 | Ryan | `am_fenrir` | US | Textos de análisis gramatical, imprevistos |
 | Emma | `bf_emma` | UK | Registro formal y modelo de pronunciación británica |
 | George | `bm_george` | UK | Registro formal: atención al cliente, institucional |
+| Priya | `af_aoede` | CA | Registro neutro: nueva amiga de Sarah en el meetup (desde el Módulo 2) |
+| Oliver | `bm_fable` | UK | Registro neutro británico: organizador del meetup (desde el Módulo 2) |
 
 ### Regenerar los audios
 
@@ -79,7 +81,25 @@ curl -LO https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-fil
 python3 tools/tts/generate_audio.py --model kokoro-v1.0.onnx --voices voices-v1.0.bin
 ```
 
-El generador lee los clips directamente del contenido (`audio` + `speaker` + `text`/`tts`) y solo regenera los que cambiaron. `tools/tts/qa_audio.py` hace una prueba de inteligibilidad con reconocimiento de voz offline y `tools/check_content.py` comprueba que cada audio referenciado existe y que las respuestas de los ejercicios son coherentes.
+El generador lee los clips directamente del contenido (`audio` + `speaker` + `text`/`tts`) y solo regenera los que cambiaron. Para otro módulo, indica las carpetas: `--module content/b1-1/m02 --out audio/b1-1/m02`. Los nombres propios que el fonemizador lee mal se corrigen una vez en el léxico de `generate_audio.py` (por ejemplo, *Priya*).
+
+`tools/tts/qa_audio.py` hace una prueba de inteligibilidad con reconocimiento de voz offline y `tools/check_content.py` comprueba que cada audio referenciado existe, que los IDs de audio son únicos en todo el curso y que las respuestas de los ejercicios son coherentes.
+
+#### Entonación de las question tags
+
+Kokoro no hace subir de forma fiable el tono de una question tag terminada en «?»: medido en seis voces, la mayoría de las tags que debían subir bajaban. Como el Módulo 2 enseña que la entonación cambia el significado (↗ pregunta real, ↘ busca acuerdo), los clips cuyo contenido declara `"tone": "rise"` o `"tone": "fall"` (y los ejercicios de tipo `intonation`) pasan por `tools/tts/intonation.py`, que impone la curva solo en la tag con PSOLA de Praat (`parselmouth`) y la mide. El manifiesto guarda dónde está cada tag y cuánto se mueve, y `qa_audio.py --tones-only` lo vuelve a medir sobre los MP3 finales: una tag que no se mueve al menos 3 semitonos en la dirección declarada es un error.
+
+## Publicar un módulo nuevo
+
+La app no tiene nada atado a un módulo concreto: lee de `content/course.json` qué módulos están publicados.
+
+1. Escribe el contenido en `content/<subnivel>/<módulo>/`: `module.json`, una lección por archivo con el número global (`l06.json`…`l10.json` para el Módulo 2) y `review.json`. Los IDs de audio del repaso llevan prefijo de módulo (`m02-rv-…`).
+2. Si aparecen personajes nuevos, añádelos a `content/cast.json` y a la lista `cast` del módulo.
+3. Marca el módulo con `"status": "available"` en `content/course.json`.
+4. Genera los audios con `generate_audio.py --module … --out …` y revísalos con `qa_audio.py`.
+5. Valida con `python3 tools/check_content.py` y regenera la estructura con `python3 tools/build_structure_doc.py`.
+
+El service worker no necesita cambios: guarda el contenido de cada módulo al visitarlo, o completo con el botón «Descargar audios» de la página del módulo.
 
 ## Organización del repositorio
 
@@ -90,8 +110,8 @@ netlify.toml                              Config de despliegue en Netlify (sin b
 assets/css, assets/js                     Interfaz (módulos ES, sin dependencias)
 content/course.json                       Estructura completa de la Banda B
 content/cast.json                         Reparto de voces
-content/b1-1/m01/                         Módulo 1: module.json, l01–l05.json, review.json
-audio/b1-1/m01/                           233 MP3 + manifest.json
+content/b1-1/m01/, m02/                   Módulos 1 y 2: module.json, lecciones, review.json
+audio/b1-1/m01/, m02/                     233 + 248 MP3, cada uno con su manifest.json
 tools/serve.py                            Servidor local de desarrollo
 tools/                                    Generación y validación de audio y contenido
 docs/ESTRUCTURA_BANDA_B.md                Estructura del curso (generada desde course.json)
