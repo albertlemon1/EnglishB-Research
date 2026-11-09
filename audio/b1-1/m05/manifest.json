@@ -1,0 +1,2087 @@
+{
+ "engine": "Kokoro-82M v1.0 (ONNX) + misaki G2P",
+ "sampleRate": 24000,
+ "format": "mp3 64 kbps mono",
+ "count": 231,
+ "clips": {
+  "l21-cc-1a": {
+   "file": "l21-cc-1a.mp3",
+   "duration": 2.75,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I have to be at the office by eight thirty.",
+   "hash": "9efce5164471"
+  },
+  "l21-cc-1b": {
+   "file": "l21-cc-1b.mp3",
+   "duration": 3.11,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Our teacher has to grade the essays by Monday.",
+   "hash": "0841877584ca"
+  },
+  "l21-cc-2a": {
+   "file": "l21-cc-2a.mp3",
+   "duration": 2.51,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "On Fridays, I don't have to go in.",
+   "hash": "91176261e58f"
+  },
+  "l21-cc-2b": {
+   "file": "l21-cc-2b.mp3",
+   "duration": 2.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "She doesn't have to work on Sundays.",
+   "hash": "9344b472e0bd"
+  },
+  "l21-cc-3a": {
+   "file": "l21-cc-3a.mp3",
+   "duration": 2.34,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I spend an hour answering emails.",
+   "hash": "5dab8c17784f"
+  },
+  "l21-cc-3b": {
+   "file": "l21-cc-3b.mp3",
+   "duration": 3.02,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I spend forty minutes commuting each way.",
+   "hash": "dcee5ce62f5a"
+  },
+  "l21-dict-1": {
+   "file": "l21-dict-1.mp3",
+   "duration": 3.66,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "On Fridays, I don't have to go to the office.",
+   "hash": "8b63903d65a7"
+  },
+  "l21-dlg-01": {
+   "file": "l21-dlg-01.mp3",
+   "duration": 3.72,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Leo, you look exhausted. What does your week look like?",
+   "hash": "2f0e40dcf545"
+  },
+  "l21-dlg-02": {
+   "file": "l21-dlg-02.mp3",
+   "duration": 5.75,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Crazy. I have to open the café at seven, and then I have classes until four.",
+   "hash": "51707861626d"
+  },
+  "l21-dlg-03": {
+   "file": "l21-dlg-03.mp3",
+   "duration": 3.53,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Every day? Do you have to work on weekends too?",
+   "hash": "901b25150126"
+  },
+  "l21-dlg-04": {
+   "file": "l21-dlg-04.mp3",
+   "duration": 5.79,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Only on Saturdays. On Sundays I don't have to do anything, so I sleep until noon.",
+   "hash": "1144b298cbee"
+  },
+  "l21-dlg-05": {
+   "file": "l21-dlg-05.mp3",
+   "duration": 1.66,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "And when do you study?",
+   "hash": "a9512dd703e4"
+  },
+  "l21-dlg-06": {
+   "file": "l21-dlg-06.mp3",
+   "duration": 7.8,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Late at night, usually after eleven. Our teacher has to grade the essays by Monday, so we have to send them on Friday.",
+   "hash": "8b277b996eaa"
+  },
+  "l21-dlg-07": {
+   "file": "l21-dlg-07.mp3",
+   "duration": 3.77,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hmm. Maybe you spend too much time scrolling at night?",
+   "hash": "74a2083a18ca"
+  },
+  "l21-dlg-08": {
+   "file": "l21-dlg-08.mp3",
+   "duration": 4.4,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Ha! Maybe. I really need to plan my week better.",
+   "hash": "e4b8d2ae3487"
+  },
+  "l21-gd": {
+   "file": "l21-gd.mp3",
+   "duration": 7.97,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I have to be at the office by eight thirty, but on Fridays I don't have to go in. My manager has to approve every remote day.",
+   "hash": "e719912ebed9"
+  },
+  "l21-ph-calendar-ex": {
+   "file": "l21-ph-calendar-ex.mp3",
+   "duration": 2.17,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I put everything in my calendar.",
+   "hash": "5f8e37761e94"
+  },
+  "l21-ph-calendar-slow": {
+   "file": "l21-ph-calendar-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Calendar.",
+   "hash": "5f62362377c1"
+  },
+  "l21-ph-calendar-uk": {
+   "file": "l21-ph-calendar-uk.mp3",
+   "duration": 1.34,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Calendar.",
+   "hash": "f64790ac61fb"
+  },
+  "l21-ph-calendar-us": {
+   "file": "l21-ph-calendar-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Calendar.",
+   "hash": "700013012742"
+  },
+  "l21-ph-every-ex": {
+   "file": "l21-ph-every-ex.mp3",
+   "duration": 2.51,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I check my calendar every morning.",
+   "hash": "ac786f1f65e9"
+  },
+  "l21-ph-every-slow": {
+   "file": "l21-ph-every-slow.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Every.",
+   "hash": "f264cfd1f4ff"
+  },
+  "l21-ph-every-uk": {
+   "file": "l21-ph-every-uk.mp3",
+   "duration": 1.12,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Every.",
+   "hash": "96ee65376a6b"
+  },
+  "l21-ph-every-us": {
+   "file": "l21-ph-every-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Every.",
+   "hash": "bbcb87283e59"
+  },
+  "l21-ph-have-to-ex": {
+   "file": "l21-ph-have-to-ex.mp3",
+   "duration": 2.98,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I have to be at the office by eight thirty.",
+   "hash": "0ace2bae19f0"
+  },
+  "l21-ph-have-to-slow": {
+   "file": "l21-ph-have-to-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Have to.",
+   "hash": "518fc9c0199a"
+  },
+  "l21-ph-have-to-uk": {
+   "file": "l21-ph-have-to-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Have to.",
+   "hash": "f7af065f5fed"
+  },
+  "l21-ph-have-to-us": {
+   "file": "l21-ph-have-to-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Have to.",
+   "hash": "82014383319b"
+  },
+  "l21-ph-routine-ex": {
+   "file": "l21-ph-routine-ex.mp3",
+   "duration": 2.87,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "My morning routine takes about an hour.",
+   "hash": "79014033b554"
+  },
+  "l21-ph-routine-slow": {
+   "file": "l21-ph-routine-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Routine.",
+   "hash": "f1bfb493487b"
+  },
+  "l21-ph-routine-uk": {
+   "file": "l21-ph-routine-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Routine.",
+   "hash": "aeda31bfda35"
+  },
+  "l21-ph-routine-us": {
+   "file": "l21-ph-routine-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Routine.",
+   "hash": "5bf67b320fb8"
+  },
+  "l21-ph-usually-ex": {
+   "file": "l21-ph-usually-ex.mp3",
+   "duration": 3.04,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I usually get up at a quarter to seven.",
+   "hash": "6791fe41d191"
+  },
+  "l21-ph-usually-slow": {
+   "file": "l21-ph-usually-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Usually.",
+   "hash": "adea70d16230"
+  },
+  "l21-ph-usually-uk": {
+   "file": "l21-ph-usually-uk.mp3",
+   "duration": 1.83,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Usually.",
+   "hash": "50b1965ccfda"
+  },
+  "l21-ph-usually-us": {
+   "file": "l21-ph-usually-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Usually.",
+   "hash": "8911a9d706a0"
+  },
+  "l21-reg-c1": {
+   "file": "l21-reg-c1.mp3",
+   "duration": 3.36,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm swamped this week. Like, zero free time.",
+   "hash": "1ba25bae6a3f"
+  },
+  "l21-reg-c2": {
+   "file": "l21-reg-c2.mp3",
+   "duration": 3.25,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Mornings are chaos. I'm always running late!",
+   "hash": "96fc540145de"
+  },
+  "l21-reg-f1": {
+   "file": "l21-reg-f1.mp3",
+   "duration": 3.79,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "All participants are required to complete a weekly time log.",
+   "hash": "8f7b0064a2d0"
+  },
+  "l21-reg-f2": {
+   "file": "l21-reg-f2.mp3",
+   "duration": 3.85,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Attendance at the weekly briefing is compulsory.",
+   "hash": "fad1e885379e"
+  },
+  "l21-reg-n1": {
+   "file": "l21-reg-n1.mp3",
+   "duration": 2.98,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I have to be at the office by eight thirty.",
+   "hash": "0ace2bae19f0"
+  },
+  "l21-reg-n2": {
+   "file": "l21-reg-n2.mp3",
+   "duration": 2.51,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "On Fridays, I don't have to go in.",
+   "hash": "91176261e58f"
+  },
+  "l21-reg-n3": {
+   "file": "l21-reg-n3.mp3",
+   "duration": 2.83,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I usually spend an hour answering emails.",
+   "hash": "14f8115eb2de"
+  },
+  "l21-scn": {
+   "file": "l21-scn.mp3",
+   "duration": 29.39,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi, I'm Alex. Here's my typical weekday. I have to be at the office by eight thirty, so I usually get up at a quarter to seven. I spend about forty minutes commuting each way. On Fridays, I don't have to go in, because I work from home. My biggest problem is email: I spend too much time answering messages, so I never have enough time for planning. In the evening, I try to switch off, but it isn't easy!",
+   "hash": "a729d51fb6d9"
+  },
+  "l21-task-formal": {
+   "file": "l21-task-formal.mp3",
+   "duration": 8.78,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "All participants are required to complete a weekly time log. Attendance at the final session is compulsory, but the online quiz is optional.",
+   "hash": "9e55ab9a5831"
+  },
+  "l21-task-model": {
+   "file": "l21-task-model.mp3",
+   "duration": 26.06,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi Emma, here's my typical week. I'm a UX designer. I have to join a team call at nine thirty every morning, but I don't have to be at the office: I work from home three days a week. I usually plan my day the night before. My problem is meetings. I spend about three hours a day talking on video calls, so I don't have enough time for design work. On weekends I don't have to check emails, and I really try not to!",
+   "hash": "bf29a9b9898e"
+  },
+  "l22-cc-1a": {
+   "file": "l22-cc-1a.mp3",
+   "duration": 2.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "You shouldn't reply after work.",
+   "hash": "cfb36587f897"
+  },
+  "l22-cc-1b": {
+   "file": "l22-cc-1b.mp3",
+   "duration": 1.38,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "What should I do?",
+   "hash": "52546ab83829"
+  },
+  "l22-cc-2a": {
+   "file": "l22-cc-2a.mp3",
+   "duration": 1.98,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "You ought to set an auto-reply.",
+   "hash": "5c4cc6f5f822"
+  },
+  "l22-cc-2b": {
+   "file": "l22-cc-2b.mp3",
+   "duration": 2.75,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Staff ought to take their full lunch break.",
+   "hash": "57f53beae105"
+  },
+  "l22-cc-3a": {
+   "file": "l22-cc-3a.mp3",
+   "duration": 2.72,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I don't think you should work this weekend.",
+   "hash": "dc58ed594a5f"
+  },
+  "l22-cc-3b": {
+   "file": "l22-cc-3b.mp3",
+   "duration": 2.92,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I'm afraid I can't take on any more projects.",
+   "hash": "3979b0a19597"
+  },
+  "l22-dict-1": {
+   "file": "l22-dict-1.mp3",
+   "duration": 4.13,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "You shouldn't reply after work. They can wait until the morning.",
+   "hash": "65e84b1c56ea"
+  },
+  "l22-dlg-01": {
+   "file": "l22-dlg-01.mp3",
+   "duration": 5.02,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I'm so stressed. Clients message me at midnight, and I always reply.",
+   "hash": "f4928021f613"
+  },
+  "l22-dlg-02": {
+   "file": "l22-dlg-02.mp3",
+   "duration": 3.89,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "You shouldn't reply after work. They can wait until the morning.",
+   "hash": "f6c40b96a2ef"
+  },
+  "l22-dlg-03": {
+   "file": "l22-dlg-03.mp3",
+   "duration": 1.79,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "But what if they get angry?",
+   "hash": "d70bd62e5285"
+  },
+  "l22-dlg-04": {
+   "file": "l22-dlg-04.mp3",
+   "duration": 6.9,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I don't think you should worry about that. Most people understand. You ought to set an auto-reply with your office hours.",
+   "hash": "2568306f3746"
+  },
+  "l22-dlg-05": {
+   "file": "l22-dlg-05.mp3",
+   "duration": 2.95,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "That's a good idea. What else should I do?",
+   "hash": "fe8a5b53ff4a"
+  },
+  "l22-dlg-06": {
+   "file": "l22-dlg-06.mp3",
+   "duration": 5.13,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Take proper breaks. You should have lunch away from your desk, not in front of the screen.",
+   "hash": "6b736ff65b75"
+  },
+  "l22-dlg-07": {
+   "file": "l22-dlg-07.mp3",
+   "duration": 3.32,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I know, I know. I feel guilty when I stop.",
+   "hash": "518b2d856435"
+  },
+  "l22-dlg-08": {
+   "file": "l22-dlg-08.mp3",
+   "duration": 5.06,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Don't feel guilty. Rest is part of the job. It's OK to switch off.",
+   "hash": "ccbb2c541df8"
+  },
+  "l22-gd": {
+   "file": "l22-gd.mp3",
+   "duration": 6.3,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "You shouldn't reply after work. You ought to set an auto-reply, and you should have lunch away from your desk.",
+   "hash": "109a3d525ee8"
+  },
+  "l22-ph-anxious-ex": {
+   "file": "l22-ph-anxious-ex.mp3",
+   "duration": 2.62,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I always feel anxious before exams.",
+   "hash": "5ecb24329071"
+  },
+  "l22-ph-anxious-slow": {
+   "file": "l22-ph-anxious-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Anxious.",
+   "hash": "61ffba4d25ae"
+  },
+  "l22-ph-anxious-uk": {
+   "file": "l22-ph-anxious-uk.mp3",
+   "duration": 1.29,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Anxious.",
+   "hash": "e272d02f96b9"
+  },
+  "l22-ph-anxious-us": {
+   "file": "l22-ph-anxious-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Anxious.",
+   "hash": "88010f0391d0"
+  },
+  "l22-ph-boundaries-ex": {
+   "file": "l22-ph-boundaries-ex.mp3",
+   "duration": 2.53,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "It's important to set clear boundaries.",
+   "hash": "d8fce28ad5ef"
+  },
+  "l22-ph-boundaries-slow": {
+   "file": "l22-ph-boundaries-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Boundaries.",
+   "hash": "bf584e000539"
+  },
+  "l22-ph-boundaries-uk": {
+   "file": "l22-ph-boundaries-uk.mp3",
+   "duration": 1.4,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Boundaries.",
+   "hash": "dcd25b975c67"
+  },
+  "l22-ph-boundaries-us": {
+   "file": "l22-ph-boundaries-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Boundaries.",
+   "hash": "21e28a3c2492"
+  },
+  "l22-ph-ought-to-ex": {
+   "file": "l22-ph-ought-to-ex.mp3",
+   "duration": 2.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "You ought to take your full lunch break.",
+   "hash": "8e5613750ec8"
+  },
+  "l22-ph-ought-to-slow": {
+   "file": "l22-ph-ought-to-slow.mp3",
+   "duration": 1.57,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Ought to.",
+   "hash": "1e7e032beef6"
+  },
+  "l22-ph-ought-to-uk": {
+   "file": "l22-ph-ought-to-uk.mp3",
+   "duration": 1.19,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Ought to.",
+   "hash": "79f62f927938"
+  },
+  "l22-ph-ought-to-us": {
+   "file": "l22-ph-ought-to-us.mp3",
+   "duration": 1.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Ought to.",
+   "hash": "85829a3eaadc"
+  },
+  "l22-ph-overwhelmed-ex": {
+   "file": "l22-ph-overwhelmed-ex.mp3",
+   "duration": 2.11,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I feel overwhelmed this week.",
+   "hash": "3297a359fc76"
+  },
+  "l22-ph-overwhelmed-slow": {
+   "file": "l22-ph-overwhelmed-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Overwhelmed.",
+   "hash": "c1cf641da762"
+  },
+  "l22-ph-overwhelmed-uk": {
+   "file": "l22-ph-overwhelmed-uk.mp3",
+   "duration": 1.55,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Overwhelmed.",
+   "hash": "16023c75b328"
+  },
+  "l22-ph-overwhelmed-us": {
+   "file": "l22-ph-overwhelmed-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Overwhelmed.",
+   "hash": "40a8022e576d"
+  },
+  "l22-ph-shouldnt-ex": {
+   "file": "l22-ph-shouldnt-ex.mp3",
+   "duration": 2.02,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "You shouldn't reply after work.",
+   "hash": "e68c7db593db"
+  },
+  "l22-ph-shouldnt-slow": {
+   "file": "l22-ph-shouldnt-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Shouldn't.",
+   "hash": "b0ccc5797870"
+  },
+  "l22-ph-shouldnt-uk": {
+   "file": "l22-ph-shouldnt-uk.mp3",
+   "duration": 1.59,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Shouldn't.",
+   "hash": "f6005a907d5a"
+  },
+  "l22-ph-shouldnt-us": {
+   "file": "l22-ph-shouldnt-us.mp3",
+   "duration": 1.23,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Shouldn't.",
+   "hash": "c430bcf031a6"
+  },
+  "l22-reg-c1": {
+   "file": "l22-reg-c1.mp3",
+   "duration": 2.98,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm totally burnt out. I need a break!",
+   "hash": "9e8cc2108ce1"
+  },
+  "l22-reg-c2": {
+   "file": "l22-reg-c2.mp3",
+   "duration": 3.19,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Nope, not today. I need some me time.",
+   "hash": "b387a90c507f"
+  },
+  "l22-reg-f1": {
+   "file": "l22-reg-f1.mp3",
+   "duration": 3.51,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Staff ought to take their full lunch break away from their desks.",
+   "hash": "b2c6116b5879"
+  },
+  "l22-reg-f2": {
+   "file": "l22-reg-f2.mp3",
+   "duration": 5.05,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We kindly ask that customers contact us during office hours.",
+   "hash": "1f33f11b830a"
+  },
+  "l22-reg-n1": {
+   "file": "l22-reg-n1.mp3",
+   "duration": 2.7,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "You shouldn't reply to messages after work.",
+   "hash": "a01931fa5e48"
+  },
+  "l22-reg-n2": {
+   "file": "l22-reg-n2.mp3",
+   "duration": 3.41,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I'm afraid I can't take on any more projects right now.",
+   "hash": "a93ccf1a3abd"
+  },
+  "l22-reg-n3": {
+   "file": "l22-reg-n3.mp3",
+   "duration": 2.77,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I think you should take a proper break.",
+   "hash": "41c2232d0ab8"
+  },
+  "l22-scn": {
+   "file": "l22-scn.mp3",
+   "duration": 22.28,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hey Leo, I keep thinking about what you told me yesterday. First of all, you shouldn't answer café messages after ten at night. Your shift is over! You ought to tell your manager that you're overwhelmed. And I think you should block two evenings a week just for studying. Remember, it's OK to say no sometimes. You don't have to do everything at once. Talk soon!",
+   "hash": "aa7271492f5f"
+  },
+  "l22-task-formal": {
+   "file": "l22-task-formal.mp3",
+   "duration": 8.69,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Staff ought to take their full lunch break away from their desks. We kindly ask that messages sent after six in the evening are answered the following morning.",
+   "hash": "decbde953757"
+  },
+  "l22-task-model": {
+   "file": "l22-task-model.mp3",
+   "duration": 23.03,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hey Leo, I'm sorry you're so stressed. Here's my advice. First, you shouldn't answer café messages after your shift. You ought to talk to your manager about your schedule, too. I don't think you should study after midnight: you need sleep! You should block two evenings a week just for your courses. And remember, it's OK to say no to extra shifts sometimes. Take care!",
+   "hash": "c62cfa4675c9"
+  },
+  "l23-cc-1a": {
+   "file": "l23-cc-1a.mp3",
+   "duration": 3.24,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I don't have to commute, but I have to turn on my camera.",
+   "hash": "228e7abaef61"
+  },
+  "l23-cc-1b": {
+   "file": "l23-cc-1b.mp3",
+   "duration": 3.45,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "You mustn't use public Wi-Fi without the VPN.",
+   "hash": "60c08675e778"
+  },
+  "l23-cc-2a": {
+   "file": "l23-cc-2a.mp3",
+   "duration": 3.02,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "My chair isn't comfortable enough for long days.",
+   "hash": "93e7937459f6"
+  },
+  "l23-cc-2b": {
+   "file": "l23-cc-2b.mp3",
+   "duration": 2.57,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The office is too noisy to focus.",
+   "hash": "fedaddfed278"
+  },
+  "l23-cc-3a": {
+   "file": "l23-cc-3a.mp3",
+   "duration": 4.13,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "In my opinion, a hybrid schedule is the best option.",
+   "hash": "4b403b75c999"
+  },
+  "l23-cc-3b": {
+   "file": "l23-cc-3b.mp3",
+   "duration": 4.54,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Remote work saves time, while office work builds team spirit.",
+   "hash": "795abe660991"
+  },
+  "l23-dict-1": {
+   "file": "l23-dict-1.mp3",
+   "duration": 3.66,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "I don't have to commute, so I save almost two hours a day.",
+   "hash": "66d7a36d3755"
+  },
+  "l23-dlg-01": {
+   "file": "l23-dlg-01.mp3",
+   "duration": 4.11,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "So, how's working from home? Do you miss the office?",
+   "hash": "3d3241cdd8bf"
+  },
+  "l23-dlg-02": {
+   "file": "l23-dlg-02.mp3",
+   "duration": 5.49,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Sometimes. I love that I don't have to commute. I save almost two hours a day.",
+   "hash": "e5b924c7d5fb"
+  },
+  "l23-dlg-03": {
+   "file": "l23-dlg-03.mp3",
+   "duration": 6.04,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Lucky you. I have to take two buses. But at least I see my colleagues.",
+   "hash": "1075b681d22f"
+  },
+  "l23-dlg-04": {
+   "file": "l23-dlg-04.mp3",
+   "duration": 6.05,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "True. At home, my desk isn't big enough, and my chair isn't comfortable enough for eight hours.",
+   "hash": "8bec8c2dc039"
+  },
+  "l23-dlg-05": {
+   "file": "l23-dlg-05.mp3",
+   "duration": 2.51,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "And can you work in your pajamas?",
+   "hash": "bd44591f7252"
+  },
+  "l23-dlg-06": {
+   "file": "l23-dlg-06.mp3",
+   "duration": 6.56,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Ha! Not quite. We have to turn on our cameras, and we mustn't miss the ten o'clock meeting.",
+   "hash": "8a87fdb3ab54"
+  },
+  "l23-dlg-07": {
+   "file": "l23-dlg-07.mp3",
+   "duration": 5.54,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "At the office, it's too noisy to focus sometimes. People talk all the time.",
+   "hash": "00a720206289"
+  },
+  "l23-dlg-08": {
+   "file": "l23-dlg-08.mp3",
+   "duration": 4.45,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Maybe the best option is a mix: two days at home and three at the office.",
+   "hash": "6f1ef642f5d5"
+  },
+  "l23-gd": {
+   "file": "l23-gd.mp3",
+   "duration": 7.9,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "You don't have to come in on Fridays, but you have to be online from ten to four. You mustn't use public Wi-Fi without the VPN.",
+   "hash": "154bcfcbca14"
+  },
+  "l23-ph-colleague-ex": {
+   "file": "l23-ph-colleague-ex.mp3",
+   "duration": 2.81,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "At least I see my colleagues every day.",
+   "hash": "fff214b0503a"
+  },
+  "l23-ph-colleague-slow": {
+   "file": "l23-ph-colleague-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Colleague.",
+   "hash": "18021b1d493e"
+  },
+  "l23-ph-colleague-uk": {
+   "file": "l23-ph-colleague-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Colleague.",
+   "hash": "c43c67385836"
+  },
+  "l23-ph-colleague-us": {
+   "file": "l23-ph-colleague-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Colleague.",
+   "hash": "6647c196db3e"
+  },
+  "l23-ph-comfortable-ex": {
+   "file": "l23-ph-comfortable-ex.mp3",
+   "duration": 2.94,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "My chair isn't comfortable enough for long days.",
+   "hash": "d87897810ac9"
+  },
+  "l23-ph-comfortable-slow": {
+   "file": "l23-ph-comfortable-slow.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Comfortable.",
+   "hash": "5152278210c2"
+  },
+  "l23-ph-comfortable-uk": {
+   "file": "l23-ph-comfortable-uk.mp3",
+   "duration": 1.66,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Comfortable.",
+   "hash": "c7f9f5f651d1"
+  },
+  "l23-ph-comfortable-us": {
+   "file": "l23-ph-comfortable-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Comfortable.",
+   "hash": "7db0673a3083"
+  },
+  "l23-ph-commute-ex": {
+   "file": "l23-ph-commute-ex.mp3",
+   "duration": 2.32,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "My commute takes forty minutes.",
+   "hash": "cc4e8d90e38c"
+  },
+  "l23-ph-commute-slow": {
+   "file": "l23-ph-commute-slow.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Commute.",
+   "hash": "f263df37dc00"
+  },
+  "l23-ph-commute-uk": {
+   "file": "l23-ph-commute-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Commute.",
+   "hash": "f14f6fa3d80e"
+  },
+  "l23-ph-commute-us": {
+   "file": "l23-ph-commute-us.mp3",
+   "duration": 1.23,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Commute.",
+   "hash": "47a85d88063d"
+  },
+  "l23-ph-mustnt-ex": {
+   "file": "l23-ph-mustnt-ex.mp3",
+   "duration": 3.45,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "You mustn't use public Wi-Fi without the VPN.",
+   "hash": "60c08675e778"
+  },
+  "l23-ph-mustnt-slow": {
+   "file": "l23-ph-mustnt-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Mustn't.",
+   "hash": "0efaf9af0efa"
+  },
+  "l23-ph-mustnt-uk": {
+   "file": "l23-ph-mustnt-uk.mp3",
+   "duration": 1.66,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Mustn't.",
+   "hash": "1f7ceb04aec7"
+  },
+  "l23-ph-mustnt-us": {
+   "file": "l23-ph-mustnt-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Mustn't.",
+   "hash": "eb8a779fbe15"
+  },
+  "l23-ph-productive-ex": {
+   "file": "l23-ph-productive-ex.mp3",
+   "duration": 1.85,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I'm more productive at home.",
+   "hash": "42cf1dd77e54"
+  },
+  "l23-ph-productive-slow": {
+   "file": "l23-ph-productive-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Productive.",
+   "hash": "d3919b86c73a"
+  },
+  "l23-ph-productive-uk": {
+   "file": "l23-ph-productive-uk.mp3",
+   "duration": 1.34,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Productive.",
+   "hash": "fa5074ae4de3"
+  },
+  "l23-ph-productive-us": {
+   "file": "l23-ph-productive-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Productive.",
+   "hash": "254a6b1d4267"
+  },
+  "l23-reg-c1": {
+   "file": "l23-reg-c1.mp3",
+   "duration": 3.19,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Working in my pajamas? Best thing ever!",
+   "hash": "f37d1f92592d"
+  },
+  "l23-reg-c2": {
+   "file": "l23-reg-c2.mp3",
+   "duration": 3.45,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "The office is way too noisy. I can't think!",
+   "hash": "b693c52d2806"
+  },
+  "l23-reg-f1": {
+   "file": "l23-reg-f1.mp3",
+   "duration": 5.41,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Remote employees are not permitted to access client data on personal devices.",
+   "hash": "a0cb91394277"
+  },
+  "l23-reg-f2": {
+   "file": "l23-reg-f2.mp3",
+   "duration": 6.93,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Hybrid working offers greater flexibility, while office attendance encourages collaboration.",
+   "hash": "a632134d8e27"
+  },
+  "l23-reg-n1": {
+   "file": "l23-reg-n1.mp3",
+   "duration": 3.02,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I don't have to commute, so I save two hours a day.",
+   "hash": "a2d1c3d77946"
+  },
+  "l23-reg-n2": {
+   "file": "l23-reg-n2.mp3",
+   "duration": 3.6,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "You mustn't use public Wi-Fi without the VPN.",
+   "hash": "c1365ac6f6d4"
+  },
+  "l23-reg-n3": {
+   "file": "l23-reg-n3.mp3",
+   "duration": 3.26,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "My apartment isn't quiet enough for video calls.",
+   "hash": "47fdb3e3b7ed"
+  },
+  "l23-scn": {
+   "file": "l23-scn.mp3",
+   "duration": 27.17,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Dear team, from next month, you don't have to come to the office on Mondays and Fridays. However, please follow a few rules. You have to be online between ten and four. You mustn't use public Wi-Fi without the VPN. Please check that your home internet is fast enough for video calls and that your chair is comfortable enough for long days. If your home is too noisy, you can still use the office. Best regards, Daniel",
+   "hash": "9a4c603d2886"
+  },
+  "l23-task-formal": {
+   "file": "l23-task-formal.mp3",
+   "duration": 12.62,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Hybrid working offers greater flexibility, while office attendance encourages collaboration. Employees are not permitted to access client data on personal devices.",
+   "hash": "15bc22ad9460"
+  },
+  "l23-task-model": {
+   "file": "l23-task-model.mp3",
+   "duration": 28.12,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "In my opinion, a hybrid schedule is the best option. When I work from home, I don't have to commute, so I save two hours a day and I'm more productive. However, my apartment isn't quiet enough for video calls, and my desk is too small. At the office, I have to be there by eight thirty, but I can talk to my colleagues in person. One rule is the same in both places: we mustn't miss the Monday team meeting.",
+   "hash": "c305fbfd47c3"
+  },
+  "l24-cc-1a": {
+   "file": "l24-cc-1a.mp3",
+   "duration": 2.7,
+   "speaker": "hannah",
+   "voice": "bf_isabella",
+   "speed": 0.95,
+   "text": "You should walk for thirty minutes a day.",
+   "hash": "43dd3a5a3364"
+  },
+  "l24-cc-1b": {
+   "file": "l24-cc-1b.mp3",
+   "duration": 2.79,
+   "speaker": "hannah",
+   "voice": "bf_isabella",
+   "speed": 0.95,
+   "text": "You have to take this medicine with food.",
+   "hash": "2dbc3ac358d5"
+  },
+  "l24-cc-2a": {
+   "file": "l24-cc-2a.mp3",
+   "duration": 1.83,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I don't get enough sleep.",
+   "hash": "06a154975d9e"
+  },
+  "l24-cc-2b": {
+   "file": "l24-cc-2b.mp3",
+   "duration": 2.43,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm not fit enough to run a marathon.",
+   "hash": "4ad856eb5085"
+  },
+  "l24-cc-3a": {
+   "file": "l24-cc-3a.mp3",
+   "duration": 1.93,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "You drink too much coffee.",
+   "hash": "8ae7a387f1f6"
+  },
+  "l24-cc-3b": {
+   "file": "l24-cc-3b.mp3",
+   "duration": 2.34,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I eat too many snacks in the evening.",
+   "hash": "e02846a0b9bf"
+  },
+  "l24-dict-1": {
+   "file": "l24-dict-1.mp3",
+   "duration": 3.6,
+   "speaker": "hannah",
+   "voice": "bf_isabella",
+   "speed": 0.9,
+   "text": "You should aim for seven to eight hours of sleep a night.",
+   "hash": "148156b88780"
+  },
+  "l24-dlg-01": {
+   "file": "l24-dlg-01.mp3",
+   "duration": 4.02,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Leo, you're out of breath! We've only run for ten minutes.",
+   "hash": "47583e1d5b1f"
+  },
+  "l24-dlg-02": {
+   "file": "l24-dlg-02.mp3",
+   "duration": 4.93,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I know. I'm not fit enough for this. I spend all day sitting down.",
+   "hash": "062668f7941b"
+  },
+  "l24-dlg-03": {
+   "file": "l24-dlg-03.mp3",
+   "duration": 4.92,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "You should start slowly. Try walking to class instead of taking the bus.",
+   "hash": "dd434825b8ea"
+  },
+  "l24-dlg-04": {
+   "file": "l24-dlg-04.mp3",
+   "duration": 5.3,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Good idea. And I eat too much junk food. I don't have enough time to cook.",
+   "hash": "9b47cd931953"
+  },
+  "l24-dlg-05": {
+   "file": "l24-dlg-05.mp3",
+   "duration": 4.53,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "You should cook on Sundays for the whole week. It saves a lot of time.",
+   "hash": "d7878abdde17"
+  },
+  "l24-dlg-06": {
+   "file": "l24-dlg-06.mp3",
+   "duration": 4.73,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "My doctor says I have to drink more water, too. I don't drink enough.",
+   "hash": "f1765acb22df"
+  },
+  "l24-dlg-07": {
+   "file": "l24-dlg-07.mp3",
+   "duration": 3.45,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Carry a bottle with you. And eat more vegetables!",
+   "hash": "55dc5f7e4236"
+  },
+  "l24-dlg-08": {
+   "file": "l24-dlg-08.mp3",
+   "duration": 3.04,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Okay, okay! Same time next week?",
+   "hash": "3a2561241450"
+  },
+  "l24-gd": {
+   "file": "l24-gd.mp3",
+   "duration": 8.16,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "You should aim for eight hours of sleep, but you have to take the supplement every day. You don't get enough sleep, and you drink too much coffee.",
+   "hash": "d67919af3e75"
+  },
+  "l24-ph-enough-ex": {
+   "file": "l24-ph-enough-ex.mp3",
+   "duration": 1.98,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I don't get enough exercise.",
+   "hash": "6859047ffae7"
+  },
+  "l24-ph-enough-slow": {
+   "file": "l24-ph-enough-slow.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Enough.",
+   "hash": "5d278c555a1e"
+  },
+  "l24-ph-enough-uk": {
+   "file": "l24-ph-enough-uk.mp3",
+   "duration": 1.38,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Enough.",
+   "hash": "0ccb6a905c17"
+  },
+  "l24-ph-enough-us": {
+   "file": "l24-ph-enough-us.mp3",
+   "duration": 1.17,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Enough.",
+   "hash": "02ffddbd72f5"
+  },
+  "l24-ph-exercise-ex": {
+   "file": "l24-ph-exercise-ex.mp3",
+   "duration": 2.64,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I exercise three times a week.",
+   "hash": "2a6344c597f7"
+  },
+  "l24-ph-exercise-slow": {
+   "file": "l24-ph-exercise-slow.mp3",
+   "duration": 1.87,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Exercise.",
+   "hash": "658b5bb441bb"
+  },
+  "l24-ph-exercise-uk": {
+   "file": "l24-ph-exercise-uk.mp3",
+   "duration": 1.42,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Exercise.",
+   "hash": "e555ac19903c"
+  },
+  "l24-ph-exercise-us": {
+   "file": "l24-ph-exercise-us.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Exercise.",
+   "hash": "b9b2becdbbf4"
+  },
+  "l24-ph-medicine-ex": {
+   "file": "l24-ph-medicine-ex.mp3",
+   "duration": 2.53,
+   "speaker": "hannah",
+   "voice": "bf_isabella",
+   "speed": 0.95,
+   "text": "Take this medicine twice a day.",
+   "hash": "6913895ef235"
+  },
+  "l24-ph-medicine-slow": {
+   "file": "l24-ph-medicine-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Medicine.",
+   "hash": "eae120b195ba"
+  },
+  "l24-ph-medicine-uk": {
+   "file": "l24-ph-medicine-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Medicine.",
+   "hash": "39366c773e15"
+  },
+  "l24-ph-medicine-us": {
+   "file": "l24-ph-medicine-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Medicine.",
+   "hash": "8dd8d66cfc83"
+  },
+  "l24-ph-muscles-ex": {
+   "file": "l24-ph-muscles-ex.mp3",
+   "duration": 2.23,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "My muscles hurt after the gym.",
+   "hash": "a1154ee16419"
+  },
+  "l24-ph-muscles-slow": {
+   "file": "l24-ph-muscles-slow.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Muscles.",
+   "hash": "e7e7723d8238"
+  },
+  "l24-ph-muscles-uk": {
+   "file": "l24-ph-muscles-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Muscles.",
+   "hash": "ad5a9b1a48c8"
+  },
+  "l24-ph-muscles-us": {
+   "file": "l24-ph-muscles-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Muscles.",
+   "hash": "d714dea504d2"
+  },
+  "l24-ph-vegetable-ex": {
+   "file": "l24-ph-vegetable-ex.mp3",
+   "duration": 1.91,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "You should eat more vegetables.",
+   "hash": "40fa0c416439"
+  },
+  "l24-ph-vegetable-slow": {
+   "file": "l24-ph-vegetable-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Vegetable.",
+   "hash": "16058fb8dc53"
+  },
+  "l24-ph-vegetable-uk": {
+   "file": "l24-ph-vegetable-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Vegetable.",
+   "hash": "2f80a4e55129"
+  },
+  "l24-ph-vegetable-us": {
+   "file": "l24-ph-vegetable-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Vegetable.",
+   "hash": "4d14dcb50216"
+  },
+  "l24-reg-c1": {
+   "file": "l24-reg-c1.mp3",
+   "duration": 3.59,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm so out of shape. I can't even run for the bus!",
+   "hash": "9af6f30156a3"
+  },
+  "l24-reg-c2": {
+   "file": "l24-reg-c2.mp3",
+   "duration": 2.83,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I'm starving. Let's grab a salad.",
+   "hash": "61fefec98fa2"
+  },
+  "l24-reg-f1": {
+   "file": "l24-reg-f1.mp3",
+   "duration": 3.56,
+   "speaker": "hannah",
+   "voice": "bf_isabella",
+   "speed": 0.95,
+   "text": "Patients are advised to reduce their sugar intake.",
+   "hash": "6f6c802a7998"
+  },
+  "l24-reg-f2": {
+   "file": "l24-reg-f2.mp3",
+   "duration": 3.58,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Regular physical activity is strongly recommended.",
+   "hash": "b77daef4391d"
+  },
+  "l24-reg-n1": {
+   "file": "l24-reg-n1.mp3",
+   "duration": 2.21,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I don't get enough sleep during the week.",
+   "hash": "f42292b4ade6"
+  },
+  "l24-reg-n2": {
+   "file": "l24-reg-n2.mp3",
+   "duration": 2.15,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "You should drink more water.",
+   "hash": "87f091c4273e"
+  },
+  "l24-reg-n3": {
+   "file": "l24-reg-n3.mp3",
+   "duration": 2.55,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I try to walk ten thousand steps a day.",
+   "hash": "1e1850e5a0f8"
+  },
+  "l24-scn": {
+   "file": "l24-scn.mp3",
+   "duration": 26.32,
+   "speaker": "hannah",
+   "voice": "bf_isabella",
+   "speed": 0.95,
+   "text": "Dear Sarah, thank you for coming in yesterday. Your results are generally good, but there are a few things to work on. You don't get enough sleep: you should aim for seven to eight hours a night. You also drink too much coffee and not enough water. Your vitamin D level is low, so you have to take the supplement every day for three months. You should also try to walk for thirty minutes a day. Best wishes, Dr Hannah Ward",
+   "hash": "7ccfa0df7085"
+  },
+  "l24-task-formal": {
+   "file": "l24-task-formal.mp3",
+   "duration": 8.91,
+   "speaker": "hannah",
+   "voice": "bf_isabella",
+   "speed": 0.95,
+   "text": "Patients are advised to reduce their sugar intake and to exercise for at least thirty minutes a day. This medication must be taken with food.",
+   "hash": "30efb883f187"
+  },
+  "l24-task-model": {
+   "file": "l24-task-model.mp3",
+   "duration": 27.36,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi! I'm Sarah, and I'm starting your beginner class next week. Here's a bit about my habits. I work at a bookstore, so I'm on my feet all day, but I don't get enough exercise. I drink too much coffee and not enough water, and I eat too many snacks in the evening. My doctor says I have to take vitamin D every day, and that I should walk more. I'm not fit enough to run yet, so I'd like to start slowly. See you on Monday!",
+   "hash": "2a2f3950f302"
+  },
+  "l25-cc-1a": {
+   "file": "l25-cc-1a.mp3",
+   "duration": 3.49,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I have to work until two, but I'm free after that.",
+   "hash": "8db9b53a4e28"
+  },
+  "l25-cc-1b": {
+   "file": "l25-cc-1b.mp3",
+   "duration": 2.02,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "You don't have to bring food.",
+   "hash": "b8a6e076cbb7"
+  },
+  "l25-cc-2a": {
+   "file": "l25-cc-2a.mp3",
+   "duration": 2.19,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Should we leave around eleven?",
+   "hash": "62bbebb41dfe"
+  },
+  "l25-cc-2b": {
+   "file": "l25-cc-2b.mp3",
+   "duration": 2.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Why don't we go on Wednesday evening?",
+   "hash": "30dc138429ff"
+  },
+  "l25-cc-3a": {
+   "file": "l25-cc-3a.mp3",
+   "duration": 2.28,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We have enough time to have a picnic.",
+   "hash": "9bcdeb8a0051"
+  },
+  "l25-cc-3b": {
+   "file": "l25-cc-3b.mp3",
+   "duration": 2.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Sunday is too short for a day trip.",
+   "hash": "c937ed20f2c2"
+  },
+  "l25-dict-1": {
+   "file": "l25-dict-1.mp3",
+   "duration": 4.43,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.9,
+   "text": "I have to work until two on Saturday, but I'm free after that.",
+   "hash": "531e15ba7540"
+  },
+  "l25-dlg-01": {
+   "file": "l25-dlg-01.mp3",
+   "duration": 4.43,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Priya, are you free this weekend? I'm planning a hike.",
+   "hash": "cc50feba3766"
+  },
+  "l25-dlg-02": {
+   "file": "l25-dlg-02.mp3",
+   "duration": 5.64,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Maybe. I have to finish a design on Saturday morning. What time should we leave?",
+   "hash": "c1390a7bb72d"
+  },
+  "l25-dlg-03": {
+   "file": "l25-dlg-03.mp3",
+   "duration": 6.67,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Around eleven? The trail is short, so we'll have enough time to get back before dark.",
+   "hash": "9b33bb221f6e"
+  },
+  "l25-dlg-04": {
+   "file": "l25-dlg-04.mp3",
+   "duration": 2.68,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Perfect. Should I bring anything?",
+   "hash": "c968235e92ae"
+  },
+  "l25-dlg-05": {
+   "file": "l25-dlg-05.mp3",
+   "duration": 6.17,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "You don't have to bring food. I'll make sandwiches. But you should wear good shoes.",
+   "hash": "bb3db83f79eb"
+  },
+  "l25-dlg-06": {
+   "file": "l25-dlg-06.mp3",
+   "duration": 5.06,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Great. And on Sunday? I'd love to see the photography exhibition.",
+   "hash": "4d9cf647fcda"
+  },
+  "l25-dlg-07": {
+   "file": "l25-dlg-07.mp3",
+   "duration": 5.43,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Me too, but Sunday is too busy for me. Why don't we go on Wednesday evening?",
+   "hash": "cc503e0ccca0"
+  },
+  "l25-dlg-08": {
+   "file": "l25-dlg-08.mp3",
+   "duration": 3.55,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Wednesday works for me. Let's put it in the calendar!",
+   "hash": "ab7c266d3884"
+  },
+  "l25-gd": {
+   "file": "l25-gd.mp3",
+   "duration": 9.44,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I have to work until two, but I'm free after that. Should we go to the market? Sunday is too short for a day trip, but we have enough time to have a picnic.",
+   "hash": "395f9904f209"
+  },
+  "l25-ph-family-ex": {
+   "file": "l25-ph-family-ex.mp3",
+   "duration": 2.51,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I always keep Sunday for my family.",
+   "hash": "db97c8887155"
+  },
+  "l25-ph-family-slow": {
+   "file": "l25-ph-family-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Family.",
+   "hash": "95d39ca7697b"
+  },
+  "l25-ph-family-uk": {
+   "file": "l25-ph-family-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Family.",
+   "hash": "d892b30fbc9b"
+  },
+  "l25-ph-family-us": {
+   "file": "l25-ph-family-us.mp3",
+   "duration": 1.23,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Family.",
+   "hash": "b073949ff669"
+  },
+  "l25-ph-interesting-ex": {
+   "file": "l25-ph-interesting-ex.mp3",
+   "duration": 3.15,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The photography exhibition looks really interesting.",
+   "hash": "55ba1aaa1aae"
+  },
+  "l25-ph-interesting-slow": {
+   "file": "l25-ph-interesting-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Interesting.",
+   "hash": "bc112145a487"
+  },
+  "l25-ph-interesting-uk": {
+   "file": "l25-ph-interesting-uk.mp3",
+   "duration": 1.53,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Interesting.",
+   "hash": "adabb10625e0"
+  },
+  "l25-ph-interesting-us": {
+   "file": "l25-ph-interesting-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Interesting.",
+   "hash": "a2a87121e225"
+  },
+  "l25-ph-leisure-ex": {
+   "file": "l25-ph-leisure-ex.mp3",
+   "duration": 2.57,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I don't have much leisure time during the week.",
+   "hash": "8845bc6febcd"
+  },
+  "l25-ph-leisure-slow": {
+   "file": "l25-ph-leisure-slow.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Leisure.",
+   "hash": "3818a7086556"
+  },
+  "l25-ph-leisure-uk": {
+   "file": "l25-ph-leisure-uk.mp3",
+   "duration": 1.42,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Leisure.",
+   "hash": "78328d481b51"
+  },
+  "l25-ph-leisure-us": {
+   "file": "l25-ph-leisure-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Leisure.",
+   "hash": "ed9ddad67a7f"
+  },
+  "l25-ph-wednesday-ex": {
+   "file": "l25-ph-wednesday-ex.mp3",
+   "duration": 2.17,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Wednesday night is salsa night.",
+   "hash": "02386e1b8122"
+  },
+  "l25-ph-wednesday-slow": {
+   "file": "l25-ph-wednesday-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Wednesday.",
+   "hash": "42c9083ba146"
+  },
+  "l25-ph-wednesday-uk": {
+   "file": "l25-ph-wednesday-uk.mp3",
+   "duration": 1.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Wednesday.",
+   "hash": "50a690b8a706"
+  },
+  "l25-ph-wednesday-us": {
+   "file": "l25-ph-wednesday-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Wednesday.",
+   "hash": "b98d7ed972b1"
+  },
+  "l25-ph-weekend-ex": {
+   "file": "l25-ph-weekend-ex.mp3",
+   "duration": 2.13,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Are you free this weekend?",
+   "hash": "024ab36b7dcc"
+  },
+  "l25-ph-weekend-slow": {
+   "file": "l25-ph-weekend-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Weekend.",
+   "hash": "da1174bf5f24"
+  },
+  "l25-ph-weekend-uk": {
+   "file": "l25-ph-weekend-uk.mp3",
+   "duration": 1.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Weekend.",
+   "hash": "48ca0c8eea7e"
+  },
+  "l25-ph-weekend-us": {
+   "file": "l25-ph-weekend-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Weekend.",
+   "hash": "7423048cc91f"
+  },
+  "l25-reg-c1": {
+   "file": "l25-reg-c1.mp3",
+   "duration": 2.76,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Salsa on Wednesday. Who's in?",
+   "hash": "26317e09b409"
+  },
+  "l25-reg-c2": {
+   "file": "l25-reg-c2.mp3",
+   "duration": 2.68,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'm down! Just tell me where.",
+   "hash": "13e94075e9c6"
+  },
+  "l25-reg-f1": {
+   "file": "l25-reg-f1.mp3",
+   "duration": 3.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Would you be available for a short meeting on Wednesday afternoon?",
+   "hash": "5bcbcd81d056"
+  },
+  "l25-reg-f2": {
+   "file": "l25-reg-f2.mp3",
+   "duration": 4.9,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We would be delighted if you could join us for dinner on Friday evening.",
+   "hash": "6cc4bd0885ae"
+  },
+  "l25-reg-n1": {
+   "file": "l25-reg-n1.mp3",
+   "duration": 2.19,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Should we leave around eleven?",
+   "hash": "62bbebb41dfe"
+  },
+  "l25-reg-n2": {
+   "file": "l25-reg-n2.mp3",
+   "duration": 3.68,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I have to work on Saturday morning, but I'm free after that.",
+   "hash": "db93e930ab2f"
+  },
+  "l25-reg-n3": {
+   "file": "l25-reg-n3.mp3",
+   "duration": 3.09,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I don't have enough time to do everything on Sunday.",
+   "hash": "6a27e2f534c6"
+  },
+  "l25-scn": {
+   "file": "l25-scn.mp3",
+   "duration": 22.32,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Hi everyone! Let's plan the weekend. I have to work until two on Saturday, but I'm free after that. Should we go to the street food market? Leo, you don't have to bring anything this time, I promise! Sunday is too short for a day trip, but we have enough time to have a picnic in the park. Oh, and Wednesday night is salsa night. Who's in?",
+   "hash": "1a6e501abbc1"
+  },
+  "l25-task-formal": {
+   "file": "l25-task-formal.mp3",
+   "duration": 6.94,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Would you be available for a short meeting on Wednesday afternoon? If not, Thursday morning would also be convenient.",
+   "hash": "f04dc9c706af"
+  },
+  "l25-task-model": {
+   "file": "l25-task-model.mp3",
+   "duration": 24.16,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi everyone! Here's my week. I have to work late on Monday and Tuesday, so I'm busy those evenings. On Wednesday, I'm free after six. Should we meet for salsa with Maya? On Saturday, I have to finish a design in the morning, but I'll have enough time to join the hike in the afternoon. Sunday is too short for a day trip, so why don't we visit the photography exhibition? Let me know!",
+   "hash": "a43a3af31638"
+  },
+  "m05-rv-dict-1": {
+   "file": "m05-rv-dict-1.mp3",
+   "duration": 3.11,
+   "speaker": "hannah",
+   "voice": "bf_isabella",
+   "speed": 0.9,
+   "text": "You should drink more water and get enough sleep.",
+   "hash": "5990482fe40e"
+  }
+ }
+}

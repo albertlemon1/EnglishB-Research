@@ -1,0 +1,806 @@
+{
+  "id": "l23",
+  "n": 23,
+  "title": "Comparing Remote Living / Working vs. On-Site Routines",
+  "titleEs": "Comparar el trabajo en remoto con la rutina presencial",
+  "minutes": 60,
+  "summary": "Compara trabajar en casa y en la oficina con *have to*, *don't have to*, *mustn't* y *(not) … enough*.",
+  "canDo": [
+    "Puedo distinguir lo obligatorio (*have to*), lo innecesario (*don't have to*) y lo prohibido (*mustn't*).",
+    "Puedo explicar qué falla en cada entorno con *(not)* + adjetivo + *enough* y *too* + adjetivo.",
+    "Puedo comparar dos rutinas y dar mi opinión (*In my opinion, a hybrid schedule…*).",
+    "Puedo pronunciar *comfortable* en tres sílabas y *mustn't* sin la primera t."
+  ],
+  "focus": {
+    "grammar": "have to · don't have to · mustn't + verbo base · (not) + adjetivo + enough · too + adjetivo",
+    "lexis": "work from home, commute, in person, a hybrid schedule, way too noisy, quiet enough, You mustn't…, not permitted to, while",
+    "afh": "Schwa y sílabas que desaparecen (comfortable, commute, productive) · t muda en mustn't · acento de colleague"
+  },
+  "warmup": "¿Prefieres trabajar o estudiar en casa o fuera? Piensa en dos ventajas y dos inconvenientes de cada opción.",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Normas para el trabajo en remoto",
+      "context": "La empresa de Priya amplía el trabajo en remoto. Daniel, del soporte técnico, envía al equipo las normas que afectan a la tecnología.",
+      "speaker": "daniel",
+      "to": "el equipo de diseño",
+      "audio": "l23-scn",
+      "text": "Dear team, from next month, you {{don't have to}} come to the office on Mondays and Fridays. However, please follow a few rules. You {{have to}} be online between ten and four. You {{mustn't}} use public Wi-Fi without the VPN. Please check that your home internet is {{fast enough}} for video calls and that your chair is {{comfortable enough}} for long days. If your home is {{too noisy}}, you can still use the office. Best regards, Daniel",
+      "tts": "Dear team, from next month, you don't [have](/hˈæf/) [to](/tə/) come to the office on Mondays and Fridays. However, please follow a few rules. You [have](/hˈæf/) [to](/tə/) be online between ten and four. You mustn't use public Wi-Fi without the VPN. Please check that your home internet is fast enough for video calls and that your chair is comfortable enough for long days. If your home is too noisy, you can still use the office. Best regards, Daniel"
+    },
+    "dialogue": {
+      "title": "¿Casa u oficina?",
+      "context": "Alex, que trabaja en la oficina, y Priya, que trabaja casi siempre desde casa, comparan sus rutinas.",
+      "lines": [
+        {
+          "speaker": "alex",
+          "audio": "l23-dlg-01",
+          "text": "So, how's working from home? Do you miss the office?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l23-dlg-02",
+          "text": "Sometimes. I love that I {{don't have to}} commute. I save almost two hours a day.",
+          "tts": "Sometimes. I love that I don't [have](/hˈæf/) [to](/tə/) commute. I save almost two hours a day."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l23-dlg-03",
+          "text": "Lucky you. I {{have to}} take two buses. But at least I see my colleagues.",
+          "tts": "Lucky you. I [have](/hˈæf/) [to](/tə/) take two buses. But at least I see my colleagues."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l23-dlg-04",
+          "text": "True. At home, my desk {{isn't big enough}}, and my chair {{isn't comfortable enough}} for eight hours."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l23-dlg-05",
+          "text": "And can you work in your pajamas?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l23-dlg-06",
+          "text": "Ha! Not quite. We {{have to}} turn on our cameras, and we {{mustn't}} miss the ten o'clock meeting.",
+          "tts": "Ha! Not quite. We [have](/hˈæf/) [to](/tə/) turn on our cameras, and we mustn't miss the ten o'clock meeting."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l23-dlg-07",
+          "text": "At the office, it's {{too noisy}} to focus sometimes. People talk all the time."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l23-dlg-08",
+          "text": "Maybe the best option is a mix: two days at home and three at the office."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué le gusta a Priya de trabajar en casa?",
+        "options": [
+          "Que no tiene que desplazarse",
+          "Que puede trabajar en pijama",
+          "Que no tiene reuniones"
+        ],
+        "answer": 0,
+        "explain": "*I love that I don't have to commute.* (*commute* = ir y volver del trabajo)."
+      },
+      {
+        "q": "¿Qué problema tiene Priya en casa?",
+        "options": [
+          "El wifi es demasiado lento",
+          "La mesa y la silla no son adecuadas",
+          "Hay demasiado ruido"
+        ],
+        "answer": 1,
+        "explain": "*My desk isn't big enough, and my chair isn't comfortable enough for eight hours.*"
+      },
+      {
+        "q": "¿Qué está prohibido para Priya?",
+        "options": [
+          "Encender la cámara",
+          "Ir a la oficina",
+          "Faltar a la reunión de las diez"
+        ],
+        "answer": 2,
+        "explain": "*We mustn't miss the ten o'clock meeting.* (*mustn't* = está prohibido)."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats, redes sociales.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l23-reg-c1",
+            "text": "Working in my pajamas? Best thing ever!",
+            "note": "Frase sin verbo, típica del habla informal."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l23-reg-c2",
+            "text": "The office is way too noisy. I can't think!",
+            "note": "*Way too* = demasiado, con énfasis (coloquial)."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros, reuniones, encuestas internas.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l23-reg-n1",
+            "text": "I don't have to commute, so I save two hours a day.",
+            "note": "*Don't have to* = no es necesario.",
+            "tts": "I don't [have](/hˈæf/) [to](/tə/) commute, so I save two hours a day."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l23-reg-n2",
+            "text": "You mustn't use public Wi-Fi without the VPN.",
+            "note": "*Mustn't* = está prohibido."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l23-reg-n3",
+            "text": "My apartment isn't quiet enough for video calls.",
+            "note": "*Not* + adjetivo + *enough*."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Políticas de empresa, informes, comunicados.",
+        "items": [
+          {
+            "speaker": "daniel",
+            "audio": "l23-reg-f1",
+            "text": "Remote employees are not permitted to access client data on personal devices.",
+            "note": "*Are not permitted to* = *mustn't* en registro formal."
+          },
+          {
+            "speaker": "george",
+            "audio": "l23-reg-f2",
+            "text": "Hybrid working offers greater flexibility, while office attendance encourages collaboration.",
+            "note": "*While* = mientras que (contraste formal)."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "work from home / work remotely",
+        "es": "trabajar desde casa / en remoto",
+        "register": "neutral"
+      },
+      {
+        "en": "commute",
+        "es": "desplazarse al trabajo, el trayecto",
+        "register": "neutral"
+      },
+      {
+        "en": "in person",
+        "es": "en persona, presencial",
+        "register": "neutral"
+      },
+      {
+        "en": "a hybrid schedule",
+        "es": "un horario híbrido",
+        "register": "neutral"
+      },
+      {
+        "en": "way too (noisy)",
+        "es": "demasiado (ruidoso)",
+        "register": "casual"
+      },
+      {
+        "en": "(not) quiet enough",
+        "es": "(no) lo bastante tranquilo",
+        "register": "neutral"
+      },
+      {
+        "en": "You mustn't…",
+        "es": "está prohibido…",
+        "register": "neutral"
+      },
+      {
+        "en": "be not permitted to…",
+        "es": "no estar autorizado a…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Working in my pajamas? Best thing ever!",
+        "answer": "casual",
+        "explain": "Exclamación sin verbo: muy informal."
+      },
+      {
+        "text": "I don't have to commute, so I save two hours a day.",
+        "answer": "neutral",
+        "explain": "Explicación clara y estándar."
+      },
+      {
+        "text": "Remote employees are not permitted to access client data on personal devices.",
+        "answer": "formal",
+        "explain": "*Are not permitted to* es lenguaje de normativa."
+      },
+      {
+        "text": "The office is way too noisy!",
+        "answer": "casual",
+        "explain": "*Way too* es coloquial."
+      },
+      {
+        "text": "Hybrid working offers greater flexibility, while office attendance encourages collaboration.",
+        "answer": "formal",
+        "explain": "Vocabulario abstracto y *while* de contraste: estilo de informe."
+      },
+      {
+        "text": "My apartment isn't quiet enough for video calls.",
+        "answer": "neutral",
+        "explain": "Válida con compañeros y con jefes."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "En el correo de Daniel aparecen tres tipos de norma. Fíjate en la diferencia entre *don't have to* y *mustn't*: en español se parecen, pero en inglés son casi opuestos.",
+    "speaker": "ryan",
+    "audio": "l23-gd",
+    "text": "You {{don't have to}} come in on Fridays, but you {{have to}} be online from ten to four. You {{mustn't}} use public Wi-Fi without the VPN.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué diferencia hay entre *don't have to* y *mustn't*?",
+        "options": [
+          "*Don't have to* = no es necesario; *mustn't* = está prohibido.",
+          "Significan lo mismo.",
+          "*Mustn't* = no es necesario; *don't have to* = está prohibido."
+        ],
+        "answer": 0,
+        "explain": "Puedes ir a la oficina el viernes si quieres (*don't have to*), pero no puedes usar el wifi público sin VPN (*mustn't*)."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma sigue a *mustn't*?",
+        "options": [
+          "Verbo base, sin *to* (*mustn't use*).",
+          "*To* + verbo (*mustn't to use*).",
+          "Verbo en -ing (*mustn't using*)."
+        ],
+        "answer": 0,
+        "explain": "*Must* es un modal, como *should*: va seguido del verbo base."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Quieres decirle a un compañero nuevo que NO puede usar el wifi público. ¿Qué frase es correcta?",
+        "options": [
+          "You mustn't use public Wi-Fi.",
+          "You don't have to use public Wi-Fi.",
+          "You haven't to use public Wi-Fi."
+        ],
+        "answer": 0,
+        "explain": "*You don't have to* diría que no es necesario, como si fuera opcional. Para prohibir, *mustn't*."
+      }
+    ],
+    "rule": {
+      "points": [
+        "*Have to* + verbo base = obligatorio.",
+        "*Don't have to* + verbo base = no es necesario: puedes elegir.",
+        "*Mustn't* + verbo base = está prohibido. Es fuerte y suele aparecer en normas.",
+        "Para explicar qué falla: *(not)* + adjetivo + *enough* / *too* + adjetivo (Módulo 4). *My chair isn't comfortable enough. The office is too noisy.*"
+      ],
+      "formulas": [
+        "have to + verbo base (obligatorio)",
+        "don't have to + verbo base (no hace falta)",
+        "mustn't + verbo base (prohibido)"
+      ],
+      "note": "«No tienes que venir» = *you don't have to come* (no hace falta). «No debes venir» como prohibición = *you mustn't come*. En español se parecen; en inglés significan casi lo contrario."
+    },
+    "tts": "You don't [have](/hˈæf/) [to](/tə/) come in on Fridays, but you [have](/hˈæf/) [to](/tə/) be online from ten to four. You mustn't use public Wi-Fi without the VPN."
+  },
+  "phonetics": {
+    "intro": "Muchas palabras del trabajo tienen sílabas átonas que casi desaparecen. *Comfortable* tiene tres sílabas, no cuatro, y *commute* y *productive* empiezan con una schwa débil. En *mustn't*, además, la primera t es muda.",
+    "items": [
+      {
+        "id": "comfortable",
+        "term": "Comfortable",
+        "pos": "adj.",
+        "meaning": "cómodo",
+        "ipa": {
+          "us": "/ˈkʌmf.tɚ.bəl/",
+          "uk": "/ˈkʌmf.tə.bəl/"
+        },
+        "afh": "KÁMF-ter-bl",
+        "say": "Comfortable.",
+        "ttsUs": "[Comfortable](/kˈʌmftəɹbəl/).",
+        "ttsUk": "[Comfortable](/kˈʌmftəbəl/).",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "Tres sílabas, no cuatro: la «or» desaparece. «KÁMF-ter-bl», nunca «com-for-TA-ble»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, COMF."
+          },
+          {
+            "type": "vowel",
+            "text": "La o de *com-* es /ʌ/, una a corta: «KAMF»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "My chair isn't comfortable enough for long days.",
+          "tts": "My chair isn't [comfortable](/kˈʌmftəɹbəl/) enough for long days."
+        }
+      },
+      {
+        "id": "commute",
+        "term": "Commute",
+        "pos": "n. / v.",
+        "meaning": "trayecto; desplazarse al trabajo",
+        "ipa": {
+          "us": "/kəˈmjuːt/",
+          "uk": "/kəˈmjuːt/"
+        },
+        "afh": "ka-MIÚT",
+        "say": "Commute.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Com-* se reduce a una schwa: «ka», no «com»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba, MUTE."
+          },
+          {
+            "type": "vowel",
+            "text": "La u suena /juː/: «miut»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "My commute takes forty minutes."
+        }
+      },
+      {
+        "id": "colleague",
+        "term": "Colleague",
+        "pos": "n.",
+        "meaning": "compañero de trabajo",
+        "ipa": {
+          "us": "/ˈkɑː.liːɡ/",
+          "uk": "/ˈkɒl.iːɡ/"
+        },
+        "afh": "KÁ-liig",
+        "say": "Colleague.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, COL. En español, «colega» lo lleva en LE."
+          },
+          {
+            "type": "vowel",
+            "text": "*-league* lleva /iː/, una i larga."
+          },
+          {
+            "type": "spelling",
+            "text": "*-gue* final suena solo /ɡ/: la u y la e no se pronuncian."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "At least I see my colleagues every day."
+        }
+      },
+      {
+        "id": "mustnt",
+        "term": "Mustn't",
+        "pos": "modal",
+        "meaning": "no debes (prohibición)",
+        "ipa": {
+          "us": "/ˈmʌs.ənt/",
+          "uk": "/ˈmʌs.ənt/"
+        },
+        "afh": "MÁS-nt",
+        "say": "Mustn't.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La primera t es muda: «MÁS-nt», no «MAST-nt»."
+          },
+          {
+            "type": "consonant",
+            "text": "La n es silábica: de la s se pasa a la n casi sin vocal."
+          },
+          {
+            "type": "vowel",
+            "text": "La u es /ʌ/: una a corta, «mas»."
+          }
+        ],
+        "example": {
+          "speaker": "daniel",
+          "text": "You mustn't use public Wi-Fi without the VPN."
+        }
+      },
+      {
+        "id": "productive",
+        "term": "Productive",
+        "pos": "adj.",
+        "meaning": "productivo",
+        "ipa": {
+          "us": "/prəˈdʌk.tɪv/",
+          "uk": "/prəˈdʌk.tɪv/"
+        },
+        "afh": "pra-DÁK-tiv",
+        "say": "Productive.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Pro-* se reduce a una schwa: «pra», no «pro»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en DUC, la segunda sílaba."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en /v/ labiodental, sin vocal añadida: «tiv», no «ti-ve»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "I'm more productive at home."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Obligatorio, innecesario o prohibido",
+        "formula": "have to (obligatorio) · don't have to (no hace falta) · mustn't (prohibido) + verbo base",
+        "usage": "Para explicar las normas de cada forma de trabajar sin confundir «no hace falta» con «está prohibido».",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l23-cc-1a",
+            "text": "I {{don't have to}} commute, but I {{have to}} turn on my camera.",
+            "tts": "I don't [have](/hˈæf/) [to](/tə/) commute, but I [have](/hˈæf/) [to](/tə/) turn on my camera."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l23-cc-1b",
+            "text": "You {{mustn't}} use public Wi-Fi without the VPN."
+          }
+        ]
+      },
+      {
+        "title": "Qué falla: (not) + adjetivo + enough / too + adjetivo",
+        "formula": "Sujeto + be (not) + adjetivo + enough (for…) · Sujeto + be + too + adjetivo (to + verbo)",
+        "usage": "Para comparar las condiciones de cada sitio y explicar por qué uno funciona mejor.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l23-cc-2a",
+            "text": "My chair {{isn't comfortable enough}} for long days.",
+            "tts": "My chair isn't [comfortable](/kˈʌmftəɹbəl/) enough for long days."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l23-cc-2b",
+            "text": "The office is {{too noisy}} to focus."
+          }
+        ]
+      },
+      {
+        "title": "Comparar y opinar",
+        "formula": "When I…, I… · At the office, … · In my opinion, … · while (formal)",
+        "usage": "Para presentar ventajas e inconvenientes de cada opción y cerrar con tu postura.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l23-cc-3a",
+            "text": "{{In my opinion}}, a hybrid schedule is the best option."
+          },
+          {
+            "speaker": "george",
+            "audio": "l23-cc-3b",
+            "text": "Remote work saves time, {{while}} office work builds team spirit."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Mustn't por don't have to",
+        "text": "«No tienes que venir» = no hace falta → *don't have to*. *Mustn't* prohíbe.",
+        "wrong": "You mustn't come to the office on Fridays. It's optional.",
+        "right": "You don't have to come to the office on Fridays. It's optional."
+      },
+      {
+        "title": "Mustn't + to",
+        "text": "*Must* es un modal: va con el verbo base.",
+        "wrong": "You mustn't to use public Wi-Fi.",
+        "right": "You mustn't use public Wi-Fi."
+      },
+      {
+        "title": "Enough delante del adjetivo",
+        "text": "Con adjetivos, *enough* va detrás (Módulo 4).",
+        "wrong": "My chair isn't enough comfortable.",
+        "right": "My chair isn't comfortable enough."
+      },
+      {
+        "title": "Work in home",
+        "text": "«Trabajar desde casa» es *work from home* (o *work at home*), nunca *in home*.",
+        "wrong": "I work in home on Mondays.",
+        "right": "I work from home on Mondays."
+      },
+      {
+        "title": "Comfortable en cuatro sílabas",
+        "text": "El hispanohablante lee todas las letras. En inglés, la «or» de *comfortable* desaparece.",
+        "wrong": "«com-for-TA-ble»",
+        "right": "/ˈkʌmf.tɚ.bəl/ («KÁMF-ter-bl»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "You ___ come in on Fridays. It's optional.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "haven't to"
+      ],
+      "answer": 0,
+      "explain": "Opcional → *don't have to*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "You ___ use public Wi-Fi without the VPN. It's not allowed.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "mustn't to"
+      ],
+      "answer": 0,
+      "explain": "Prohibido → *mustn't* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el orden correcto.",
+      "text": "My chair isn't ___ for long days.",
+      "options": [
+        "comfortable enough",
+        "enough comfortable",
+        "too comfortable"
+      ],
+      "answer": 0,
+      "explain": "Adjetivo + *enough*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la preposición correcta.",
+      "text": "I work ___ home on Mondays.",
+      "options": [
+        "from",
+        "in",
+        "on"
+      ],
+      "answer": 0,
+      "explain": "*Work from home*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "The office is ___ noisy to focus.",
+      "accept": [
+        "too"
+      ],
+      "explain": "*Too* + adjetivo + *to* + verbo."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "I don't ___ to commute anymore.",
+      "accept": [
+        "have"
+      ],
+      "explain": "*Don't have to* = ya no hace falta."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "You",
+        "mustn't",
+        "miss",
+        "the",
+        "ten",
+        "o'clock",
+        "meeting"
+      ],
+      "answer": "You mustn't miss the ten o'clock meeting",
+      "explain": "*Mustn't* + verbo base."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "My",
+        "desk",
+        "isn't",
+        "big",
+        "enough"
+      ],
+      "answer": "My desk isn't big enough",
+      "explain": "Adjetivo + *enough*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "You mustn't to use public Wi-Fi.",
+      "accept": [
+        "You mustn't use public Wi-Fi.",
+        "You must not use public Wi-Fi."
+      ],
+      "explain": "Sin *to* tras *mustn't*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "I work in home on Mondays.",
+      "accept": [
+        "I work from home on Mondays.",
+        "I work at home on Mondays."
+      ],
+      "explain": "*From home* o *at home*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "My chair isn't enough comfortable.",
+      "accept": [
+        "My chair isn't comfortable enough.",
+        "My chair is not comfortable enough."
+      ],
+      "explain": "*Comfortable enough*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *colleague* lleva el acento?",
+      "word": "colleague",
+      "syllables": [
+        "col",
+        "league"
+      ],
+      "answer": 0,
+      "audioRef": "l23-ph-colleague-us",
+      "explain": "**COL**-league: acento en la primera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *commute* lleva el acento?",
+      "word": "commute",
+      "syllables": [
+        "com",
+        "mute"
+      ],
+      "answer": 1,
+      "audioRef": "l23-ph-commute-us",
+      "explain": "com-**MUTE**: acento en la segunda sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "priya",
+      "audio": "l23-dict-1",
+      "text": "I don't have to commute, so I save almost two hours a day.",
+      "explain": "*Don't have to* = no hace falta.",
+      "tts": "I don't [have](/hˈæf/) [to](/tə/) commute, so I save almost two hours a day."
+    }
+  ],
+  "task": {
+    "title": "¿Remoto, presencial o híbrido?",
+    "format": "text",
+    "scenario": "Tu empresa (o tu escuela) hace una encuesta interna: ¿prefieres trabajar en remoto, en la oficina o con un horario híbrido? Escribe tu respuesta.",
+    "brief": "Compare working from home and working on-site, and give your opinion.",
+    "steps": [
+      "Da tu opinión al principio (*In my opinion, …*).",
+      "Explica una ventaja y un problema de trabajar en casa (*I don't have to… / … isn't … enough*).",
+      "Explica una ventaja y un problema de la oficina (*I have to… / it's too…*).",
+      "Menciona una norma que no se puede romper en ningún caso (*We mustn't…*)."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 50,
+    "frames": [
+      "In my opinion, ___ is the best option.",
+      "When I work from home, I don't have to ___, but my ___ isn't ___ enough.",
+      "At the office, I have to ___, and it's too ___ to ___.",
+      "However, ___.",
+      "One rule is the same in both places: we mustn't ___."
+    ],
+    "chunks": [
+      {
+        "label": "don't have to",
+        "re": "\\b(don't|doesn't|do not) have to\\b"
+      },
+      {
+        "label": "have to",
+        "re": "\\b(have|has) to\\s+[a-z]+"
+      },
+      {
+        "label": "mustn't",
+        "re": "\\b(mustn't|must not)\\s+[a-z]+"
+      },
+      {
+        "label": "(not) … enough",
+        "re": "\\b[a-z]+\\s+enough\\b"
+      },
+      {
+        "label": "too + adjetivo",
+        "re": "\\btoo\\s+[a-z]+"
+      },
+      {
+        "label": "opinión",
+        "re": "\\b(in my opinion|i think|i prefer|personally)\\b"
+      }
+    ],
+    "checks": [
+      "mightTo",
+      "enoughBeforeAdj",
+      "workInHome",
+      "tooMuchAdj",
+      "haventTo",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el informe formal",
+      "brief": "Write two formal sentences comparing the two options.",
+      "frames": [
+        "___ offers greater ___, while ___. Employees are not permitted to ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l23-task-model",
+          "text": "In my opinion, a hybrid schedule is the best option. When I work from home, I {{don't have to}} commute, so I save two hours a day and I'm more productive. However, my apartment {{isn't quiet enough}} for video calls, and my desk is {{too small}}. At the office, I {{have to}} be there by eight thirty, but I can talk to my colleagues in person. One rule is the same in both places: we {{mustn't}} miss the Monday team meeting.",
+          "label": "Respuesta a la encuesta (neutro)",
+          "notes": [
+            "*Don't have to commute* (no hace falta), *have to be there* (obligatorio), *mustn't miss* (prohibido).",
+            "*Isn't quiet enough* y *too small* explican los problemas de cada sitio."
+          ],
+          "tts": "In my opinion, a hybrid schedule is the best option. When I work from home, I don't [have](/hˈæf/) [to](/tə/) commute, so I save two hours a day and I'm more productive. However, my apartment isn't quiet enough for video calls, and my desk is too small. At the office, I [have](/hˈæf/) [to](/tə/) be there by eight thirty, but I can talk to my colleagues in person. One rule is the same in both places: we mustn't miss the Monday team meeting."
+        },
+        {
+          "speaker": "george",
+          "audio": "l23-task-formal",
+          "text": "Hybrid working offers greater flexibility, {{while}} office attendance encourages collaboration. Employees {{are not permitted to}} access client data on personal devices.",
+          "label": "Informe interno (formal)",
+          "notes": [
+            "*While* = mientras que: contraste en registro formal.",
+            "*Are not permitted to* = *mustn't* en una normativa."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste *don't have to* para lo que no hace falta y *mustn't* para lo prohibido?",
+      "¿Usaste el verbo base tras *mustn't* (sin *to*)?",
+      "¿Pusiste *enough* detrás del adjetivo?",
+      "¿Escribiste *work from home* (y no *in home*)?",
+      "¿Diste tu opinión con claridad al principio o al final?"
+    ]
+  }
+}

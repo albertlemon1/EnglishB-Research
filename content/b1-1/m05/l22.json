@@ -1,0 +1,788 @@
+{
+  "id": "l22",
+  "n": 22,
+  "title": "Setting Healthy Boundaries & Managing Daily Stress",
+  "titleEs": "Poner límites sanos y gestionar el estrés diario",
+  "minutes": 60,
+  "summary": "Da y pide consejo con *should / shouldn't* y *ought to*, y pon límites con amabilidad.",
+  "canDo": [
+    "Puedo dar consejos con *should / shouldn't* y *ought to*.",
+    "Puedo suavizar un consejo con *I think you should…* / *I don't think you should…*.",
+    "Puedo poner un límite con educación (*I'm afraid I can't…*, *It's OK to say no*).",
+    "Puedo pronunciar *shouldn't* sin la l y *ought to* sin la gh."
+  ],
+  "focus": {
+    "grammar": "should / shouldn't + verbo base · ought to + verbo base · I (don't) think you should… · Should I…?",
+    "lexis": "set boundaries, burnt out, take a proper break, feel guilty, take on more work, It's OK to say no, I'm afraid I can't…, we kindly ask that…",
+    "afh": "Letras mudas en shouldn't y ought · schwa y sílabas que desaparecen (boundaries, anxious) · grupo final -lmd en overwhelmed"
+  },
+  "warmup": "¿Contestas mensajes de trabajo por la noche o en vacaciones? ¿Qué consejo le darías a alguien que no consigue desconectar?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Un consejo de amiga",
+      "context": "Leo trabaja en una cafetería y estudia dos cursos. Ayer le contó a Sarah que no puede más. Hoy ella le deja este mensaje de voz.",
+      "speaker": "sarah",
+      "to": "Leo",
+      "audio": "l22-scn",
+      "text": "Hey Leo, I keep thinking about what you told me yesterday. First of all, you {{shouldn't}} answer café messages after ten at night. Your shift is over! You {{ought to}} tell your manager that you're {{overwhelmed}}. And {{I think you should}} block two evenings a week just for studying. Remember, {{it's OK to say no}} sometimes. You don't have to do everything at once. Talk soon!",
+      "tts": "Hey Leo, I keep thinking about what you told me yesterday. First of all, you shouldn't answer café messages after ten at night. Your shift is over! You ought to tell your manager that you're overwhelmed. And I think you should block two evenings a week just for studying. Remember, it's OK to say no sometimes. You don't [have](/hˈæf/) [to](/tə/) do everything at once. Talk soon!"
+    },
+    "dialogue": {
+      "title": "Mensajes a medianoche",
+      "context": "Maya trabaja en una agencia de viajes y está en plena temporada alta. Se lo cuenta a Priya.",
+      "lines": [
+        {
+          "speaker": "maya",
+          "audio": "l22-dlg-01",
+          "text": "I'm so stressed. Clients message me at midnight, and I always reply."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l22-dlg-02",
+          "text": "You {{shouldn't}} reply after work. They can wait until the morning."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l22-dlg-03",
+          "text": "But what if they get angry?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l22-dlg-04",
+          "text": "{{I don't think you should}} worry about that. Most people understand. You {{ought to}} set an auto-reply with your office hours."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l22-dlg-05",
+          "text": "That's a good idea. What else {{should I}} do?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l22-dlg-06",
+          "text": "Take proper breaks. You {{should}} have lunch away from your desk, not in front of the screen."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l22-dlg-07",
+          "text": "I know, I know. I {{feel guilty}} when I stop."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l22-dlg-08",
+          "text": "Don't feel guilty. Rest is part of the job. {{It's OK to}} switch off."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Cuál es el problema de Maya?",
+        "options": [
+          "Contesta a los clientes a medianoche",
+          "No tiene clientes",
+          "Trabaja desde casa"
+        ],
+        "answer": 0,
+        "explain": "*Clients message me at midnight, and I always reply.*"
+      },
+      {
+        "q": "¿Qué le recomienda Priya para los mensajes?",
+        "options": [
+          "Contestar más rápido",
+          "Una respuesta automática con su horario",
+          "Cambiar de trabajo"
+        ],
+        "answer": 1,
+        "explain": "*You ought to set an auto-reply with your office hours.*"
+      },
+      {
+        "q": "¿Cómo se siente Maya cuando para?",
+        "options": [
+          "Aliviada",
+          "Aburrida",
+          "Culpable"
+        ],
+        "answer": 2,
+        "explain": "*I feel guilty when I stop.* (*feel guilty* = sentirse culpable)."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, familia, chats.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l22-reg-c1",
+            "text": "I'm totally burnt out. I need a break!",
+            "note": "*Burnt out* = quemado, agotado por el estrés."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l22-reg-c2",
+            "text": "Nope, not today. I need some me time.",
+            "note": "*Me time* = tiempo para uno mismo."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros, consejos entre conocidos, trabajo diario.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l22-reg-n1",
+            "text": "You shouldn't reply to messages after work.",
+            "note": "*Shouldn't* + verbo base: consejo negativo."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l22-reg-n2",
+            "text": "I'm afraid I can't take on any more projects right now.",
+            "note": "*I'm afraid I can't…* = lo siento, pero no puedo. *Take on* = asumir (trabajo)."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l22-reg-n3",
+            "text": "I think you should take a proper break.",
+            "note": "*I think you should* suaviza el consejo."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Políticas de empresa, avisos a clientes.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l22-reg-f1",
+            "text": "Staff ought to take their full lunch break away from their desks.",
+            "note": "*Ought to* = *should*, con un matiz de deber moral. Algo más formal."
+          },
+          {
+            "speaker": "george",
+            "audio": "l22-reg-f2",
+            "text": "We kindly ask that customers contact us during office hours.",
+            "note": "*We kindly ask that* + sujeto + verbo base = rogamos que…"
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "set boundaries",
+        "es": "poner límites",
+        "register": "neutral"
+      },
+      {
+        "en": "burnt out",
+        "es": "quemado, agotado",
+        "register": "casual"
+      },
+      {
+        "en": "me time",
+        "es": "tiempo para uno mismo",
+        "register": "casual"
+      },
+      {
+        "en": "take a proper break",
+        "es": "hacer un descanso de verdad",
+        "register": "neutral"
+      },
+      {
+        "en": "feel guilty",
+        "es": "sentirse culpable",
+        "register": "neutral"
+      },
+      {
+        "en": "take on (more work)",
+        "es": "asumir (más trabajo)",
+        "register": "neutral"
+      },
+      {
+        "en": "It's OK to say no.",
+        "es": "está bien decir que no",
+        "register": "neutral"
+      },
+      {
+        "en": "We kindly ask that…",
+        "es": "rogamos que…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "I'm totally burnt out.",
+        "answer": "casual",
+        "explain": "*Totally* y *burnt out*: registro coloquial."
+      },
+      {
+        "text": "I'm afraid I can't take on any more projects right now.",
+        "answer": "neutral",
+        "explain": "Límite educado y claro, válido en el trabajo."
+      },
+      {
+        "text": "We kindly ask that customers contact us during office hours.",
+        "answer": "formal",
+        "explain": "*We kindly ask that* es una fórmula de aviso oficial."
+      },
+      {
+        "text": "Nope, not today. I need some me time.",
+        "answer": "casual",
+        "explain": "*Nope* y *me time* son coloquiales."
+      },
+      {
+        "text": "Staff ought to take their full lunch break.",
+        "answer": "formal",
+        "explain": "*Staff* y *ought to* dan un tono de norma interna."
+      },
+      {
+        "text": "I think you should take a proper break.",
+        "answer": "neutral",
+        "explain": "Consejo amable y estándar."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Priya le da tres consejos a Maya. Fíjate en el verbo que sigue a *should* y a *ought*: ¿llevan lo mismo detrás?",
+    "speaker": "ryan",
+    "audio": "l22-gd",
+    "text": "You {{shouldn't}} reply after work. You {{ought to}} set an auto-reply, and you {{should}} have lunch away from your desk.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué expresa Priya con *should* y *ought to*?",
+        "options": [
+          "Un consejo: lo que cree que es buena idea.",
+          "Una obligación legal.",
+          "Una predicción sobre el futuro."
+        ],
+        "answer": 0,
+        "explain": "*Should* y *ought to* dan consejo. La decisión final es de Maya."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué sigue a *should* y qué sigue a *ought*?",
+        "options": [
+          "*Should* + verbo base; *ought* + *to* + verbo base.",
+          "Los dos llevan *to* + verbo.",
+          "Los dos van con verbo en -ing."
+        ],
+        "answer": 0,
+        "explain": "*You should have…* (sin *to*), pero *you ought to set…* (con *to*)."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Quieres aconsejar a una compañera sin sonar mandón. ¿Qué frase es más adecuada?",
+        "options": [
+          "I think you should take a break.",
+          "You must take a break.",
+          "Take a break now."
+        ],
+        "answer": 0,
+        "explain": "*I think you should* suaviza el consejo. *You must* suena a orden, y el imperativo, a mandato."
+      }
+    ],
+    "rule": {
+      "points": [
+        "*Should / shouldn't* + verbo base = consejo: lo que crees que es buena idea.",
+        "*Ought to* + verbo base = lo mismo, algo más formal o con matiz moral. Casi no se usa en negativa ni en preguntas.",
+        "Para suavizar: *I think you should…* y, en negativa, *I don't think you should…* (más natural que *I think you shouldn't*).",
+        "Para pedir consejo: *Should I…?* / *What should I do?*"
+      ],
+      "formulas": [
+        "should / shouldn't + verbo base",
+        "ought to + verbo base",
+        "I (don't) think you should + verbo base"
+      ],
+      "note": "«Deberías» = *you should*. *Must* es mucho más fuerte (obligación o norma): con un amigo, *You must rest* suena a orden."
+    }
+  },
+  "phonetics": {
+    "intro": "Los modales de consejo esconden letras mudas: la l de *shouldn't* y la gh de *ought*. Además, palabras como *boundaries* y *anxious* reducen sus sílabas átonas hasta casi hacerlas desaparecer.",
+    "items": [
+      {
+        "id": "shouldnt",
+        "term": "Shouldn't",
+        "pos": "modal",
+        "meaning": "no deberías",
+        "ipa": {
+          "us": "/ˈʃʊd.ənt/",
+          "uk": "/ˈʃʊd.ənt/"
+        },
+        "afh": "SHÚ-dnt",
+        "say": "Shouldn't.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La l es muda, igual que en *should*: «shúd»."
+          },
+          {
+            "type": "consonant",
+            "text": "La n es silábica: pasa de la d a la n sin vocal en medio, «SHÚ-dnt»."
+          },
+          {
+            "type": "weak",
+            "text": "La t final es muy suave; a veces casi no se oye."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "You shouldn't reply after work."
+        }
+      },
+      {
+        "id": "ought-to",
+        "term": "Ought to",
+        "pos": "modal",
+        "meaning": "deberías",
+        "ipa": {
+          "us": "/ˈɔː.t̬ə/",
+          "uk": "/ˈɔː.tə/"
+        },
+        "afh": "Ó-ra (US) · Ó-ta (UK)",
+        "say": "Ought to.",
+        "ttsUs": "[Ought](/ˈɔɾ/) [to](/ə/).",
+        "ttsUk": "[Ought](/ˈɔːt/) [to](/tə/).",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La gh es muda: *ought* rima con *thought* y *bought*."
+          },
+          {
+            "type": "flap",
+            "text": "En inglés americano, la t entre vocales suena como una r suave: «Ó-ra»."
+          },
+          {
+            "type": "weak",
+            "text": "*To* se reduce a /tə/: «ÓT-ta» en Reino Unido."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "You ought to take your full lunch break."
+        }
+      },
+      {
+        "id": "boundaries",
+        "term": "Boundaries",
+        "pos": "n.",
+        "meaning": "límites",
+        "ipa": {
+          "us": "/ˈbaʊn.dər.iz/",
+          "uk": "/ˈbaʊn.dər.iz/"
+        },
+        "afh": "BÁUN-driz",
+        "say": "Boundaries.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "La sílaba central casi desaparece: «BÁUN-driz» o «BÁUN-da-riz». Nunca «baun-DA-ries»."
+          },
+          {
+            "type": "vowel",
+            "text": "*Ou* es el diptongo /aʊ/, «au»."
+          },
+          {
+            "type": "consonant",
+            "text": "La s final es /z/, sonora: «-riz»."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "It's important to set clear boundaries."
+        }
+      },
+      {
+        "id": "anxious",
+        "term": "Anxious",
+        "pos": "adj.",
+        "meaning": "ansioso, preocupado",
+        "ipa": {
+          "us": "/ˈæŋk.ʃəs/",
+          "uk": "/ˈæŋk.ʃəs/"
+        },
+        "afh": "ÁNK-shas",
+        "say": "Anxious.",
+        "ttsUs": "[Anxious](/ˈæŋkʃəs/).",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La x suena /kʃ/: «ÁNK-shas». No digas «ak-sius» ni «an-sious»."
+          },
+          {
+            "type": "weak",
+            "text": "*-ious* se reduce a una schwa: /əs/, «as»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "leo",
+          "text": "I always feel anxious before exams.",
+          "tts": "I always feel [anxious](/ˈæŋkʃəs/) before exams."
+        }
+      },
+      {
+        "id": "overwhelmed",
+        "term": "Overwhelmed",
+        "pos": "adj.",
+        "meaning": "desbordado, agobiado",
+        "ipa": {
+          "us": "/ˌoʊ.vɚˈwelmd/",
+          "uk": "/ˌəʊ.vəˈwelmd/"
+        },
+        "afh": "ou-ver-UÉLMD",
+        "say": "Overwhelmed.",
+        "ttsUs": "[Overwhelmed](/ˌOvəɹwˈɛlmd/).",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento principal en WHELMED, la última sílaba."
+          },
+          {
+            "type": "ed",
+            "text": "-ed suena /d/: el final /lmd/ forma una sola sílaba. Nada de «o-ver-whel-med»."
+          },
+          {
+            "type": "consonant",
+            "text": "La v es /v/, y *wh* suena /w/: «ou-ver-uélmd»."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "I feel overwhelmed this week.",
+          "tts": "I feel [overwhelmed](/ˌOvəɹwˈɛlmd/) this week."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Consejo: should / shouldn't",
+        "formula": "Sujeto + should / shouldn't + verbo base · Should I + verbo base…?",
+        "usage": "Para recomendar o desaconsejar algo, o para pedir consejo.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l22-cc-1a",
+            "text": "You {{shouldn't}} reply after work."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l22-cc-1b",
+            "text": "What {{should I}} do?"
+          }
+        ]
+      },
+      {
+        "title": "Consejo con matiz de deber: ought to",
+        "formula": "Sujeto + ought to + verbo base",
+        "usage": "Igual que *should*, algo más formal o con un matiz de «es lo correcto». Se usa casi siempre en afirmativa.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l22-cc-2a",
+            "text": "You {{ought to}} set an auto-reply."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l22-cc-2b",
+            "text": "Staff {{ought to}} take their full lunch break."
+          }
+        ]
+      },
+      {
+        "title": "Suavizar y poner límites",
+        "formula": "I (don't) think you should… · I'm afraid I can't… · It's OK to + verbo base",
+        "usage": "Para aconsejar sin imponer y para decir que no con educación.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l22-cc-3a",
+            "text": "{{I don't think you should}} work this weekend."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l22-cc-3b",
+            "text": "{{I'm afraid I can't}} take on any more projects."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Should + to",
+        "text": "*Should* es un modal: va seguido del verbo base, sin *to*.",
+        "wrong": "You should to take a break.",
+        "right": "You should take a break."
+      },
+      {
+        "title": "Ought sin to",
+        "text": "*Ought* es la excepción: siempre lleva *to*.",
+        "wrong": "You ought take a break.",
+        "right": "You ought to take a break."
+      },
+      {
+        "title": "I think you shouldn't",
+        "text": "No es incorrecto, pero suena poco natural. En inglés, la negación suele ir en *think*.",
+        "wrong": "I think you shouldn't reply.",
+        "right": "I don't think you should reply."
+      },
+      {
+        "title": "Must para un consejo",
+        "text": "«Deberías descansar» es un consejo: *should*. *Must* suena a orden o a norma.",
+        "wrong": "You must relax more. (a un amigo)",
+        "right": "You should relax more."
+      },
+      {
+        "title": "Letras mudas en shouldn't y ought",
+        "text": "Ni la l de *shouldn't* ni la gh de *ought* se pronuncian.",
+        "wrong": "«SHOULD-ent» con l, «OUGT»",
+        "right": "/ˈʃʊd.ənt/ («SHÚ-dnt»), /ˈɔː.tə/ («Ó-ta»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "You ___ reply to messages after work.",
+      "options": [
+        "shouldn't",
+        "shouldn't to",
+        "don't should"
+      ],
+      "answer": 0,
+      "explain": "*Shouldn't* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "You ought ___ set an auto-reply.",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "*Ought to* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "___ I talk to my manager about it?",
+      "options": [
+        "Should",
+        "Ought",
+        "Must to"
+      ],
+      "answer": 0,
+      "explain": "Para pedir consejo: *Should I…?*"
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma más natural.",
+      "text": "I ___ think you should work this weekend.",
+      "options": [
+        "don't",
+        "not",
+        "no"
+      ],
+      "answer": 0,
+      "explain": "*I don't think you should…*"
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "It's OK ___ say no sometimes.",
+      "accept": [
+        "to"
+      ],
+      "explain": "*It's OK to* + verbo base."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "I'm afraid I can't take ___ any more projects.",
+      "accept": [
+        "on"
+      ],
+      "explain": "*Take on* = asumir trabajo."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "You",
+        "should",
+        "have",
+        "lunch",
+        "away",
+        "from",
+        "your",
+        "desk"
+      ],
+      "answer": "You should have lunch away from your desk",
+      "explain": "*Should* + verbo base."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "I",
+        "don't",
+        "think",
+        "you",
+        "should",
+        "worry"
+      ],
+      "answer": "I don't think you should worry",
+      "explain": "La negación va en *think*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "You should to take a break.",
+      "accept": [
+        "You should take a break."
+      ],
+      "explain": "Sin *to* tras *should*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "You ought take a break.",
+      "accept": [
+        "You ought to take a break."
+      ],
+      "explain": "*Ought* siempre lleva *to*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Reescribe la frase de forma más natural.",
+      "wrong": "I think you shouldn't reply.",
+      "accept": [
+        "I don't think you should reply."
+      ],
+      "explain": "La negación va en *think*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *overwhelmed* lleva el acento principal?",
+      "word": "overwhelmed",
+      "syllables": [
+        "o",
+        "ver",
+        "whelmed"
+      ],
+      "answer": 2,
+      "audioRef": "l22-ph-overwhelmed-us",
+      "explain": "o-ver-**WHELMED**: acento en la última sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "priya",
+      "audio": "l22-dict-1",
+      "text": "You shouldn't reply after work. They can wait until the morning.",
+      "explain": "*Shouldn't* + verbo base."
+    }
+  ],
+  "task": {
+    "title": "Consejos para un amigo agobiado",
+    "format": "text",
+    "scenario": "Un amigo te escribe: trabaja demasiado, contesta mensajes a todas horas y no consigue descansar. Respóndele con consejos concretos.",
+    "brief": "Reply to a stressed friend with practical advice about boundaries and rest.",
+    "steps": [
+      "Muestra empatía (*I'm sorry you're so stressed…*).",
+      "Da dos consejos con *should / shouldn't*.",
+      "Añade uno con *ought to* o con *I (don't) think you should…*.",
+      "Recuérdale que puede poner límites (*It's OK to say no…*) y despídete."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hey ___, I'm sorry you're so stressed. Here's my advice.",
+      "You shouldn't ___. You should ___.",
+      "You ought to ___.",
+      "I don't think you should ___.",
+      "Remember, it's OK to ___. Take care!"
+    ],
+    "chunks": [
+      {
+        "label": "should",
+        "re": "\\bshould\\s+(not\\s+)?[a-z]+"
+      },
+      {
+        "label": "shouldn't",
+        "re": "\\bshouldn't\\s+[a-z]+"
+      },
+      {
+        "label": "ought to",
+        "re": "\\bought to\\b"
+      },
+      {
+        "label": "I (don't) think you should",
+        "re": "\\bi (don't )?think you should\\b"
+      },
+      {
+        "label": "It's OK to",
+        "re": "\\bit's (ok|okay|fine) to\\b"
+      },
+      {
+        "label": "break / boundaries / switch off",
+        "re": "\\b(break|boundaries|switch off|rest|say no)\\b"
+      }
+    ],
+    "checks": [
+      "mightTo",
+      "oughtNoTo",
+      "thinkShouldnt",
+      "mustAdvice",
+      "proDrop",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: una norma de empresa",
+      "brief": "Write one formal sentence about rest for a company policy.",
+      "frames": [
+        "Staff ought to ___. We kindly ask that ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "sarah",
+          "audio": "l22-task-model",
+          "text": "Hey Leo, I'm sorry you're so stressed. Here's my advice. First, you {{shouldn't}} answer café messages after your shift. You {{ought to}} talk to your manager about your schedule, too. {{I don't think you should}} study after midnight: you need sleep! You {{should}} block two evenings a week just for your courses. And remember, {{it's OK to say no}} to extra shifts sometimes. Take care!",
+          "label": "Respuesta a un amigo (neutro)",
+          "notes": [
+            "*Shouldn't answer*, *should block*: consejos con verbo base.",
+            "*I don't think you should study…*: la negación va en *think*, más natural."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l22-task-formal",
+          "text": "Staff {{ought to}} take their full lunch break away from their desks. {{We kindly ask that}} messages sent after six in the evening are answered the following morning.",
+          "label": "Política de descanso (formal)",
+          "notes": [
+            "*Ought to* da un matiz de norma y de lo correcto.",
+            "*We kindly ask that…* es una petición formal muy habitual en avisos."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste el verbo base tras *should / shouldn't* (sin *to*)?",
+      "¿Escribiste *ought to* con *to*?",
+      "¿Usaste *I don't think you should…* en lugar de *I think you shouldn't…*?",
+      "¿Evitaste *must* para dar un consejo amistoso?",
+      "¿Tus consejos son concretos (qué hacer, cuándo)?"
+    ]
+  }
+}

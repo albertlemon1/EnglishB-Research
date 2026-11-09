@@ -1,0 +1,152 @@
+{
+  "id": "review",
+  "title": "Module 5 Review",
+  "titleEs": "Repaso del Módulo 5",
+  "intro": "Doce preguntas que mezclan las cinco lecciones, con un ejercicio de acento y un dictado. Si fallas alguna, la explicación te dice a qué lección volver.",
+  "items": [
+    {
+      "type": "choice",
+      "lesson": "l21",
+      "prompt": "Elige la forma correcta.",
+      "text": "My manager ___ approve every remote day.",
+      "options": [
+        "has to",
+        "have to",
+        "have"
+      ],
+      "answer": 0,
+      "explain": "Tercera persona: *has to*. (Lección 21)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l21",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "I haven't to work on Sundays.",
+      "accept": [
+        "I don't have to work on Sundays.",
+        "I do not have to work on Sundays."
+      ],
+      "explain": "Negativa con *don't have to*. (Lección 21)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l22",
+      "prompt": "Elige la forma correcta.",
+      "text": "You ___ reply to messages after work.",
+      "options": [
+        "shouldn't",
+        "shouldn't to",
+        "don't should"
+      ],
+      "answer": 0,
+      "explain": "*Shouldn't* + verbo base. (Lección 22)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l22",
+      "prompt": "Corrige el error.",
+      "wrong": "You ought take a break.",
+      "accept": [
+        "You ought to take a break."
+      ],
+      "explain": "*Ought* siempre lleva *to*. (Lección 22)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l23",
+      "prompt": "Elige la opción correcta.",
+      "text": "You ___ come in on Fridays. It's optional.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "haven't to"
+      ],
+      "answer": 0,
+      "explain": "Opcional → *don't have to*. (Lección 23)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l23",
+      "prompt": "Elige la opción correcta.",
+      "text": "You ___ use public Wi-Fi without the VPN. It's not allowed.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "mustn't to"
+      ],
+      "answer": 0,
+      "explain": "Prohibido → *mustn't* + verbo base. (Lección 23)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l24",
+      "prompt": "Elige el orden correcto.",
+      "text": "I don't get ___ during the week.",
+      "options": [
+        "enough sleep",
+        "sleep enough",
+        "too much sleep enough"
+      ],
+      "answer": 0,
+      "explain": "*Enough* + sustantivo. (Lección 24)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l24",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "I make exercise every morning.",
+      "accept": [
+        "I exercise every morning.",
+        "I do exercise every morning."
+      ],
+      "explain": "*Exercise* o *do exercise*. (Lección 24)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l25",
+      "prompt": "Elige la forma correcta.",
+      "text": "We have enough time ___ a picnic.",
+      "options": [
+        "to have",
+        "for have",
+        "having"
+      ],
+      "answer": 0,
+      "explain": "*Enough time to* + verbo base. (Lección 25)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l25",
+      "prompt": "Corrige el error.",
+      "wrong": "Do we stay on Wednesday?",
+      "accept": [
+        "Should we meet on Wednesday?",
+        "Shall we meet on Wednesday?",
+        "Can we meet on Wednesday?"
+      ],
+      "explain": "«Quedar» = *meet*. (Lección 25)"
+    },
+    {
+      "type": "stress",
+      "lesson": "l21",
+      "prompt": "¿Qué sílaba de *routine* lleva el acento?",
+      "word": "routine",
+      "syllables": [
+        "rou",
+        "tine"
+      ],
+      "answer": 1,
+      "audioRef": "l21-ph-routine-us",
+      "explain": "rou-**TINE**. (Lección 21)"
+    },
+    {
+      "type": "dictation",
+      "lesson": "l24",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "hannah",
+      "audio": "m05-rv-dict-1",
+      "text": "You should drink more water and get enough sleep.",
+      "explain": "Consejo con *should* y *enough* + sustantivo. (Lección 24)"
+    }
+  ]
+}

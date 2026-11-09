@@ -108,6 +108,15 @@
       "voice": "af_nova",
       "lang": "en-us",
       "bio": "Atiende llamadas y reclamaciones de una compañía de internet. Clara, paciente y resolutiva."
+    },
+    "hannah": {
+      "name": "Hannah",
+      "role": "Médica de familia (Dr Hannah Ward)",
+      "register": "formal",
+      "accent": "UK",
+      "voice": "bf_isabella",
+      "lang": "en-gb",
+      "bio": "Médica de cabecera de Sarah. Explica resultados y tratamientos con claridad y en registro formal británico."
     }
   }
 }

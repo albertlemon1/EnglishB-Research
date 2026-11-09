@@ -220,6 +220,67 @@ export const CHECKS = {
     const m = text.match(/\ba\s+(hour|hours|honest|honour|honor|heir)\b/i);
     return m ? { msg: "La h de *hour* es muda: suena a vocal, así que va con *an*: *an hour*.", sample: m[0] } : null;
   },
+  // --- Módulo 5 (bienestar y tiempo) ---
+  haventTo(text) {
+    const m = text.match(/\b(haven't|hasn't|have not|has not)\s+to\s+[a-z]+/i);
+    return m ? { msg: "La negativa de *have to* se hace con *don't / doesn't*: *I don't have to work on Sundays*.", sample: m[0] } : null;
+  },
+  haveToThird(text) {
+    const m = text.match(/\b(he|she|my (boss|manager|teacher|doctor|sister|brother|partner|mom|dad)|the (boss|manager|teacher|doctor))\s+have to\b/i);
+    return m ? { msg: "Con *he / she* o un sujeto singular, *has to*: *My boss has to approve it*.", sample: m[0] } : null;
+  },
+  spendTo(text) {
+    const m = text.match(/\bspen(d|ds|t|ding)\b[^.!?]{0,30}\b(hours?|minutes?|time|days?|mornings?|evenings?|weekends?)\s+to\s+[a-z]+/i);
+    return m ? { msg: "Tras *spend* + tiempo, el verbo va en -ing: *I spend an hour answering emails*.", sample: m[0] } : null;
+  },
+  oughtNoTo(text) {
+    const m = text.match(/\bought\s+(?!to\b|not to\b)[a-z]+/i);
+    return m ? { msg: "*Ought* siempre lleva *to*: *You ought to take a break*.", sample: m[0] } : null;
+  },
+  thinkShouldnt(text) {
+    const m = text.match(/\bI think (you|he|she|we|they) shouldn't\b/i);
+    return m ? { msg: "Más natural: *I don't think you should…* (la negación va en *think*).", sample: m[0], soft: true } : null;
+  },
+  mustAdvice(text) {
+    const m = text.match(/\byou must\s+(relax|rest|sleep|take|try|stop|talk|go|eat|drink|walk|call)\b/i);
+    return m ? { msg: "Para un consejo amistoso, *should* suena mejor. *You must* parece una orden o una norma.", sample: m[0], soft: true } : null;
+  },
+  workInHome(text) {
+    const m = text.match(/\b(work|works|worked|working|study|studies|studying)\s+in\s+(my\s+)?home\b(?!\s+(office|gym|studio|town|country))/i);
+    return m ? { msg: "«Trabajar desde casa» es *work from home* (o *at home*), no *in home*.", sample: m[0] } : null;
+  },
+  makeExercise(text) {
+    const m = text.match(/\b(make|makes|made|making)\s+(some\s+|more\s+|a lot of\s+)?(exercise|sport|sports)\b/i);
+    return m ? { msg: "«Hacer ejercicio / deporte» es *exercise*, *do exercise* o *do sport*, no *make*.", sample: m[0] } : null;
+  },
+  getSleepEnough(text) {
+    const m = text.match(/\b(get|gets|have|has|drink|drinks|eat|eats)\s+(sleep|exercise|rest|water|time|vegetables|fruit)\s+enough\b/i);
+    return m ? { msg: "Con sustantivos, *enough* va delante: *I don't get enough sleep*.", sample: m[0] } : null;
+  },
+  tooMuchPlural(text) {
+    const m = text.match(/\btoo much\s+(snacks|sweets|cookies|chips|fries|cigarettes|hours|meals|drinks|coffees|calories|things|meetings|emails|messages|apps)\b/i);
+    return m ? { msg: "Con plurales se usa *too many*: *too many snacks*. *Too much* va con incontables (*too much coffee*).", sample: m[0] } : null;
+  },
+  recipeDoctor(text) {
+    const m = text.match(/\b(doctor|gp|pharmacist|pharmacy)\b[^.!?]{0,40}\brecipes?\b|\brecipes?\s+for\s+(the\s+|my\s+)?(medicine|antibiotics|pills|tablets|medication)\b/i);
+    return m ? { msg: "La receta del médico es *a prescription*. *Recipe* es una receta de cocina.", sample: m[0] } : null;
+  },
+  quedarStay(text) {
+    const m = text.match(/\b(do|shall|should|can) we stay\s+(on|at|in|this|next|tomorrow|for)\b/i);
+    return m ? { msg: "«¿Quedamos…?» es *Should we meet…?* o *Are you free…?*. *Stay* significa quedarse en un sitio.", sample: m[0], soft: true } : null;
+  },
+  enoughTimeFor(text) {
+    const m = text.match(/\benough time for\s+(visit|go|do|see|have|watch|meet|cook|read|study|play|finish|try|join|make|get)\b/i);
+    return m ? { msg: "Con verbo, *enough time to*: *enough time to visit the museum*. Con sustantivo, *for*: *enough time for a picnic*.", sample: m[0] } : null;
+  },
+  dayPreposition(text) {
+    const m = text.match(/\b(in|at)\s+(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b/i);
+    return m ? { msg: "Con los días de la semana se usa *on*: *on Wednesday*.", sample: m[0] } : null;
+  },
+  dayCapital(text) {
+    const m = text.match(/\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b/);
+    return m ? { msg: "En inglés, los días de la semana se escriben con mayúscula: *Wednesday*.", sample: m[0], soft: true } : null;
+  },
 };
 
 export function runChecks(text, ids = []) {

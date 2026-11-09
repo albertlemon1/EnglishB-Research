@@ -1,0 +1,800 @@
+{
+  "id": "l24",
+  "n": 24,
+  "title": "Talking About Health, Exercise & Physical Wellness",
+  "titleEs": "Hablar de salud, ejercicio y bienestar físico",
+  "minutes": 60,
+  "summary": "Habla de tus hábitos de salud: consejo (*should*) frente a indicación (*have to*), *enough* y *too much / too many*.",
+  "canDo": [
+    "Puedo distinguir un consejo (*You should walk more*) de una indicación médica (*You have to take this twice a day*).",
+    "Puedo decir qué me falta o me sobra con *(not) enough* + sustantivo y *too much / too many*.",
+    "Puedo describir mi forma física con adjetivo + *enough* (*I'm not fit enough*).",
+    "Puedo pronunciar *vegetable* en tres sílabas y *muscles* sin la c."
+  ],
+  "focus": {
+    "grammar": "should (consejo) frente a have to (indicación) · (not) enough + sustantivo · adjetivo + enough · too much + incontable / too many + plural",
+    "lexis": "get enough sleep, be out of shape, work out, eat healthily, take a supplement, a prescription, be fit enough, be advised to",
+    "afh": "Schwa y sílabas que desaparecen (vegetable, medicine) · c muda en muscles · gh = /f/ en enough · acento de exercise"
+  },
+  "warmup": "¿Duermes lo suficiente? ¿Haces ejercicio? Piensa en una cosa de tu día que te sobra (café, pantallas, azúcar) y otra que te falta.",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Los resultados de la revisión",
+      "context": "Sarah se hizo una revisión médica. Al día siguiente, su médica de familia, la doctora Ward, le escribe con los resultados.",
+      "speaker": "hannah",
+      "to": "Sarah",
+      "audio": "l24-scn",
+      "text": "Dear Sarah, thank you for coming in yesterday. Your results are generally good, but there are a few things to work on. You {{don't get enough sleep}}: you {{should}} aim for seven to eight hours a night. You also drink {{too much coffee}} and {{not enough water}}. Your vitamin D level is low, so you {{have to}} take the supplement every day for three months. You {{should}} also try to walk for thirty minutes a day. Best wishes, Dr Hannah Ward",
+      "tts": "Dear Sarah, thank you for coming in yesterday. Your results are generally good, but there are a few things to work on. You don't get enough sleep: you should aim for seven to eight hours a night. You also drink too much coffee and not enough water. Your vitamin D level is low, so you [have](/hˈæf/) [to](/tə/) take the supplement every day for three months. You should also try to walk for thirty minutes a day. Best wishes, Doctor Hannah Ward"
+    },
+    "dialogue": {
+      "title": "Primer día corriendo",
+      "context": "Maya convence a Leo para salir a correr por el parque.",
+      "lines": [
+        {
+          "speaker": "maya",
+          "audio": "l24-dlg-01",
+          "text": "Leo, you're out of breath! We've only run for ten minutes."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l24-dlg-02",
+          "text": "I know. I'm {{not fit enough}} for this. I spend all day sitting down."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l24-dlg-03",
+          "text": "You {{should}} start slowly. Try walking to class instead of taking the bus."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l24-dlg-04",
+          "text": "Good idea. And I eat {{too much}} junk food. I don't have {{enough time}} to cook."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l24-dlg-05",
+          "text": "You {{should}} cook on Sundays for the whole week. It saves a lot of time."
+        },
+        {
+          "speaker": "leo",
+          "audio": "l24-dlg-06",
+          "text": "My doctor says I {{have to}} drink more water, too. I {{don't drink enough}}.",
+          "tts": "My doctor says I [have](/hˈæf/) [to](/tə/) drink more water, too. I don't drink enough."
+        },
+        {
+          "speaker": "maya",
+          "audio": "l24-dlg-07",
+          "text": "Carry a bottle with you. And eat more {{vegetables}}!"
+        },
+        {
+          "speaker": "leo",
+          "audio": "l24-dlg-08",
+          "text": "Okay, okay! Same time next week?"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Por qué le cuesta correr a Leo?",
+        "options": [
+          "Porque le duele una pierna",
+          "Porque no está en forma: pasa el día sentado",
+          "Porque hace demasiado calor"
+        ],
+        "answer": 1,
+        "explain": "*I'm not fit enough for this. I spend all day sitting down.*"
+      },
+      {
+        "q": "¿Qué le aconseja Maya sobre la comida?",
+        "options": [
+          "Cocinar el domingo para toda la semana",
+          "Comer fuera",
+          "Saltarse la cena"
+        ],
+        "answer": 0,
+        "explain": "*You should cook on Sundays for the whole week.*"
+      },
+      {
+        "q": "¿Qué le dijo el médico a Leo?",
+        "options": [
+          "Que corra todos los días",
+          "Que deje el café",
+          "Que tiene que beber más agua"
+        ],
+        "answer": 2,
+        "explain": "*My doctor says I have to drink more water.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, familia, chats.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l24-reg-c1",
+            "text": "I'm so out of shape. I can't even run for the bus!",
+            "note": "*Out of shape* = en baja forma."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l24-reg-c2",
+            "text": "I'm starving. Let's grab a salad.",
+            "note": "*Starving* = muerto de hambre. *Grab* = tomar algo rápido."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Conversaciones cotidianas, consultas, compañeros.",
+        "items": [
+          {
+            "speaker": "sarah",
+            "audio": "l24-reg-n1",
+            "text": "I don't get enough sleep during the week.",
+            "note": "*Get enough sleep* = dormir lo suficiente."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l24-reg-n2",
+            "text": "You should drink more water.",
+            "note": "*Should*: consejo."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l24-reg-n3",
+            "text": "I try to walk ten thousand steps a day.",
+            "note": "*Try to* + verbo base: intentar."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Consultas médicas, folletos de salud, instrucciones.",
+        "items": [
+          {
+            "speaker": "hannah",
+            "audio": "l24-reg-f1",
+            "text": "Patients are advised to reduce their sugar intake.",
+            "note": "*Be advised to* = se recomienda. *Intake* = consumo."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l24-reg-f2",
+            "text": "Regular physical activity is strongly recommended.",
+            "note": "*Strongly recommended* = muy recomendable."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "get enough sleep",
+        "es": "dormir lo suficiente",
+        "register": "neutral"
+      },
+      {
+        "en": "be out of shape",
+        "es": "estar en baja forma",
+        "register": "casual"
+      },
+      {
+        "en": "work out",
+        "es": "entrenar, hacer ejercicio",
+        "register": "casual"
+      },
+      {
+        "en": "eat healthily",
+        "es": "comer sano",
+        "register": "neutral"
+      },
+      {
+        "en": "take a supplement",
+        "es": "tomar un suplemento",
+        "register": "neutral"
+      },
+      {
+        "en": "a prescription",
+        "es": "una receta médica",
+        "register": "neutral"
+      },
+      {
+        "en": "be fit enough (to…)",
+        "es": "estar lo bastante en forma (para…)",
+        "register": "neutral"
+      },
+      {
+        "en": "be advised to…",
+        "es": "se recomienda…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "I'm so out of shape!",
+        "answer": "casual",
+        "explain": "*Out of shape* con *so*: coloquial."
+      },
+      {
+        "text": "I don't get enough sleep during the week.",
+        "answer": "neutral",
+        "explain": "Clara y válida en una consulta o con amigos."
+      },
+      {
+        "text": "Patients are advised to reduce their sugar intake.",
+        "answer": "formal",
+        "explain": "*Are advised to* e *intake*: lenguaje médico formal."
+      },
+      {
+        "text": "I'm starving. Let's grab a salad.",
+        "answer": "casual",
+        "explain": "*Starving* y *grab* son coloquiales."
+      },
+      {
+        "text": "Regular physical activity is strongly recommended.",
+        "answer": "formal",
+        "explain": "Pasiva impersonal de folleto o informe."
+      },
+      {
+        "text": "You should drink more water.",
+        "answer": "neutral",
+        "explain": "Consejo estándar."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "La doctora Ward mezcla consejos e indicaciones. Fíjate en cuándo usa *should* y cuándo *have to*, y en cómo dice que algo falta o sobra.",
+    "speaker": "ryan",
+    "audio": "l24-gd",
+    "text": "You {{should}} aim for eight hours of sleep, but you {{have to}} take the supplement every day. You {{don't get enough sleep}}, and you drink {{too much coffee}}.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué diferencia hay entre *should aim for* y *have to take*?",
+        "options": [
+          "*Should*: un consejo; *have to*: una indicación obligatoria del médico.",
+          "Significan lo mismo.",
+          "*Should* es más fuerte que *have to*."
+        ],
+        "answer": 0,
+        "explain": "Dormir más es una recomendación. El suplemento es un tratamiento: no es opcional."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Dónde va *enough* con un sustantivo y qué se usa con *coffee*?",
+        "options": [
+          "*Enough* + sustantivo (*enough sleep*); *too much* + incontable (*too much coffee*).",
+          "Sustantivo + *enough* (*sleep enough*); *too many coffee*.",
+          "*Enough of sleep*; *too coffee*."
+        ],
+        "answer": 0,
+        "explain": "Con sustantivos, *enough* va delante. *Coffee* es incontable: *too much*. Con plurales, *too many* (*too many snacks*)."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "¿Por qué la doctora usa *have to* para el suplemento y *should* para el sueño?",
+        "options": [
+          "Porque el suplemento es un tratamiento y dormir más, una recomendación.",
+          "Porque *have to* es más educado.",
+          "Por casualidad: son intercambiables."
+        ],
+        "answer": 0,
+        "explain": "Elegir bien entre *should* y *have to* le dice al paciente qué es imprescindible y qué es aconsejable."
+      }
+    ],
+    "rule": {
+      "points": [
+        "*Should* = consejo (es buena idea). *Have to* = obligación o indicación clara (tratamiento, norma).",
+        "*(Not) enough* + sustantivo: *enough sleep*, *enough water*. Adjetivo + *enough*: *fit enough*.",
+        "*Too much* + incontable (*too much coffee, too much sugar*); *too many* + plural (*too many snacks*).",
+        "*Not … enough* y *too much / too many* son los dos extremos del mismo problema."
+      ],
+      "formulas": [
+        "should + verbo base (consejo)",
+        "have to + verbo base (indicación)",
+        "(not) enough + sustantivo · too much / too many + sustantivo"
+      ],
+      "note": "«Hacer ejercicio» es *exercise* (verbo) o *do exercise*; *make exercise* es un calco. Y la «receta» del médico es *a prescription*: *a recipe* es una receta de cocina."
+    },
+    "tts": "You should aim for eight hours of sleep, but you [have](/hˈæf/) [to](/tə/) take the supplement every day. You don't get enough sleep, and you drink too much coffee."
+  },
+  "phonetics": {
+    "intro": "El vocabulario de la salud está lleno de sílabas átonas que el inglés debilita: *vegetable* tiene tres sílabas y *medicine* puede quedar en dos. Además, hay letras que no suenan (*muscles*) o que suenan distinto de lo esperado (*enough*).",
+    "items": [
+      {
+        "id": "vegetable",
+        "term": "Vegetable",
+        "pos": "n.",
+        "meaning": "verdura",
+        "ipa": {
+          "us": "/ˈvedʒ.tə.bəl/",
+          "uk": "/ˈvedʒ.tə.bəl/"
+        },
+        "afh": "VÉDY-ta-bl",
+        "say": "Vegetable.",
+        "ttsUs": "[Vegetable](/vˈɛʤtəbᵊl/).",
+        "ttsUk": "[Vegetable](/vˈɛʤtəbᵊl/).",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "Tres sílabas: la segunda e desaparece. «VÉDY-ta-bl», no «ve-ge-TA-ble»."
+          },
+          {
+            "type": "consonant",
+            "text": "La v es labiodental y la g suena /dʒ/, «dy»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, VEG."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "You should eat more vegetables."
+        }
+      },
+      {
+        "id": "exercise",
+        "term": "Exercise",
+        "pos": "n. / v.",
+        "meaning": "ejercicio; hacer ejercicio",
+        "ipa": {
+          "us": "/ˈek.sɚ.saɪz/",
+          "uk": "/ˈek.sə.saɪz/"
+        },
+        "afh": "ÉK-ser-saiz",
+        "say": "Exercise.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, EX. En español, «ejercicio» lo lleva en CI."
+          },
+          {
+            "type": "consonant",
+            "text": "La x es /ks/ y la s final suena /z/: «-saiz»."
+          },
+          {
+            "type": "vowel",
+            "text": "*-cise* lleva el diptongo /aɪ/, «sai»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "I exercise three times a week."
+        }
+      },
+      {
+        "id": "medicine",
+        "term": "Medicine",
+        "pos": "n.",
+        "meaning": "medicamento, medicina",
+        "ipa": {
+          "us": "/ˈmed.ɪ.sən/",
+          "uk": "/ˈmed.sən/"
+        },
+        "afh": "MÉ-di-sn (US) · MÉD-sn (UK)",
+        "say": "Medicine.",
+        "ttsUk": "[Medicine](/mˈɛdsən/).",
+        "alerts": [
+          {
+            "type": "variant",
+            "text": "En EE. UU. tiene tres sílabas, «MÉ-di-sn». En Reino Unido suele tener dos, «MÉD-sn»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, MED."
+          },
+          {
+            "type": "weak",
+            "text": "*-cine* se reduce a /sən/, «sn». No digas «me-di-SI-na»."
+          }
+        ],
+        "example": {
+          "speaker": "hannah",
+          "text": "Take this medicine twice a day.",
+          "tts": "Take this [medicine](/mˈɛdsən/) twice a day."
+        }
+      },
+      {
+        "id": "enough",
+        "term": "Enough",
+        "pos": "det. / adv.",
+        "meaning": "suficiente, bastante",
+        "ipa": {
+          "us": "/ɪˈnʌf/",
+          "uk": "/ɪˈnʌf/"
+        },
+        "afh": "i-NÁF",
+        "say": "Enough.",
+        "alerts": [
+          {
+            "type": "spelling",
+            "text": "*-ough* suena /ʌf/: «i-NÁF». La gh es una /f/."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba, NOUGH."
+          },
+          {
+            "type": "weak",
+            "text": "La e inicial es débil: /ɪ/ o una schwa."
+          }
+        ],
+        "example": {
+          "speaker": "leo",
+          "text": "I don't get enough exercise."
+        }
+      },
+      {
+        "id": "muscles",
+        "term": "Muscles",
+        "pos": "n.",
+        "meaning": "músculos",
+        "ipa": {
+          "us": "/ˈmʌs.əlz/",
+          "uk": "/ˈmʌs.əlz/"
+        },
+        "afh": "MÁ-slz",
+        "say": "Muscles.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La c es muda: *muscle* suena igual que *mussel* (mejillón)."
+          },
+          {
+            "type": "weak",
+            "text": "La l es silábica: «MÁ-slz», sin vocal antes de la l."
+          },
+          {
+            "type": "consonant",
+            "text": "La s final suena /z/: «-slz»."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "My muscles hurt after the gym."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Consejo o indicación: should / have to",
+        "formula": "should + verbo base (consejo) · have to + verbo base (indicación, norma)",
+        "usage": "Para separar lo recomendable de lo imprescindible, como hace un médico.",
+        "examples": [
+          {
+            "speaker": "hannah",
+            "audio": "l24-cc-1a",
+            "text": "You {{should}} walk for thirty minutes a day."
+          },
+          {
+            "speaker": "hannah",
+            "audio": "l24-cc-1b",
+            "text": "You {{have to}} take this medicine with food.",
+            "tts": "You [have](/hˈæf/) [to](/tə/) take this medicine with food."
+          }
+        ]
+      },
+      {
+        "title": "Falta: (not) enough + sustantivo / adjetivo + enough",
+        "formula": "(not) enough + sustantivo · (not) + adjetivo + enough (to + verbo)",
+        "usage": "Para decir que algo no llega: horas de sueño, agua, forma física.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l24-cc-2a",
+            "text": "I {{don't get enough sleep}}."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l24-cc-2b",
+            "text": "I'm {{not fit enough}} to run a marathon."
+          }
+        ]
+      },
+      {
+        "title": "Exceso: too much / too many + sustantivo",
+        "formula": "too much + incontable · too many + plural",
+        "usage": "Para decir que algo sobra. *Much* con lo que no se cuenta; *many* con lo que se cuenta.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l24-cc-3a",
+            "text": "You drink {{too much coffee}}."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l24-cc-3b",
+            "text": "I eat {{too many snacks}} in the evening."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Make exercise",
+        "text": "«Hacer ejercicio» = *exercise* o *do exercise*. *Make exercise* es un calco del español.",
+        "wrong": "I make exercise every morning.",
+        "right": "I exercise every morning. / I do exercise every morning."
+      },
+      {
+        "title": "Enough detrás del sustantivo",
+        "text": "Con sustantivos, *enough* va delante: *enough sleep*, *enough water*.",
+        "wrong": "I don't get sleep enough.",
+        "right": "I don't get enough sleep."
+      },
+      {
+        "title": "Too much con plurales",
+        "text": "Con sustantivos contables en plural se usa *too many*.",
+        "wrong": "I eat too much snacks.",
+        "right": "I eat too many snacks."
+      },
+      {
+        "title": "Recipe no es la receta del médico",
+        "text": "Falso amigo: *recipe* es una receta de cocina. La del médico es *a prescription*.",
+        "wrong": "The doctor gave me a recipe for the antibiotics.",
+        "right": "The doctor gave me a prescription for the antibiotics."
+      },
+      {
+        "title": "Vegetable y muscles con todas las letras",
+        "text": "*Vegetable* tiene tres sílabas y *muscles* no pronuncia la c.",
+        "wrong": "«ve-ge-TA-ble», «MUS-ku-les»",
+        "right": "/ˈvedʒ.tə.bəl/ («VÉDY-ta-bl»), /ˈmʌs.əlz/ («MÁ-slz»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "You ___ take this medicine twice a day. It's your treatment.",
+      "options": [
+        "have to",
+        "should to",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explain": "Indicación obligatoria → *have to*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el orden correcto.",
+      "text": "I don't get ___ during the week.",
+      "options": [
+        "enough sleep",
+        "sleep enough",
+        "too sleep"
+      ],
+      "answer": 0,
+      "explain": "*Enough* + sustantivo."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "You drink ___ coffee.",
+      "options": [
+        "too much",
+        "too many",
+        "enough of"
+      ],
+      "answer": 0,
+      "explain": "*Coffee* es incontable → *too much*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "I eat ___ snacks.",
+      "options": [
+        "too many",
+        "too much",
+        "enough many"
+      ],
+      "answer": 0,
+      "explain": "*Snacks* es plural → *too many*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "I'm not fit ___ to run a marathon.",
+      "accept": [
+        "enough"
+      ],
+      "explain": "Adjetivo + *enough*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "The doctor gave me a ___ for the medicine.",
+      "accept": [
+        "prescription"
+      ],
+      "explain": "Receta médica = *prescription*."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "You",
+        "should",
+        "drink",
+        "more",
+        "water"
+      ],
+      "answer": "You should drink more water",
+      "explain": "Consejo con *should*."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "I",
+        "don't",
+        "get",
+        "enough",
+        "exercise"
+      ],
+      "answer": "I don't get enough exercise",
+      "explain": "*Enough* + sustantivo."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "I make exercise every morning.",
+      "accept": [
+        "I exercise every morning.",
+        "I do exercise every morning."
+      ],
+      "explain": "*Exercise* o *do exercise*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "I eat too much snacks.",
+      "accept": [
+        "I eat too many snacks."
+      ],
+      "explain": "Plural → *too many*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el falso amigo.",
+      "wrong": "The doctor gave me a recipe for the antibiotics.",
+      "accept": [
+        "The doctor gave me a prescription for the antibiotics."
+      ],
+      "explain": "*Prescription*, no *recipe*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *exercise* lleva el acento?",
+      "word": "exercise",
+      "syllables": [
+        "ex",
+        "er",
+        "cise"
+      ],
+      "answer": 0,
+      "audioRef": "l24-ph-exercise-us",
+      "explain": "**EX**-er-cise: acento en la primera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *medicine* lleva el acento?",
+      "word": "medicine",
+      "syllables": [
+        "med",
+        "i",
+        "cine"
+      ],
+      "answer": 0,
+      "audioRef": "l24-ph-medicine-us",
+      "explain": "**MED**-i-cine: acento en la primera sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "hannah",
+      "audio": "l24-dict-1",
+      "text": "You should aim for seven to eight hours of sleep a night.",
+      "explain": "Consejo con *should*."
+    }
+  ],
+  "task": {
+    "title": "Tus hábitos para el entrenador",
+    "format": "voice",
+    "scenario": "Vas a empezar un curso de entrenamiento para principiantes. El entrenador pide a cada participante un mensaje de voz sobre sus hábitos de salud.",
+    "brief": "Leave a voice message for your new trainer about your health habits.",
+    "steps": [
+      "Preséntate y di cómo es tu día (*I work at… / I spend all day…*).",
+      "Di qué te falta (*I don't get enough…*) y qué te sobra (*too much / too many…*).",
+      "Cuenta qué te indicó el médico (*My doctor says I have to…*) y qué te aconsejó (*… and that I should…*).",
+      "Di cómo quieres empezar (*I'm not fit enough to…, so I'd like to…*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi! I'm ___, and I'm starting your class next week.",
+      "I don't get enough ___, and I drink / eat too much / too many ___.",
+      "My doctor says I have to ___, and that I should ___.",
+      "I'm not fit enough to ___ yet, so I'd like to ___.",
+      "See you on ___!"
+    ],
+    "chunks": [
+      {
+        "label": "(not) enough + sustantivo",
+        "re": "\\benough\\s+(sleep|water|exercise|time|rest|vegetables|fruit|food)\\b"
+      },
+      {
+        "label": "too much / too many",
+        "re": "\\btoo (much|many)\\s+[a-z]+"
+      },
+      {
+        "label": "have to",
+        "re": "\\b(have|has) to\\s+[a-z]+"
+      },
+      {
+        "label": "should",
+        "re": "\\bshould\\s+[a-z]+"
+      },
+      {
+        "label": "adjetivo + enough",
+        "re": "\\b(fit|strong|healthy|active)\\s+enough\\b"
+      },
+      {
+        "label": "exercise / work out",
+        "re": "\\b(exercise|work out|walk|run|gym)\\b"
+      }
+    ],
+    "checks": [
+      "makeExercise",
+      "getSleepEnough",
+      "tooMuchPlural",
+      "recipeDoctor",
+      "mightTo",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el folleto de salud",
+      "brief": "Write two formal sentences for a health leaflet.",
+      "frames": [
+        "Patients are advised to ___. Regular ___ is strongly recommended."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "sarah",
+          "audio": "l24-task-model",
+          "text": "Hi! I'm Sarah, and I'm starting your beginner class next week. Here's a bit about my habits. I work at a bookstore, so I'm on my feet all day, but I {{don't get enough exercise}}. I drink {{too much coffee}} and {{not enough water}}, and I eat {{too many}} snacks in the evening. My doctor says I {{have to}} take vitamin D every day, and that I {{should}} walk more. I'm {{not fit enough}} to run yet, so I'd like to start slowly. See you on Monday!",
+          "label": "Mensaje para el entrenador (neutro)",
+          "notes": [
+            "*Don't get enough exercise*, *too much coffee*, *too many snacks*: lo que falta y lo que sobra.",
+            "*I have to take vitamin D* (indicación) frente a *I should walk more* (consejo)."
+          ],
+          "tts": "Hi! I'm Sarah, and I'm starting your beginner class next week. Here's a bit about my habits. I work at a bookstore, so I'm on my feet all day, but I don't get enough exercise. I drink too much coffee and not enough water, and I eat too many snacks in the evening. My doctor says I [have](/hˈæf/) [to](/tə/) take vitamin D every day, and that I should walk more. I'm not fit enough to run yet, so I'd like to start slowly. See you on Monday!"
+        },
+        {
+          "speaker": "hannah",
+          "audio": "l24-task-formal",
+          "text": "Patients {{are advised to}} reduce their sugar intake and to exercise for at least thirty minutes a day. This medication {{must be taken}} with food.",
+          "label": "Folleto de salud (formal)",
+          "notes": [
+            "*Are advised to* = se recomienda.",
+            "*Must be taken* = debe tomarse: obligación formal en pasiva."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste *have to* para las indicaciones y *should* para los consejos?",
+      "¿Pusiste *enough* delante del sustantivo (*enough sleep*)?",
+      "¿Usaste *too much* con incontables y *too many* con plurales?",
+      "¿Escribiste *exercise / do exercise* y no *make exercise*?",
+      "¿Usaste *prescription* (y no *recipe*) para la receta médica?"
+    ]
+  }
+}
