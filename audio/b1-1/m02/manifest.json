@@ -1,0 +1,2506 @@
+{
+ "engine": "Kokoro-82M v1.0 (ONNX) + misaki G2P",
+ "sampleRate": 24000,
+ "format": "mp3 64 kbps mono",
+ "count": 248,
+ "clips": {
+  "l06-cc-1a": {
+   "file": "l06-cc-1a.mp3",
+   "duration": 2.08,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I've lived here for two years.",
+   "hash": "47e0496b1603"
+  },
+  "l06-cc-1b": {
+   "file": "l06-cc-1b.mp3",
+   "duration": 2.85,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "She's worked at the hospital since 2020.",
+   "hash": "76f18c9fd83e"
+  },
+  "l06-cc-2a": {
+   "file": "l06-cc-2a.mp3",
+   "duration": 2.13,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I moved here three years ago.",
+   "hash": "883737eb06cd"
+  },
+  "l06-cc-2b": {
+   "file": "l06-cc-2b.mp3",
+   "duration": 3.34,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I studied psychology at the University of Toronto.",
+   "hash": "2db922661345"
+  },
+  "l06-cc-3a": {
+   "file": "l06-cc-3a.mp3",
+   "duration": 2.08,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "How long have you worked in design?",
+   "hash": "0fef04fa0bd6"
+  },
+  "l06-cc-3b": {
+   "file": "l06-cc-3b.mp3",
+   "duration": 1.81,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Have you ever lived abroad?",
+   "hash": "945d6c509eef"
+  },
+  "l06-dict-1": {
+   "file": "l06-dict-1.mp3",
+   "duration": 3.88,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "I'm originally from Toronto, but I've lived here for two years.",
+   "hash": "27335da03d11"
+  },
+  "l06-dlg-01": {
+   "file": "l06-dlg-01.mp3",
+   "duration": 5.72,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Priya, I'm Sarah. I really enjoyed your intro! How long have you worked in design?",
+   "hash": "edbc59ba4601"
+  },
+  "l06-dlg-02": {
+   "file": "l06-dlg-02.mp3",
+   "duration": 6.32,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Thanks! I've worked in design for about five years now. What about you? What do you do?",
+   "hash": "6ad730e3e0ba"
+  },
+  "l06-dlg-03": {
+   "file": "l06-dlg-03.mp3",
+   "duration": 4.6,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I work at a bookstore, and I'm taking evening classes in graphic design.",
+   "hash": "953ff4ec200c"
+  },
+  "l06-dlg-04": {
+   "file": "l06-dlg-04.mp3",
+   "duration": 2.91,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Oh, nice! Have you always lived here?",
+   "hash": "f2594ae198cd"
+  },
+  "l06-dlg-05": {
+   "file": "l06-dlg-05.mp3",
+   "duration": 4.75,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "No, I grew up in a small town near Seattle. I moved here three years ago.",
+   "hash": "567f0478585d"
+  },
+  "l06-dlg-06": {
+   "file": "l06-dlg-06.mp3",
+   "duration": 2.72,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "And have you ever lived anywhere else abroad?",
+   "hash": "905751fceac7"
+  },
+  "l06-dlg-07": {
+   "file": "l06-dlg-07.mp3",
+   "duration": 5.19,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Yes, I spent a year in Lisbon when I was at university. I loved it.",
+   "hash": "b0d7c882809f"
+  },
+  "l06-dlg-08": {
+   "file": "l06-dlg-08.mp3",
+   "duration": 5.3,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Lisbon! I've always wanted to go there. I've never been, but it's on my list.",
+   "hash": "b9bf7c26de5f"
+  },
+  "l06-gd": {
+   "file": "l06-gd.mp3",
+   "duration": 5.31,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I moved here three years ago, and I have worked at the same company since 2022.",
+   "hash": "dcf743b263d6"
+  },
+  "l06-ph-background-ex": {
+   "file": "l06-ph-background-ex.mp3",
+   "duration": 4.17,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "My background is in engineering, but I work in sales now.",
+   "hash": "eb6e23f438cc"
+  },
+  "l06-ph-background-slow": {
+   "file": "l06-ph-background-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Background.",
+   "hash": "1c1a1d693caa"
+  },
+  "l06-ph-background-uk": {
+   "file": "l06-ph-background-uk.mp3",
+   "duration": 1.42,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Background.",
+   "hash": "2cada49213f7"
+  },
+  "l06-ph-background-us": {
+   "file": "l06-ph-background-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Background.",
+   "hash": "a77918d3b994"
+  },
+  "l06-ph-career-ex": {
+   "file": "l06-ph-career-ex.mp3",
+   "duration": 2.96,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I started my career as a psychology researcher.",
+   "hash": "73a22ee951b1"
+  },
+  "l06-ph-career-slow": {
+   "file": "l06-ph-career-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Career.",
+   "hash": "682d9c461a72"
+  },
+  "l06-ph-career-uk": {
+   "file": "l06-ph-career-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Career.",
+   "hash": "08641859fefa"
+  },
+  "l06-ph-career-us": {
+   "file": "l06-ph-career-us.mp3",
+   "duration": 1.23,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Career.",
+   "hash": "b76a0b0f2e95"
+  },
+  "l06-ph-experience-ex": {
+   "file": "l06-ph-experience-ex.mp3",
+   "duration": 4.56,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I have over ten years of experience in customer relations.",
+   "hash": "bbc04846e5e7"
+  },
+  "l06-ph-experience-slow": {
+   "file": "l06-ph-experience-slow.mp3",
+   "duration": 1.91,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Experience.",
+   "hash": "69ced8b37ea7"
+  },
+  "l06-ph-experience-uk": {
+   "file": "l06-ph-experience-uk.mp3",
+   "duration": 1.55,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Experience.",
+   "hash": "a5439f9b0573"
+  },
+  "l06-ph-experience-us": {
+   "file": "l06-ph-experience-us.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Experience.",
+   "hash": "5b98890e0633"
+  },
+  "l06-ph-hometown-ex": {
+   "file": "l06-ph-hometown-ex.mp3",
+   "duration": 2.77,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "My hometown is a small town near Seattle.",
+   "hash": "0c013989cc0f"
+  },
+  "l06-ph-hometown-slow": {
+   "file": "l06-ph-hometown-slow.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Hometown.",
+   "hash": "9e7106d4f19d"
+  },
+  "l06-ph-hometown-uk": {
+   "file": "l06-ph-hometown-uk.mp3",
+   "duration": 1.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Hometown.",
+   "hash": "80f89936da69"
+  },
+  "l06-ph-hometown-us": {
+   "file": "l06-ph-hometown-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Hometown.",
+   "hash": "a8dfd4db9085"
+  },
+  "l06-ph-studied-ex": {
+   "file": "l06-ph-studied-ex.mp3",
+   "duration": 3.0,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Before that, I studied psychology in Toronto.",
+   "hash": "8e530ecc87f8"
+  },
+  "l06-ph-studied-slow": {
+   "file": "l06-ph-studied-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Studied.",
+   "hash": "6cd74a7d8de9"
+  },
+  "l06-ph-studied-uk": {
+   "file": "l06-ph-studied-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Studied.",
+   "hash": "f2b617f6c859"
+  },
+  "l06-ph-studied-us": {
+   "file": "l06-ph-studied-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Studied.",
+   "hash": "1f1b041f00a5"
+  },
+  "l06-reg-c1": {
+   "file": "l06-reg-c1.mp3",
+   "duration": 4.38,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Hey, I'm Leo! I'm really into music, and I work at a café.",
+   "hash": "d4a665836264"
+  },
+  "l06-reg-c2": {
+   "file": "l06-reg-c2.mp3",
+   "duration": 2.6,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I've been here for, like, four years now.",
+   "hash": "5d284b495052"
+  },
+  "l06-reg-f1": {
+   "file": "l06-reg-f1.mp3",
+   "duration": 6.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Good evening. My name is Emma Clarke, and I am the programme coordinator at the Language Centre.",
+   "hash": "e5c0bd25ea60"
+  },
+  "l06-reg-f2": {
+   "file": "l06-reg-f2.mp3",
+   "duration": 7.14,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Allow me to introduce myself. I have over ten years of experience in customer relations.",
+   "hash": "3b027b7ca692"
+  },
+  "l06-reg-n1": {
+   "file": "l06-reg-n1.mp3",
+   "duration": 3.68,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I'm originally from Toronto, but I've lived here for two years.",
+   "hash": "ef7103e65541"
+  },
+  "l06-reg-n2": {
+   "file": "l06-reg-n2.mp3",
+   "duration": 4.38,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi, I'm Alex. I work as a project coordinator.",
+   "hash": "57c12fda0b8c"
+  },
+  "l06-reg-n3": {
+   "file": "l06-reg-n3.mp3",
+   "duration": 2.62,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I've worked at the bookstore since last spring.",
+   "hash": "ed0d4dfd482a"
+  },
+  "l06-scn": {
+   "file": "l06-scn.mp3",
+   "duration": 20.54,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi everyone, I'm Priya. I'm originally from Toronto, but I've lived here for about two years. I work as a UX designer, and I've been in the tech industry since 2021. Before that, I studied psychology, which is actually how I got into design. I've never been to a language exchange before, so I'm really excited to meet you all!",
+   "hash": "ce10942f9ff0"
+  },
+  "l06-task-formal": {
+   "file": "l06-task-formal.mp3",
+   "duration": 7.37,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I have over six years of experience in the travel industry and have specialised in group itineraries since 2022.",
+   "hash": "18191276e5f3"
+  },
+  "l06-task-model": {
+   "file": "l06-task-model.mp3",
+   "duration": 25.29,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Hi everyone, I'm Maya. I'm originally from San Diego, but I've lived here for almost four years. I work as a travel agent, and I've been at my current agency since 2022. Before that, I studied tourism and worked in a hotel for two years. In my free time, I'm really into salsa and photography. I've never tried surfing, but it's on my list for this summer! Nice to meet you all.",
+   "hash": "7d8b0b574b5e"
+  },
+  "l07-cc-1a": {
+   "file": "l07-cc-1a.mp3",
+   "duration": 2.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Sorry, could you say that again?",
+   "hash": "8643893c4fc0"
+  },
+  "l07-cc-1b": {
+   "file": "l07-cc-1b.mp3",
+   "duration": 2.77,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Could you speak a bit more slowly, please?",
+   "hash": "5a8885715864"
+  },
+  "l07-cc-2a": {
+   "file": "l07-cc-2a.mp3",
+   "duration": 2.3,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "You're coming on Thursday, aren't you?",
+   "hash": "de5828ea9589",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.39,
+     "end": 1.997,
+     "slope": 7.1,
+     "method": "single"
+    }
+   ]
+  },
+  "l07-cc-2b": {
+   "file": "l07-cc-2b.mp3",
+   "duration": 1.98,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "She doesn't eat meat, does she?",
+   "hash": "5e18f72670ae",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.1,
+     "end": 1.677,
+     "slope": 6.3,
+     "method": "single"
+    }
+   ]
+  },
+  "l07-cc-3a": {
+   "file": "l07-cc-3a.mp3",
+   "duration": 3.3,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Just to make sure I understand: we meet at seven, right?",
+   "hash": "a70c20af5bec"
+  },
+  "l07-cc-3b": {
+   "file": "l07-cc-3b.mp3",
+   "duration": 2.79,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "So, basically, everyone brings a dish?",
+   "hash": "ba86c8ed765e"
+  },
+  "l07-dict-1": {
+   "file": "l07-dict-1.mp3",
+   "duration": 3.94,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.9,
+   "text": "We've moved it back an hour, so it starts at seven.",
+   "hash": "bcaed9baf101"
+  },
+  "l07-dlg-01": {
+   "file": "l07-dlg-01.mp3",
+   "duration": 7.05,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Oliver, it's Sarah. I got your message, but the line was a bit noisy. The meeting's at seven, isn't it?",
+   "hash": "79b50343a243",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 6.186,
+     "end": 6.747,
+     "slope": 6.6,
+     "method": "single"
+    }
+   ]
+  },
+  "l07-dlg-02": {
+   "file": "l07-dlg-02.mp3",
+   "duration": 5.26,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "That's right, seven o'clock. We've moved it back an hour.",
+   "hash": "cbf17e537899"
+  },
+  "l07-dlg-03": {
+   "file": "l07-dlg-03.mp3",
+   "duration": 5.96,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Okay. And sorry, what do you mean by 'potluck'? I've never heard that word before.",
+   "hash": "209a04943cee"
+  },
+  "l07-dlg-04": {
+   "file": "l07-dlg-04.mp3",
+   "duration": 5.96,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Oh, it just means everyone brings a dish to share. Nothing fancy.",
+   "hash": "0a5c505ef368"
+  },
+  "l07-dlg-05": {
+   "file": "l07-dlg-05.mp3",
+   "duration": 3.83,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I see. So, basically, it's like a shared dinner?",
+   "hash": "0c847a486526"
+  },
+  "l07-dlg-06": {
+   "file": "l07-dlg-06.mp3",
+   "duration": 5.71,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Exactly. Crisps, a salad, some biscuits… anything works.",
+   "hash": "fe01d8e1e99b"
+  },
+  "l07-dlg-07": {
+   "file": "l07-dlg-07.mp3",
+   "duration": 10.35,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Got it. Just to make sure I understand: the café on Bridge Street, next to the station, at seven, and I bring the name tags and a snack. Right?",
+   "hash": "57697c2ffb1d"
+  },
+  "l07-dlg-08": {
+   "file": "l07-dlg-08.mp3",
+   "duration": 5.25,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Perfect. You've got it. See you on Thursday!",
+   "hash": "01b330419f6e"
+  },
+  "l07-gd": {
+   "file": "l07-gd.mp3",
+   "duration": 4.65,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "The meeting is at seven, isn't it? And you don't need anything else, do you?",
+   "hash": "d8cbd3018df8",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.436,
+     "end": 2.183,
+     "slope": 6.3,
+     "method": "split"
+    },
+    {
+     "tone": "rise",
+     "start": 3.373,
+     "end": 4.355,
+     "slope": 6.8,
+     "method": "single"
+    }
+   ]
+  },
+  "l07-into-1": {
+   "file": "l07-into-1.mp3",
+   "duration": 1.98,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We meet at seven, don't we?",
+   "hash": "0b70501a21eb",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.14,
+     "end": 1.677,
+     "slope": 6.6,
+     "method": "single"
+    }
+   ]
+  },
+  "l07-into-2": {
+   "file": "l07-into-2.mp3",
+   "duration": 2.38,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "It's a great place, isn't it?",
+   "hash": "e1e67401ccab",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.393,
+     "end": 2.076,
+     "slope": -6.0,
+     "method": "split"
+    }
+   ]
+  },
+  "l07-ph-clarify-ex": {
+   "file": "l07-ph-clarify-ex.mp3",
+   "duration": 3.75,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Could you clarify what you mean by flexible hours?",
+   "hash": "aa966329a6d3"
+  },
+  "l07-ph-clarify-slow": {
+   "file": "l07-ph-clarify-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Clarify.",
+   "hash": "366a76210331"
+  },
+  "l07-ph-clarify-uk": {
+   "file": "l07-ph-clarify-uk.mp3",
+   "duration": 1.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Clarify.",
+   "hash": "0727a4599b6c"
+  },
+  "l07-ph-clarify-us": {
+   "file": "l07-ph-clarify-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Clarify.",
+   "hash": "fce52dc9644d"
+  },
+  "l07-ph-exactly-ex": {
+   "file": "l07-ph-exactly-ex.mp3",
+   "duration": 4.79,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Exactly. Anything works, nothing fancy.",
+   "hash": "306abff6beb9"
+  },
+  "l07-ph-exactly-slow": {
+   "file": "l07-ph-exactly-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Exactly.",
+   "hash": "55655528947b"
+  },
+  "l07-ph-exactly-uk": {
+   "file": "l07-ph-exactly-uk.mp3",
+   "duration": 1.42,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Exactly.",
+   "hash": "a6e45548f359"
+  },
+  "l07-ph-exactly-us": {
+   "file": "l07-ph-exactly-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Exactly.",
+   "hash": "e32af161c61b"
+  },
+  "l07-ph-isnt-it-ex": {
+   "file": "l07-ph-isnt-it-ex.mp3",
+   "duration": 2.19,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The meeting's at seven, isn't it?",
+   "hash": "609f716ee198",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.33,
+     "end": 1.891,
+     "slope": 6.6,
+     "method": "single"
+    }
+   ]
+  },
+  "l07-ph-isnt-it-fall": {
+   "file": "l07-ph-isnt-it-fall.mp3",
+   "duration": 2.15,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "It's a lovely day, isn't it?",
+   "hash": "89802514cd10",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.29,
+     "end": 1.848,
+     "slope": -6.6,
+     "method": "single"
+    }
+   ]
+  },
+  "l07-ph-isnt-it-rise": {
+   "file": "l07-ph-isnt-it-rise.mp3",
+   "duration": 2.0,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "It's at seven, isn't it?",
+   "hash": "32873a26e394",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.05,
+     "end": 1.699,
+     "slope": 6.0,
+     "method": "single"
+    }
+   ]
+  },
+  "l07-ph-isnt-it-slow": {
+   "file": "l07-ph-isnt-it-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Isn't it?",
+   "hash": "cd6cc8b2128f"
+  },
+  "l07-ph-isnt-it-uk": {
+   "file": "l07-ph-isnt-it-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Isn't it?",
+   "hash": "ee485205663d"
+  },
+  "l07-ph-isnt-it-us": {
+   "file": "l07-ph-isnt-it-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Isn't it?",
+   "hash": "bf9d7f3b5e6c"
+  },
+  "l07-ph-pardon-ex": {
+   "file": "l07-ph-pardon-ex.mp3",
+   "duration": 3.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Pardon? I didn't quite catch your name.",
+   "hash": "6ca344e4a7b8"
+  },
+  "l07-ph-pardon-slow": {
+   "file": "l07-ph-pardon-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Pardon?",
+   "hash": "029a083752f4"
+  },
+  "l07-ph-pardon-uk": {
+   "file": "l07-ph-pardon-uk.mp3",
+   "duration": 1.55,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Pardon?",
+   "hash": "549beb770a9c"
+  },
+  "l07-ph-pardon-us": {
+   "file": "l07-ph-pardon-us.mp3",
+   "duration": 1.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Pardon?",
+   "hash": "f3e93f4bd895"
+  },
+  "l07-ph-what-do-you-mean-ex": {
+   "file": "l07-ph-what-do-you-mean-ex.mp3",
+   "duration": 2.34,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Sorry, what do you mean by potluck?",
+   "hash": "115bfa4f1738"
+  },
+  "l07-ph-what-do-you-mean-slow": {
+   "file": "l07-ph-what-do-you-mean-slow.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "What do you mean?",
+   "hash": "3536c30b5142"
+  },
+  "l07-ph-what-do-you-mean-uk": {
+   "file": "l07-ph-what-do-you-mean-uk.mp3",
+   "duration": 1.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "What do you mean?",
+   "hash": "19a1eb8dd52f"
+  },
+  "l07-ph-what-do-you-mean-us": {
+   "file": "l07-ph-what-do-you-mean-us.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "What do you mean?",
+   "hash": "5d9a4c43240e"
+  },
+  "l07-reg-c1": {
+   "file": "l07-reg-c1.mp3",
+   "duration": 1.57,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Wait, what do you mean?",
+   "hash": "6d05a85a1c22"
+  },
+  "l07-reg-c2": {
+   "file": "l07-reg-c2.mp3",
+   "duration": 1.89,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Sorry, say that again?",
+   "hash": "4171df5440f4"
+  },
+  "l07-reg-f1": {
+   "file": "l07-reg-f1.mp3",
+   "duration": 4.6,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I'm sorry, I didn't quite catch that. Would you mind repeating it?",
+   "hash": "05558ae565df"
+  },
+  "l07-reg-f2": {
+   "file": "l07-reg-f2.mp3",
+   "duration": 3.75,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Could you clarify what you mean by 'flexible hours'?",
+   "hash": "dec93982f055"
+  },
+  "l07-reg-n1": {
+   "file": "l07-reg-n1.mp3",
+   "duration": 2.47,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Sorry, could you repeat that, please?",
+   "hash": "ecdc874f441f"
+  },
+  "l07-reg-n2": {
+   "file": "l07-reg-n2.mp3",
+   "duration": 1.91,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "What do you mean by 'potluck'?",
+   "hash": "e6d8558bbf82"
+  },
+  "l07-reg-n3": {
+   "file": "l07-reg-n3.mp3",
+   "duration": 3.45,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Just to make sure I understand, we meet at the station, right?",
+   "hash": "9cff370b0a62"
+  },
+  "l07-scn": {
+   "file": "l07-scn.mp3",
+   "duration": 22.33,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Hi Sarah, it's Oliver from Global Connect. Just a quick message about Thursday's session. We're meeting at seven this time, not at six, at the café on Bridge Street, the one next to the station. Could you bring the name tags? Oh, and it's a potluck, so bring something small to share. Cheers!",
+   "hash": "59d72e6a6207"
+  },
+  "l07-task-formal": {
+   "file": "l07-task-formal.mp3",
+   "duration": 10.61,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Could you please clarify the exact time and location of Saturday's event? I would also appreciate it if you could confirm what we are expected to bring.",
+   "hash": "e17f586fd6b7"
+  },
+  "l07-task-input": {
+   "file": "l07-task-input.mp3",
+   "duration": 8.94,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Hey! So, the thing's on Saturday at the place near the park. Bring the stuff, and we need it all there before ten-ish, yeah? See you!",
+   "hash": "60a939eea290"
+  },
+  "l07-task-model": {
+   "file": "l07-task-model.mp3",
+   "duration": 25.17,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Leo, thanks for the message! Just a couple of quick questions. What do you mean by 'the thing'? Is it Maya's birthday picnic? It's on Saturday, isn't it? And sorry, which place near the park do you mean, the café or the playground? Also, could you tell me what 'the stuff' is? Plates? Drinks? Just to make sure I understand: we need everything there before ten, right? Thanks!",
+   "hash": "6337a5e5888d",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 9.355,
+     "end": 9.875,
+     "slope": 7.0,
+     "method": "single"
+    }
+   ]
+  },
+  "l08-cc-1a": {
+   "file": "l08-cc-1a.mp3",
+   "duration": 2.66,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I've just sent you an email with the details.",
+   "hash": "8db1627a11e3"
+  },
+  "l08-cc-1b": {
+   "file": "l08-cc-1b.mp3",
+   "duration": 2.53,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Priya has just started a new project.",
+   "hash": "44ae6b61cdbc"
+  },
+  "l08-cc-2a": {
+   "file": "l08-cc-2a.mp3",
+   "duration": 2.43,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "How have you been since we last met?",
+   "hash": "8a5814f76d1e"
+  },
+  "l08-cc-2b": {
+   "file": "l08-cc-2b.mp3",
+   "duration": 1.96,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Have you heard from Rita lately?",
+   "hash": "9524bbc97ea7"
+  },
+  "l08-cc-3a": {
+   "file": "l08-cc-3a.mp3",
+   "duration": 2.51,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Let's catch up over coffee next week.",
+   "hash": "e5bef19d0723"
+  },
+  "l08-cc-3b": {
+   "file": "l08-cc-3b.mp3",
+   "duration": 2.79,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Feel free to reach out if you need anything.",
+   "hash": "c98ab9c79ae6"
+  },
+  "l08-dict-1": {
+   "file": "l08-dict-1.mp3",
+   "duration": 4.17,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "It was so nice to meet you on Thursday. Let's keep in touch!",
+   "hash": "53c6f7af6a28"
+  },
+  "l08-dlg-01": {
+   "file": "l08-dlg-01.mp3",
+   "duration": 3.02,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "So, have you heard from your friends in Lisbon lately?",
+   "hash": "3da62edd4240"
+  },
+  "l08-dlg-02": {
+   "file": "l08-dlg-02.mp3",
+   "duration": 6.28,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Not really. We lost touch after I moved here. It's been ages since I last talked to them.",
+   "hash": "dd3bb9548b13"
+  },
+  "l08-dlg-03": {
+   "file": "l08-dlg-03.mp3",
+   "duration": 5.49,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "That happens. I've just reconnected with an old classmate from Toronto, actually.",
+   "hash": "b30503ffd928"
+  },
+  "l08-dlg-04": {
+   "file": "l08-dlg-04.mp3",
+   "duration": 2.89,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Oh, really? How did that happen?",
+   "hash": "3e49a1569976"
+  },
+  "l08-dlg-05": {
+   "file": "l08-dlg-05.mp3",
+   "duration": 5.03,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "She sent me a message on my birthday last month, and we've talked every week since then.",
+   "hash": "4fd6d2fdab85"
+  },
+  "l08-dlg-06": {
+   "file": "l08-dlg-06.mp3",
+   "duration": 5.94,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "That's lovely. Maybe I should reach out to my friend Rita. She's moved to Berlin, I think.",
+   "hash": "93933dc9c65c"
+  },
+  "l08-dlg-07": {
+   "file": "l08-dlg-07.mp3",
+   "duration": 7.02,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "You should! A short message is enough. Something like, 'Hey, I've been thinking about you. How have you been?'",
+   "hash": "2723e9ecaa8e"
+  },
+  "l08-dlg-08": {
+   "file": "l08-dlg-08.mp3",
+   "duration": 4.96,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "You're right. I'll write to her tonight and suggest a video call to catch up.",
+   "hash": "e992edff4931"
+  },
+  "l08-gd": {
+   "file": "l08-gd.mp3",
+   "duration": 5.37,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I have just sent you the photos from Thursday. By the way, I saw Leo at the café yesterday!",
+   "hash": "6e7bdd292be6"
+  },
+  "l08-ph-attached-ex": {
+   "file": "l08-ph-attached-ex.mp3",
+   "duration": 2.23,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I've attached the photos from the meetup.",
+   "hash": "81e2fba323d3"
+  },
+  "l08-ph-attached-slow": {
+   "file": "l08-ph-attached-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Attached.",
+   "hash": "dd0c49471fb2"
+  },
+  "l08-ph-attached-uk": {
+   "file": "l08-ph-attached-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Attached.",
+   "hash": "536e36b66201"
+  },
+  "l08-ph-attached-us": {
+   "file": "l08-ph-attached-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Attached.",
+   "hash": "c144d7326614"
+  },
+  "l08-ph-catch-up-ex": {
+   "file": "l08-ph-catch-up-ex.mp3",
+   "duration": 2.51,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Let's catch up over coffee next week.",
+   "hash": "e5bef19d0723"
+  },
+  "l08-ph-catch-up-slow": {
+   "file": "l08-ph-catch-up-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Catch up.",
+   "hash": "bcfc5310d077"
+  },
+  "l08-ph-catch-up-uk": {
+   "file": "l08-ph-catch-up-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Catch up.",
+   "hash": "ad04d7cbe642"
+  },
+  "l08-ph-catch-up-us": {
+   "file": "l08-ph-catch-up-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Catch up.",
+   "hash": "0217c2d48663"
+  },
+  "l08-ph-follow-up-ex": {
+   "file": "l08-ph-follow-up-ex.mp3",
+   "duration": 3.36,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'll send a quick follow-up email after the meeting.",
+   "hash": "af8205f22655"
+  },
+  "l08-ph-follow-up-noun": {
+   "file": "l08-ph-follow-up-noun.mp3",
+   "duration": 2.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I sent her a follow-up email.",
+   "hash": "3a52b838ccd0"
+  },
+  "l08-ph-follow-up-slow": {
+   "file": "l08-ph-follow-up-slow.mp3",
+   "duration": 2.23,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "A follow-up email.",
+   "hash": "f9b00ee2634c"
+  },
+  "l08-ph-follow-up-uk": {
+   "file": "l08-ph-follow-up-uk.mp3",
+   "duration": 1.81,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "A follow-up email.",
+   "hash": "bc4fcd72e431"
+  },
+  "l08-ph-follow-up-us": {
+   "file": "l08-ph-follow-up-us.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "A follow-up email.",
+   "hash": "941b2e292d1d"
+  },
+  "l08-ph-follow-up-verb": {
+   "file": "l08-ph-follow-up-verb.mp3",
+   "duration": 1.83,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I'll follow up tomorrow.",
+   "hash": "0d6de2871d5c"
+  },
+  "l08-ph-heard-ex": {
+   "file": "l08-ph-heard-ex.mp3",
+   "duration": 2.77,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Have you heard from your friends in Lisbon lately?",
+   "hash": "ae880c402f5e"
+  },
+  "l08-ph-heard-slow": {
+   "file": "l08-ph-heard-slow.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Heard.",
+   "hash": "b07849e1187b"
+  },
+  "l08-ph-heard-uk": {
+   "file": "l08-ph-heard-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Heard.",
+   "hash": "6234d187d84b"
+  },
+  "l08-ph-heard-us": {
+   "file": "l08-ph-heard-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Heard.",
+   "hash": "d9b5935b919f"
+  },
+  "l08-ph-recently-ex": {
+   "file": "l08-ph-recently-ex.mp3",
+   "duration": 2.19,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Have you spoken to Rita recently?",
+   "hash": "2e90faee59da"
+  },
+  "l08-ph-recently-slow": {
+   "file": "l08-ph-recently-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Recently.",
+   "hash": "cf6b733dcf32"
+  },
+  "l08-ph-recently-uk": {
+   "file": "l08-ph-recently-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Recently.",
+   "hash": "144e532c88ab"
+  },
+  "l08-ph-recently-us": {
+   "file": "l08-ph-recently-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Recently.",
+   "hash": "f57417f3e7f5"
+  },
+  "l08-reg-c1": {
+   "file": "l08-reg-c1.mp3",
+   "duration": 3.89,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Hey! Long time no see. How've you been?",
+   "hash": "7b55f1fdd415"
+  },
+  "l08-reg-c2": {
+   "file": "l08-reg-c2.mp3",
+   "duration": 1.61,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Let's catch up soon!",
+   "hash": "78bceb17f242"
+  },
+  "l08-reg-f1": {
+   "file": "l08-reg-f1.mp3",
+   "duration": 3.3,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Thank you for taking the time to meet with me last week.",
+   "hash": "5c498d1dbe22"
+  },
+  "l08-reg-f2": {
+   "file": "l08-reg-f2.mp3",
+   "duration": 3.53,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I am writing to follow up on our recent meeting.",
+   "hash": "5a00569d7d8d"
+  },
+  "l08-reg-f3": {
+   "file": "l08-reg-f3.mp3",
+   "duration": 2.34,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I look forward to hearing from you.",
+   "hash": "2db4e548ffda"
+  },
+  "l08-reg-n1": {
+   "file": "l08-reg-n1.mp3",
+   "duration": 2.13,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It was great to meet you at the meetup.",
+   "hash": "c7e43547385d"
+  },
+  "l08-reg-n2": {
+   "file": "l08-reg-n2.mp3",
+   "duration": 3.36,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I just wanted to follow up on our conversation.",
+   "hash": "155c456d95e4"
+  },
+  "l08-scn": {
+   "file": "l08-scn.mp3",
+   "duration": 17.61,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi Sarah! It was so nice to meet you on Thursday. I've just looked up that graphic design course you mentioned, and it looks great! Have you signed up yet? Also, I've attached the photos from the meetup. Let's keep in touch. Maybe grab a coffee next week? Talk soon, Priya.",
+   "hash": "53bdbdb12679"
+  },
+  "l08-task-formal": {
+   "file": "l08-task-formal.mp3",
+   "duration": 10.69,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Dear Mr Hall, thank you for taking the time to speak with me at the networking event last Thursday. As promised, I have attached my portfolio. I look forward to hearing from you.",
+   "hash": "dfbea1729f02"
+  },
+  "l08-task-model": {
+   "file": "l08-task-model.mp3",
+   "duration": 24.15,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Priya, it was great to meet you at the meetup last Thursday! I've just signed up for the graphic design course you recommended. The first class is next Monday, and I'm really excited. You mentioned that you're working on a new app for a travel company. How's it going? Would you like to catch up over coffee next week? I'd love to hear more about your work. Let's keep in touch! Talk soon, Sarah",
+   "hash": "93d645734c9f"
+  },
+  "l09-cc-1a": {
+   "file": "l09-cc-1a.mp3",
+   "duration": 2.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Have you ever been to a language exchange?",
+   "hash": "32d24bea16b0"
+  },
+  "l09-cc-1b": {
+   "file": "l09-cc-1b.mp3",
+   "duration": 2.45,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I've never tried rock climbing.",
+   "hash": "a94953c1a2cf"
+  },
+  "l09-cc-2a": {
+   "file": "l09-cc-2a.mp3",
+   "duration": 2.89,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Yes, I went climbing for the first time last month.",
+   "hash": "4fb4dd7a9a0d"
+  },
+  "l09-cc-2b": {
+   "file": "l09-cc-2b.mp3",
+   "duration": 3.74,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I've met him before. We met at Oliver's party.",
+   "hash": "98e092c8b642"
+  },
+  "l09-cc-3a": {
+   "file": "l09-cc-3a.mp3",
+   "duration": 2.72,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Leo, let me introduce you to Priya.",
+   "hash": "40c667190fd7"
+  },
+  "l09-cc-3b": {
+   "file": "l09-cc-3b.mp3",
+   "duration": 3.51,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Allow me to introduce my colleague, Emma Clarke.",
+   "hash": "e69d6bef881d"
+  },
+  "l09-dict-1": {
+   "file": "l09-dict-1.mp3",
+   "duration": 5.32,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.9,
+   "text": "Count me in! I'll make a group chat so we can organise it.",
+   "hash": "fbb25dc27f44"
+  },
+  "l09-dlg-01": {
+   "file": "l09-dlg-01.mp3",
+   "duration": 5.86,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Alex, have you met Priya? She's the designer I told you about.",
+   "hash": "e7f5957af205"
+  },
+  "l09-dlg-02": {
+   "file": "l09-dlg-02.mp3",
+   "duration": 6.9,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "No, I haven't. Nice to meet you, Priya. Oliver has told me great things about your work.",
+   "hash": "baddbcdaa525"
+  },
+  "l09-dlg-03": {
+   "file": "l09-dlg-03.mp3",
+   "duration": 5.53,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Oh, that's kind! Nice to meet you too. Have you been to one of these events before?",
+   "hash": "9b01f152ec36"
+  },
+  "l09-dlg-04": {
+   "file": "l09-dlg-04.mp3",
+   "duration": 5.24,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Yes, I came to one last spring, but I didn't know anyone, so I left early.",
+   "hash": "54abc139ee40"
+  },
+  "l09-dlg-05": {
+   "file": "l09-dlg-05.mp3",
+   "duration": 6.28,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I know the feeling! Have you ever tried the climbing group Leo goes to? It's a great way to meet people.",
+   "hash": "9a78ac90dc8c"
+  },
+  "l09-dlg-06": {
+   "file": "l09-dlg-06.mp3",
+   "duration": 5.51,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I haven't, but I've always wanted to try climbing. Is it hard for beginners?",
+   "hash": "71f94f694367"
+  },
+  "l09-dlg-07": {
+   "file": "l09-dlg-07.mp3",
+   "duration": 5.81,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Not at all. I went for the first time last month, and I loved it. We should all go together.",
+   "hash": "08d3b3463fe5"
+  },
+  "l09-dlg-08": {
+   "file": "l09-dlg-08.mp3",
+   "duration": 5.15,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Count me in! I'll make a group chat so we can organise it.",
+   "hash": "ab8a5b4cc131"
+  },
+  "l09-gd": {
+   "file": "l09-gd.mp3",
+   "duration": 5.6,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Have you ever tried climbing? Yes, I tried it last summer, and I've gone back twice since then.",
+   "hash": "85b859f4636c"
+  },
+  "l09-ph-acquaintance-ex": {
+   "file": "l09-ph-acquaintance-ex.mp3",
+   "duration": 3.81,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "He's not a close friend, just an acquaintance from work.",
+   "hash": "062a1d845364"
+  },
+  "l09-ph-acquaintance-slow": {
+   "file": "l09-ph-acquaintance-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Acquaintance.",
+   "hash": "72414c5bb3a0"
+  },
+  "l09-ph-acquaintance-uk": {
+   "file": "l09-ph-acquaintance-uk.mp3",
+   "duration": 1.49,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Acquaintance.",
+   "hash": "2f79851f0f1d"
+  },
+  "l09-ph-acquaintance-us": {
+   "file": "l09-ph-acquaintance-us.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Acquaintance.",
+   "hash": "c3443345efaa"
+  },
+  "l09-ph-hang-out-ex": {
+   "file": "l09-ph-hang-out-ex.mp3",
+   "duration": 2.15,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We're hanging out again this weekend.",
+   "hash": "7cf44fc64947"
+  },
+  "l09-ph-hang-out-slow": {
+   "file": "l09-ph-hang-out-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Hang out.",
+   "hash": "a880711403d0"
+  },
+  "l09-ph-hang-out-uk": {
+   "file": "l09-ph-hang-out-uk.mp3",
+   "duration": 1.59,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Hang out.",
+   "hash": "8e023a6f3571"
+  },
+  "l09-ph-hang-out-us": {
+   "file": "l09-ph-hang-out-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Hang out.",
+   "hash": "f7e82d83b0bc"
+  },
+  "l09-ph-have-you-ever-ex": {
+   "file": "l09-ph-have-you-ever-ex.mp3",
+   "duration": 2.94,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Have you ever tried the climbing group Leo goes to?",
+   "hash": "f0668986376b"
+  },
+  "l09-ph-have-you-ever-slow": {
+   "file": "l09-ph-have-you-ever-slow.mp3",
+   "duration": 1.83,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Have you ever?",
+   "hash": "84f897f97716"
+  },
+  "l09-ph-have-you-ever-uk": {
+   "file": "l09-ph-have-you-ever-uk.mp3",
+   "duration": 1.53,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Have you ever?",
+   "hash": "96263fc8d657"
+  },
+  "l09-ph-have-you-ever-us": {
+   "file": "l09-ph-have-you-ever-us.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Have you ever?",
+   "hash": "a6a0925d8f1d"
+  },
+  "l09-ph-honest-ex": {
+   "file": "l09-ph-honest-ex.mp3",
+   "duration": 3.19,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "To be honest, I was nervous before my first session.",
+   "hash": "abca0775ca73"
+  },
+  "l09-ph-honest-slow": {
+   "file": "l09-ph-honest-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Honest.",
+   "hash": "2e63e4bc6aa0"
+  },
+  "l09-ph-honest-uk": {
+   "file": "l09-ph-honest-uk.mp3",
+   "duration": 1.17,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Honest.",
+   "hash": "1b9bb4cd9a29"
+  },
+  "l09-ph-honest-us": {
+   "file": "l09-ph-honest-us.mp3",
+   "duration": 1.23,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Honest.",
+   "hash": "41a9b1c25103"
+  },
+  "l09-ph-introduce-ex": {
+   "file": "l09-ph-introduce-ex.mp3",
+   "duration": 2.72,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Leo, let me introduce you to Priya.",
+   "hash": "40c667190fd7"
+  },
+  "l09-ph-introduce-slow": {
+   "file": "l09-ph-introduce-slow.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Introduce.",
+   "hash": "e829fb6f6c73"
+  },
+  "l09-ph-introduce-uk": {
+   "file": "l09-ph-introduce-uk.mp3",
+   "duration": 1.53,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Introduce.",
+   "hash": "b7c3a65baf2c"
+  },
+  "l09-ph-introduce-us": {
+   "file": "l09-ph-introduce-us.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Introduce.",
+   "hash": "ca7c7e19a285"
+  },
+  "l09-reg-c1": {
+   "file": "l09-reg-c1.mp3",
+   "duration": 2.87,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "This is my buddy Leo. He's awesome.",
+   "hash": "22c2a846689b"
+  },
+  "l09-reg-c2": {
+   "file": "l09-reg-c2.mp3",
+   "duration": 1.61,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We totally hit it off!",
+   "hash": "f23085dfb390"
+  },
+  "l09-reg-f1": {
+   "file": "l09-reg-f1.mp3",
+   "duration": 3.51,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Allow me to introduce my colleague, Emma Clarke.",
+   "hash": "e69d6bef881d"
+  },
+  "l09-reg-f2": {
+   "file": "l09-reg-f2.mp3",
+   "duration": 2.51,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "It's a pleasure to make your acquaintance.",
+   "hash": "2f2bf61b8910"
+  },
+  "l09-reg-n1": {
+   "file": "l09-reg-n1.mp3",
+   "duration": 4.58,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Have you two met? Alex, this is Priya.",
+   "hash": "df3c31b67b89"
+  },
+  "l09-reg-n2": {
+   "file": "l09-reg-n2.mp3",
+   "duration": 3.72,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'd love to stay in touch. Are you on LinkedIn?",
+   "hash": "2733b3deab06"
+  },
+  "l09-scn": {
+   "file": "l09-scn.mp3",
+   "duration": 17.97,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Hey Maya! Guess what? I've finally joined that climbing group I told you about. I went to my first session on Saturday, and everyone was super friendly. I've already made a couple of friends, and we're hanging out again this weekend. Have you ever tried climbing? You should come with us!",
+   "hash": "a08419a757f8"
+  },
+  "l09-task-formal": {
+   "file": "l09-task-formal.mp3",
+   "duration": 14.58,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Dear Ms Clarke, allow me to introduce Priya Shah, a UX designer who has worked on several projects for travel companies. I believe you would both benefit from a conversation about the new booking platform.",
+   "hash": "ca68d9ca2363"
+  },
+  "l09-task-model": {
+   "file": "l09-task-model.mp3",
+   "duration": 27.39,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Hi both! I'd love you two to meet. Leo, this is Priya. She's a UX designer, and she's just joined our climbing group. Priya, this is Leo. He works at a café and makes the best playlists ever. You've both been to Lisbon, so you'll have plenty to talk about! Last week, Priya told me she wants to learn the guitar, and Leo has taught guitar for years. Why don't we all hang out this Saturday? I think you'll really hit it off!",
+   "hash": "70ac98ec6d82"
+  },
+  "l10-cc-1a": {
+   "file": "l10-cc-1a.mp3",
+   "duration": 2.57,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Morning! How was your weekend?",
+   "hash": "6b0bde5bd810"
+  },
+  "l10-cc-1b": {
+   "file": "l10-cc-1b.mp3",
+   "duration": 3.4,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Lovely weather today, isn't it?",
+   "hash": "be875fc4dc20",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.948,
+     "end": 3.1,
+     "slope": -6.6,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-cc-2a": {
+   "file": "l10-cc-2a.mp3",
+   "duration": 3.06,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "You went hiking on Sunday, didn't you?",
+   "hash": "6c4f6e78855e",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.82,
+     "end": 2.759,
+     "slope": -4.9,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-cc-2b": {
+   "file": "l10-cc-2b.mp3",
+   "duration": 3.12,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "You've been to that café before, haven't you?",
+   "hash": "91fa2989546d",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.927,
+     "end": 2.823,
+     "slope": -6.2,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-cc-2c": {
+   "file": "l10-cc-2c.mp3",
+   "duration": 2.99,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We haven't met before, have we?",
+   "hash": "61beab186fd5",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.841,
+     "end": 2.695,
+     "slope": 5.9,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-cc-3a": {
+   "file": "l10-cc-3a.mp3",
+   "duration": 4.02,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Anyway, I'd better get back to work. See you at lunch!",
+   "hash": "bbf0316de7c0"
+  },
+  "l10-cc-3b": {
+   "file": "l10-cc-3b.mp3",
+   "duration": 4.45,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "It was a pleasure speaking with you. Enjoy the rest of your day.",
+   "hash": "5fc93203030c"
+  },
+  "l10-dict-1": {
+   "file": "l10-dict-1.mp3",
+   "duration": 3.09,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.9,
+   "text": "It's actually kind of fun once you get used to it.",
+   "hash": "7e178f421867"
+  },
+  "l10-dlg-01": {
+   "file": "l10-dlg-01.mp3",
+   "duration": 5.55,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Morning, Ryan! Lovely weather today, isn't it?",
+   "hash": "3c7eef26fdff",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 4.099,
+     "end": 5.251,
+     "slope": -6.6,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-dlg-02": {
+   "file": "l10-dlg-02.mp3",
+   "duration": 4.25,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "It really is. Finally some sun! How was your weekend?",
+   "hash": "9eca026e8f61"
+  },
+  "l10-dlg-03": {
+   "file": "l10-dlg-03.mp3",
+   "duration": 7.73,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Not bad, thanks. I went hiking in the hills on Sunday. Have you been there yet?",
+   "hash": "224e947a2406"
+  },
+  "l10-dlg-04": {
+   "file": "l10-dlg-04.mp3",
+   "duration": 3.83,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Not yet, but I've heard it's beautiful. Did you go with friends?",
+   "hash": "77982b2b1fad"
+  },
+  "l10-dlg-05": {
+   "file": "l10-dlg-05.mp3",
+   "duration": 6.72,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Yes, with a few people from the meetup. You're coming on Thursday, aren't you?",
+   "hash": "01ac5cb7dd60",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 5.315,
+     "end": 6.424,
+     "slope": 6.7,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-dlg-06": {
+   "file": "l10-dlg-06.mp3",
+   "duration": 4.55,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Definitely. Oh, by the way, this coffee machine is a bit slow, isn't it?",
+   "hash": "e8a891e6e109",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 3.769,
+     "end": 4.254,
+     "slope": -6.4,
+     "method": "single"
+    }
+   ]
+  },
+  "l10-dlg-07": {
+   "file": "l10-dlg-07.mp3",
+   "duration": 9.11,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Tell me about it! It takes ages. Anyway, I'd better get back to my desk. Catch you later!",
+   "hash": "2478d9aaa992"
+  },
+  "l10-dlg-08": {
+   "file": "l10-dlg-08.mp3",
+   "duration": 1.36,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "See you at lunch!",
+   "hash": "f1e634128708"
+  },
+  "l10-gd": {
+   "file": "l10-gd.mp3",
+   "duration": 5.44,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "You went to the meetup last night, didn't you? And you've been to that café before, haven't you?",
+   "hash": "c551183dd0f4",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.48,
+     "end": 2.083,
+     "slope": -6.8,
+     "method": "single"
+    },
+    {
+     "tone": "fall",
+     "start": 4.334,
+     "end": 5.144,
+     "slope": -6.3,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-into-1": {
+   "file": "l10-into-1.mp3",
+   "duration": 3.4,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Lovely weather today, isn't it?",
+   "hash": "be875fc4dc20",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.948,
+     "end": 3.1,
+     "slope": -6.6,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-into-2": {
+   "file": "l10-into-2.mp3",
+   "duration": 2.99,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We haven't met before, have we?",
+   "hash": "61beab186fd5",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.841,
+     "end": 2.695,
+     "slope": 5.9,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-ph-busy-ex": {
+   "file": "l10-ph-busy-ex.mp3",
+   "duration": 2.78,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "It's been a busy week, hasn't it?",
+   "hash": "d9ad57bcad0d",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.543,
+     "end": 2.481,
+     "slope": -6.4,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-ph-busy-slow": {
+   "file": "l10-ph-busy-slow.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Busy.",
+   "hash": "7c993f1d5365"
+  },
+  "l10-ph-busy-uk": {
+   "file": "l10-ph-busy-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Busy.",
+   "hash": "c89b79975522"
+  },
+  "l10-ph-busy-us": {
+   "file": "l10-ph-busy-us.mp3",
+   "duration": 1.15,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Busy.",
+   "hash": "2263f0449ee1"
+  },
+  "l10-ph-hows-it-going-ex": {
+   "file": "l10-ph-hows-it-going-ex.mp3",
+   "duration": 2.57,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Hey Ryan! How's it going?",
+   "hash": "23584c4e9069"
+  },
+  "l10-ph-hows-it-going-slow": {
+   "file": "l10-ph-hows-it-going-slow.mp3",
+   "duration": 1.87,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "How's it going?",
+   "hash": "a19db68d2f32"
+  },
+  "l10-ph-hows-it-going-uk": {
+   "file": "l10-ph-hows-it-going-uk.mp3",
+   "duration": 1.66,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "How's it going?",
+   "hash": "3e9799b89d21"
+  },
+  "l10-ph-hows-it-going-us": {
+   "file": "l10-ph-hows-it-going-us.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "How's it going?",
+   "hash": "d7238224777c"
+  },
+  "l10-ph-lovely-ex": {
+   "file": "l10-ph-lovely-ex.mp3",
+   "duration": 3.4,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Lovely weather today, isn't it?",
+   "hash": "be875fc4dc20",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.948,
+     "end": 3.1,
+     "slope": -6.6,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-ph-lovely-slow": {
+   "file": "l10-ph-lovely-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Lovely.",
+   "hash": "6671b093616e"
+  },
+  "l10-ph-lovely-uk": {
+   "file": "l10-ph-lovely-uk.mp3",
+   "duration": 1.55,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Lovely.",
+   "hash": "ff309d7039b8"
+  },
+  "l10-ph-lovely-us": {
+   "file": "l10-ph-lovely-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Lovely.",
+   "hash": "e7eabf770858"
+  },
+  "l10-ph-tell-me-about-it-ex": {
+   "file": "l10-ph-tell-me-about-it-ex.mp3",
+   "duration": 3.91,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Tell me about it! It takes ages.",
+   "hash": "b25316c0bcbc"
+  },
+  "l10-ph-tell-me-about-it-slow": {
+   "file": "l10-ph-tell-me-about-it-slow.mp3",
+   "duration": 1.91,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Tell me about it!",
+   "hash": "df06f32b44c4"
+  },
+  "l10-ph-tell-me-about-it-uk": {
+   "file": "l10-ph-tell-me-about-it-uk.mp3",
+   "duration": 1.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Tell me about it!",
+   "hash": "5ca9dec86a0d"
+  },
+  "l10-ph-tell-me-about-it-us": {
+   "file": "l10-ph-tell-me-about-it-us.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Tell me about it!",
+   "hash": "832f81327ff1"
+  },
+  "l10-ph-weekend-ex": {
+   "file": "l10-ph-weekend-ex.mp3",
+   "duration": 1.53,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "How was your weekend?",
+   "hash": "2da887fe8bac"
+  },
+  "l10-ph-weekend-slow": {
+   "file": "l10-ph-weekend-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Weekend.",
+   "hash": "da1174bf5f24"
+  },
+  "l10-ph-weekend-uk": {
+   "file": "l10-ph-weekend-uk.mp3",
+   "duration": 1.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Weekend.",
+   "hash": "7e6d55a9c86a"
+  },
+  "l10-ph-weekend-us": {
+   "file": "l10-ph-weekend-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Weekend.",
+   "hash": "7423048cc91f"
+  },
+  "l10-reg-c1": {
+   "file": "l10-reg-c1.mp3",
+   "duration": 1.36,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "How's it going?",
+   "hash": "f424282fbc87"
+  },
+  "l10-reg-c2": {
+   "file": "l10-reg-c2.mp3",
+   "duration": 1.36,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Catch you later!",
+   "hash": "46546d66c8e0"
+  },
+  "l10-reg-f1": {
+   "file": "l10-reg-f1.mp3",
+   "duration": 3.85,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Good morning. I hope you had a pleasant weekend.",
+   "hash": "81083017a2c2"
+  },
+  "l10-reg-f2": {
+   "file": "l10-reg-f2.mp3",
+   "duration": 2.7,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "It was a pleasure speaking with you.",
+   "hash": "8c92a4e9def9"
+  },
+  "l10-reg-n1": {
+   "file": "l10-reg-n1.mp3",
+   "duration": 1.53,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "How was your weekend?",
+   "hash": "2da887fe8bac"
+  },
+  "l10-reg-n2": {
+   "file": "l10-reg-n2.mp3",
+   "duration": 3.23,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Nice weather today, isn't it?",
+   "hash": "9426504b4b88",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.777,
+     "end": 2.929,
+     "slope": -6.6,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-scn": {
+   "file": "l10-scn.mp3",
+   "duration": 19.99,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Hey Alex, quick update on the new internship. Everyone's really nice, but there's so much small talk! Every morning someone asks, 'How was your weekend?' or 'Lovely weather, isn't it?' I've learned a few tricks, though. Ask a simple question, listen, and add something about yourself. It's actually kind of fun once you get used to it!",
+   "hash": "c68d9781dd0a"
+  },
+  "l10-task-formal": {
+   "file": "l10-task-formal.mp3",
+   "duration": 5.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "It was a pleasure speaking with you, Mr Hall. I hope you enjoy the rest of the conference.",
+   "hash": "2d3522a7722d"
+  },
+  "l10-task-model-1": {
+   "file": "l10-task-model-1.mp3",
+   "duration": 3.64,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Morning! Lovely weather today, isn't it?",
+   "hash": "bdc8016eec22",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 2.833,
+     "end": 3.337,
+     "slope": -6.1,
+     "method": "single"
+    }
+   ]
+  },
+  "l10-task-model-2": {
+   "file": "l10-task-model-2.mp3",
+   "duration": 6.6,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "It really is! Finally some sun. How was your weekend?",
+   "hash": "ee5f56996c84"
+  },
+  "l10-task-model-3": {
+   "file": "l10-task-model-3.mp3",
+   "duration": 6.79,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Great, thanks. I went to a cooking class on Saturday. Have you ever taken one?",
+   "hash": "b9c681df9a27"
+  },
+  "l10-task-model-4": {
+   "file": "l10-task-model-4.mp3",
+   "duration": 6.6,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "No, never, but I've always wanted to. You're quite a good cook, aren't you?",
+   "hash": "a94a05eec26d",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 5.186,
+     "end": 6.296,
+     "slope": -6.5,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-task-model-5": {
+   "file": "l10-task-model-5.mp3",
+   "duration": 7.27,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Ha! I'm learning. By the way, you've been to the new café downstairs, haven't you?",
+   "hash": "70d381463df0",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 5.886,
+     "end": 6.974,
+     "slope": 6.9,
+     "method": "split"
+    }
+   ]
+  },
+  "l10-task-model-6": {
+   "file": "l10-task-model-6.mp3",
+   "duration": 6.15,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Yes, I went there yesterday. The coffee's much better than this machine's!",
+   "hash": "1171dc2161e3"
+  },
+  "l10-task-model-7": {
+   "file": "l10-task-model-7.mp3",
+   "duration": 6.43,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Tell me about it! Anyway, I'd better get back to my emails. Catch you later!",
+   "hash": "80633870204a"
+  },
+  "l10-task-model-8": {
+   "file": "l10-task-model-8.mp3",
+   "duration": 1.44,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "See you!",
+   "hash": "4ddfe42860a2"
+  },
+  "m02-rv-dict-1": {
+   "file": "m02-rv-dict-1.mp3",
+   "duration": 3.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.9,
+   "text": "Thank you for taking the time to meet with me last week.",
+   "hash": "4b7ec0830761"
+  },
+  "m02-rv-into-1": {
+   "file": "m02-rv-into-1.mp3",
+   "duration": 2.43,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The meeting starts at seven, doesn't it?",
+   "hash": "4b3da0483bae",
+   "tones": [
+    {
+     "tone": "rise",
+     "start": 1.53,
+     "end": 2.125,
+     "slope": 7.0,
+     "method": "single"
+    }
+   ]
+  },
+  "m02-rv-into-2": {
+   "file": "m02-rv-into-2.mp3",
+   "duration": 2.95,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Lovely day, isn't it?",
+   "hash": "77fb2e38510f",
+   "tones": [
+    {
+     "tone": "fall",
+     "start": 1.5,
+     "end": 2.652,
+     "slope": -6.4,
+     "method": "split"
+    }
+   ]
+  }
+ }
+}

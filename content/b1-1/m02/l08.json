@@ -1,0 +1,280 @@
+{
+  "id": "l08",
+  "n": 8,
+  "title": "Keeping in Touch: Messages, Notes & Follow-up Emails",
+  "titleEs": "Mantener el contacto: mensajes, notas y correos de seguimiento",
+  "minutes": 60,
+  "summary": "Escribe mensajes de seguimiento con have just, How have you been? y keep in touch.",
+  "canDo": [
+    "Puedo escribir un mensaje de seguimiento después de conocer a alguien.",
+    "Puedo dar una novedad reciente con *have just + participio* y situarla en el tiempo con el Past Simple.",
+    "Puedo retomar el contacto con alguien a quien no veo hace tiempo (*How have you been?*).",
+    "Puedo pronunciar *attached* con dos sílabas y la h de *heard* sin jota."
+  ],
+  "focus": {
+    "grammar": "have just + participio (novedad) vs Past Simple (momento concreto); How have you been?",
+    "lexis": "keep in touch, lose touch, catch up, reach out, follow up, It's been ages since…",
+    "afh": "-ed sin sílaba extra (attached); /h/ + /ɜː/ (heard); acento sustantivo / verbo (follow-up)"
+  },
+  "warmup": "¿Hay alguien con quien hayas perdido el contacto y te gustaría escribir? ¿Cómo empezarías el mensaje?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Mensaje de Priya",
+      "context": "El día después del meetup, Priya escribe a Sarah para seguir en contacto.",
+      "speaker": "priya",
+      "to": "Sarah",
+      "audio": "l08-scn",
+      "text": "Hi Sarah! {{It was so nice to meet you}} on Thursday. {{I've just looked up}} that graphic design course {{you mentioned}}, and it looks great! {{Have you signed up yet}}? Also, {{I've attached}} the photos from the meetup. {{Let's keep in touch}}. Maybe {{grab a coffee}} next week? {{Talk soon}}, Priya."
+    },
+    "dialogue": {
+      "title": "Café entre Priya y Sarah",
+      "context": "Una semana después, Priya y Sarah toman un café y hablan de amigos con los que es difícil mantener el contacto.",
+      "lines": [
+        { "speaker": "priya", "audio": "l08-dlg-01", "text": "So, {{have you heard from}} your friends in Lisbon {{lately}}?" },
+        { "speaker": "sarah", "audio": "l08-dlg-02", "text": "Not really. We {{lost touch}} after I moved here. {{It's been ages since I last}} talked to them." },
+        { "speaker": "priya", "audio": "l08-dlg-03", "text": "That happens. {{I've just reconnected}} with an old classmate from Toronto, actually." },
+        { "speaker": "sarah", "audio": "l08-dlg-04", "text": "Oh, really? How did that happen?" },
+        { "speaker": "priya", "audio": "l08-dlg-05", "text": "She {{sent}} me a message on my birthday {{last month}}, and {{we've talked every week since then}}." },
+        { "speaker": "sarah", "audio": "l08-dlg-06", "text": "That's lovely. Maybe I should {{reach out to}} my friend Rita. She's moved to Berlin, I think." },
+        { "speaker": "priya", "audio": "l08-dlg-07", "text": "You should! A short message is enough. Something like, 'Hey, I've been thinking about you. {{How have you been}}?'" },
+        { "speaker": "sarah", "audio": "l08-dlg-08", "text": "You're right. I'll write to her tonight and suggest a video call to {{catch up}}." }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Por qué perdió Sarah el contacto con sus amigos de Lisboa?", "options": ["Porque se mudó", "Porque se enfadaron", "Porque cambió de número"], "answer": 0, "explain": "*We lost touch after I moved here.*" },
+      { "q": "¿Cuándo volvió a contactar Priya con su antigua compañera?", "options": ["Ayer", "Hace años", "El mes pasado, en su cumpleaños"], "answer": 2, "explain": "*She sent me a message on my birthday last month* (momento concreto → Past Simple)." },
+      { "q": "¿Qué va a hacer Sarah esta noche?", "options": ["Llamar a Priya", "Escribir a Rita y proponerle una videollamada", "Viajar a Berlín"], "answer": 1, "explain": "*I'll write to her tonight and suggest a video call to catch up.*" }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, mensajes de texto, redes sociales.",
+        "items": [
+          { "speaker": "leo", "audio": "l08-reg-c1", "text": "Hey! Long time no see. How've you been?", "note": "*Long time no see* = ¡cuánto tiempo! Solo entre amigos." },
+          { "speaker": "maya", "audio": "l08-reg-c2", "text": "Let's catch up soon!", "note": "*Catch up* = ponerse al día." }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Contactos nuevos, compañeros, conocidos.",
+        "items": [
+          { "speaker": "priya", "audio": "l08-reg-n1", "text": "It was great to meet you at the meetup.", "note": "La primera línea clásica de un mensaje de seguimiento." },
+          { "speaker": "alex", "audio": "l08-reg-n2", "text": "I just wanted to follow up on our conversation.", "note": "*Follow up on* = retomar, dar seguimiento a algo." }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Correos profesionales tras una reunión o un evento.",
+        "items": [
+          { "speaker": "emma", "audio": "l08-reg-f1", "text": "Thank you for taking the time to meet with me last week.", "note": "Agradecer el tiempo del otro abre bien un correo formal." },
+          { "speaker": "george", "audio": "l08-reg-f2", "text": "I am writing to follow up on our recent meeting.", "note": "*I am writing to* + motivo: apertura estándar del correo formal." },
+          { "speaker": "emma", "audio": "l08-reg-f3", "text": "I look forward to hearing from you.", "note": "Cierre formal: *look forward to* + -ing (to es preposición, como en el Módulo 1)." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "keep in touch", "es": "mantener el contacto", "register": "neutral" },
+      { "en": "lose touch (with someone)", "es": "perder el contacto (con alguien)", "register": "neutral" },
+      { "en": "catch up", "es": "ponerse al día", "register": "casual" },
+      { "en": "reach out to (someone)", "es": "contactar con, escribir a", "register": "neutral" },
+      { "en": "follow up on (something)", "es": "dar seguimiento a", "register": "neutral" },
+      { "en": "Long time no see!", "es": "¡cuánto tiempo!", "register": "casual" },
+      { "en": "It's been ages since…", "es": "hace siglos que…", "register": "casual" },
+      { "en": "I look forward to hearing from you", "es": "quedo a la espera de su respuesta", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "Long time no see!", "answer": "casual", "explain": "Expresión coloquial entre amigos." },
+      { "text": "I look forward to hearing from you.", "answer": "formal", "explain": "Cierre típico de un correo formal." },
+      { "text": "It was great to meet you.", "answer": "neutral", "explain": "Natural con un contacto nuevo." },
+      { "text": "Let's catch up soon!", "answer": "casual", "explain": "Tono cercano y entusiasta." },
+      { "text": "Thank you for taking the time to meet with me.", "answer": "formal", "explain": "Agradecimiento profesional." },
+      { "text": "I just wanted to follow up on our conversation.", "answer": "neutral", "explain": "Directo y educado, sin rigidez." }
+    ]
+  },
+  "discovery": {
+    "intro": "Dos novedades, dos tiempos verbales. Fíjate en qué palabra fija el momento.",
+    "speaker": "ryan",
+    "audio": "l08-gd",
+    "text": "I {{have just sent}} you the photos from Thursday. By the way, I {{saw}} Leo at the café {{yesterday}}!",
+    "questions": [
+      { "kind": "semantic", "q": "¿Cuándo envió las fotos?", "options": ["Ayer", "Hace un momento, sin decir la hora exacta", "El jueves"], "answer": 1, "explain": "*Have just sent* = acaba de enviarlas. Lo importante es la novedad, no la hora." },
+      { "kind": "syntactic", "q": "¿Por qué *saw* va en Past Simple?", "options": ["Porque *yesterday* fija un momento terminado.", "Porque *see* es irregular.", "Porque es una pregunta."], "answer": 0, "explain": "Con *yesterday*, *last week*, *on Thursday*… el inglés usa Past Simple." },
+      { "kind": "pragmatic", "q": "Empiezas un correo de seguimiento. ¿Qué frase da mejor una novedad reciente?", "options": ["I finished just the report.", "I've just finished the report you asked for.", "I have finished the report yesterday."], "answer": 1, "explain": "*Have just* + participio presenta la novedad como reciente y relevante ahora." }
+    ],
+    "rule": {
+      "points": [
+        "Novedad reciente, sin momento concreto: *have / has + just + participio* (*I've just sent…*).",
+        "Con un momento concreto (*yesterday, last week, on Thursday*): Past Simple.",
+        "Para preguntar por novedades: *Have you heard from…? · Have you … yet? · How have you been?*"
+      ],
+      "formulas": ["have just + participio", "Past Simple + yesterday / last week", "How have you been?"],
+      "note": "En inglés americano informal también oirás *I just sent you the photos* (Past Simple + just). En registro neutro o formal, usa el Present Perfect."
+    }
+  },
+  "phonetics": {
+    "intro": "En los mensajes de seguimiento abundan los verbos en -ed y las palabras con h. Y una pareja que cambia de acento: *a FOLLOW-up* (sustantivo) frente a *to follow UP* (verbo).",
+    "items": [
+      {
+        "id": "catch-up", "term": "Catch up", "pos": "phr. v.", "meaning": "ponerse al día",
+        "ipa": { "us": "/ˌkætʃ ˈʌp/", "uk": "/ˌkætʃ ˈʌp/" },
+        "afh": "ka-CHÁP",
+        "say": "Catch up.",
+        "ttsUs": "[Catch](/kˈæʧ/) up.",
+        "alerts": [
+          { "type": "linking", "text": "La ch se une a *up*: «ka-CHÁP», como una sola palabra." },
+          { "type": "vowel", "text": "*Catch* lleva /æ/ y *up* lleva /ʌ/: dos vocales distintas que el español no tiene. En EE. UU. también se oye /ketʃ/." },
+          { "type": "stress", "text": "En los phrasal verbs la fuerza va en la partícula: catch UP." }
+        ],
+        "example": { "speaker": "leo", "text": "Let's catch up over coffee next week.", "tts": "Let's [catch](/kˈæʧ/) up over coffee next week." }
+      },
+      {
+        "id": "follow-up", "term": "Follow-up", "pos": "n. / phr. v.", "meaning": "seguimiento / dar seguimiento",
+        "ipa": { "us": "/ˈfɑː.loʊ.ʌp/", "uk": "/ˈfɒl.əʊ.ʌp/" },
+        "afh": "FÓ-lou-ap",
+        "say": "A follow-up email.",
+        "variants": [
+          { "label": "Sustantivo: acento en FOL", "speaker": "coach", "audio": "l08-ph-follow-up-noun", "text": "I sent her a follow-up email." },
+          { "label": "Verbo: acento en UP", "speaker": "coach", "audio": "l08-ph-follow-up-verb", "text": "I'll follow up tomorrow.", "tts": "I'll [follow](/fˈɑlO/) [up](/ˈʌp/) tomorrow." }
+        ],
+        "alerts": [
+          { "type": "stress", "text": "El acento cambia la categoría: *a FOLLOW-up* (sustantivo, con guion) frente a *to follow UP* (verbo, sin guion)." },
+          { "type": "vowel", "text": "*Fol-* lleva /ɑː/ en EE. UU. y /ɒ/ en Reino Unido; *-low* es el diptongo «ou»." },
+          { "type": "spelling", "text": "Sustantivo y adjetivo con guion (*a follow-up email*); verbo sin guion (*I'll follow up*)." }
+        ],
+        "example": { "speaker": "alex", "text": "I'll send a quick follow-up email after the meeting." }
+      },
+      {
+        "id": "heard", "term": "Heard", "pos": "v.", "meaning": "oído (de hear)",
+        "ipa": { "us": "/hɝːd/", "uk": "/hɜːd/" },
+        "afh": "HÉRD",
+        "say": "Heard.",
+        "alerts": [
+          { "type": "consonant", "text": "La h es un soplo suave. Si suena «jerd», con jota, es el acento hispano típico." },
+          { "type": "vowel", "text": "*Ea* aquí es /ɜː/, la misma vocal de *work*: ni «e-a» ni «i-a»." }
+        ],
+        "example": { "speaker": "priya", "text": "Have you heard from your friends in Lisbon lately?" }
+      },
+      {
+        "id": "attached", "term": "Attached", "pos": "v. / adj.", "meaning": "adjunto, adjuntado",
+        "ipa": { "us": "/əˈtætʃt/", "uk": "/əˈtætʃt/" },
+        "afh": "a-TÁCHT",
+        "say": "Attached.",
+        "alerts": [
+          { "type": "ed", "text": "Tras /tʃ/, -ed suena /t/ y no añade sílaba: dos sílabas, a-TACHT. Nunca «a-ta-ched»." },
+          { "type": "stress", "text": "Acento en la 2.ª sílaba: TACH." }
+        ],
+        "example": { "speaker": "priya", "text": "I've attached the photos from the meetup." }
+      },
+      {
+        "id": "recently", "term": "Recently", "pos": "adv.", "meaning": "recientemente, últimamente",
+        "ipa": { "us": "/ˈriː.sənt.li/", "uk": "/ˈriː.sənt.li/" },
+        "afh": "RÍI-sent-li",
+        "say": "Recently.",
+        "alerts": [
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: RE. El español «recientemente» lo lleva casi al final." },
+          { "type": "vowel", "text": "*Re-* es /iː/ larga: «rii», no «re»." },
+          { "type": "silent", "text": "En el habla rápida la t casi desaparece: «RÍI-sen-li»." }
+        ],
+        "example": { "speaker": "sarah", "text": "Have you spoken to Rita recently?" }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Novedades recientes: have just + participio",
+        "formula": "Sujeto + have / has + just + participio",
+        "usage": "*Just* va entre el auxiliar y el participio. Presenta la novedad como reciente y relevante ahora.",
+        "examples": [
+          { "speaker": "coach", "audio": "l08-cc-1a", "text": "I{{'ve just sent}} you an email with the details." },
+          { "speaker": "sarah", "audio": "l08-cc-1b", "text": "Priya {{has just started}} a new project." }
+        ]
+      },
+      {
+        "title": "Preguntar por la vida de alguien",
+        "formula": "How have you been (since…)? · Have you heard from + persona (lately)?",
+        "usage": "*How have you been?* abarca todo el tiempo desde la última vez; *How are you?* solo pregunta por ahora.",
+        "examples": [
+          { "speaker": "maya", "audio": "l08-cc-2a", "text": "{{How have you been}} since we last met?" },
+          { "speaker": "priya", "audio": "l08-cc-2b", "text": "{{Have you heard from}} Rita lately?" }
+        ]
+      },
+      {
+        "title": "Mantener el contacto: keep in touch / catch up / reach out",
+        "formula": "Let's keep in touch · Let's catch up (soon / over coffee) · reach out to + persona",
+        "usage": "Tres chunks para cerrar un mensaje dejando la puerta abierta.",
+        "examples": [
+          { "speaker": "leo", "audio": "l08-cc-3a", "text": "{{Let's catch up}} over coffee next week.", "tts": "Let's [catch](/kˈæʧ/) up over coffee next week." },
+          { "speaker": "emma", "audio": "l08-cc-3b", "text": "Feel free to {{reach out}} if you need anything." }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Present Perfect con momento terminado", "text": "«He visto a Leo ayer» suena natural en parte del español; en inglés, con *yesterday*, va Past Simple.", "wrong": "I have seen Leo yesterday.", "right": "I saw Leo yesterday." },
+      { "title": "Posición de just", "text": "*Just* va entre el auxiliar y el participio, no después.", "wrong": "I have sent just the photos.", "right": "I have just sent the photos." },
+      { "title": "How have you been? no es How are you been?", "text": "Tras un tiempo sin veros, la pregunta natural usa Present Perfect con *have*.", "wrong": "How are you been?", "right": "How have you been?" },
+      { "title": "Sílaba extra en attached", "text": "La -ed solo añade sílaba tras t o d. *Attached* tiene dos sílabas.", "wrong": "«a-ta-ched» (3 sílabas)", "right": "/əˈtætʃt/ (2 sílabas)" },
+      { "title": "/h/ como jota", "text": "La h inglesa es un soplo. La jota española raspa la garganta y delata el acento.", "wrong": "«JERD» (heard)", "right": "/hɜːd/, suave" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "I ___ your message, but I haven't replied yet.", "options": ["have just read", "just have read", "read just"], "answer": 0, "explain": "*Have just* + participio: *just* entre el auxiliar y el participio." },
+    { "type": "choice", "prompt": "Elige la forma correcta.", "text": "We ___ at a conference two years ago.", "options": ["have met", "met", "meet"], "answer": 1, "explain": "*Two years ago* → Past Simple." },
+    { "type": "choice", "prompt": "Elige la palabra correcta.", "text": "___ you heard from Rita lately?", "options": ["Did", "Are", "Have"], "answer": 2, "explain": "*Have you heard from…?* (Present Perfect con *lately*)." },
+    { "type": "gap", "prompt": "Completa el chunk.", "text": "Let's keep in ___!", "accept": ["touch"], "explain": "*Keep in touch* = mantener el contacto." },
+    { "type": "gap", "prompt": "Completa la expresión.", "text": "It's been ages ___ I last saw her.", "accept": ["since"], "explain": "*It's been ages since I last…* = hace siglos que no…" },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["I've", "just", "sent", "you", "the", "photos"], "answer": "I've just sent you the photos", "explain": "Auxiliar + *just* + participio + objetos." },
+    { "type": "fix", "prompt": "Corrige el error típico del hispanohablante.", "wrong": "I have seen Leo at the café yesterday.", "accept": ["I saw Leo at the café yesterday."], "explain": "Con *yesterday*, Past Simple." },
+    { "type": "stress", "prompt": "*Follow-up* como sustantivo: ¿dónde va el acento?", "word": "follow-up", "syllables": ["fol", "low", "up"], "answer": 0, "audioRef": "l08-ph-follow-up-noun", "explain": "a **FOL**-low-up (sustantivo). El verbo es to follow **UP**." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "priya", "audio": "l08-dict-1", "text": "It was so nice to meet you on Thursday. Let's keep in touch!", "explain": "Apertura y cierre típicos de un mensaje de seguimiento." }
+  ],
+  "task": {
+    "title": "Tu mensaje de seguimiento",
+    "format": "email",
+    "scenario": "La semana pasada conociste a alguien interesante en un evento o meetup. Escríbele un mensaje de seguimiento para no perder el contacto.",
+    "brief": "Write a follow-up message to someone you met last week.",
+    "steps": [
+      "Recuerda dónde se conocieron (Past Simple: *It was great to meet you at … last …*).",
+      "Comparte una novedad reciente (*I've just…*).",
+      "Menciona algo que te contó (*You mentioned…*).",
+      "Propón un siguiente paso y cierra con calidez (*Would you like to catch up…? / Let's keep in touch!*)."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 55,
+    "frames": [
+      "Hi ___, it was great to meet you at ___ last ___!",
+      "I've just ___.",
+      "You mentioned ___. How's it going?",
+      "Would you like to catch up over coffee ___?",
+      "Let's keep in touch! Talk soon, ___"
+    ],
+    "chunks": [
+      { "label": "great to meet you", "re": "\\b(great|nice|lovely) to meet you\\b" },
+      { "label": "have just", "re": "\\b(have|has|'ve|'s)\\s+just\\b" },
+      { "label": "last + momento", "re": "\\blast\\s+(week|month|night|monday|tuesday|wednesday|thursday|friday|saturday|sunday|weekend)\\b" },
+      { "label": "catch up", "re": "\\bcatch\\s+up\\b" },
+      { "label": "keep in touch", "re": "\\bkeep in touch\\b" },
+      { "label": "you mentioned", "re": "\\byou mentioned\\b" }
+    ],
+    "checks": ["perfectWithPastTime", "justPosition", "proDrop", "capitalI"],
+    "extra": {
+      "title": "Extra: versión para un contacto profesional",
+      "brief": "Reescribe el inicio y el cierre como un correo formal a alguien que conociste en un evento profesional.",
+      "frames": ["Dear ___, thank you for taking the time to ___.", "I look forward to hearing from you."]
+    },
+    "model": {
+      "parts": [
+        { "label": "Mensaje de Sarah a Priya (neutro)", "speaker": "sarah", "audio": "l08-task-model", "text": "Hi Priya, {{it was great to meet you}} at the meetup {{last Thursday}}! {{I've just signed up}} for the graphic design course you recommended. The first class is next Monday, and I'm really excited. {{You mentioned}} that you're working on a new app for a travel company. How's it going? Would you like to {{catch up}} over coffee next week? I'd love to hear more about your work. {{Let's keep in touch}}! Talk soon, Sarah", "notes": ["Past Simple con momento concreto (*it was great to meet you … last Thursday*) y Present Perfect para la novedad (*I've just signed up*).", "Retoma algo que le contó Priya (*You mentioned…*): demuestra interés real."] },
+        { "label": "Correo a un contacto profesional (formal)", "speaker": "emma", "audio": "l08-task-formal", "text": "Dear Mr Hall, {{thank you for taking the time}} to speak with me at the networking event last Thursday. As promised, {{I have attached}} my portfolio. {{I look forward to hearing from you}}.", "notes": ["*As promised* conecta con lo que dijiste en el evento; *I look forward to hearing from you* cierra con formalidad."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste Past Simple para el momento en que se conocieron (*last Thursday*)?",
+      "¿Usaste *have just* + participio para una novedad reciente, con *just* en su sitio?",
+      "¿Mencionaste algo concreto de la conversación que tuvieron?",
+      "¿Propusiste un siguiente paso claro (café, llamada)?",
+      "¿El tono encaja con la persona: cercano para un amigo, formal para un contacto profesional?"
+    ]
+  }
+}

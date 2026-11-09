@@ -1,0 +1,32 @@
+{
+  "id": "m02",
+  "sublevel": "b1-1",
+  "n": 2,
+  "title": "Social Interactions & Making Connections",
+  "titleEs": "Interacciones sociales y nuevas conexiones",
+  "hours": 5,
+  "domains": ["LC", "BS"],
+  "intro": "Las personas son el centro de este módulo. Aprenderás a presentarte y contar tu trayectoria, a pedir aclaraciones sin perder el hilo, a mantener el contacto por mensaje o correo, a presentar a otras personas y a sostener una conversación informal. Dos herramientas te acompañan todo el módulo: el contraste entre Present Perfect y Past Simple, y las question tags, con una entonación que cambia su significado.",
+  "canDo": [
+    "Presentarme y resumir mi trayectoria con for, since y el Past Simple.",
+    "Pedir que me repitan o aclaren algo y confirmar que lo he entendido.",
+    "Escribir un mensaje o correo de seguimiento para mantener el contacto.",
+    "Presentar a otras personas y hablar de experiencias con Have you ever…?",
+    "Mantener una conversación informal y cerrarla con naturalidad."
+  ],
+  "focus": {
+    "grammar": "Present Perfect vs Past Simple · for / since · just / ever / never · question tags con be, do y have",
+    "lexis": "originally from, What do you mean by…?, keep in touch, catch up, reach out, hang out, hit it off, Count me in!, Tell me about it!",
+    "afh": "/h/ aspirada frente a la jota · h muda (honest) · entonación de las question tags (↗ / ↘) · formas débiles de have, do y you"
+  },
+  "cast": ["coach", "sarah", "priya", "oliver", "alex", "ryan", "maya", "leo", "emma", "george"],
+  "lessons": ["l06", "l07", "l08", "l09", "l10"],
+  "blocks": [
+    { "id": "lexical", "n": 1, "name": "Input léxico", "short": "Input", "text": "Escenario real, conversación y mapa de tres registros." },
+    { "id": "discovery", "n": 2, "name": "Descubrimiento guiado", "short": "Descubre", "text": "Deduce la regla con tres preguntas: significado, forma y uso." },
+    { "id": "phonetics", "n": 3, "name": "Glosario fonético dual", "short": "Fonética", "text": "IPA US/UK + Anclaje Fonético Hispanohablante." },
+    { "id": "consolidation", "n": 4, "name": "Consolidación y L1", "short": "Consolida", "text": "Estructuras, matices y errores típicos del español." },
+    { "id": "practice", "n": 5, "name": "Práctica", "short": "Practica", "text": "Ejercicios con corrección inmediata, entonación y dictado." },
+    { "id": "task", "n": 6, "name": "Tarea y autoevaluación", "short": "Tarea", "text": "Produce un mensaje real, compáralo con el modelo y revísalo." }
+  ]
+}

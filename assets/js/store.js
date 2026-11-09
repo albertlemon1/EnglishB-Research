@@ -18,12 +18,21 @@ function load() {
 }
 
 let saveTimer = null;
+function write() {
+  saveTimer = null;
+  try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* storage unavailable */ }
+}
 function save() {
   clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* storage unavailable */ }
-  }, 120);
+  saveTimer = setTimeout(write, 120);
 }
+// Writes are batched, so flush any pending one when the page is hidden or
+// unloaded: otherwise completing a lesson and immediately reloading or closing
+// the tab could lose that last change.
+function flush() { if (saveTimer !== null) { clearTimeout(saveTimer); write(); } }
+addEventListener("pagehide", flush);
+addEventListener("beforeunload", flush);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(); });
 
 export const store = {
   get settings() { return state.settings; },

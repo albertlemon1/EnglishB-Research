@@ -12,8 +12,20 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULES = {"m01": ("content/b1-1/m01", "audio/b1-1/m01")}
 BLOCKS = ["lexical", "discovery", "phonetics", "consolidation", "practice", "task"]
+ITEM_TYPES = {"choice", "gap", "order", "fix", "stress", "dictation", "intonation"}
+
+
+def published_modules(course: dict) -> dict[str, tuple[str, str, int]]:
+    """Modules marked "status": "available" → (content dir, audio dir, first lesson number)."""
+    out, lesson = {}, 0
+    for s in course["sublevels"]:
+        for m in s["modules"]:
+            first = lesson + 1
+            lesson += len(m["lessons"])
+            if m.get("status") == "available":
+                out[m["id"]] = (f"content/{s['id']}/{m['id']}", f"audio/{s['id']}/{m['id']}", first)
+    return out
 
 
 def main() -> int:
@@ -37,14 +49,25 @@ def main() -> int:
                 if d not in course["domains"]:
                     problems.append(f"{m['id']}: unknown domain {d}")
 
-    for mod_id, (cdir, adir) in MODULES.items():
+    seen_clips: dict[str, str] = {}
+    for mod_id, (cdir, adir, first_lesson) in published_modules(course).items():
         cdir, adir = ROOT / cdir, ROOT / adir
         module = json.loads((cdir / "module.json").read_text(encoding="utf-8"))
+        expected = [f"l{n:02d}" for n in range(first_lesson, first_lesson + len(module["lessons"]))]
+        if module["lessons"] != expected:
+            problems.append(f"{mod_id}: lesson ids {module['lessons']} should follow the course numbering {expected}")
+        for spk in module.get("cast", []):
+            if spk not in cast:
+                problems.append(f"{mod_id}: cast member {spk} missing from cast.json")
         manifest = json.loads((adir / "manifest.json").read_text(encoding="utf-8"))["clips"]
         refs: set[str] = set()
         files = [cdir / f"{l}.json" for l in module["lessons"]] + [cdir / "review.json"]
         for path in files:
             data = json.loads(path.read_text(encoding="utf-8"))
+            if path.stem.startswith("l") and data.get("id") != path.stem:
+                problems.append(f"{path.name}: id {data.get('id')} does not match the file name")
+            if path.stem.startswith("l") and data.get("n") != int(path.stem[1:]):
+                problems.append(f"{path.name}: n={data.get('n')} but the file is lesson {path.stem[1:]}")
 
             def walk(node, where):
                 if isinstance(node, dict):
@@ -56,6 +79,11 @@ def main() -> int:
                         refs.add(node["audioRef"])
                     if "{{" in json.dumps(node.get("text", "")) and node.get("text", "").count("{{") != node.get("text", "").count("}}"):
                         problems.append(f"{path.name}:{where}: unbalanced {{{{ }}}}")
+                    for field in ("text", "tts"):
+                        val = node.get(field)
+                        # "I {{'ve lived}}" renders as "I 've lived" and can split the contraction in TTS.
+                        if isinstance(val, str) and re.search(r"\w\s+(\{\{)?'(ve|s|re|ll|d|m|t)\b", val):
+                            problems.append(f"{path.name}:{where}.{field}: space before a contraction in {val[:50]!r}")
                     for k, v in node.items():
                         walk(v, f"{where}.{k}")
                 elif isinstance(node, list):
@@ -70,6 +98,10 @@ def main() -> int:
             items += (data.get("lexical") or {}).get("comprehension", []) + (data.get("discovery") or {}).get("questions", [])
             for i, it in enumerate(items):
                 t = it.get("type", "choice")
+                if t not in ITEM_TYPES:
+                    problems.append(f"{path.name}: item {i} has unknown type {t}")
+                if t == "intonation" and it.get("answer") not in ("rise", "fall"):
+                    problems.append(f"{path.name}: intonation item {i} answer must be rise or fall")
                 if t in ("choice", "stress"):
                     n = len(it.get("options") or it.get("syllables") or [])
                     if not 0 <= it["answer"] < n:
@@ -93,6 +125,10 @@ def main() -> int:
                 problems.append(f"{mod_id}: missing audio file {ref}.mp3")
             if ref not in manifest:
                 problems.append(f"{mod_id}: {ref} not in manifest")
+        for ref in refs:
+            if ref in seen_clips and seen_clips[ref] != mod_id:
+                problems.append(f"audio id {ref} is used by both {seen_clips[ref]} and {mod_id}: ids must be unique across the course")
+            seen_clips[ref] = mod_id
         orphans = sorted(set(manifest) - refs)
         for o in orphans:
             problems.append(f"{mod_id}: clip {o} is never used")

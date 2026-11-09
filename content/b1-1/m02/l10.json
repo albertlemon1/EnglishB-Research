@@ -1,0 +1,291 @@
+{
+  "id": "l10",
+  "n": 10,
+  "title": "Casual Conversations, Small Talk & Coffee Breaks",
+  "titleEs": "Conversaciones informales, small talk y pausas para el café",
+  "minutes": 60,
+  "summary": "Abre, mantén y cierra una conversación informal con question tags que buscan acuerdo.",
+  "canDo": [
+    "Puedo abrir una conversación informal con el tiempo, el fin de semana o un comentario compartido.",
+    "Puedo formar question tags con *did*, *have* y *be* según el tiempo verbal.",
+    "Puedo responder bien a una tag negativa (*You aren't coming, are you? — No, I'm not*).",
+    "Puedo cerrar la conversación con naturalidad (*I'd better get back to…*)."
+  ],
+  "focus": {
+    "grammar": "Question tags con did / have / be; ↘ para buscar acuerdo; respuestas a tags negativas",
+    "lexis": "How's it going?, Lovely weather, isn't it?, Tell me about it!, by the way, I'd better get back to…, Catch you later!",
+    "afh": "/h/ y linking (How's it going?); acento US / UK (weekend); /v/ y /ʌ/ (lovely)"
+  },
+  "warmup": "¿Qué temas de conversación usas con alguien que conoces poco: el tiempo, el fin de semana, el trabajo? ¿Cómo sales de la conversación sin parecer brusco?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Mensaje de voz de Ryan",
+      "context": "Ryan acaba de empezar unas prácticas en una oficina y le cuenta a Alex cómo le va.",
+      "speaker": "ryan",
+      "to": "Alex",
+      "audio": "l10-scn",
+      "text": "Hey Alex, quick update on the new internship. Everyone's really nice, but there's so much {{small talk}}! Every morning someone asks, '{{How was your weekend}}?' or '{{Lovely weather, isn't it}}?' {{I've learned a few tricks}}, though. Ask a simple question, listen, and {{add something about yourself}}. It's actually kind of fun once you {{get used to it}}!"
+    },
+    "dialogue": {
+      "title": "En la máquina de café",
+      "context": "Ryan coincide con Oliver, que trabaja en la misma empresa, junto a la máquina de café.",
+      "lines": [
+        { "speaker": "oliver", "audio": "l10-dlg-01", "text": "Morning, Ryan! {{Lovely weather today, isn't it}}?", "tone": "fall" },
+        { "speaker": "ryan", "audio": "l10-dlg-02", "text": "It really is. Finally some sun! {{How was your weekend}}?" },
+        { "speaker": "oliver", "audio": "l10-dlg-03", "text": "{{Not bad, thanks}}. I went hiking in the hills on Sunday. {{Have you been}} there {{yet}}?" },
+        { "speaker": "ryan", "audio": "l10-dlg-04", "text": "Not yet, but {{I've heard}} it's beautiful. Did you go with friends?" },
+        { "speaker": "oliver", "audio": "l10-dlg-05", "text": "Yes, with a few people from the meetup. You're coming on Thursday, {{aren't you}}?", "tone": "rise" },
+        { "speaker": "ryan", "audio": "l10-dlg-06", "text": "Definitely. Oh, {{by the way}}, this coffee machine is a bit slow, {{isn't it}}?", "tone": "fall" },
+        { "speaker": "oliver", "audio": "l10-dlg-07", "text": "{{Tell me about it}}! It takes ages. Anyway, {{I'd better get back to}} my desk. {{Catch you later}}!" },
+        { "speaker": "ryan", "audio": "l10-dlg-08", "text": "See you at lunch!" }
+      ]
+    },
+    "comprehension": [
+      { "q": "¿Qué hizo Oliver el domingo?", "options": ["Se quedó en casa", "Fue al meetup", "Fue de excursión a las colinas"], "answer": 2, "explain": "*I went hiking in the hills on Sunday.*" },
+      { "q": "¿Qué significa aquí *Tell me about it!*?", "options": ["¡Y que lo digas! (está de acuerdo)", "Cuéntame más detalles", "No lo sé"], "answer": 0, "explain": "*Tell me about it!* expresa acuerdo total con una queja, no una petición de información." },
+      { "q": "¿Cómo termina Oliver la conversación?", "options": ["Se va sin decir nada", "Dice que tiene que volver a su mesa", "Invita a Ryan a comer"], "answer": 1, "explain": "*Anyway, I'd better get back to my desk. Catch you later!*: un cierre amable." }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, compañeros con confianza.",
+        "items": [
+          { "speaker": "leo", "audio": "l10-reg-c1", "text": "How's it going?", "note": "= ¿Qué tal? Respuesta típica: *Good, you?* o *Not bad!*" },
+          { "speaker": "maya", "audio": "l10-reg-c2", "text": "Catch you later!", "note": "Despedida muy informal: ¡nos vemos!" }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros de trabajo, vecinos, conocidos.",
+        "items": [
+          { "speaker": "ryan", "audio": "l10-reg-n1", "text": "How was your weekend?", "note": "El abridor más común del lunes por la mañana." },
+          { "speaker": "oliver", "audio": "l10-reg-n2", "text": "Nice weather today, isn't it?", "note": "Tag que baja ↘: no pregunta, invita a charlar.", "tone": "fall" }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Clientes, directivos, eventos institucionales.",
+        "items": [
+          { "speaker": "emma", "audio": "l10-reg-f1", "text": "Good morning. I hope you had a pleasant weekend.", "note": "*Pleasant* sustituye a *nice* en registro formal." },
+          { "speaker": "george", "audio": "l10-reg-f2", "text": "It was a pleasure speaking with you.", "note": "Cierre cortés al final de una conversación profesional." }
+        ]
+      }
+    ],
+    "chunks": [
+      { "en": "How's it going?", "es": "¿qué tal?", "register": "casual" },
+      { "en": "Not bad / Can't complain", "es": "no me quejo", "register": "casual" },
+      { "en": "Lovely weather, isn't it?", "es": "qué buen día, ¿eh?", "register": "neutral" },
+      { "en": "Tell me about it!", "es": "¡y que lo digas!", "register": "casual" },
+      { "en": "by the way", "es": "por cierto", "register": "neutral" },
+      { "en": "I'd better get back to (work)", "es": "debería volver a (trabajar)", "register": "neutral" },
+      { "en": "Catch you later!", "es": "¡nos vemos!", "register": "casual" },
+      { "en": "It was a pleasure speaking with you", "es": "ha sido un placer hablar con usted", "register": "formal" }
+    ],
+    "registerQuiz": [
+      { "text": "Catch you later!", "answer": "casual", "explain": "Despedida informal." },
+      { "text": "I hope you had a pleasant weekend.", "answer": "formal", "explain": "*Pleasant* y la estructura completa: tono formal." },
+      { "text": "How was your weekend?", "answer": "neutral", "explain": "Sirve con casi cualquier compañero." },
+      { "text": "Can't complain!", "answer": "casual", "explain": "Respuesta coloquial y breve." },
+      { "text": "It was a pleasure speaking with you.", "answer": "formal", "explain": "Cierre cortés y profesional." },
+      { "text": "Nice to see you again.", "answer": "neutral", "explain": "Amable y natural en cualquier contexto." }
+    ]
+  },
+  "discovery": {
+    "intro": "Las dos frases terminan en una question tag, pero el auxiliar cambia. ¿De qué depende?",
+    "speaker": "ryan",
+    "audio": "l10-gd",
+    "text": "You {{went}} to the meetup last night, {{didn't you}}? And you{{'ve been}} to that café before, {{haven't you}}?",
+    "tone": ["fall", "fall"],
+    "questions": [
+      { "kind": "semantic", "q": "¿El hablante pregunta porque no sabe nada?", "options": ["Sí, no tiene ni idea.", "No: cree que sí, y busca confirmación o conversación.", "Está enfadado."], "answer": 1, "explain": "Las tags bajan ↘: el hablante ya lo cree y usa la tag para confirmar y abrir conversación." },
+      { "kind": "syntactic", "q": "¿Por qué la primera tag es *didn't you* y la segunda *haven't you*?", "options": ["Es aleatorio.", "*Did* es para preguntas formales.", "La tag copia el auxiliar del tiempo verbal: Past Simple → *did*; Present Perfect → *have*."], "answer": 2, "explain": "*You went* (Past Simple, sin auxiliar visible) → *didn't you?*; *you've been* (Present Perfect) → *haven't you?*" },
+      { "kind": "pragmatic", "q": "En el small talk, ¿para qué sirven estas tags con entonación que baja?", "options": ["Para invitar al otro a hablar y mostrar cercanía, no para pedir información.", "Para corregir al otro.", "Para terminar la conversación."], "answer": 0, "explain": "Son una forma de ceder el turno: el otro responde y la conversación sigue." }
+    ],
+    "rule": {
+      "points": [
+        "La tag copia el auxiliar de la frase: Present Simple → *do / does*; Past Simple → *did*; Present Perfect → *have / has*; *be* → *am / is / are / was / were*.",
+        "Con entonación que baja ↘, la tag invita a responder y crea conversación: *Lovely day, isn't it?*",
+        "Responde según la realidad, no según la tag: *You aren't coming, are you? — No, I'm not* (no vengo)."
+      ],
+      "formulas": ["Past Simple → didn't you?", "Present Perfect → haven't you?", "↘ = invita a charlar"],
+      "note": "*Lovely weather, isn't it?* omite *It's*: en el small talk británico esta elipsis es muy frecuente."
+    }
+  },
+  "phonetics": {
+    "intro": "Frases cortas y rápidas: aquí el linking y la h suave marcan la diferencia. Y una palabra que se acentúa distinto en EE. UU. y en Reino Unido.",
+    "items": [
+      {
+        "id": "hows-it-going", "term": "How's it going?", "pos": "expr.", "meaning": "¿qué tal?",
+        "ipa": { "us": "/ˌhaʊz ɪt ˈɡoʊ.ɪŋ/", "uk": "/ˌhaʊz ɪt ˈɡəʊ.ɪŋ/" },
+        "afh": "hau-zit-GÓU-ing",
+        "say": "How's it going?",
+        "alerts": [
+          { "type": "consonant", "text": "La h es un soplo: «hau», no «jau»." },
+          { "type": "linking", "text": "*How's it* se une: «hau-zit». La s suena /z/ y se pega a *it*." },
+          { "type": "stress", "text": "La fuerza va en GO: «hau-zit-GÓU-ing»." }
+        ],
+        "example": { "speaker": "leo", "text": "Hey Ryan! How's it going?" }
+      },
+      {
+        "id": "weekend", "term": "Weekend", "pos": "n.", "meaning": "fin de semana",
+        "ipa": { "us": "/ˈwiːk.end/", "uk": "/ˌwiːkˈend/" },
+        "afh": "UÍIK-end (US) · uiik-ÉND (UK)",
+        "say": "Weekend.",
+        "alerts": [
+          { "type": "variant", "text": "El acento cambia de país: EE. UU. WEEK-end, Reino Unido week-END. Escucha los dos modelos." },
+          { "type": "vowel", "text": "*Week* lleva /iː/ larga: «uiik»." },
+          { "type": "consonant", "text": "La w es semivocal, como la u de «huevo» sin la g: nunca «güik»." }
+        ],
+        "example": { "speaker": "ryan", "text": "How was your weekend?" }
+      },
+      {
+        "id": "lovely", "term": "Lovely", "pos": "adj.", "meaning": "precioso, estupendo, encantador",
+        "ipa": { "us": "/ˈlʌv.li/", "uk": "/ˈlʌv.li/" },
+        "afh": "LÁV-li",
+        "say": "Lovely.",
+        "alerts": [
+          { "type": "vowel", "text": "La o es /ʌ/: una a corta, «LAV», no «LOV»." },
+          { "type": "consonant", "text": "La v es labiodental: dientes sobre el labio inferior. «LAV-li», no «LAB-li»." },
+          { "type": "stress", "text": "Acento en la 1.ª sílaba: LOVE." }
+        ],
+        "example": { "speaker": "oliver", "text": "Lovely weather today, isn't it?", "tone": "fall" }
+      },
+      {
+        "id": "busy", "term": "Busy", "pos": "adj.", "meaning": "ocupado",
+        "ipa": { "us": "/ˈbɪz.i/", "uk": "/ˈbɪz.i/" },
+        "afh": "BÍ-zi",
+        "say": "Busy.",
+        "alerts": [
+          { "type": "vowel", "text": "La u suena /ɪ/, una i corta: «BÍ-zi», nunca «BU-si»." },
+          { "type": "consonant", "text": "La s es /z/ sonora, con zumbido." }
+        ],
+        "example": { "speaker": "sarah", "text": "It's been a busy week, hasn't it?", "tone": "fall" }
+      },
+      {
+        "id": "tell-me-about-it", "term": "Tell me about it!", "pos": "expr.", "meaning": "¡y que lo digas!",
+        "ipa": { "us": "/ˌtel mi əˈbaʊt̬ ɪt/", "uk": "/ˌtel mi əˈbaʊt ɪt/" },
+        "afh": "tel-mi-a-BAU-tit",
+        "say": "Tell me about it!",
+        "ttsUs": "Tell me [about](/əbˈWɾ/) it!",
+        "alerts": [
+          { "type": "linking", "text": "*About it* se une: «a-BAU-tit»." },
+          { "type": "flap", "text": "En EE. UU. la t entre vocales suena como la r suave de «pero»: «a-BAU-rit»." },
+          { "type": "stress", "text": "La fuerza va en BOUT. Ojo: significa «¡y que lo digas!», no «cuéntamelo»." }
+        ],
+        "example": { "speaker": "oliver", "text": "Tell me about it! It takes ages." }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Abrir la conversación",
+        "formula": "How's it going? · How was your weekend? · Lovely weather, isn't it?",
+        "usage": "Temas seguros: el tiempo, el fin de semana o algo que compartís en ese momento (el café, la oficina).",
+        "examples": [
+          { "speaker": "ryan", "audio": "l10-cc-1a", "text": "Morning! {{How was your weekend}}?" },
+          { "speaker": "oliver", "audio": "l10-cc-1b", "text": "{{Lovely weather today, isn't it}}?", "tone": "fall" }
+        ]
+      },
+      {
+        "title": "Tags con distintos auxiliares",
+        "formula": "Past Simple → didn't you? · Present Perfect → haven't you? · negativa → tag afirmativa",
+        "usage": "Copia el auxiliar del tiempo verbal. ↘ cuando ya lo sabes; ↗ cuando no estás seguro.",
+        "examples": [
+          { "speaker": "coach", "audio": "l10-cc-2a", "text": "You went hiking on Sunday, {{didn't you}}?", "tone": "fall" },
+          { "speaker": "sarah", "audio": "l10-cc-2b", "text": "You've been to that café before, {{haven't you}}?", "tone": "fall" },
+          { "speaker": "alex", "audio": "l10-cc-2c", "text": "We haven't met before, {{have we}}?", "tone": "rise" }
+        ]
+      },
+      {
+        "title": "Cerrar la conversación con amabilidad",
+        "formula": "Anyway, I'd better get back to + sustantivo · Catch you later! · It was a pleasure speaking with you",
+        "usage": "*Anyway* anuncia el cierre; *I'd better* da una razón amable para irte.",
+        "examples": [
+          { "speaker": "maya", "audio": "l10-cc-3a", "text": "{{Anyway, I'd better get back to}} work. See you at lunch!" },
+          { "speaker": "emma", "audio": "l10-cc-3b", "text": "{{It was a pleasure speaking with you}}. Enjoy the rest of your day." }
+        ]
+      }
+    ],
+    "l1": [
+      { "title": "Tag con el auxiliar equivocado", "text": "La tag copia el tiempo verbal. Con Past Simple, *did*.", "wrong": "You went to the meetup, don't you?", "right": "You went to the meetup, didn't you?" },
+      { "title": "Responder a una tag negativa", "text": "En español decimos «¿No vienes, verdad? — Sí, no voy». En inglés, *yes / no* sigue a la realidad: si no vas, *No*.", "wrong": "You aren't coming, are you? — Yes, I'm not.", "right": "You aren't coming, are you? — No, I'm not." },
+      { "title": "/v/ como b en lovely", "text": "En español v y b suenan igual; en inglés no. La /v/ apoya los dientes en el labio.", "wrong": "«LAB-li»", "right": "/ˈlʌv.li/ («LÁV-li»)" },
+      { "title": "Busy con u", "text": "La ortografía engaña: la u de *busy* suena /ɪ/.", "wrong": "«BU-si»", "right": "/ˈbɪz.i/ («BÍ-zi»)" },
+      { "title": "Cierre demasiado brusco", "text": "Con compañeros que conoces poco, un *OK, bye* seco suena cortante. Anuncia el cierre y da una razón.", "wrong": "OK, bye.", "right": "Anyway, I'd better get back to work. Catch you later!" }
+    ]
+  },
+  "practice": [
+    { "type": "choice", "prompt": "Elige la question tag correcta.", "text": "You went hiking on Sunday, ___?", "options": ["don't you", "didn't you", "haven't you"], "answer": 1, "explain": "Past Simple → *didn't you?*" },
+    { "type": "choice", "prompt": "Elige la question tag correcta.", "text": "You've been to this café before, ___?", "options": ["haven't you", "didn't you", "aren't you"], "answer": 0, "explain": "*You've been* = Present Perfect → *haven't you?*" },
+    { "type": "choice", "prompt": "Elige la respuesta correcta (no vas a venir).", "text": "You aren't coming tonight, are you? — ___", "options": ["Yes, I'm not.", "No, I'm not.", "No, I am."], "answer": 1, "explain": "Si no vas, *No, I'm not*: la respuesta sigue a la realidad." },
+    { "type": "intonation", "prompt": "Escucha. ¿La tag sube o baja?", "speaker": "oliver", "audio": "l10-into-1", "text": "Lovely weather today, isn't it?", "answer": "fall", "explain": "Baja ↘: Oliver no pregunta por el tiempo, invita a charlar." },
+    { "type": "intonation", "prompt": "Escucha. ¿La tag sube o baja?", "speaker": "alex", "audio": "l10-into-2", "text": "We haven't met before, have we?", "answer": "rise", "explain": "Sube ↗: Alex no está seguro de si ya se conocen." },
+    { "type": "gap", "prompt": "Completa el cierre.", "text": "Anyway, I'd better get ___ to work.", "accept": ["back"], "explain": "*Get back to* = volver a." },
+    { "type": "order", "prompt": "Ordena las palabras.", "words": ["How", "was", "your", "weekend"], "answer": "How was your weekend", "explain": "El abridor clásico del lunes." },
+    { "type": "stress", "prompt": "*Weekend* en inglés americano: ¿dónde va el acento?", "word": "weekend", "syllables": ["week", "end"], "answer": 0, "audioRef": "l10-ph-weekend-us", "explain": "EE. UU.: **WEEK**-end. En Reino Unido: week-**END**." },
+    { "type": "dictation", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "ryan", "audio": "l10-dict-1", "text": "It's actually kind of fun once you get used to it.", "explain": "*Actually* = en realidad. *Get used to it* viene del Módulo 1." }
+  ],
+  "task": {
+    "title": "Small talk en la pausa del café",
+    "format": "text",
+    "scenario": "Escribe el guion de una conversación breve con un compañero o compañera que conoces poco, junto a la máquina de café.",
+    "brief": "Write a short coffee-break dialogue with a colleague you don't know well.",
+    "steps": [
+      "Abre con un saludo y un comentario compartido (*Lovely weather, isn't it?*).",
+      "Pregunta por el fin de semana (Past Simple) y por una experiencia (*Have you ever…? / Have you been … yet?*).",
+      "Usa dos question tags con auxiliares distintos.",
+      "Cierra con amabilidad (*Anyway, I'd better get back to… Catch you later!*)."
+    ],
+    "length": "8–10 líneas (unas 80 palabras)",
+    "minWords": 60,
+    "frames": [
+      "A: Morning! Lovely weather today, isn't it?",
+      "B: It really is! How was your weekend?",
+      "A: Great, thanks. I ___. Have you ever ___?",
+      "B: ___, ___n't you?",
+      "A: Anyway, I'd better get back to ___. Catch you later!"
+    ],
+    "chunks": [
+      { "label": "question tag", "re": "\\b(isn't|aren't|don't|doesn't|didn't|haven't|hasn't|wasn't|weren't|is|are|do|does|did|have|has)\\s+(it|you|he|she|we|they|I)\\s*\\?" },
+      { "label": "How was your weekend?", "re": "\\bhow was your weekend\\b" },
+      { "label": "Have you ever / … yet?", "re": "\\bhave you (ever|been)\\b|\\byet\\s*\\?" },
+      { "label": "I'd better", "re": "\\bI'd better\\b" },
+      { "label": "Catch you later / See you", "re": "\\b(catch you later|see you)\\b" },
+      { "label": "by the way", "re": "\\bby the way\\b" }
+    ],
+    "checks": ["tagAuxMismatch", "tagIsntItAll", "perfectWithPastTime", "capitalI"],
+    "extra": {
+      "title": "Extra: un cierre formal",
+      "brief": "Escribe cómo cerrarías una conversación con una directiva a la que acabas de conocer en un congreso.",
+      "frames": ["It was a pleasure speaking with you, ___. I hope ___."]
+    },
+    "model": {
+      "parts": [
+        {
+          "label": "Guion en la máquina de café (neutro)",
+          "lines": [
+            { "speaker": "alex", "audio": "l10-task-model-1", "text": "Morning! {{Lovely weather today, isn't it}}?", "tone": "fall" },
+            { "speaker": "oliver", "audio": "l10-task-model-2", "text": "It really is! Finally some sun. {{How was your weekend}}?" },
+            { "speaker": "alex", "audio": "l10-task-model-3", "text": "Great, thanks. I went to a cooking class on Saturday. {{Have you ever taken}} one?" },
+            { "speaker": "oliver", "audio": "l10-task-model-4", "text": "No, never, but I've always wanted to. You're quite a good cook, {{aren't you}}?", "tone": "fall" },
+            { "speaker": "alex", "audio": "l10-task-model-5", "text": "Ha! I'm learning. {{By the way}}, you've been to the new café downstairs, {{haven't you}}?", "tone": "rise" },
+            { "speaker": "oliver", "audio": "l10-task-model-6", "text": "Yes, I went there yesterday. The coffee's much better than this machine's!" },
+            { "speaker": "alex", "audio": "l10-task-model-7", "text": "{{Tell me about it}}! Anyway, {{I'd better get back to}} my emails. {{Catch you later}}!" },
+            { "speaker": "oliver", "audio": "l10-task-model-8", "text": "See you!" }
+          ],
+          "notes": ["Dos tags con auxiliares distintos: *aren't you* (be) y *haven't you* (have). La primera baja (Oliver ya lo cree); la segunda sube (Alex no está seguro).", "Past Simple para el fin de semana (*I went*), Present Perfect para la experiencia (*Have you ever taken one?*)."]
+        },
+        { "label": "Cierre con una directiva (formal)", "speaker": "emma", "audio": "l10-task-formal", "text": "{{It was a pleasure speaking with you}}, Mr Hall. I hope you enjoy the rest of the conference.", "notes": ["Nombre + deseo amable: un cierre formal completo."] }
+      ]
+    },
+    "selfCheck": [
+      "¿Abriste con un comentario compartido y no con una pregunta personal?",
+      "¿Tus dos tags copian el auxiliar de su frase (*didn't*, *haven't*, *aren't*…)?",
+      "¿Usaste Past Simple para el fin de semana y Present Perfect para la experiencia?",
+      "¿Anunciaste el cierre antes de despedirte?",
+      "¿Sonaría natural tu guion leído en voz alta?"
+    ]
+  }
+}

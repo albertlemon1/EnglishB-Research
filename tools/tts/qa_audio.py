@@ -6,7 +6,12 @@ reports the word error rate against the scripted text. PocketSphinx is weak on
 British voices and isolated words, so treat the numbers as a smoke test: a clip
 with a very high WER deserves a listen, not an automatic rejection.
 
-Usage: python3 tools/tts/qa_audio.py audio/b1-1/m01 [--threshold 0.5]
+It also re-measures every question tag whose content declares a tone (stored in
+the manifest as "tones"): the pitch must move at least 3 semitones up for "rise"
+or down for "fall", measured on the final MP3. A wrong direction is a hard failure
+(exit code 1), because the lesson tells the learner which way the tag goes.
+
+Usage: python3 tools/tts/qa_audio.py audio/b1-1/m02 [--threshold 0.5] [--tones-only]
 """
 from __future__ import annotations
 
@@ -42,9 +47,14 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("audio_dir")
     ap.add_argument("--threshold", type=float, default=0.5)
+    ap.add_argument("--tones-only", action="store_true", help="skip speech recognition, only check tag intonation")
     args = ap.parse_args()
     folder = Path(args.audio_dir)
     clips = json.loads((folder / "manifest.json").read_text(encoding="utf-8"))["clips"]
+
+    tone_fail = check_tones(folder, clips)
+    if args.tones_only:
+        return 1 if tone_fail else 0
     decoder = Decoder(samprate=16000)
     rows = []
     for cid, meta in clips.items():
@@ -68,7 +78,31 @@ def main() -> int:
     print(f"\n{len(rows)} clips · {len(sentences)} sentences · mean WER {mean:.2f} · flagged {len(flagged)}")
     for voice, scores in sorted(by_voice.items()):
         print(f"  {voice:11s} n={len(scores):3d}  mean WER {sum(scores) / len(scores):.2f}")
-    return 0
+    return 1 if tone_fail else 0
+
+
+def check_tones(folder: Path, clips: dict) -> int:
+    import numpy as np
+
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from intonation import MIN_MOVE, slope
+
+    tagged = [(cid, meta) for cid, meta in clips.items() if meta.get("tones")]
+    if not tagged:
+        return 0
+    fails = 0
+    for cid, meta in tagged:
+        raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(folder / meta["file"]),
+                              "-f", "f32le", "-ac", "1", "-ar", "24000", "-"], check=True, capture_output=True).stdout
+        audio = np.frombuffer(raw, dtype=np.float32)
+        for t in meta["tones"]:
+            s = slope(audio, 24000, t["start"], t["end"])
+            ok = s is not None and (s >= MIN_MOVE if t["tone"] == "rise" else s <= -MIN_MOVE)
+            fails += not ok
+            arrow = "↗" if t["tone"] == "rise" else "↘"
+            print(f"{'ok  ' if ok else 'FAIL'} {arrow} {cid:28s} {('NA' if s is None else f'{s:+.1f}'):>6} st  [{t['method']}]  {meta['text'][:60]}")
+    print(f"\ntones: {sum(len(m['tones']) for _, m in tagged)} tags in {len(tagged)} clips · {fails} wrong direction\n")
+    return fails
 
 
 if __name__ == "__main__":

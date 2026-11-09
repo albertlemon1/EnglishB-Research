@@ -71,6 +71,47 @@ export const CHECKS = {
     const m = text.match(/\bwell positioned\b/i);
     return m ? { msg: "Escribe *well-positioned* con guion, sobre todo delante de un sustantivo.", sample: m[0], soft: true } : null;
   },
+  // «Vivo aquí desde 2020» → *I live here since 2020*: present tense for something that continues.
+  presentSince(text) {
+    const since = /\bsince\b/i;
+    const forDuration = /\bfor\s+(a|one|two|three|four|five|six|seven|eight|nine|ten|\d+|many|several|a few)\s+(years?|months?|weeks?|days?)\b/i;
+    const presentSimple = /\b(I|we|you|they|he|she)\s+(live|lives|work|works|study|studies|know|knows)\b/i;
+    // "I'm here for two weeks" (a visit) is fine, so be + place only counts with *since*.
+    const presentBe = /\b(I am|I'm|we are|we're|he is|she is|he's|she's|they are|they're)\s+(here|in|at|married)\b/i;
+    const s = sentencesOf(text).find((x) => !/\b(have|has|had)\b|'ve\b|'s been\b/i.test(x)
+      && (((since.test(x) || forDuration.test(x)) && presentSimple.test(x)) || (since.test(x) && presentBe.test(x))));
+    return s ? { msg: "Para algo que empezó en el pasado y sigue ahora, usa Present Perfect: *I've lived here since 2020*, no *I live here since 2020*.", sample: s } : null;
+  },
+  sinceDuration(text) {
+    const m = text.match(/\bsince\s+(a|one|two|three|four|five|six|seven|eight|nine|ten|\d+|many|several|a few)\s+(years?|months?|weeks?|days?)\b/i);
+    return m ? { msg: "Con una duración usa *for* (*for five years*). *Since* va con el punto de inicio (*since 2020*, *since I was a child*).", sample: m[0] } : null;
+  },
+  tagIsntItAll(text) {
+    const m = text.match(/\b(you|we|they|I|he|she)\b[^.!?,]*,\s*isn't it\?/i);
+    return m ? { msg: "La question tag cambia con cada frase: *You live here, don't you?* · *She's coming, isn't she?* *Isn't it?* solo encaja con *it is*.", sample: m[0] } : null;
+  },
+  tagAuxMismatch(text) {
+    const past = text.match(/\b(went|was|were|had|saw|met|came|made|took|got|said|told|\w+ed)\b[^.!?]*,\s*(don't|doesn't)\s+(you|he|she|they|we)\?/i);
+    if (past) return { msg: "La tag copia el tiempo del verbo: con Past Simple usa *didn't*: *You went to the meetup, didn't you?*", sample: past[0], soft: true };
+    const perfect = text.match(/\b(have|has|'ve)\s+\w+[^.!?]*,\s*(didn't|did)\s+(you|he|she|they|we)\?/i);
+    return perfect ? { msg: "Con Present Perfect la tag usa *have/has*: *You've been there, haven't you?*", sample: perfect[0], soft: true } : null;
+  },
+  indirectQuestion(text) {
+    const m = text.match(/\b(tell me|know|wonder|ask you|explain)\s+(where|what|when|who|how|why|which)\s+(is|are|was|were|do|does|did)\s+(the|it|he|she|they|you|we|this|that)\b[^.!?]*/i);
+    return m ? { msg: "Después de *Could you tell me…?* el orden es de afirmación: *Could you tell me where the café is?*, no *where is the café*.", sample: m[0], soft: true } : null;
+  },
+  justPosition(text) {
+    const m = text.match(/\b(have|has|'ve|'s)\s+(\w+ed|sent|done|seen|made|written|got|taken|read|heard|met|found|left|begun)\s+just\b/i);
+    return m ? { msg: "*Just* va entre el auxiliar y el participio: *I've just sent you the photos*.", sample: m[0] } : null;
+  },
+  makeFriendsDo(text) {
+    const m = text.match(/\b(do|does|did|doing|done)\s+(a lot of\s+|lots of\s+|many\s+|some\s+|new\s+)*friends\b/i);
+    return m ? { msg: "«Hacer amigos» es *make friends*: *I made a lot of friends*, no *did friends*.", sample: m[0] } : null;
+  },
+  knowMeet(text) {
+    const m = text.match(/\b(knew|know)\s+(him|her|them|\w+)\s+(yesterday|last\s+\w+|at\s+(a|an|the)\s+\w+|in\s+(19|20)\d\d)\b/i);
+    return m ? { msg: "«Conocer» a alguien por primera vez es *meet* (*I met Priya at the event*). *Know* es conocer a alguien desde hace tiempo.", sample: m[0], soft: true } : null;
+  },
 };
 
 export function runChecks(text, ids = []) {

@@ -34,6 +34,7 @@ import numpy as np
 warnings.filterwarnings("ignore")
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 SAMPLE_RATE = 24000
 
 # Speed per kind of clip. B1 learners get natural but unhurried speech.
@@ -44,6 +45,18 @@ SPEED = {
     "dictation": 0.9,
 }
 SENTENCE_PAUSE = 0.38  # seconds between sentences inside one clip
+
+# Proper names the G2P gets wrong, applied to every clip (misaki inline markup).
+LEXICON = {
+    "Priya": {"en-us": "pɹˈijə", "en-gb": "pɹˈiːjə"},
+}
+_LEX_RE = {w: re.compile(rf"(?<!\[)\b{re.escape(w)}\b") for w in LEXICON}
+
+
+def apply_lexicon(text: str, lang: str) -> str:
+    for word, phon in LEXICON.items():
+        text = _LEX_RE[word].sub(f"[{word}](/{phon[lang]}/)", text)
+    return text
 LEAD_SILENCE = 0.12
 TAIL_SILENCE = 0.30
 TARGET_RMS_DB = -20.0
@@ -74,12 +87,14 @@ def collect_clips(module_dir: Path) -> list[dict]:
             if isinstance(node, dict):
                 if isinstance(node.get("audio"), str) and node.get("speaker") and (node.get("text") or node.get("tts")):
                     kind = "dictation" if node.get("type") == "dictation" else "default"
+                    tone = node.get("tone") or (node.get("answer") if node.get("type") == "intonation" else None)
                     clips.append({
                         "id": node["audio"],
                         "speaker": node["speaker"],
                         "text": clean_text(node.get("tts") or node["text"]),
                         "display": clean_text(node.get("text") or node.get("tts")),
                         "kind": kind,
+                        "tone": tone,
                         "source": f"{path.name}:{ctx}",
                     })
                 for key, value in node.items():
@@ -106,6 +121,7 @@ def collect_clips(module_dir: Path) -> list[dict]:
                 clips.append({"id": f"{base}-ex", "speaker": ex["speaker"],
                               "text": clean_text(ex.get("tts") or ex["text"]),
                               "display": clean_text(ex["text"]), "kind": "default",
+                              "tone": ex.get("tone"),
                               "source": f"{path.name}:phonetics.{item['id']}.example"})
 
     seen: dict[str, str] = {}
@@ -140,17 +156,40 @@ class Synth:
         parts = re.split(r"(?<=[.!?])\s+(?=[A-Z0-9\"'(])", text)
         return [p.strip() for p in parts if p.strip()]
 
-    def render(self, text: str, voice: str, lang: str, speed: float) -> np.ndarray:
-        chunks = []
+    def _synth(self, text: str, voice: str, lang: str, speed: float) -> np.ndarray:
+        phonemes, _ = self.g2p[lang](apply_lexicon(text, lang))
+        audio, sr = self.kokoro.create(phonemes, voice=voice, speed=speed, is_phonemes=True)
+        assert sr == SAMPLE_RATE
+        return audio.astype(np.float32)
+
+    def render(self, text: str, voice: str, lang: str, speed: float, tone=None) -> tuple[np.ndarray, list]:
+        """Render a clip. `tone` ("rise"/"fall", or a list for several tags) shapes
+        the question tags of the sentences that have one; see intonation.py."""
+        from intonation import render_tagged, split_tag
+
+        tones = [tone] if isinstance(tone, str) else list(tone or [])
+        chunks, marks, offset = [], [], 0
         pause = np.zeros(int(SENTENCE_PAUSE * SAMPLE_RATE), dtype=np.float32)
+        tag_index = 0
         for i, sentence in enumerate(self.sentences(text)):
-            phonemes, _ = self.g2p[lang](sentence)
-            audio, sr = self.kokoro.create(phonemes, voice=voice, speed=speed, is_phonemes=True)
-            assert sr == SAMPLE_RATE
             if i:
                 chunks.append(pause)
-            chunks.append(audio.astype(np.float32))
-        return np.concatenate(chunks)
+                offset += len(pause)
+            wanted = None
+            if tones and split_tag(sentence):
+                wanted = tones[min(tag_index, len(tones) - 1)]
+                tag_index += 1
+            if wanted:
+                audio, info = render_tagged(sentence, wanted, lambda t: self._synth(t, voice, lang, speed), SAMPLE_RATE)
+                marks.append({"tone": wanted, "start": offset / SAMPLE_RATE + info["start"], "end": offset / SAMPLE_RATE + info["end"],
+                              "slope": info["slope"], "method": info["method"]})
+            else:
+                audio = self._synth(sentence, voice, lang, speed)
+            chunks.append(audio)
+            offset += len(audio)
+        if tones and not marks:
+            raise SystemExit(f"tone {tone!r} declared but no question tag found in: {text}")
+        return np.concatenate(chunks), marks
 
 
 def master(audio: np.ndarray) -> np.ndarray:
@@ -188,7 +227,13 @@ def encode_mp3(audio: np.ndarray, dest: Path) -> None:
 
 
 def clip_hash(clip: dict, voice: str, speed: float) -> str:
-    key = json.dumps([clip["text"], voice, speed, SENTENCE_PAUSE, TARGET_RMS_DB], ensure_ascii=False)
+    key = [clip["text"], voice, speed, SENTENCE_PAUSE, TARGET_RMS_DB]
+    lex = {w: p for w, p in LEXICON.items() if re.search(rf"\b{re.escape(w)}\b", clip["text"])}
+    if lex:
+        key.append(lex)
+    if clip.get("tone"):
+        key.append(clip["tone"])
+    key = json.dumps(key, ensure_ascii=False)
     return hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
 
 
@@ -243,7 +288,8 @@ def main() -> int:
             continue
         if synth is None:
             synth = Synth(Path(args.model), Path(args.voices))
-        audio = master(synth.render(clip["text"], spk["voice"], spk["lang"], speed))
+        raw, marks = synth.render(clip["text"], spk["voice"], spk["lang"], speed, clip.get("tone"))
+        audio = master(raw)
         encode_mp3(audio, dest)
         manifest[clip["id"]] = {
             "file": dest.name,
@@ -254,8 +300,14 @@ def main() -> int:
             "text": clip["display"],
             "hash": h,
         }
+        if marks:
+            # Positions in the final file (master() prepends LEAD_SILENCE).
+            manifest[clip["id"]]["tones"] = [
+                {**m, "start": round(m["start"] + LEAD_SILENCE, 3), "end": round(m["end"] + LEAD_SILENCE, 3)} for m in marks
+            ]
         done += 1
-        print(f"✓ {clip['id']:32s} {spk['voice']:10s} {manifest[clip['id']]['duration']:5.2f}s  {clip['display'][:60]}")
+        tone_note = "  " + " ".join(f"[{m['tone']} {m['slope']:+.1f}st {m['method']}]" for m in marks) if marks else ""
+        print(f"✓ {clip['id']:32s} {spk['voice']:10s} {manifest[clip['id']]['duration']:5.2f}s  {clip['display'][:60]}{tone_note}")
 
     valid = {c["id"] for c in clips}
     for stale in sorted(set(manifest) - valid):
