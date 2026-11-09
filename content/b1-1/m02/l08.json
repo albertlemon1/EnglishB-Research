@@ -135,7 +135,7 @@
         "say": "A follow-up email.",
         "variants": [
           { "label": "Sustantivo: acento en FOL", "speaker": "coach", "audio": "l08-ph-follow-up-noun", "text": "I sent her a follow-up email." },
-          { "label": "Verbo: acento en UP", "speaker": "coach", "audio": "l08-ph-follow-up-verb", "text": "I'll follow up tomorrow.", "tts": "I'll [follow](/fˌɑlO/) [up](/ˈʌp/) tomorrow." }
+          { "label": "Verbo: acento en UP", "speaker": "coach", "audio": "l08-ph-follow-up-verb", "text": "I'll follow up tomorrow.", "tts": "I'll [follow](/fˈɑlO/) [up](/ˈʌp/) tomorrow." }
         ],
         "alerts": [
           { "type": "stress", "text": "El acento cambia la categoría: *a FOLLOW-up* (sustantivo, con guion) frente a *to follow UP* (verbo, sin guion)." },

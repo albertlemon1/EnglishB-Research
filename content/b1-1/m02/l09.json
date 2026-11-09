@@ -171,8 +171,7 @@
         "ttsUk": "[Have](/həv/) [you](/jə/) ever?",
         "alerts": [
           { "type": "weak", "text": "En el habla natural *have* se reduce a /həv/ y *you* a /jə/: «hav-ya-É-ver». La fuerza va en EVER." },
-          { "type": "consonant", "text": "La h de *have* es un soplo ligero; nunca jota." },
-          { "type": "intonation", "text": "Es una pregunta de sí o no: la voz sube al final ↗." }
+          { "type": "consonant", "text": "La h de *have* es un soplo ligero; nunca jota." }
         ],
         "example": { "speaker": "priya", "text": "Have you ever tried the climbing group Leo goes to?", "tts": "[Have](/həv/) [you](/jə/) ever tried the climbing group Leo goes to?" }
       }

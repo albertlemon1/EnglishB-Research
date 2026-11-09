@@ -24,7 +24,9 @@ import parselmouth
 from parselmouth.praat import call
 
 FLOOR, CEIL = 70, 450
-MIN_MOVE = 3.0  # semitones
+MIN_MOVE = 3.0       # semitones: smallest movement QA accepts
+ACCEPT_SINGLE = 4.5  # semitones: the in-place reshape must move at least this much, else use the split method
+OCTAVE_JUMP = 9.0    # semitones from the tag's median: farther points are pitch-tracking octave errors
 
 TAG_RE = re.compile(
     r"^(?P<main>.+,)\s*(?P<tag>(?:\w+n't|is|are|am|was|were|do|does|did|have|has|had|can|could|will|would|should)"
@@ -66,6 +68,11 @@ def slope(a: np.ndarray, sr: int, start: float = 0.0, end: float | None = None) 
     if m.sum() < 4:
         return None
     seg = 12 * np.log2(f[m] / 100.0)
+    # Drop octave errors (halved/doubled F0 on a creaky final consonant); they
+    # are not melody and would exaggerate or invert the measured movement.
+    seg = seg[np.abs(seg - np.median(seg)) <= OCTAVE_JUMP]
+    if len(seg) < 4:
+        return None
     n = max(2, len(seg) // 3)
     return float(np.median(seg[-n:]) - np.median(seg[:n]))
 
@@ -143,7 +150,7 @@ def render_tagged(sentence: str, tone: str, synth, sr: int) -> tuple[np.ndarray,
             shaped = _reshape(whole, sr, tone, ref, t0)
             if shaped is not None:
                 s = slope(shaped, sr, t0)
-                if _ok(tone, s):
+                if _ok(tone, s) and abs(s) >= ACCEPT_SINGLE:
                     return shaped, {"start": round(t0, 3), "end": round(len(shaped) / sr, 3), "slope": round(s, 1), "method": "single"}
 
     # 2) main clause and tag synthesized separately; the tag's boundaries are exact
