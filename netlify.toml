@@ -1,0 +1,70 @@
+# Netlify deploy config for a static site with no build step.
+# Connect the repo (or drag the project folder into Netlify) and these settings
+# apply automatically — no "Build command" or "Publish directory" need to be
+# typed in the UI, but they're mirrored here for clarity.
+
+[build]
+  publish = "."
+  # No build command: the site is already static, nothing to compile.
+
+# All app paths are relative (no leading "/"), so the exact same files serve
+# correctly whether the site lives at a domain root (Netlify, local) or under
+# a subpath (GitHub Pages' /EnglishB-Research/). No redirects or rewrites are
+# needed: routing happens client-side via the URL hash (#m01-l01-lexical),
+# which browsers never send to the server.
+
+# The shell and content must always revalidate, so a new deploy (or an
+# edited lesson) reaches returning visitors right away — the service worker
+# already does network-first for these and only falls back to cache offline.
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# CSS/JS change with the app version; a short cache keeps deploys snappy
+# without serving a stale script for long after a push.
+[[headers]]
+  for = "/assets/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=600, must-revalidate"
+
+[[headers]]
+  for = "/assets/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=600, must-revalidate"
+
+# Audio clips are named by a stable id (e.g. l01-scn.mp3) and regenerated in
+# place rather than renamed, so cache them generously — this is the bulk of
+# the site's bandwidth. Netlify header rules only support a trailing wildcard
+# (no "*.mp3" suffix match), so this also covers each module's manifest.json;
+# that file is always fetched with `cache: "no-cache"` in assets/js/data.js,
+# which forces revalidation regardless of this header.
+[[headers]]
+  for = "/audio/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/assets/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
