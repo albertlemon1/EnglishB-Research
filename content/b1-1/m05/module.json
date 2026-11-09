@@ -1,0 +1,89 @@
+{
+  "id": "m05",
+  "sublevel": "b1-1",
+  "n": 5,
+  "title": "Life Styles, Well-Being & Time Balance",
+  "titleEs": "Estilos de vida, bienestar y equilibrio del tiempo",
+  "hours": 5,
+  "domains": [
+    "LC",
+    "BS"
+  ],
+  "intro": "Este módulo trata del equilibrio entre obligaciones y bienestar. Aprenderás a describir tu rutina, a poner límites y dar consejos ante el estrés, a comparar el trabajo en casa y en la oficina, a hablar de salud y ejercicio, y a organizar la semana y el tiempo libre. La herramienta central son los verbos de obligación y consejo: have to (obligatorio), don't have to (no hace falta), mustn't (prohibido) y should / ought to (consejo). Además, enough y too much / too many te ayudan a explicar qué falta y qué sobra.",
+  "canDo": [
+    "Describir mi rutina con have to / don't have to y spend + tiempo + -ing.",
+    "Dar consejos y poner límites con should, shouldn't y ought to.",
+    "Comparar el trabajo en remoto y presencial distinguiendo don't have to de mustn't.",
+    "Hablar de salud separando consejo (should) de indicación (have to), con enough y too much / too many.",
+    "Planificar la semana y proponer planes con Should we…? y enough time to."
+  ],
+  "focus": {
+    "grammar": "have to / don't have to · mustn't · should / shouldn't / ought to · (not) enough + sustantivo · adjetivo + enough · too much / too many · enough time to + verbo",
+    "lexis": "by (eight thirty), spend time + -ing, work from home, set boundaries, burnt out, take a proper break, commute, get enough sleep, out of shape, be free, Should we…?",
+    "afh": "Schwa y sílabas átonas que desaparecen (comfortable, vegetable, every, interesting, Wednesday) · have to = /ˈhæf.tə/ · letras mudas (shouldn't, ought, mustn't, muscles) · variantes US / UK (leisure, weekend, medicine)"
+  },
+  "cast": [
+    "coach",
+    "maya",
+    "leo",
+    "alex",
+    "sarah",
+    "priya",
+    "ryan",
+    "emma",
+    "george",
+    "daniel",
+    "hannah"
+  ],
+  "lessons": [
+    "l21",
+    "l22",
+    "l23",
+    "l24",
+    "l25"
+  ],
+  "blocks": [
+    {
+      "id": "lexical",
+      "n": 1,
+      "name": "Input léxico",
+      "short": "Input",
+      "text": "Escenario real, conversación y mapa de tres registros."
+    },
+    {
+      "id": "discovery",
+      "n": 2,
+      "name": "Descubrimiento guiado",
+      "short": "Descubre",
+      "text": "Deduce la regla con tres preguntas: significado, forma y uso."
+    },
+    {
+      "id": "phonetics",
+      "n": 3,
+      "name": "Glosario fonético dual",
+      "short": "Fonética",
+      "text": "IPA US/UK + Anclaje Fonético Hispanohablante."
+    },
+    {
+      "id": "consolidation",
+      "n": 4,
+      "name": "Consolidación y L1",
+      "short": "Consolida",
+      "text": "Estructuras, matices y errores típicos del español."
+    },
+    {
+      "id": "practice",
+      "n": 5,
+      "name": "Práctica",
+      "short": "Practica",
+      "text": "Ejercicios con corrección inmediata, entonación y dictado."
+    },
+    {
+      "id": "task",
+      "n": 6,
+      "name": "Tarea y autoevaluación",
+      "short": "Tarea",
+      "text": "Produce un mensaje real, compáralo con el modelo y revísalo."
+    }
+  ]
+}

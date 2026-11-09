@@ -6,9 +6,14 @@ Contexto para retomar el proyecto en una sesión nueva. Léelo entero antes de t
 
 App de autoaprendizaje para hispanohablantes, Banda B del MCER: 270 h en cuatro subniveles (B1.1 60 h, B1.2 60 h, B2.1 75 h, B2.2 75 h), 54 módulos, 270 lecciones. La estructura completa está en `content/course.json` (fuente única); `docs/ESTRUCTURA_BANDA_B.md` se genera desde ahí.
 
-**Estado (2026-11-09):** publicados con audio los Módulos 1 a 4: l01–l05 (233 audios), l06–l10 (248), l11–l15 (231) y l16–l20 (235). El Módulo 4 se escribió primero como borrador (texto sin audio) y después se publicó con su audio de Kokoro. Se descartó ElevenLabs: el usuario prefiere no tocar la canalización de Kokoro, que ya resuelve fonemas forzados, versión lenta, entonación medida y control de calidad.
+**Estado (2026-11-09):** publicados con audio los Módulos 1 a 5: l01–l05 (233 audios), l06–l10 (248), l11–l15 (231), l16–l20 (235) y l21–l25 (231), en total 1178 clips. Se descartó ElevenLabs: el usuario prefiere no tocar la canalización de Kokoro, que ya resuelve fonemas forzados, versión lenta, entonación medida y control de calidad.
 
-**Plan de trabajo acordado con el usuario (desde el Módulo 4):** se escribe un módulo cada vez y se hace push al terminarlo. Primero se crea el texto, con los huecos de audio ya puestos (`audio` + `speaker` + `text`, IDs únicos), y el módulo entra como `"status": "draft"` para que el usuario lo revise con `?borrador`. **Los audios se generan con Kokoro solo cuando el usuario lo pide**; entonces el módulo pasa a `"available"`. Antes de cambiar el estado, ejecuta `qa_audio.py` y recorre la app con Playwright. **Siguiente: Módulo 5**, «Life Styles, Well-Being & Time Balance» (l21–l25; gramática: should / ought to / have to y adjetivo + enough; AFH: schwa en sílabas átonas, como *comfortable* o *vegetable*).
+**Flujo de trabajo por módulo (acordado con el usuario):** se hace un módulo cada vez y se hace push al terminarlo.
+- Si el usuario pide **solo el texto**, el módulo entra como `"status": "draft"` (huecos de audio puestos, sin MP3) y lo revisa con `?borrador`. Los audios se generan cuando lo pida, y entonces pasa a `"available"`.
+- Si pide **texto y audio** (como en el Módulo 5), se hace todo en una pasada: texto → verificación de fonemas con misaki → generación con Kokoro → `qa_audio.py` → Playwright → `"available"`.
+- Abre el PR solo cuando el usuario lo pida.
+
+**Siguiente: Módulo 6**, «Travel, Mobility & Exploring Places» (l26–l30; gramática: futuros will / going to / Present Continuous y First Conditional; AFH: s-clusters de viaje, como *station* o *street*, y /j/ frente a /dʒ/).
 
 El usuario escribe en español y revisa en el móvil. Responde en español neutro (nada de «vosotros», «os», «vuestra»).
 
@@ -42,7 +47,7 @@ SPA estática: módulos ES sin dependencias y **sin paso de build**. Es una PWA 
 
 ## Contenido
 
-Rutas: `content/<subnivel>/<módulo>/`, con `module.json`, `lNN.json` (número **global** de lección) y `review.json`; audios en `audio/<subnivel>/<módulo>/` más `manifest.json`. **Usa `content/b1-1/m04/` o `m03/` como plantilla general** (los más recientes; no usan `tone`; el 4 tiene `variants` sin tono para contrastes de acento) y `m02/` cuando necesites tipos que el 3 no tiene: `intonation`, `variants` (tags con `tone`) y un modelo de tarea con diálogo (`lines[]`). El Módulo 1 es el más sencillo.
+Rutas: `content/<subnivel>/<módulo>/`, con `module.json`, `lNN.json` (número **global** de lección) y `review.json`; audios en `audio/<subnivel>/<módulo>/` más `manifest.json`. **Usa `content/b1-1/m05/` o `m04/` como plantilla general** (los más recientes; no usan `tone`; el 4 tiene `variants` sin tono para contrastes de acento) y `m02/` cuando necesites tipos que el 3 no tiene: `intonation`, `variants` (tags con `tone`) y un modelo de tarea con diálogo (`lines[]`). El Módulo 1 es el más sencillo.
 
 Esquema de lección: `id`, `n`, `title`, `titleEs`, `minutes`, `summary`, `canDo[]`, `focus{grammar, lexis, afh}`, `warmup`, más los bloques:
 
@@ -64,7 +69,7 @@ Esquema de lección: `id`, `n`, `title`, `titleEs`, `minutes`, `summary`, `canDo
 Reglas de redacción:
 
 - Marcado en línea: `{{chunk}}` resalta, `**negrita**`, `*inglés dentro del español*`. **Nunca dejes espacio antes de una contracción**: `I{{'ve lived}}`, no `I {{'ve lived}}` (el validador lo detecta).
-- Los IDs de audio son **únicos en todo el curso**. Los del repaso llevan prefijo de módulo (`m05-rv-…` en el próximo).
+- Los IDs de audio son **únicos en todo el curso**. Los del repaso llevan prefijo de módulo (`m06-rv-…` en el próximo).
 - Cualquier clip: objeto con `speaker` + `audio` + `text`; `tts` (opcional) es el texto que se sintetiza, con fonemas forzados `[word](/fonemas/)` en notación misaki; `tone: "rise"|"fall"` solo en clips con question tag.
 - Repasa el material fuente con ojo crítico. En los módulos 1 y 2 se corrigieron IPA, sílabas, ejemplos agramaticales y falsos amigos mal etiquetados (ver «Correcciones» en el README). Documenta las correcciones que hagas.
 - Nombres de personajes: evita los que el fonemizador lea mal («Inês» se leyó «circumflex»). Si hace falta, añade el nombre al `LEXICON` de `generate_audio.py`. Revisa también la coherencia de las biografías entre lecciones (fechas, años).
@@ -87,8 +92,9 @@ Cada voz se asocia a un registro para que el oído relacione voz y formalidad.
 | Priya | `af_aoede` | Neutro, canadiense |
 | Oliver | `bm_fable` | Neutro UK |
 | Grace | `af_nova` | Neutro US; atención al cliente de la compañía de internet (desde el Módulo 4) |
+| Hannah (Dr Hannah Ward) | `bf_isabella` | Formal UK; médica de familia de Sarah (desde el Módulo 5) |
 
-Los personajes nuevos se añaden a `cast.json` y a `cast` del `module.json`. El Módulo 3 añadió a Daniel (soporte técnico interno de la empresa de Priya) y el Módulo 4 añadió a Grace (compañía de internet). George atiende en la tienda de electrónica de las lecciones 18 y 20. No le des a un personaje dos trabajos incompatibles.
+Los personajes nuevos se añaden a `cast.json` y a `cast` del `module.json`. El Módulo 3 añadió a Daniel (soporte técnico interno de la empresa de Priya), el Módulo 4 a Grace (compañía de internet) y el Módulo 5 a la doctora Hannah Ward (médica de familia). George atiende en la tienda de electrónica de las lecciones 18 y 20. No le des a un personaje dos trabajos incompatibles.
 
 ## Audio: generación y control de calidad
 
@@ -114,6 +120,7 @@ python3 tools/build_structure_doc.py
 - **No afirmes nada de un audio sin medirlo.** En el Módulo 2, una explicación decía que *Have you ever…?* sube, y la medición mostró que bajaba; se retiró. Si el contenido dice «sube» o «baja», el audio tiene que hacerlo.
 - PocketSphinx da falsos positivos en frases muy cortas y en voces UK: compara con otra voz antes de reasignar. `am_puck` (Leo) es la voz que peor puntúa: si un clip suyo falla y con `am_michael` no, reformula la frase (en el Módulo 3, *tap* → *press*). Si un clip no se entiende, cambia la voz o el `tts`.
 - Si un override de fonemas suena mal, cambia el override, no el texto. Ejemplo: `follow up` → `[follow](/fˈɑlO/) [up](/ˈʌp/)`.
+- misaki no aplica las reducciones del habla rápida que enseñan las lecciones: lee *every* y *interesting* con todas sus sílabas, *have to* con /v/, *overwhelmed* con «hw», *anxious* sin /k/ y *medicine* (UK) con tres sílabas. Cuando una alerta afirme una reducción, fuérzala en el clip de fonética (`ttsUs` / `ttsUk`) y en el ejemplo (`tts`). En el Módulo 5, *have to / has to* se fuerzan a /hæf tə/ y /hæs tə/ en todos los clips del módulo, con el post-proceso descrito en el README.
 
 ## Verificación antes de entregar
 

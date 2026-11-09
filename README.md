@@ -4,7 +4,7 @@ App web de autoaprendizaje para la Banda B del MCER (270 horas, de B1.1 a B2.2).
 
 - **Estructura completa** de la Banda B: 4 subniveles, 54 módulos y 270 lecciones, con dominios temáticos, foco gramatical (EGP), léxico (EVP) y fonético (AFH) por módulo, y la prueba de transición *The Threshold Gate*. Ver [`docs/ESTRUCTURA_BANDA_B.md`](docs/ESTRUCTURA_BANDA_B.md).
 - **Módulos 1 y 2 completos** (B1.1): *Personal Life, Routines & Current Projects* y *Social Interactions & Making Connections*, con 5 lecciones de 1 hora y un repaso cada uno.
-- **947 audios** generados con doce voces neuronales (233 del Módulo 1, 248 del Módulo 2, 231 del Módulo 3 y 235 del Módulo 4), guardados en `audio/<subnivel>/<módulo>/` y servidos por la propia app (también sin conexión).
+- **1178 audios** generados con trece voces neuronales (233 del Módulo 1, 248 del Módulo 2, 231 del Módulo 3, 235 del Módulo 4 y 231 del Módulo 5), guardados en `audio/<subnivel>/<módulo>/` y servidos por la propia app (también sin conexión).
 
 ## Ejecutar la app
 
@@ -70,6 +70,7 @@ Cada voz está asignada a un registro y un contexto, para que el oído asocie la
 | Oliver | `bm_fable` | UK | Registro neutro británico: organizador del meetup (desde el Módulo 2) |
 | Daniel | `bm_daniel` | UK | Registro formal: soporte técnico (TI), correos y llamadas (desde el Módulo 3) |
 | Grace | `af_nova` | US | Registro neutro: atención al cliente de una compañía de internet (desde el Módulo 4) |
+| Hannah | `bf_isabella` | UK | Registro formal: la doctora Hannah Ward, médica de familia de Sarah (desde el Módulo 5) |
 
 ### Regenerar los audios
 
@@ -112,8 +113,8 @@ netlify.toml                              Config de despliegue en Netlify (sin b
 assets/css, assets/js                     Interfaz (módulos ES, sin dependencias)
 content/course.json                       Estructura completa de la Banda B
 content/cast.json                         Reparto de voces
-content/b1-1/m01/ … m04/                 Módulos 1 a 4: module.json, lecciones, review.json
-audio/b1-1/m01/ … m04/                   233 + 248 + 231 + 235 MP3, cada uno con su manifest.json
+content/b1-1/m01/ … m05/                 Módulos 1 a 5: module.json, lecciones, review.json
+audio/b1-1/m01/ … m05/                   233 + 248 + 231 + 235 + 231 MP3, cada uno con su manifest.json
 tools/serve.py                            Servidor local de desarrollo
 tools/                                    Generación y validación de audio y contenido
 docs/ESTRUCTURA_BANDA_B.md                Estructura del curso (generada desde course.json)
@@ -164,3 +165,11 @@ Desde el Módulo 4, los módulos se escriben y se publican en dos fases: primero
 - **Fonemas comprobados con misaki antes de generar el audio**: el fonemizador acentuaba *reset* en SET también como sustantivo, *broke down* en BROKE y leía *issue* en UK como /ˈɪʃjuː/. Para que el audio coincida con las alertas, se fuerzan los fonemas con `ttsUs` / `ttsUk` / `tts`.
 - **Comprobaciones nuevas** en `checks.js`: `tooMuchAdj`, `enoughBeforeAdj`, `keepTo`, `doesntS`, `explainMe`, `messageTells`, `askFor`, `returnMoney`, `mightTo`, `doubtsQuestions` y `aHour`, probadas con frases correctas e incorrectas y contra los modelos de tarea.
 - **Audio (publicado tras el borrador)**: 235 clips con Kokoro y WER medio de 0,15, igual que los módulos anteriores. PocketSphinx marcó cuatro clips (*A reset. To reset.* lento y UK; *My battery's dead…*; *…unplug the router*) que fallan igual con otras voces, así que son falsos positivos del reconocedor. El fonemizador produce bien *unplug* /ʌnˈplʌɡ/ y el contraste *REset / reSET*. No hay clips con `tone`.
+
+## Notas del Módulo 5 (bienestar y equilibrio del tiempo, l21–l25)
+
+- **Gramática en espiral**: l21 *have to / don't have to* y *spend* + tiempo + *-ing*; l22 *should / shouldn't / ought to* para aconsejar y poner límites; l23 *have to* (obligatorio), *don't have to* (no hace falta) y *mustn't* (prohibido), con *(not) … enough* del Módulo 4; l24 *should* (consejo) frente a *have to* (indicación médica), *enough* + sustantivo y *too much / too many*; l25 *have to* para compromisos, *Should we…?* / *Why don't we…?* para proponer y *enough time to* + verbo.
+- **AFH**: la schwa y las sílabas que desaparecen (*every, calendar, comfortable, vegetable, interesting, family, Wednesday*), *have to* = /ˈhæf.tə/, letras mudas (*shouldn't, ought, mustn't, muscles*) y variantes US / UK (*leisure, weekend, medicine*).
+- **Personaje nuevo**: la doctora Hannah Ward (`bf_isabella`), médica de familia de Sarah (l24). Así los consejos de salud vienen de una profesional y no de un personaje con otro trabajo.
+- **Fonemas forzados**: misaki no aplica las reducciones que enseñan las alertas, así que se fuerzan en `ttsUs` / `ttsUk` / `tts`: *every* /ˈɛvɹi/, *comfortable* /ˈkʌmftəɹbəl/, *vegetable* /ˈvɛʤtəbᵊl/, *interesting* /ˈɪntɹəstɪŋ/, *anxious* con /k/, *overwhelmed* sin «hw», *ought to* con t suave en EE. UU., *medicine* de dos sílabas en UK y *have to / has to* con /f/ y /s/ en todo el módulo (53 sustituciones automáticas en el `tts` de cada clip).
+- **Comprobaciones nuevas** en `checks.js`: `haventTo`, `haveToThird`, `spendTo`, `oughtNoTo`, `thinkShouldnt`, `mustAdvice`, `workInHome`, `makeExercise`, `getSleepEnough`, `tooMuchPlural`, `recipeDoctor`, `quedarStay`, `enoughTimeFor`, `dayPreposition` y `dayCapital`, probadas con frases correctas e incorrectas y contra los modelos de tarea.

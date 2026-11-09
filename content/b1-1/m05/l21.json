@@ -1,0 +1,816 @@
+{
+  "id": "l21",
+  "n": 21,
+  "title": "Describing Daily Routines & Personal Time Management",
+  "titleEs": "Describir la rutina diaria y la gestión del tiempo",
+  "minutes": 60,
+  "summary": "Describe tu semana con *have to / don't have to*, adverbios de frecuencia y *spend* + tiempo + *-ing*.",
+  "canDo": [
+    "Puedo decir qué es obligatorio en mi semana con *have to / has to*.",
+    "Puedo decir qué no es necesario con *don't / doesn't have to*.",
+    "Puedo explicar en qué se me va el tiempo con *spend* + tiempo + *-ing*.",
+    "Puedo pronunciar *have to* como «HÁF-ta» y *every* en dos sílabas."
+  ],
+  "focus": {
+    "grammar": "have to / has to · don't / doesn't have to · Do you have to…? · spend + tiempo + -ing · adverbios de frecuencia",
+    "lexis": "by (eight thirty), commute, work from home, switch off, be swamped, run late, spend time + -ing, be required to",
+    "afh": "have to = /ˈhæf.tə/ (la v se vuelve f) · schwa y sílabas que desaparecen (every, calendar, usually) · acento de routine"
+  },
+  "warmup": "Piensa en un día laborable típico. ¿Qué cosas son obligatorias (horarios, reuniones, clases) y cuáles podrías dejar de hacer si quisieras?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Mi semana típica",
+      "context": "La escuela de idiomas organiza un taller de gestión del tiempo. Antes de la primera sesión, cada participante graba cómo es su semana. Este es el mensaje de Alex.",
+      "speaker": "alex",
+      "to": "el taller de gestión del tiempo",
+      "audio": "l21-scn",
+      "text": "Hi, I'm Alex. Here's my typical weekday. I {{have to}} be at the office {{by}} eight thirty, so I {{usually}} get up at a quarter to seven. I {{spend}} about forty minutes {{commuting}} each way. On Fridays, I {{don't have to}} go in, because I {{work from home}}. My biggest problem is email: I {{spend}} too much time {{answering}} messages, so I never have enough time for planning. In the evening, I try to {{switch off}}, but it isn't easy!",
+      "tts": "Hi, I'm Alex. Here's my typical weekday. I [have](/hˈæf/) [to](/tə/) be at the office by eight thirty, so I usually get up at a quarter to seven. I spend about forty minutes commuting each way. On Fridays, I don't [have](/hˈæf/) [to](/tə/) go in, because I work from home. My biggest problem is email: I spend too much time answering messages, so I never have enough time for planning. In the evening, I try to switch off, but it isn't easy!"
+    },
+    "dialogue": {
+      "title": "Una semana sin descanso",
+      "context": "Sarah se encuentra con Leo en la cafetería donde él trabaja. Lo ve agotado.",
+      "lines": [
+        {
+          "speaker": "sarah",
+          "audio": "l21-dlg-01",
+          "text": "Leo, you look exhausted. What does your week look like?"
+        },
+        {
+          "speaker": "leo",
+          "audio": "l21-dlg-02",
+          "text": "Crazy. I {{have to}} open the café at seven, and then I have classes until four.",
+          "tts": "Crazy. I [have](/hˈæf/) [to](/tə/) open the café at seven, and then I have classes until four."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l21-dlg-03",
+          "text": "Every day? {{Do you have to}} work on weekends too?",
+          "tts": "Every day? Do you [have](/hˈæf/) [to](/tə/) work on weekends too?"
+        },
+        {
+          "speaker": "leo",
+          "audio": "l21-dlg-04",
+          "text": "Only on Saturdays. On Sundays I {{don't have to}} do anything, so I sleep until noon.",
+          "tts": "Only on Saturdays. On Sundays I don't [have](/hˈæf/) [to](/tə/) do anything, so I sleep until noon."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l21-dlg-05",
+          "text": "And when do you study?"
+        },
+        {
+          "speaker": "leo",
+          "audio": "l21-dlg-06",
+          "text": "Late at night, {{usually}} after eleven. Our teacher {{has to}} grade the essays by Monday, so we {{have to}} send them on Friday.",
+          "tts": "Late at night, usually after eleven. Our teacher [has](/hˈæs/) [to](/tə/) grade the essays by Monday, so we [have](/hˈæf/) [to](/tə/) send them on Friday."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l21-dlg-07",
+          "text": "Hmm. Maybe you {{spend}} too much time {{scrolling}} at night?"
+        },
+        {
+          "speaker": "leo",
+          "audio": "l21-dlg-08",
+          "text": "Ha! Maybe. I really need to plan my week better."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿A qué hora tiene que abrir Leo la cafetería?",
+        "options": [
+          "A las siete",
+          "A las cuatro",
+          "A las once"
+        ],
+        "answer": 0,
+        "explain": "*I have to open the café at seven.*"
+      },
+      {
+        "q": "¿Qué hace Leo los domingos?",
+        "options": [
+          "Trabaja en la cafetería",
+          "Estudia todo el día",
+          "No tiene obligaciones y duerme hasta mediodía"
+        ],
+        "answer": 2,
+        "explain": "*On Sundays I don't have to do anything, so I sleep until noon.* (*don't have to* = no tengo que, no es necesario)."
+      },
+      {
+        "q": "¿Por qué tienen que entregar los trabajos el viernes?",
+        "options": [
+          "Porque el profesor tiene que corregirlos antes del lunes",
+          "Porque el lunes no hay clase",
+          "Porque Leo quiere terminar pronto"
+        ],
+        "answer": 0,
+        "explain": "*Our teacher has to grade the essays by Monday.* (*by* = como muy tarde)."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats, conversaciones rápidas.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l21-reg-c1",
+            "text": "I'm swamped this week. Like, zero free time.",
+            "note": "*Be swamped* = estar hasta arriba de trabajo."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l21-reg-c2",
+            "text": "Mornings are chaos. I'm always running late!",
+            "note": "*Run late* = ir con retraso."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros, clases, conversaciones cotidianas.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l21-reg-n1",
+            "text": "I have to be at the office by eight thirty.",
+            "note": "*Have to* = obligación. *By* + hora = como muy tarde.",
+            "tts": "I [have](/hˈæf/) [to](/tə/) be at the office by eight thirty."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l21-reg-n2",
+            "text": "On Fridays, I don't have to go in.",
+            "note": "*Don't have to* = no es necesario. *Go in* = ir a la oficina o al trabajo.",
+            "tts": "On Fridays, I don't [have](/hˈæf/) [to](/tə/) go in."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l21-reg-n3",
+            "text": "I usually spend an hour answering emails.",
+            "note": "*Spend* + tiempo + verbo -ing."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Normas de empresa, reglamentos, comunicaciones oficiales.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l21-reg-f1",
+            "text": "All participants are required to complete a weekly time log.",
+            "note": "*Be required to* = versión formal de *have to*."
+          },
+          {
+            "speaker": "george",
+            "audio": "l21-reg-f2",
+            "text": "Attendance at the weekly briefing is compulsory.",
+            "note": "*Compulsory* = obligatorio. Su contrario es *optional*."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "have to / don't have to",
+        "es": "tener que / no tener que (no hace falta)",
+        "register": "neutral"
+      },
+      {
+        "en": "by (eight thirty)",
+        "es": "como muy tarde a (las ocho y media)",
+        "register": "neutral"
+      },
+      {
+        "en": "spend (an hour) + -ing",
+        "es": "pasar (una hora) haciendo algo",
+        "register": "neutral"
+      },
+      {
+        "en": "work from home",
+        "es": "trabajar desde casa",
+        "register": "neutral"
+      },
+      {
+        "en": "switch off",
+        "es": "desconectar",
+        "register": "neutral"
+      },
+      {
+        "en": "be swamped",
+        "es": "estar hasta arriba",
+        "register": "casual"
+      },
+      {
+        "en": "run late",
+        "es": "ir con retraso",
+        "register": "casual"
+      },
+      {
+        "en": "be required to…",
+        "es": "tener la obligación de…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "I'm swamped this week.",
+        "answer": "casual",
+        "explain": "*Be swamped* es coloquial."
+      },
+      {
+        "text": "I have to be at the office by eight thirty.",
+        "answer": "neutral",
+        "explain": "Descripción clara y estándar de una obligación."
+      },
+      {
+        "text": "All participants are required to complete a weekly time log.",
+        "answer": "formal",
+        "explain": "*Be required to* es propio de normas e instrucciones oficiales."
+      },
+      {
+        "text": "Mornings are chaos!",
+        "answer": "casual",
+        "explain": "Exageración informal."
+      },
+      {
+        "text": "Attendance at the weekly briefing is compulsory.",
+        "answer": "formal",
+        "explain": "*Attendance* y *compulsory* son vocabulario de reglamento."
+      },
+      {
+        "text": "On Fridays, I don't have to go in.",
+        "answer": "neutral",
+        "explain": "Válida en cualquier contexto."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Alex explica qué es obligatorio en su semana y qué no. Fíjate en las tres formas de *have to* y en lo que significa cada una.",
+    "speaker": "ryan",
+    "audio": "l21-gd",
+    "text": "I {{have to}} be at the office by eight thirty, but on Fridays I {{don't have to}} go in. My manager {{has to}} approve every remote day.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué significa *on Fridays I don't have to go in*?",
+        "options": [
+          "Que no es necesario que vaya: puede elegir.",
+          "Que tiene prohibido ir a la oficina.",
+          "Que va a ir seguro."
+        ],
+        "answer": 0,
+        "explain": "*Don't have to* = no hay obligación. Puede ir si quiere, pero no tiene por qué."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma toma *have to* con *my manager* y cómo se hace la negativa?",
+        "options": [
+          "*Has to* en tercera persona; negativa con *don't / doesn't have to*.",
+          "*Have to* siempre igual; negativa con *haven't to*.",
+          "*Must to* en tercera persona."
+        ],
+        "answer": 0,
+        "explain": "*Have to* funciona como un verbo normal: *he has to*, *I don't have to*, *Does she have to…?*"
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Un compañero nuevo pregunta si es obligatorio ir a la oficina los viernes. ¿Qué respuesta es correcta?",
+        "options": [
+          "No, you don't have to. You can work from home.",
+          "No, you mustn't. You can work from home.",
+          "No, you haven't to."
+        ],
+        "answer": 0,
+        "explain": "*You don't have to* = no es necesario. *You mustn't* significaría que está prohibido, lo contrario de lo que quieres decir."
+      }
+    ],
+    "rule": {
+      "points": [
+        "*Have to / has to* + verbo base = obligación, a menudo externa (horario, jefe, normas).",
+        "*Don't / doesn't have to* = no es necesario: puedes elegir.",
+        "Preguntas: *Do you have to…?* / *Does she have to…?*",
+        "*Spend* + tiempo + verbo -ing: *I spend an hour answering emails.*"
+      ],
+      "formulas": [
+        "have / has to + verbo base",
+        "don't / doesn't have to + verbo base",
+        "spend + tiempo + verbo -ing"
+      ],
+      "note": "«No tengo que ir» = *I don't have to go* (no hace falta). No lo confundas con *mustn't* (está prohibido), que verás en la Lección 23. Al hablar, *have to* suena «HÁF-ta»: la v se vuelve f."
+    },
+    "tts": "I [have](/hˈæf/) [to](/tə/) be at the office by eight thirty, but on Fridays I don't [have](/hˈæf/) [to](/tə/) go in. My manager [has](/hˈæs/) [to](/tə/) approve every remote day."
+  },
+  "phonetics": {
+    "intro": "En inglés, las sílabas átonas se debilitan hasta una vocal neutra, la schwa /ə/, o desaparecen. El hispanohablante pronuncia todas las vocales con la misma fuerza (*e-ve-ry*, *ca-len-dar*), y eso le da un ritmo silábico muy marcado.",
+    "items": [
+      {
+        "id": "routine",
+        "term": "Routine",
+        "pos": "n.",
+        "meaning": "rutina",
+        "ipa": {
+          "us": "/ruːˈtiːn/",
+          "uk": "/ruːˈtiːn/"
+        },
+        "afh": "ru-TÍIN",
+        "say": "Routine.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba, TINE, como en español; pero las dos vocales son largas."
+          },
+          {
+            "type": "spelling",
+            "text": "*-ine* suena /iːn/, «tiin». No digas «ru-TAIN»."
+          },
+          {
+            "type": "vowel",
+            "text": "*Rou-* es una u larga, /uː/: «ruu»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "My morning routine takes about an hour."
+        }
+      },
+      {
+        "id": "have-to",
+        "term": "Have to",
+        "pos": "modal",
+        "meaning": "tener que",
+        "ipa": {
+          "us": "/ˈhæf.tə/",
+          "uk": "/ˈhæf.tə/"
+        },
+        "afh": "HÁF-ta",
+        "say": "Have to.",
+        "ttsUs": "[Have](/hˈæf/) [to](/tə/).",
+        "ttsUk": "[Have](/hˈæf/) [to](/tə/).",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "Delante de *to*, la v de *have* se vuelve /f/: «HÁF-ta», no «HAV-tu». En *has to* pasa lo mismo: «HÁS-ta»."
+          },
+          {
+            "type": "weak",
+            "text": "*To* se reduce a /tə/, «ta»."
+          },
+          {
+            "type": "stress",
+            "text": "La fuerza va en HAVE."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "I have to be at the office by eight thirty.",
+          "tts": "I [have](/hˈæf/) [to](/tə/) be at the office by eight thirty."
+        }
+      },
+      {
+        "id": "every",
+        "term": "Every",
+        "pos": "det.",
+        "meaning": "cada, todos los",
+        "ipa": {
+          "us": "/ˈev.ri/",
+          "uk": "/ˈev.ri/"
+        },
+        "afh": "ÉV-ri",
+        "say": "Every.",
+        "ttsUs": "[Every](/ˈɛvɹi/).",
+        "ttsUk": "[Every](/ˈɛvɹi/).",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "Solo dos sílabas: la e central desaparece, «ÉV-ri». No digas «É-ve-ri»."
+          },
+          {
+            "type": "consonant",
+            "text": "La v es /v/: dientes superiores sobre el labio inferior."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "I check my calendar every morning.",
+          "tts": "I check my calendar [every](/ˈɛvɹi/) morning."
+        }
+      },
+      {
+        "id": "calendar",
+        "term": "Calendar",
+        "pos": "n.",
+        "meaning": "calendario, agenda",
+        "ipa": {
+          "us": "/ˈkæl.ən.dɚ/",
+          "uk": "/ˈkæl.ən.də/"
+        },
+        "afh": "KÁ-lan-der",
+        "say": "Calendar.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, CAL. En español, «calendario» lo lleva en DA."
+          },
+          {
+            "type": "weak",
+            "text": "Las dos últimas vocales son schwas: «KÁ-lan-dr». No pronuncies una a clara al final."
+          },
+          {
+            "type": "vowel",
+            "text": "La primera a es /æ/, abierta."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "I put everything in my calendar."
+        }
+      },
+      {
+        "id": "usually",
+        "term": "Usually",
+        "pos": "adv.",
+        "meaning": "normalmente",
+        "ipa": {
+          "us": "/ˈjuː.ʒu.ə.li/",
+          "uk": "/ˈjuː.ʒu.ə.li/"
+        },
+        "afh": "IÚ-zhua-li",
+        "say": "Usually.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La s suena /ʒ/, como la «y» rioplatense de «yo»: «IÚ-zhua-li». No es «s» ni «y» simple."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, U."
+          },
+          {
+            "type": "weak",
+            "text": "En el habla natural se reduce a tres sílabas: «IÚZH-wa-li»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "I usually get up at a quarter to seven."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Obligación: have to / has to",
+        "formula": "Sujeto + have / has to + verbo base · Do / Does + sujeto + have to…?",
+        "usage": "Para lo que es obligatorio: horarios, normas, compromisos con otras personas.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l21-cc-1a",
+            "text": "I {{have to}} be at the office by eight thirty.",
+            "tts": "I [have](/hˈæf/) [to](/tə/) be at the office by eight thirty."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l21-cc-1b",
+            "text": "Our teacher {{has to}} grade the essays by Monday.",
+            "tts": "Our teacher [has](/hˈæs/) [to](/tə/) grade the essays by Monday."
+          }
+        ]
+      },
+      {
+        "title": "Sin obligación: don't / doesn't have to",
+        "formula": "Sujeto + don't / doesn't have to + verbo base",
+        "usage": "Para decir que algo no es necesario. Puedes hacerlo, pero no tienes por qué.",
+        "examples": [
+          {
+            "speaker": "sarah",
+            "audio": "l21-cc-2a",
+            "text": "On Fridays, I {{don't have to}} go in.",
+            "tts": "On Fridays, I don't [have](/hˈæf/) [to](/tə/) go in."
+          },
+          {
+            "speaker": "coach",
+            "audio": "l21-cc-2b",
+            "text": "She {{doesn't have to}} work on Sundays.",
+            "tts": "She doesn't [have](/hˈæf/) [to](/tə/) work on Sundays."
+          }
+        ]
+      },
+      {
+        "title": "En qué se va el tiempo: spend + tiempo + -ing",
+        "formula": "Sujeto + spend + tiempo + verbo -ing",
+        "usage": "Para explicar cuánto tiempo dedicas a algo. Tras *spend* + tiempo, el verbo va en -ing.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l21-cc-3a",
+            "text": "I {{spend}} an hour {{answering}} emails."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l21-cc-3b",
+            "text": "I {{spend}} forty minutes {{commuting}} each way."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Mustn't no es «no tener que»",
+        "text": "«No tengo que ir» significa que no hace falta: *don't have to*. *Mustn't* significa que está prohibido.",
+        "wrong": "On Fridays I mustn't go to the office. It's optional.",
+        "right": "On Fridays I don't have to go to the office. It's optional."
+      },
+      {
+        "title": "Haven't to",
+        "text": "*Have to* forma la negativa con *don't / doesn't*, como cualquier verbo.",
+        "wrong": "I haven't to work on Sundays.",
+        "right": "I don't have to work on Sundays."
+      },
+      {
+        "title": "Has to en tercera persona",
+        "text": "Con *he, she, it* o un sujeto singular (*my boss*), se usa *has to*.",
+        "wrong": "My boss have to approve it.",
+        "right": "My boss has to approve it."
+      },
+      {
+        "title": "Spend time to",
+        "text": "«Paso una hora contestando» = *spend an hour answering*. Tras *spend* + tiempo no va *to*.",
+        "wrong": "I spend an hour to answer emails.",
+        "right": "I spend an hour answering emails."
+      },
+      {
+        "title": "Have to con v y every con tres sílabas",
+        "text": "*Have to* se dice con /f/, y *every* tiene dos sílabas.",
+        "wrong": "«HAV-tu», «É-ve-ri»",
+        "right": "/ˈhæf.tə/ («HÁF-ta»), /ˈev.ri/ («ÉV-ri»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "I ___ be at work by eight thirty.",
+      "options": [
+        "have to",
+        "has to",
+        "have"
+      ],
+      "answer": 0,
+      "explain": "*I have to* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "My manager ___ approve every remote day.",
+      "options": [
+        "have to",
+        "has to",
+        "have"
+      ],
+      "answer": 1,
+      "explain": "Tercera persona: *has to*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "On Sundays I ___ get up early. I can sleep in.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "haven't to"
+      ],
+      "answer": 0,
+      "explain": "No es necesario → *don't have to*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "I spend an hour ___ emails every morning.",
+      "options": [
+        "answering",
+        "to answer",
+        "answer"
+      ],
+      "answer": 0,
+      "explain": "*Spend* + tiempo + -ing."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la pregunta.",
+      "text": "___ you have to work on weekends?",
+      "accept": [
+        "Do"
+      ],
+      "explain": "*Do you have to…?*"
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "She doesn't ___ to go in on Fridays.",
+      "accept": [
+        "have"
+      ],
+      "explain": "*Doesn't have to*: tras *doesn't*, *have* sin -s."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "I",
+        "have",
+        "to",
+        "be",
+        "at",
+        "the",
+        "office",
+        "by",
+        "eight"
+      ],
+      "answer": "I have to be at the office by eight",
+      "explain": "*Have to* + verbo base; *by* + hora."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "I",
+        "spend",
+        "too",
+        "much",
+        "time",
+        "checking",
+        "my",
+        "phone"
+      ],
+      "answer": "I spend too much time checking my phone",
+      "explain": "*Spend* + tiempo + -ing."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "I haven't to work on Sundays.",
+      "accept": [
+        "I don't have to work on Sundays.",
+        "I do not have to work on Sundays."
+      ],
+      "explain": "Negativa con *don't have to*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "My boss have to approve it.",
+      "accept": [
+        "My boss has to approve it."
+      ],
+      "explain": "*Has to* en tercera persona."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "I spend an hour to answer emails.",
+      "accept": [
+        "I spend an hour answering emails."
+      ],
+      "explain": "*Spend* + tiempo + -ing."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *routine* lleva el acento?",
+      "word": "routine",
+      "syllables": [
+        "rou",
+        "tine"
+      ],
+      "answer": 1,
+      "audioRef": "l21-ph-routine-us",
+      "explain": "rou-**TINE**: acento en la segunda sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *calendar* lleva el acento?",
+      "word": "calendar",
+      "syllables": [
+        "cal",
+        "en",
+        "dar"
+      ],
+      "answer": 0,
+      "audioRef": "l21-ph-calendar-us",
+      "explain": "**CAL**-en-dar: acento en la primera sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "alex",
+      "audio": "l21-dict-1",
+      "text": "On Fridays, I don't have to go to the office.",
+      "explain": "*Don't have to* = no es necesario.",
+      "tts": "On Fridays, I don't [have](/hˈæf/) [to](/tə/) go to the office."
+    }
+  ],
+  "task": {
+    "title": "Tu semana típica",
+    "format": "text",
+    "scenario": "Te inscribiste en un taller de gestión del tiempo. La coordinadora, Emma, pide a cada participante que describa su semana típica antes de la primera sesión.",
+    "brief": "Describe your typical week for a time-management workshop.",
+    "steps": [
+      "Di a qué te dedicas y qué es obligatorio en tu semana (*I have to…*).",
+      "Di qué no es necesario hacer algún día (*On Fridays, I don't have to…*).",
+      "Explica en qué se te va el tiempo (*I spend … -ing*).",
+      "Termina con un hábito que quieres mejorar."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi Emma, here's my typical week. I work / study ___.",
+      "I have to ___ by ___.",
+      "On ___, I don't have to ___.",
+      "I spend about ___ ___ing, so ___.",
+      "I'd like to ___ more / less."
+    ],
+    "chunks": [
+      {
+        "label": "have to",
+        "re": "\\b(have|has) to\\s+[a-z]+"
+      },
+      {
+        "label": "don't have to",
+        "re": "\\b(don't|doesn't|do not|does not) have to\\b"
+      },
+      {
+        "label": "spend + -ing",
+        "re": "\\bspen(d|ds|t)\\b[^.!?]{0,30}\\b[a-z]+ing\\b"
+      },
+      {
+        "label": "frecuencia",
+        "re": "\\b(always|usually|often|sometimes|never|every (day|morning|evening|week))\\b"
+      },
+      {
+        "label": "by + hora",
+        "re": "\\bby\\s+(\\d|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|noon|midnight|monday|tuesday|wednesday|thursday|friday)"
+      },
+      {
+        "label": "work from home / commute",
+        "re": "\\b(work(s|ing)? from home|commut(e|ing)|switch off)\\b"
+      }
+    ],
+    "checks": [
+      "haventTo",
+      "haveToThird",
+      "spendTo",
+      "proDrop",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: una norma en registro formal",
+      "brief": "Write one formal rule for your workplace or school.",
+      "frames": [
+        "All ___ are required to ___. Attendance at ___ is compulsory."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "priya",
+          "audio": "l21-task-model",
+          "text": "Hi Emma, here's my typical week. I'm a UX designer. I {{have to}} join a team call at nine thirty every morning, but I {{don't have to}} be at the office: I work from home three days a week. I {{usually}} plan my day the night before. My problem is meetings. I {{spend}} about three hours a day {{talking}} on video calls, so I don't have enough time for design work. On weekends I {{don't have to}} check emails, and I really try not to!",
+          "label": "Mi semana típica (neutro)",
+          "notes": [
+            "*I have to join…* (obligatorio) frente a *I don't have to be at the office* (no es necesario).",
+            "*I spend about three hours a day talking…*: *spend* + tiempo + -ing."
+          ],
+          "tts": "Hi Emma, here's my typical week. I'm a UX designer. I [have](/hˈæf/) [to](/tə/) join a team call at nine thirty every morning, but I don't [have](/hˈæf/) [to](/tə/) be at the office: I work from home three days a week. I usually plan my day the night before. My problem is meetings. I spend about three hours a day talking on video calls, so I don't have enough time for design work. On weekends I don't [have](/hˈæf/) [to](/tə/) check emails, and I really try not to!"
+        },
+        {
+          "speaker": "emma",
+          "audio": "l21-task-formal",
+          "text": "All participants {{are required to}} complete a weekly time log. Attendance at the final session {{is compulsory}}, but the online quiz {{is optional}}.",
+          "label": "Norma del taller (formal)",
+          "notes": [
+            "*Are required to* = *have to* en registro formal.",
+            "*Compulsory* (obligatorio) frente a *optional* (opcional)."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste *have to* para lo obligatorio y *don't have to* para lo que no es necesario?",
+      "¿Pusiste *has to* con *he / she / it*?",
+      "¿Escribiste *don't have to* y no *haven't to*?",
+      "¿Usaste *spend* + tiempo + -ing (sin *to*)?",
+      "¿Colocaste los adverbios de frecuencia antes del verbo (*I usually plan…*)?"
+    ]
+  }
+}

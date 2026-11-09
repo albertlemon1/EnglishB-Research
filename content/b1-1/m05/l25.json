@@ -1,0 +1,807 @@
+{
+  "id": "l25",
+  "n": 25,
+  "title": "Planning Weekly Schedules & Leisure Activities",
+  "titleEs": "Planificar la semana y el tiempo libre",
+  "minutes": 60,
+  "summary": "Organiza la semana: compromisos con *have to*, propuestas con *Should we…?* y *enough time to* + verbo.",
+  "canDo": [
+    "Puedo explicar mis compromisos de la semana con *have to / don't have to*.",
+    "Puedo proponer planes con *Should we…?*, *Should I…?* y *Why don't we…?*.",
+    "Puedo decir si me da tiempo con *(not) enough time to* + verbo.",
+    "Puedo pronunciar *Wednesday* en dos sílabas y *weekend* con el acento de EE. UU. y de Reino Unido."
+  ],
+  "focus": {
+    "grammar": "have to / don't have to para compromisos · Should we / Should I…? · Why don't we…? · (not) enough time to + verbo · too + adjetivo + for",
+    "lexis": "be free, a day trip, Who's in?, I'm down, Wednesday works for me, put it in the calendar, Would you be available…?",
+    "afh": "Letras mudas y sílabas que desaparecen (Wednesday, interesting, family) · /ʒ/ en leisure · acento de weekend en US y UK"
+  },
+  "warmup": "Mira tu semana: ¿qué días tienes compromisos fijos y qué huecos te quedan libres? ¿Qué plan te gustaría hacer en uno de ellos?",
+  "lexical": {
+    "scenario": {
+      "format": "text",
+      "title": "Planes para el fin de semana",
+      "context": "Maya escribe en el chat del grupo de amigos para organizar el fin de semana.",
+      "speaker": "maya",
+      "to": "el chat del grupo",
+      "audio": "l25-scn",
+      "text": "Hi everyone! Let's plan the weekend. I {{have to}} work until two on Saturday, but {{I'm free}} after that. {{Should we}} go to the street food market? Leo, you {{don't have to}} bring anything this time, I promise! Sunday is {{too short for}} a day trip, but we have {{enough time to}} have a picnic in the park. Oh, and Wednesday night is salsa night. {{Who's in}}?",
+      "tts": "Hi everyone! Let's plan the weekend. I [have](/hˈæf/) [to](/tə/) work until two on Saturday, but I'm free after that. Should we go to the street food market? Leo, you don't [have](/hˈæf/) [to](/tə/) bring anything this time, I promise! Sunday is too short for a day trip, but we have enough time to have a picnic in the park. Oh, and Wednesday night is salsa night. Who's in?"
+    },
+    "dialogue": {
+      "title": "Una excursión y una exposición",
+      "context": "Alex quiere organizar una excursión y se lo propone a Priya.",
+      "lines": [
+        {
+          "speaker": "alex",
+          "audio": "l25-dlg-01",
+          "text": "Priya, are you free this weekend? I'm planning a hike."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l25-dlg-02",
+          "text": "Maybe. I {{have to}} finish a design on Saturday morning. What time {{should we}} leave?",
+          "tts": "Maybe. I [have](/hˈæf/) [to](/tə/) finish a design on Saturday morning. What time should we leave?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l25-dlg-03",
+          "text": "Around eleven? The trail is short, so we'll have {{enough time to}} get back before dark."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l25-dlg-04",
+          "text": "Perfect. {{Should I}} bring anything?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l25-dlg-05",
+          "text": "You {{don't have to}} bring food. I'll make sandwiches. But you {{should}} wear good shoes.",
+          "tts": "You don't [have](/hˈæf/) [to](/tə/) bring food. I'll make sandwiches. But you should wear good shoes."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l25-dlg-06",
+          "text": "Great. And on Sunday? I'd love to see the photography exhibition."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l25-dlg-07",
+          "text": "Me too, but Sunday is {{too busy}} for me. {{Why don't we}} go on Wednesday evening?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l25-dlg-08",
+          "text": "{{Wednesday works for me}}. Let's {{put it in the calendar}}!"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Por qué Priya no puede salir temprano el sábado?",
+        "options": [
+          "Tiene que terminar un diseño",
+          "Tiene clase de salsa",
+          "Tiene que ir al médico"
+        ],
+        "answer": 0,
+        "explain": "*I have to finish a design on Saturday morning.*"
+      },
+      {
+        "q": "¿Qué tiene que llevar Priya a la excursión?",
+        "options": [
+          "Bocadillos",
+          "Buen calzado",
+          "Nada en absoluto"
+        ],
+        "answer": 1,
+        "explain": "*You don't have to bring food… But you should wear good shoes.*"
+      },
+      {
+        "q": "¿Cuándo irán a la exposición?",
+        "options": [
+          "El domingo",
+          "El sábado por la tarde",
+          "El miércoles por la tarde"
+        ],
+        "answer": 2,
+        "explain": "*Why don't we go on Wednesday evening? — Wednesday works for me.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats de grupo.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l25-reg-c1",
+            "text": "Salsa on Wednesday. Who's in?",
+            "note": "*Who's in?* = ¿quién se apunta?"
+          },
+          {
+            "speaker": "leo",
+            "audio": "l25-reg-c2",
+            "text": "I'm down! Just tell me where.",
+            "note": "*I'm down* = me apunto (coloquial, sobre todo en EE. UU.)."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros, conocidos, planes cotidianos.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l25-reg-n1",
+            "text": "Should we leave around eleven?",
+            "note": "*Should we…?* = propuesta abierta."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l25-reg-n2",
+            "text": "I have to work on Saturday morning, but I'm free after that.",
+            "note": "*Have to* para el compromiso; *be free* para el hueco libre.",
+            "tts": "I [have](/hˈæf/) [to](/tə/) work on Saturday morning, but I'm free after that."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l25-reg-n3",
+            "text": "I don't have enough time to do everything on Sunday.",
+            "note": "*Enough time to* + verbo base."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Agendas de trabajo, invitaciones formales.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l25-reg-f1",
+            "text": "Would you be available for a short meeting on Wednesday afternoon?",
+            "note": "*Would you be available…?* = ¿estaría disponible…?"
+          },
+          {
+            "speaker": "george",
+            "audio": "l25-reg-f2",
+            "text": "We would be delighted if you could join us for dinner on Friday evening.",
+            "note": "*We would be delighted if you could…* = invitación formal."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "be free (after two)",
+        "es": "estar libre (después de las dos)",
+        "register": "neutral"
+      },
+      {
+        "en": "Should we…?",
+        "es": "¿qué tal si…?, ¿hacemos…?",
+        "register": "neutral"
+      },
+      {
+        "en": "enough time to + verbo",
+        "es": "tiempo suficiente para…",
+        "register": "neutral"
+      },
+      {
+        "en": "a day trip",
+        "es": "una excursión de un día",
+        "register": "neutral"
+      },
+      {
+        "en": "Wednesday works for me.",
+        "es": "el miércoles me viene bien",
+        "register": "neutral"
+      },
+      {
+        "en": "Who's in?",
+        "es": "¿quién se apunta?",
+        "register": "casual"
+      },
+      {
+        "en": "I'm down!",
+        "es": "¡me apunto!",
+        "register": "casual"
+      },
+      {
+        "en": "Would you be available…?",
+        "es": "¿estaría disponible…?",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Salsa on Wednesday. Who's in?",
+        "answer": "casual",
+        "explain": "*Who's in?* es coloquial."
+      },
+      {
+        "text": "Should we leave around eleven?",
+        "answer": "neutral",
+        "explain": "Propuesta educada y estándar."
+      },
+      {
+        "text": "Would you be available for a short meeting on Wednesday afternoon?",
+        "answer": "formal",
+        "explain": "*Would you be available* es una fórmula formal."
+      },
+      {
+        "text": "I'm down! Just tell me where.",
+        "answer": "casual",
+        "explain": "*I'm down* es jerga informal."
+      },
+      {
+        "text": "We would be delighted if you could join us for dinner.",
+        "answer": "formal",
+        "explain": "Invitación formal con *would be delighted*."
+      },
+      {
+        "text": "Wednesday works for me.",
+        "answer": "neutral",
+        "explain": "Respuesta natural en cualquier contexto."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Maya organiza el fin de semana. Fíjate en cómo separa lo que no puede mover de lo que propone, y en lo que sigue a *enough time*.",
+    "speaker": "ryan",
+    "audio": "l25-gd",
+    "text": "I {{have to}} work until two, but I'm free after that. {{Should we}} go to the market? Sunday is too short for a day trip, but we have {{enough time to}} have a picnic.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué hace Maya con *Should we go to the market?*",
+        "options": [
+          "Propone un plan y pide la opinión del grupo.",
+          "Da una orden.",
+          "Pregunta si es obligatorio ir."
+        ],
+        "answer": 0,
+        "explain": "*Should we…?* propone sin imponer: el grupo puede decir que sí o proponer otra cosa."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué sigue a *enough time*?",
+        "options": [
+          "*To* + verbo base (*enough time to have*).",
+          "Verbo en -ing (*enough time having*).",
+          "*For* + verbo base (*enough time for have*)."
+        ],
+        "answer": 0,
+        "explain": "*Enough time to* + verbo base. Con un sustantivo, *for*: *enough time for a picnic*."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Quieres proponer un plan a tus amigos sin imponerlo. ¿Qué frase es mejor?",
+        "options": [
+          "Should we go hiking on Sunday?",
+          "We have to go hiking on Sunday.",
+          "You must come hiking on Sunday."
+        ],
+        "answer": 0,
+        "explain": "*Have to* y *must* convierten la propuesta en una obligación. *Should we…?* deja decidir al grupo."
+      }
+    ],
+    "rule": {
+      "points": [
+        "*Have to* = compromiso que no puedes mover (trabajo, citas). *Don't have to* = no hace falta.",
+        "*Should we…? / Should I…?* = proponer o pedir opinión. *Why don't we…?* también propone (Módulo 3).",
+        "*(Not) enough time to* + verbo base: *We have enough time to have a picnic.* Con sustantivo: *enough time for a picnic*.",
+        "*Too* + adjetivo + *for* + sustantivo: *too short for a day trip*."
+      ],
+      "formulas": [
+        "have to + verbo base (compromiso)",
+        "Should we / Why don't we + verbo base…?",
+        "(not) enough time to + verbo base"
+      ],
+      "note": "«¿Quedamos el miércoles?» no es *Do we stay on Wednesday?* (*stay* = quedarse en un sitio). Di *Should we meet on Wednesday?* o *Are you free on Wednesday?*"
+    },
+    "tts": "I [have](/hˈæf/) [to](/tə/) work until two, but I'm free after that. Should we go to the market? Sunday is too short for a day trip, but we have enough time to have a picnic."
+  },
+  "phonetics": {
+    "intro": "Al planificar la semana aparecen palabras que se pronuncian con menos sílabas de las que se escriben (*Wednesday*, *interesting*, *family*). También aparecen otras que cambian entre EE. UU. y Reino Unido, como *weekend* y *leisure*.",
+    "items": [
+      {
+        "id": "wednesday",
+        "term": "Wednesday",
+        "pos": "n.",
+        "meaning": "miércoles",
+        "ipa": {
+          "us": "/ˈwenz.deɪ/",
+          "uk": "/ˈwenz.deɪ/"
+        },
+        "afh": "UÉNZ-dei",
+        "say": "Wednesday.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La primera d y la segunda e no suenan: dos sílabas, «UÉNZ-dei». Nunca «wed-nes-day»."
+          },
+          {
+            "type": "consonant",
+            "text": "La s suena /z/: «uénz»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "Wednesday night is salsa night."
+        }
+      },
+      {
+        "id": "leisure",
+        "term": "Leisure",
+        "pos": "n.",
+        "meaning": "ocio, tiempo libre",
+        "ipa": {
+          "us": "/ˈliː.ʒɚ/",
+          "uk": "/ˈleʒ.ə/"
+        },
+        "afh": "LÍI-zher (US) · LÉ-zha (UK)",
+        "say": "Leisure.",
+        "alerts": [
+          {
+            "type": "variant",
+            "text": "En EE. UU. la primera vocal es /iː/, «LÍI-zher». En Reino Unido es /e/, «LÉ-zha»."
+          },
+          {
+            "type": "consonant",
+            "text": "La s suena /ʒ/, como la «y» rioplatense de «yo»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "I don't have much leisure time during the week."
+        }
+      },
+      {
+        "id": "weekend",
+        "term": "Weekend",
+        "pos": "n.",
+        "meaning": "fin de semana",
+        "ipa": {
+          "us": "/ˈwiːk.end/",
+          "uk": "/ˌwiːkˈend/"
+        },
+        "afh": "UÍIK-end (US) · uiik-ÉND (UK)",
+        "say": "Weekend.",
+        "ttsUk": "[Weekend](/wˌiːkˈɛnd/).",
+        "alerts": [
+          {
+            "type": "variant",
+            "text": "En EE. UU. el acento va en WEEK; en Reino Unido, en END. Las dos formas son correctas."
+          },
+          {
+            "type": "vowel",
+            "text": "*Week* lleva /iː/, una i larga."
+          },
+          {
+            "type": "linking",
+            "text": "La k se une a la vocal de *end*: «wii-kend»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "Are you free this weekend?"
+        }
+      },
+      {
+        "id": "interesting",
+        "term": "Interesting",
+        "pos": "adj.",
+        "meaning": "interesante",
+        "ipa": {
+          "us": "/ˈɪn.trə.stɪŋ/",
+          "uk": "/ˈɪn.trə.stɪŋ/"
+        },
+        "afh": "ÍN-tra-sting",
+        "say": "Interesting.",
+        "ttsUs": "[Interesting](/ˈɪntɹəstɪŋ/).",
+        "ttsUk": "[Interesting](/ˈɪntɹəstɪŋ/).",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "Tres sílabas: la primera e desaparece, «ÍN-tra-sting». No digas «in-te-RES-ting»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, IN. En español, «interesante» lo lleva en SAN."
+          },
+          {
+            "type": "s-cluster",
+            "text": "*-sting* une la s y la t sin vocal: «sting»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "The photography exhibition looks really interesting.",
+          "tts": "The photography exhibition looks really [interesting](/ˈɪntɹəstɪŋ/)."
+        }
+      },
+      {
+        "id": "family",
+        "term": "Family",
+        "pos": "n.",
+        "meaning": "familia",
+        "ipa": {
+          "us": "/ˈfæm.əl.i/",
+          "uk": "/ˈfæm.əl.i/"
+        },
+        "afh": "FÁ-ma-li",
+        "say": "Family.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "La sílaba central es una schwa muy débil: «FÁ-ma-li», y en el habla rápida, «FÁM-li»."
+          },
+          {
+            "type": "vowel",
+            "text": "La a es /æ/, abierta: no es la a española."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "I always keep Sunday for my family."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Compromisos: have to / don't have to",
+        "formula": "Sujeto + have to / don't have to + verbo base",
+        "usage": "Para explicar qué partes de la semana no se pueden mover y cuáles quedan libres.",
+        "examples": [
+          {
+            "speaker": "maya",
+            "audio": "l25-cc-1a",
+            "text": "I {{have to}} work until two, but I'm free after that.",
+            "tts": "I [have](/hˈæf/) [to](/tə/) work until two, but I'm free after that."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l25-cc-1b",
+            "text": "You {{don't have to}} bring food.",
+            "tts": "You don't [have](/hˈæf/) [to](/tə/) bring food."
+          }
+        ]
+      },
+      {
+        "title": "Proponer: Should we…? / Why don't we…?",
+        "formula": "Should we / Should I + verbo base…? · Why don't we + verbo base…?",
+        "usage": "Para proponer un plan o pedir opinión sin imponerlo.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l25-cc-2a",
+            "text": "{{Should we}} leave around eleven?"
+          },
+          {
+            "speaker": "coach",
+            "audio": "l25-cc-2b",
+            "text": "{{Why don't we}} go on Wednesday evening?"
+          }
+        ]
+      },
+      {
+        "title": "¿Da tiempo?: (not) enough time to / too … for",
+        "formula": "(not) enough time to + verbo base · too + adjetivo + for + sustantivo",
+        "usage": "Para decidir qué plan cabe en el hueco que tienes.",
+        "examples": [
+          {
+            "speaker": "sarah",
+            "audio": "l25-cc-3a",
+            "text": "We have {{enough time to}} have a picnic."
+          },
+          {
+            "speaker": "coach",
+            "audio": "l25-cc-3b",
+            "text": "Sunday is {{too short for}} a day trip."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Quedar no es stay",
+        "text": "«Quedar con alguien» es *meet*. *Stay* significa quedarse en un sitio.",
+        "wrong": "Do we stay on Wednesday?",
+        "right": "Should we meet on Wednesday?"
+      },
+      {
+        "title": "Enough time for + verbo",
+        "text": "Con verbo, *enough time to*; con sustantivo, *enough time for*.",
+        "wrong": "We don't have enough time for visit the museum.",
+        "right": "We don't have enough time to visit the museum."
+      },
+      {
+        "title": "Should we + to",
+        "text": "*Should* va con el verbo base, también en preguntas.",
+        "wrong": "Should we to leave at eleven?",
+        "right": "Should we leave at eleven?"
+      },
+      {
+        "title": "Días de la semana: on y mayúscula",
+        "text": "Con días se usa *on*, y en inglés se escriben con mayúscula.",
+        "wrong": "See you in wednesday.",
+        "right": "See you on Wednesday."
+      },
+      {
+        "title": "Wednesday e interesting con todas las letras",
+        "text": "*Wednesday* tiene dos sílabas e *interesting* lleva el acento al principio.",
+        "wrong": "«WED-nes-day», «in-te-RES-ting»",
+        "right": "/ˈwenz.deɪ/ («UÉNZ-dei»), /ˈɪn.trə.stɪŋ/ («ÍN-tra-sting»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la opción correcta.",
+      "text": "I ___ work until two, but I'm free after that.",
+      "options": [
+        "have to",
+        "should",
+        "mustn't"
+      ],
+      "answer": 0,
+      "explain": "Compromiso fijo → *have to*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "___ we go to the market on Saturday?",
+      "options": [
+        "Should",
+        "Do",
+        "Must to"
+      ],
+      "answer": 0,
+      "explain": "Propuesta → *Should we…?*"
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "We have enough time ___ a picnic.",
+      "options": [
+        "to have",
+        "for have",
+        "having"
+      ],
+      "answer": 0,
+      "explain": "*Enough time to* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la preposición correcta.",
+      "text": "See you ___ Wednesday!",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "Días de la semana → *on*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "You don't ___ to bring food. I'll make sandwiches.",
+      "accept": [
+        "have"
+      ],
+      "explain": "*Don't have to* = no hace falta."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la propuesta.",
+      "text": "___ don't we go on Wednesday evening?",
+      "accept": [
+        "Why"
+      ],
+      "explain": "*Why don't we…?* = ¿por qué no…?"
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Should",
+        "we",
+        "meet",
+        "on",
+        "Wednesday"
+      ],
+      "answer": "Should we meet on Wednesday",
+      "explain": "«¿Quedamos el miércoles?»"
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "We",
+        "don't",
+        "have",
+        "enough",
+        "time",
+        "to",
+        "visit",
+        "the",
+        "museum"
+      ],
+      "answer": "We don't have enough time to visit the museum",
+      "explain": "*Enough time to* + verbo base."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "Do we stay on Wednesday?",
+      "accept": [
+        "Should we meet on Wednesday?",
+        "Shall we meet on Wednesday?",
+        "Can we meet on Wednesday?"
+      ],
+      "explain": "«Quedar» = *meet*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "We don't have enough time for visit the museum.",
+      "accept": [
+        "We don't have enough time to visit the museum."
+      ],
+      "explain": "*Enough time to* + verbo."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "See you in wednesday.",
+      "accept": [
+        "See you on Wednesday."
+      ],
+      "explain": "*On* + día, con mayúscula."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué parte de *weekend* lleva el acento en inglés americano?",
+      "word": "weekend",
+      "syllables": [
+        "week",
+        "end"
+      ],
+      "answer": 0,
+      "audioRef": "l25-ph-weekend-us",
+      "explain": "EE. UU.: **WEEK**-end. En Reino Unido se oye week-**END**."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *leisure* lleva el acento?",
+      "word": "leisure",
+      "syllables": [
+        "lei",
+        "sure"
+      ],
+      "answer": 0,
+      "audioRef": "l25-ph-leisure-us",
+      "explain": "**LEI**-sure: acento en la primera sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "maya",
+      "audio": "l25-dict-1",
+      "text": "I have to work until two on Saturday, but I'm free after that.",
+      "explain": "*Have to* + compromiso; *be free* + hueco libre.",
+      "tts": "I [have](/hˈæf/) [to](/tə/) work until two on Saturday, but I'm free after that."
+    }
+  ],
+  "task": {
+    "title": "Tu semana y un plan con amigos",
+    "format": "text",
+    "scenario": "Tus amigos quieren quedar esta semana. Escribe en el chat del grupo cuándo estás ocupado, cuándo estás libre y propón un plan para el fin de semana.",
+    "brief": "Tell your friends about your week and suggest a plan for the weekend.",
+    "steps": [
+      "Di qué días tienes compromisos fijos (*I have to work late on…*).",
+      "Di cuándo estás libre (*I'm free on… after…*).",
+      "Propón un plan con *Should we…?* o *Why don't we…?*.",
+      "Explica si da tiempo con *enough time to* o *too … for* y pide respuesta."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi everyone! Here's my week.",
+      "I have to ___ on ___, so I'm busy.",
+      "On ___, I'm free after ___. Should we ___?",
+      "___ is too ___ for ___, so why don't we ___?",
+      "We'll have enough time to ___. Let me know!"
+    ],
+    "chunks": [
+      {
+        "label": "have to",
+        "re": "\\b(have|has) to\\s+[a-z]+"
+      },
+      {
+        "label": "I'm free",
+        "re": "\\b(i'm|i am) free\\b"
+      },
+      {
+        "label": "Should we / Why don't we",
+        "re": "\\b(should we|why don't we|shall we)\\b"
+      },
+      {
+        "label": "enough time to",
+        "re": "\\benough time to\\s+[a-z]+"
+      },
+      {
+        "label": "too … for",
+        "re": "\\btoo\\s+[a-z]+\\s+for\\b"
+      },
+      {
+        "label": "on + día",
+        "re": "\\bon (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\\b"
+      }
+    ],
+    "checks": [
+      "quedarStay",
+      "enoughTimeFor",
+      "mightTo",
+      "dayPreposition",
+      "dayCapital",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: una cita de trabajo",
+      "brief": "Ask a client for a meeting in a formal way.",
+      "frames": [
+        "Would you be available for ___ on ___? If not, ___ would also be convenient."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "priya",
+          "audio": "l25-task-model",
+          "text": "Hi everyone! Here's my week. I {{have to}} work late on Monday and Tuesday, so I'm busy those evenings. On Wednesday, {{I'm free}} after six. {{Should we}} meet for salsa with Maya? On Saturday, I {{have to}} finish a design in the morning, but I'll have {{enough time to}} join the hike in the afternoon. Sunday is {{too short for}} a day trip, so {{why don't we}} visit the photography exhibition? Let me know!",
+          "label": "Mensaje al grupo (neutro)",
+          "notes": [
+            "*I have to work late* (compromiso) frente a *I'm free after six* (hueco libre).",
+            "*Should we…?* y *why don't we…?* proponen; *enough time to* y *too short for* deciden qué plan cabe."
+          ],
+          "tts": "Hi everyone! Here's my week. I [have](/hˈæf/) [to](/tə/) work late on Monday and Tuesday, so I'm busy those evenings. On Wednesday, I'm free after six. Should we meet for salsa with Maya? On Saturday, I [have](/hˈæf/) [to](/tə/) finish a design in the morning, but I'll have enough time to join the hike in the afternoon. Sunday is too short for a day trip, so why don't we visit the photography exhibition? Let me know!"
+        },
+        {
+          "speaker": "emma",
+          "audio": "l25-task-formal",
+          "text": "{{Would you be available}} for a short meeting on Wednesday afternoon? If not, Thursday morning {{would also be convenient}}.",
+          "label": "Cita de trabajo (formal)",
+          "notes": [
+            "*Would you be available…?* pregunta por la disponibilidad con cortesía.",
+            "*Would also be convenient* = también me vendría bien."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Separaste los compromisos (*have to*) de los huecos libres (*I'm free*)?",
+      "¿Propusiste el plan con *Should we…?* o *Why don't we…?* (sin *to*)?",
+      "¿Usaste *enough time to* + verbo (y no *for* + verbo)?",
+      "¿Escribiste los días con mayúscula y con *on*?",
+      "¿Usaste *meet* para «quedar» (y no *stay*)?"
+    ]
+  }
+}

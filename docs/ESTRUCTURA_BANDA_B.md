@@ -73,7 +73,7 @@ Cada lección sigue la misma matriz de seis bloques: Input léxico (tres registr
 19. Finding Temporary Fixes & Practical Workarounds
 20. Confirming Solutions & Following Up on Complaints
 
-### M05 · Life Styles, Well-Being & Time Balance
+### M05 · Life Styles, Well-Being & Time Balance — ✅ contenido y audios disponibles
 
 *Lifestyle, Culture & Plurilingualism, Behavioral Science & Interpersonal Dynamics* · Gramática: should / ought to / have to; adjetivo + enough · AFH: Schwa en sílabas átonas (comfortable, vegetable)
 
