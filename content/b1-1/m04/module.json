@@ -1,0 +1,89 @@
+{
+  "id": "m04",
+  "sublevel": "b1-1",
+  "n": 4,
+  "title": "Practical Problem-Solving & Daily Hassles",
+  "titleEs": "Resolver problemas prácticos y contratiempos cotidianos",
+  "hours": 5,
+  "domains": [
+    "TD",
+    "WD"
+  ],
+  "intro": "Este módulo trata de los contratiempos de cada día: el wifi que se corta, un mensaje de error, un producto que llega roto. Aprenderás a reportar fallos, a explicar qué pasará según lo que decidas, a reclamar al servicio de atención al cliente, a proponer apaños mientras llega la solución y a hacer seguimiento hasta cerrar el problema. Dos herramientas te acompañan: too / (not) enough para explicar por qué algo falla, y el First Conditional (If you restart it now, you'll lose your work) para hablar de consecuencias, ofertas y planes B.",
+  "canDo": [
+    "Reportar fallos de casa o de tecnología con keep + -ing, too y (not) enough.",
+    "Citar un mensaje de error y explicar qué pasará con el First Conditional.",
+    "Pedir un cambio o un reembolso y negociar con If…, I'll… y as soon as.",
+    "Proponer un arreglo provisional y un plan B con will, might y If that doesn't work.",
+    "Hacer seguimiento de una reclamación con Present Perfect + since, if y unless."
+  ],
+  "focus": {
+    "grammar": "First Conditional (if + presente, will / won't / might) frente al Zero Conditional · too + adjetivo · (not) + adjetivo + enough · enough + sustantivo · as soon as / when + presente · unless",
+    "lexis": "keep crashing, stop working, It says…, pop up, break down, under warranty, ask for a refund, a quick fix, in the meantime, follow up on, get back to you",
+    "afh": "Letras mudas (wrong, should, receipt, half, doubt, hour) · grupos consonánticos finales con -ed (crashed, fixed, asked, resolved) · acento sustantivo / verbo (BREAKdown, REset)"
+  },
+  "cast": [
+    "coach",
+    "maya",
+    "leo",
+    "alex",
+    "sarah",
+    "priya",
+    "ryan",
+    "emma",
+    "george",
+    "daniel",
+    "grace"
+  ],
+  "lessons": [
+    "l16",
+    "l17",
+    "l18",
+    "l19",
+    "l20"
+  ],
+  "blocks": [
+    {
+      "id": "lexical",
+      "n": 1,
+      "name": "Input léxico",
+      "short": "Input",
+      "text": "Escenario real, conversación y mapa de tres registros."
+    },
+    {
+      "id": "discovery",
+      "n": 2,
+      "name": "Descubrimiento guiado",
+      "short": "Descubre",
+      "text": "Deduce la regla con tres preguntas: significado, forma y uso."
+    },
+    {
+      "id": "phonetics",
+      "n": 3,
+      "name": "Glosario fonético dual",
+      "short": "Fonética",
+      "text": "IPA US/UK + Anclaje Fonético Hispanohablante."
+    },
+    {
+      "id": "consolidation",
+      "n": 4,
+      "name": "Consolidación y L1",
+      "short": "Consolida",
+      "text": "Estructuras, matices y errores típicos del español."
+    },
+    {
+      "id": "practice",
+      "n": 5,
+      "name": "Práctica",
+      "short": "Practica",
+      "text": "Ejercicios con corrección inmediata, entonación y dictado."
+    },
+    {
+      "id": "task",
+      "n": 6,
+      "name": "Tarea y autoevaluación",
+      "short": "Tarea",
+      "text": "Produce un mensaje real, compáralo con el modelo y revísalo."
+    }
+  ]
+}

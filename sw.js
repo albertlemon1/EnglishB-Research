@@ -4,7 +4,7 @@
 // Only the shell and the course structure are precached. Module content is cached the
 // first time it is viewed, or all at once by the module page's "download" button, so
 // publishing a new module never requires editing this file.
-const VERSION = "bandb-2026-11-09-m03";
+const VERSION = "bandb-2026-11-09-m04";
 const SHELL = `bandb-shell-${VERSION}`;
 const AUDIO = "bandb-audio-v1";
 const FONTS = "bandb-fonts-v1";

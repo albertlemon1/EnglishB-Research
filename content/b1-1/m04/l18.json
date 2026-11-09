@@ -1,0 +1,805 @@
+{
+  "id": "l18",
+  "n": 18,
+  "title": "Requesting Customer Service & Assistance Tickets",
+  "titleEs": "Pedir ayuda al servicio de atención al cliente y abrir incidencias",
+  "minutes": 60,
+  "summary": "Pide un cambio o un reembolso con *I'd like to* y negocia con el First Conditional y *as soon as*.",
+  "canDo": [
+    "Puedo explicar un problema con un producto y pedir un cambio o un reembolso (*I'd like to ask for…*).",
+    "Puedo entender y hacer ofertas con condición (*If you send me…, I'll…*).",
+    "Puedo hablar de lo que pasará después con *as soon as / when* + presente.",
+    "Puedo pronunciar *receipt* sin la p y *asked* con sus tres consonantes finales."
+  ],
+  "focus": {
+    "grammar": "First Conditional para ofrecer y prometer · as soon as / when + presente con valor de futuro · I'd like to + verbo base · ask for",
+    "lexis": "order number, open a ticket, under warranty, receipt, refund, replacement, faulty, get back to you, I want my money back",
+    "afh": "p muda en receipt · grupos finales -sked, -ced (asked, replaced) · acento en warranty y assistance"
+  },
+  "warmup": "¿Has devuelto alguna vez un producto que llegó roto o no funcionaba? ¿Qué pediste: un cambio, una reparación o tu dinero?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Un correo al servicio de atención al cliente",
+      "context": "Alex compró unos auriculares inalámbricos por internet y uno de ellos no carga. Escribe a la tienda.",
+      "speaker": "alex",
+      "to": "Customer Service",
+      "audio": "l18-scn",
+      "text": "Dear Customer Service, I'm writing about {{order number}} 48213. I received a pair of wireless headphones last week, but the left earbud doesn't charge. I've tried two different cables, and it still doesn't work. The headphones are {{still under warranty}}, and I have the {{receipt}}. {{I'd like to ask for a replacement}}. {{If you need}} more information, {{I'll be happy}} to send photos. I look forward to hearing from you. Best regards, Alex",
+      "tts": "Dear Customer Service, I'm writing about order number four, eight, two, one, three. I received a pair of wireless headphones last week, but the left earbud doesn't charge. I've tried two different cables, and it still doesn't work. The headphones are still under warranty, and I have the receipt. I'd like to ask for a replacement. If you need more information, I'll be happy to send photos. I look forward to hearing from you. Best regards, Alex"
+    },
+    "dialogue": {
+      "title": "Al teléfono con atención al cliente",
+      "context": "Al día siguiente, Alex llama a la tienda. Le atiende George.",
+      "lines": [
+        {
+          "speaker": "george",
+          "audio": "l18-dlg-01",
+          "text": "Good afternoon, you're through to customer service. George speaking. How can I help?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l18-dlg-02",
+          "text": "Hi, I'm calling about my headphones. The left earbud doesn't charge. I sent an email yesterday."
+        },
+        {
+          "speaker": "george",
+          "audio": "l18-dlg-03",
+          "text": "I'm sorry to hear that. {{If you give me}} your order number, {{I'll open}} a ticket for you."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l18-dlg-04",
+          "text": "Sure, it's 48213.",
+          "tts": "Sure, it's four, eight, two, one, three."
+        },
+        {
+          "speaker": "george",
+          "audio": "l18-dlg-05",
+          "text": "Thank you. They're {{still under warranty}}, so we'll send you a replacement {{as soon as}} we {{receive}} the faulty pair."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l18-dlg-06",
+          "text": "Great. {{Will I get}} a refund {{if}} the new ones don't work either?"
+        },
+        {
+          "speaker": "george",
+          "audio": "l18-dlg-07",
+          "text": "Yes, of course. {{If the replacement doesn't work}}, {{we'll refund}} you in full. I'll email you the ticket number in a minute."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l18-dlg-08",
+          "text": "Perfect. Thank you for your help!"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué hará George si Alex le da el número de pedido?",
+        "options": [
+          "Le devolverá el dinero",
+          "Abrirá una incidencia",
+          "Le enviará un cable nuevo"
+        ],
+        "answer": 1,
+        "explain": "*If you give me your order number, I'll open a ticket for you.*"
+      },
+      {
+        "q": "¿Cuándo enviarán los auriculares nuevos?",
+        "options": [
+          "Hoy mismo",
+          "Dentro de un mes",
+          "En cuanto reciban los defectuosos"
+        ],
+        "answer": 2,
+        "explain": "*We'll send you a replacement as soon as we receive the faulty pair.*"
+      },
+      {
+        "q": "¿Qué pasará si los nuevos tampoco funcionan?",
+        "options": [
+          "Le devolverán todo el dinero",
+          "Le cobrarán la reparación",
+          "No podrá reclamar"
+        ],
+        "answer": 0,
+        "explain": "*If the replacement doesn't work, we'll refund you in full.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Quejas entre amigos, reseñas informales, chats.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l18-reg-c1",
+            "text": "Ugh, they sent me the wrong size. I want my money back!",
+            "note": "*I want my money back* = quiero que me devuelvan el dinero. Directo y emocional."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l18-reg-c2",
+            "text": "Can you guys just swap it for a new one?",
+            "note": "*You guys* = ustedes (coloquial). *Swap* = cambiar una cosa por otra."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Llamadas y chats con atención al cliente.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l18-reg-n1",
+            "text": "I'd like to ask for a replacement.",
+            "note": "*I'd like to* + verbo base: petición educada. *Ask for* + lo que pides."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l18-reg-n2",
+            "text": "If you send me the order number, I'll check it right away.",
+            "note": "First Conditional para ofrecer ayuda con una condición."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l18-reg-n3",
+            "text": "Could you let me know as soon as it ships?",
+            "note": "*As soon as* + presente, aunque se refiera al futuro."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Reclamaciones por escrito, respuestas oficiales de empresa.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l18-reg-f1",
+            "text": "I am writing to request a full refund for the faulty item.",
+            "note": "*Request* (formal) = pedir. *Faulty* = defectuoso."
+          },
+          {
+            "speaker": "george",
+            "audio": "l18-reg-f2",
+            "text": "We will process your refund as soon as we receive the returned item.",
+            "note": "*Process a refund* = tramitar un reembolso."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "order number",
+        "es": "número de pedido",
+        "register": "neutral"
+      },
+      {
+        "en": "open a ticket",
+        "es": "abrir una incidencia",
+        "register": "neutral"
+      },
+      {
+        "en": "be under warranty",
+        "es": "estar en garantía",
+        "register": "neutral"
+      },
+      {
+        "en": "ask for a refund / a replacement",
+        "es": "pedir un reembolso / un cambio",
+        "register": "neutral"
+      },
+      {
+        "en": "get back to you",
+        "es": "volver a contactarte, responderte",
+        "register": "neutral"
+      },
+      {
+        "en": "I want my money back",
+        "es": "quiero que me devuelvan el dinero",
+        "register": "casual"
+      },
+      {
+        "en": "as soon as + presente",
+        "es": "en cuanto + subjuntivo",
+        "register": "neutral"
+      },
+      {
+        "en": "I am writing to request…",
+        "es": "le escribo para solicitar…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "I want my money back!",
+        "answer": "casual",
+        "explain": "Directo y emocional: entre amigos o en una queja informal."
+      },
+      {
+        "text": "I'd like to ask for a replacement.",
+        "answer": "neutral",
+        "explain": "La petición educada estándar."
+      },
+      {
+        "text": "I am writing to request a full refund for the faulty item.",
+        "answer": "formal",
+        "explain": "*I am writing to request* y *faulty item* son de reclamación formal."
+      },
+      {
+        "text": "Can you guys just swap it?",
+        "answer": "casual",
+        "explain": "*You guys* y *swap* son coloquiales."
+      },
+      {
+        "text": "We will process your refund as soon as we receive the returned item.",
+        "answer": "formal",
+        "explain": "Lenguaje institucional: *process your refund*, *returned item*."
+      },
+      {
+        "text": "Could you let me know as soon as it ships?",
+        "answer": "neutral",
+        "explain": "Pregunta cortés y clara."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "George le ofrece una solución a Alex. Fíjate en el tiempo verbal que va después de *if* y de *as soon as*, aunque las dos frases hablan del futuro.",
+    "speaker": "ryan",
+    "audio": "l18-gd",
+    "text": "{{If you give}} me your order number, {{I'll open}} a ticket. {{As soon as}} we {{receive}} the faulty pair, {{we'll send}} you a replacement.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Cuándo enviarán los auriculares nuevos?",
+        "options": [
+          "Después de recibir los defectuosos.",
+          "Antes de recibir los defectuosos.",
+          "Hoy, pase lo que pase."
+        ],
+        "answer": 0,
+        "explain": "*As soon as we receive…* marca el momento: primero reciben los defectuosos y luego envían los nuevos."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué tiempo verbal va después de *as soon as*, aunque se hable del futuro?",
+        "options": [
+          "Presente simple (*receive*).",
+          "*Will receive*.",
+          "Pasado (*received*)."
+        ],
+        "answer": 0,
+        "explain": "Igual que tras *if*: *as soon as / when* + presente simple, y *will* en la otra mitad."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "¿Qué función tiene *If you give me your order number, I'll open a ticket*?",
+        "options": [
+          "Ofrecer ayuda con una condición sencilla.",
+          "Amenazar al cliente.",
+          "Quejarse del cliente."
+        ],
+        "answer": 0,
+        "explain": "En atención al cliente, el First Conditional sirve para ofrecer y prometer: «si usted hace esto, yo hago aquello»."
+      }
+    ],
+    "rule": {
+      "points": [
+        "First Conditional para ofrecer y prometer: *If you give me…, I'll…*.",
+        "*When / As soon as* + presente simple para hablar del futuro: *as soon as we receive it* (nunca *will receive*).",
+        "En el resultado puedes usar *will*, *can* o un imperativo: *If you need help, call us.*",
+        "*I'd like to* + verbo base es más educado que *I want*."
+      ],
+      "formulas": [
+        "If + presente, I'll / we'll + verbo base",
+        "As soon as / When + presente, will + verbo base",
+        "I'd like to + verbo base"
+      ],
+      "note": "En español, «en cuanto lo recibamos» lleva subjuntivo. En inglés va presente simple: *as soon as we receive it*."
+    }
+  },
+  "phonetics": {
+    "intro": "En una reclamación conviene sonar claro. Ojo con la p muda de *receipt*, con los grupos finales de *asked* y *replaced*, y con el acento de *warranty* y *assistance*, distinto del español.",
+    "items": [
+      {
+        "id": "receipt",
+        "term": "Receipt",
+        "pos": "n.",
+        "meaning": "recibo, tique de compra",
+        "ipa": {
+          "us": "/rɪˈsiːt/",
+          "uk": "/rɪˈsiːt/"
+        },
+        "afh": "ri-SÍIT",
+        "say": "Receipt.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La p es muda: «ri-SÍIT». No digas «re-SEIPT»."
+          },
+          {
+            "type": "vowel",
+            "text": "*-ei-* suena /iː/, una i larga."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba, CEIPT."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "Please keep your receipt."
+        }
+      },
+      {
+        "id": "warranty",
+        "term": "Warranty",
+        "pos": "n.",
+        "meaning": "garantía",
+        "ipa": {
+          "us": "/ˈwɔːr.ən.t̬i/",
+          "uk": "/ˈwɒr.ən.ti/"
+        },
+        "afh": "UÓ-ran-ti",
+        "say": "Warranty.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, WAR. En español «garantía» lo lleva en TI."
+          },
+          {
+            "type": "consonant",
+            "text": "La w es /w/, «uo». No digas «guo»."
+          },
+          {
+            "type": "vowel",
+            "text": "La sílaba central es una schwa débil: «UÓ-ran-ti», casi «UÓ-rn-ti»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "The headphones are still under warranty."
+        }
+      },
+      {
+        "id": "asked",
+        "term": "Asked",
+        "pos": "v.",
+        "meaning": "pidió, preguntó",
+        "ipa": {
+          "us": "/æskt/",
+          "uk": "/ɑːskt/"
+        },
+        "afh": "ASKT",
+        "say": "Asked.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "-ed suena /t/: una sola sílaba. Nunca «as-ked»."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en tres consonantes, /skt/. Muchos dicen «ast» o «as»: pronuncia la k."
+          },
+          {
+            "type": "variant",
+            "text": "En EE. UU., /æ/ abierta; en Reino Unido, /ɑː/ larga, «aaskt»."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "I asked for a refund."
+        }
+      },
+      {
+        "id": "replaced",
+        "term": "Replaced",
+        "pos": "v.",
+        "meaning": "sustituyó, cambió",
+        "ipa": {
+          "us": "/rɪˈpleɪst/",
+          "uk": "/rɪˈpleɪst/"
+        },
+        "afh": "ri-PLÉIST",
+        "say": "Replaced.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "Tras /s/, -ed suena /t/: «ri-PLÉIST», sin sílaba extra."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en /st/: no añadas una e de apoyo («ri-pleis-te»)."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en PLACE, la segunda sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "We replaced the faulty earbuds."
+        }
+      },
+      {
+        "id": "assistance",
+        "term": "Assistance",
+        "pos": "n.",
+        "meaning": "ayuda, asistencia",
+        "ipa": {
+          "us": "/əˈsɪs.təns/",
+          "uk": "/əˈsɪs.təns/"
+        },
+        "afh": "a-SÍS-tans",
+        "say": "Assistance.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en SIS, la segunda sílaba."
+          },
+          {
+            "type": "vowel",
+            "text": "La a inicial es una schwa /ə/, muy débil."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en /ns/: «tans», sin e final."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "Thank you for your assistance."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Ofrecer y prometer: If…, I'll…",
+        "formula": "If + sujeto + presente, I'll / we'll + verbo base",
+        "usage": "Para ofrecer ayuda o una solución a cambio de algo sencillo (un dato, una foto, el producto).",
+        "examples": [
+          {
+            "speaker": "george",
+            "audio": "l18-cc-1a",
+            "text": "{{If you give me}} your order number, {{I'll open}} a ticket."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l18-cc-1b",
+            "text": "{{If you send me}} a photo, {{I'll check}} it right away."
+          }
+        ]
+      },
+      {
+        "title": "El futuro con as soon as / when + presente",
+        "formula": "As soon as / When + sujeto + presente, sujeto + will + verbo base",
+        "usage": "Para decir cuándo ocurrirá algo. La parte de *as soon as / when* va en presente.",
+        "examples": [
+          {
+            "speaker": "george",
+            "audio": "l18-cc-2a",
+            "text": "We'll send it {{as soon as}} we {{receive}} the faulty pair."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l18-cc-2b",
+            "text": "Could you let me know {{when}} it {{ships}}?"
+          }
+        ]
+      },
+      {
+        "title": "Pedir con educación: I'd like to / ask for",
+        "formula": "I'd like to + verbo base · ask for + lo que pides · I am writing to request + sustantivo",
+        "usage": "*I'd like to* suaviza la petición. *Ask for* = pedir algo; sin *for*, *ask* es «preguntar».",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l18-cc-3a",
+            "text": "{{I'd like to ask for}} a replacement."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l18-cc-3b",
+            "text": "{{I am writing to request}} a full refund."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Will tras as soon as",
+        "text": "«En cuanto lo recibamos» lleva subjuntivo en español. En inglés va el presente simple, nunca *will*.",
+        "wrong": "We'll call you as soon as we will receive it.",
+        "right": "We'll call you as soon as we receive it."
+      },
+      {
+        "title": "I want suena brusco",
+        "text": "*I want* es correcto, pero con un desconocido suena exigente. Usa *I'd like to* + verbo.",
+        "wrong": "I want a refund now.",
+        "right": "I'd like to ask for a refund, please."
+      },
+      {
+        "title": "Ask sin for",
+        "text": "«Pedir algo» = *ask for* + cosa. Sin *for*, *ask* significa «preguntar».",
+        "wrong": "I asked a refund.",
+        "right": "I asked for a refund."
+      },
+      {
+        "title": "Return the money",
+        "text": "Para «devolver el dinero» se usa *refund*. *Return* es devolver el producto (*return the item*).",
+        "wrong": "Can you return me the money?",
+        "right": "Can I get a refund? / Could you refund me?"
+      },
+      {
+        "title": "La p de receipt y la k de asked",
+        "text": "*Receipt* no pronuncia la p, y *asked* no puede perder la k.",
+        "wrong": "«re-SEIPT», «ast»",
+        "right": "/rɪˈsiːt/ («ri-SÍIT»), /æskt/ («askt»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you give me your order number, ___ open a ticket.",
+      "options": [
+        "I'll",
+        "I",
+        "I'm"
+      ],
+      "answer": 0,
+      "explain": "Resultado: *will* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "We'll send it as soon as we ___ the faulty pair.",
+      "options": [
+        "will receive",
+        "receive",
+        "received"
+      ],
+      "answer": 1,
+      "explain": "*As soon as* + presente simple."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la preposición correcta.",
+      "text": "I'd like to ask ___ a refund.",
+      "options": [
+        "for",
+        "about",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "*Ask for* + lo que pides."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "Can I get a ___?",
+      "options": [
+        "refund",
+        "return money",
+        "devolution"
+      ],
+      "answer": 0,
+      "explain": "*Refund* = reembolso."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "The headphones are still ___ warranty.",
+      "accept": [
+        "under"
+      ],
+      "explain": "*Under warranty* = en garantía."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "I'd ___ to ask for a replacement.",
+      "accept": [
+        "like"
+      ],
+      "explain": "*I'd like to* + verbo base."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "I'd",
+        "like",
+        "to",
+        "ask",
+        "for",
+        "a",
+        "replacement"
+      ],
+      "answer": "I'd like to ask for a replacement",
+      "explain": "Petición educada."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "We'll",
+        "call",
+        "you",
+        "when",
+        "it",
+        "arrives"
+      ],
+      "answer": "We'll call you when it arrives",
+      "explain": "*When* + presente."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "We'll call you as soon as we will receive it.",
+      "accept": [
+        "We'll call you as soon as we receive it.",
+        "We will call you as soon as we receive it."
+      ],
+      "explain": "Sin *will* tras *as soon as*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "I asked a refund.",
+      "accept": [
+        "I asked for a refund."
+      ],
+      "explain": "*Ask for*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Can you return me the money?",
+      "accept": [
+        "Can you refund me?",
+        "Could you refund me?",
+        "Can I get a refund?",
+        "Could I get a refund?",
+        "Can you give me a refund?"
+      ],
+      "explain": "El dinero se *refund*; el producto se *return*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *warranty* lleva el acento?",
+      "word": "warranty",
+      "syllables": [
+        "war",
+        "ran",
+        "ty"
+      ],
+      "answer": 0,
+      "audioRef": "l18-ph-warranty-us",
+      "explain": "**WAR**-ran-ty: acento en la primera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *assistance* lleva el acento?",
+      "word": "assistance",
+      "syllables": [
+        "as",
+        "sis",
+        "tance"
+      ],
+      "answer": 1,
+      "audioRef": "l18-ph-assistance-us",
+      "explain": "as-**SIS**-tance: acento en la segunda sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "george",
+      "audio": "l18-dict-1",
+      "text": "We'll send you a replacement as soon as we receive the faulty pair.",
+      "explain": "*As soon as* + presente."
+    }
+  ],
+  "task": {
+    "title": "Abre una incidencia por correo",
+    "format": "email",
+    "scenario": "Compraste por internet un aparato que no funciona bien y sigue en garantía. Escribe al servicio de atención al cliente para abrir una incidencia.",
+    "brief": "Write to customer service about a faulty product and ask for a replacement or a refund.",
+    "steps": [
+      "Di por qué escribes y da el número de pedido (*I'm writing about order number…*).",
+      "Describe el fallo (*keeps + -ing*, *isn't … enough*) y qué has probado.",
+      "Di qué pides (*I'd like to ask for a refund / a replacement*) y menciona la garantía o el recibo.",
+      "Ofrece algo con *If you need…, I'll…* y pide respuesta (*Could you let me know as soon as…?*)."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 50,
+    "frames": [
+      "Dear Customer Service, I'm writing about order number ___.",
+      "The ___ I bought ___ keeps ___ing / isn't ___ enough.",
+      "It's still under warranty, and I have the receipt. I'd like to ask for ___.",
+      "If you need ___, I'll ___.",
+      "Could you let me know as soon as ___? Thank you, ___"
+    ],
+    "chunks": [
+      {
+        "label": "order number",
+        "re": "\\border( number)?\\b"
+      },
+      {
+        "label": "I'd like to",
+        "re": "\\b(i'd like to|i would like to)\\b"
+      },
+      {
+        "label": "ask for",
+        "re": "\\bask(ed|ing)? for\\b"
+      },
+      {
+        "label": "refund / replacement",
+        "re": "\\b(refund|replacement|repair)\\b"
+      },
+      {
+        "label": "If…, I'll…",
+        "re": "\\bif\\b[^.!?]{3,60}\\b(will|won't|'ll)\\b"
+      },
+      {
+        "label": "as soon as / when + presente",
+        "re": "\\b(as soon as|when)\\s+(you|it|they|we|i)\\s+[a-z]+"
+      },
+      {
+        "label": "warranty / receipt",
+        "re": "\\b(warranty|receipt|guarantee)\\b"
+      }
+    ],
+    "checks": [
+      "onceWill",
+      "askFor",
+      "returnMoney",
+      "ifWill",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: la reclamación formal",
+      "brief": "Write one formal sentence requesting a refund.",
+      "frames": [
+        "I am writing to request a full refund for ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "priya",
+          "audio": "l18-task-model",
+          "text": "Dear Customer Service, I'm writing about {{order number}} 52710. The smart speaker I bought two weeks ago {{keeps disconnecting}} from the Wi-Fi, and the sound {{isn't loud enough}}, even at full volume. It's {{still under warranty}}, and I have the {{receipt}}. {{I'd like to ask for}} a replacement. {{If you need}} photos or a video, {{I'll send}} them right away. Could you let me know {{as soon as}} you {{open}} a ticket? Thank you, Priya",
+          "tts": "Dear Customer Service, I'm writing about order number five, two, seven, one, zero. The smart speaker I bought two weeks ago keeps disconnecting from the Wi-Fi, and the sound isn't loud enough, even at full volume. It's still under warranty, and I have the receipt. I'd like to ask for a replacement. If you need photos or a video, I'll send them right away. Could you let me know as soon as you open a ticket? Thank you, Priya",
+          "label": "Correo de reclamación (neutro)",
+          "notes": [
+            "*I'd like to ask for a replacement*: petición clara y educada.",
+            "*If you need…, I'll send…* ofrece algo a cambio. *As soon as you open* va en presente."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l18-task-formal",
+          "text": "{{I am writing to request}} a full refund for order 52710, as the item arrived damaged. {{I would be grateful if}} you could confirm the refund {{as soon as}} you {{receive}} the returned item.",
+          "tts": "I am writing to request a full refund for order five, two, seven, one, zero, as the item arrived damaged. I would be grateful if you could confirm the refund as soon as you receive the returned item.",
+          "label": "Reclamación formal",
+          "notes": [
+            "*I am writing to request* + sustantivo. *As* = *because* en registro formal.",
+            "*As soon as you receive* mantiene el presente también en registro formal."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Diste el número de pedido y describiste el fallo con precisión?",
+      "¿Usaste *ask for* + lo que pides (*a refund*, *a replacement*)?",
+      "¿Usaste presente tras *as soon as / when* (sin *will*)?",
+      "¿Usaste *I'd like to* en lugar de *I want*?",
+      "¿Ofreciste algo con *If…, I'll…*?"
+    ]
+  }
+}

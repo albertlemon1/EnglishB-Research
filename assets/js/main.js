@@ -102,11 +102,17 @@ function openGloss(mark) {
 // ---------------------------------------------------------------- global events
 document.addEventListener("click", (ev) => {
   const play = ev.target.closest("[data-play]");
-  if (play) { audio.toggle(play.dataset.play, play); return; }
+  if (play) {
+    // Draft modules (?borrador) have texts but no audio yet.
+    if (!audio.has(play.dataset.play)) { toast("Audio pendiente: este módulo aún no tiene audio"); return; }
+    audio.toggle(play.dataset.play, play);
+    return;
+  }
 
   const seq = ev.target.closest("[data-seq]");
   if (seq) {
     const ids = seq.dataset.seq.split(",");
+    if (!ids.every((id) => audio.has(id))) { toast("Audio pendiente: este módulo aún no tiene audio"); return; }
     const label = seq.querySelector("span");
     const started = audio.sequence(ids, {
       onStep: (id) => {

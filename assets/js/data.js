@@ -1,8 +1,11 @@
 // Content loading with an in-memory cache. All paths are relative to index.html.
 // course.json is the single source of truth: a module is published when its entry
 // says "status": "available", and its files live in content/<sublevel>/<module>/
-// and audio/<sublevel>/<module>/.
+// and audio/<sublevel>/<module>/. A module marked "draft" has its texts but no audio
+// yet: it stays hidden unless the app is opened with ?borrador (to review it).
 import { audio } from "./audio.js";
+
+export const PREVIEW = new URLSearchParams(location.search).has("borrador");
 
 const cache = new Map();
 
@@ -27,7 +30,7 @@ async function modules() {
     for (const m of s.modules) {
       const firstLesson = lesson + 1;
       lesson += m.lessons.length;
-      if (m.status !== "available") continue;
+      if (m.status !== "available" && !(PREVIEW && m.status === "draft")) continue;
       out[m.id] = {
         id: m.id,
         n: m.n,
@@ -36,6 +39,7 @@ async function modules() {
         dir: `content/${s.id}/${m.id}/`,
         audio: `audio/${s.id}/${m.id}/`,
         firstLesson,
+        draft: m.status === "draft",
         meta: m,
       };
     }
@@ -70,7 +74,8 @@ export const data = {
   async audio(mod) {
     const i = await info(mod);
     if (audio.isRegistered(mod)) return audio.clips(mod);
-    const clips = await getJSON(`${i.audio}manifest.json`).then((m) => m.clips).catch(() => ({}));
+    // Drafts have no audio yet: skip the manifest instead of requesting a missing file.
+    const clips = i.draft ? {} : await getJSON(`${i.audio}manifest.json`).then((m) => m.clips).catch(() => ({}));
     audio.register(mod, i.audio, clips);
     return clips;
   },
@@ -82,7 +87,7 @@ export const data = {
       `${i.dir}module.json`,
       ...m.lessons.map((l) => `${i.dir}${l}.json`),
       `${i.dir}review.json`,
-      `${i.audio}manifest.json`,
+      ...(i.draft ? [] : [`${i.audio}manifest.json`]),
     ];
   },
 };

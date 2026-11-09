@@ -1,0 +1,811 @@
+{
+  "id": "l17",
+  "n": 17,
+  "title": "Explaining Error Messages & Unexpected Breakdown",
+  "titleEs": "Explicar mensajes de error y averías inesperadas",
+  "minutes": 60,
+  "summary": "Cita un mensaje de error con *It says…* y explica qué pasará con el First Conditional.",
+  "canDo": [
+    "Puedo citar un mensaje de error con *It says…* y *pops up*.",
+    "Puedo explicar la consecuencia de una decisión concreta con *If* + presente, *will / won't*.",
+    "Puedo diferenciar el First Conditional (esta vez) del Zero Conditional (siempre).",
+    "Puedo pronunciar *error* con el acento al principio y *should* sin la l."
+  ],
+  "focus": {
+    "grammar": "First Conditional (if + presente, will / won't + verbo base) frente al Zero Conditional · What will happen if…? · It says…",
+    "lexis": "error message, pop up, It says…, break down, a breakdown, restart, die on someone, lose your work, explain something to someone",
+    "afh": "l muda en should / could / would · acento sustantivo frente a verbo (a BREAKdown / break DOWN) · -ed con sílaba extra en restarted · acento de error"
+  },
+  "warmup": "¿Recuerdas un mensaje de error que te apareció en el peor momento? ¿Qué decía y qué hiciste: reiniciar, esperar, pedir ayuda?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Un error antes de la reunión",
+      "context": "Priya tiene una presentación con un cliente y su portátil muestra un error. Le deja un mensaje de voz a Alex.",
+      "speaker": "priya",
+      "to": "Alex",
+      "audio": "l17-scn",
+      "text": "Hi Alex, it's Priya. I have a problem with my laptop. An error message {{popped up}} this morning, and {{it says}} the disk is almost full. {{If I restart}} the laptop now, {{I'll lose}} my unsaved work, so I'm saving everything first. {{If it doesn't work}}, {{I'll call}} Daniel from IT. Could you start the client meeting without me? I'll join as soon as I can."
+    },
+    "dialogue": {
+      "title": "Llamada al soporte técnico",
+      "context": "Priya llama a Daniel para entender el mensaje de error.",
+      "lines": [
+        {
+          "speaker": "daniel",
+          "audio": "l17-dlg-01",
+          "text": "IT Support, Daniel speaking. What seems to be the problem?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l17-dlg-02",
+          "text": "My laptop {{keeps showing}} an error message. {{It says}} the disk is almost full."
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l17-dlg-03",
+          "text": "I see. {{If you delete}} some old files, the message {{will disappear}}."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l17-dlg-04",
+          "text": "But {{what will happen if}} I delete the wrong files?"
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l17-dlg-05",
+          "text": "Don't worry. {{If you only delete}} things from your Downloads folder, you {{won't lose}} anything important."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l17-dlg-06",
+          "text": "Okay. And what about the update? It keeps asking me to restart."
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l17-dlg-07",
+          "text": "{{If you restart}} now, the update {{will take}} about ten minutes. {{If you wait}} until tonight, it {{won't interrupt}} your presentation."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l17-dlg-08",
+          "text": "Perfect, I'll wait until tonight. Thanks for explaining it to me, Daniel!"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué dice el mensaje de error?",
+        "options": [
+          "Que no hay conexión",
+          "Que el disco está casi lleno",
+          "Que la batería está baja"
+        ],
+        "answer": 1,
+        "explain": "*It says the disk is almost full.*"
+      },
+      {
+        "q": "Según Daniel, ¿qué pasará si Priya borra solo archivos de Descargas?",
+        "options": [
+          "No perderá nada importante",
+          "Perderá su presentación",
+          "El portátil se reiniciará"
+        ],
+        "answer": 0,
+        "explain": "*If you only delete things from your Downloads folder, you won't lose anything important.*"
+      },
+      {
+        "q": "¿Por qué Priya decide esperar a la noche para actualizar?",
+        "options": [
+          "Porque la actualización no está lista",
+          "Porque Daniel no está disponible",
+          "Para que la actualización no interrumpa su presentación"
+        ],
+        "answer": 2,
+        "explain": "*If you wait until tonight, it won't interrupt your presentation.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, familia, mensajes rápidos.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l17-reg-c1",
+            "text": "My phone just died on me. Totally dead.",
+            "note": "*Die on someone* = estropearse justo en mal momento (coloquial)."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l17-reg-c2",
+            "text": "Some weird error popped up, and now nothing works.",
+            "note": "*Pop up* = aparecer de repente (una ventana, un mensaje)."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros, soporte técnico, clases.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l17-reg-n1",
+            "text": "An error message keeps popping up. It says the disk is almost full.",
+            "note": "*It says…* para citar lo que dice el mensaje."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l17-reg-n2",
+            "text": "If I restart the computer, I'll lose my work.",
+            "note": "First Conditional: consecuencia de esta decisión concreta."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l17-reg-n3",
+            "text": "The card reader broke down this morning.",
+            "note": "*Break down* (verbo) = averiarse una máquina."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Informes técnicos, avisos a clientes, comunicaciones oficiales.",
+        "items": [
+          {
+            "speaker": "daniel",
+            "audio": "l17-reg-f1",
+            "text": "The system displays an error message when users attempt to log in.",
+            "note": "*Display* = mostrar. *Attempt to* = intentar (formal)."
+          },
+          {
+            "speaker": "george",
+            "audio": "l17-reg-f2",
+            "text": "We apologise for the breakdown in service. Our engineers are investigating the cause.",
+            "note": "*A breakdown* (sustantivo) = avería, interrupción. *Apologise* es ortografía británica."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "an error message pops up",
+        "es": "aparece un mensaje de error",
+        "register": "neutral"
+      },
+      {
+        "en": "It says (that)…",
+        "es": "pone que…, dice que…",
+        "register": "neutral"
+      },
+      {
+        "en": "break down / a breakdown",
+        "es": "averiarse / una avería",
+        "register": "neutral"
+      },
+      {
+        "en": "die on (me)",
+        "es": "estropearse en el peor momento",
+        "register": "casual"
+      },
+      {
+        "en": "lose your work",
+        "es": "perder lo que has hecho",
+        "register": "neutral"
+      },
+      {
+        "en": "What will happen if…?",
+        "es": "¿qué pasará si…?",
+        "register": "neutral"
+      },
+      {
+        "en": "explain something to someone",
+        "es": "explicarle algo a alguien",
+        "register": "neutral"
+      },
+      {
+        "en": "the system displays…",
+        "es": "el sistema muestra…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "My phone just died on me.",
+        "answer": "casual",
+        "explain": "*Die on me* es coloquial."
+      },
+      {
+        "text": "If I restart the computer, I'll lose my work.",
+        "answer": "neutral",
+        "explain": "Explicación clara y estándar."
+      },
+      {
+        "text": "The system displays an error message when users attempt to log in.",
+        "answer": "formal",
+        "explain": "*Displays* y *attempt to* son propios de un informe técnico."
+      },
+      {
+        "text": "Some weird error popped up.",
+        "answer": "casual",
+        "explain": "*Weird* y el tono vago lo hacen coloquial."
+      },
+      {
+        "text": "We apologise for the breakdown in service.",
+        "answer": "formal",
+        "explain": "Fórmula de disculpa institucional."
+      },
+      {
+        "text": "It says the disk is almost full.",
+        "answer": "neutral",
+        "explain": "Forma normal de citar un mensaje."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Daniel le explica a Priya qué pasará según lo que decida. Compara estas frases con el Zero Conditional del Módulo 3 (*If you tap the icon, the app opens*).",
+    "speaker": "ryan",
+    "audio": "l17-gd",
+    "text": "{{If you restart}} the laptop now, the update {{will take}} ten minutes. {{If you wait}} until tonight, it {{won't interrupt}} your presentation.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Habla Daniel de algo que siempre ocurre o de una situación concreta?",
+        "options": [
+          "De una situación concreta y posible en el futuro.",
+          "De algo que siempre ocurre, como el Zero Conditional.",
+          "De algo imposible."
+        ],
+        "answer": 0,
+        "explain": "Habla de esta decisión de Priya, hoy. El Zero Conditional describe lo que pasa siempre."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma tiene cada mitad de la frase?",
+        "options": [
+          "*If* + presente simple; resultado con *will / won't* + verbo base.",
+          "*If* + *will*; resultado en presente.",
+          "Las dos mitades con *will*."
+        ],
+        "answer": 0,
+        "explain": "*If you restart* (presente) → *the update will take* (*will* + verbo base)."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Priya presenta en veinte minutos. ¿Qué frase de Daniel le ayuda más a decidir?",
+        "options": [
+          "If you restart now, the update will take ten minutes.",
+          "If you restart a computer, it updates.",
+          "Restarting computers is a good idea."
+        ],
+        "answer": 0,
+        "explain": "El First Conditional le da la consecuencia concreta de su decisión. Las otras frases son generales y no le ayudan a elegir."
+      }
+    ],
+    "rule": {
+      "points": [
+        "First Conditional = *if* + presente simple, *will / won't* + verbo base.",
+        "Sirve para una situación concreta y posible en el futuro y su consecuencia.",
+        "Zero Conditional (Módulo 3) = verdad general: *If you restart a computer, it updates.* First Conditional = esta vez: *If you restart it now, it will take ten minutes.*",
+        "Tras *if* no va *will*, aunque hables del futuro."
+      ],
+      "formulas": [
+        "If + presente, will / won't + verbo base",
+        "Will / won't + verbo base + if + presente",
+        "What will happen if + sujeto + presente?"
+      ],
+      "note": "En español decimos «si lo reinicias, tardará diez minutos» (presente + futuro), igual que en inglés. El error típico es poner futuro también tras *if*: *If you will restart…*."
+    }
+  },
+  "phonetics": {
+    "intro": "Tres trampas al explicar un error: *error* lleva el acento al principio (el español lo lleva al final), *should / could / would* tienen una l muda y *breakdown* cambia de acento según sea sustantivo o verbo.",
+    "items": [
+      {
+        "id": "error",
+        "term": "Error",
+        "pos": "n.",
+        "meaning": "error",
+        "ipa": {
+          "us": "/ˈer.ɚ/",
+          "uk": "/ˈer.ə/"
+        },
+        "afh": "É-rer",
+        "say": "Error.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, E. En español «error» lo lleva al final."
+          },
+          {
+            "type": "consonant",
+            "text": "Una r suave, sin vibrar: nada de «e-RRROR»."
+          },
+          {
+            "type": "vowel",
+            "text": "La segunda sílaba es débil: en EE. UU. suena «er» y en Reino Unido, una schwa /ə/."
+          }
+        ],
+        "example": {
+          "speaker": "daniel",
+          "text": "The system shows an error when you log in."
+        }
+      },
+      {
+        "id": "message",
+        "term": "Message",
+        "pos": "n.",
+        "meaning": "mensaje",
+        "ipa": {
+          "us": "/ˈmes.ɪdʒ/",
+          "uk": "/ˈmes.ɪdʒ/"
+        },
+        "afh": "MÉ-sidy",
+        "say": "Message.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, ME. En español, «mensaje» lo lleva en SA."
+          },
+          {
+            "type": "spelling",
+            "text": "*-age* suena /ɪdʒ/, «idy». No digas «mesaye» ni «meseich»."
+          },
+          {
+            "type": "consonant",
+            "text": "No hay n: «MÉ-sidy», no «mensidy»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "An error message keeps popping up."
+        }
+      },
+      {
+        "id": "should",
+        "term": "Should",
+        "pos": "modal",
+        "meaning": "debería",
+        "ipa": {
+          "us": "/ʃʊd/",
+          "uk": "/ʃʊd/"
+        },
+        "afh": "SHUD",
+        "say": "Should.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La l es muda: «shud». Lo mismo en *could* («kud») y *would* («wud»)."
+          },
+          {
+            "type": "vowel",
+            "text": "La vocal es /ʊ/ corta, como en *good*. No «shuuld»."
+          },
+          {
+            "type": "weak",
+            "text": "En una frase rápida se reduce a /ʃəd/: «You shd save it first»."
+          }
+        ],
+        "example": {
+          "speaker": "daniel",
+          "text": "You should save your work before you restart."
+        }
+      },
+      {
+        "id": "breakdown",
+        "term": "Breakdown",
+        "pos": "n.",
+        "meaning": "avería",
+        "ipa": {
+          "us": "/ˈbreɪk.daʊn/",
+          "uk": "/ˈbreɪk.daʊn/"
+        },
+        "afh": "BRÉIK-daun",
+        "say": "Breakdown.",
+        "variants": [
+          {
+            "speaker": "coach",
+            "audio": "l17-ph-breakdown-noun",
+            "text": "There was a breakdown on the train line.",
+            "label": "Sustantivo: BREAK-down"
+          },
+          {
+            "speaker": "coach",
+            "audio": "l17-ph-breakdown-verb",
+            "text": "The washing machine broke down again.",
+            "tts": "The washing machine [broke](/bɹˌOk/) [down](/dˈWn/) again.",
+            "label": "Verbo: break DOWN"
+          }
+        ],
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Sustantivo compuesto (*a breakdown*): acento en BREAK. El verbo (*break down*) lo lleva en DOWN."
+          },
+          {
+            "type": "consonant",
+            "text": "La k de *break* y la d de *down* van seguidas, sin vocal en medio: «breik-daun»."
+          },
+          {
+            "type": "vowel",
+            "text": "*Break* lleva el diptongo «ei», no una e simple."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "We apologise for the breakdown in service."
+        }
+      },
+      {
+        "id": "restarted",
+        "term": "Restarted",
+        "pos": "v.",
+        "meaning": "reinició",
+        "ipa": {
+          "us": "/ˌriːˈstɑr.t̬ɪd/",
+          "uk": "/ˌriːˈstɑː.tɪd/"
+        },
+        "afh": "rii-STÁR-tid",
+        "say": "Restarted.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "Tras t o d, -ed sí añade una sílaba: /ɪd/, «tid». Es la excepción, no la regla."
+          },
+          {
+            "type": "s-cluster",
+            "text": "*St* en medio de la palabra: «rii-STAR», sin colar una e («ri-es-TAR»)."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en STAR, la 2.ª sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "I restarted the router twice, but it still doesn't work."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Consecuencia concreta: First Conditional",
+        "formula": "If + presente, will / won't + verbo base",
+        "usage": "Para explicar qué pasará si se toma una decisión concreta ahora o pronto.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l17-cc-1a",
+            "text": "{{If you restart}} now, the update {{will take}} ten minutes."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l17-cc-1b",
+            "text": "{{If you delete}} old files, the message {{will disappear}}."
+          }
+        ]
+      },
+      {
+        "title": "Preguntar por la consecuencia: What will happen if…?",
+        "formula": "What will happen if + sujeto + presente? · Will + sujeto + verbo base + if…?",
+        "usage": "Para comprobar el riesgo antes de hacer algo.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l17-cc-2a",
+            "text": "{{What will happen if}} I delete the wrong files?"
+          },
+          {
+            "speaker": "alex",
+            "audio": "l17-cc-2b",
+            "text": "{{Will I lose}} my work {{if I restart}}?"
+          }
+        ]
+      },
+      {
+        "title": "Citar un mensaje: It says… / pops up",
+        "formula": "It says (that) + frase · An error message pops up / keeps popping up",
+        "usage": "Para contar qué dice la pantalla. Con mensajes se usa *say*, no *tell*.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l17-cc-3a",
+            "text": "{{It says}} the disk is almost full."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l17-cc-3b",
+            "text": "A strange message {{keeps popping up}}."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Will tras if",
+        "text": "Aunque hables del futuro, tras *if* va el presente simple. *Will* solo aparece en el resultado.",
+        "wrong": "If you will restart it, you will lose your work.",
+        "right": "If you restart it, you'll lose your work."
+      },
+      {
+        "title": "Explain me",
+        "text": "«Explícame» no es *explain me*. *Explain* lleva primero lo que se explica y luego *to* + persona.",
+        "wrong": "Can you explain me the error?",
+        "right": "Can you explain the error to me?"
+      },
+      {
+        "title": "Say frente a tell",
+        "text": "*Tell* necesita a quién (*it tells you*). Para citar un mensaje, usa *say*: *it says…*",
+        "wrong": "The message tells that the disk is full.",
+        "right": "The message says that the disk is full."
+      },
+      {
+        "title": "Acento de error y l muda de should",
+        "text": "*Error* lleva el acento en la primera sílaba, y *should / could / would* no pronuncian la l.",
+        "wrong": "«e-RROR», «SHOULD» con l",
+        "right": "/ˈer.ɚ/ («É-rer»), /ʃʊd/ («shud»)"
+      },
+      {
+        "title": "-ed: ¿sílaba extra o no?",
+        "text": "Solo se añade sílaba tras t o d (*restarted*, *loaded*). Tras otros sonidos, no (*crashed*, *fixed*).",
+        "wrong": "«ri-STARTD», «KRA-shed»",
+        "right": "«rii-STÁR-tid», «krasht»"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you ___ now, you'll lose your work.",
+      "options": [
+        "restart",
+        "will restart",
+        "restarted"
+      ],
+      "answer": 0,
+      "explain": "Tras *if*, presente simple."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you wait until tonight, the update ___ your presentation.",
+      "options": [
+        "won't interrupt",
+        "doesn't will interrupt",
+        "not interrupt"
+      ],
+      "answer": 0,
+      "explain": "Resultado: *won't* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "What will happen if I ___ the wrong files?",
+      "options": [
+        "will delete",
+        "delete",
+        "deleted"
+      ],
+      "answer": 1,
+      "explain": "Tras *if*, presente simple."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el verbo correcto.",
+      "text": "The message ___ that the disk is full.",
+      "options": [
+        "says",
+        "tells",
+        "explains me"
+      ],
+      "answer": 0,
+      "explain": "Para citar un mensaje: *say*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "If it ___ work, I'll call IT.",
+      "accept": [
+        "doesn't",
+        "does not"
+      ],
+      "explain": "Presente negativo tras *if*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la pregunta.",
+      "text": "Can you explain the error ___ me?",
+      "accept": [
+        "to"
+      ],
+      "explain": "*Explain something to someone*."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin coma).",
+      "words": [
+        "If",
+        "I",
+        "restart",
+        "now",
+        "I'll",
+        "lose",
+        "my",
+        "work"
+      ],
+      "answer": "If I restart now I'll lose my work",
+      "explain": "*If* + presente, *will* + verbo base."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "What",
+        "will",
+        "happen",
+        "if",
+        "I",
+        "delete",
+        "it"
+      ],
+      "answer": "What will happen if I delete it",
+      "explain": "*What will happen if* + presente."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "If you will restart it, you will lose your work.",
+      "accept": [
+        "If you restart it, you will lose your work.",
+        "If you restart it, you'll lose your work."
+      ],
+      "explain": "Sin *will* tras *if*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Can you explain me the error?",
+      "accept": [
+        "Can you explain the error to me?",
+        "Could you explain the error to me?"
+      ],
+      "explain": "*Explain the error to me*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "The message tells that the disk is full.",
+      "accept": [
+        "The message says that the disk is full.",
+        "The message says the disk is full."
+      ],
+      "explain": "Los mensajes *say*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *error* lleva el acento?",
+      "word": "error",
+      "syllables": [
+        "er",
+        "ror"
+      ],
+      "answer": 0,
+      "audioRef": "l17-ph-error-us",
+      "explain": "**ER**-ror: acento en la primera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué parte del sustantivo *breakdown* lleva el acento?",
+      "word": "breakdown",
+      "syllables": [
+        "break",
+        "down"
+      ],
+      "answer": 0,
+      "audioRef": "l17-ph-breakdown-noun",
+      "explain": "**BREAK**-down: sustantivo compuesto. El verbo *break down* acentúa DOWN."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "daniel",
+      "audio": "l17-dict-1",
+      "text": "If you delete some old files, the message will disappear.",
+      "explain": "First Conditional: *if* + presente, *will* + verbo base."
+    }
+  ],
+  "task": {
+    "title": "Un mensaje de voz sobre un error",
+    "format": "voice",
+    "scenario": "Tu ordenador muestra un mensaje de error justo antes de una clase o una reunión en línea. Graba (o escribe) un mensaje de voz para avisar a un compañero.",
+    "brief": "Leave a voice message explaining an error message and what you will do.",
+    "steps": [
+      "Di qué pasó y qué dice el mensaje (*An error message popped up. It says…*).",
+      "Explica qué pasará si haces una cosa u otra (*If I restart…, I'll…*).",
+      "Da tu plan B (*If it doesn't work, I'll…*).",
+      "Pide algo a tu compañero y despídete."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi ___, it's ___. An error message popped up ___.",
+      "It says ___.",
+      "If I ___ now, I'll ___. If I don't, ___ will ___.",
+      "If it doesn't work, I'll ___.",
+      "Could you ___, please? Thanks!"
+    ],
+    "chunks": [
+      {
+        "label": "It says",
+        "re": "\\bit says\\b"
+      },
+      {
+        "label": "pop up",
+        "re": "\\b(pop(s|ped)? up|popping up)\\b"
+      },
+      {
+        "label": "First Conditional",
+        "re": "\\bif\\b[^.!?]{3,60}\\b(will|won't|'ll)\\b"
+      },
+      {
+        "label": "If it doesn't work",
+        "re": "\\bif (it|that|this) (doesn't|does not|don't) work\\b"
+      },
+      {
+        "label": "error message",
+        "re": "\\berror( message)?\\b"
+      },
+      {
+        "label": "restart / update / save",
+        "re": "\\b(restart|update|delete|save|reinstall)\\b"
+      }
+    ],
+    "checks": [
+      "ifWill",
+      "explainMe",
+      "messageTells",
+      "proDrop",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el informe técnico",
+      "brief": "Describe the error in one formal sentence.",
+      "frames": [
+        "The system displays an error message indicating that ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "sarah",
+          "audio": "l17-task-model",
+          "text": "Hi Priya, it's Sarah. I have a problem with my computer. An error message {{popped up}} five minutes ago, and {{it says}} the graphics card isn't responding. {{If I restart}} the computer now, {{I'll miss}} the start of our design class. {{If I don't}}, the program {{will keep}} freezing. So I'm going to restart it anyway. {{If it doesn't work}}, {{I'll join}} the class from my phone. Could you tell the teacher, please? Thanks!",
+          "label": "Mensaje de voz (neutro)",
+          "notes": [
+            "*It says…* cita el mensaje. *If I restart…, I'll miss…* y *If I don't, the program will keep freezing*: dos consecuencias concretas.",
+            "*If it doesn't work, I'll join… from my phone*: el plan B."
+          ]
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l17-task-formal",
+          "text": "The system {{displays an error message}} indicating that the disk is almost full. {{If the issue persists}}, {{we will increase}} your storage. Please {{do not restart}} the device until the update has finished.",
+          "label": "Informe técnico (formal)",
+          "notes": [
+            "*Displays an error message indicating that…* es la fórmula de un informe.",
+            "*If the issue persists, we will…*: First Conditional en registro formal."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste presente tras *if* y *will / won't* en el resultado?",
+      "¿Citaste el mensaje con *It says…* (no *It tells…*)?",
+      "¿Escribiste *explain it to me* (y no *explain me*)?",
+      "¿Incluiste un plan B con *If it doesn't work, I'll…*?",
+      "¿Todas tus oraciones tienen sujeto explícito?"
+    ]
+  }
+}

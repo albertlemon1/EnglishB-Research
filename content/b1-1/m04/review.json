@@ -1,0 +1,152 @@
+{
+  "id": "review",
+  "title": "Module 4 Review",
+  "titleEs": "Repaso del Módulo 4",
+  "intro": "Doce preguntas que mezclan las cinco lecciones, con un ejercicio de acento y un dictado. Si fallas alguna, la explicación te dice a qué lección volver.",
+  "items": [
+    {
+      "type": "choice",
+      "lesson": "l16",
+      "prompt": "Elige la palabra correcta.",
+      "text": "The Wi-Fi is ___ slow for video calls.",
+      "options": [
+        "too",
+        "enough",
+        "very much"
+      ],
+      "answer": 0,
+      "explain": "Exceso → *too* + adjetivo. (Lección 16)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l16",
+      "prompt": "Elige el orden correcto.",
+      "text": "The signal isn't ___.",
+      "options": [
+        "strong enough",
+        "enough strong",
+        "too strong enough"
+      ],
+      "answer": 0,
+      "explain": "*Enough* va detrás del adjetivo. (Lección 16)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l16",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "My laptop keeps to crash.",
+      "accept": [
+        "My laptop keeps crashing."
+      ],
+      "explain": "*Keep* + -ing. (Lección 16)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l17",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you ___ now, you'll lose your work.",
+      "options": [
+        "restart",
+        "will restart",
+        "restarted"
+      ],
+      "answer": 0,
+      "explain": "Presente tras *if*. (Lección 17)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l17",
+      "prompt": "Corrige el error.",
+      "wrong": "Can you explain me the error?",
+      "accept": [
+        "Can you explain the error to me?",
+        "Could you explain the error to me?"
+      ],
+      "explain": "*Explain something to someone*. (Lección 17)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l18",
+      "prompt": "Elige la forma correcta.",
+      "text": "We'll send it as soon as we ___ the faulty pair.",
+      "options": [
+        "receive",
+        "will receive",
+        "received"
+      ],
+      "answer": 0,
+      "explain": "*As soon as* + presente. (Lección 18)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l18",
+      "prompt": "Corrige el error.",
+      "wrong": "I asked a refund.",
+      "accept": [
+        "I asked for a refund."
+      ],
+      "explain": "*Ask for* + lo que pides. (Lección 18)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l19",
+      "prompt": "Elige la forma correcta.",
+      "text": "If that doesn't work, we ___ use my laptop.",
+      "options": [
+        "might",
+        "might to",
+        "will to"
+      ],
+      "answer": 0,
+      "explain": "*Might* + verbo base. (Lección 19)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l19",
+      "prompt": "Elige el orden correcto.",
+      "text": "There isn't ___ to copy everything.",
+      "options": [
+        "enough time",
+        "time enough",
+        "enough of time"
+      ],
+      "answer": 0,
+      "explain": "*Enough* + sustantivo. (Lección 19)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l20",
+      "prompt": "Elige la palabra correcta.",
+      "text": "If you have any ___, please contact us.",
+      "options": [
+        "questions",
+        "doubts",
+        "doubtings"
+      ],
+      "answer": 0,
+      "explain": "«Si tiene dudas» = *if you have any questions*. (Lección 20)"
+    },
+    {
+      "type": "stress",
+      "lesson": "l17",
+      "prompt": "¿Qué sílaba de *error* lleva el acento?",
+      "word": "error",
+      "syllables": [
+        "er",
+        "ror"
+      ],
+      "answer": 0,
+      "audioRef": "l17-ph-error-us",
+      "explain": "**ER**-ror: acento en la primera sílaba. (Lección 17)"
+    },
+    {
+      "type": "dictation",
+      "lesson": "l20",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "grace",
+      "audio": "m04-rv-dict-1",
+      "text": "We'll send the technician back if it drops again.",
+      "explain": "First Conditional con *if* en la segunda mitad, sin coma. (Lección 20)"
+    }
+  ]
+}

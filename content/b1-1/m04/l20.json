@@ -1,0 +1,786 @@
+{
+  "id": "l20",
+  "n": 20,
+  "title": "Confirming Solutions & Following Up on Complaints",
+  "titleEs": "Confirmar soluciones y hacer seguimiento de reclamaciones",
+  "minutes": 60,
+  "summary": "Haz seguimiento de una reclamación: confirma el estado con Present Perfect y fija compromisos con *if* y *unless*.",
+  "canDo": [
+    "Puedo hacer seguimiento de una reclamación (*I'm following up on…*).",
+    "Puedo confirmar el estado actual con Present Perfect + *since* (*It has worked better since Tuesday*).",
+    "Puedo fijar compromisos y plazos con *If…, please / we'll…* y *unless*.",
+    "Puedo pronunciar *doubt* sin la b, *hour* sin la h y *resolved* sin sílaba extra."
+  ],
+  "focus": {
+    "grammar": "First Conditional con imperativo y will (If the problem comes back, please… / we'll…) · unless + presente · Present Perfect + since para confirmar · What if…?",
+    "lexis": "follow up on, ticket, get back to you, work properly, sort out, escalate, keep an eye on, any questions, do not hesitate to contact us",
+    "afh": "b muda en doubt · h muda en hour · grupos finales -lved, -rmed (resolved, confirmed) · issue"
+  },
+  "warmup": "¿Alguna vez una reparación solo funcionó a medias? ¿Volviste a llamar o a escribir? ¿Qué dijiste para que te tomaran en serio sin perder la cortesía?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Seguimiento de la incidencia",
+      "context": "Una semana después de su reclamación (Lección 18), Alex recibe este correo de George, de atención al cliente.",
+      "speaker": "george",
+      "to": "Alex",
+      "audio": "l20-scn",
+      "text": "Dear Alex, I'm {{following up on}} your ticket about the wireless headphones. According to our records, the courier delivered the replacement on Monday. {{Could you confirm}} that the new pair {{is working properly}}? {{If the problem comes back}}, {{please reply}} to this email, and {{we'll arrange}} a full refund. {{Unless we hear}} from you within seven days, {{we'll close}} the ticket. {{If you have any questions}}, please do not hesitate to contact us. Kind regards, George Hall, Customer Service"
+    },
+    "dialogue": {
+      "title": "Una llamada de seguimiento",
+      "context": "Sarah llama a su compañía de internet: el técnico ya fue, pero la conexión sigue fallando. Le atiende Grace.",
+      "lines": [
+        {
+          "speaker": "grace",
+          "audio": "l20-dlg-01",
+          "text": "Good morning, customer service, Grace speaking."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l20-dlg-02",
+          "text": "Hi, I'm {{following up on}} a complaint about my internet connection. My ticket number is 309.",
+          "tts": "Hi, I'm following up on a complaint about my internet connection. My ticket number is three oh nine."
+        },
+        {
+          "speaker": "grace",
+          "audio": "l20-dlg-03",
+          "text": "Thank you. I can see a technician visited on Tuesday. {{Has the connection worked}} properly {{since then}}?"
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l20-dlg-04",
+          "text": "Not really. It's better, but it still drops two or three times a day. That {{isn't good enough}} for my online classes."
+        },
+        {
+          "speaker": "grace",
+          "audio": "l20-dlg-05",
+          "text": "I'm sorry about that. {{If it drops}} again today, {{we'll send}} the technician back tomorrow morning."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l20-dlg-06",
+          "text": "And {{what if}} that doesn't solve it either?"
+        },
+        {
+          "speaker": "grace",
+          "audio": "l20-dlg-07",
+          "text": "Then we'll {{escalate}} the case to our network team, and you {{won't pay}} for this month."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l20-dlg-08",
+          "text": "Okay, that sounds fair. I'll {{keep an eye on}} it and {{get back to you}} this afternoon."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Por qué llama Sarah?",
+        "options": [
+          "Para contratar un servicio nuevo",
+          "Para hacer seguimiento de una reclamación",
+          "Para cancelar su contrato"
+        ],
+        "answer": 1,
+        "explain": "*I'm following up on a complaint about my internet connection.*"
+      },
+      {
+        "q": "¿Cómo funciona la conexión desde la visita del técnico?",
+        "options": [
+          "Perfectamente",
+          "Igual de mal que antes",
+          "Mejor, pero se corta dos o tres veces al día"
+        ],
+        "answer": 2,
+        "explain": "*It's better, but it still drops two or three times a day.*"
+      },
+      {
+        "q": "¿Qué pasará si la segunda visita tampoco lo soluciona?",
+        "options": [
+          "Pasarán el caso al equipo de red y no pagará este mes",
+          "Le cambiarán el router",
+          "Cerrarán la incidencia"
+        ],
+        "answer": 0,
+        "explain": "*We'll escalate the case to our network team, and you won't pay for this month.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, mensajes rápidos.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l20-reg-c1",
+            "text": "Yay, it's all sorted! Thanks a million!",
+            "note": "*Sorted* = resuelto (coloquial). *Thanks a million* = mil gracias."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l20-reg-c2",
+            "text": "Still not working, I'm afraid. Can you take another look?",
+            "note": "*Still not working* omite *it's*: típico de un mensaje rápido. *Take another look* = volver a mirarlo."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Seguimiento con empresas, soporte técnico, compañeros.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l20-reg-n1",
+            "text": "I'm just following up on my ticket from last week.",
+            "note": "*Just following up on* = solo quería hacer seguimiento de…"
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l20-reg-n2",
+            "text": "It works now, but it still isn't fast enough.",
+            "note": "Confirma una mejora y señala lo que falta."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l20-reg-n3",
+            "text": "If the problem comes back, I'll let you know.",
+            "note": "First Conditional para comprometerse a avisar."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Correos de empresa, respuestas oficiales.",
+        "items": [
+          {
+            "speaker": "george",
+            "audio": "l20-reg-f1",
+            "text": "Could you please confirm that the issue has been resolved?",
+            "note": "*Has been resolved* (pasiva) = se ha resuelto. Muy frecuente en atención al cliente."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l20-reg-f2",
+            "text": "Should you require further assistance, please do not hesitate to contact us.",
+            "note": "*Should you require* = si necesitara (condicional formal con inversión). Por ahora, solo reconócela."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "follow up on (a complaint)",
+        "es": "hacer seguimiento de (una reclamación)",
+        "register": "neutral"
+      },
+      {
+        "en": "get back to (someone)",
+        "es": "volver a contactar a (alguien)",
+        "register": "neutral"
+      },
+      {
+        "en": "work properly",
+        "es": "funcionar bien",
+        "register": "neutral"
+      },
+      {
+        "en": "It's all sorted!",
+        "es": "¡ya está todo resuelto!",
+        "register": "casual"
+      },
+      {
+        "en": "If the problem comes back, …",
+        "es": "si el problema vuelve, …",
+        "register": "neutral"
+      },
+      {
+        "en": "keep an eye on (it)",
+        "es": "estar pendiente de (algo)",
+        "register": "neutral"
+      },
+      {
+        "en": "escalate (a case)",
+        "es": "pasar (un caso) a un nivel superior",
+        "register": "formal"
+      },
+      {
+        "en": "Please do not hesitate to contact us.",
+        "es": "no dude en contactarnos",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Yay, it's all sorted!",
+        "answer": "casual",
+        "explain": "*Yay* y *sorted* son coloquiales."
+      },
+      {
+        "text": "I'm just following up on my ticket from last week.",
+        "answer": "neutral",
+        "explain": "Seguimiento educado y estándar."
+      },
+      {
+        "text": "Should you require further assistance, please do not hesitate to contact us.",
+        "answer": "formal",
+        "explain": "Inversión (*Should you require*) y fórmula de cierre corporativa."
+      },
+      {
+        "text": "Still not working, I'm afraid.",
+        "answer": "casual",
+        "explain": "Frase sin sujeto, típica de un mensaje rápido."
+      },
+      {
+        "text": "Could you please confirm that the issue has been resolved?",
+        "answer": "formal",
+        "explain": "*Confirm*, *issue* y la pasiva dan un tono formal."
+      },
+      {
+        "text": "If the problem comes back, I'll let you know.",
+        "answer": "neutral",
+        "explain": "Compromiso claro, válido en cualquier contexto."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "En el correo de seguimiento, George fija condiciones y un plazo. Fíjate en el verbo que sigue a *if* y a *unless*, y en lo que viene después de la coma.",
+    "speaker": "ryan",
+    "audio": "l20-gd",
+    "text": "{{If}} the problem {{comes back}}, {{please reply}} to this email. {{Unless}} we {{hear}} from you within seven days, we{{'ll close}} the ticket.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué pasará si Alex no responde en siete días?",
+        "options": [
+          "Cerrarán la incidencia.",
+          "Le devolverán el dinero.",
+          "Le enviarán otros auriculares."
+        ],
+        "answer": 0,
+        "explain": "*Unless we hear from you* = si no tenemos noticias suyas → *we'll close the ticket*."
+      },
+      {
+        "kind": "syntactic",
+        "q": "Además de *will*, ¿qué puede aparecer en el resultado de un First Conditional?",
+        "options": [
+          "Un imperativo (*please reply*).",
+          "Un verbo en pasado.",
+          "*To* + verbo."
+        ],
+        "answer": 0,
+        "explain": "*If the problem comes back, please reply…*: condición en presente y una instrucción como resultado."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "¿Qué transmite *If the problem comes back, please reply to this email*?",
+        "options": [
+          "Compromiso: la empresa sigue dispuesta a ayudar.",
+          "Molestia con el cliente.",
+          "Que el problema no tiene solución."
+        ],
+        "answer": 0,
+        "explain": "La condición deja la puerta abierta. En un seguimiento, el First Conditional sirve para comprometerse."
+      }
+    ],
+    "rule": {
+      "points": [
+        "Para hacer seguimiento: *If* + presente, *please* + imperativo o *we'll* + verbo base.",
+        "*Unless* + presente = *if … not* (Módulo 3): *Unless we hear from you, we'll close the ticket.*",
+        "Para confirmar el estado actual: Present Perfect + *since* (Módulo 2): *Has it worked properly since then?*",
+        "*What if…?* = ¿y si…? Sirve para preguntar por el peor caso."
+      ],
+      "formulas": [
+        "If + presente, please + imperativo / we'll + verbo base",
+        "Unless + presente, will + verbo base",
+        "Has it + participio + since…?"
+      ],
+      "note": "«Si tiene alguna duda» no es *if you have any doubts*, que suena a desconfianza («si duda de nosotros»). En inglés se dice *if you have any questions*."
+    }
+  },
+  "phonetics": {
+    "intro": "Al cerrar una reclamación aparecen letras mudas (la b de *doubt*, la h de *hour*) y pasados con grupos finales difíciles (*resolved*, *confirmed*), donde el hispanohablante suele añadir una sílaba.",
+    "items": [
+      {
+        "id": "doubt",
+        "term": "Doubt",
+        "pos": "n. / v.",
+        "meaning": "duda; dudar",
+        "ipa": {
+          "us": "/daʊt/",
+          "uk": "/daʊt/"
+        },
+        "afh": "DAUT",
+        "say": "Doubt.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La b es muda: «daut». Lo mismo en *debt* («det»)."
+          },
+          {
+            "type": "vowel",
+            "text": "*Ou* es el diptongo /aʊ/, «au»."
+          },
+          {
+            "type": "consonant",
+            "text": "La t final se pronuncia, suave pero presente: «daut», no «dau»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "I have no doubt it will work this time."
+        }
+      },
+      {
+        "id": "hour",
+        "term": "Hour",
+        "pos": "n.",
+        "meaning": "hora",
+        "ipa": {
+          "us": "/aʊr/",
+          "uk": "/aʊə/"
+        },
+        "afh": "ÁUER",
+        "say": "Hour.",
+        "alerts": [
+          {
+            "type": "silent",
+            "text": "La h es muda: *hour* suena igual que *our*."
+          },
+          {
+            "type": "spelling",
+            "text": "Como empieza por sonido vocálico, lleva *an*: *an hour*, *half an hour*."
+          },
+          {
+            "type": "vowel",
+            "text": "Diptongo /aʊ/ seguido de una r débil (US) o una schwa (UK)."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "A technician will call you within an hour."
+        }
+      },
+      {
+        "id": "resolved",
+        "term": "Resolved",
+        "pos": "v.",
+        "meaning": "resuelto, resolvió",
+        "ipa": {
+          "us": "/rɪˈzɑlvd/",
+          "uk": "/rɪˈzɒlvd/"
+        },
+        "afh": "ri-ZÓLVD",
+        "say": "Resolved.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La s suena /z/, sonora, con zumbido: «ri-ZOLVD»."
+          },
+          {
+            "type": "ed",
+            "text": "Tras /v/ (sonora), -ed suena /d/: sin sílaba extra. Nada de «ri-sol-ved»."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en tres consonantes, /lvd/: no pierdas la v."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "We resolved the issue on Tuesday."
+        }
+      },
+      {
+        "id": "confirmed",
+        "term": "Confirmed",
+        "pos": "v.",
+        "meaning": "confirmó, confirmado",
+        "ipa": {
+          "us": "/kənˈfɝmd/",
+          "uk": "/kənˈfɜːmd/"
+        },
+        "afh": "kon-FÉRMD",
+        "say": "Confirmed.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "Tras /m/, -ed suena /d/: «kon-FÉRMD», dos sílabas, no tres."
+          },
+          {
+            "type": "consonant",
+            "text": "Grupo final /rmd/ (US) o /md/ (UK): no añadas una e."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en FIRM, la segunda sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "The technician confirmed the visit for tomorrow."
+        }
+      },
+      {
+        "id": "issue",
+        "term": "Issue",
+        "pos": "n.",
+        "meaning": "problema, incidencia",
+        "ipa": {
+          "us": "/ˈɪʃ.uː/",
+          "uk": "/ˈɪʃ.uː/"
+        },
+        "afh": "Í-shu",
+        "say": "Issue.",
+        "ttsUk": "[Issue](/ˈɪʃuː/).",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "*Ss* suena /ʃ/: «Í-shu», no «Í-siu»."
+          },
+          {
+            "type": "variant",
+            "text": "En Reino Unido también se oye /ˈɪs.juː/, «Í-siu»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "We'll look into the issue today."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Compromisos de seguimiento: If…, please / we'll…",
+        "formula": "If + presente, please + imperativo · If + presente, we'll / I'll + verbo base",
+        "usage": "Para dejar claro qué hará cada parte si el problema continúa.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l20-cc-1a",
+            "text": "{{If the problem comes back}}, {{please let us know}}."
+          },
+          {
+            "speaker": "george",
+            "audio": "l20-cc-1b",
+            "text": "{{If it drops}} again, {{we'll send}} the technician back."
+          }
+        ]
+      },
+      {
+        "title": "Plazos y excepciones: unless + presente",
+        "formula": "Unless + sujeto + presente, sujeto + will + verbo base",
+        "usage": "Para fijar lo que pasará salvo que ocurra algo. *Unless* ya lleva el «no».",
+        "examples": [
+          {
+            "speaker": "george",
+            "audio": "l20-cc-2a",
+            "text": "{{Unless we hear}} from you, we{{'ll close}} the ticket."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l20-cc-2b",
+            "text": "{{Unless it's fixed}} by noon, {{I'll call}} again."
+          }
+        ]
+      },
+      {
+        "title": "Confirmar el estado: Present Perfect + since",
+        "formula": "Has / Have + sujeto + participio + since…? · Sujeto + has / have + participio + since…",
+        "usage": "Para preguntar o contar cómo funciona algo desde la reparación hasta hoy.",
+        "examples": [
+          {
+            "speaker": "george",
+            "audio": "l20-cc-3a",
+            "text": "{{Has the connection worked}} properly {{since}} Tuesday?"
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l20-cc-3b",
+            "text": "It{{'s worked}} much better {{since}} the visit."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Doubts frente a questions",
+        "text": "«Si tiene alguna duda» se dice *if you have any questions*. *Doubts* suena a desconfianza.",
+        "wrong": "If you have any doubts, contact us.",
+        "right": "If you have any questions, contact us."
+      },
+      {
+        "title": "Will tras unless",
+        "text": "*Unless* funciona como *if*: va seguido de presente.",
+        "wrong": "Unless we will hear from you, we'll close the ticket.",
+        "right": "Unless we hear from you, we'll close the ticket."
+      },
+      {
+        "title": "Presente con since",
+        "text": "«Funciona bien desde el martes» no es *It works since Tuesday*. Si empezó en el pasado y sigue, usa Present Perfect (Módulo 2).",
+        "wrong": "It works well since Tuesday.",
+        "right": "It has worked well since Tuesday."
+      },
+      {
+        "title": "A hour",
+        "text": "La h de *hour* es muda, así que suena a vocal y lleva *an*.",
+        "wrong": "We'll call you in a hour.",
+        "right": "We'll call you in an hour."
+      },
+      {
+        "title": "-ed con sílaba extra",
+        "text": "*Resolved* y *confirmed* acaban en /d/, sin vocal añadida.",
+        "wrong": "«ri-SOL-ved», «kon-FIR-med»",
+        "right": "/rɪˈzɑlvd/ («ri-ZÓLVD»), /kənˈfɝmd/ («kon-FÉRMD»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If the problem ___ back, please let us know.",
+      "options": [
+        "comes",
+        "will come",
+        "came"
+      ],
+      "answer": 0,
+      "explain": "Presente tras *if*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "___ we hear from you, we'll close the ticket.",
+      "options": [
+        "Unless",
+        "If not",
+        "Except"
+      ],
+      "answer": 0,
+      "explain": "*Unless* + presente = si no…"
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "Has the connection worked properly ___ Tuesday?",
+      "options": [
+        "since",
+        "for",
+        "from"
+      ],
+      "answer": 0,
+      "explain": "*Since* + punto de inicio."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "If you have any ___, please contact us.",
+      "options": [
+        "questions",
+        "doubts",
+        "doubtings"
+      ],
+      "answer": 0,
+      "explain": "«Dudas» en este contexto = *questions*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "We'll call you back in ___ hour.",
+      "accept": [
+        "an"
+      ],
+      "explain": "La h es muda → *an hour*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "I'm following ___ on my complaint from last week.",
+      "accept": [
+        "up"
+      ],
+      "explain": "*Follow up on* = hacer seguimiento de."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin coma).",
+      "words": [
+        "If",
+        "it",
+        "drops",
+        "again",
+        "we'll",
+        "send",
+        "a",
+        "technician"
+      ],
+      "answer": "If it drops again we'll send a technician",
+      "explain": "*If* + presente, *will* + verbo base."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "It",
+        "has",
+        "worked",
+        "well",
+        "since",
+        "Tuesday"
+      ],
+      "answer": "It has worked well since Tuesday",
+      "explain": "Present Perfect + *since*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "If you have any doubts, contact us.",
+      "accept": [
+        "If you have any questions, contact us.",
+        "If you have any questions, please contact us."
+      ],
+      "explain": "*Questions*, no *doubts*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Unless we will hear from you, we'll close the ticket.",
+      "accept": [
+        "Unless we hear from you, we'll close the ticket.",
+        "Unless we hear from you, we will close the ticket."
+      ],
+      "explain": "Presente tras *unless*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "It works well since Tuesday.",
+      "accept": [
+        "It has worked well since Tuesday.",
+        "It's worked well since Tuesday."
+      ],
+      "explain": "Present Perfect con *since*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *confirmed* lleva el acento?",
+      "word": "confirmed",
+      "syllables": [
+        "con",
+        "firmed"
+      ],
+      "answer": 1,
+      "audioRef": "l20-ph-confirmed-us",
+      "explain": "con-**FIRMED**: acento en la segunda sílaba (y solo dos sílabas)."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "george",
+      "audio": "l20-dict-1",
+      "text": "If the problem comes back, please reply to this email.",
+      "explain": "*If* + presente, imperativo con *please*."
+    }
+  ],
+  "task": {
+    "title": "Un correo de seguimiento",
+    "format": "email",
+    "scenario": "Hace una semana reportaste un problema (por ejemplo, el de la Lección 16 o la 18). Ya lo revisaron, pero solo funciona a medias. Escribe un correo de seguimiento.",
+    "brief": "Write a follow-up email about a complaint that is only partly solved.",
+    "steps": [
+      "Di a qué te refieres (*I'm following up on ticket… / my complaint about…*).",
+      "Confirma el estado actual con Present Perfect + *since* y explica lo que falla (*it still isn't … enough*).",
+      "Propón un siguiente paso con *If…, I'll… / could you…?*",
+      "Fija un plazo con *unless* y agradece la ayuda."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 50,
+    "frames": [
+      "Hi ___, I'm following up on ticket ___ about ___.",
+      "The ___ has worked better since ___, but it still ___.",
+      "It isn't ___ enough for ___.",
+      "If it happens again, I'll ___.",
+      "Unless ___ by ___, could you ___? Thanks for your help, ___"
+    ],
+    "chunks": [
+      {
+        "label": "follow up on",
+        "re": "\\bfollow(ing)? up on\\b"
+      },
+      {
+        "label": "ticket / complaint",
+        "re": "\\b(ticket|complaint|case)\\b"
+      },
+      {
+        "label": "Present Perfect + since",
+        "re": "\\b(has|have|'s|'ve)\\s+(been|worked|improved|got|gotten|stopped|dropped)\\b[^.!?]{0,40}\\bsince\\b"
+      },
+      {
+        "label": "too / enough",
+        "re": "\\b(enough|too\\s+[a-z]+)\\b"
+      },
+      {
+        "label": "If…, I'll / please",
+        "re": "\\bif\\b[^.!?]{3,60}\\b(will|won't|'ll|please|could you)\\b"
+      },
+      {
+        "label": "unless",
+        "re": "\\bunless\\b"
+      }
+    ],
+    "checks": [
+      "doubtsQuestions",
+      "ifWill",
+      "unlessNot",
+      "presentSince",
+      "aHour",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el cierre formal",
+      "brief": "Write one formal sentence asking the company to confirm the solution.",
+      "frames": [
+        "I would appreciate it if you could confirm that ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "sarah",
+          "audio": "l20-task-model",
+          "text": "Hi Grace, I'm {{following up on}} ticket 309 about my internet connection. The technician visited on Tuesday, and the connection {{has been}} much more stable {{since then}}. However, it still drops in the evening, so it {{isn't reliable enough}} for my online classes. {{If it happens}} again tonight, {{I'll send}} you a screenshot of the speed test. {{Unless}} the problem {{disappears}} by Friday, could you send the technician back? Thanks for your help, Sarah",
+          "tts": "Hi Grace, I'm following up on ticket three oh nine about my internet connection. The technician visited on Tuesday, and the connection has been much more stable since then. However, it still drops in the evening, so it isn't reliable enough for my online classes. If it happens again tonight, I'll send you a screenshot of the speed test. Unless the problem disappears by Friday, could you send the technician back? Thanks for your help, Sarah",
+          "label": "Correo de seguimiento (neutro)",
+          "notes": [
+            "*Has been … since then* confirma el estado actual. *Isn't reliable enough* explica lo que aún falla.",
+            "*If it happens again, I'll…* y *Unless … by Friday* fijan el siguiente paso y el plazo."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l20-task-formal",
+          "text": "{{I would appreciate it if}} you could confirm that the issue {{has been resolved}}. {{Should you require}} any further information, please do not hesitate to contact me.",
+          "label": "Cierre formal",
+          "notes": [
+            "*I would appreciate it if you could* + verbo base: petición formal.",
+            "*Should you require…* equivale a *If you need…* en registro muy formal."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Mencionaste el número de incidencia y lo que pasó?",
+      "¿Usaste Present Perfect con *since* para el estado actual?",
+      "¿Usaste presente tras *if / unless* (sin *will*)?",
+      "¿Escribiste *questions* y no *doubts*?",
+      "¿Propusiste un siguiente paso claro y un plazo?"
+    ]
+  }
+}

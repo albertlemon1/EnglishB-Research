@@ -175,6 +175,51 @@ export const CHECKS = {
     const m = text.match(/\benter\s+(in|into|to)\b|\benter\s+(the|your|my)\s+(app|settings|menu|website|site|account)\b/i);
     return m ? { msg: "«Entrar en una app» es *open the app* o *go to*. *Enter* se usa para introducir datos (*enter the code*).", sample: m[0], soft: true } : null;
   },
+  // --- Módulo 4 (problemas prácticos) ---
+  tooMuchAdj(text) {
+    const m = text.match(/\btoo\s+much\s+(slow|fast|big|small|long|short|strong|weak|old|new|good|bad|loud|quiet|bright|dark|hot|cold|warm|cheap|expensive|heavy|light|reliable|stable|safe|easy|difficult|hard|complicated|high|low|full|clear|powerful)\b/i);
+    return m ? { msg: "«Demasiado lento» es *too slow*: con adjetivos, *too* va sin *much*. *Too much* va con sustantivos incontables (*too much noise*).", sample: m[0] } : null;
+  },
+  enoughBeforeAdj(text) {
+    const m = text.match(/\benough\s+(slow|fast|big|small|long|short|strong|weak|old|new|good|bad|loud|quiet|bright|dark|hot|cold|warm|cheap|expensive|heavy|light|reliable|stable|safe|easy|difficult|hard|complicated|high|low|full|clear|powerful)\b(?!\s+(time|space|memory|power|money|storage|data|signal|light|room|battery|people|chairs|cables?|plugs?|outlets?))/i);
+    return m ? { msg: "Con adjetivos, *enough* va detrás: *strong enough*, *long enough*. Con sustantivos, delante: *enough time*.", sample: m[0] } : null;
+  },
+  keepTo(text) {
+    const m = text.match(/\bkeep(s|ing)?\s+to\s+(crash|freeze|fail|disconnect|drop|stop|show|happen|break|restart|flicker|beep|pop|ask|switch|turn|lose)\b/i);
+    return m ? { msg: "*Keep* se combina con -ing: *it keeps crashing*, no *keeps to crash*.", sample: m[0] } : null;
+  },
+  doesntS(text) {
+    const m = text.match(/\b(doesn't|does not|didn't|did not)\s+(works|turns|starts|loads|opens|charges|connects|responds|prints|lasts|reaches|stops|fits|shows)\b/i);
+    return m ? { msg: "Después de *doesn't / didn't* el verbo va sin -s: *it doesn't work*.", sample: m[0] } : null;
+  },
+  explainMe(text) {
+    const m = text.match(/\bexplain(s|ed|ing)?\s+(me|us|him|her|them)\b/i);
+    return m ? { msg: "«Explícame» es *explain it to me*: primero lo que se explica y después *to* + persona.", sample: m[0] } : null;
+  },
+  messageTells(text) {
+    const m = text.match(/\b(message|screen|error|it|the app|the system)\s+(tells|told)\s+(that|me that)?\s*(the|it|my|your|there|you)\b/i);
+    return m && !/\btells\s+(me|you|us|him|her|them)\s+to\b/i.test(m[0]) ? { msg: "Para citar un mensaje se usa *say*: *it says the disk is full*. *Tell* necesita a quién.", sample: m[0], soft: true } : null;
+  },
+  askFor(text) {
+    const m = text.match(/\bask(s|ed|ing)?\s+(a|an|the|my|your)\s+(refund|replacement|repair|discount|new one|exchange)\b/i);
+    return m ? { msg: "«Pedir algo» es *ask for* + cosa: *I asked for a refund*. Sin *for*, *ask* significa «preguntar».", sample: m[0] } : null;
+  },
+  returnMoney(text) {
+    const m = text.match(/\breturn\s+(me\s+|us\s+)?(the|my|our)\s+money\b/i);
+    return m ? { msg: "Para el dinero se usa *refund*: *Could you refund me?* / *Can I get a refund?* *Return* es devolver el producto.", sample: m[0] } : null;
+  },
+  mightTo(text) {
+    const m = text.match(/\b(might|may|should|must)\s+to\s+[a-z]+/i);
+    return m ? { msg: "Tras *might / may / should* va el verbo base, sin *to*: *we might use my laptop*.", sample: m[0] } : null;
+  },
+  doubtsQuestions(text) {
+    const m = text.match(/\b(any|some|have|has|had)\s+(more\s+|further\s+|other\s+)?doubts\b/i);
+    return m ? { msg: "«Si tiene alguna duda» es *if you have any questions*. *Doubts* suena a desconfianza.", sample: m[0], soft: true } : null;
+  },
+  aHour(text) {
+    const m = text.match(/\ba\s+(hour|hours|honest|honour|honor|heir)\b/i);
+    return m ? { msg: "La h de *hour* es muda: suena a vocal, así que va con *an*: *an hour*.", sample: m[0] } : null;
+  },
 };
 
 export function runChecks(text, ids = []) {
