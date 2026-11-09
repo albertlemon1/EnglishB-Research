@@ -63,7 +63,7 @@ Cada lección sigue la misma matriz de seis bloques: Input léxico (tres registr
 14. Protecting Personal Data & Online Safety Basics
 15. Giving Clear Step-by-Step Digital Instructions
 
-### M04 · Practical Problem-Solving & Daily Hassles — 📝 contenido listo, audio pendiente
+### M04 · Practical Problem-Solving & Daily Hassles — ✅ contenido y audios disponibles
 
 *Tech & Digital Transformation, Workplace Dynamics* · Gramática: First Conditional; too / (not) enough · AFH: Letras mudas; grupos consonánticos finales (fixed, crashed)
 

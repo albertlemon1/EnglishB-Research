@@ -4,7 +4,7 @@ App web de autoaprendizaje para la Banda B del MCER (270 horas, de B1.1 a B2.2).
 
 - **Estructura completa** de la Banda B: 4 subniveles, 54 módulos y 270 lecciones, con dominios temáticos, foco gramatical (EGP), léxico (EVP) y fonético (AFH) por módulo, y la prueba de transición *The Threshold Gate*. Ver [`docs/ESTRUCTURA_BANDA_B.md`](docs/ESTRUCTURA_BANDA_B.md).
 - **Módulos 1 y 2 completos** (B1.1): *Personal Life, Routines & Current Projects* y *Social Interactions & Making Connections*, con 5 lecciones de 1 hora y un repaso cada uno.
-- **712 audios** generados con once voces neuronales (233 del Módulo 1, 248 del Módulo 2 y 231 del Módulo 3), guardados en `audio/<subnivel>/<módulo>/` y servidos por la propia app (también sin conexión).
+- **947 audios** generados con doce voces neuronales (233 del Módulo 1, 248 del Módulo 2, 231 del Módulo 3 y 235 del Módulo 4), guardados en `audio/<subnivel>/<módulo>/` y servidos por la propia app (también sin conexión).
 
 ## Ejecutar la app
 
@@ -69,7 +69,7 @@ Cada voz está asignada a un registro y un contexto, para que el oído asocie la
 | Priya | `af_aoede` | CA | Registro neutro: nueva amiga de Sarah en el meetup (desde el Módulo 2) |
 | Oliver | `bm_fable` | UK | Registro neutro británico: organizador del meetup (desde el Módulo 2) |
 | Daniel | `bm_daniel` | UK | Registro formal: soporte técnico (TI), correos y llamadas (desde el Módulo 3) |
-| Grace | `af_nova` | US | Registro neutro: atención al cliente de una compañía de internet (desde el Módulo 4; audio aún sin generar) |
+| Grace | `af_nova` | US | Registro neutro: atención al cliente de una compañía de internet (desde el Módulo 4) |
 
 ### Regenerar los audios
 
@@ -112,8 +112,8 @@ netlify.toml                              Config de despliegue en Netlify (sin b
 assets/css, assets/js                     Interfaz (módulos ES, sin dependencias)
 content/course.json                       Estructura completa de la Banda B
 content/cast.json                         Reparto de voces
-content/b1-1/m01/, m02/, m03/            Módulos 1 a 3: module.json, lecciones, review.json
-audio/b1-1/m01/, m02/, m03/              233 + 248 + 231 MP3, cada uno con su manifest.json
+content/b1-1/m01/ … m04/                 Módulos 1 a 4: module.json, lecciones, review.json
+audio/b1-1/m01/ … m04/                   233 + 248 + 231 + 235 MP3, cada uno con su manifest.json
 tools/serve.py                            Servidor local de desarrollo
 tools/                                    Generación y validación de audio y contenido
 docs/ESTRUCTURA_BANDA_B.md                Estructura del curso (generada desde course.json)
@@ -156,10 +156,11 @@ Desde el Módulo 4, los módulos se escriben y se publican en dos fases: primero
 - La app oculta los borradores, salvo que se abra con `?borrador` (por ejemplo, `…/index.html?borrador#m04`). En ese modo, el módulo muestra la etiqueta «Borrador · audio pendiente» y los botones de audio avisan de que el audio aún no existe.
 - Para publicar un borrador: genera el audio con `generate_audio.py`, pasa `qa_audio.py`, cambia el estado a `available` y vuelve a ejecutar `check_content.py`.
 
-## Notas del Módulo 4 (problemas prácticos, l16–l20) · borrador
+## Notas del Módulo 4 (problemas prácticos, l16–l20)
 
 - **Gramática en espiral**: l16 *too / (not) enough* y *keep + -ing*; l17 First Conditional frente al Zero Conditional del Módulo 3, más *It says…*; l18 First Conditional para ofrecer y prometer, y *as soon as / when* + presente; l19 *will* (seguro) frente a *might* (posible) y *If that doesn't work…*; l20 *if / unless* con compromisos y Present Perfect + *since* (Módulo 2) para confirmar.
 - **AFH**: letras mudas (*wrong, should, receipt, half, doubt, hour*), grupos finales con -ed (*crashed, fixed, asked, replaced, switched off, plugged in, resolved, confirmed*) y acento sustantivo / verbo (*BREAKdown / break DOWN*, *REset / reSET*).
 - **Reparto**: George atiende en la tienda de electrónica (l18 y l20); Grace (`af_nova`), nueva, en la compañía de internet de Sarah (l20). El administrador del edificio de l16 (*Mr Lee*) solo aparece por escrito, para no asignar a George dos trabajos.
 - **Fonemas comprobados con misaki antes de generar el audio**: el fonemizador acentuaba *reset* en SET también como sustantivo, *broke down* en BROKE y leía *issue* en UK como /ˈɪʃjuː/. Para que el audio coincida con las alertas, se fuerzan los fonemas con `ttsUs` / `ttsUk` / `tts`.
 - **Comprobaciones nuevas** en `checks.js`: `tooMuchAdj`, `enoughBeforeAdj`, `keepTo`, `doesntS`, `explainMe`, `messageTells`, `askFor`, `returnMoney`, `mightTo`, `doubtsQuestions` y `aHour`, probadas con frases correctas e incorrectas y contra los modelos de tarea.
+- **Audio (publicado tras el borrador)**: 235 clips con Kokoro y WER medio de 0,15, igual que los módulos anteriores. PocketSphinx marcó cuatro clips (*A reset. To reset.* lento y UK; *My battery's dead…*; *…unplug the router*) que fallan igual con otras voces, así que son falsos positivos del reconocedor. El fonemizador produce bien *unplug* /ʌnˈplʌɡ/ y el contraste *REset / reSET*. No hay clips con `tone`.
