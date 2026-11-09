@@ -1,0 +1,152 @@
+{
+  "id": "review",
+  "title": "Module 3 Review",
+  "titleEs": "Repaso del Módulo 3",
+  "intro": "Doce preguntas que mezclan las cinco lecciones, con un ejercicio de acento y un dictado. Si fallas alguna, la explicación te dice a qué lección volver.",
+  "items": [
+    {
+      "type": "choice",
+      "lesson": "l11",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you tap the icon, the app ___.",
+      "options": [
+        "opens",
+        "will open",
+        "opened"
+      ],
+      "answer": 0,
+      "explain": "Zero Conditional: presente en las dos mitades. (Lección 11)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l11",
+      "prompt": "Elige la opción correcta.",
+      "text": "I use my calendar ___ my classes.",
+      "options": [
+        "for remember",
+        "to remember",
+        "remembering"
+      ],
+      "answer": 1,
+      "explain": "*Use … to* + verbo base. (Lección 11)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l12",
+      "prompt": "Elige la forma correcta.",
+      "text": "Would you mind ___ me access?",
+      "options": [
+        "to give",
+        "giving",
+        "give"
+      ],
+      "answer": 1,
+      "explain": "*Would you mind* + -ing. (Lección 12)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l12",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "No share your password.",
+      "accept": [
+        "Don't share your password.",
+        "Do not share your password."
+      ],
+      "explain": "Imperativo negativo con *Don't*. (Lección 12)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l13",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you feel distracted, ___ your phone away.",
+      "options": [
+        "you put",
+        "put",
+        "will put"
+      ],
+      "answer": 1,
+      "explain": "*If* + presente, imperativo. (Lección 13)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l13",
+      "prompt": "Elige la forma correcta.",
+      "text": "Why don't you ___ notifications for an hour?",
+      "options": [
+        "to mute",
+        "mute",
+        "muting"
+      ],
+      "answer": 1,
+      "explain": "*Why don't you* + verbo base. (Lección 13)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l13",
+      "prompt": "Corrige el error.",
+      "wrong": "Here are some advices to save time.",
+      "accept": [
+        "Here is some advice to save time."
+      ],
+      "explain": "*Advice* es incontable. (Lección 13)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l14",
+      "prompt": "Elige la palabra correcta.",
+      "text": "___ you click the link, your account is safe.",
+      "options": [
+        "Unless",
+        "If not",
+        "Only if no"
+      ],
+      "answer": 0,
+      "explain": "*Unless* = a menos que. (Lección 14)"
+    },
+    {
+      "type": "gap",
+      "lesson": "l14",
+      "prompt": "Completa la regla.",
+      "text": "___ share your verification code with anyone.",
+      "accept": [
+        "Never"
+      ],
+      "explain": "*Never* + verbo base. (Lección 14)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l15",
+      "prompt": "Elige la forma correcta.",
+      "text": "Once the download ___, open the file.",
+      "options": [
+        "will finish",
+        "finishes",
+        "finish"
+      ],
+      "answer": 1,
+      "explain": "Presente simple tras *once*, con -s. (Lección 15)"
+    },
+    {
+      "type": "stress",
+      "lesson": "l12",
+      "prompt": "¿Qué parte de *password* lleva el acento?",
+      "word": "password",
+      "syllables": [
+        "pass",
+        "word"
+      ],
+      "answer": 0,
+      "audioRef": "l12-ph-password-us",
+      "explain": "**PASS**-word: compuesto. (Lección 12)"
+    },
+    {
+      "type": "dictation",
+      "lesson": "l15",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "alex",
+      "audio": "m03-rv-dict-1",
+      "text": "First, open Settings. Then tap Security.",
+      "explain": "Dos pasos con secuenciadores. (Lección 15)"
+    }
+  ]
+}

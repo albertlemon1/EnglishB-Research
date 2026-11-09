@@ -112,6 +112,69 @@ export const CHECKS = {
     const m = text.match(/\b(knew|know)\s+(him|her|them|\w+)\s+(yesterday|last\s+\w+|at\s+(a|an|the)\s+\w+|in\s+(19|20)\d\d)\b/i);
     return m ? { msg: "«Conocer» a alguien por primera vez es *meet* (*I met Priya at the event*). *Know* es conocer a alguien desde hace tiempo.", sample: m[0], soft: true } : null;
   },
+  // --- Módulo 3 (tecnología) ---
+  // «Si pulsas, se abrirá» → *If you will tap*: no *will* tras if.
+  ifWill(text) {
+    const m = text.match(/\bif\s+(I|you|we|they|he|she|it|the\s+\w+|my\s+\w+|someone|somebody)\s+will\b/i);
+    return m ? { msg: "Tras *if* va el presente simple, no *will*: *If you tap the icon, the app opens.*", sample: m[0] } : null;
+  },
+  forToInfinitive(text) {
+    const m = text.match(/\bfor\s+to\s+[a-z]+/i);
+    return m ? { msg: "«Para + verbo» es *to* + verbo (*to send*) o *for* + -ing (*for sending*), nunca *for to*.", sample: m[0] } : null;
+  },
+  // *login* (sustantivo) frente a *log in* (verbo); igual con back up / set up / log out.
+  loginVerb(text) {
+    const m = text.match(/\b(I|you|we|they|to|please|can|could|will|don't|never|always)\s+(login|logout|backup|setup)\b/i);
+    return m ? { msg: "Como verbo se escribe en dos palabras: *log in*, *log out*, *back up*, *set up*. En una palabra son sustantivos (*my login*, *a backup*).", sample: m[0] } : null;
+  },
+  couldTo(text) {
+    const m = text.match(/\b(could|can|would|will|should)\s+(you\s+|I\s+|we\s+)?to\s+[a-z]+/i);
+    return m ? { msg: "Tras *could / can / would* va el verbo base, sin *to*: *Could you give me access?*", sample: m[0] } : null;
+  },
+  mindTo(text) {
+    const m = text.match(/\bmind\s+to\s+[a-z]+/i);
+    return m ? { msg: "*Would you mind* se combina con -ing: *Would you mind sending the request?*", sample: m[0] } : null;
+  },
+  noImperative(text) {
+    const m = text.match(/(^|[.!?]\s+|\n)no\s+(share|click|open|use|send|give|tell|forget|close|delete|download|install)\b/i);
+    return m ? { msg: "La prohibición se forma con *Don't* + verbo base: *Don't share your password.*", sample: m[0].trim() } : null;
+  },
+  whyDontTo(text) {
+    const m = text.match(/\bwhy\s+(don't|do not)\s+(you|we|I)\s+to\s+[a-z]+/i);
+    return m ? { msg: "Tras *Why don't you* va el verbo base, sin *to*: *Why don't you mute them?*", sample: m[0] } : null;
+  },
+  uncountable(text) {
+    const m = text.match(/\b(advices|informations|softwares|feedbacks|stuffs|knowledges|furnitures)\b/i);
+    return m ? { msg: "Estas palabras son incontables y no llevan -s: *advice, information, software, feedback*.", sample: m[0] } : null;
+  },
+  makeDoList(text) {
+    const m = text.match(/\b(do|did|doing)\s+(a|my|the|your)\s+(to-do\s+)?list\b/i);
+    return m ? { msg: "«Hacer una lista» es *make a list*, no *do a list*.", sample: m[0] } : null;
+  },
+  unlessNot(text) {
+    const m = text.match(/\bunless\s+(you|I|we|they|he|she|it|\w+)\s+(don't|doesn't|didn't|do not|does not|won't|can't)\b/i);
+    return m ? { msg: "*Unless* ya significa «si no»: no añadas otro negativo. *Unless you click the link, you're safe.*", sample: m[0] } : null;
+  },
+  doubleNegative(text) {
+    const m = text.match(/\b(don't|do not|never)\s+(never|nobody|nothing|no one|nowhere)\b/i);
+    return m ? { msg: "En inglés estándar basta un solo negativo: *Never share…* o *Don't ever share…*", sample: m[0] } : null;
+  },
+  onceWill(text) {
+    const m = text.match(/\b(once|as soon as)\s+[^.!?,]{0,40}\bwill\b/i);
+    return m ? { msg: "Tras *once / as soon as* va el presente simple, no *will*: *Once the menu opens, select…*", sample: m[0] } : null;
+  },
+  atTheEnd(text) {
+    const m = text.match(/\bat the end\s*,|\bat first\s*,/i);
+    return m ? { msg: "Para el último paso usa *Finally* y para el primero *First*. *At the end* y *At first* tienen otro sentido.", sample: m[0], soft: true } : null;
+  },
+  afterOf(text) {
+    const m = text.match(/\bafter of\b/i);
+    return m ? { msg: "«Después de eso» es *after that*; *after* no lleva *of*.", sample: m[0] } : null;
+  },
+  enterApp(text) {
+    const m = text.match(/\benter\s+(in|into|to)\b|\benter\s+(the|your|my)\s+(app|settings|menu|website|site|account)\b/i);
+    return m ? { msg: "«Entrar en una app» es *open the app* o *go to*. *Enter* se usa para introducir datos (*enter the code*).", sample: m[0], soft: true } : null;
+  },
 };
 
 export function runChecks(text, ids = []) {

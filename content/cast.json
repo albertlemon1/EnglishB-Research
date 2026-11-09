@@ -90,6 +90,15 @@
       "voice": "bm_fable",
       "lang": "en-gb",
       "bio": "Británico, organiza el meetup Global Connect y trabaja en la misma empresa que Ryan. Inglés británico en registro neutro, no solo formal (Módulo 2)."
+    },
+    "daniel": {
+      "name": "Daniel",
+      "role": "Soporte técnico (TI)",
+      "register": "formal",
+      "accent": "UK",
+      "voice": "bm_daniel",
+      "lang": "en-gb",
+      "bio": "Atiende al personal por correo y por teléfono. Registro formal británico, amable y claro."
     }
   }
 }

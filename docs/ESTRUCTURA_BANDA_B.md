@@ -53,7 +53,7 @@ Cada lección sigue la misma matriz de seis bloques: Input léxico (tres registr
 9. Expanding Your Circle & Making New Friends / Contacts
 10. Casual Conversations, Small Talk & Coffee Breaks
 
-### M03 · Everyday Technology & Digital Life
+### M03 · Everyday Technology & Digital Life — ✅ contenido y audios disponibles
 
 *Tech & Digital Transformation* · Gramática: Zero Conditional; imperativos y secuenciadores · AFH: Acento en sustantivos compuestos (PASSword); grupos sp- / st- / sk-
 

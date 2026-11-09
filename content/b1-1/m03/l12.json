@@ -1,0 +1,786 @@
+{
+  "id": "l12",
+  "n": 12,
+  "title": "Requesting Help, Access & Online Account Permissions",
+  "titleEs": "Pedir ayuda, acceso y permisos de cuentas en línea",
+  "minutes": 60,
+  "summary": "Pide ayuda, acceso y permisos con imperativos y peticiones corteses.",
+  "canDo": [
+    "Puedo pedir acceso a un archivo o una cuenta con *Could you…?* y *Would you mind…?*",
+    "Puedo dar y entender instrucciones cortas con imperativos (*Click*, *Don't forget*, *Please wait*).",
+    "Puedo explicar qué pasa sin permiso con el Zero Conditional (*If you don't have access, you can't open it*).",
+    "Puedo pronunciar *password* y *permission* con el acento en la sílaba correcta."
+  ],
+  "focus": {
+    "grammar": "Imperativos afirmativos y negativos · Could you / Can I / Would you mind + -ing · Zero Conditional para reglas de acceso",
+    "lexis": "grant access, request access, permission, password, username, locked out, reset, view-only, Don't forget to…",
+    "afh": "Acento en sustantivos compuestos (PASS-word, USER-name) · acento en permission · linking y -ed en locked out"
+  },
+  "warmup": "Recuerda la última vez que no pudiste entrar a una carpeta, una cuenta o una reunión en línea. ¿Qué le dijiste a la persona que podía ayudarte?",
+  "lexical": {
+    "scenario": {
+      "format": "text",
+      "title": "Un correo al soporte técnico",
+      "context": "Priya no puede abrir la carpeta compartida de su proyecto y escribe al equipo de soporte técnico.",
+      "speaker": "priya",
+      "to": "Daniel, soporte técnico",
+      "audio": "l12-scn",
+      "text": "Hi Daniel, I'm Priya from the design team. {{I'm locked out}} of the shared project folder, and I need to upload some files today. {{Could you give me access}}, please? I use my work email to log in. {{If I don't have}} permission, I can't open the folder, so {{I'd really appreciate}} your help. {{Please let me know}} if you need anything else. Thanks, Priya"
+    },
+    "dialogue": {
+      "title": "Una llamada al soporte técnico",
+      "context": "Priya llama a Daniel para resolver el problema.",
+      "lines": [
+        {
+          "speaker": "daniel",
+          "audio": "l12-dlg-01",
+          "text": "IT Support, Daniel speaking. {{How can I help}}?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l12-dlg-02",
+          "text": "Hi Daniel. I can't open the project folder. {{Could you check}} my permissions, please?"
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l12-dlg-03",
+          "text": "Of course. {{Can you tell me}} your username?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l12-dlg-04",
+          "text": "It's priya dot s. Should I send you a screenshot?"
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l12-dlg-05",
+          "text": "No, that's fine. {{Please wait}} a moment. Right, you have view-only access. {{If you want}} to edit files, you need approval from your manager."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l12-dlg-06",
+          "text": "I see. {{Would you mind sending}} the request to her? I'm in a bit of a hurry."
+        },
+        {
+          "speaker": "daniel",
+          "audio": "l12-dlg-07",
+          "text": "Not at all. {{Don't close}} the chat. I'll send it now, and you'll get an email as soon as she approves it."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l12-dlg-08",
+          "text": "Perfect, thank you so much. {{Don't forget}} to copy me on the email!"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué problema tiene Priya?",
+        "options": [
+          "Ha olvidado su contraseña",
+          "No puede abrir la carpeta del proyecto",
+          "Ha perdido el móvil"
+        ],
+        "answer": 1,
+        "explain": "*I can't open the project folder.*"
+      },
+      {
+        "q": "¿Qué tipo de acceso tiene Priya ahora?",
+        "options": [
+          "Solo lectura",
+          "Puede editar",
+          "Ninguno"
+        ],
+        "answer": 0,
+        "explain": "*You have view-only access* = solo puedes ver, no editar."
+      },
+      {
+        "q": "¿Qué necesita Daniel para darle permiso de edición?",
+        "options": [
+          "Una captura de pantalla",
+          "La aprobación de su responsable",
+          "Otro correo electrónico de Priya"
+        ],
+        "answer": 1,
+        "explain": "*You need approval from your manager.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos y compañeros de confianza, chats.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l12-reg-c1",
+            "text": "Hey, can you add me to the folder? I can't get in.",
+            "note": "*Add me to* = añádeme a. *Can't get in* = no puedo entrar."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l12-reg-c2",
+            "text": "Ugh, I'm locked out again. Can you send me the invite?",
+            "note": "*Locked out* = sin poder entrar a tu cuenta o sitio. *Invite* = invitación."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Peticiones a compañeros, soporte técnico, clases.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l12-reg-n1",
+            "text": "Could you give me access to the folder, please?",
+            "note": "*Could you* + verbo base + *please*: la petición estándar."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l12-reg-n2",
+            "text": "Can I get edit access to the document?",
+            "note": "*Can I get…?* es directo pero cortés."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l12-reg-n3",
+            "text": "Please send me the invitation to the shared calendar.",
+            "note": "Imperativo + *please*: aceptable cuando hay confianza."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Correos a administradores, clientes e instituciones.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l12-reg-f1",
+            "text": "I would be grateful if you could grant me access to the shared drive.",
+            "note": "*Grant access* = conceder acceso. *I would be grateful if you could* + verbo base."
+          },
+          {
+            "speaker": "george",
+            "audio": "l12-reg-f2",
+            "text": "Would you mind approving my access request at your earliest convenience?",
+            "note": "*Would you mind* + -ing. *At your earliest convenience* = en cuanto le sea posible."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "Could you give me access to…?",
+        "es": "¿podrías darme acceso a…?",
+        "register": "neutral"
+      },
+      {
+        "en": "Can you add me to…?",
+        "es": "¿puedes añadirme a…?",
+        "register": "casual"
+      },
+      {
+        "en": "I'm locked out of (my account)",
+        "es": "no puedo entrar a (mi cuenta)",
+        "register": "neutral"
+      },
+      {
+        "en": "reset my password",
+        "es": "restablecer mi contraseña",
+        "register": "neutral"
+      },
+      {
+        "en": "Don't forget to…",
+        "es": "no olvides…",
+        "register": "neutral"
+      },
+      {
+        "en": "view-only / edit access",
+        "es": "acceso de solo lectura / de edición",
+        "register": "neutral"
+      },
+      {
+        "en": "Would you mind + -ing?",
+        "es": "¿te importaría…?",
+        "register": "formal"
+      },
+      {
+        "en": "grant access",
+        "es": "conceder acceso",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Hey, can you add me to the folder?",
+        "answer": "casual",
+        "explain": "Directo y coloquial, entre compañeros de confianza."
+      },
+      {
+        "text": "Could you give me access to the folder, please?",
+        "answer": "neutral",
+        "explain": "La petición cortés estándar."
+      },
+      {
+        "text": "I would be grateful if you could grant me access.",
+        "answer": "formal",
+        "explain": "*Grant* y *I would be grateful if you could* son propios de un correo formal."
+      },
+      {
+        "text": "Ugh, I'm locked out again!",
+        "answer": "casual",
+        "explain": "La interjección *Ugh* delata el registro coloquial."
+      },
+      {
+        "text": "Would you mind approving my request at your earliest convenience?",
+        "answer": "formal",
+        "explain": "*At your earliest convenience* es una fórmula formal."
+      },
+      {
+        "text": "Please send me the invitation.",
+        "answer": "neutral",
+        "explain": "Sencillo y educado, sirve en el trabajo diario."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Daniel le explica a Priya cómo compartir un archivo. Fíjate en cómo empiezan sus frases: ¿tienen sujeto?",
+    "speaker": "ryan",
+    "audio": "l12-gd",
+    "text": "{{Open}} the file, {{click}} Share and {{type}} your colleague's email. {{Don't forget}} to choose Can edit. {{Please wait}} for the confirmation.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿A quién se dirigen estas instrucciones y quién hace cada acción?",
+        "options": [
+          "A la persona que escucha o lee: ella hace las acciones.",
+          "A un tercero que no está presente.",
+          "A nadie: cuentan lo que pasó ayer."
+        ],
+        "answer": 0,
+        "explain": "El imperativo se dirige a quien escucha (*you*) y le pide que haga algo."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Cómo se forma el imperativo afirmativo y el negativo?",
+        "options": [
+          "Verbo base sin sujeto; negativo con *Don't* + verbo base.",
+          "*You* + verbo con -s; negativo con *not*.",
+          "Verbo en -ing; negativo con *no*."
+        ],
+        "answer": 0,
+        "explain": "*Open*, *click*, *type* son verbos base sin sujeto. En negativo: *Don't forget*."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Necesitas que el administrador te dé acceso. ¿Qué frase es más adecuada?",
+        "options": [
+          "Give me access.",
+          "Could you give me access, please?",
+          "You must give me access."
+        ],
+        "answer": 1,
+        "explain": "El imperativo seco suena a orden. Para pedir un favor, usa una pregunta cortés con *Could you…?* y *please*."
+      }
+    ],
+    "rule": {
+      "points": [
+        "Imperativo afirmativo = verbo base, sin sujeto: *Open the file.*",
+        "Imperativo negativo = *Don't* + verbo base: *Don't share your password.*",
+        "*Please* suaviza una instrucción. Para pedir un favor, mejor una pregunta: *Could you…?* / *Can I…?* / *Would you mind + -ing?*",
+        "Una orden seca (*Give me access.*) suena brusca cuando eres tú quien pide."
+      ],
+      "formulas": [
+        "Verbo base + complemento (+ please)",
+        "Don't + verbo base",
+        "Could you + verbo base, please?"
+      ],
+      "note": "En español el imperativo cambia de forma según la persona (abre, abra); en inglés es siempre el verbo base. Tras *could / can / would* también va verbo base, nunca *to*."
+    }
+  },
+  "phonetics": {
+    "intro": "Aquí aparecen dos patrones: los compuestos (*PASS-word*, *USER-name*) llevan el acento en la primera parte, y palabras parecidas al español (*access*, *permission*) cambian de sílaba tónica.",
+    "items": [
+      {
+        "id": "password",
+        "term": "Password",
+        "pos": "n.",
+        "meaning": "contraseña",
+        "ipa": {
+          "us": "/ˈpæs.wɝd/",
+          "uk": "/ˈpɑːs.wɜːd/"
+        },
+        "afh": "PÁS-uerd",
+        "say": "Password.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Sustantivo compuesto: el acento va en PASS, no en WORD. «Pas-UÓRD» suena a verbo."
+          },
+          {
+            "type": "consonant",
+            "text": "La w es /w/, un sonido de u rápida: «uerd». No digas «guord»."
+          },
+          {
+            "type": "vowel",
+            "text": "En EE. UU. la a es /æ/, abierta; en Reino Unido es /ɑː/, como una a larga."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "Never share your password with anyone."
+        }
+      },
+      {
+        "id": "username",
+        "term": "Username",
+        "pos": "n.",
+        "meaning": "nombre de usuario",
+        "ipa": {
+          "us": "/ˈjuː.zɚ.neɪm/",
+          "uk": "/ˈjuː.zə.neɪm/"
+        },
+        "afh": "IÚ-ser-neim",
+        "say": "Username.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La u inicial suena /juː/, «iu». No la leas como «yu» con rozamiento ni como jota."
+          },
+          {
+            "type": "consonant",
+            "text": "La s de *user* es /z/ sonora: «iúzer», con zumbido."
+          },
+          {
+            "type": "stress",
+            "text": "Compuesto: el acento va en USER."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "Enter your username and your password."
+        }
+      },
+      {
+        "id": "access",
+        "term": "Access",
+        "pos": "n.",
+        "meaning": "acceso",
+        "ipa": {
+          "us": "/ˈæk.ses/",
+          "uk": "/ˈæk.ses/"
+        },
+        "afh": "ÁK-ses",
+        "say": "Access.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "El acento va en la primera sílaba, AC. En español «acceso» lo lleva en CE."
+          },
+          {
+            "type": "vowel",
+            "text": "La a inicial es /æ/, abierta: no es la a española."
+          },
+          {
+            "type": "consonant",
+            "text": "*cc* suena /ks/: «ak-ses», no «ak-the» ni «ak-se»."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "I need access to the shared drive."
+        }
+      },
+      {
+        "id": "permission",
+        "term": "Permission",
+        "pos": "n.",
+        "meaning": "permiso",
+        "ipa": {
+          "us": "/pɚˈmɪʃ.ən/",
+          "uk": "/pəˈmɪʃ.ən/"
+        },
+        "afh": "per-MÍ-shen",
+        "say": "Permission.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "El acento va en MI, la 2.ª sílaba. «Permiso» lo lleva en MI también, pero la palabra inglesa es más larga."
+          },
+          {
+            "type": "consonant",
+            "text": "*-ssion* se pronuncia /ʃən/, «shen»: no «sion» ni «cion»."
+          },
+          {
+            "type": "vowel",
+            "text": "La i de MI es corta /ɪ/, no la «i» española larga."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "You need permission to edit this file."
+        }
+      },
+      {
+        "id": "locked-out",
+        "term": "Locked out",
+        "pos": "adj.",
+        "meaning": "sin poder entrar",
+        "ipa": {
+          "us": "/ˌlɑkt ˈaʊt/",
+          "uk": "/ˌlɒkt ˈaʊt/"
+        },
+        "afh": "lokt-AUT",
+        "say": "Locked out.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "*Locked* acaba en /t/, una sola sílaba: «lokt». No digas «lok-ed»."
+          },
+          {
+            "type": "linking",
+            "text": "La /t/ final se une a la vocal de *out*: «lok-taut»."
+          },
+          {
+            "type": "stress",
+            "text": "La fuerza va en OUT."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "I'm locked out of my account again."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Dar instrucciones: el imperativo",
+        "formula": "Verbo base + complemento (+ please) · Don't + verbo base",
+        "usage": "Para decir a alguien qué hacer paso a paso. Se usa sin sujeto; *please* lo hace más amable.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l12-cc-1a",
+            "text": "{{Open}} the file and {{click}} Share."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l12-cc-1b",
+            "text": "{{Don't close}} the chat window."
+          }
+        ]
+      },
+      {
+        "title": "Pedir un favor: Could you / Can I / Would you mind",
+        "formula": "Could you + verbo base…? · Can I + verbo base…? · Would you mind + verbo -ing…?",
+        "usage": "Para pedir ayuda o permisos con cortesía. *Would you mind* es la más formal y lleva -ing.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l12-cc-2a",
+            "text": "{{Could you give}} me access, please?"
+          },
+          {
+            "speaker": "george",
+            "audio": "l12-cc-2b",
+            "text": "{{Would you mind sending}} the request?"
+          }
+        ]
+      },
+      {
+        "title": "Reglas de acceso: Zero Conditional con can / can't",
+        "formula": "If + sujeto + presente, sujeto + can / can't + verbo base",
+        "usage": "Para explicar qué se puede o no se puede hacer según el permiso.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l12-cc-3a",
+            "text": "{{If you don't have}} permission, you {{can't open}} the file."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l12-cc-3b",
+            "text": "{{If you forget}} your password, you {{can reset}} it online."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "To tras could / can / would",
+        "text": "En español «¿puedes dar?» lleva infinitivo. En inglés, tras un modal va el verbo base, sin *to*.",
+        "wrong": "Could you to give me access?",
+        "right": "Could you give me access?"
+      },
+      {
+        "title": "Would you mind + -ing",
+        "text": "*Mind* se combina con -ing: «¿te importaría enviar…?» se dice *Would you mind sending…?*",
+        "wrong": "Would you mind to send the request?",
+        "right": "Would you mind sending the request?"
+      },
+      {
+        "title": "El imperativo negativo",
+        "text": "«No compartas» no es *No share*. Se forma con *Don't* + verbo base.",
+        "wrong": "No share your password.",
+        "right": "Don't share your password."
+      },
+      {
+        "title": "Una orden seca en una petición",
+        "text": "Si pides acceso con un imperativo desnudo, suenas a jefe. Conviértelo en pregunta y añade *please*.",
+        "wrong": "Give me access.",
+        "right": "Could you give me access, please?"
+      },
+      {
+        "title": "Acento en password y permission",
+        "text": "En compuestos como *password* el acento va en la primera parte. En *permission*, el acento está en MI, no en PER.",
+        "wrong": "«pas-UÓRD», «PER-mi-shon»",
+        "right": "PÁS-uerd, per-MÍ-shen"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Could you ___ me access, please?",
+      "options": [
+        "to give",
+        "give",
+        "giving"
+      ],
+      "answer": 1,
+      "explain": "Tras *could* va verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Would you mind ___ my request?",
+      "options": [
+        "to approve",
+        "approving",
+        "approve"
+      ],
+      "answer": 1,
+      "explain": "*Would you mind* + -ing."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you ___ permission, you can't open the file.",
+      "options": [
+        "don't have",
+        "won't have",
+        "didn't have"
+      ],
+      "answer": 0,
+      "explain": "Zero Conditional: presente tras *if*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la instrucción.",
+      "text": "___ forget to choose Can edit.",
+      "accept": [
+        "Don't",
+        "Do not"
+      ],
+      "explain": "Imperativo negativo: *Don't* + verbo base."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la instrucción.",
+      "text": "Please ___ for the confirmation email.",
+      "accept": [
+        "wait"
+      ],
+      "explain": "Imperativo: verbo base."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Could",
+        "you",
+        "give",
+        "me",
+        "access",
+        "to",
+        "the",
+        "folder",
+        "please"
+      ],
+      "answer": "Could you give me access to the folder please",
+      "explain": "Petición cortés estándar."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Don't",
+        "share",
+        "your",
+        "password",
+        "with",
+        "anyone"
+      ],
+      "answer": "Don't share your password with anyone",
+      "explain": "*Don't* + verbo base."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "No share your password.",
+      "accept": [
+        "Don't share your password.",
+        "Do not share your password."
+      ],
+      "explain": "Imperativo negativo con *Don't*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Could you to give me access?",
+      "accept": [
+        "Could you give me access?",
+        "Could you give me access, please?"
+      ],
+      "explain": "Sin *to* tras *could*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Would you mind to send the request?",
+      "accept": [
+        "Would you mind sending the request?"
+      ],
+      "explain": "*Mind* + -ing."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué parte de *password* lleva el acento?",
+      "word": "password",
+      "syllables": [
+        "pass",
+        "word"
+      ],
+      "answer": 0,
+      "audioRef": "l12-ph-password-us",
+      "explain": "**PASS**-word: compuesto, acento en la primera parte."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *permission* lleva el acento?",
+      "word": "permission",
+      "syllables": [
+        "per",
+        "mis",
+        "sion"
+      ],
+      "answer": 1,
+      "audioRef": "l12-ph-permission-us",
+      "explain": "per-**MIS**-sion: acento en la 2.ª sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "priya",
+      "audio": "l12-dict-1",
+      "text": "Could you give me access to the shared folder, please?",
+      "explain": "Petición cortés: *Could you* + verbo base + *please*."
+    }
+  ],
+  "task": {
+    "title": "Un correo para pedir acceso",
+    "format": "email",
+    "scenario": "Necesitas acceso a una carpeta compartida para entregar un trabajo, pero el sistema te dice que no tienes permiso. Escribe un correo a la persona de soporte técnico.",
+    "brief": "Write an email to the IT administrator asking for access to a shared folder.",
+    "steps": [
+      "Saluda, di quién eres y por qué escribes (*I'm … from …*).",
+      "Explica el problema (*I'm locked out of…*) y qué pasa sin permiso (*If I don't have…, I can't…*).",
+      "Pide el acceso con cortesía (*Could you…?* o *Would you mind…?*).",
+      "Da un dato útil (*My username is…*), pide que te avisen (*Please let me know…*) y despídete."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi ___, I'm ___ from ___. I'm locked out of ___.",
+      "If I don't have ___, I can't ___.",
+      "Could you ___, please? / Would you mind ___ing ___?",
+      "My username is ___. Please let me know if ___.",
+      "Thanks for your help. Best, ___"
+    ],
+    "chunks": [
+      {
+        "label": "Could you / Would you mind",
+        "re": "\\b(could you|would you mind|can you|can i)\\b"
+      },
+      {
+        "label": "locked out / can't open",
+        "re": "\\b(locked out|can't (open|access|log in|get in)|cannot (open|access))\\b"
+      },
+      {
+        "label": "Zero Conditional",
+        "re": "\\bif\\b[^.!?,]{3,50},\\s*\\w+"
+      },
+      {
+        "label": "please",
+        "re": "\\bplease\\b"
+      },
+      {
+        "label": "Please let me know / Don't forget",
+        "re": "\\b(please let me know|don't forget)\\b"
+      },
+      {
+        "label": "access / permission",
+        "re": "\\b(access|permission|password|username)\\b"
+      }
+    ],
+    "checks": [
+      "couldTo",
+      "mindTo",
+      "noImperative",
+      "ifWill",
+      "loginVerb",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: la versión formal",
+      "brief": "Write the request again as a formal email to a stranger.",
+      "frames": [
+        "I would be grateful if you could grant me access to ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "sarah",
+          "audio": "l12-task-model",
+          "text": "Hi Daniel, I'm Sarah from the bookstore team. {{I'm locked out}} of the shared schedule, and I need to update it today. {{If I don't have}} edit permission, I can't change anything. {{Could you give me}} edit access, please? I use my work email to log in. {{Please let me know}} if you need my manager's approval. Thanks for your help! Best, Sarah",
+          "label": "Correo al soporte técnico (neutro)",
+          "notes": [
+            "*I'm locked out of…* explica el problema. *If I don't have…, I can't…* es un Zero Conditional.",
+            "*Could you give me…, please?*: petición cortés. *Please let me know* es un imperativo suavizado."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l12-task-formal",
+          "text": "Dear Mr Hughes, {{I would be grateful if you could grant me}} access to the shared drive. {{Would you mind confirming}} when the permission is active? {{Thank you in advance for your assistance}}. Yours sincerely, Emma Clarke",
+          "tts": "Dear Mister Hughes, I would be grateful if you could grant me access to the shared drive. Would you mind confirming when the permission is active? Thank you in advance for your assistance. Yours sincerely, Emma Clarke",
+          "label": "Correo formal",
+          "notes": [
+            "*Grant me access* y *Would you mind confirming* elevan el registro.",
+            "*Yours sincerely* cierra una carta formal cuando conoces el nombre."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste verbo base tras *could / can / would* (sin *to*)?",
+      "¿Usaste -ing tras *Would you mind*?",
+      "¿Escribiste *Don't* (y no *No*) en las prohibiciones?",
+      "¿Tu petición es una pregunta cortés con *please*, no una orden seca?",
+      "¿Escribiste *log in* (verbo) y no *login*?"
+    ]
+  }
+}

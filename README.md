@@ -4,7 +4,7 @@ App web de autoaprendizaje para la Banda B del MCER (270 horas, de B1.1 a B2.2).
 
 - **Estructura completa** de la Banda B: 4 subniveles, 54 módulos y 270 lecciones, con dominios temáticos, foco gramatical (EGP), léxico (EVP) y fonético (AFH) por módulo, y la prueba de transición *The Threshold Gate*. Ver [`docs/ESTRUCTURA_BANDA_B.md`](docs/ESTRUCTURA_BANDA_B.md).
 - **Módulos 1 y 2 completos** (B1.1): *Personal Life, Routines & Current Projects* y *Social Interactions & Making Connections*, con 5 lecciones de 1 hora y un repaso cada uno.
-- **481 audios** generados con diez voces neuronales (233 del Módulo 1 y 248 del Módulo 2), guardados en `audio/<subnivel>/<módulo>/` y servidos por la propia app (también sin conexión).
+- **712 audios** generados con once voces neuronales (233 del Módulo 1, 248 del Módulo 2 y 231 del Módulo 3), guardados en `audio/<subnivel>/<módulo>/` y servidos por la propia app (también sin conexión).
 
 ## Ejecutar la app
 
@@ -68,6 +68,7 @@ Cada voz está asignada a un registro y un contexto, para que el oído asocie la
 | George | `bm_george` | UK | Registro formal: atención al cliente, institucional |
 | Priya | `af_aoede` | CA | Registro neutro: nueva amiga de Sarah en el meetup (desde el Módulo 2) |
 | Oliver | `bm_fable` | UK | Registro neutro británico: organizador del meetup (desde el Módulo 2) |
+| Daniel | `bm_daniel` | UK | Registro formal: soporte técnico (TI), correos y llamadas (desde el Módulo 3) |
 
 ### Regenerar los audios
 
@@ -110,8 +111,8 @@ netlify.toml                              Config de despliegue en Netlify (sin b
 assets/css, assets/js                     Interfaz (módulos ES, sin dependencias)
 content/course.json                       Estructura completa de la Banda B
 content/cast.json                         Reparto de voces
-content/b1-1/m01/, m02/                   Módulos 1 y 2: module.json, lecciones, review.json
-audio/b1-1/m01/, m02/                     233 + 248 MP3, cada uno con su manifest.json
+content/b1-1/m01/, m02/, m03/            Módulos 1 a 3: module.json, lecciones, review.json
+audio/b1-1/m01/, m02/, m03/              233 + 248 + 231 MP3, cada uno con su manifest.json
 tools/serve.py                            Servidor local de desarrollo
 tools/                                    Generación y validación de audio y contenido
 docs/ESTRUCTURA_BANDA_B.md                Estructura del curso (generada desde course.json)
@@ -133,3 +134,14 @@ Al convertir la ficha del módulo en lecciones interactivas se corrigieron estos
 - **Elipsis del sujeto** (*Slowly getting into the groove*, *Ran into a small hiccup*): se explica como rasgo de registro muy informal, para no contradecir la regla de sujeto obligatorio.
 - **Already + Past Simple**: se aclara que en inglés americano informal también se oye *I already booked it*.
 - **AFH**: respelling coherente con la ortografía española (*gue* para /ɡe/, *dy* para /dʒ/, *dh* para /ð/) y leyenda dentro de la app.
+
+## Notas del Módulo 3 (tecnología cotidiana, l11–l15)
+
+La ficha del Módulo 3 solo aporta los títulos de las lecciones, la gramática (Zero Conditional, imperativos y secuenciadores) y el AFH (acento en sustantivos compuestos y grupos sp- / st- / sk-); el resto se diseñó a partir de la matriz atómica. Decisiones:
+
+- **Reparto de la gramática**: l11 Zero Conditional (*if / when* + presente) y *use … to*; l12 imperativos, *Could you / Would you mind + -ing* y reglas de acceso; l13 *if* + presente + imperativo, *Why don't you…?* y *Try + -ing*; l14 *Never / Always / Don't* y *unless*; l15 secuenciadores y *Once* + presente. Todas las lecciones repiten el Zero Conditional con un propósito distinto, en espiral.
+- **Voz nueva**: Daniel (`bm_daniel`, soporte técnico, formal UK), para el registro formal de atención al cliente.
+- **Sin question tags**: este módulo no usa clips con `tone`, así que no pasa por `intonation.py`. Los ejercicios de acento usan `audioRef` hacia los audios de fonética.
+- **Comprobaciones nuevas** en `checks.js`: `ifWill`, `forToInfinitive`, `loginVerb`, `couldTo`, `mindTo`, `noImperative`, `whyDontTo`, `uncountable`, `makeDoList`, `unlessNot`, `doubleNegative`, `onceWill`, `atTheEnd`, `afterOf` y `enterApp`. Se probaron con frases correctas e incorrectas.
+- **Revisión del audio**: PocketSphinx marcó cuatro clips. Dos eran de Leo (`am_puck`, la voz con peor WER del curso): *Got it! Do I type it here?* se cambió por *Okay, got it! Do I type the code here?* y *Don't forget to tap Save* por *…press Save*. Los otros dos (*Easy peasy…* y *Finally, confirm the code…* en voz UK) dieron el mismo error con otras voces: falsos positivos del reconocedor.
+- **Fonemas**: se comprobó con el fonemizador que los clips dicen lo que afirma el IPA (*sync* /sɪŋk/, *once* /wʌns/, la t suelta de *notification* y *settings* en EE. UU., *privacy* con /ɪ/ en UK). En *Turn off* se fuerza el acento principal en *off* para que el audio coincida con la alerta.

@@ -1,0 +1,795 @@
+{
+  "id": "l13",
+  "n": 13,
+  "title": "Sharing Useful Productivity Hacks & Digital Habits",
+  "titleEs": "Compartir trucos de productividad y hábitos digitales",
+  "minutes": 60,
+  "summary": "Recomienda trucos con *If* + presente + imperativo, *Why don't you…?* y *Try + -ing*.",
+  "canDo": [
+    "Puedo dar un consejo con *If / When* + presente + imperativo.",
+    "Puedo sugerir un truco con *Why don't you…?*, *You could…* y *Try + -ing*.",
+    "Puedo explicar el efecto de un hábito con el Zero Conditional.",
+    "Puedo pronunciar *shortcut*, *desktop*, *skip* y *scroll* sin /e/ inicial."
+  ],
+  "focus": {
+    "grammar": "If / When + presente + imperativo · Why don't you + verbo base · Try + -ing · sustantivos incontables (advice, information)",
+    "lexis": "shortcut, to-do list, mute, skip, scroll, right away, save time, game changer, make a list",
+    "afh": "Acento en compuestos (SHORT-cut, DESK-top) · grupos sk- (skip, scroll) sin /e/ · linking en turn off"
+  },
+  "warmup": "¿Qué truco digital te ahorra más tiempo cada día: un atajo de teclado, una lista, silenciar el móvil? Intenta recomendarlo en una frase con *If you…*",
+  "lexical": {
+    "scenario": {
+      "format": "text",
+      "title": "Hora de trucos en el chat del grupo",
+      "context": "Leo comparte sus trucos de productividad con sus compañeros de clase en el chat del grupo.",
+      "speaker": "leo",
+      "to": "el chat del grupo",
+      "audio": "l13-scn",
+      "text": "Okay, productivity hack time! {{If you feel}} distracted, {{put}} your phone in another room. {{Mute}} group chats while you work. You can read them later. {{Use}} keyboard shortcuts, too: they save me, like, an hour a day. And {{don't}} check email first thing in the morning. {{Try doing}} your hardest task first. Trust me, it works!"
+    },
+    "dialogue": {
+      "title": "Cómo mantenerse organizado",
+      "context": "Sarah le pregunta a Alex cómo consigue terminar siempre antes de la hora.",
+      "lines": [
+        {
+          "speaker": "sarah",
+          "audio": "l13-dlg-01",
+          "text": "Alex, how do you stay so organized? You always finish early."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l13-dlg-02",
+          "text": "Honestly, {{I make}} a to-do list every night. {{If I write}} everything down, I sleep better."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l13-dlg-03",
+          "text": "I tried that, but my list gets too long. What do you do then?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l13-dlg-04",
+          "text": "{{Pick}} only three tasks for the day. {{When a task takes}} less than two minutes, {{do}} it right away."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l13-dlg-05",
+          "text": "Nice. What about distractions? My notifications drive me crazy."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l13-dlg-06",
+          "text": "{{Why don't you mute}} them for an hour? {{If you turn on}} focus mode, nothing interrupts you."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l13-dlg-07",
+          "text": "And what about all those open tabs on my laptop?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l13-dlg-08",
+          "text": "{{Try closing}} everything you don't need. {{If you can't close}} a tab, bookmark it for later."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué hace Alex cada noche?",
+        "options": [
+          "Hace una lista de tareas",
+          "Apaga el móvil",
+          "Borra sus aplicaciones"
+        ],
+        "answer": 0,
+        "explain": "*I make a to-do list every night.*"
+      },
+      {
+        "q": "¿Qué hace Alex con una tarea que tarda menos de dos minutos?",
+        "options": [
+          "La deja para mañana",
+          "La hace enseguida",
+          "La delega"
+        ],
+        "answer": 1,
+        "explain": "*When a task takes less than two minutes, do it right away.*"
+      },
+      {
+        "q": "¿Qué le sugiere a Sarah para las notificaciones?",
+        "options": [
+          "Silenciarlas durante una hora",
+          "Borrar la aplicación",
+          "Responder a todas enseguida"
+        ],
+        "answer": 0,
+        "explain": "*Why don't you mute them for an hour?*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats de grupo, redes sociales.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l13-reg-c1",
+            "text": "Seriously, mute your group chats. Total game changer.",
+            "note": "*Game changer* = algo que lo cambia todo."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l13-reg-c2",
+            "text": "I'm obsessed with keyboard shortcuts. They save me so much time!",
+            "note": "*Be obsessed with* = estar obsesionado con. *Save time* = ahorrar tiempo."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Consejos entre compañeros, clases, reuniones.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l13-reg-n1",
+            "text": "If you write everything down, you sleep better.",
+            "note": "Zero Conditional: presente + presente."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l13-reg-n2",
+            "text": "Try closing the tabs you don't need.",
+            "note": "*Try + -ing* = probar a hacer algo."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l13-reg-n3",
+            "text": "Why don't you turn on focus mode?",
+            "note": "*Why don't you* + verbo base: sugerencia amistosa."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Boletines, informes, recomendaciones en el trabajo.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l13-reg-f1",
+            "text": "I would recommend scheduling specific times to check your email.",
+            "note": "*I would recommend* + -ing."
+          },
+          {
+            "speaker": "george",
+            "audio": "l13-reg-f2",
+            "text": "Disabling non-essential notifications helps to maintain concentration.",
+            "note": "Sujeto con gerundio: estilo formal. *Disable* = desactivar."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "save time",
+        "es": "ahorrar tiempo",
+        "register": "neutral"
+      },
+      {
+        "en": "game changer",
+        "es": "algo que lo cambia todo",
+        "register": "casual"
+      },
+      {
+        "en": "to-do list",
+        "es": "lista de tareas pendientes",
+        "register": "neutral"
+      },
+      {
+        "en": "mute notifications",
+        "es": "silenciar notificaciones",
+        "register": "neutral"
+      },
+      {
+        "en": "right away",
+        "es": "enseguida",
+        "register": "neutral"
+      },
+      {
+        "en": "Why don't you…?",
+        "es": "¿por qué no…?",
+        "register": "neutral"
+      },
+      {
+        "en": "Try + -ing",
+        "es": "prueba a…",
+        "register": "neutral"
+      },
+      {
+        "en": "I would recommend + -ing",
+        "es": "recomendaría…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Total game changer.",
+        "answer": "casual",
+        "explain": "*Game changer* es coloquial."
+      },
+      {
+        "text": "Why don't you turn on focus mode?",
+        "answer": "neutral",
+        "explain": "Sugerencia estándar, válida con casi cualquiera."
+      },
+      {
+        "text": "I would recommend scheduling specific times to check your email.",
+        "answer": "formal",
+        "explain": "*I would recommend* + -ing es una recomendación formal."
+      },
+      {
+        "text": "I'm obsessed with shortcuts!",
+        "answer": "casual",
+        "explain": "Entusiasmo informal."
+      },
+      {
+        "text": "Disabling non-essential notifications helps to maintain concentration.",
+        "answer": "formal",
+        "explain": "Gerundio como sujeto y vocabulario formal."
+      },
+      {
+        "text": "Try closing the tabs you don't need.",
+        "answer": "neutral",
+        "explain": "Consejo sencillo, sin matiz especial."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Las dos frases dan un consejo. Fíjate en cómo empieza cada mitad y en qué forma verbal tiene la segunda.",
+    "speaker": "ryan",
+    "audio": "l13-gd",
+    "text": "{{If}} you {{feel}} distracted, {{put}} your phone in another room. {{When}} a task {{takes}} less than two minutes, {{do}} it right away.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué tipo de situación describen estas frases?",
+        "options": [
+          "Un consejo general para cualquier momento en que se cumpla la condición.",
+          "Algo que pasó una vez la semana pasada.",
+          "Una promesa para mañana."
+        ],
+        "answer": 0,
+        "explain": "Como en el Zero Conditional, hablan de situaciones habituales: cada vez que te distraes, haz esto."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma tiene la segunda mitad (tras la coma)?",
+        "options": [
+          "Imperativo: verbo base sin sujeto.",
+          "*Will* + verbo base.",
+          "Verbo en pasado."
+        ],
+        "answer": 0,
+        "explain": "*Put* y *do* son imperativos. La parte de *if / when* sigue en presente simple (*feel*, *takes*)."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Una amiga dice que se distrae mucho. ¿Qué respuesta suena como consejo amistoso?",
+        "options": [
+          "Why don't you put your phone in another room?",
+          "You have to put your phone in another room, obviously.",
+          "Your phone is in another room."
+        ],
+        "answer": 0,
+        "explain": "*Why don't you…?* suaviza el consejo. *You have to… obviously* suena brusco."
+      }
+    ],
+    "rule": {
+      "points": [
+        "El Zero Conditional también admite un imperativo en el resultado: *If / When + presente, imperativo*.",
+        "Sirve para consejos que valen siempre: *If you feel tired, take a break.*",
+        "El imperativo es verbo base, sin sujeto y sin *will*.",
+        "Para suavizar el consejo: *Why don't you…?*, *You could…*, *Try + -ing*."
+      ],
+      "formulas": [
+        "If / When + presente, imperativo",
+        "Why don't you + verbo base…?",
+        "Try + verbo -ing"
+      ],
+      "note": "En español «si te distraes, deja el móvil» también combina presente e imperativo. En inglés se mantiene igual: no metas *will* tras *if*."
+    }
+  },
+  "phonetics": {
+    "intro": "Tres trampas: los compuestos (*SHORT-cut*, *DESK-top*) llevan el acento en la primera parte, los grupos *sk-* (*skip*, *scroll*) no admiten una e delante, y los phrasal verbs como *turn off* se pronuncian de un tirón.",
+    "items": [
+      {
+        "id": "shortcut",
+        "term": "Shortcut",
+        "pos": "n.",
+        "meaning": "atajo",
+        "ipa": {
+          "us": "/ˈʃɔrt.kʌt/",
+          "uk": "/ˈʃɔːt.kʌt/"
+        },
+        "afh": "SHÓRT-kat",
+        "say": "Shortcut.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Compuesto: el acento va en SHORT, no en CUT."
+          },
+          {
+            "type": "consonant",
+            "text": "*Sh-* es /ʃ/, como cuando pides silencio: «sh». No es la «ch» española."
+          },
+          {
+            "type": "vowel",
+            "text": "La u de *cut* es /ʌ/, una a corta: «kat», no «kut»."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "Learn one keyboard shortcut a day."
+        }
+      },
+      {
+        "id": "desktop",
+        "term": "Desktop",
+        "pos": "n.",
+        "meaning": "escritorio",
+        "ipa": {
+          "us": "/ˈdesk.tɑp/",
+          "uk": "/ˈdesk.tɒp/"
+        },
+        "afh": "DESK-tap",
+        "say": "Desktop.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Compuesto: acento en DESK."
+          },
+          {
+            "type": "s-cluster",
+            "text": "*Sk-t* son tres consonantes seguidas: «desk-tap», sin vocal entre la k y la t."
+          },
+          {
+            "type": "consonant",
+            "text": "La k de *desk* es breve y se suelta casi sin aire al enlazar con la t."
+          }
+        ],
+        "example": {
+          "speaker": "leo",
+          "text": "I keep my desktop clean."
+        }
+      },
+      {
+        "id": "skip",
+        "term": "Skip",
+        "pos": "v.",
+        "meaning": "saltarse, omitir",
+        "ipa": {
+          "us": "/skɪp/",
+          "uk": "/skɪp/"
+        },
+        "afh": "SKIP",
+        "say": "Skip.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Sk-* sin e delante: «sss-kip», nunca «es-kip»."
+          },
+          {
+            "type": "vowel",
+            "text": "La i es /ɪ/ corta: no «skiip». Si la alargas, suena a *skeep*."
+          },
+          {
+            "type": "consonant",
+            "text": "La p final se suelta con un soplo suave; no la omitas."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "You can skip this step."
+        }
+      },
+      {
+        "id": "scroll",
+        "term": "Scroll",
+        "pos": "v.",
+        "meaning": "desplazarse por la pantalla",
+        "ipa": {
+          "us": "/skroʊl/",
+          "uk": "/skrəʊl/"
+        },
+        "afh": "SKROUL",
+        "say": "Scroll.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Scr-* son tres consonantes seguidas, /skr/. No añadas «e» delante."
+          },
+          {
+            "type": "vowel",
+            "text": "La o es el diptongo «ou», no una o simple."
+          },
+          {
+            "type": "consonant",
+            "text": "La l final es «oscura», con la lengua hacia atrás; no digas «skrolé»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "I scroll through my feed too much."
+        }
+      },
+      {
+        "id": "turn-off",
+        "term": "Turn off",
+        "pos": "phr. v.",
+        "meaning": "apagar, desactivar",
+        "ipa": {
+          "us": "/ˌtɝn ˈɔf/",
+          "uk": "/ˌtɜːn ˈɒf/"
+        },
+        "afh": "tern-OF",
+        "say": "Turn off.",
+        "ttsUs": "[Turn](/tˌɜɹn/) [off](/ˈɔf/).",
+        "ttsUk": "[Turn](/tˌɜːn/) [off](/ˈɒf/).",
+        "alerts": [
+          {
+            "type": "linking",
+            "text": "La n final de *turn* se une a la vocal de *off*: «ter-nof»."
+          },
+          {
+            "type": "stress",
+            "text": "La fuerza va en OFF: «tern-OF»."
+          },
+          {
+            "type": "vowel",
+            "text": "*Ur* es una vocal con r (/ɝ/): ni la «u» ni la «r» española vibrante."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "Turn off notifications while you work."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Consejo con Zero Conditional + imperativo",
+        "formula": "If / When + sujeto + presente, imperativo",
+        "usage": "Para recomendar qué hacer cada vez que se da una situación.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l13-cc-1a",
+            "text": "{{If you feel}} distracted, {{put}} your phone away."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l13-cc-1b",
+            "text": "{{When a task takes}} two minutes, {{do}} it now."
+          }
+        ]
+      },
+      {
+        "title": "Sugerir con suavidad: Why don't you / Try + -ing",
+        "formula": "Why don't you + verbo base…? · Try + verbo -ing · You could + verbo base",
+        "usage": "Para proponer algo sin sonar autoritario. *Try + -ing* = probar a hacer algo.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l13-cc-2a",
+            "text": "{{Why don't you mute}} them for an hour?"
+          },
+          {
+            "speaker": "priya",
+            "audio": "l13-cc-2b",
+            "text": "{{Try closing}} the tabs you don't need."
+          }
+        ]
+      },
+      {
+        "title": "El efecto de un hábito: Zero Conditional con adverbios",
+        "formula": "If / When + presente, sujeto + (always / usually) + presente",
+        "usage": "Para contar qué te ocurre cada vez que aplicas el truco.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l13-cc-3a",
+            "text": "{{If I write}} everything down, I {{always sleep}} better."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l13-cc-3b",
+            "text": "{{When I mute}} my phone, I {{usually finish}} early."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Will tras if",
+        "text": "El consejo sigue el mismo patrón que el Zero Conditional: presente tras *if*.",
+        "wrong": "If you will feel distracted, put your phone away.",
+        "right": "If you feel distracted, put your phone away."
+      },
+      {
+        "title": "To tras Why don't you",
+        "text": "Tras *Why don't you* va verbo base, igual que tras un modal.",
+        "wrong": "Why don't you to mute them?",
+        "right": "Why don't you mute them?"
+      },
+      {
+        "title": "Advice e information son incontables",
+        "text": "«Consejos» e «informaciones» se dicen en singular: *some advice*, *some information*. No existe *advices*.",
+        "wrong": "Here are some advices to save time.",
+        "right": "Here is some advice to save time."
+      },
+      {
+        "title": "Make a list, no do a list",
+        "text": "«Hacer una lista» se dice *make a list*. *Do* se reserva para tareas y deberes (*do the dishes*).",
+        "wrong": "I do a to-do list every night.",
+        "right": "I make a to-do list every night."
+      },
+      {
+        "title": "Epéntesis en skip y scroll",
+        "text": "Por «escroll» o «eskip», muchos hispanohablantes añaden una /e/. Empieza con la /s/ alargada y pasa directo a la /k/.",
+        "wrong": "«es-KIP», «es-KROUL»",
+        "right": "/skɪp/ («sss-KIP»), /skroʊl/ («sss-KROUL»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you feel tired, ___ a break.",
+      "options": [
+        "take",
+        "you will take",
+        "taking"
+      ],
+      "answer": 0,
+      "explain": "Zero Conditional con imperativo: verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Why don't you ___ notifications for an hour?",
+      "options": [
+        "to mute",
+        "mute",
+        "muting"
+      ],
+      "answer": 1,
+      "explain": "*Why don't you* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Here ___ some advice for you.",
+      "options": [
+        "are",
+        "is",
+        "have"
+      ],
+      "answer": 1,
+      "explain": "*Advice* es incontable: verbo en singular."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el verbo correcto.",
+      "text": "I ___ a to-do list every night.",
+      "options": [
+        "do",
+        "make",
+        "play"
+      ],
+      "answer": 1,
+      "explain": "*Make a list* (hacer una lista)."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa el consejo.",
+      "text": "When a task takes less than two minutes, ___ it right away.",
+      "accept": [
+        "do"
+      ],
+      "explain": "Imperativo: verbo base."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa el consejo.",
+      "text": "___ closing the tabs you don't need.",
+      "accept": [
+        "Try"
+      ],
+      "explain": "*Try + -ing* = probar a hacer algo."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin comas).",
+      "words": [
+        "If",
+        "you",
+        "feel",
+        "distracted",
+        "put",
+        "your",
+        "phone",
+        "away"
+      ],
+      "answer": "If you feel distracted put your phone away",
+      "explain": "*If* + presente, imperativo."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Why",
+        "don't",
+        "you",
+        "mute",
+        "them",
+        "for",
+        "an",
+        "hour"
+      ],
+      "answer": "Why don't you mute them for an hour",
+      "explain": "*Why don't you* + verbo base."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "If you will feel tired, take a break.",
+      "accept": [
+        "If you feel tired, take a break."
+      ],
+      "explain": "Sin *will* tras *if*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Here are some advices to save time.",
+      "accept": [
+        "Here is some advice to save time."
+      ],
+      "explain": "*Advice* no tiene plural."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "I do a to-do list every night.",
+      "accept": [
+        "I make a to-do list every night."
+      ],
+      "explain": "Una lista se hace con *make*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué parte de *shortcut* lleva el acento?",
+      "word": "shortcut",
+      "syllables": [
+        "short",
+        "cut"
+      ],
+      "answer": 0,
+      "audioRef": "l13-ph-shortcut-us",
+      "explain": "**SHORT**-cut: compuesto, acento en la primera parte."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué parte de *desktop* lleva el acento?",
+      "word": "desktop",
+      "syllables": [
+        "desk",
+        "top"
+      ],
+      "answer": 0,
+      "audioRef": "l13-ph-desktop-us",
+      "explain": "**DESK**-top: compuesto, acento en la primera parte."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "leo",
+      "audio": "l13-dict-1",
+      "text": "If you feel distracted, put your phone in another room.",
+      "explain": "*If* + presente, imperativo."
+    }
+  ],
+  "task": {
+    "title": "Tus tres mejores trucos",
+    "format": "text",
+    "scenario": "Tu grupo de estudio quiere mejorar su productividad. Escribe un mensaje en el chat del grupo con tus mejores trucos.",
+    "brief": "Share three productivity tips with your study group.",
+    "steps": [
+      "Abre el mensaje con una frase animada (*Quick tips from me!*).",
+      "Da un consejo con *If / When* + presente + imperativo.",
+      "Sugiere otro truco con *Why don't you…?* o *Try + -ing*.",
+      "Cuenta qué te pasa a ti cuando lo aplicas (*When I…, I…*)."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi everyone! Here are my three tips.",
+      "If you ___, ___ (imperativo).",
+      "Why don't you ___ ?  /  Try ___ing ___.",
+      "When I ___, I ___.",
+      "Trust me, it works!"
+    ],
+    "chunks": [
+      {
+        "label": "If / When + imperativo",
+        "re": "\\b(if|when)\\b[^.!?,]{3,50},\\s*[a-z]+\\b"
+      },
+      {
+        "label": "Why don't you",
+        "re": "\\bwhy don't you\\b"
+      },
+      {
+        "label": "Try + -ing",
+        "re": "\\btry\\s+[a-z]+ing\\b"
+      },
+      {
+        "label": "save time / right away",
+        "re": "\\b(save[sd]? (me )?(some |a lot of |an hour|time)|right away|at once)\\b"
+      },
+      {
+        "label": "mute / turn off",
+        "re": "\\b(mute|turn(s|ed)? off|disable)\\b"
+      },
+      {
+        "label": "to-do list / shortcut",
+        "re": "\\b(to-do list|shortcuts?|focus mode|reminders?)\\b"
+      }
+    ],
+    "checks": [
+      "ifWill",
+      "whyDontTo",
+      "uncountable",
+      "makeDoList",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el mismo truco para un boletín formal",
+      "brief": "Rewrite one tip as a formal recommendation.",
+      "frames": [
+        "I would recommend ___ing ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "priya",
+          "audio": "l13-task-model",
+          "text": "Hi everyone! Here are my three tips. {{If you feel}} stuck on a task, {{take}} a short break. {{Why don't you try}} working in twenty-five-minute blocks? {{When I do}} that, I finish earlier. {{Mute}} your group chats while you work: you can read them later. And {{use}} keyboard shortcuts, because they {{save}} me an hour a day. {{Trust me}}, it works!",
+          "label": "Trucos en el chat (neutro)",
+          "notes": [
+            "*If you feel…, take…*: Zero Conditional con imperativo.",
+            "*Why don't you try working…?* combina sugerencia y *try + -ing*. *When I do that, I finish*: el efecto en presente."
+          ]
+        },
+        {
+          "speaker": "george",
+          "audio": "l13-task-formal",
+          "text": "I {{would recommend scheduling}} fixed times to check your email. {{If notifications are}} disabled during working hours, concentration {{improves}} considerably.",
+          "label": "Recomendación formal",
+          "notes": [
+            "*I would recommend* + -ing es la fórmula formal.",
+            "*Improves* lleva -s: el sujeto es *concentration* (3.ª persona)."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste presente simple tras *if / when* (sin *will*)?",
+      "¿Tus imperativos son verbo base, sin sujeto?",
+      "¿Usaste verbo base tras *Why don't you* (sin *to*)?",
+      "¿Escribiste *advice / information* en singular (sin -s)?",
+      "¿Usaste *make a list* y no *do a list*?"
+    ]
+  }
+}
