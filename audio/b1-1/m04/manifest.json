@@ -1,0 +1,2123 @@
+{
+ "engine": "Kokoro-82M v1.0 (ONNX) + misaki G2P",
+ "sampleRate": 24000,
+ "format": "mp3 64 kbps mono",
+ "count": 235,
+ "clips": {
+  "l16-cc-1a": {
+   "file": "l16-cc-1a.mp3",
+   "duration": 2.77,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "The Wi-Fi is too slow for video calls.",
+   "hash": "331400fcc810"
+  },
+  "l16-cc-1b": {
+   "file": "l16-cc-1b.mp3",
+   "duration": 2.81,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "A new laptop is too expensive right now.",
+   "hash": "5b7f7e3dbd0c"
+  },
+  "l16-cc-2a": {
+   "file": "l16-cc-2a.mp3",
+   "duration": 2.17,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "The signal isn't strong enough.",
+   "hash": "7bfda0b74b81"
+  },
+  "l16-cc-2b": {
+   "file": "l16-cc-2b.mp3",
+   "duration": 2.0,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "It doesn't have enough memory.",
+   "hash": "9074fc9f2494"
+  },
+  "l16-cc-3a": {
+   "file": "l16-cc-3a.mp3",
+   "duration": 2.43,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "My laptop keeps crashing.",
+   "hash": "b2c2d08135b9"
+  },
+  "l16-cc-3b": {
+   "file": "l16-cc-3b.mp3",
+   "duration": 2.0,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The printer has stopped working.",
+   "hash": "62d4f1ed643b"
+  },
+  "l16-dict-1": {
+   "file": "l16-dict-1.mp3",
+   "duration": 4.88,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "My laptop keeps crashing, and the battery doesn't last long enough.",
+   "hash": "32def993887d"
+  },
+  "l16-dlg-01": {
+   "file": "l16-dlg-01.mp3",
+   "duration": 4.41,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Ugh, my laptop keeps crashing. I lost half my essay this morning!",
+   "hash": "b8821de8e873"
+  },
+  "l16-dlg-02": {
+   "file": "l16-dlg-02.mp3",
+   "duration": 2.61,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Again? What happened this time?",
+   "hash": "a29afd064176"
+  },
+  "l16-dlg-03": {
+   "file": "l16-dlg-03.mp3",
+   "duration": 4.43,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I opened a lot of tabs, and it just froze. Then the screen went black.",
+   "hash": "a52e6e0108a5"
+  },
+  "l16-dlg-04": {
+   "file": "l16-dlg-04.mp3",
+   "duration": 5.0,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Your laptop is too old for all those programs. It doesn't have enough memory.",
+   "hash": "7711bd09498b"
+  },
+  "l16-dlg-05": {
+   "file": "l16-dlg-05.mp3",
+   "duration": 4.64,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I know, but a new one is too expensive right now. I can't afford it.",
+   "hash": "4a2caa7fc5d4"
+  },
+  "l16-dlg-06": {
+   "file": "l16-dlg-06.mp3",
+   "duration": 4.21,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Have you updated it recently? Maybe the software is out of date.",
+   "hash": "b56c607e9642"
+  },
+  "l16-dlg-07": {
+   "file": "l16-dlg-07.mp3",
+   "duration": 5.68,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "No... And the battery doesn't last long enough either. It dies after an hour.",
+   "hash": "e0bb1189e935"
+  },
+  "l16-dlg-08": {
+   "file": "l16-dlg-08.mp3",
+   "duration": 5.43,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Okay, let's take it to the repair shop. If they can fix it, you won't need a new one.",
+   "hash": "0df0c2c858d0"
+  },
+  "l16-gd": {
+   "file": "l16-gd.mp3",
+   "duration": 8.18,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "The Wi-Fi is too slow for video calls, and the signal isn't strong enough in my bedroom. There aren't enough outlets in the kitchen, either.",
+   "hash": "5634c6d2be3a"
+  },
+  "l16-ph-crashed-ex": {
+   "file": "l16-ph-crashed-ex.mp3",
+   "duration": 3.11,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "My laptop crashed in the middle of a call.",
+   "hash": "e5f7863edf36"
+  },
+  "l16-ph-crashed-slow": {
+   "file": "l16-ph-crashed-slow.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Crashed.",
+   "hash": "72d35807b77a"
+  },
+  "l16-ph-crashed-uk": {
+   "file": "l16-ph-crashed-uk.mp3",
+   "duration": 1.34,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Crashed.",
+   "hash": "4f6f9d2631d5"
+  },
+  "l16-ph-crashed-us": {
+   "file": "l16-ph-crashed-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Crashed.",
+   "hash": "4c43aa6001d5"
+  },
+  "l16-ph-doesnt-work-ex": {
+   "file": "l16-ph-doesnt-work-ex.mp3",
+   "duration": 1.96,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The printer doesn't work again.",
+   "hash": "25e01736814d"
+  },
+  "l16-ph-doesnt-work-slow": {
+   "file": "l16-ph-doesnt-work-slow.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Doesn't work.",
+   "hash": "890d65a4836e"
+  },
+  "l16-ph-doesnt-work-uk": {
+   "file": "l16-ph-doesnt-work-uk.mp3",
+   "duration": 1.61,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Doesn't work.",
+   "hash": "0aeb06e6f1c4"
+  },
+  "l16-ph-doesnt-work-us": {
+   "file": "l16-ph-doesnt-work-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Doesn't work.",
+   "hash": "f5bbd3732152"
+  },
+  "l16-ph-fixed-ex": {
+   "file": "l16-ph-fixed-ex.mp3",
+   "duration": 3.11,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The technician fixed the washing machine this morning.",
+   "hash": "3c75be3a3a1f"
+  },
+  "l16-ph-fixed-slow": {
+   "file": "l16-ph-fixed-slow.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Fixed.",
+   "hash": "1baa9baef2d1"
+  },
+  "l16-ph-fixed-uk": {
+   "file": "l16-ph-fixed-uk.mp3",
+   "duration": 1.15,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Fixed.",
+   "hash": "b7e881109970"
+  },
+  "l16-ph-fixed-us": {
+   "file": "l16-ph-fixed-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Fixed.",
+   "hash": "c6482909fba1"
+  },
+  "l16-ph-glitch-ex": {
+   "file": "l16-ph-glitch-ex.mp3",
+   "duration": 1.98,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "There's a weird glitch in this app.",
+   "hash": "855810f2d7b8"
+  },
+  "l16-ph-glitch-slow": {
+   "file": "l16-ph-glitch-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Glitch.",
+   "hash": "b40b25c00da6"
+  },
+  "l16-ph-glitch-uk": {
+   "file": "l16-ph-glitch-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Glitch.",
+   "hash": "8dedeb3e6829"
+  },
+  "l16-ph-glitch-us": {
+   "file": "l16-ph-glitch-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Glitch.",
+   "hash": "069f4c772dc7"
+  },
+  "l16-ph-wrong-ex": {
+   "file": "l16-ph-wrong-ex.mp3",
+   "duration": 2.51,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Something's wrong with the washing machine.",
+   "hash": "b3d5a074f6d0"
+  },
+  "l16-ph-wrong-slow": {
+   "file": "l16-ph-wrong-slow.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Wrong.",
+   "hash": "19075564dc98"
+  },
+  "l16-ph-wrong-uk": {
+   "file": "l16-ph-wrong-uk.mp3",
+   "duration": 1.49,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Wrong.",
+   "hash": "f8e25f916707"
+  },
+  "l16-ph-wrong-us": {
+   "file": "l16-ph-wrong-us.mp3",
+   "duration": 1.15,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Wrong.",
+   "hash": "cf1f9aedd3c5"
+  },
+  "l16-reg-c1": {
+   "file": "l16-reg-c1.mp3",
+   "duration": 3.36,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "My phone's acting up again. It's so annoying!",
+   "hash": "dd441e5a844e"
+  },
+  "l16-reg-c2": {
+   "file": "l16-reg-c2.mp3",
+   "duration": 4.21,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "My battery's dead, and the charger's broken too. Great.",
+   "hash": "f05920ba8989"
+  },
+  "l16-reg-f1": {
+   "file": "l16-reg-f1.mp3",
+   "duration": 3.24,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I am writing to report a fault with the heating system.",
+   "hash": "57cd9336c2ea"
+  },
+  "l16-reg-f2": {
+   "file": "l16-reg-f2.mp3",
+   "duration": 4.62,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We have received several reports of intermittent connection problems.",
+   "hash": "677249e38152"
+  },
+  "l16-reg-n1": {
+   "file": "l16-reg-n1.mp3",
+   "duration": 3.73,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "My laptop keeps crashing when I open the video app.",
+   "hash": "ccc5bad8b880"
+  },
+  "l16-reg-n2": {
+   "file": "l16-reg-n2.mp3",
+   "duration": 2.92,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The signal isn't strong enough for video calls.",
+   "hash": "be4a6076b418"
+  },
+  "l16-reg-n3": {
+   "file": "l16-reg-n3.mp3",
+   "duration": 2.0,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The printer has stopped working.",
+   "hash": "62d4f1ed643b"
+  },
+  "l16-scn": {
+   "file": "l16-scn.mp3",
+   "duration": 24.33,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Mr Lee, I'm Sarah from apartment 4B. I'd like to report a couple of problems. Since Monday, the Wi-Fi in the building keeps dropping, and the signal isn't strong enough for video calls. Also, the hallway light keeps flickering, and the washing machine in the laundry room has stopped working. Honestly, I think it's too old to repair. Could someone take a look this week? Thanks, Sarah",
+   "hash": "33c187de2077"
+  },
+  "l16-task-formal": {
+   "file": "l16-task-formal.mp3",
+   "duration": 12.1,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I am writing to report a fault with the heating system in flat 6. The radiators are not warm enough, and the boiler keeps switching off. I would be grateful if a technician could inspect it at your earliest convenience.",
+   "hash": "b9b8c52228c6"
+  },
+  "l16-task-model": {
+   "file": "l16-task-model.mp3",
+   "duration": 28.36,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Mr Lee, I'm Alex from apartment 2C. I'd like to report two problems. Since last week, the internet keeps disconnecting, especially in the evening. The connection isn't stable enough for my work calls. Also, the kitchen light has stopped working. I changed the bulb, but it's still too dark to cook at night, so I think the problem is the wiring. Could someone take a look this week? Thanks, Alex",
+   "hash": "e92b035b5a6f"
+  },
+  "l17-cc-1a": {
+   "file": "l17-cc-1a.mp3",
+   "duration": 3.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If you restart now, the update will take ten minutes.",
+   "hash": "b67ceb8df701"
+  },
+  "l17-cc-1b": {
+   "file": "l17-cc-1b.mp3",
+   "duration": 3.64,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "If you delete old files, the message will disappear.",
+   "hash": "b4ff2c6833e9"
+  },
+  "l17-cc-2a": {
+   "file": "l17-cc-2a.mp3",
+   "duration": 2.55,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "What will happen if I delete the wrong files?",
+   "hash": "77ac82758063"
+  },
+  "l17-cc-2b": {
+   "file": "l17-cc-2b.mp3",
+   "duration": 2.68,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Will I lose my work if I restart?",
+   "hash": "e31a287a9cc9"
+  },
+  "l17-cc-3a": {
+   "file": "l17-cc-3a.mp3",
+   "duration": 2.3,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "It says the disk is almost full.",
+   "hash": "9f36f0e2903f"
+  },
+  "l17-cc-3b": {
+   "file": "l17-cc-3b.mp3",
+   "duration": 2.36,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "A strange message keeps popping up.",
+   "hash": "2abf71d8e4f5"
+  },
+  "l17-dict-1": {
+   "file": "l17-dict-1.mp3",
+   "duration": 4.05,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.9,
+   "text": "If you delete some old files, the message will disappear.",
+   "hash": "29059ea79978"
+  },
+  "l17-dlg-01": {
+   "file": "l17-dlg-01.mp3",
+   "duration": 4.92,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "IT Support, Daniel speaking. What seems to be the problem?",
+   "hash": "6f19bbd51a0a"
+  },
+  "l17-dlg-02": {
+   "file": "l17-dlg-02.mp3",
+   "duration": 4.83,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "My laptop keeps showing an error message. It says the disk is almost full.",
+   "hash": "4d44a2837ff1"
+  },
+  "l17-dlg-03": {
+   "file": "l17-dlg-03.mp3",
+   "duration": 5.24,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "I see. If you delete some old files, the message will disappear.",
+   "hash": "63b00da58c16"
+  },
+  "l17-dlg-04": {
+   "file": "l17-dlg-04.mp3",
+   "duration": 2.79,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "But what will happen if I delete the wrong files?",
+   "hash": "801c6052034f"
+  },
+  "l17-dlg-05": {
+   "file": "l17-dlg-05.mp3",
+   "duration": 6.82,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Don't worry. If you only delete things from your Downloads folder, you won't lose anything important.",
+   "hash": "58192327d6a5"
+  },
+  "l17-dlg-06": {
+   "file": "l17-dlg-06.mp3",
+   "duration": 4.81,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Okay. And what about the update? It keeps asking me to restart.",
+   "hash": "041fe8273800"
+  },
+  "l17-dlg-07": {
+   "file": "l17-dlg-07.mp3",
+   "duration": 7.78,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "If you restart now, the update will take about ten minutes. If you wait until tonight, it won't interrupt your presentation.",
+   "hash": "6d9187150b32"
+  },
+  "l17-dlg-08": {
+   "file": "l17-dlg-08.mp3",
+   "duration": 4.34,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Perfect, I'll wait until tonight. Thanks for explaining it to me, Daniel!",
+   "hash": "2c2b957b0d4f"
+  },
+  "l17-gd": {
+   "file": "l17-gd.mp3",
+   "duration": 7.88,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If you restart the laptop now, the update will take ten minutes. If you wait until tonight, it won't interrupt your presentation.",
+   "hash": "18195054b4db"
+  },
+  "l17-ph-breakdown-ex": {
+   "file": "l17-ph-breakdown-ex.mp3",
+   "duration": 3.41,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We apologise for the breakdown in service.",
+   "hash": "94f9b3f05f0f"
+  },
+  "l17-ph-breakdown-noun": {
+   "file": "l17-ph-breakdown-noun.mp3",
+   "duration": 2.43,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "There was a breakdown on the train line.",
+   "hash": "d6ee0daaf5c0"
+  },
+  "l17-ph-breakdown-slow": {
+   "file": "l17-ph-breakdown-slow.mp3",
+   "duration": 1.66,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Breakdown.",
+   "hash": "b82c0ebaa218"
+  },
+  "l17-ph-breakdown-uk": {
+   "file": "l17-ph-breakdown-uk.mp3",
+   "duration": 1.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Breakdown.",
+   "hash": "2087e9330642"
+  },
+  "l17-ph-breakdown-us": {
+   "file": "l17-ph-breakdown-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Breakdown.",
+   "hash": "46d8552390bc"
+  },
+  "l17-ph-breakdown-verb": {
+   "file": "l17-ph-breakdown-verb.mp3",
+   "duration": 2.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "The washing machine broke down again.",
+   "hash": "55f5236e0e7d"
+  },
+  "l17-ph-error-ex": {
+   "file": "l17-ph-error-ex.mp3",
+   "duration": 3.04,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "The system shows an error when you log in.",
+   "hash": "8c94b86741c6"
+  },
+  "l17-ph-error-slow": {
+   "file": "l17-ph-error-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Error.",
+   "hash": "86d72c6295aa"
+  },
+  "l17-ph-error-uk": {
+   "file": "l17-ph-error-uk.mp3",
+   "duration": 1.29,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Error.",
+   "hash": "ad1bb1e51dc1"
+  },
+  "l17-ph-error-us": {
+   "file": "l17-ph-error-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Error.",
+   "hash": "c52048d879d8"
+  },
+  "l17-ph-message-ex": {
+   "file": "l17-ph-message-ex.mp3",
+   "duration": 2.28,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "An error message keeps popping up.",
+   "hash": "c2aa633687fb"
+  },
+  "l17-ph-message-slow": {
+   "file": "l17-ph-message-slow.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Message.",
+   "hash": "0a98b5eb6ccf"
+  },
+  "l17-ph-message-uk": {
+   "file": "l17-ph-message-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Message.",
+   "hash": "55cda43ab772"
+  },
+  "l17-ph-message-us": {
+   "file": "l17-ph-message-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Message.",
+   "hash": "83a17a006039"
+  },
+  "l17-ph-restarted-ex": {
+   "file": "l17-ph-restarted-ex.mp3",
+   "duration": 4.11,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I restarted the router twice, but it still doesn't work.",
+   "hash": "009f01ea24d0"
+  },
+  "l17-ph-restarted-slow": {
+   "file": "l17-ph-restarted-slow.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Restarted.",
+   "hash": "e15543e64e56"
+  },
+  "l17-ph-restarted-uk": {
+   "file": "l17-ph-restarted-uk.mp3",
+   "duration": 1.61,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Restarted.",
+   "hash": "3d3a1853465c"
+  },
+  "l17-ph-restarted-us": {
+   "file": "l17-ph-restarted-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Restarted.",
+   "hash": "ac3d7e5e4e2a"
+  },
+  "l17-ph-should-ex": {
+   "file": "l17-ph-should-ex.mp3",
+   "duration": 3.0,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "You should save your work before you restart.",
+   "hash": "417f8af30301"
+  },
+  "l17-ph-should-slow": {
+   "file": "l17-ph-should-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Should.",
+   "hash": "38b4ec1a0e41"
+  },
+  "l17-ph-should-uk": {
+   "file": "l17-ph-should-uk.mp3",
+   "duration": 1.17,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Should.",
+   "hash": "05f21a40da8e"
+  },
+  "l17-ph-should-us": {
+   "file": "l17-ph-should-us.mp3",
+   "duration": 1.15,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Should.",
+   "hash": "def715948870"
+  },
+  "l17-reg-c1": {
+   "file": "l17-reg-c1.mp3",
+   "duration": 3.19,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "My phone just died on me. Totally dead.",
+   "hash": "e5b14937bdf9"
+  },
+  "l17-reg-c2": {
+   "file": "l17-reg-c2.mp3",
+   "duration": 3.24,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Some weird error popped up, and now nothing works.",
+   "hash": "bfded64bae95"
+  },
+  "l17-reg-f1": {
+   "file": "l17-reg-f1.mp3",
+   "duration": 4.52,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "The system displays an error message when users attempt to log in.",
+   "hash": "5745153ef4ee"
+  },
+  "l17-reg-f2": {
+   "file": "l17-reg-f2.mp3",
+   "duration": 7.07,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We apologise for the breakdown in service. Our engineers are investigating the cause.",
+   "hash": "57e8f922d53b"
+  },
+  "l17-reg-n1": {
+   "file": "l17-reg-n1.mp3",
+   "duration": 4.38,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "An error message keeps popping up. It says the disk is almost full.",
+   "hash": "162d4b56a179"
+  },
+  "l17-reg-n2": {
+   "file": "l17-reg-n2.mp3",
+   "duration": 3.62,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "If I restart the computer, I'll lose my work.",
+   "hash": "4c5146bc05f3"
+  },
+  "l17-reg-n3": {
+   "file": "l17-reg-n3.mp3",
+   "duration": 2.45,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The card reader broke down this morning.",
+   "hash": "df77838d9668"
+  },
+  "l17-scn": {
+   "file": "l17-scn.mp3",
+   "duration": 21.28,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi Alex, it's Priya. I have a problem with my laptop. An error message popped up this morning, and it says the disk is almost full. If I restart the laptop now, I'll lose my unsaved work, so I'm saving everything first. If it doesn't work, I'll call Daniel from IT. Could you start the client meeting without me? I'll join as soon as I can.",
+   "hash": "3a5da3b24195"
+  },
+  "l17-task-formal": {
+   "file": "l17-task-formal.mp3",
+   "duration": 12.68,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "The system displays an error message indicating that the disk is almost full. If the issue persists, we will increase your storage. Please do not restart the device until the update has finished.",
+   "hash": "8d2f34492767"
+  },
+  "l17-task-model": {
+   "file": "l17-task-model.mp3",
+   "duration": 25.41,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Priya, it's Sarah. I have a problem with my computer. An error message popped up five minutes ago, and it says the graphics card isn't responding. If I restart the computer now, I'll miss the start of our design class. If I don't, the program will keep freezing. So I'm going to restart it anyway. If it doesn't work, I'll join the class from my phone. Could you tell the teacher, please? Thanks!",
+   "hash": "088784c554b9"
+  },
+  "l18-cc-1a": {
+   "file": "l18-cc-1a.mp3",
+   "duration": 3.71,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "If you give me your order number, I'll open a ticket.",
+   "hash": "2426b62ee77e"
+  },
+  "l18-cc-1b": {
+   "file": "l18-cc-1b.mp3",
+   "duration": 2.87,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "If you send me a photo, I'll check it right away.",
+   "hash": "f738dda77ca7"
+  },
+  "l18-cc-2a": {
+   "file": "l18-cc-2a.mp3",
+   "duration": 3.9,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We'll send it as soon as we receive the faulty pair.",
+   "hash": "1baf31271355"
+  },
+  "l18-cc-2b": {
+   "file": "l18-cc-2b.mp3",
+   "duration": 1.93,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Could you let me know when it ships?",
+   "hash": "f072c636ff6d"
+  },
+  "l18-cc-3a": {
+   "file": "l18-cc-3a.mp3",
+   "duration": 2.57,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'd like to ask for a replacement.",
+   "hash": "37bda5436b52"
+  },
+  "l18-cc-3b": {
+   "file": "l18-cc-3b.mp3",
+   "duration": 2.66,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I am writing to request a full refund.",
+   "hash": "4269fe164057"
+  },
+  "l18-dict-1": {
+   "file": "l18-dict-1.mp3",
+   "duration": 5.05,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.9,
+   "text": "We'll send you a replacement as soon as we receive the faulty pair.",
+   "hash": "fd3232a30abb"
+  },
+  "l18-dlg-01": {
+   "file": "l18-dlg-01.mp3",
+   "duration": 7.28,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Good afternoon, you're through to customer service. George speaking. How can I help?",
+   "hash": "df177bc9f290"
+  },
+  "l18-dlg-02": {
+   "file": "l18-dlg-02.mp3",
+   "duration": 7.56,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi, I'm calling about my headphones. The left earbud doesn't charge. I sent an email yesterday.",
+   "hash": "1d1b3e88e14a"
+  },
+  "l18-dlg-03": {
+   "file": "l18-dlg-03.mp3",
+   "duration": 6.18,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "I'm sorry to hear that. If you give me your order number, I'll open a ticket for you.",
+   "hash": "c62bab704639"
+  },
+  "l18-dlg-04": {
+   "file": "l18-dlg-04.mp3",
+   "duration": 2.7,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Sure, it's 48213.",
+   "hash": "a21626b6797a"
+  },
+  "l18-dlg-05": {
+   "file": "l18-dlg-05.mp3",
+   "duration": 8.05,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Thank you. They're still under warranty, so we'll send you a replacement as soon as we receive the faulty pair.",
+   "hash": "331214ddbfa1"
+  },
+  "l18-dlg-06": {
+   "file": "l18-dlg-06.mp3",
+   "duration": 4.7,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Great. Will I get a refund if the new ones don't work either?",
+   "hash": "5e0f791f05d7"
+  },
+  "l18-dlg-07": {
+   "file": "l18-dlg-07.mp3",
+   "duration": 9.48,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Yes, of course. If the replacement doesn't work, we'll refund you in full. I'll email you the ticket number in a minute.",
+   "hash": "c7c23db2b4b0"
+  },
+  "l18-dlg-08": {
+   "file": "l18-dlg-08.mp3",
+   "duration": 3.13,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Perfect. Thank you for your help!",
+   "hash": "700e5ff06371"
+  },
+  "l18-gd": {
+   "file": "l18-gd.mp3",
+   "duration": 7.29,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If you give me your order number, I'll open a ticket. As soon as we receive the faulty pair, we'll send you a replacement.",
+   "hash": "e0f6de2a083c"
+  },
+  "l18-ph-asked-ex": {
+   "file": "l18-ph-asked-ex.mp3",
+   "duration": 1.81,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I asked for a refund.",
+   "hash": "53a303906565"
+  },
+  "l18-ph-asked-slow": {
+   "file": "l18-ph-asked-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Asked.",
+   "hash": "88007e477aa5"
+  },
+  "l18-ph-asked-uk": {
+   "file": "l18-ph-asked-uk.mp3",
+   "duration": 1.42,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Asked.",
+   "hash": "7e6327d2cb78"
+  },
+  "l18-ph-asked-us": {
+   "file": "l18-ph-asked-us.mp3",
+   "duration": 1.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Asked.",
+   "hash": "8445d613fd44"
+  },
+  "l18-ph-assistance-ex": {
+   "file": "l18-ph-assistance-ex.mp3",
+   "duration": 2.15,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Thank you for your assistance.",
+   "hash": "cfe88ee0487a"
+  },
+  "l18-ph-assistance-slow": {
+   "file": "l18-ph-assistance-slow.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Assistance.",
+   "hash": "921072f7c8eb"
+  },
+  "l18-ph-assistance-uk": {
+   "file": "l18-ph-assistance-uk.mp3",
+   "duration": 1.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Assistance.",
+   "hash": "128f863824d5"
+  },
+  "l18-ph-assistance-us": {
+   "file": "l18-ph-assistance-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Assistance.",
+   "hash": "6026f1c3feab"
+  },
+  "l18-ph-receipt-ex": {
+   "file": "l18-ph-receipt-ex.mp3",
+   "duration": 2.17,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Please keep your receipt.",
+   "hash": "004e50d9e4d9"
+  },
+  "l18-ph-receipt-slow": {
+   "file": "l18-ph-receipt-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Receipt.",
+   "hash": "693ea19d40c7"
+  },
+  "l18-ph-receipt-uk": {
+   "file": "l18-ph-receipt-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Receipt.",
+   "hash": "a3471f82bbd1"
+  },
+  "l18-ph-receipt-us": {
+   "file": "l18-ph-receipt-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Receipt.",
+   "hash": "7affc499f200"
+  },
+  "l18-ph-replaced-ex": {
+   "file": "l18-ph-replaced-ex.mp3",
+   "duration": 2.75,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We replaced the faulty earbuds.",
+   "hash": "e3a2364b5eac"
+  },
+  "l18-ph-replaced-slow": {
+   "file": "l18-ph-replaced-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Replaced.",
+   "hash": "6f6131a6b17e"
+  },
+  "l18-ph-replaced-uk": {
+   "file": "l18-ph-replaced-uk.mp3",
+   "duration": 1.38,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Replaced.",
+   "hash": "a4787c21346b"
+  },
+  "l18-ph-replaced-us": {
+   "file": "l18-ph-replaced-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Replaced.",
+   "hash": "1384078c6e28"
+  },
+  "l18-ph-warranty-ex": {
+   "file": "l18-ph-warranty-ex.mp3",
+   "duration": 2.75,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The headphones are still under warranty.",
+   "hash": "da87768e4488"
+  },
+  "l18-ph-warranty-slow": {
+   "file": "l18-ph-warranty-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Warranty.",
+   "hash": "78799d1b7635"
+  },
+  "l18-ph-warranty-uk": {
+   "file": "l18-ph-warranty-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Warranty.",
+   "hash": "d5de24c990be"
+  },
+  "l18-ph-warranty-us": {
+   "file": "l18-ph-warranty-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Warranty.",
+   "hash": "c1ef2e64acb8"
+  },
+  "l18-reg-c1": {
+   "file": "l18-reg-c1.mp3",
+   "duration": 4.13,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Ugh, they sent me the wrong size. I want my money back!",
+   "hash": "0e05f0acb382"
+  },
+  "l18-reg-c2": {
+   "file": "l18-reg-c2.mp3",
+   "duration": 2.49,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Can you guys just swap it for a new one?",
+   "hash": "d1bb3cc570c7"
+  },
+  "l18-reg-f1": {
+   "file": "l18-reg-f1.mp3",
+   "duration": 3.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I am writing to request a full refund for the faulty item.",
+   "hash": "10a22a6d6218"
+  },
+  "l18-reg-f2": {
+   "file": "l18-reg-f2.mp3",
+   "duration": 5.31,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We will process your refund as soon as we receive the returned item.",
+   "hash": "5c429621e4e3"
+  },
+  "l18-reg-n1": {
+   "file": "l18-reg-n1.mp3",
+   "duration": 2.57,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'd like to ask for a replacement.",
+   "hash": "37bda5436b52"
+  },
+  "l18-reg-n2": {
+   "file": "l18-reg-n2.mp3",
+   "duration": 3.39,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "If you send me the order number, I'll check it right away.",
+   "hash": "a801404d2eeb"
+  },
+  "l18-reg-n3": {
+   "file": "l18-reg-n3.mp3",
+   "duration": 2.23,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Could you let me know as soon as it ships?",
+   "hash": "00c598ff2ce0"
+  },
+  "l18-scn": {
+   "file": "l18-scn.mp3",
+   "duration": 31.2,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Dear Customer Service, I'm writing about order number 48213. I received a pair of wireless headphones last week, but the left earbud doesn't charge. I've tried two different cables, and it still doesn't work. The headphones are still under warranty, and I have the receipt. I'd like to ask for a replacement. If you need more information, I'll be happy to send photos. I look forward to hearing from you. Best regards, Alex",
+   "hash": "bcb1afed0c93"
+  },
+  "l18-task-formal": {
+   "file": "l18-task-formal.mp3",
+   "duration": 11.83,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I am writing to request a full refund for order 52710, as the item arrived damaged. I would be grateful if you could confirm the refund as soon as you receive the returned item.",
+   "hash": "07cb6a9400bf"
+  },
+  "l18-task-model": {
+   "file": "l18-task-model.mp3",
+   "duration": 25.16,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Dear Customer Service, I'm writing about order number 52710. The smart speaker I bought two weeks ago keeps disconnecting from the Wi-Fi, and the sound isn't loud enough, even at full volume. It's still under warranty, and I have the receipt. I'd like to ask for a replacement. If you need photos or a video, I'll send them right away. Could you let me know as soon as you open a ticket? Thank you, Priya",
+   "hash": "b4ee075534c4"
+  },
+  "l19-cc-1a": {
+   "file": "l19-cc-1a.mp3",
+   "duration": 3.28,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "If we move the table, the cable will reach.",
+   "hash": "9d490c27bc27"
+  },
+  "l19-cc-1b": {
+   "file": "l19-cc-1b.mp3",
+   "duration": 2.94,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "If that doesn't work, we might use your laptop.",
+   "hash": "94c543aaa178"
+  },
+  "l19-cc-2a": {
+   "file": "l19-cc-2a.mp3",
+   "duration": 2.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If that doesn't work, unplug the router.",
+   "hash": "310b34f0548a"
+  },
+  "l19-cc-2b": {
+   "file": "l19-cc-2b.mp3",
+   "duration": 3.34,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "If the problem persists, use the backup printer.",
+   "hash": "a3f3d47d65c2"
+  },
+  "l19-cc-3a": {
+   "file": "l19-cc-3a.mp3",
+   "duration": 2.15,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "For now, we're taking cash only.",
+   "hash": "f6e41833a1ba"
+  },
+  "l19-cc-3b": {
+   "file": "l19-cc-3b.mp3",
+   "duration": 2.34,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It's a quick fix, but it does the trick.",
+   "hash": "8c99b089cd1d"
+  },
+  "l19-dict-1": {
+   "file": "l19-dict-1.mp3",
+   "duration": 4.09,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "If that doesn't work, we might use my laptop instead.",
+   "hash": "f487b99408a9"
+  },
+  "l19-dlg-01": {
+   "file": "l19-dlg-01.mp3",
+   "duration": 5.26,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Alex, the projector won't connect to my laptop, and the event starts in half an hour!",
+   "hash": "11fbf8930032"
+  },
+  "l19-dlg-02": {
+   "file": "l19-dlg-02.mp3",
+   "duration": 5.98,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Okay, don't panic. Have you tried unplugging the cable and plugging it in again?",
+   "hash": "279955e23cf0"
+  },
+  "l19-dlg-03": {
+   "file": "l19-dlg-03.mp3",
+   "duration": 4.47,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Twice. And the cable isn't long enough to reach the table anyway.",
+   "hash": "e9ffd9dbfe10"
+  },
+  "l19-dlg-04": {
+   "file": "l19-dlg-04.mp3",
+   "duration": 8.65,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Right. If we move the table closer, the cable will reach. If that doesn't work, we might use my laptop instead.",
+   "hash": "e47a7f136870"
+  },
+  "l19-dlg-05": {
+   "file": "l19-dlg-05.mp3",
+   "duration": 4.47,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "But my slides are on mine. There isn't enough time to copy everything.",
+   "hash": "4f4db036ea78"
+  },
+  "l19-dlg-06": {
+   "file": "l19-dlg-06.mp3",
+   "duration": 5.94,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "No problem. If you email them to me, I'll open them on mine in two minutes.",
+   "hash": "823d979f11bf"
+  },
+  "l19-dlg-07": {
+   "file": "l19-dlg-07.mp3",
+   "duration": 4.43,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Smart! It's not perfect, but it'll do the trick for tonight.",
+   "hash": "edd3d15cd800"
+  },
+  "l19-dlg-08": {
+   "file": "l19-dlg-08.mp3",
+   "duration": 6.21,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Exactly. It's a temporary fix. Tomorrow we'll buy a longer cable.",
+   "hash": "3898279331ba"
+  },
+  "l19-gd": {
+   "file": "l19-gd.mp3",
+   "duration": 6.47,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If we move the table closer, the cable will reach. If that doesn't work, we might use my laptop instead.",
+   "hash": "e8880e643968"
+  },
+  "l19-ph-half-ex": {
+   "file": "l19-ph-half-ex.mp3",
+   "duration": 2.15,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The event starts in half an hour.",
+   "hash": "8f575b2ba8b9"
+  },
+  "l19-ph-half-slow": {
+   "file": "l19-ph-half-slow.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Half.",
+   "hash": "6c72eca96d45"
+  },
+  "l19-ph-half-uk": {
+   "file": "l19-ph-half-uk.mp3",
+   "duration": 1.27,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Half.",
+   "hash": "a57e310b9ea0"
+  },
+  "l19-ph-half-us": {
+   "file": "l19-ph-half-us.mp3",
+   "duration": 1.17,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Half.",
+   "hash": "ff33b6ff59f5"
+  },
+  "l19-ph-plugged-in-ex": {
+   "file": "l19-ph-plugged-in-ex.mp3",
+   "duration": 2.55,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Is the cable plugged in properly?",
+   "hash": "9be624adb323"
+  },
+  "l19-ph-plugged-in-slow": {
+   "file": "l19-ph-plugged-in-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Plugged in.",
+   "hash": "cfd1f927991b"
+  },
+  "l19-ph-plugged-in-uk": {
+   "file": "l19-ph-plugged-in-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Plugged in.",
+   "hash": "66c2d019214c"
+  },
+  "l19-ph-plugged-in-us": {
+   "file": "l19-ph-plugged-in-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Plugged in.",
+   "hash": "9c9487d7fc9a"
+  },
+  "l19-ph-reset-ex": {
+   "file": "l19-ph-reset-ex.mp3",
+   "duration": 3.13,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "If that doesn't work, try a factory reset.",
+   "hash": "a0724806d0f5"
+  },
+  "l19-ph-reset-noun": {
+   "file": "l19-ph-reset-noun.mp3",
+   "duration": 1.91,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Try a factory reset.",
+   "hash": "bd6f8e2ebc99"
+  },
+  "l19-ph-reset-slow": {
+   "file": "l19-ph-reset-slow.mp3",
+   "duration": 3.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "A reset. To reset.",
+   "hash": "47de7b55ab09"
+  },
+  "l19-ph-reset-uk": {
+   "file": "l19-ph-reset-uk.mp3",
+   "duration": 2.89,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "A reset. To reset.",
+   "hash": "8ff34374a01d"
+  },
+  "l19-ph-reset-us": {
+   "file": "l19-ph-reset-us.mp3",
+   "duration": 2.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "A reset. To reset.",
+   "hash": "8e9fc9d798e1"
+  },
+  "l19-ph-reset-verb": {
+   "file": "l19-ph-reset-verb.mp3",
+   "duration": 2.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Reset the router and try again.",
+   "hash": "0515353d32e8"
+  },
+  "l19-ph-switched-off-ex": {
+   "file": "l19-ph-switched-off-ex.mp3",
+   "duration": 3.3,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I switched off the router and waited a minute.",
+   "hash": "79bdaed701e5"
+  },
+  "l19-ph-switched-off-slow": {
+   "file": "l19-ph-switched-off-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Switched off.",
+   "hash": "224aa419ed98"
+  },
+  "l19-ph-switched-off-uk": {
+   "file": "l19-ph-switched-off-uk.mp3",
+   "duration": 1.87,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Switched off.",
+   "hash": "1fbfca22beaa"
+  },
+  "l19-ph-switched-off-us": {
+   "file": "l19-ph-switched-off-us.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Switched off.",
+   "hash": "7693e6377430"
+  },
+  "l19-ph-temporary-ex": {
+   "file": "l19-ph-temporary-ex.mp3",
+   "duration": 2.04,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "It's only a temporary fix.",
+   "hash": "81afa2faa0a3"
+  },
+  "l19-ph-temporary-slow": {
+   "file": "l19-ph-temporary-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Temporary.",
+   "hash": "25e76a4551b4"
+  },
+  "l19-ph-temporary-uk": {
+   "file": "l19-ph-temporary-uk.mp3",
+   "duration": 1.83,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Temporary.",
+   "hash": "23da54bdfb66"
+  },
+  "l19-ph-temporary-us": {
+   "file": "l19-ph-temporary-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Temporary.",
+   "hash": "aa5b3220cddb"
+  },
+  "l19-reg-c1": {
+   "file": "l19-reg-c1.mp3",
+   "duration": 3.47,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Just give it a good restart. Works every time!",
+   "hash": "b2ae52f0b94d"
+  },
+  "l19-reg-c2": {
+   "file": "l19-reg-c2.mp3",
+   "duration": 2.7,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "It's a bit of a hack, but it does the trick.",
+   "hash": "2e418b366106"
+  },
+  "l19-reg-f1": {
+   "file": "l19-reg-f1.mp3",
+   "duration": 4.37,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "As a temporary measure, please use the backup printer on the second floor.",
+   "hash": "d556e577172b"
+  },
+  "l19-reg-f2": {
+   "file": "l19-reg-f2.mp3",
+   "duration": 3.24,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "A permanent solution will be implemented next week.",
+   "hash": "92b096c913f6"
+  },
+  "l19-reg-n1": {
+   "file": "l19-reg-n1.mp3",
+   "duration": 3.88,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "If that doesn't work, we might use my laptop instead.",
+   "hash": "67442ca8bc73"
+  },
+  "l19-reg-n2": {
+   "file": "l19-reg-n2.mp3",
+   "duration": 2.66,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "For now, we're using a temporary fix.",
+   "hash": "1cb7679b6d11"
+  },
+  "l19-reg-n3": {
+   "file": "l19-reg-n3.mp3",
+   "duration": 2.77,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "If you switch it off and on again, it should work.",
+   "hash": "d7d74d892dd2"
+  },
+  "l19-scn": {
+   "file": "l19-scn.mp3",
+   "duration": 21.54,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Hey guys, quick heads-up about the card machine. It froze twice this morning. For now, here's a quick fix: switch it off, wait thirty seconds, and switch it on again. If that doesn't work, unplug the router too. If it still doesn't connect, we'll take cash only in the meantime. The technician might come tomorrow, but he isn't sure. See you later!",
+   "hash": "42a4918fb04c"
+  },
+  "l19-task-formal": {
+   "file": "l19-task-formal.mp3",
+   "duration": 9.33,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "As a temporary measure, please use the backup printer on the second floor. If the problem persists, our technician will replace the main printer on Monday.",
+   "hash": "5a23cbfddcf6"
+  },
+  "l19-task-model": {
+   "file": "l19-task-model.mp3",
+   "duration": 28.52,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi everyone, quick update about the Wi-Fi. The router keeps disconnecting, and the technician can't come until Thursday. For now, here's a quick fix: switch off the router, wait thirty seconds and switch it on again. If that doesn't work, use the cable in the living room. It isn't long enough to reach the bedrooms, so we'll have to work in the living room in the meantime. The technician might replace the router, so it should be fine soon.",
+   "hash": "30a18eea950f"
+  },
+  "l20-cc-1a": {
+   "file": "l20-cc-1a.mp3",
+   "duration": 2.98,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If the problem comes back, please let us know.",
+   "hash": "234d0ad42ac7"
+  },
+  "l20-cc-1b": {
+   "file": "l20-cc-1b.mp3",
+   "duration": 3.64,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "If it drops again, we'll send the technician back.",
+   "hash": "0369cb5bb95b"
+  },
+  "l20-cc-2a": {
+   "file": "l20-cc-2a.mp3",
+   "duration": 3.6,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Unless we hear from you, we'll close the ticket.",
+   "hash": "01b7e6ef18d6"
+  },
+  "l20-cc-2b": {
+   "file": "l20-cc-2b.mp3",
+   "duration": 2.64,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Unless it's fixed by noon, I'll call again.",
+   "hash": "85dd0da84304"
+  },
+  "l20-cc-3a": {
+   "file": "l20-cc-3a.mp3",
+   "duration": 3.45,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Has the connection worked properly since Tuesday?",
+   "hash": "c5630ca84c16"
+  },
+  "l20-cc-3b": {
+   "file": "l20-cc-3b.mp3",
+   "duration": 2.34,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "It's worked much better since the visit.",
+   "hash": "e8304599a1f7"
+  },
+  "l20-dict-1": {
+   "file": "l20-dict-1.mp3",
+   "duration": 4.22,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.9,
+   "text": "If the problem comes back, please reply to this email.",
+   "hash": "bd89e0c8437a"
+  },
+  "l20-dlg-01": {
+   "file": "l20-dlg-01.mp3",
+   "duration": 3.6,
+   "speaker": "grace",
+   "voice": "af_nova",
+   "speed": 0.95,
+   "text": "Good morning, customer service, Grace speaking.",
+   "hash": "40cb9d3399b0"
+  },
+  "l20-dlg-02": {
+   "file": "l20-dlg-02.mp3",
+   "duration": 6.3,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi, I'm following up on a complaint about my internet connection. My ticket number is 309.",
+   "hash": "b5e5e538b2e0"
+  },
+  "l20-dlg-03": {
+   "file": "l20-dlg-03.mp3",
+   "duration": 8.45,
+   "speaker": "grace",
+   "voice": "af_nova",
+   "speed": 0.95,
+   "text": "Thank you. I can see a technician visited on Tuesday. Has the connection worked properly since then?",
+   "hash": "e52ba6dd7724"
+  },
+  "l20-dlg-04": {
+   "file": "l20-dlg-04.mp3",
+   "duration": 7.3,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Not really. It's better, but it still drops two or three times a day. That isn't good enough for my online classes.",
+   "hash": "1bcc576920ef"
+  },
+  "l20-dlg-05": {
+   "file": "l20-dlg-05.mp3",
+   "duration": 7.03,
+   "speaker": "grace",
+   "voice": "af_nova",
+   "speed": 0.95,
+   "text": "I'm sorry about that. If it drops again today, we'll send the technician back tomorrow morning.",
+   "hash": "ab81b30a149b"
+  },
+  "l20-dlg-06": {
+   "file": "l20-dlg-06.mp3",
+   "duration": 2.3,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "And what if that doesn't solve it either?",
+   "hash": "949c9633ad50"
+  },
+  "l20-dlg-07": {
+   "file": "l20-dlg-07.mp3",
+   "duration": 5.09,
+   "speaker": "grace",
+   "voice": "af_nova",
+   "speed": 0.95,
+   "text": "Then we'll escalate the case to our network team, and you won't pay for this month.",
+   "hash": "7e4d33902ee3"
+  },
+  "l20-dlg-08": {
+   "file": "l20-dlg-08.mp3",
+   "duration": 5.37,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Okay, that sounds fair. I'll keep an eye on it and get back to you this afternoon.",
+   "hash": "73be3ae60814"
+  },
+  "l20-gd": {
+   "file": "l20-gd.mp3",
+   "duration": 7.48,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If the problem comes back, please reply to this email. Unless we hear from you within seven days, we'll close the ticket.",
+   "hash": "e2e7fad562a0"
+  },
+  "l20-ph-confirmed-ex": {
+   "file": "l20-ph-confirmed-ex.mp3",
+   "duration": 3.0,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The technician confirmed the visit for tomorrow.",
+   "hash": "5326a03c11f4"
+  },
+  "l20-ph-confirmed-slow": {
+   "file": "l20-ph-confirmed-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Confirmed.",
+   "hash": "50021ea7da33"
+  },
+  "l20-ph-confirmed-uk": {
+   "file": "l20-ph-confirmed-uk.mp3",
+   "duration": 1.49,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Confirmed.",
+   "hash": "8e4aab5f5189"
+  },
+  "l20-ph-confirmed-us": {
+   "file": "l20-ph-confirmed-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Confirmed.",
+   "hash": "82fc8b00836c"
+  },
+  "l20-ph-doubt-ex": {
+   "file": "l20-ph-doubt-ex.mp3",
+   "duration": 2.85,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I have no doubt it will work this time.",
+   "hash": "9d77f10e6f72"
+  },
+  "l20-ph-doubt-slow": {
+   "file": "l20-ph-doubt-slow.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Doubt.",
+   "hash": "14e49386c57c"
+  },
+  "l20-ph-doubt-uk": {
+   "file": "l20-ph-doubt-uk.mp3",
+   "duration": 1.23,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Doubt.",
+   "hash": "80539b34809d"
+  },
+  "l20-ph-doubt-us": {
+   "file": "l20-ph-doubt-us.mp3",
+   "duration": 1.17,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Doubt.",
+   "hash": "b9e6a21e24e2"
+  },
+  "l20-ph-hour-ex": {
+   "file": "l20-ph-hour-ex.mp3",
+   "duration": 3.47,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "A technician will call you within an hour.",
+   "hash": "ae7ad8f2e677"
+  },
+  "l20-ph-hour-slow": {
+   "file": "l20-ph-hour-slow.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Hour.",
+   "hash": "81a278caf1b9"
+  },
+  "l20-ph-hour-uk": {
+   "file": "l20-ph-hour-uk.mp3",
+   "duration": 1.21,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Hour.",
+   "hash": "824e186aaf6b"
+  },
+  "l20-ph-hour-us": {
+   "file": "l20-ph-hour-us.mp3",
+   "duration": 1.15,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Hour.",
+   "hash": "39b9bce20ea9"
+  },
+  "l20-ph-issue-ex": {
+   "file": "l20-ph-issue-ex.mp3",
+   "duration": 2.51,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We'll look into the issue today.",
+   "hash": "55c2f0b58066"
+  },
+  "l20-ph-issue-slow": {
+   "file": "l20-ph-issue-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Issue.",
+   "hash": "895725355c0c"
+  },
+  "l20-ph-issue-uk": {
+   "file": "l20-ph-issue-uk.mp3",
+   "duration": 1.29,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Issue.",
+   "hash": "c7703579d6e5"
+  },
+  "l20-ph-issue-us": {
+   "file": "l20-ph-issue-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Issue.",
+   "hash": "8cb0b5a40b82"
+  },
+  "l20-ph-resolved-ex": {
+   "file": "l20-ph-resolved-ex.mp3",
+   "duration": 3.07,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We resolved the issue on Tuesday.",
+   "hash": "1f9503348fae"
+  },
+  "l20-ph-resolved-slow": {
+   "file": "l20-ph-resolved-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Resolved.",
+   "hash": "6bfbd4425b8c"
+  },
+  "l20-ph-resolved-uk": {
+   "file": "l20-ph-resolved-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Resolved.",
+   "hash": "7da06a1a618f"
+  },
+  "l20-ph-resolved-us": {
+   "file": "l20-ph-resolved-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Resolved.",
+   "hash": "ada300c3857f"
+  },
+  "l20-reg-c1": {
+   "file": "l20-reg-c1.mp3",
+   "duration": 3.1,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Yay, it's all sorted! Thanks a million!",
+   "hash": "13f7d88d2978"
+  },
+  "l20-reg-c2": {
+   "file": "l20-reg-c2.mp3",
+   "duration": 3.66,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Still not working, I'm afraid. Can you take another look?",
+   "hash": "4d160b964084"
+  },
+  "l20-reg-f1": {
+   "file": "l20-reg-f1.mp3",
+   "duration": 4.11,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Could you please confirm that the issue has been resolved?",
+   "hash": "ece3639edca8"
+  },
+  "l20-reg-f2": {
+   "file": "l20-reg-f2.mp3",
+   "duration": 4.6,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Should you require further assistance, please do not hesitate to contact us.",
+   "hash": "65850f488a1a"
+  },
+  "l20-reg-n1": {
+   "file": "l20-reg-n1.mp3",
+   "duration": 3.6,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'm just following up on my ticket from last week.",
+   "hash": "1cf1c2e88a86"
+  },
+  "l20-reg-n2": {
+   "file": "l20-reg-n2.mp3",
+   "duration": 2.87,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "It works now, but it still isn't fast enough.",
+   "hash": "3ffbd5fa75be"
+  },
+  "l20-reg-n3": {
+   "file": "l20-reg-n3.mp3",
+   "duration": 2.64,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "If the problem comes back, I'll let you know.",
+   "hash": "3f69d648099c"
+  },
+  "l20-scn": {
+   "file": "l20-scn.mp3",
+   "duration": 33.01,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Dear Alex, I'm following up on your ticket about the wireless headphones. According to our records, the courier delivered the replacement on Monday. Could you confirm that the new pair is working properly? If the problem comes back, please reply to this email, and we'll arrange a full refund. Unless we hear from you within seven days, we'll close the ticket. If you have any questions, please do not hesitate to contact us. Kind regards, George Hall, Customer Service",
+   "hash": "7d9505ddd7c0"
+  },
+  "l20-task-formal": {
+   "file": "l20-task-formal.mp3",
+   "duration": 9.01,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "I would appreciate it if you could confirm that the issue has been resolved. Should you require any further information, please do not hesitate to contact me.",
+   "hash": "94434c9b8dfb"
+  },
+  "l20-task-model": {
+   "file": "l20-task-model.mp3",
+   "duration": 27.07,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Grace, I'm following up on ticket 309 about my internet connection. The technician visited on Tuesday, and the connection has been much more stable since then. However, it still drops in the evening, so it isn't reliable enough for my online classes. If it happens again tonight, I'll send you a screenshot of the speed test. Unless the problem disappears by Friday, could you send the technician back? Thanks for your help, Sarah",
+   "hash": "b93e08bf8a2b"
+  },
+  "m04-rv-dict-1": {
+   "file": "m04-rv-dict-1.mp3",
+   "duration": 3.73,
+   "speaker": "grace",
+   "voice": "af_nova",
+   "speed": 0.9,
+   "text": "We'll send the technician back if it drops again.",
+   "hash": "7f12b42ec07f"
+  }
+ }
+}
