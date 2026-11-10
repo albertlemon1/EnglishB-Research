@@ -1,0 +1,147 @@
+{
+  "id": "review",
+  "title": "Module 6 Review",
+  "titleEs": "Repaso del Módulo 6",
+  "intro": "Doce preguntas que mezclan las cinco lecciones, con un ejercicio de acento y un dictado. Si fallas alguna, la explicación te dice a qué lección volver.",
+  "items": [
+    {
+      "type": "choice",
+      "lesson": "l26",
+      "prompt": "Elige la forma correcta.",
+      "text": "We ___ to London on Monday. We have the tickets.",
+      "options": [
+        "are flying",
+        "will flying",
+        "flying"
+      ],
+      "answer": 0,
+      "explain": "Plan cerrado → Present Continuous. (Lección 26)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l26",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "We arrive to London at seven.",
+      "accept": [
+        "We arrive in London at seven."
+      ],
+      "explain": "*Arrive in* + ciudad. (Lección 26)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l27",
+      "prompt": "Elige la forma correcta.",
+      "text": "Our train is cancelled? Okay, ___ ask at the information desk.",
+      "options": [
+        "I'll",
+        "I",
+        "I'm"
+      ],
+      "answer": 0,
+      "explain": "Decisión del momento → *I'll*. (Lección 27)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l27",
+      "prompt": "Corrige el error.",
+      "wrong": "We lost the train because of the queue.",
+      "accept": [
+        "We missed the train because of the queue."
+      ],
+      "explain": "Perder el tren = *miss*. (Lección 27)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l28",
+      "prompt": "Elige la preposición correcta.",
+      "text": "The bank is ___ the left.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "*On the left*. (Lección 28)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l28",
+      "prompt": "Corrige el error.",
+      "wrong": "Could you tell me where is the station?",
+      "accept": [
+        "Could you tell me where the station is?"
+      ],
+      "explain": "Pregunta indirecta: orden de afirmación. (Lección 28)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l29",
+      "prompt": "Elige la forma correcta.",
+      "text": "Would it be possible ___ a late check-out?",
+      "options": [
+        "to have",
+        "having",
+        "have"
+      ],
+      "answer": 0,
+      "explain": "*Would it be possible to* + verbo base. (Lección 29)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l29",
+      "prompt": "Corrige el error.",
+      "wrong": "Where can I leave my luggages?",
+      "accept": [
+        "Where can I leave my luggage?"
+      ],
+      "explain": "*Luggage* es incontable. (Lección 29)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l30",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you go in August, you ___ the festival.",
+      "options": [
+        "will see",
+        "see will",
+        "seeing"
+      ],
+      "answer": 0,
+      "explain": "First Conditional para recomendar. (Lección 30)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l30",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "I want to know Edinburgh.",
+      "accept": [
+        "I want to visit Edinburgh.",
+        "I want to see Edinburgh."
+      ],
+      "explain": "«Conocer» un lugar = *visit*. (Lección 30)"
+    },
+    {
+      "type": "stress",
+      "lesson": "l26",
+      "prompt": "¿Qué sílaba de *departure* lleva el acento?",
+      "word": "departure",
+      "syllables": [
+        "de",
+        "par",
+        "ture"
+      ],
+      "answer": 1,
+      "audioRef": "l26-ph-departure-us",
+      "explain": "de-**PAR**-ture. (Lección 26)"
+    },
+    {
+      "type": "dictation",
+      "lesson": "l28",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "sophie",
+      "audio": "m06-rv-dict-1",
+      "text": "Go straight on and take the second street on the left.",
+      "explain": "Imperativos para indicar el camino. (Lección 28)"
+    }
+  ]
+}

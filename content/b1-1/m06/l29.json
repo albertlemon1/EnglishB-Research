@@ -1,0 +1,799 @@
+{
+  "id": "l29",
+  "n": 29,
+  "title": "Managing Hotel Stays & Accommodation Requests",
+  "titleEs": "Gestionar la estancia en el hotel y las peticiones de alojamiento",
+  "minutes": 60,
+  "summary": "Haz peticiones y reclamaciones en el hotel: *Would it be possible to…?*, promesas con *will* y condiciones con el First Conditional.",
+  "canDo": [
+    "Puedo hacer peticiones muy corteses con *Would it be possible to…?*.",
+    "Puedo entender promesas y ofrecimientos del personal (*I'll send someone up*).",
+    "Puedo entender y negociar condiciones (*If you need the room until two, there will be a charge*).",
+    "Puedo pronunciar *luggage* con /dʒ/ final, *suite* como *sweet* y *stairs* sin /e/ inicial."
+  ],
+  "focus": {
+    "grammar": "will para prometer y ofrecer · Would it be possible to + verbo base? · If + presente, there will be… · Present Continuous para planes (We're checking out on Monday)",
+    "lexis": "check in / check out, a late check-out, Is breakfast included?, extra towels, straight away, send someone up, a different room, luggage, Should you require…",
+    "afh": "s-cluster st- (stairs) · /dʒ/ final en luggage · suite = /swiːt/ · s = /z/ en reservation · diptongo /aʊ/ en towels"
+  },
+  "warmup": "Piensa en la última vez que algo falló en un hotel o en un alojamiento: la calefacción, el ruido, la limpieza… ¿Cómo lo pediste o lo reclamaste?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Respuesta del hotel",
+      "context": "Por la huelga de trenes (Lección 27), Priya avisó al hotel de Edimburgo de que llegarían muy tarde y pidió una habitación tranquila. Sophie, la recepcionista, le responde.",
+      "speaker": "sophie",
+      "to": "Priya",
+      "audio": "l29-scn",
+      "text": "Dear Priya, thank you for your message, and I'm sorry to hear about the strike. Please don't worry about your late arrival: our reception is open twenty-four hours, so someone {{will be}} here when you arrive. {{I'll make sure}} your room is on a high floor, away from the street. {{If you need}} a taxi from the station, {{we'll be happy to}} book one for you. We look forward to welcoming you. Kind regards, Sophie Bennett, Reception"
+    },
+    "dialogue": {
+      "title": "Peticiones en recepción",
+      "context": "A la mañana siguiente, Priya baja a recepción.",
+      "lines": [
+        {
+          "speaker": "priya",
+          "audio": "l29-dlg-01",
+          "text": "Good morning. I'm afraid there's a problem with our room. The heating isn't working."
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l29-dlg-02",
+          "text": "I'm so sorry about that. {{I'll send}} someone up {{straight away}}."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l29-dlg-03",
+          "text": "Thank you. Also, {{would it be possible to}} get some extra towels?"
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l29-dlg-04",
+          "text": "Of course. {{I'll ask}} housekeeping to bring them this morning."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l29-dlg-05",
+          "text": "Great. And we{{'re checking out}} on Monday. Could we have a {{late check-out}}?"
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l29-dlg-06",
+          "text": "Check-out is at eleven, but {{if you need}} the room until two, {{there will be}} a small charge of twenty pounds."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l29-dlg-07",
+          "text": "That's fine. We'll take it."
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l29-dlg-08",
+          "text": "Perfect. {{I'll put}} it on your bill. Enjoy your stay!"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué problema tiene la habitación?",
+        "options": [
+          "Es ruidosa",
+          "No funciona la calefacción",
+          "No hay toallas"
+        ],
+        "answer": 1,
+        "explain": "*The heating isn't working.*"
+      },
+      {
+        "q": "¿Qué hará Sophie con las toallas?",
+        "options": [
+          "Pedir que las lleven esa mañana",
+          "Dejarlas en recepción",
+          "Cobrarlas aparte"
+        ],
+        "answer": 0,
+        "explain": "*I'll ask housekeeping to bring them this morning.* (*housekeeping* = servicio de limpieza)."
+      },
+      {
+        "q": "¿Qué condición tiene la salida tardía?",
+        "options": [
+          "Es gratis",
+          "Solo hasta las once",
+          "Cuesta veinte libras si se quedan hasta las dos"
+        ],
+        "answer": 2,
+        "explain": "*If you need the room until two, there will be a small charge of twenty pounds.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, reseñas informales, chats.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l29-reg-c1",
+            "text": "The room's tiny, but the view is amazing!",
+            "note": "*Tiny* = diminuto."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l29-reg-c2",
+            "text": "Do they have free Wi-Fi? I can't live without it.",
+            "note": "Exageración informal."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Recepción, llamadas al hotel, compañeros de viaje.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l29-reg-n1",
+            "text": "Could we have some extra towels, please?",
+            "note": "*Could we have…?* = petición educada estándar."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l29-reg-n2",
+            "text": "We're checking out on Monday morning.",
+            "note": "Present Continuous: plan cerrado."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l29-reg-n3",
+            "text": "Is breakfast included?",
+            "note": "*Included* = incluido en el precio."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Correos del hotel, avisos en la habitación, reservas.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l29-reg-f1",
+            "text": "Would it be possible to arrange a late check-out?",
+            "note": "*Would it be possible to* + verbo base: petición muy cortés."
+          },
+          {
+            "speaker": "sophie",
+            "audio": "l29-reg-f2",
+            "text": "Should you require anything further, please contact reception.",
+            "note": "*Should you require* = si necesita (condicional formal)."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "check in / check out",
+        "es": "registrarse / dejar el hotel",
+        "register": "neutral"
+      },
+      {
+        "en": "a late check-out",
+        "es": "una salida tardía",
+        "register": "neutral"
+      },
+      {
+        "en": "Is breakfast included?",
+        "es": "¿está incluido el desayuno?",
+        "register": "neutral"
+      },
+      {
+        "en": "extra towels",
+        "es": "toallas de más",
+        "register": "neutral"
+      },
+      {
+        "en": "straight away",
+        "es": "enseguida",
+        "register": "neutral"
+      },
+      {
+        "en": "a different room",
+        "es": "otra habitación (distinta)",
+        "register": "neutral"
+      },
+      {
+        "en": "The room's tiny!",
+        "es": "¡la habitación es diminuta!",
+        "register": "casual"
+      },
+      {
+        "en": "Would it be possible to…?",
+        "es": "¿sería posible…?",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "The room's tiny, but the view is amazing!",
+        "answer": "casual",
+        "explain": "Valoración informal, de chat o reseña rápida."
+      },
+      {
+        "text": "Could we have some extra towels, please?",
+        "answer": "neutral",
+        "explain": "Petición educada estándar."
+      },
+      {
+        "text": "Should you require anything further, please contact reception.",
+        "answer": "formal",
+        "explain": "*Should you require* es una fórmula muy formal."
+      },
+      {
+        "text": "I can't live without Wi-Fi!",
+        "answer": "casual",
+        "explain": "Exageración coloquial."
+      },
+      {
+        "text": "Would it be possible to arrange a late check-out?",
+        "answer": "formal",
+        "explain": "*Would it be possible* y *arrange*: petición muy cortés."
+      },
+      {
+        "text": "Is breakfast included?",
+        "answer": "neutral",
+        "explain": "Pregunta habitual y neutra."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Sophie promete soluciones y explica una condición. Fíjate en el verbo que usa para prometer y en cómo se forma el futuro de *there is*.",
+    "speaker": "ryan",
+    "audio": "l29-gd",
+    "text": "{{I'll send}} someone up straight away. {{If you need}} the room until two, {{there will be}} a small charge.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué hace la recepcionista con *I'll send someone up*?",
+        "options": [
+          "Promete una acción inmediata.",
+          "Cuenta algo que ya hizo.",
+          "Expresa una duda."
+        ],
+        "answer": 0,
+        "explain": "*Will* sirve para prometer y ofrecer: el personal se compromete a actuar."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma tiene el futuro de *there is / there are*?",
+        "options": [
+          "*There will be* + sustantivo.",
+          "*There is will* + sustantivo.",
+          "*Will there is* + sustantivo."
+        ],
+        "answer": 0,
+        "explain": "*There will be a small charge* = habrá un pequeño recargo."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Quieres pedir una habitación más tranquila. ¿Qué frase es más adecuada en un hotel?",
+        "options": [
+          "Would it be possible to have a quieter room?",
+          "Give me a quieter room.",
+          "I want other room."
+        ],
+        "answer": 0,
+        "explain": "*Would it be possible to…?* es la petición más cortés. Las otras suenan bruscas, y *other room* es incorrecto."
+      }
+    ],
+    "rule": {
+      "points": [
+        "*Will* para prometer y ofrecer, típico del personal: *I'll send someone up.*",
+        "Present Continuous para planes cerrados (Lección 26): *We're checking out on Monday.*",
+        "First Conditional para las condiciones: *If you need the room until two, there will be a charge.*",
+        "*Would it be possible to* + verbo base: la petición más cortés."
+      ],
+      "formulas": [
+        "I'll + verbo base (promesa / ofrecimiento)",
+        "Would it be possible to + verbo base?",
+        "If + presente, there will be + sustantivo"
+      ],
+      "note": "«Otra habitación» es *a different room* (distinta) o *another room* (una más), nunca *other room*. Y *luggage* es incontable: *my luggage*, no *my luggages*."
+    }
+  },
+  "phonetics": {
+    "intro": "En el hotel aparecen palabras con trampas para el hispanohablante: *suite* no se pronuncia como se escribe, *luggage* termina en /dʒ/, *stairs* lleva el grupo st- y *reservation* tiene una s que suena /z/.",
+    "items": [
+      {
+        "id": "luggage",
+        "term": "Luggage",
+        "pos": "n.",
+        "meaning": "equipaje",
+        "ipa": {
+          "us": "/ˈlʌɡ.ɪdʒ/",
+          "uk": "/ˈlʌɡ.ɪdʒ/"
+        },
+        "afh": "LÁ-guidy",
+        "say": "Luggage.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, LUG."
+          },
+          {
+            "type": "consonant",
+            "text": "*-age* suena /ɪdʒ/, «idy»: no «ay» ni «aje»."
+          },
+          {
+            "type": "vowel",
+            "text": "La u es /ʌ/: una a corta, «LÁ»."
+          }
+        ],
+        "example": {
+          "speaker": "sophie",
+          "text": "We can keep your luggage after check-out."
+        }
+      },
+      {
+        "id": "reservation",
+        "term": "Reservation",
+        "pos": "n.",
+        "meaning": "reserva",
+        "ipa": {
+          "us": "/ˌrez.ɚˈveɪ.ʃən/",
+          "uk": "/ˌrez.əˈveɪ.ʃən/"
+        },
+        "afh": "re-zer-VÉI-shen",
+        "say": "Reservation.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La s suena /z/, sonora: «re-zer»."
+          },
+          {
+            "type": "consonant",
+            "text": "La v es /v/, con el labio inferior bajo los dientes."
+          },
+          {
+            "type": "stress",
+            "text": "Acento principal en VA, la tercera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "I have a reservation for three nights."
+        }
+      },
+      {
+        "id": "suite",
+        "term": "Suite",
+        "pos": "n.",
+        "meaning": "suite",
+        "ipa": {
+          "us": "/swiːt/",
+          "uk": "/swiːt/"
+        },
+        "afh": "SUIIT",
+        "say": "Suite.",
+        "alerts": [
+          {
+            "type": "spelling",
+            "text": "Se pronuncia igual que *sweet*: «suiit». No digas «suit»."
+          },
+          {
+            "type": "vowel",
+            "text": "*-ui-e* suena /iː/, una i larga."
+          },
+          {
+            "type": "consonant",
+            "text": "*Su-* es /sw/: la s y una u rápida, juntas."
+          }
+        ],
+        "example": {
+          "speaker": "sophie",
+          "text": "We can upgrade you to a suite tonight."
+        }
+      },
+      {
+        "id": "stairs",
+        "term": "Stairs",
+        "pos": "n.",
+        "meaning": "escaleras",
+        "ipa": {
+          "us": "/sterz/",
+          "uk": "/steəz/"
+        },
+        "afh": "STERZ",
+        "say": "Stairs.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*St-* sin e: «sss-terz», nunca «es-ters»."
+          },
+          {
+            "type": "consonant",
+            "text": "La s final suena /z/: «sterz»."
+          },
+          {
+            "type": "vowel",
+            "text": "En EE. UU. suena «er»; en Reino Unido, «ea», sin r."
+          }
+        ],
+        "example": {
+          "speaker": "sophie",
+          "text": "The lift is out of order, so please use the stairs."
+        }
+      },
+      {
+        "id": "towels",
+        "term": "Towels",
+        "pos": "n.",
+        "meaning": "toallas",
+        "ipa": {
+          "us": "/ˈtaʊ.əlz/",
+          "uk": "/ˈtaʊ.əlz/"
+        },
+        "afh": "TÁU-elz",
+        "say": "Towels.",
+        "alerts": [
+          {
+            "type": "vowel",
+            "text": "*Ow* es el diptongo /aʊ/, «au»."
+          },
+          {
+            "type": "weak",
+            "text": "La segunda sílaba es una schwa muy corta: «TÁU-lz»."
+          },
+          {
+            "type": "consonant",
+            "text": "La s final suena /z/."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "Could we have some extra towels, please?"
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Promesas y ofrecimientos: will",
+        "formula": "I'll / We'll + verbo base",
+        "usage": "Lo que dice el personal para resolver un problema o atender una petición.",
+        "examples": [
+          {
+            "speaker": "sophie",
+            "audio": "l29-cc-1a",
+            "text": "{{I'll send}} someone up straight away."
+          },
+          {
+            "speaker": "sophie",
+            "audio": "l29-cc-1b",
+            "text": "{{I'll ask}} housekeeping to bring them."
+          }
+        ]
+      },
+      {
+        "title": "Peticiones corteses",
+        "formula": "Would it be possible to + verbo base? · Could we have…?",
+        "usage": "Para pedir algo en un hotel sin sonar exigente.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l29-cc-2a",
+            "text": "{{Would it be possible to}} get some extra towels?"
+          },
+          {
+            "speaker": "alex",
+            "audio": "l29-cc-2b",
+            "text": "{{Could we have}} a late check-out?"
+          }
+        ]
+      },
+      {
+        "title": "Condiciones del hotel: First Conditional",
+        "formula": "If + presente, there will be… / will + verbo base",
+        "usage": "Para entender o explicar qué pasa si pides algo extra.",
+        "examples": [
+          {
+            "speaker": "sophie",
+            "audio": "l29-cc-3a",
+            "text": "{{If you need}} the room until two, {{there will be}} a small charge."
+          },
+          {
+            "speaker": "coach",
+            "audio": "l29-cc-3b",
+            "text": "{{If you book}} two nights, breakfast {{will be}} free."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Other room",
+        "text": "*Other* no va solo delante de un sustantivo singular. Usa *a different room* o *another room*.",
+        "wrong": "Can I have other room?",
+        "right": "Could I have a different room?"
+      },
+      {
+        "title": "Luggages",
+        "text": "*Luggage* y *baggage* son incontables: no llevan -s.",
+        "wrong": "Where can I leave my luggages?",
+        "right": "Where can I leave my luggage?"
+      },
+      {
+        "title": "Arrive to the hotel",
+        "text": "Con edificios y lugares concretos, *arrive at*.",
+        "wrong": "We'll arrive to the hotel at eleven.",
+        "right": "We'll arrive at the hotel at eleven."
+      },
+      {
+        "title": "Would it be possible + -ing",
+        "text": "Tras *Would it be possible* va *to* + verbo base.",
+        "wrong": "Would it be possible having a late check-out?",
+        "right": "Would it be possible to have a late check-out?"
+      },
+      {
+        "title": "Stairs con e y suite como «suit»",
+        "text": "*Stairs* empieza con /st/ y *suite* suena como *sweet*.",
+        "wrong": "«es-TERS», «SUIT»",
+        "right": "/sterz/ («STERZ»), /swiːt/ («SUIIT»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Don't worry, I ___ someone up straight away.",
+      "options": [
+        "will send",
+        "send",
+        "am send"
+      ],
+      "answer": 0,
+      "explain": "Promesa → *will*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Would it be possible ___ a late check-out?",
+      "options": [
+        "to have",
+        "having",
+        "have"
+      ],
+      "answer": 0,
+      "explain": "*Would it be possible to* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you need the room until two, there ___ a small charge.",
+      "options": [
+        "will be",
+        "will is",
+        "is will"
+      ],
+      "answer": 0,
+      "explain": "*There will be*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "Could I have a ___ room? This one is very noisy.",
+      "options": [
+        "different",
+        "other",
+        "others"
+      ],
+      "answer": 0,
+      "explain": "*A different room*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "We're checking ___ on Monday morning.",
+      "accept": [
+        "out"
+      ],
+      "explain": "*Check out* = dejar el hotel."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la pregunta.",
+      "text": "Is breakfast ___ in the price?",
+      "accept": [
+        "included"
+      ],
+      "explain": "*Included* = incluido."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "I'll",
+        "ask",
+        "housekeeping",
+        "to",
+        "bring",
+        "them"
+      ],
+      "answer": "I'll ask housekeeping to bring them",
+      "explain": "Promesa con *I'll*."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Would",
+        "it",
+        "be",
+        "possible",
+        "to",
+        "get",
+        "extra",
+        "towels"
+      ],
+      "answer": "Would it be possible to get extra towels",
+      "explain": "Petición muy cortés."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "Where can I leave my luggages?",
+      "accept": [
+        "Where can I leave my luggage?"
+      ],
+      "explain": "*Luggage* es incontable."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "We'll arrive to the hotel at eleven.",
+      "accept": [
+        "We'll arrive at the hotel at eleven.",
+        "We will arrive at the hotel at eleven."
+      ],
+      "explain": "*Arrive at* + edificio."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Can I have other room?",
+      "accept": [
+        "Can I have another room?",
+        "Can I have a different room?",
+        "Could I have a different room?",
+        "Could I have another room?"
+      ],
+      "explain": "*A different / another room*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *reservation* lleva el acento principal?",
+      "word": "reservation",
+      "syllables": [
+        "res",
+        "er",
+        "va",
+        "tion"
+      ],
+      "answer": 2,
+      "audioRef": "l29-ph-reservation-us",
+      "explain": "res-er-**VA**-tion: acento en la tercera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *luggage* lleva el acento?",
+      "word": "luggage",
+      "syllables": [
+        "lug",
+        "gage"
+      ],
+      "answer": 0,
+      "audioRef": "l29-ph-luggage-us",
+      "explain": "**LUG**-gage: acento en la primera sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "sophie",
+      "audio": "l29-dict-1",
+      "text": "If you need the room until two, there will be a small charge.",
+      "explain": "First Conditional con *there will be*."
+    }
+  ],
+  "task": {
+    "title": "Escribe al hotel antes de llegar",
+    "format": "email",
+    "scenario": "Tienes una reserva de hotel para un viaje. Vas a llegar tarde y necesitas pedir algunas cosas. Escribe al hotel antes de tu llegada.",
+    "brief": "Write to a hotel before your stay to explain your plans and make some requests.",
+    "steps": [
+      "Di que tienes una reserva y para qué fechas (*I have a reservation for…*).",
+      "Explica tus planes con el Present Continuous (*We're arriving late…*).",
+      "Haz dos peticiones corteses (*Would it be possible to…? / Could we…?*).",
+      "Acepta una posible condición con el First Conditional (*If there is an extra charge, that will be fine*) y despídete."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 50,
+    "frames": [
+      "Dear Sir or Madam, I have a reservation for ___ from ___ to ___.",
+      "Unfortunately, we're arriving at ___. Will someone be at reception?",
+      "Would it be possible to ___?",
+      "If there is an extra charge, that will be fine.",
+      "Could we ___ after check-out? Many thanks, ___"
+    ],
+    "chunks": [
+      {
+        "label": "reservation",
+        "re": "\\b(reservation|booking)\\b"
+      },
+      {
+        "label": "Present Continuous (plan)",
+        "re": "\\b('re|'m|are|am)\\s+(arriving|leaving|checking|staying|coming|flying)\\b"
+      },
+      {
+        "label": "Would it be possible to",
+        "re": "\\bwould it be possible to\\b"
+      },
+      {
+        "label": "Could we / Could I",
+        "re": "\\bcould (we|i)\\b"
+      },
+      {
+        "label": "If…, will",
+        "re": "\\bif\\b[^.!?]{3,60}\\b(will|won't|'ll)\\b"
+      },
+      {
+        "label": "luggage / check-out",
+        "re": "\\b(luggage|check-?out|check-?in|towels|breakfast)\\b"
+      }
+    ],
+    "checks": [
+      "willTo",
+      "couldTo",
+      "ifWill",
+      "arriveTo",
+      "uncountable",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el aviso del hotel",
+      "brief": "Write a formal hotel notice about late check-out.",
+      "frames": [
+        "Should you require a late check-out, please inform reception by ___. There will be a charge of ___ for departures after ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "sarah",
+          "audio": "l29-task-model",
+          "text": "Dear Sir or Madam, I have a {{reservation}} for two people from April 18 to April 21. Unfortunately, our train is delayed, so we{{'re arriving}} at around eleven at night. Will someone be at reception? Also, {{would it be possible to}} have a quiet room on a high floor? {{If there is}} an extra charge, {{that will be}} fine. Finally, we{{'re leaving}} for the airport at three on Monday. {{Could we}} leave our luggage at the hotel after check-out? Many thanks, Sarah",
+          "tts": "Dear Sir or Madam, I have a reservation for two people from April eighteenth to April twenty-first. Unfortunately, our train is delayed, so we're arriving at around eleven at night. Will someone be at reception? Also, would it be possible to have a quiet room on a high floor? If there is an extra charge, that will be fine. Finally, we're leaving for the airport at three on Monday. Could we leave our luggage at the hotel after check-out? Many thanks, Sarah",
+          "label": "Correo al hotel (neutro)",
+          "notes": [
+            "*We're arriving*, *we're leaving*: planes cerrados con el Present Continuous.",
+            "*Would it be possible to…?* y *Could we…?*: peticiones corteses. *If there is…, that will be fine*: aceptar una condición."
+          ]
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l29-task-formal",
+          "text": "{{Should you require}} a late check-out, please inform reception by ten o'clock. {{There will be}} a charge of twenty pounds for departures after midday.",
+          "label": "Aviso del hotel (formal)",
+          "notes": [
+            "*Should you require* = *If you need* en registro muy formal.",
+            "*There will be a charge…*: condición expresada con el futuro de *there is*."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste el Present Continuous para tus planes cerrados?",
+      "¿Usaste *Would it be possible to* + verbo base?",
+      "¿Escribiste *luggage* sin -s y *a different / another room*?",
+      "¿Usaste *arrive at* + hotel (y no *arrive to*)?",
+      "¿Usaste presente tras *if* y *will* en el resultado?"
+    ]
+  }
+}

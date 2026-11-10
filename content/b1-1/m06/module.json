@@ -1,0 +1,88 @@
+{
+  "id": "m06",
+  "sublevel": "b1-1",
+  "n": 6,
+  "title": "Travel, Mobility & Exploring Places",
+  "titleEs": "Viajes, movilidad y descubrimiento de lugares",
+  "hours": 5,
+  "domains": [
+    "LC"
+  ],
+  "intro": "Este módulo sigue el viaje de Sarah y Priya a Londres y Edimburgo, desde la reserva hasta la vuelta a casa. Aprenderás a planificar un itinerario, a reaccionar ante retrasos y cancelaciones, a pedir y dar indicaciones, a resolver peticiones en el hotel y a contar y recomendar experiencias culturales. La clave es elegir bien el futuro: Present Continuous para lo que ya está reservado, going to para intenciones y predicciones con pruebas, y will para decisiones del momento, promesas y predicciones. El First Conditional te servirá para el plan B y para recomendar.",
+  "canDo": [
+    "Contar planes de viaje con el Present Continuous, going to y el presente simple para horarios.",
+    "Reaccionar ante retrasos con will (decisiones), going to (predicciones con pruebas) y el First Conditional.",
+    "Pedir y dar indicaciones con imperativos, you'll see y preguntas indirectas corteses.",
+    "Hacer peticiones en un hotel con Would it be possible to…? y entender promesas y condiciones.",
+    "Contar una experiencia cultural y recomendarla con If you go…, you'll…"
+  ],
+  "focus": {
+    "grammar": "Present Continuous (plan cerrado) · be going to (intención y predicción con pruebas) · will (decisión, promesa, predicción) · First Conditional · preguntas indirectas · Would it be possible to…?",
+    "lexis": "book a flight, a window seat, be delayed by, miss a train, a strike, go straight on, on the left, opposite, a late check-out, luggage, a local tradition, better than I expected",
+    "afh": "s-clusters de viaje (station, strike, street, straight, square, stairs, special) · /j/ frente a /dʒ/ (yet / jet, Europe / journey, year / ear) · acento de departure, opposite, museum y festival"
+  },
+  "cast": [
+    "coach",
+    "maya",
+    "leo",
+    "alex",
+    "sarah",
+    "priya",
+    "ryan",
+    "emma",
+    "george",
+    "oliver",
+    "sophie"
+  ],
+  "lessons": [
+    "l26",
+    "l27",
+    "l28",
+    "l29",
+    "l30"
+  ],
+  "blocks": [
+    {
+      "id": "lexical",
+      "n": 1,
+      "name": "Input léxico",
+      "short": "Input",
+      "text": "Escenario real, conversación y mapa de tres registros."
+    },
+    {
+      "id": "discovery",
+      "n": 2,
+      "name": "Descubrimiento guiado",
+      "short": "Descubre",
+      "text": "Deduce la regla con tres preguntas: significado, forma y uso."
+    },
+    {
+      "id": "phonetics",
+      "n": 3,
+      "name": "Glosario fonético dual",
+      "short": "Fonética",
+      "text": "IPA US/UK + Anclaje Fonético Hispanohablante."
+    },
+    {
+      "id": "consolidation",
+      "n": 4,
+      "name": "Consolidación y L1",
+      "short": "Consolida",
+      "text": "Estructuras, matices y errores típicos del español."
+    },
+    {
+      "id": "practice",
+      "n": 5,
+      "name": "Práctica",
+      "short": "Practica",
+      "text": "Ejercicios con corrección inmediata, entonación y dictado."
+    },
+    {
+      "id": "task",
+      "n": 6,
+      "name": "Tarea y autoevaluación",
+      "short": "Tarea",
+      "text": "Produce un mensaje real, compáralo con el modelo y revísalo."
+    }
+  ]
+}

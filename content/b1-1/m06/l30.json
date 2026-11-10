@@ -1,0 +1,808 @@
+{
+  "id": "l30",
+  "n": 30,
+  "title": "Describing Cultural Experiences & Local Traditions",
+  "titleEs": "Describir experiencias culturales y tradiciones locales",
+  "minutes": 60,
+  "summary": "Cuenta una experiencia cultural (Past Simple), habla de lo que viene (los tres futuros) y recomienda con el First Conditional.",
+  "canDo": [
+    "Puedo contar una experiencia cultural con el Past Simple y valorarla (*It was better than I expected*).",
+    "Puedo elegir el futuro adecuado: plan cerrado, intención o predicción.",
+    "Puedo recomendar una experiencia con *If you go…, you'll…*.",
+    "Puedo pronunciar *special* sin /e/ inicial y distinguir *year* /j/ de *ear*."
+  ],
+  "focus": {
+    "grammar": "Past Simple para lo vivido · Present Continuous / going to / will para lo que viene · If + presente, you'll… para recomendar · better than I expected",
+    "lexis": "a local tradition, try (local food), It was better than I expected, You've got to try…, epic, worth visiting, respect local customs, attract visitors",
+    "afh": "s-cluster sp- (special) · /j/ en unique y year (year frente a ear) · schwa en tradition y festival · acento de festival"
+  },
+  "warmup": "Piensa en una tradición o una fiesta local que te encante. ¿Qué se hace? ¿Qué le recomendarías a alguien que la viera por primera vez?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "De vuelta del viaje",
+      "context": "Ya en casa, Sarah le deja un mensaje de voz a Maya para darle las gracias por organizar el viaje.",
+      "speaker": "sarah",
+      "to": "Maya",
+      "audio": "l30-scn",
+      "text": "Hi Maya! We're back, and the trip was amazing. In Edinburgh, we {{went to}} a traditional Scottish dance night, and I danced for hours! Oliver says {{there's going to be}} a much bigger one in August, during the festival, and I{{'m definitely going to}} go back. {{If you ever go}} to Scotland, {{you'll love}} it. Thanks so much for organizing everything!"
+    },
+    "dialogue": {
+      "title": "¿Qué tal Edimburgo?",
+      "context": "Oliver, que creció en Edimburgo, le pregunta a Priya por el viaje.",
+      "lines": [
+        {
+          "speaker": "oliver",
+          "audio": "l30-dlg-01",
+          "text": "So, how was Edinburgh? Did you like my hometown?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l30-dlg-02",
+          "text": "We loved it! On Saturday, we {{went to}} a traditional dance night. Everyone {{was}} so friendly."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l30-dlg-03",
+          "text": "That's very Scottish. Nobody stays in their seat at those dances."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l30-dlg-04",
+          "text": "And the food! I {{tried}} haggis for the first time. {{It was better than I expected}}."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l30-dlg-05",
+          "text": "Brave! {{Are you going to}} go back?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l30-dlg-06",
+          "text": "Definitely. {{I'm going back}} in August for the festival. I've already booked my flight."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l30-dlg-07",
+          "text": "Great choice. {{If you go}} in August, {{you'll see}} street performers everywhere. But book your hotel soon, because prices go up."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l30-dlg-08",
+          "text": "Thanks for the tip! {{I'll book}} it this week."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Qué hicieron el sábado en Edimburgo?",
+        "options": [
+          "Fueron a una noche de baile tradicional",
+          "Visitaron el castillo",
+          "Fueron a un festival de cine"
+        ],
+        "answer": 0,
+        "explain": "*On Saturday, we went to a traditional dance night.*"
+      },
+      {
+        "q": "¿Qué le pareció a Priya el haggis?",
+        "options": [
+          "Horrible",
+          "Mejor de lo que esperaba",
+          "Demasiado picante"
+        ],
+        "answer": 1,
+        "explain": "*It was better than I expected.* (*expect* = esperar, prever)."
+      },
+      {
+        "q": "¿Qué le aconseja Oliver para agosto?",
+        "options": [
+          "Ir en tren",
+          "Llevar un abrigo",
+          "Reservar pronto el hotel porque suben los precios"
+        ],
+        "answer": 2,
+        "explain": "*Book your hotel soon, because prices go up.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, redes sociales, chats.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l30-reg-c1",
+            "text": "That trip was epic! Best weekend ever.",
+            "note": "*Epic* = increíble, épico (coloquial)."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l30-reg-c2",
+            "text": "You've got to try the street food there. It's amazing!",
+            "note": "*You've got to* = tienes que (recomendación entusiasta)."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Conversaciones cotidianas, recomendaciones, compañeros.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l30-reg-n1",
+            "text": "If you go in August, you'll see street performers everywhere.",
+            "note": "First Conditional para recomendar."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l30-reg-n2",
+            "text": "We went to a traditional dance night, and everyone was very friendly.",
+            "note": "Past Simple para contar la experiencia."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l30-reg-n3",
+            "text": "I'm going to visit Scotland next year.",
+            "note": "*Going to*: intención."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Guías turísticas, folletos, artículos.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l30-reg-f1",
+            "text": "The festival attracts visitors from all over the world.",
+            "note": "*Attract visitors* = atraer visitantes."
+          },
+          {
+            "speaker": "george",
+            "audio": "l30-reg-f2",
+            "text": "Visitors are encouraged to respect local customs.",
+            "note": "*Are encouraged to* = se anima a. *Customs* = costumbres."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "a local tradition",
+        "es": "una tradición local",
+        "register": "neutral"
+      },
+      {
+        "en": "try (local food)",
+        "es": "probar (comida local)",
+        "register": "neutral"
+      },
+      {
+        "en": "It was better than I expected.",
+        "es": "fue mejor de lo que esperaba",
+        "register": "neutral"
+      },
+      {
+        "en": "If you go…, you'll…",
+        "es": "si vas…, vas a…",
+        "register": "neutral"
+      },
+      {
+        "en": "You've got to try…",
+        "es": "tienes que probar…",
+        "register": "casual"
+      },
+      {
+        "en": "epic",
+        "es": "increíble, épico",
+        "register": "casual"
+      },
+      {
+        "en": "respect local customs",
+        "es": "respetar las costumbres locales",
+        "register": "formal"
+      },
+      {
+        "en": "attract visitors",
+        "es": "atraer visitantes",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "That trip was epic! Best weekend ever.",
+        "answer": "casual",
+        "explain": "*Epic* y la frase sin verbo: coloquial."
+      },
+      {
+        "text": "If you go in August, you'll see street performers everywhere.",
+        "answer": "neutral",
+        "explain": "Recomendación clara y estándar."
+      },
+      {
+        "text": "Visitors are encouraged to respect local customs.",
+        "answer": "formal",
+        "explain": "Pasiva y *customs*: lenguaje de guía turística."
+      },
+      {
+        "text": "You've got to try the street food!",
+        "answer": "casual",
+        "explain": "*You've got to* con entusiasmo: informal."
+      },
+      {
+        "text": "The festival attracts visitors from all over the world.",
+        "answer": "formal",
+        "explain": "Estilo de folleto o artículo."
+      },
+      {
+        "text": "It was better than I expected.",
+        "answer": "neutral",
+        "explain": "Valoración natural en cualquier contexto."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "En una sola intervención, Priya habla del pasado, de un plan y de una recomendación. Fíjate en el tiempo verbal de cada parte.",
+    "speaker": "ryan",
+    "audio": "l30-gd",
+    "text": "On Saturday, we {{went to}} a traditional dance night. {{I'm going back}} in August, and {{if you go}} too, {{you'll see}} the festival.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué parte habla del pasado, cuál de un plan y cuál de una recomendación?",
+        "options": [
+          "*Went* (pasado), *I'm going back* (plan cerrado), *if you go…, you'll see* (recomendación).",
+          "Todo habla del futuro.",
+          "*Went* es un plan para el sábado que viene."
+        ],
+        "answer": 0,
+        "explain": "Al contar un viaje se mezclan los tres tiempos: lo vivido, lo que ya está planeado y lo que le recomiendas a otro."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Por qué Priya dice *I'm going back* y no *I'll go back*?",
+        "options": [
+          "Porque ya tiene el vuelo reservado: plan cerrado, Present Continuous.",
+          "Porque *will* no existe con *go back*.",
+          "Porque es una predicción."
+        ],
+        "answer": 0,
+        "explain": "Tiene el billete: es un plan cerrado. *I'll go back* sonaría a decisión tomada en ese momento."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Un amigo duda si viajar en agosto. ¿Qué frase lo anima mejor?",
+        "options": [
+          "If you go in August, you'll see the festival. You'll love it!",
+          "If you will go in August, you see the festival.",
+          "You went in August."
+        ],
+        "answer": 0,
+        "explain": "First Conditional + una predicción entusiasta con *will*: así se recomienda en inglés."
+      }
+    ],
+    "rule": {
+      "points": [
+        "Past Simple para contar lo que viviste: *we went, I tried, it was*.",
+        "Para lo que viene: Present Continuous (plan cerrado), *going to* (intención) y *will* (decisión del momento o predicción: *You'll love it*).",
+        "First Conditional para recomendar: *If you go in August, you'll see…*.",
+        "Valoraciones útiles: *It was better than I expected*, *It's worth visiting*."
+      ],
+      "formulas": [
+        "Past Simple (lo vivido)",
+        "be + -ing / be going to / will (lo que viene)",
+        "If + presente, you'll + verbo base (recomendación)"
+      ],
+      "note": "«Conocer una ciudad» no es *know a city*, sino *visit* o *see*: *I'd love to visit Edinburgh*. *Know* es conocer bien algo que ya conoces. Y «asistir a» un evento es *go to* o *attend*: *assist* significa «ayudar»."
+    }
+  },
+  "phonetics": {
+    "intro": "Al hablar de cultura y tradiciones aparecen *special* (sp-), *unique* y *year*, que empiezan con una /j/ que el hispanohablante a veces omite (*year* sin /j/ suena *ear*, «oreja»). También hay sílabas átonas que se reducen a schwa en *tradition* y *festival*.",
+    "items": [
+      {
+        "id": "tradition",
+        "term": "Tradition",
+        "pos": "n.",
+        "meaning": "tradición",
+        "ipa": {
+          "us": "/trəˈdɪʃ.ən/",
+          "uk": "/trəˈdɪʃ.ən/"
+        },
+        "afh": "tra-DÍ-shen",
+        "say": "Tradition.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Tra-* se reduce a una schwa: «tra», muy breve."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en DI, la segunda sílaba. En español, «tradición» lo lleva al final."
+          },
+          {
+            "type": "consonant",
+            "text": "*-tion* suena /ʃən/, «shen»."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "Dancing is an important tradition in Scotland."
+        }
+      },
+      {
+        "id": "festival",
+        "term": "Festival",
+        "pos": "n.",
+        "meaning": "festival, fiesta",
+        "ipa": {
+          "us": "/ˈfes.tə.vəl/",
+          "uk": "/ˈfes.tɪ.vəl/"
+        },
+        "afh": "FÉS-ta-val",
+        "say": "Festival.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, FES. En español, «festival» lo lleva al final."
+          },
+          {
+            "type": "weak",
+            "text": "Las dos últimas sílabas se reducen: «FÉS-ta-vl»."
+          },
+          {
+            "type": "consonant",
+            "text": "La v es labiodental, y la l final es «oscura»."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "The festival takes place every August.",
+          "tts": "The festival takes place [every](/ˈɛvɹi/) August."
+        }
+      },
+      {
+        "id": "special",
+        "term": "Special",
+        "pos": "adj.",
+        "meaning": "especial",
+        "ipa": {
+          "us": "/ˈspeʃ.əl/",
+          "uk": "/ˈspeʃ.əl/"
+        },
+        "afh": "SPÉ-shal",
+        "say": "Special.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Sp-* sin e: «sss-PÉ-shal». No digas «es-pe-cial»."
+          },
+          {
+            "type": "consonant",
+            "text": "*-ci-* suena /ʃ/, «sh»."
+          },
+          {
+            "type": "weak",
+            "text": "Solo dos sílabas: «SPÉ-shl»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "It was a very special night."
+        }
+      },
+      {
+        "id": "unique",
+        "term": "Unique",
+        "pos": "adj.",
+        "meaning": "único",
+        "ipa": {
+          "us": "/juːˈniːk/",
+          "uk": "/juːˈniːk/"
+        },
+        "afh": "iu-NÍIK",
+        "say": "Unique.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "Empieza con /j/: «iu», no «u»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba, NIQUE."
+          },
+          {
+            "type": "spelling",
+            "text": "*-que* final suena solo /k/: «niik»."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "The city has a unique atmosphere."
+        }
+      },
+      {
+        "id": "year",
+        "term": "Year",
+        "pos": "n.",
+        "meaning": "año",
+        "ipa": {
+          "us": "/jɪr/",
+          "uk": "/jɪə/"
+        },
+        "afh": "IIR",
+        "say": "Year.",
+        "variants": [
+          {
+            "speaker": "coach",
+            "audio": "l30-ph-year-j",
+            "text": "Every year in August.",
+            "label": "/j/: year (año)",
+            "tts": "[Every](/ˈɛvɹi/) year in August."
+          },
+          {
+            "speaker": "coach",
+            "audio": "l30-ph-year-ear",
+            "text": "My left ear hurts.",
+            "label": "Sin /j/: ear (oreja)"
+          }
+        ],
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "Empieza con /j/, una «i» rápida. Sin ella, dices *ear*, que significa «oreja»."
+          },
+          {
+            "type": "vowel",
+            "text": "La vocal es /ɪ/ seguida de r (EE. UU.) o de schwa (Reino Unido)."
+          },
+          {
+            "type": "consonant",
+            "text": "No conviertas la /j/ en «dy»: es suave, sin rozamiento."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "The festival gets bigger every year.",
+          "tts": "The festival gets bigger [every](/ˈɛvɹi/) year."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Contar la experiencia: Past Simple",
+        "formula": "Sujeto + verbo en pasado · It was + adjetivo / better than I expected",
+        "usage": "Para narrar lo que viviste y valorarlo.",
+        "examples": [
+          {
+            "speaker": "sarah",
+            "audio": "l30-cc-1a",
+            "text": "We {{went to}} a traditional dance night."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l30-cc-1b",
+            "text": "{{It was better than I expected}}."
+          }
+        ]
+      },
+      {
+        "title": "Lo que viene: los tres futuros",
+        "formula": "be + -ing (plan cerrado) · be going to (intención) · will (decisión / predicción)",
+        "usage": "Para hablar del próximo viaje eligiendo bien según lo seguro que esté.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l30-cc-2a",
+            "text": "{{I'm going back}} in August."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l30-cc-2b",
+            "text": "{{I'm going to}} visit Scotland next year."
+          }
+        ]
+      },
+      {
+        "title": "Recomendar: First Conditional",
+        "formula": "If you + presente, you'll + verbo base",
+        "usage": "Para animar a otra persona y anticipar lo que vivirá.",
+        "examples": [
+          {
+            "speaker": "oliver",
+            "audio": "l30-cc-3a",
+            "text": "{{If you go}} in August, {{you'll see}} street performers everywhere."
+          },
+          {
+            "speaker": "coach",
+            "audio": "l30-cc-3b",
+            "text": "{{If you visit}} in winter, {{you'll need}} a warm coat."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Know a city",
+        "text": "«Conocer una ciudad» (ir por primera vez) es *visit* o *see*. *Know* es conocer bien algo.",
+        "wrong": "I want to know Edinburgh.",
+        "right": "I want to visit Edinburgh."
+      },
+      {
+        "title": "Assist to",
+        "text": "Falso amigo: «asistir a» un evento es *go to* o *attend*. *Assist* significa «ayudar».",
+        "wrong": "We assisted to a traditional dance.",
+        "right": "We went to a traditional dance. / We attended a traditional dance."
+      },
+      {
+        "title": "A travel",
+        "text": "Un viaje concreto es *a trip* (Lección 26).",
+        "wrong": "It was a great travel.",
+        "right": "It was a great trip."
+      },
+      {
+        "title": "Will tras if",
+        "text": "También al recomendar: presente tras *if*.",
+        "wrong": "If you will go in August, you'll see the festival.",
+        "right": "If you go in August, you'll see the festival."
+      },
+      {
+        "title": "Special con e y year sin /j/",
+        "text": "*Special* empieza con /sp/, y *year* necesita su /j/ inicial.",
+        "wrong": "«es-PE-shal», «IR» (year)",
+        "right": "/ˈspeʃ.əl/ («SPÉ-shal»), /jɪr/ («IIR»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Last weekend we ___ to a traditional dance night.",
+      "options": [
+        "went",
+        "go",
+        "are going"
+      ],
+      "answer": 0,
+      "explain": "Pasado terminado → Past Simple."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "I ___ back in August. I've already booked the flight.",
+      "options": [
+        "am going",
+        "will going",
+        "going"
+      ],
+      "answer": 0,
+      "explain": "Plan cerrado → Present Continuous."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you visit in winter, you ___ a warm coat.",
+      "options": [
+        "will need",
+        "need will",
+        "needing"
+      ],
+      "answer": 0,
+      "explain": "First Conditional: *will* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el verbo correcto.",
+      "text": "I'd love to ___ Edinburgh one day.",
+      "options": [
+        "visit",
+        "know",
+        "assist"
+      ],
+      "answer": 0,
+      "explain": "«Conocer» un lugar = *visit*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "It was better ___ I expected.",
+      "accept": [
+        "than"
+      ],
+      "explain": "*Better than I expected*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la recomendación.",
+      "text": "You've ___ to try the street food. It's amazing!",
+      "accept": [
+        "got"
+      ],
+      "explain": "*You've got to* = tienes que."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin coma).",
+      "words": [
+        "If",
+        "you",
+        "go",
+        "in",
+        "August",
+        "you'll",
+        "see",
+        "the",
+        "festival"
+      ],
+      "answer": "If you go in August you'll see the festival",
+      "explain": "Recomendación con First Conditional."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "It",
+        "was",
+        "better",
+        "than",
+        "I",
+        "expected"
+      ],
+      "answer": "It was better than I expected",
+      "explain": "Valoración en pasado."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "I want to know Edinburgh.",
+      "accept": [
+        "I want to visit Edinburgh.",
+        "I want to see Edinburgh."
+      ],
+      "explain": "*Visit*, no *know*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el falso amigo.",
+      "wrong": "We assisted to a traditional dance.",
+      "accept": [
+        "We went to a traditional dance.",
+        "We attended a traditional dance."
+      ],
+      "explain": "*Go to* / *attend*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "It was a great travel.",
+      "accept": [
+        "It was a great trip."
+      ],
+      "explain": "*A trip*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *festival* lleva el acento?",
+      "word": "festival",
+      "syllables": [
+        "fes",
+        "ti",
+        "val"
+      ],
+      "answer": 0,
+      "audioRef": "l30-ph-festival-us",
+      "explain": "**FES**-ti-val: acento en la primera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *unique* lleva el acento?",
+      "word": "unique",
+      "syllables": [
+        "u",
+        "nique"
+      ],
+      "answer": 1,
+      "audioRef": "l30-ph-unique-us",
+      "explain": "u-**NIQUE**: acento en la segunda sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "oliver",
+      "audio": "l30-dict-1",
+      "text": "If you go in August, you'll see street performers everywhere.",
+      "explain": "First Conditional para recomendar."
+    }
+  ],
+  "task": {
+    "title": "Recomienda una experiencia cultural",
+    "format": "voice",
+    "scenario": "Un amigo va a viajar pronto y te pide una recomendación. Graba (o escribe) un mensaje sobre una tradición, una fiesta o una experiencia cultural que viviste.",
+    "brief": "Leave a voice message recommending a cultural experience you had.",
+    "steps": [
+      "Cuenta qué hiciste y dónde, con el Past Simple (*Last year, I went to…*).",
+      "Valóralo (*It was better than I expected*).",
+      "Di si piensas volver y cuándo (*I'm going back… / I'm going to…*).",
+      "Recomiéndalo con *If you…, you'll…* y una frase entusiasta."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi ___! You asked about ___.",
+      "Last ___, I went to ___. We ___.",
+      "It was better than I expected!",
+      "I'm going back in ___ / I'm going to ___.",
+      "If you ever ___, you'll ___. You've got to try it!"
+    ],
+    "chunks": [
+      {
+        "label": "Past Simple",
+        "re": "\\b(went|tried|saw|was|were|had|danced|ate|visited|celebrated|said)\\b"
+      },
+      {
+        "label": "better than I expected",
+        "re": "\\bbetter than i expected\\b"
+      },
+      {
+        "label": "futuro (plan / intención)",
+        "re": "\\b(i'm going (back|to|again)|i am going (back|to|again)|i'm (flying|visiting|traveling|travelling))\\b"
+      },
+      {
+        "label": "If…, you'll…",
+        "re": "\\bif\\b[^.!?]{3,90}\\byou'll\\b"
+      },
+      {
+        "label": "tradition / festival",
+        "re": "\\b(tradition|traditional|festival|celebration|custom|local)\\b"
+      }
+    ],
+    "checks": [
+      "knowCity",
+      "assistTo",
+      "ifWill",
+      "aTravel",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: la guía turística",
+      "brief": "Write two formal sentences for a travel guide.",
+      "frames": [
+        "The ___ attracts visitors from ___. Visitors are encouraged to ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l30-task-model",
+          "text": "Hi Leo! You asked about cultural experiences abroad. Last October, Priya invited me to celebrate Canadian Thanksgiving with her family in Toronto. We {{had}} a huge dinner, and everyone {{said}} what they were thankful for. {{It was better than I expected}}! This year {{I'm going}} again: I've already booked my flight. {{If you ever get}} the chance to join a family celebration abroad, {{you'll learn}} more about a culture in one night than in a week of sightseeing. {{You've got to}} try it!",
+          "label": "Recomendación (neutro)",
+          "notes": [
+            "Past Simple para lo vivido (*had, said*) y una valoración (*It was better than I expected*).",
+            "*I'm going again* (plan cerrado) y *If you ever get…, you'll learn…* (recomendación)."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l30-task-formal",
+          "text": "The festival {{attracts visitors}} from all over the world. Visitors {{are encouraged to}} book accommodation well in advance.",
+          "label": "Guía turística (formal)",
+          "notes": [
+            "*Attract visitors*: colocación típica de textos turísticos.",
+            "*Are encouraged to* = se anima a."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste el Past Simple para contar lo que viviste?",
+      "¿Elegiste bien el futuro: Present Continuous si ya está reservado, *going to* si es una intención?",
+      "¿Usaste presente tras *if* y *you'll* en el resultado?",
+      "¿Escribiste *visit* (y no *know*) para un lugar nuevo, y *go to / attend* (y no *assist*)?",
+      "¿Escribiste *a trip* y no *a travel*?"
+    ]
+  }
+}

@@ -1,0 +1,798 @@
+{
+  "id": "l26",
+  "n": 26,
+  "title": "Planning Travel Itineraries & Booking Flights / Trains",
+  "titleEs": "Planificar un itinerario y reservar vuelos y trenes",
+  "minutes": 60,
+  "summary": "Habla de tus planes de viaje: Present Continuous para lo reservado, *going to* para las intenciones y presente simple para los horarios.",
+  "canDo": [
+    "Puedo contar lo que ya está reservado con el Present Continuous (*We're flying on Monday*).",
+    "Puedo hablar de intenciones con *going to* (*I'm going to visit the museum*).",
+    "Puedo reservar y confirmar billetes y asientos (*a return ticket, a window seat*).",
+    "Puedo pronunciar *station* sin /e/ inicial, *journey* con /dʒ/ y *Europe* con /j/."
+  ],
+  "focus": {
+    "grammar": "Present Continuous para planes cerrados · be going to para intenciones · presente simple para horarios (The train leaves at nine) · arrive in / at",
+    "lexis": "book a flight, a return / one-way ticket, a window / aisle seat, a direct flight, a layover, check in, a day trip, be off to, departs at",
+    "afh": "s-cluster st- (station) · /dʒ/ en journey frente a /j/ en Europe · fl- y gh muda en flight · acento de departure"
+  },
+  "warmup": "Piensa en tu próximo viaje (o en uno que te gustaría hacer). ¿Qué tienes ya reservado y qué es solo una idea por ahora?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "¡Todo reservado!",
+      "context": "Maya trabaja en una agencia de viajes. Priya va a dar una charla en un congreso de diseño en Londres y después viajará a Escocia con Sarah. Maya les envía el itinerario.",
+      "speaker": "maya",
+      "to": "Sarah y Priya",
+      "audio": "l26-scn",
+      "text": "Hi Sarah and Priya, great news: everything is booked! You{{'re flying}} to London on Monday, April 14, and you{{'re staying}} at a hotel near the conference center for four nights. On Friday, you{{'re taking}} the nine o'clock train to Edinburgh. It's a direct train, so you don't have to change. The journey takes about four and a half hours. I know you{{'re going to}} love Scotland! If you need anything else, just let me know. Best, Maya",
+      "tts": "Hi Sarah and Priya, great news: everything is booked! You're flying to London on Monday, April fourteenth, and you're staying at a hotel near the conference center for four nights. On Friday, you're taking the nine o'clock train to Edinburgh. It's a direct train, so you don't [have](/hˈæf/) [to](/tə/) change. The journey takes about four and a half hours. I know you're going to love Scotland! If you need anything else, just let me know. Best, Maya"
+    },
+    "dialogue": {
+      "title": "Repasando el itinerario",
+      "context": "Priya llama a Sarah después de recibir el correo de Maya.",
+      "lines": [
+        {
+          "speaker": "priya",
+          "audio": "l26-dlg-01",
+          "text": "Sarah, Maya sent the itinerary! We{{'re flying}} out on Monday at six in the evening."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l26-dlg-02",
+          "text": "Perfect. And what are you doing on Tuesday?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l26-dlg-03",
+          "text": "I{{'m giving}} a short talk at the conference in the afternoon. I'm so nervous!"
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l26-dlg-04",
+          "text": "You'll be great. While you're at the conference, I{{'m going to}} explore the city. I want to see the British Museum."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l26-dlg-05",
+          "text": "Good idea. And in Edinburgh, {{are we going to}} rent a car?"
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l26-dlg-06",
+          "text": "I don't think so. We{{'re going to}} walk everywhere and take {{a day trip}} to the Highlands by bus."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l26-dlg-07",
+          "text": "Sounds perfect. Did Maya book {{window seats}} for the train?"
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l26-dlg-08",
+          "text": "Yes, and {{an aisle seat}} for me on the plane. I always need to stretch my legs!"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Cuándo sale su vuelo?",
+        "options": [
+          "El lunes a las seis de la tarde",
+          "El martes por la tarde",
+          "El viernes a las nueve"
+        ],
+        "answer": 0,
+        "explain": "*We're flying out on Monday at six in the evening.* (Present Continuous: plan con billete)."
+      },
+      {
+        "q": "¿Qué hará Priya el martes?",
+        "options": [
+          "Visitar el British Museum",
+          "Dar una charla en el congreso",
+          "Alquilar un coche"
+        ],
+        "answer": 1,
+        "explain": "*I'm giving a short talk at the conference in the afternoon.*"
+      },
+      {
+        "q": "¿Cómo irán a las Highlands?",
+        "options": [
+          "En coche de alquiler",
+          "En tren",
+          "En una excursión de un día en autobús"
+        ],
+        "answer": 2,
+        "explain": "*We're going to … take a day trip to the Highlands by bus.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats, redes sociales.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l26-reg-c1",
+            "text": "We're off to Scotland next week. So excited!",
+            "note": "*Be off to* = irse a (coloquial)."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l26-reg-c2",
+            "text": "Road trip this weekend! Who's coming?",
+            "note": "*Road trip* = viaje en coche por carretera."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Agencias, compañeros, conversaciones cotidianas.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l26-reg-n1",
+            "text": "We're flying to London on Monday.",
+            "note": "Present Continuous: plan cerrado, con billete."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l26-reg-n2",
+            "text": "I'm going to visit my parents in the summer.",
+            "note": "*Going to*: intención, aún sin reservar."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l26-reg-n3",
+            "text": "Could I have a window seat, please?",
+            "note": "*Window seat* (ventanilla) / *aisle seat* (pasillo)."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Aerolíneas, estaciones, confirmaciones oficiales.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l26-reg-f1",
+            "text": "Your flight departs at 18:30 from Terminal 2.",
+            "tts": "Your flight departs at eighteen thirty from Terminal Two.",
+            "note": "*Depart* = salir (formal). En Reino Unido se usa mucho el horario de 24 horas."
+          },
+          {
+            "speaker": "george",
+            "audio": "l26-reg-f2",
+            "text": "Passengers are kindly requested to check in at least two hours before departure.",
+            "note": "*Are kindly requested to* = se ruega que…"
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "book a flight / a train",
+        "es": "reservar un vuelo / un tren",
+        "register": "neutral"
+      },
+      {
+        "en": "a return / one-way ticket",
+        "es": "un billete de ida y vuelta / de ida",
+        "register": "neutral"
+      },
+      {
+        "en": "a window / aisle seat",
+        "es": "un asiento de ventanilla / de pasillo",
+        "register": "neutral"
+      },
+      {
+        "en": "a direct flight / a layover",
+        "es": "un vuelo directo / una escala",
+        "register": "neutral"
+      },
+      {
+        "en": "a day trip",
+        "es": "una excursión de un día",
+        "register": "neutral"
+      },
+      {
+        "en": "check in",
+        "es": "facturar, hacer el check-in",
+        "register": "neutral"
+      },
+      {
+        "en": "be off to (Scotland)",
+        "es": "irse a (Escocia)",
+        "register": "casual"
+      },
+      {
+        "en": "departs at…",
+        "es": "sale a las…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "We're off to Scotland next week!",
+        "answer": "casual",
+        "explain": "*Be off to* es coloquial."
+      },
+      {
+        "text": "We're flying to London on Monday.",
+        "answer": "neutral",
+        "explain": "Información clara y estándar."
+      },
+      {
+        "text": "Passengers are kindly requested to check in at least two hours before departure.",
+        "answer": "formal",
+        "explain": "*Are kindly requested to* es lenguaje de aerolínea."
+      },
+      {
+        "text": "Road trip this weekend! Who's coming?",
+        "answer": "casual",
+        "explain": "Frase sin verbo y tono de chat."
+      },
+      {
+        "text": "Your flight departs at 18:30 from Terminal 2.",
+        "answer": "formal",
+        "explain": "*Departs* y el horario de 24 horas: estilo de confirmación oficial."
+      },
+      {
+        "text": "Could I have a window seat, please?",
+        "answer": "neutral",
+        "explain": "Petición educada y estándar."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Sarah y Priya hablan de su viaje. Fíjate en las dos formas de hablar del futuro: ¿qué tiene ya billete y qué es solo una intención?",
+    "speaker": "ryan",
+    "audio": "l26-gd",
+    "text": "We{{'re flying}} to London on Monday, and we{{'re staying}} near the conference center. In Edinburgh, we{{'re going to}} walk everywhere.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué diferencia hay entre *we're flying* y *we're going to walk*?",
+        "options": [
+          "*We're flying*: plan cerrado, con billete; *we're going to walk*: intención, decidida pero sin reserva.",
+          "Los dos son predicciones sobre el futuro.",
+          "*We're flying* está pasando ahora mismo."
+        ],
+        "answer": 0,
+        "explain": "El vuelo y el hotel ya están reservados. Caminar por Edimburgo es una decisión, pero no hay nada reservado."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Cómo se forma cada estructura?",
+        "options": [
+          "*Be* + verbo -ing (+ momento futuro); *be going to* + verbo base.",
+          "*Will* + verbo -ing; *going to* + verbo -ing.",
+          "Verbo en presente simple en los dos casos."
+        ],
+        "answer": 0,
+        "explain": "*We're flying* (*be* + -ing) y *we're going to walk* (*be going to* + verbo base)."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "La agente te pregunta *When are you leaving?* y ya tienes el billete. ¿Qué respuesta es más natural?",
+        "options": [
+          "We're leaving on Monday evening.",
+          "We will leave on Monday evening.",
+          "We are leave on Monday evening."
+        ],
+        "answer": 0,
+        "explain": "Para un plan ya reservado, el Present Continuous es lo natural. *We will leave* suena a decisión tomada en ese momento."
+      }
+    ],
+    "rule": {
+      "points": [
+        "Present Continuous + momento futuro = plan cerrado (billete, reserva, cita): *We're flying on Monday.*",
+        "*Be going to* + verbo base = intención o decisión ya tomada: *We're going to walk everywhere.*",
+        "Con horarios oficiales (trenes, vuelos) se usa el presente simple: *The train leaves at nine.*",
+        "*Will* no se usa para planes ya reservados. Lo verás en la Lección 27 para decisiones del momento."
+      ],
+      "formulas": [
+        "be + verbo -ing + momento futuro (plan cerrado)",
+        "be going to + verbo base (intención)",
+        "The train / flight + leaves / arrives at + hora (horario)"
+      ],
+      "note": "En español decimos «el lunes volamos a Londres» (presente). En inglés, para un plan cerrado, usa el Present Continuous: *We're flying to London on Monday*, no *We fly* ni *We will fly*."
+    }
+  },
+  "phonetics": {
+    "intro": "El vocabulario de viaje está lleno de grupos con s- (*station*, *street*), donde el hispanohablante añade una e. También aparece el contraste entre /j/ (*Europe*, *yet*) y /dʒ/ (*journey*, *jet*), que el español no distingue con claridad.",
+    "items": [
+      {
+        "id": "station",
+        "term": "Station",
+        "pos": "n.",
+        "meaning": "estación",
+        "ipa": {
+          "us": "/ˈsteɪ.ʃən/",
+          "uk": "/ˈsteɪ.ʃən/"
+        },
+        "afh": "STÉI-shen",
+        "say": "Station.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*St-* sin e: «sss-TÉI-shen», nunca «es-TEI-shon»."
+          },
+          {
+            "type": "consonant",
+            "text": "*-tion* suena /ʃən/, «shen»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "The station is a ten-minute walk from the hotel."
+        }
+      },
+      {
+        "id": "journey",
+        "term": "Journey",
+        "pos": "n.",
+        "meaning": "trayecto, viaje",
+        "ipa": {
+          "us": "/ˈdʒɝː.ni/",
+          "uk": "/ˈdʒɜː.ni/"
+        },
+        "afh": "DYÉR-ni",
+        "say": "Journey.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La j es /dʒ/, «dy», como en *jam*. No es la jota española ni una «y» suave."
+          },
+          {
+            "type": "vowel",
+            "text": "*-our-* es una vocal con r, /ɝ/: ni «ur» ni «iur»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "The train journey takes about four hours."
+        }
+      },
+      {
+        "id": "europe",
+        "term": "Europe",
+        "pos": "n.",
+        "meaning": "Europa",
+        "ipa": {
+          "us": "/ˈjʊr.əp/",
+          "uk": "/ˈjʊə.rəp/"
+        },
+        "afh": "IÚ-rap",
+        "say": "Europe.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "Empieza con /j/, una «i» rápida: «IÚ-rap». No digas «EU-rop»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba. En español, «Europa» lo lleva en RO."
+          },
+          {
+            "type": "weak",
+            "text": "La segunda sílaba es una schwa: «rap»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "It's my first trip to Europe."
+        }
+      },
+      {
+        "id": "flight",
+        "term": "Flight",
+        "pos": "n.",
+        "meaning": "vuelo",
+        "ipa": {
+          "us": "/flaɪt/",
+          "uk": "/flaɪt/"
+        },
+        "afh": "FLAIT",
+        "say": "Flight.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "*Fl-* es un grupo: f y l juntas, sin vocal en medio."
+          },
+          {
+            "type": "silent",
+            "text": "La gh es muda: «flait»."
+          },
+          {
+            "type": "vowel",
+            "text": "*-igh-* suena /aɪ/, «ai»."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "I booked a direct flight to London."
+        }
+      },
+      {
+        "id": "departure",
+        "term": "Departure",
+        "pos": "n.",
+        "meaning": "salida",
+        "ipa": {
+          "us": "/dɪˈpɑːr.tʃɚ/",
+          "uk": "/dɪˈpɑː.tʃə/"
+        },
+        "afh": "di-PÁR-cher",
+        "say": "Departure.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba, PAR."
+          },
+          {
+            "type": "consonant",
+            "text": "*-ture* suena /tʃɚ/, «cher» (en Reino Unido, «cha»). No digas «tur»."
+          },
+          {
+            "type": "weak",
+            "text": "*De-* se reduce a /dɪ/, «di»."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "Please check in two hours before departure."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Planes cerrados: Present Continuous",
+        "formula": "Sujeto + be + verbo -ing + momento futuro",
+        "usage": "Para lo que ya está organizado: billetes, reservas, citas.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l26-cc-1a",
+            "text": "We{{'re flying}} to London on Monday."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l26-cc-1b",
+            "text": "You{{'re taking}} the nine o'clock train on Friday."
+          }
+        ]
+      },
+      {
+        "title": "Intenciones: be going to",
+        "formula": "Sujeto + be going to + verbo base",
+        "usage": "Para lo que has decidido hacer, aunque no haya nada reservado.",
+        "examples": [
+          {
+            "speaker": "sarah",
+            "audio": "l26-cc-2a",
+            "text": "I{{'m going to}} visit the British Museum."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l26-cc-2b",
+            "text": "{{Are we going to}} rent a car?"
+          }
+        ]
+      },
+      {
+        "title": "Horarios: presente simple",
+        "formula": "The train / flight + leaves / arrives / departs + at + hora",
+        "usage": "Para horarios fijos de transporte, que no dependen de ti.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l26-cc-3a",
+            "text": "The train {{leaves}} at nine."
+          },
+          {
+            "speaker": "george",
+            "audio": "l26-cc-3b",
+            "text": "The flight {{arrives}} in London at seven fifteen."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Will para un plan reservado",
+        "text": "Si ya tienes billete, usa el Present Continuous. *Will* suena a decisión que se toma en ese momento.",
+        "wrong": "We will fly to London on Monday. We have the tickets.",
+        "right": "We're flying to London on Monday. We have the tickets."
+      },
+      {
+        "title": "Going to + -ing",
+        "text": "Tras *going to* va el verbo base, no -ing.",
+        "wrong": "I'm going to visiting the museum.",
+        "right": "I'm going to visit the museum."
+      },
+      {
+        "title": "A travel",
+        "text": "«Un viaje» es *a trip*. *Travel* es sobre todo verbo o sustantivo incontable (*air travel*).",
+        "wrong": "We're planning a travel to Scotland.",
+        "right": "We're planning a trip to Scotland."
+      },
+      {
+        "title": "Arrive to",
+        "text": "«Llegar a» es *arrive in* (ciudad o país) o *arrive at* (aeropuerto, estación, hotel), nunca *arrive to*.",
+        "wrong": "We arrive to London at seven.",
+        "right": "We arrive in London at seven."
+      },
+      {
+        "title": "Station con e y journey con jota",
+        "text": "*Station* empieza con /st/ y *journey*, con /dʒ/.",
+        "wrong": "«es-TEI-shon», «JUR-ni»",
+        "right": "/ˈsteɪ.ʃən/ («STÉI-shen»), /ˈdʒɝː.ni/ («DYÉR-ni»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "We ___ to London on Monday. We have the tickets.",
+      "options": [
+        "are flying",
+        "will flying",
+        "flying"
+      ],
+      "answer": 0,
+      "explain": "Plan cerrado → Present Continuous."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "I'm going to ___ the British Museum.",
+      "options": [
+        "visit",
+        "visiting",
+        "visited"
+      ],
+      "answer": 0,
+      "explain": "*Going to* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la preposición correcta.",
+      "text": "We arrive ___ London at seven.",
+      "options": [
+        "in",
+        "to",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "*Arrive in* + ciudad."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "We're planning a ___ to Scotland.",
+      "options": [
+        "trip",
+        "travel",
+        "travels"
+      ],
+      "answer": 0,
+      "explain": "Un viaje = *a trip*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa el horario.",
+      "text": "The train ___ at nine o'clock.",
+      "accept": [
+        "leaves",
+        "departs"
+      ],
+      "explain": "Horario → presente simple."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la petición.",
+      "text": "Could I have a window ___, please?",
+      "accept": [
+        "seat"
+      ],
+      "explain": "*A window seat* = asiento de ventanilla."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "We're",
+        "staying",
+        "near",
+        "the",
+        "conference",
+        "center"
+      ],
+      "answer": "We're staying near the conference center",
+      "explain": "Present Continuous: reserva de hotel."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Are",
+        "we",
+        "going",
+        "to",
+        "rent",
+        "a",
+        "car"
+      ],
+      "answer": "Are we going to rent a car",
+      "explain": "Pregunta con *going to*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "We will fly to London on Monday. We have the tickets.",
+      "accept": [
+        "We're flying to London on Monday. We have the tickets.",
+        "We are flying to London on Monday. We have the tickets."
+      ],
+      "explain": "Plan reservado → Present Continuous."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "I'm going to visiting the museum.",
+      "accept": [
+        "I'm going to visit the museum.",
+        "I am going to visit the museum."
+      ],
+      "explain": "*Going to* + verbo base."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "We arrive to London at seven.",
+      "accept": [
+        "We arrive in London at seven."
+      ],
+      "explain": "*Arrive in* + ciudad."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *departure* lleva el acento?",
+      "word": "departure",
+      "syllables": [
+        "de",
+        "par",
+        "ture"
+      ],
+      "answer": 1,
+      "audioRef": "l26-ph-departure-us",
+      "explain": "de-**PAR**-ture: acento en la segunda sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *Europe* lleva el acento?",
+      "word": "Europe",
+      "syllables": [
+        "Eu",
+        "rope"
+      ],
+      "answer": 0,
+      "audioRef": "l26-ph-europe-us",
+      "explain": "**EU**-rope: acento en la primera sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "maya",
+      "audio": "l26-dict-1",
+      "text": "You're taking the nine o'clock train on Friday.",
+      "explain": "Present Continuous para un plan cerrado."
+    }
+  ],
+  "task": {
+    "title": "Escribe a la agencia de viajes",
+    "format": "email",
+    "scenario": "Vas a hacer un viaje de una semana. Ya tienes algunas cosas reservadas y otras no. Escribe a la agencia de viajes para contar tus planes y pedir lo que te falta.",
+    "brief": "Write to a travel agent about your trip plans and ask for the bookings you still need.",
+    "steps": [
+      "Cuenta lo que ya está reservado (*I'm flying to… on…*).",
+      "Explica tus intenciones (*Then I'm going to…*).",
+      "Pide una reserva concreta (*Could you book…? / I'd like…*).",
+      "Pregunta por un horario (*What time does the … leave?*) y despídete."
+    ],
+    "length": "70–100 palabras",
+    "minWords": 50,
+    "frames": [
+      "Hi ___, I'm planning a trip to ___ in ___.",
+      "I'm flying there on ___, and I'm staying ___.",
+      "Then I'm going to ___.",
+      "Could you book ___ for me? I'd like ___.",
+      "What time does the ___ leave? Thanks, ___"
+    ],
+    "chunks": [
+      {
+        "label": "Present Continuous (plan)",
+        "re": "\\b('re|'m|are|am|is)\\s+(flying|leaving|staying|taking|arriving|meeting|traveling|travelling|driving|spending|coming)\\b"
+      },
+      {
+        "label": "going to",
+        "re": "\\bgoing to\\s+[a-z]+"
+      },
+      {
+        "label": "Could you / I'd like",
+        "re": "\\b(could you|i'd like|would you)\\b"
+      },
+      {
+        "label": "billete / reserva",
+        "re": "\\b(book|ticket|seat|reservation|flight|train|hotel)\\b"
+      },
+      {
+        "label": "horario",
+        "re": "\\b(what time|leaves? at|arrives? at|departs? at)\\b"
+      },
+      {
+        "label": "arrive in / at",
+        "re": "\\barriv(e|es|ing)\\s+(in|at)\\b"
+      }
+    ],
+    "checks": [
+      "willTo",
+      "goingToIng",
+      "aTravel",
+      "arriveTo",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el aviso de la aerolínea",
+      "brief": "Write a formal sentence for an airline confirmation.",
+      "frames": [
+        "Your flight departs at ___ from ___. Passengers are kindly requested to ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l26-task-model",
+          "text": "Hi Maya, I'm planning a trip to Canada in June, and I need your help. I{{'m flying}} to Vancouver on June 10. I already have the flight. I{{'m staying}} with my cousin for the first three nights, and then I{{'m going to}} travel to Vancouver Island by ferry. {{Could you book}} a hotel in Victoria for four nights? I'd like something near the harbor. Also, {{what time does}} the first ferry {{leave}} in the morning? Thanks a lot! Alex",
+          "tts": "Hi Maya, I'm planning a trip to Canada in June, and I need your help. I'm flying to Vancouver on June tenth. I already have the flight. I'm staying with my cousin for the first three nights, and then I'm going to travel to Vancouver Island by ferry. Could you book a hotel in Victoria for four nights? I'd like something near the harbor. Also, what time does the first ferry leave in the morning? Thanks a lot! Alex",
+          "label": "Correo a la agencia (neutro)",
+          "notes": [
+            "*I'm flying*, *I'm staying*: lo que ya está reservado. *I'm going to travel*: la intención.",
+            "*What time does the first ferry leave?*: presente simple para un horario."
+          ]
+        },
+        {
+          "speaker": "george",
+          "audio": "l26-task-formal",
+          "text": "Your flight {{departs at}} 18:30 from Terminal 2. Passengers {{are kindly requested to}} check in at least two hours before departure.",
+          "tts": "Your flight departs at eighteen thirty from Terminal Two. Passengers are kindly requested to check in at least two hours before departure.",
+          "label": "Confirmación de la aerolínea (formal)",
+          "notes": [
+            "*Departs at* + horario de 24 horas: estilo de confirmación oficial.",
+            "*Are kindly requested to* = se ruega que."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste el Present Continuous para lo que ya está reservado?",
+      "¿Usaste *going to* + verbo base para tus intenciones?",
+      "¿Escribiste *a trip* (y no *a travel*)?",
+      "¿Usaste *arrive in* / *arrive at* (y no *arrive to*)?",
+      "¿Usaste el presente simple para preguntar por un horario?"
+    ]
+  }
+}

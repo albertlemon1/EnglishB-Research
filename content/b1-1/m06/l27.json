@@ -1,0 +1,803 @@
+{
+  "id": "l27",
+  "n": 27,
+  "title": "Dealing with Travel Delays & Transport Changes",
+  "titleEs": "Afrontar retrasos y cambios de transporte",
+  "minutes": 60,
+  "summary": "Reacciona ante un retraso: *will* para decidir en el momento, *going to* para predecir con pruebas y el First Conditional para el plan B.",
+  "canDo": [
+    "Puedo decidir y ofrecer ayuda en el momento con *I'll…* (*I'll ask at the desk*).",
+    "Puedo predecir algo que ya se ve venir con *going to* (*We're going to miss the train!*).",
+    "Puedo explicar consecuencias y alternativas con el First Conditional.",
+    "Puedo pronunciar *strike* sin /e/ inicial y distinguir *yet* /j/ de *jet* /dʒ/."
+  ],
+  "focus": {
+    "grammar": "will para decisiones del momento y ofrecimientos · be going to para predicciones con pruebas · First Conditional · delayed by",
+    "lexis": "be delayed (by), be cancelled, miss a train, a connection, a strike, the information desk, platform, Typical!, we apologise for the delay, due to",
+    "afh": "s-cluster str- (strike) · /j/ frente a /dʒ/ (yet / jet) · -ed sin sílaba extra (delayed) · acento de platform y connection"
+  },
+  "warmup": "¿Te han cancelado alguna vez un tren o un vuelo? ¿Qué decidiste en ese momento: esperar, buscar otra opción, llamar a alguien?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Huelga de trenes",
+      "context": "Es viernes. Sarah y Priya llegan a la estación de Londres para ir a Edimburgo y descubren que su tren está cancelado. Priya le deja un mensaje de voz a Maya.",
+      "speaker": "priya",
+      "to": "Maya",
+      "audio": "l27-scn",
+      "text": "Hi Maya, it's Priya. We have a problem. There's a train strike, and our nine o'clock train to Edinburgh is cancelled. The next one is at two, but look at this queue: we{{'re going to}} wait for hours! Don't worry, {{I'll ask}} at the information desk about buses. {{If we can't}} get a train today, {{we'll stay}} another night in London. {{I'll call}} the hotel in Edinburgh, too. Could you check if we can get a refund? Thanks!"
+    },
+    "dialogue": {
+      "title": "En la estación",
+      "context": "Sarah y Priya miran el panel de salidas.",
+      "lines": [
+        {
+          "speaker": "sarah",
+          "audio": "l27-dlg-01",
+          "text": "Priya, look at the board. Our train is cancelled!"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l27-dlg-02",
+          "text": "Oh no, it's the strike. Okay, don't panic. {{I'll ask}} at the information desk."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l27-dlg-03",
+          "text": "Look at that queue. {{We're going to}} wait for ages."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l27-dlg-04",
+          "text": "Then {{I'll check}} the app. There's a train at two, but it's {{delayed by}} forty minutes."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l27-dlg-05",
+          "text": "{{If we take}} that one, {{we'll arrive}} after eight."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l27-dlg-06",
+          "text": "That's fine. {{I'll text}} the hotel and tell them we're arriving late."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l27-dlg-07",
+          "text": "Good idea. And {{I'll get}} us some sandwiches. It's going to be a long day!"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l27-dlg-08",
+          "text": "It certainly is. Get me a coffee, too, please!"
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Por qué está cancelado el tren?",
+        "options": [
+          "Por el mal tiempo",
+          "Por una huelga",
+          "Por una avería"
+        ],
+        "answer": 1,
+        "explain": "*Oh no, it's the strike.* (*strike* = huelga)."
+      },
+      {
+        "q": "¿Por qué Priya decide mirar la app en lugar de preguntar en información?",
+        "options": [
+          "Porque hay una cola enorme",
+          "Porque la oficina está cerrada",
+          "Porque no habla bien inglés"
+        ],
+        "answer": 0,
+        "explain": "*Look at that queue. We're going to wait for ages.* — *Then I'll check the app.*"
+      },
+      {
+        "q": "¿Qué hará Priya para avisar al hotel?",
+        "options": [
+          "Llamar a Maya",
+          "Escribir un correo",
+          "Mandar un mensaje al hotel"
+        ],
+        "answer": 2,
+        "explain": "*I'll text the hotel and tell them we're arriving late.* (*text* = mandar un mensaje)."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, chats, mensajes rápidos.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l27-reg-c1",
+            "text": "Ugh, my flight's delayed again. Typical!",
+            "note": "*Typical!* = «¡lo de siempre!», con ironía."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l27-reg-c2",
+            "text": "We missed the last bus, so we walked home.",
+            "note": "*Miss the bus* = perder el autobús."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Compañeros de viaje, personal de la estación, mensajes.",
+        "items": [
+          {
+            "speaker": "priya",
+            "audio": "l27-reg-n1",
+            "text": "Our train is cancelled, so I'll check the app.",
+            "note": "*I'll*: decisión tomada en ese momento."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l27-reg-n2",
+            "text": "I'm afraid we're going to miss our connection.",
+            "note": "*Going to*: predicción con pruebas (la hora, la cola…)."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l27-reg-n3",
+            "text": "I'll call the hotel and tell them we're arriving late.",
+            "note": "Ofrecimiento con *I'll* + plan cerrado con *we're arriving*."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Anuncios en estaciones y aeropuertos, avisos oficiales.",
+        "items": [
+          {
+            "speaker": "george",
+            "audio": "l27-reg-f1",
+            "text": "We apologise for the delay to this service.",
+            "note": "Fórmula de disculpa típica de los anuncios británicos."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l27-reg-f2",
+            "text": "Due to industrial action, all services to Edinburgh are cancelled today.",
+            "note": "*Industrial action* = huelga (formal, UK). *Due to* = debido a."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "be delayed (by forty minutes)",
+        "es": "llevar (cuarenta minutos) de retraso",
+        "register": "neutral"
+      },
+      {
+        "en": "be cancelled",
+        "es": "estar cancelado",
+        "register": "neutral"
+      },
+      {
+        "en": "miss a train / a connection",
+        "es": "perder un tren / una conexión",
+        "register": "neutral"
+      },
+      {
+        "en": "a strike",
+        "es": "una huelga",
+        "register": "neutral"
+      },
+      {
+        "en": "the information desk",
+        "es": "el mostrador de información",
+        "register": "neutral"
+      },
+      {
+        "en": "Typical!",
+        "es": "¡lo de siempre!",
+        "register": "casual"
+      },
+      {
+        "en": "We apologise for the delay.",
+        "es": "disculpen el retraso",
+        "register": "formal"
+      },
+      {
+        "en": "due to…",
+        "es": "debido a…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Ugh, my flight's delayed again. Typical!",
+        "answer": "casual",
+        "explain": "*Ugh* y *Typical!* son coloquiales."
+      },
+      {
+        "text": "Our train is cancelled, so I'll check the app.",
+        "answer": "neutral",
+        "explain": "Información y decisión expresadas con claridad."
+      },
+      {
+        "text": "We apologise for the delay to this service.",
+        "answer": "formal",
+        "explain": "Fórmula de anuncio oficial."
+      },
+      {
+        "text": "We missed the last bus, so we walked home.",
+        "answer": "casual",
+        "explain": "Anécdota informal entre amigos."
+      },
+      {
+        "text": "Due to industrial action, all services are cancelled today.",
+        "answer": "formal",
+        "explain": "*Due to* e *industrial action*: lenguaje de comunicado."
+      },
+      {
+        "text": "I'm afraid we're going to miss our connection.",
+        "answer": "neutral",
+        "explain": "Aviso educado y estándar."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Ante el problema, Priya decide algo en el momento y Sarah prevé lo que va a pasar. Fíjate en qué forma de futuro usa cada una.",
+    "speaker": "ryan",
+    "audio": "l27-gd",
+    "text": "Our train is cancelled? Okay, {{I'll ask}} at the information desk. Look at that queue! We{{'re going to}} wait for ages.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Cuándo decide Priya preguntar en información?",
+        "options": [
+          "En ese mismo momento, al ver el problema.",
+          "Lo tenía planeado desde ayer.",
+          "No lo decide: es una predicción."
+        ],
+        "answer": 0,
+        "explain": "*I'll ask* expresa una decisión espontánea: la toma al ver el tren cancelado."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma se usa para la decisión del momento y cuál para la predicción con pruebas?",
+        "options": [
+          "*Will* ('ll) + verbo base para decidir; *be going to* + verbo base para predecir lo que ya se ve.",
+          "*Be going to* para decidir; *will* para predecir.",
+          "Presente simple en los dos casos."
+        ],
+        "answer": 0,
+        "explain": "*I'll ask* (decisión al momento) frente a *We're going to wait* (la cola es la prueba)."
+      },
+      {
+        "kind": "pragmatic",
+        "q": "Tu amiga dice: *I'm so thirsty.* ¿Qué ofrecimiento es natural?",
+        "options": [
+          "I'll get you some water.",
+          "I'm going to get you some water.",
+          "I get you some water."
+        ],
+        "answer": 0,
+        "explain": "Para ofrecer ayuda en el momento, *I'll*. *I'm going to* sonaría a algo que ya tenías planeado."
+      }
+    ],
+    "rule": {
+      "points": [
+        "*Will* ('ll) + verbo base = decisión tomada en el momento u ofrecimiento: *I'll ask at the desk.*",
+        "*Be going to* + verbo base = predicción basada en lo que ves ahora: *Look at the queue! We're going to wait for ages.*",
+        "*Will* también sirve para predecir como opinión, sin pruebas visibles: *You'll love Edinburgh.*",
+        "First Conditional para las consecuencias: *If we take that train, we'll arrive after eight.*"
+      ],
+      "formulas": [
+        "I'll + verbo base (decisión / ofrecimiento)",
+        "Look! … be going to + verbo base (predicción con pruebas)",
+        "If + presente, will + verbo base"
+      ],
+      "note": "«Perder el tren» es *miss the train*, no *lose the train*. *Lose* es perder algo que ya no encuentras: *I lost my ticket*."
+    }
+  },
+  "phonetics": {
+    "intro": "En la estación oirás *strike*, que empieza con tres consonantes seguidas, y *delayed*, que no suma sílabas. Además, *yet* y *jet* solo se distinguen por el primer sonido: /j/ frente a /dʒ/.",
+    "items": [
+      {
+        "id": "delayed",
+        "term": "Delayed",
+        "pos": "adj.",
+        "meaning": "con retraso",
+        "ipa": {
+          "us": "/dɪˈleɪd/",
+          "uk": "/dɪˈleɪd/"
+        },
+        "afh": "di-LÉID",
+        "say": "Delayed.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "-ed suena /d/: dos sílabas, «di-LÉID». Nada de «de-la-YED»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba, LAYED."
+          },
+          {
+            "type": "weak",
+            "text": "*De-* se reduce a /dɪ/, «di»."
+          }
+        ],
+        "example": {
+          "speaker": "george",
+          "text": "The two o'clock train is delayed by forty minutes."
+        }
+      },
+      {
+        "id": "connection",
+        "term": "Connection",
+        "pos": "n.",
+        "meaning": "conexión, transbordo",
+        "ipa": {
+          "us": "/kəˈnek.ʃən/",
+          "uk": "/kəˈnek.ʃən/"
+        },
+        "afh": "ka-NÉK-shen",
+        "say": "Connection.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Con-* se reduce a una schwa: «ka»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en NEC, la segunda sílaba."
+          },
+          {
+            "type": "consonant",
+            "text": "*-ction* suena /kʃən/, «k-shen»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "We're going to miss our connection."
+        }
+      },
+      {
+        "id": "platform",
+        "term": "Platform",
+        "pos": "n.",
+        "meaning": "andén",
+        "ipa": {
+          "us": "/ˈplæt.fɔːrm/",
+          "uk": "/ˈplæt.fɔːm/"
+        },
+        "afh": "PLÁT-form",
+        "say": "Platform.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, PLAT."
+          },
+          {
+            "type": "consonant",
+            "text": "*Pl-* sin vocal en medio, y la t se une a la f: «plat-form»."
+          },
+          {
+            "type": "vowel",
+            "text": "La a es /æ/, abierta."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "The train leaves from platform nine."
+        }
+      },
+      {
+        "id": "strike",
+        "term": "Strike",
+        "pos": "n.",
+        "meaning": "huelga",
+        "ipa": {
+          "us": "/straɪk/",
+          "uk": "/straɪk/"
+        },
+        "afh": "STRAIK",
+        "say": "Strike.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Str-* son tres consonantes seguidas: «sss-traik». No añadas una e delante («es-traik»)."
+          },
+          {
+            "type": "vowel",
+            "text": "*-i-e* suena /aɪ/, «ai»."
+          },
+          {
+            "type": "consonant",
+            "text": "La k final se pronuncia, sin vocal de apoyo."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "There's a train strike today."
+        }
+      },
+      {
+        "id": "yet",
+        "term": "Yet",
+        "pos": "adv.",
+        "meaning": "todavía, ya (en preguntas)",
+        "ipa": {
+          "us": "/jet/",
+          "uk": "/jet/"
+        },
+        "afh": "IET",
+        "say": "Yet.",
+        "variants": [
+          {
+            "speaker": "coach",
+            "audio": "l27-ph-yet-j",
+            "text": "Has the train arrived yet?",
+            "label": "/j/: yet (todavía)"
+          },
+          {
+            "speaker": "coach",
+            "audio": "l27-ph-yet-dj",
+            "text": "The jet landed on time.",
+            "label": "/dʒ/: jet (avión)"
+          }
+        ],
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "*Y* es /j/, una «i» rápida y suave, sin rozamiento. No la conviertas en «dyet»."
+          },
+          {
+            "type": "consonant",
+            "text": "Contrasta con *jet* /dʒet/, «dyet»: si cambias el primer sonido, cambias la palabra."
+          },
+          {
+            "type": "vowel",
+            "text": "La e es parecida a la española."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "The train hasn't arrived yet."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Decisiones al momento y ofrecimientos: I'll",
+        "formula": "I'll / We'll + verbo base",
+        "usage": "Para reaccionar ante un imprevisto o para ofrecer ayuda.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l27-cc-1a",
+            "text": "{{I'll ask}} at the information desk."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l27-cc-1b",
+            "text": "{{I'll get}} us some sandwiches."
+          }
+        ]
+      },
+      {
+        "title": "Predicciones con pruebas: be going to",
+        "formula": "Look! / It's… + sujeto + be going to + verbo base",
+        "usage": "Para avisar de algo que ya se ve venir: una cola, la hora, el tráfico.",
+        "examples": [
+          {
+            "speaker": "sarah",
+            "audio": "l27-cc-2a",
+            "text": "Look at the queue! We{{'re going to}} wait for ages."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l27-cc-2b",
+            "text": "It's ten to two. We{{'re going to}} miss the train!"
+          }
+        ]
+      },
+      {
+        "title": "Consecuencias y plan B: First Conditional",
+        "formula": "If + presente, will + verbo base",
+        "usage": "Para comparar opciones cuando cambian los planes.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l27-cc-3a",
+            "text": "{{If we take}} that train, {{we'll arrive}} after eight."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l27-cc-3b",
+            "text": "{{If there are}} no trains, {{we'll stay}} in London."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Lose the train",
+        "text": "«Perder el tren» es *miss the train*. *Lose* es perder algo que no encuentras.",
+        "wrong": "We lost the train because of the queue.",
+        "right": "We missed the train because of the queue."
+      },
+      {
+        "title": "Presente para ofrecer ayuda",
+        "text": "«Tranquila, yo llamo al hotel» lleva presente en español; en inglés, un ofrecimiento espontáneo va con *I'll*.",
+        "wrong": "Don't worry, I call the hotel.",
+        "right": "Don't worry, I'll call the hotel."
+      },
+      {
+        "title": "Will + to",
+        "text": "*Will* es un modal: va con el verbo base, sin *to*.",
+        "wrong": "I'll to check the app.",
+        "right": "I'll check the app."
+      },
+      {
+        "title": "Delayed of",
+        "text": "«Con cuarenta minutos de retraso» = *delayed by forty minutes*.",
+        "wrong": "The train is delayed of forty minutes.",
+        "right": "The train is delayed by forty minutes."
+      },
+      {
+        "title": "Strike con e y yet con «dy»",
+        "text": "*Strike* empieza con /str/, y *yet* con /j/ suave.",
+        "wrong": "«es-TRAIK», «DYET» (yet)",
+        "right": "/straɪk/ («STRAIK»), /jet/ («IET»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Our train is cancelled? Okay, ___ ask at the information desk.",
+      "options": [
+        "I'll",
+        "I",
+        "I'm"
+      ],
+      "answer": 0,
+      "explain": "Decisión del momento → *I'll*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Look at that queue! We ___ wait for ages.",
+      "options": [
+        "are going to",
+        "will to",
+        "going"
+      ],
+      "answer": 0,
+      "explain": "Predicción con pruebas → *going to*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el verbo correcto.",
+      "text": "We ___ the train because of the strike.",
+      "options": [
+        "missed",
+        "lost",
+        "failed"
+      ],
+      "answer": 0,
+      "explain": "Perder el tren = *miss*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la preposición correcta.",
+      "text": "The train is delayed ___ forty minutes.",
+      "options": [
+        "by",
+        "of",
+        "in"
+      ],
+      "answer": 0,
+      "explain": "*Delayed by* + tiempo."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "If we take that train, we ___ arrive after eight.",
+      "accept": [
+        "will"
+      ],
+      "explain": "First Conditional: *will* + verbo base."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "There's a train ___ today, so all services are cancelled.",
+      "accept": [
+        "strike"
+      ],
+      "explain": "*Strike* = huelga."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "I'll",
+        "call",
+        "the",
+        "hotel",
+        "and",
+        "tell",
+        "them"
+      ],
+      "answer": "I'll call the hotel and tell them",
+      "explain": "Ofrecimiento con *I'll*."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "We're",
+        "going",
+        "to",
+        "miss",
+        "the",
+        "connection"
+      ],
+      "answer": "We're going to miss the connection",
+      "explain": "Predicción con *going to*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "We lost the train because of the queue.",
+      "accept": [
+        "We missed the train because of the queue."
+      ],
+      "explain": "*Miss the train*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Don't worry, I call the hotel.",
+      "accept": [
+        "Don't worry, I'll call the hotel.",
+        "Don't worry, I will call the hotel."
+      ],
+      "explain": "Ofrecimiento → *I'll*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "The train is delayed of forty minutes.",
+      "accept": [
+        "The train is delayed by forty minutes."
+      ],
+      "explain": "*Delayed by*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *platform* lleva el acento?",
+      "word": "platform",
+      "syllables": [
+        "plat",
+        "form"
+      ],
+      "answer": 0,
+      "audioRef": "l27-ph-platform-us",
+      "explain": "**PLAT**-form: acento en la primera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *connection* lleva el acento?",
+      "word": "connection",
+      "syllables": [
+        "con",
+        "nec",
+        "tion"
+      ],
+      "answer": 1,
+      "audioRef": "l27-ph-connection-us",
+      "explain": "con-**NEC**-tion: acento en la segunda sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "priya",
+      "audio": "l27-dict-1",
+      "text": "If there are no trains today, we'll stay another night in London.",
+      "explain": "First Conditional: plan B."
+    }
+  ],
+  "task": {
+    "title": "Aviso de retraso",
+    "format": "voice",
+    "scenario": "Tu tren o tu vuelo se ha cancelado o lleva mucho retraso. Alguien te espera en tu destino: un amigo, un familiar o el hotel. Graba (o escribe) un mensaje de voz para avisar.",
+    "brief": "Leave a voice message explaining a delay and what you will do.",
+    "steps": [
+      "Explica qué ha pasado (*Our train is cancelled because of…*).",
+      "Di lo que ya se ve venir con *going to* (*We're going to be late*).",
+      "Di lo que decides hacer en el momento con *I'll* (*I'll check… / I'll call…*).",
+      "Da el plan B con el First Conditional (*If we get…, we'll arrive…*) y despídete."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi ___, it's ___. Bad news: our ___ is cancelled / delayed by ___.",
+      "There's a huge queue, so we're going to ___.",
+      "Don't worry, I'll ___.",
+      "If we get ___, we'll arrive at ___. If not, I'll ___.",
+      "Sorry about this!"
+    ],
+    "chunks": [
+      {
+        "label": "cancelled / delayed",
+        "re": "\\b(cancell?ed|delayed)\\b"
+      },
+      {
+        "label": "going to (predicción)",
+        "re": "\\bgoing to\\s+[a-z]+"
+      },
+      {
+        "label": "I'll (decisión)",
+        "re": "\\b(i'll|we'll)\\s+[a-z]+"
+      },
+      {
+        "label": "First Conditional",
+        "re": "\\bif\\b[^.!?]{3,60}\\b(will|won't|'ll)\\b"
+      },
+      {
+        "label": "miss / strike / platform",
+        "re": "\\b(miss|missed|strike|platform|connection|queue)\\b"
+      }
+    ],
+    "checks": [
+      "loseTrain",
+      "delayedOf",
+      "willTo",
+      "goingToIng",
+      "ifWill",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el anuncio de la estación",
+      "brief": "Write a formal station announcement about a delay.",
+      "frames": [
+        "We apologise for the delay to this service. Due to ___, the ___ train will depart from platform ___ at ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "sarah",
+          "audio": "l27-task-model",
+          "text": "Hi Oliver, it's Sarah. Bad news: our train to Edinburgh is cancelled because of a strike. There's a huge queue at the ticket office, so we{{'re going to}} be late for dinner tonight. Don't worry, {{I'll check}} the app for other trains. {{If we get}} seats on the two o'clock train, {{we'll arrive}} at around seven. If not, {{I'll call}} you, and we can meet tomorrow instead. Sorry about this!",
+          "label": "Mensaje de voz (neutro)",
+          "notes": [
+            "*We're going to be late*: predicción con pruebas (la huelga, la cola).",
+            "*I'll check*, *I'll call*: decisiones del momento. *If we get…, we'll arrive…*: el plan B."
+          ]
+        },
+        {
+          "speaker": "george",
+          "audio": "l27-task-formal",
+          "text": "{{We apologise for the delay}} to this service. {{Due to}} a signal failure, the two o'clock train to Edinburgh {{will depart}} from platform nine at two forty.",
+          "label": "Anuncio de la estación (formal)",
+          "notes": [
+            "*We apologise for* + sustantivo: disculpa formal (ortografía británica).",
+            "*Due to* = debido a. *Will depart*: información oficial sobre el futuro."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Usaste *I'll* para las decisiones del momento (sin *to*)?",
+      "¿Usaste *going to* para lo que ya se ve venir?",
+      "¿Usaste presente tras *if* y *will* en el resultado?",
+      "¿Escribiste *miss the train* (y no *lose*)?",
+      "¿Escribiste *delayed by* + tiempo?"
+    ]
+  }
+}

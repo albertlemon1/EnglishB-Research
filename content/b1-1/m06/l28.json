@@ -1,0 +1,791 @@
+{
+  "id": "l28",
+  "n": 28,
+  "title": "Asking for Directions & Navigating New Cities",
+  "titleEs": "Pedir indicaciones y orientarse en una ciudad nueva",
+  "minutes": 60,
+  "summary": "Pide y da indicaciones: imperativos, *you'll see…* y el First Conditional, con preguntas indirectas corteses.",
+  "canDo": [
+    "Puedo pedir indicaciones con cortesía (*Could you tell me how to get to…?*).",
+    "Puedo dar indicaciones con imperativos (*go straight on, take the second left*).",
+    "Puedo decir qué encontrará la otra persona con *you'll see* y el First Conditional.",
+    "Puedo pronunciar *street* y *straight* sin /e/ inicial y *museum* con el acento en SE."
+  ],
+  "focus": {
+    "grammar": "Imperativos para indicar el camino · you'll see / you'll find · If + presente, you'll… · Could you tell me how to get to / where … is? · on the left, opposite, next to",
+    "lexis": "go straight on, turn left / right, take the second left, traffic lights, on your right, opposite, next to, You can't miss it, a short walk from",
+    "afh": "s-clusters str- y squ- (street, straight, square) · gh muda en straight · acento de opposite y museum · /j/ escondida en museum"
+  },
+  "warmup": "Imagina que llegas a una ciudad nueva sin datos en el móvil. ¿Cómo le pedirías a alguien en la calle que te explique cómo llegar al centro?",
+  "lexical": {
+    "scenario": {
+      "format": "text",
+      "title": "Cómo llegar al café",
+      "context": "Oliver, que creció en Edimburgo, está allí visitando a su familia. Les escribe a Sarah y a Priya para quedar el sábado por la mañana.",
+      "speaker": "oliver",
+      "to": "Sarah y Priya",
+      "audio": "l28-scn",
+      "text": "Hi both! Here's how to find the café. When you come out of the hotel, {{turn left}} and {{go straight on}} until you reach a big square. Cross the square, and {{you'll see}} a church {{on your right}}. {{Take the first street on the left}} after the church. The café is {{opposite}} the museum, so {{you can't miss it}}. {{If you get lost}}, just call me. See you at ten!"
+    },
+    "dialogue": {
+      "title": "En la recepción del hotel",
+      "context": "Sarah pide indicaciones a Sophie, la recepcionista del hotel.",
+      "lines": [
+        {
+          "speaker": "sarah",
+          "audio": "l28-dlg-01",
+          "text": "Excuse me, {{could you tell me how to get to}} the castle?"
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l28-dlg-02",
+          "text": "Of course. It's about fifteen minutes on foot. {{Go straight on}} up this street until you reach the traffic lights."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l28-dlg-03",
+          "text": "Okay, straight on to the traffic lights. And then?"
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l28-dlg-04",
+          "text": "Then turn right. {{If you keep walking}} uphill, {{you'll see}} the castle {{in front of you}}."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l28-dlg-05",
+          "text": "Great. Is there a cash machine on the way?"
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l28-dlg-06",
+          "text": "Yes, there's one {{next to}} the post office, {{on the left}}."
+        },
+        {
+          "speaker": "sarah",
+          "audio": "l28-dlg-07",
+          "text": "Perfect. And will I need a ticket for the castle?"
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l28-dlg-08",
+          "text": "Yes, but {{if you book}} online, {{you'll skip}} the queue. I'd recommend it."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "¿Cuánto se tarda a pie hasta el castillo?",
+        "options": [
+          "Unos cinco minutos",
+          "Unos quince minutos",
+          "Una hora"
+        ],
+        "answer": 1,
+        "explain": "*It's about fifteen minutes on foot.*"
+      },
+      {
+        "q": "¿Dónde está el cajero automático?",
+        "options": [
+          "Al lado de la oficina de correos, a la izquierda",
+          "Enfrente del castillo",
+          "En el hotel"
+        ],
+        "answer": 0,
+        "explain": "*There's one next to the post office, on the left.*"
+      },
+      {
+        "q": "¿Qué ventaja tiene comprar la entrada por internet?",
+        "options": [
+          "Es más barata",
+          "Incluye una visita guiada",
+          "No hay que hacer cola"
+        ],
+        "answer": 2,
+        "explain": "*If you book online, you'll skip the queue.* (*skip* = saltarse)."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Amigos, mensajes rápidos.",
+        "items": [
+          {
+            "speaker": "maya",
+            "audio": "l28-reg-c1",
+            "text": "Where's the nearest coffee place? I'm dying for a latte.",
+            "note": "*Be dying for* = morirse de ganas de."
+          },
+          {
+            "speaker": "leo",
+            "audio": "l28-reg-c2",
+            "text": "Just follow the blue dot on the map. Easy!",
+            "note": "*The blue dot* = el punto azul del mapa del móvil."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Desconocidos en la calle, recepción, compañeros de viaje.",
+        "items": [
+          {
+            "speaker": "sarah",
+            "audio": "l28-reg-n1",
+            "text": "Could you tell me how to get to the castle?",
+            "note": "*How to* + verbo: pregunta indirecta y cortés."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l28-reg-n2",
+            "text": "Go straight on and take the second left.",
+            "note": "Imperativos para indicar el camino."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l28-reg-n3",
+            "text": "Is it far from here?",
+            "note": "*Far from* = lejos de."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Hoteles, oficinas de turismo, folletos.",
+        "items": [
+          {
+            "speaker": "sophie",
+            "audio": "l28-reg-f1",
+            "text": "The museum is a short walk from the hotel, just opposite the cathedral.",
+            "note": "*A short walk from* = a poca distancia a pie de."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l28-reg-f2",
+            "text": "Visitors are advised to use the main entrance on Market Street.",
+            "note": "*Are advised to* = se recomienda."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "Could you tell me how to get to…?",
+        "es": "¿podría decirme cómo llegar a…?",
+        "register": "neutral"
+      },
+      {
+        "en": "go straight on",
+        "es": "seguir recto",
+        "register": "neutral"
+      },
+      {
+        "en": "take the second left",
+        "es": "tomar la segunda a la izquierda",
+        "register": "neutral"
+      },
+      {
+        "en": "on your right / on the left",
+        "es": "a tu derecha / a la izquierda",
+        "register": "neutral"
+      },
+      {
+        "en": "opposite / next to",
+        "es": "enfrente de / al lado de",
+        "register": "neutral"
+      },
+      {
+        "en": "You can't miss it.",
+        "es": "no tiene pérdida",
+        "register": "neutral"
+      },
+      {
+        "en": "be dying for (a coffee)",
+        "es": "morirse de ganas de (un café)",
+        "register": "casual"
+      },
+      {
+        "en": "a short walk from…",
+        "es": "a poca distancia a pie de…",
+        "register": "formal"
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "I'm dying for a latte.",
+        "answer": "casual",
+        "explain": "*Be dying for* es coloquial."
+      },
+      {
+        "text": "Could you tell me how to get to the castle?",
+        "answer": "neutral",
+        "explain": "Pregunta cortés y estándar."
+      },
+      {
+        "text": "Visitors are advised to use the main entrance on Market Street.",
+        "answer": "formal",
+        "explain": "*Are advised to*: lenguaje de folleto o cartel."
+      },
+      {
+        "text": "Just follow the blue dot on the map. Easy!",
+        "answer": "casual",
+        "explain": "Consejo informal entre amigos."
+      },
+      {
+        "text": "The museum is a short walk from the hotel, just opposite the cathedral.",
+        "answer": "formal",
+        "explain": "Tono de recepción de hotel o folleto turístico."
+      },
+      {
+        "text": "Go straight on and take the second left.",
+        "answer": "neutral",
+        "explain": "Indicaciones claras para cualquiera."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Sophie no solo dice por dónde ir: también anticipa lo que Sarah va a encontrar. Fíjate en la forma de los verbos de cada mitad.",
+    "speaker": "ryan",
+    "audio": "l28-gd",
+    "text": "{{If you keep}} walking uphill, {{you'll see}} the castle in front of you. {{If you book}} online, {{you'll skip}} the queue.",
+    "questions": [
+      {
+        "kind": "semantic",
+        "q": "¿Qué indica *you'll see the castle*?",
+        "options": [
+          "Lo que encontrarás si sigues la indicación.",
+          "Algo que ya viste ayer.",
+          "Una orden."
+        ],
+        "answer": 0,
+        "explain": "Es la consecuencia de seguir el camino: lo que aparecerá delante de Sarah."
+      },
+      {
+        "kind": "syntactic",
+        "q": "¿Qué forma tiene cada mitad de la frase?",
+        "options": [
+          "*If* + presente; resultado con *will* ('ll) + verbo base.",
+          "*If* + *will*; resultado en presente.",
+          "Las dos mitades en pasado."
+        ],
+        "answer": 0,
+        "explain": "First Conditional: *If you keep walking, you'll see…*"
+      },
+      {
+        "kind": "pragmatic",
+        "q": "¿Qué pregunta es más educada para pedir indicaciones a un desconocido?",
+        "options": [
+          "Excuse me, could you tell me how to get to the station?",
+          "Where is the station?",
+          "Could you tell me where is the station?"
+        ],
+        "answer": 0,
+        "explain": "*Excuse me* + pregunta indirecta suena cortés. *Where is…?* es correcta pero seca, y la tercera tiene el orden mal."
+      }
+    ],
+    "rule": {
+      "points": [
+        "Para indicar el camino: imperativos (*go straight on, turn left, take the second right*).",
+        "Para decir qué encontrará la otra persona: *you'll see / you'll find*, o First Conditional (*If you turn left, you'll see the square*).",
+        "Para preguntar con cortesía: *Could you tell me how to get to…?* o *… where the station is?* (orden de afirmación, Módulo 2).",
+        "Preposiciones: *on the left / on your right, opposite, next to, in front of*."
+      ],
+      "formulas": [
+        "imperativo + you'll see…",
+        "If + presente, you'll + verbo base",
+        "Could you tell me how to get to + lugar?"
+      ],
+      "note": "«A la izquierda» es *on the left*, no *in the left*. Y «enfrente de» (al otro lado de la calle) es *opposite* (UK) o *across from* (US). *In front of* significa «delante de»."
+    }
+  },
+  "phonetics": {
+    "intro": "Al moverte por una ciudad oirás muchos grupos con s- que el hispanohablante rompe con una e (*street, straight, square*). Además, *museum* esconde una /j/ y *opposite* cambia de sílaba tónica respecto al español.",
+    "items": [
+      {
+        "id": "street",
+        "term": "Street",
+        "pos": "n.",
+        "meaning": "calle",
+        "ipa": {
+          "us": "/striːt/",
+          "uk": "/striːt/"
+        },
+        "afh": "STRIIT",
+        "say": "Street.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Str-* son tres consonantes seguidas: «sss-triit». Nunca «es-trit»."
+          },
+          {
+            "type": "vowel",
+            "text": "*Ee* es /iː/, una i larga."
+          },
+          {
+            "type": "consonant",
+            "text": "La r no vibra: la lengua se curva sin tocar el paladar."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "Take the first street on the left."
+        }
+      },
+      {
+        "id": "straight",
+        "term": "Straight",
+        "pos": "adv.",
+        "meaning": "recto",
+        "ipa": {
+          "us": "/streɪt/",
+          "uk": "/streɪt/"
+        },
+        "afh": "STREIT",
+        "say": "Straight.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Str-* sin e delante: «sss-treit»."
+          },
+          {
+            "type": "silent",
+            "text": "La gh es muda: *straight* suena igual que *strait*."
+          },
+          {
+            "type": "vowel",
+            "text": "*-aigh-* suena /eɪ/, «ei»."
+          }
+        ],
+        "example": {
+          "speaker": "sophie",
+          "text": "Go straight on until you reach the traffic lights."
+        }
+      },
+      {
+        "id": "square",
+        "term": "Square",
+        "pos": "n.",
+        "meaning": "plaza",
+        "ipa": {
+          "us": "/skwer/",
+          "uk": "/skweə/"
+        },
+        "afh": "SKUÉR",
+        "say": "Square.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Squ-* son tres sonidos seguidos, /skw/: «sss-kuér», sin e delante."
+          },
+          {
+            "type": "consonant",
+            "text": "*Qu* suena /kw/, «ku»."
+          },
+          {
+            "type": "vowel",
+            "text": "En EE. UU. termina en «er»; en Reino Unido, en «ea», sin r."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "Cross the square and turn right."
+        }
+      },
+      {
+        "id": "opposite",
+        "term": "Opposite",
+        "pos": "prep.",
+        "meaning": "enfrente de",
+        "ipa": {
+          "us": "/ˈɑː.pə.zɪt/",
+          "uk": "/ˈɒp.ə.zɪt/"
+        },
+        "afh": "Á-pa-zit",
+        "say": "Opposite.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, OP."
+          },
+          {
+            "type": "weak",
+            "text": "La sílaba central es una schwa: «Á-pa-zit»."
+          },
+          {
+            "type": "consonant",
+            "text": "La s suena /z/: «zit», con zumbido."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "The café is opposite the museum."
+        }
+      },
+      {
+        "id": "museum",
+        "term": "Museum",
+        "pos": "n.",
+        "meaning": "museo",
+        "ipa": {
+          "us": "/mjuːˈziː.əm/",
+          "uk": "/mjuːˈziː.əm/"
+        },
+        "afh": "miu-ZÍI-am",
+        "say": "Museum.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba, SE, como en español, pero con una i larga: «miu-ZÍI-am»."
+          },
+          {
+            "type": "consonant",
+            "text": "La u inicial lleva una /j/ escondida: «miu», no «mu»."
+          },
+          {
+            "type": "consonant",
+            "text": "La s suena /z/, sonora."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "The museum is free on Sundays."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Indicar el camino: imperativos",
+        "formula": "Go straight on · Turn left / right · Take the first / second left · Cross the square",
+        "usage": "Para dar indicaciones paso a paso, como en el Módulo 3.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l28-cc-1a",
+            "text": "{{Go straight on}} and {{take the second left}}."
+          },
+          {
+            "speaker": "sophie",
+            "audio": "l28-cc-1b",
+            "text": "{{Turn right}} at the traffic lights."
+          }
+        ]
+      },
+      {
+        "title": "Lo que vas a encontrar: you'll see / First Conditional",
+        "formula": "You'll see / find + lugar · If + presente, you'll + verbo base",
+        "usage": "Para anticipar referencias que ayudan a no perderse.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l28-cc-2a",
+            "text": "{{If you turn}} left, {{you'll see}} the square."
+          },
+          {
+            "speaker": "oliver",
+            "audio": "l28-cc-2b",
+            "text": "{{You'll find}} the café opposite the museum."
+          }
+        ]
+      },
+      {
+        "title": "Pedir indicaciones con cortesía",
+        "formula": "Could you tell me how to get to…? · Do you know where … is?",
+        "usage": "Tras *Could you tell me / Do you know*, el orden es de afirmación (Módulo 2).",
+        "examples": [
+          {
+            "speaker": "sarah",
+            "audio": "l28-cc-3a",
+            "text": "{{Could you tell me how to get to}} the castle?"
+          },
+          {
+            "speaker": "priya",
+            "audio": "l28-cc-3b",
+            "text": "{{Do you know where}} the nearest station {{is}}?"
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "In the left",
+        "text": "«A la izquierda» = *on the left*. Con lados y direcciones se usa *on*.",
+        "wrong": "The bank is in the left.",
+        "right": "The bank is on the left."
+      },
+      {
+        "title": "In front of no es «enfrente de»",
+        "text": "*In front of* = delante de. «Enfrente, al otro lado de la calle» = *opposite* (UK) o *across from* (US).",
+        "wrong": "The café is in front of the museum, across the street.",
+        "right": "The café is opposite the museum."
+      },
+      {
+        "title": "Orden en la pregunta indirecta",
+        "text": "Tras *Could you tell me*, el verbo va después del sujeto.",
+        "wrong": "Could you tell me where is the station?",
+        "right": "Could you tell me where the station is?"
+      },
+      {
+        "title": "Will tras if",
+        "text": "En las indicaciones también: presente tras *if*, *will* en el resultado.",
+        "wrong": "If you will turn left, you'll see it.",
+        "right": "If you turn left, you'll see it."
+      },
+      {
+        "title": "Street y square con e",
+        "text": "Los grupos *str-* y *squ-* no llevan vocal delante.",
+        "wrong": "«es-TRIT», «es-KUER»",
+        "right": "/striːt/ («STRIIT»), /skwer/ («SKUÉR»)"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "Could you tell me how ___ to the castle?",
+      "options": [
+        "to get",
+        "get",
+        "getting"
+      ],
+      "answer": 0,
+      "explain": "*How to* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la preposición correcta.",
+      "text": "The bank is ___ the left.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 0,
+      "explain": "*On the left*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "If you turn right, you ___ the square.",
+      "options": [
+        "will see",
+        "will to see",
+        "seeing"
+      ],
+      "answer": 0,
+      "explain": "*Will* + verbo base."
+    },
+    {
+      "type": "choice",
+      "prompt": "Elige el orden correcto.",
+      "text": "Could you tell me where ___?",
+      "options": [
+        "the station is",
+        "is the station",
+        "station is it"
+      ],
+      "answer": 0,
+      "explain": "Pregunta indirecta: orden de afirmación."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la indicación.",
+      "text": "Go straight ___ until you reach the traffic lights.",
+      "accept": [
+        "on"
+      ],
+      "explain": "*Go straight on* = seguir recto."
+    },
+    {
+      "type": "gap",
+      "prompt": "Completa la frase.",
+      "text": "The café is ___ the museum, across the street.",
+      "accept": [
+        "opposite"
+      ],
+      "explain": "*Opposite* = enfrente de."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras.",
+      "words": [
+        "Take",
+        "the",
+        "second",
+        "street",
+        "on",
+        "the",
+        "left"
+      ],
+      "answer": "Take the second street on the left",
+      "explain": "Imperativo + *on the left*."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las palabras (sin coma).",
+      "words": [
+        "If",
+        "you",
+        "book",
+        "online",
+        "you'll",
+        "skip",
+        "the",
+        "queue"
+      ],
+      "answer": "If you book online you'll skip the queue",
+      "explain": "First Conditional."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error típico del hispanohablante.",
+      "wrong": "The bank is in the left.",
+      "accept": [
+        "The bank is on the left."
+      ],
+      "explain": "*On the left*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "Could you tell me where is the station?",
+      "accept": [
+        "Could you tell me where the station is?"
+      ],
+      "explain": "Orden de afirmación."
+    },
+    {
+      "type": "fix",
+      "prompt": "Corrige el error.",
+      "wrong": "If you will turn left, you'll see it.",
+      "accept": [
+        "If you turn left, you'll see it.",
+        "If you turn left, you will see it."
+      ],
+      "explain": "Sin *will* tras *if*."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *opposite* lleva el acento?",
+      "word": "opposite",
+      "syllables": [
+        "op",
+        "po",
+        "site"
+      ],
+      "answer": 0,
+      "audioRef": "l28-ph-opposite-us",
+      "explain": "**OP**-po-site: acento en la primera sílaba."
+    },
+    {
+      "type": "stress",
+      "prompt": "¿Qué sílaba de *museum* lleva el acento?",
+      "word": "museum",
+      "syllables": [
+        "mu",
+        "se",
+        "um"
+      ],
+      "answer": 1,
+      "audioRef": "l28-ph-museum-us",
+      "explain": "mu-**SE**-um: acento en la segunda sílaba."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Escucha y escribe exactamente lo que oyes.",
+      "speaker": "sophie",
+      "audio": "l28-dict-1",
+      "text": "Go straight on and turn right at the traffic lights.",
+      "explain": "Imperativos para indicar el camino."
+    }
+  ],
+  "task": {
+    "title": "Indicaciones para un amigo",
+    "format": "text",
+    "scenario": "Un amigo llega mañana a tu ciudad y quiere encontrarse contigo en un café, un restaurante o un parque. Escríbele cómo llegar desde su hotel o desde la estación.",
+    "brief": "Write directions from a hotel or station to a meeting point for a friend.",
+    "steps": [
+      "Di desde dónde parte (*When you come out of the station, …*).",
+      "Da tres o cuatro pasos con imperativos (*turn left, go straight on, take the second right*).",
+      "Añade referencias con *you'll see* o *If you…, you'll…*.",
+      "Di dónde está exactamente (*on the left, opposite…*) y qué hacer si se pierde."
+    ],
+    "length": "60–90 palabras",
+    "minWords": 45,
+    "frames": [
+      "Hi ___! Here's how to get to ___ from ___.",
+      "When you come out, turn ___ and go straight on for ___.",
+      "Take the ___ street on the ___. You'll see ___.",
+      "The ___ is on the ___, opposite ___.",
+      "If you get lost, ___. See you at ___!"
+    ],
+    "chunks": [
+      {
+        "label": "imperativos",
+        "re": "\\b(turn (left|right)|go straight on|take the (first|second|third|next))\\b"
+      },
+      {
+        "label": "you'll see / find",
+        "re": "\\byou'll (see|find|reach|come to)\\b"
+      },
+      {
+        "label": "First Conditional",
+        "re": "\\bif\\b[^.!?]{3,60}\\b(will|won't|'ll)\\b"
+      },
+      {
+        "label": "on the left / right",
+        "re": "\\bon (the|your) (left|right)\\b"
+      },
+      {
+        "label": "opposite / next to",
+        "re": "\\b(opposite|next to|across from|in front of|behind)\\b"
+      }
+    ],
+    "checks": [
+      "onTheLeft",
+      "indirectQuestion",
+      "ifWill",
+      "willTo",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: el folleto del hotel",
+      "brief": "Write formal directions for a hotel leaflet.",
+      "frames": [
+        "The ___ is a short walk from the hotel. On leaving the building, turn ___, and you will find ___."
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "priya",
+          "audio": "l28-task-model",
+          "text": "Hi Sarah! Here's how to get to the restaurant from the hotel. When you come out, {{turn left}} and {{go straight on}} for about five minutes. At the bookshop, {{take the second right}}, and {{you'll see}} a small park. The restaurant is {{on the left}}, {{opposite}} the park. {{If you see}} a big church, you've gone too far! {{If you get}} lost, {{I'll send}} you my location. See you at eight!",
+          "label": "Indicaciones a una amiga (neutro)",
+          "notes": [
+            "Imperativos para cada paso: *turn left, go straight on, take the second right*. *You'll see a small park*: una referencia.",
+            "*On the left, opposite the park*: la ubicación exacta. *If you see a big church, you've gone too far*: aviso para no pasarse."
+          ]
+        },
+        {
+          "speaker": "sophie",
+          "audio": "l28-task-formal",
+          "text": "The museum is {{a short walk from}} the hotel. {{On leaving}} the building, turn right, and {{you will find}} the entrance {{opposite}} the cathedral.",
+          "label": "Folleto del hotel (formal)",
+          "notes": [
+            "*On leaving* = al salir (formal).",
+            "*You will find* sin contracción: registro escrito y formal."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      "¿Diste cada paso con un imperativo claro?",
+      "¿Usaste *on the left / right* (y no *in*)?",
+      "¿Usaste *opposite* para «enfrente» y *in front of* solo para «delante de»?",
+      "¿Usaste presente tras *if* y *will* en el resultado?",
+      "¿Explicaste qué hacer si tu amigo se pierde?"
+    ]
+  }
+}
