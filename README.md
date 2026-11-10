@@ -183,3 +183,15 @@ Desde el Módulo 4, los módulos se escriben y se publican en dos fases: primero
 - **Personaje nuevo**: Sophie Bennett, recepcionista del hotel de Edimburgo. Primero se probó `bf_alice`, pero su WER en el control de calidad fue de 0,38. Con las mismas frases, `bf_lily` dio 0,22 y `bf_alice` 0,28, así que Sophie usa `bf_lily`.
 - **Fonemas**: todas las entradas de fonética coinciden con misaki sin overrides. Por coherencia con la Lección 21, *every* se fuerza a /ˈɛvɹi/ en los clips del módulo, igual que *have to*.
 - **Comprobaciones nuevas** en `checks.js`: `willTo`, `goingToIng`, `arriveTo`, `loseTrain`, `delayedOf`, `onTheLeft`, `aTravel`, `knowCity` y `assistTo`, y `uncountable` ahora incluye *luggages, baggages, equipments*. Todas se probaron con frases correctas e incorrectas.
+
+## Revisión del audio del Módulo 1 (2026-11-10)
+
+El Módulo 1 se generó antes de las reglas de coherencia y de elección de voz por WER. Al revisarlo, el WER medio era de 0,15, con 5 clips marcados. Las voces británicas daban 0,28 de media y las americanas, 0,12. Cambios:
+
+- **Dictado `rv-dict-2`** (*All arrangements are proceeding according to schedule.*): pasa de Emma a Alex. Emma pronunciaba *schedule* en británico, «SHÉ-dyul»: es correcto, pero en un dictado sorprende al alumno. Con Alex, el WER baja de 0,71 a 0,00. La explicación del ejercicio menciona ahora las dos pronunciaciones.
+- **`l02-ph-acclimate-ex`**: la alerta de la lección dice que en Reino Unido se prefiere *acclimatise*, pero el ejemplo de *acclimate* lo decía Emma con voz británica. Ahora lo dice Ryan, con voz americana (WER 0,11).
+- **`l04-cc-1b`** (*Our engineers encountered a minor fault…*): pasa de George a Daniel, que encaja con su papel de soporte técnico (WER de 0,56 a 0,11). Daniel se añade al reparto del módulo.
+- **Coherencia con la Lección 21**: *every* se fuerza a /ˈɛvɹi/ en los 3 clips que lo contienen (`l02-gd`, `l02-cc-3b` y `l04-dlg-02`). *Have to* no aparece en el Módulo 1.
+- Se mantienen las frases formales de Emma y George con *acclimating* (`l02-reg-f1`) y *a demanding workload*: ninguna otra voz británica las mejoraba de forma clara (`bf_isabella`, `bf_lily`, `bf_alice`; `bm_lewis` 0,50 frente a 0,62).
+- **Resultado**: WER medio de 0,14, con 1 clip marcado. Emma pasa de 0,37 a 0,28 y George, de 0,19 a 0,16.
+- **Caché de audio**: las URL de los MP3 llevan ahora `?v=<hash>`, y `sw.js` usa la URL completa como clave. Así los clips regenerados llegan a los móviles en lugar de servirse desde caché.

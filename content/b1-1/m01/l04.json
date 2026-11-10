@@ -32,7 +32,7 @@
       "context": "Ryan llama a su proveedor de internet. George, del servicio de atención al cliente, responde en registro formal.",
       "lines": [
         { "speaker": "george", "audio": "l04-dlg-01", "text": "Good morning, you're through to FibreNet Support. My name is George. How may I help you?", "tts": "Good morning, you're through to Fibre Net Support. My name is George. How may I help you?" },
-        { "speaker": "ryan", "audio": "l04-dlg-02", "text": "Hi, George. We {{ran into}} a problem with our internet connection this morning. It {{keeps dropping}} every few minutes." },
+        { "speaker": "ryan", "audio": "l04-dlg-02", "text": "Hi, George. We {{ran into}} a problem with our internet connection this morning. It {{keeps dropping}} every few minutes.", "tts": "Hi, George. We ran into a problem with our internet connection this morning. It keeps dropping [every](/ˈɛvɹi/) few minutes." },
         { "speaker": "george", "audio": "l04-dlg-03", "text": "I'm sorry to hear that. When did you first notice the issue?" },
         { "speaker": "ryan", "audio": "l04-dlg-04", "text": "Around eight. It {{put us way behind schedule}}. We had an online presentation at nine." },
         { "speaker": "george", "audio": "l04-dlg-05", "text": "I understand. We {{have identified}} a minor system failure in your area, and our engineers {{are currently resolving}} it." },
@@ -185,7 +185,7 @@
         "usage": "Introduce un contratiempo no planeado. *Run into* es el estándar para el día a día; *encounter* eleva el registro.",
         "examples": [
           { "speaker": "alex", "audio": "l04-cc-1a", "text": "We {{ran into}} an unexpected delay with our flight." },
-          { "speaker": "george", "audio": "l04-cc-1b", "text": "Our engineers {{encountered}} a minor fault in the system." }
+          { "speaker": "daniel", "audio": "l04-cc-1b", "text": "Our engineers {{encountered}} a minor fault in the system." }
         ]
       },
       {

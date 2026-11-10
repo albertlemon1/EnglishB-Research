@@ -97,6 +97,7 @@
     "speaker": "ryan",
     "audio": "l02-gd",
     "text": "I am gradually {{adjusting to waking up}} at 6 AM every day, even though it was difficult at the beginning.",
+    "tts": "I am gradually adjusting to waking up at 6 AM [every](/ˈɛvɹi/) day, even though it was difficult at the beginning.",
     "questions": [
       { "kind": "semantic", "q": "¿El proceso de adaptación está cerrado o sigue avanzando?", "options": ["Está cerrado: ya se adaptó del todo.", "Sigue avanzando poco a poco.", "Todavía no ha empezado."], "answer": 1, "explain": "*Gradually* + *am adjusting* (Present Continuous) muestran un cambio que está ocurriendo ahora, paso a paso." },
       { "kind": "syntactic", "q": "¿Qué forma verbal sigue a *adjusting to*?", "options": ["Infinitivo: adjusting to wake up", "Verbo -ing: adjusting to waking up", "Participio: adjusting to woken up"], "answer": 1, "explain": "Aquí *to* es una preposición, no parte del infinitivo. Después de una preposición, el verbo va en -ing." },
@@ -162,7 +163,7 @@
           { "type": "vowel", "text": "Termina en el diptongo /eɪt/ («eit»). En EE. UU. también se oye /əˈklaɪ.mət/." },
           { "type": "variant", "text": "En Reino Unido se prefiere *acclimatise* /əˈklaɪ.mə.taɪz/, con acento en la 2.ª sílaba." }
         ],
-        "example": { "speaker": "emma", "text": "I am currently acclimating to a more demanding schedule." }
+        "example": { "speaker": "ryan", "text": "I am currently acclimating to a more demanding schedule." }
       },
       {
         "id": "routine", "term": "Routine", "pos": "n.", "meaning": "rutina",
@@ -203,7 +204,7 @@
         "usage": "Expresa la capacidad de organizar muchas responsabilidades sin colapsar.",
         "examples": [
           { "speaker": "alex", "audio": "l02-cc-3a", "text": "She {{is managing a heavy workload}} between college and work." },
-          { "speaker": "george", "audio": "l02-cc-3b", "text": "Our team {{handles a demanding workload}} every December." }
+          { "speaker": "george", "audio": "l02-cc-3b", "text": "Our team {{handles a demanding workload}} every December.", "tts": "Our team handles a demanding workload [every](/ˈɛvɹi/) December." }
         ]
       }
     ],

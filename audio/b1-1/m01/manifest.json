@@ -488,7 +488,7 @@
    "voice": "bm_george",
    "speed": 0.95,
    "text": "Our team handles a demanding workload every December.",
-   "hash": "4696fd601a8a"
+   "hash": "90822953b398"
   },
   "l02-dict-1": {
    "file": "l02-dict-1.mp3",
@@ -573,21 +573,21 @@
   },
   "l02-gd": {
    "file": "l02-gd.mp3",
-   "duration": 6.88,
+   "duration": 6.84,
    "speaker": "ryan",
    "voice": "am_fenrir",
    "speed": 0.95,
    "text": "I am gradually adjusting to waking up at 6 AM every day, even though it was difficult at the beginning.",
-   "hash": "419c9babc732"
+   "hash": "a4470886c7f4"
   },
   "l02-ph-acclimate-ex": {
    "file": "l02-ph-acclimate-ex.mp3",
-   "duration": 3.32,
-   "speaker": "emma",
-   "voice": "bf_emma",
+   "duration": 3.51,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
    "speed": 0.95,
    "text": "I am currently acclimating to a more demanding schedule.",
-   "hash": "ae5ec25ff8cd"
+   "hash": "17104bb683de"
   },
   "l02-ph-acclimate-slow": {
    "file": "l02-ph-acclimate-slow.mp3",
@@ -1266,12 +1266,12 @@
   },
   "l04-cc-1b": {
    "file": "l04-cc-1b.mp3",
-   "duration": 4.26,
-   "speaker": "george",
-   "voice": "bm_george",
+   "duration": 3.77,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
    "speed": 0.95,
    "text": "Our engineers encountered a minor fault in the system.",
-   "hash": "7264dfe3936c"
+   "hash": "52fa82db56d7"
   },
   "l04-cc-2a": {
    "file": "l04-cc-2a.mp3",
@@ -1329,12 +1329,12 @@
   },
   "l04-dlg-02": {
    "file": "l04-dlg-02.mp3",
-   "duration": 7.39,
+   "duration": 7.37,
    "speaker": "ryan",
    "voice": "am_fenrir",
    "speed": 0.95,
    "text": "Hi, George. We ran into a problem with our internet connection this morning. It keeps dropping every few minutes.",
-   "hash": "405e27a68bfa"
+   "hash": "3888d29f9eee"
   },
   "l04-dlg-03": {
    "file": "l04-dlg-03.mp3",
@@ -2094,12 +2094,12 @@
   },
   "rv-dict-2": {
    "file": "rv-dict-2.mp3",
-   "duration": 3.28,
-   "speaker": "emma",
-   "voice": "bf_emma",
+   "duration": 3.66,
+   "speaker": "alex",
+   "voice": "am_michael",
    "speed": 0.9,
    "text": "All arrangements are proceeding according to schedule.",
-   "hash": "38f822a32ea3"
+   "hash": "1172f055a78e"
   }
  }
 }

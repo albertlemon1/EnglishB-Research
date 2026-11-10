@@ -6,7 +6,7 @@ Contexto para retomar el proyecto en una sesión nueva. Léelo entero antes de t
 
 App de autoaprendizaje para hispanohablantes, Banda B del MCER: 270 h en cuatro subniveles (B1.1 60 h, B1.2 60 h, B2.1 75 h, B2.2 75 h), 54 módulos, 270 lecciones. La estructura completa está en `content/course.json` (fuente única); `docs/ESTRUCTURA_BANDA_B.md` se genera desde ahí.
 
-**Estado (2026-11-10):** publicados con audio los Módulos 1 a 6: l01–l05 (233 audios), l06–l10 (248), l11–l15 (231), l16–l20 (235), l21–l25 (231) y l26–l30 (235), en total 1413 clips. Se descartó ElevenLabs: el usuario prefiere no tocar la canalización de Kokoro, que ya resuelve fonemas forzados, versión lenta, entonación medida y control de calidad. El usuario valora mucho el WER bajo (0,12 en el Módulo 5): mantenlo.
+**Estado (2026-11-10):** publicados con audio los Módulos 1 a 6: l01–l05 (233 audios), l06–l10 (248), l11–l15 (231), l16–l20 (235), l21–l25 (231) y l26–l30 (235), en total 1413 clips. Se descartó ElevenLabs: el usuario prefiere no tocar la canalización de Kokoro, que ya resuelve fonemas forzados, versión lenta, entonación medida y control de calidad. El usuario valora mucho el WER bajo (0,12 en el Módulo 5): mantenlo. El Módulo 1 se revisó el 2026-11-10: su WER bajó de 0,15 a 0,14 y los clips marcados de 5 a 1 (ver README).
 
 **Flujo de trabajo por módulo (acordado con el usuario):** se hace un módulo cada vez y se hace push al terminarlo.
 - Si el usuario pide **solo el texto**, el módulo entra como `"status": "draft"` (huecos de audio puestos, sin MP3) y lo revisa con `?borrador`. Los audios se generan cuando lo pida, y entonces pasa a `"available"`.
@@ -40,6 +40,7 @@ SPA estática: módulos ES sin dependencias y **sin paso de build**. Es una PWA 
   - `checks.js`: heurísticas de la tarea (errores L1);
   - `audio.js`, `recorder.js`, `store.js` (progreso en localStorage `bandb:v1`), `ui.js`, `main.js`.
 - `sw.js`: precachea solo el shell, `course.json` y `cast.json`. Las estrategias son network-first para el contenido, cache-first para los MP3 y stale-while-revalidate para las fuentes. **Sube `VERSION`** (`bandb-AAAA-MM-DD-mNN`) cuando cambien el shell o los assets.
+- Las URL de audio llevan el hash del clip (`…/l01-scn.mp3?v=<hash del manifest>`), y la caché de audio usa la URL completa como clave. Así, al regenerar un clip, el móvil descarga la versión nueva en lugar de servir la antigua desde caché. Sin conexión, se sirve cualquier versión guardada.
 - Diseño:
   - fuentes: Bricolage Grotesque (títulos), Atkinson Hyperlegible Next (interfaz en español) y Charis SIL (inglés e IPA);
   - colores de registro casual/neutral/formal; resaltado tipo marcador para los chunks; modo oscuro con tokens.
@@ -122,7 +123,7 @@ python3 tools/build_structure_doc.py
 - **Elegir voz para un personaje nuevo:** antes de generar, sintetiza 10–15 de sus frases con las voces candidatas del mismo género y acento, y elige la de menor WER. En el Módulo 6, `bf_alice` daba 0,28 y `bf_lily` 0,22 en las mismas frases de Sophie. Entre las voces UK femeninas, `bf_emma` es la más inteligible, pero ya es de Emma.
 - PocketSphinx da falsos positivos en frases muy cortas y en voces UK: compara con otra voz antes de reasignar. `am_puck` (Leo) es la voz que peor puntúa: si un clip suyo falla y con `am_michael` no, reformula la frase (en el Módulo 3, *tap* → *press*). Si un clip no se entiende, cambia la voz o el `tts`.
 - Si un override de fonemas suena mal, cambia el override, no el texto. Ejemplo: `follow up` → `[follow](/fˈɑlO/) [up](/ˈʌp/)`.
-- misaki no aplica las reducciones del habla rápida que enseñan las lecciones: lee *every* y *interesting* con todas sus sílabas, *have to* con /v/, *overwhelmed* con «hw», *anxious* sin /k/ y *medicine* (UK) con tres sílabas. Cuando una alerta afirme una reducción, fuérzala en el clip de fonética (`ttsUs` / `ttsUk`) y en el ejemplo (`tts`). Desde el Módulo 5, *have to / has to* se fuerzan a /hæf tə/ y /hæs tə/ en todos los clips, y desde el 6 también *every* a /ˈɛvɹi/, con el post-proceso descrito en el README. Mantén esa coherencia entre módulos: si una lección enseña una reducción, no la contradigas en los audios de los módulos siguientes.
+- misaki no aplica las reducciones del habla rápida que enseñan las lecciones: lee *every* y *interesting* con todas sus sílabas, *have to* con /v/, *overwhelmed* con «hw», *anxious* sin /k/ y *medicine* (UK) con tres sílabas. Cuando una alerta afirme una reducción, fuérzala en el clip de fonética (`ttsUs` / `ttsUk`) y en el ejemplo (`tts`). Desde el Módulo 5, *have to / has to* se fuerzan a /hæf tə/ y /hæs tə/ en todos los clips, y desde el 6 también *every* a /ˈɛvɹi/, con el post-proceso descrito en el README. Mantén esa coherencia entre módulos: si una lección enseña una reducción, no la contradigas en ningún audio del curso. El Módulo 1 ya se corrigió (3 clips con *every*). Los Módulos 2 a 4 aún no se han revisado.
 
 ## Verificación antes de entregar
 

@@ -15,6 +15,6 @@
     { "type": "choice", "lesson": "l05", "prompt": "Elige la forma correcta.", "text": "So far this year, we ___ two big milestones.", "options": ["achieved", "have achieved", "achieve"], "answer": 1, "explain": "*So far this year* (periodo abierto) → Present Perfect. (Lección 5)" },
     { "type": "stress", "lesson": "l05", "prompt": "*Progress* como sustantivo: ¿dónde va el acento?", "word": "progress", "syllables": ["pro", "gress"], "answer": 0, "audioRef": "l05-ph-progress-us", "explain": "**PRO**-gress. (Lección 5)" },
     { "type": "dictation", "lesson": "l04", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "ryan", "audio": "rv-dict-1", "text": "We ran into a small problem, but we're working through it.", "explain": "*Ran into* (pasado) + *we're working through it* (ahora). (Lección 4)" },
-    { "type": "dictation", "lesson": "l01", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "emma", "audio": "rv-dict-2", "text": "All arrangements are proceeding according to schedule.", "explain": "Registro formal: *proceeding according to schedule*. (Lección 1)" }
+    { "type": "dictation", "lesson": "l01", "prompt": "Escucha y escribe exactamente lo que oyes.", "speaker": "alex", "audio": "rv-dict-2", "text": "All arrangements are proceeding according to schedule.", "explain": "Registro formal: *proceeding according to schedule*. En Reino Unido, *schedule* suele sonar «SHÉ-dyul» /ˈʃedʒ.uːl/; en EE. UU., «SKÉ-dyul». (Lección 1)" }
   ]
 }

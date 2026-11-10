@@ -4,7 +4,7 @@
 // Only the shell and the course structure are precached. Module content is cached the
 // first time it is viewed, or all at once by the module page's "download" button, so
 // publishing a new module never requires editing this file.
-const VERSION = "bandb-2026-11-10-m06";
+const VERSION = "bandb-2026-11-10-m01-audio";
 const SHELL = `bandb-shell-${VERSION}`;
 const AUDIO = "bandb-audio-v1";
 const FONTS = "bandb-fonts-v1";
@@ -59,13 +59,25 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(networkFirst(req, SHELL));
 });
 
+// Audio URLs carry the clip hash (?v=…), so the query string is part of the key: a
+// regenerated clip misses the cache and replaces the old copy. Offline, any cached
+// version of the same file is better than nothing.
 async function cacheFirst(req, name) {
   const cache = await caches.open(name);
-  const hit = await cache.match(req, { ignoreSearch: true, ignoreVary: true });
+  const hit = await cache.match(req, { ignoreVary: true });
   if (hit) return hit;
-  const res = await fetch(req);
-  if (res.ok && res.status === 200) cache.put(req, res.clone());
-  return res;
+  try {
+    const res = await fetch(req);
+    if (res.ok && res.status === 200) {
+      await cache.delete(req, { ignoreSearch: true });
+      await cache.put(req, res.clone());
+    }
+    return res;
+  } catch (err) {
+    const old = await cache.match(req, { ignoreSearch: true, ignoreVary: true });
+    if (old) return old;
+    throw err;
+  }
 }
 
 async function networkFirst(req, name) {
