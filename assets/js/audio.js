@@ -18,7 +18,9 @@ export const audio = {
   },
   isRegistered(mod) { return byModule.has(mod); },
   clips(mod) { return byModule.get(mod) || {}; },
-  url(id) { const e = index.get(id); return e ? `${e.base}${id}.mp3` : ""; },
+  // ?v=<hash>: a regenerated clip gets a new URL, so the cache-first service worker
+  // fetches it instead of serving the old recording.
+  url(id) { const e = index.get(id); return e ? `${e.base}${id}.mp3${e.meta?.hash ? `?v=${e.meta.hash}` : ""}` : ""; },
   duration(id) { return index.get(id)?.meta.duration || 0; },
   has(id) { return index.has(id); },
   meta(id) { return index.get(id)?.meta; },

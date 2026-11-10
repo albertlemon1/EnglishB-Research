@@ -19,7 +19,7 @@
     "lexis": "on track, sort out, get used to, get the hang of it, aim to, prior to, move on to, run into, workaround, come a long way, milestone",
     "afh": "S-clusters sin /e/ epentética · acento de palabra · linking · -ed sin sílaba extra · flap T"
   },
-  "cast": ["coach", "maya", "leo", "alex", "sarah", "ryan", "emma", "george"],
+  "cast": ["coach", "maya", "leo", "alex", "sarah", "ryan", "emma", "george", "daniel"],
   "lessons": ["l01", "l02", "l03", "l04", "l05"],
   "blocks": [
     { "id": "lexical", "n": 1, "name": "Input léxico", "short": "Input", "text": "Escenario real, conversación y mapa de tres registros." },
