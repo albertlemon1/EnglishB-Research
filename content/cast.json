@@ -89,7 +89,7 @@
       "accent": "UK",
       "voice": "bm_fable",
       "lang": "en-gb",
-      "bio": "Británico, organiza el meetup Global Connect y trabaja en la misma empresa que Ryan. Inglés británico en registro neutro, no solo formal (Módulo 2)."
+      "bio": "Británico, organiza el meetup Global Connect y trabaja en la misma empresa que Ryan. Inglés británico en registro neutro, no solo formal (Módulo 2). Creció en Edimburgo, donde aún vive su familia (Módulo 6)."
     },
     "daniel": {
       "name": "Daniel",
@@ -117,6 +117,15 @@
       "voice": "bf_isabella",
       "lang": "en-gb",
       "bio": "Médica de cabecera de Sarah. Explica resultados y tratamientos con claridad y en registro formal británico."
+    },
+    "sophie": {
+      "name": "Sophie",
+      "role": "Recepcionista de hotel (Sophie Bennett)",
+      "register": "formal",
+      "accent": "UK",
+      "voice": "bf_lily",
+      "lang": "en-gb",
+      "bio": "Recepcionista del hotel de Edimburgo donde se alojan Sarah y Priya. Atenta y resolutiva, en registro formal británico."
     }
   }
 }

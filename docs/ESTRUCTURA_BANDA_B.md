@@ -83,7 +83,7 @@ Cada lección sigue la misma matriz de seis bloques: Input léxico (tres registr
 24. Talking About Health, Exercise & Physical Wellness
 25. Planning Weekly Schedules & Leisure Activities
 
-### M06 · Travel, Mobility & Exploring Places
+### M06 · Travel, Mobility & Exploring Places — ✅ contenido y audios disponibles
 
 *Lifestyle, Culture & Plurilingualism* · Gramática: Futuros: will / going to / Present Continuous; First Conditional · AFH: S-clusters en viajes (station, street); /j/ frente a /dʒ/
 

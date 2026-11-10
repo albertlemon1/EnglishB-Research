@@ -144,7 +144,7 @@ export const CHECKS = {
     return m ? { msg: "Tras *Why don't you* va el verbo base, sin *to*: *Why don't you mute them?*", sample: m[0] } : null;
   },
   uncountable(text) {
-    const m = text.match(/\b(advices|informations|softwares|feedbacks|stuffs|knowledges|furnitures)\b/i);
+    const m = text.match(/\b(advices|informations|softwares|feedbacks|stuffs|knowledges|furnitures|luggages|baggages|equipments)\b/i);
     return m ? { msg: "Estas palabras son incontables y no llevan -s: *advice, information, software, feedback*.", sample: m[0] } : null;
   },
   makeDoList(text) {
@@ -280,6 +280,43 @@ export const CHECKS = {
   dayCapital(text) {
     const m = text.match(/\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b/);
     return m ? { msg: "En inglés, los días de la semana se escriben con mayúscula: *Wednesday*.", sample: m[0], soft: true } : null;
+  },
+  // --- Módulo 6 (viajes) ---
+  willTo(text) {
+    const m = text.match(/\b(will|won't|'ll)\s+to\s+[a-z]+/i);
+    return m ? { msg: "*Will* va seguido del verbo base, sin *to*: *I'll check the app*.", sample: m[0] } : null;
+  },
+  goingToIng(text) {
+    const m = text.match(/\bgoing to\s+(?!bring|sing|ring|swing|string|spring)[a-z]{2,}ing\b/i);
+    return m ? { msg: "Tras *going to* va el verbo base: *I'm going to visit the museum*.", sample: m[0] } : null;
+  },
+  arriveTo(text) {
+    const m = text.match(/\barriv(e|es|ed|ing)\s+to\s+(the\s+|my\s+|our\s+)?[a-z]+/i);
+    return m ? { msg: "«Llegar a» es *arrive in* (ciudad, país) o *arrive at* (aeropuerto, estación, hotel), nunca *arrive to*.", sample: m[0] } : null;
+  },
+  loseTrain(text) {
+    const m = text.match(/\b(lose|loses|lost|losing)\s+(the|my|our|a|your)\s+(train|flight|bus|plane|connection|ferry)\b/i);
+    return m ? { msg: "«Perder el tren / el vuelo» es *miss*: *We missed the train*. *Lose* es perder algo que no encuentras.", sample: m[0] } : null;
+  },
+  delayedOf(text) {
+    const m = text.match(/\bdelayed\s+(of|in)\s+(\d+|an?|one|two|three|four|five|ten|twenty|thirty|forty|fifty|half)\b/i);
+    return m ? { msg: "«Con X minutos de retraso» es *delayed by X minutes*.", sample: m[0] } : null;
+  },
+  onTheLeft(text) {
+    const m = text.match(/\bin\s+(the|your)\s+(left|right)\b/i);
+    return m ? { msg: "«A la izquierda / derecha» es *on the left / on your right*.", sample: m[0] } : null;
+  },
+  aTravel(text) {
+    const m = text.match(/\b(a|my|our|this|that|the|great|nice|long)\s+travel\b(?!\s+(agent|agency|insurance|guide|plans?|bag|app|time|card|documents?|tips?|blog|companion))/i);
+    return m ? { msg: "«Un viaje» concreto es *a trip*: *a trip to Scotland*. *Travel* es sobre todo verbo o incontable.", sample: m[0], soft: true } : null;
+  },
+  knowCity(text) {
+    const m = text.match(/\b(to|want to|like to|love to|going to)\s+know\s+(the city|the country|the old town|london|edinburgh|scotland|paris|rome|new york|madrid|europe|japan|mexico|canada|toronto|vancouver)\b/i);
+    return m ? { msg: "«Conocer» un lugar nuevo es *visit* o *see*: *I'd love to visit Edinburgh*.", sample: m[0] } : null;
+  },
+  assistTo(text) {
+    const m = text.match(/\bassist(s|ed|ing)?\s+(to|at)\s+(a|an|the|my|our)\b/i);
+    return m ? { msg: "«Asistir a» un evento es *go to* o *attend*. *Assist* significa «ayudar».", sample: m[0] } : null;
   },
 };
 

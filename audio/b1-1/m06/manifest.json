@@ -1,0 +1,2123 @@
+{
+ "engine": "Kokoro-82M v1.0 (ONNX) + misaki G2P",
+ "sampleRate": 24000,
+ "format": "mp3 64 kbps mono",
+ "count": 235,
+ "clips": {
+  "l26-cc-1a": {
+   "file": "l26-cc-1a.mp3",
+   "duration": 2.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We're flying to London on Monday.",
+   "hash": "bb71dd666984"
+  },
+  "l26-cc-1b": {
+   "file": "l26-cc-1b.mp3",
+   "duration": 2.79,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "You're taking the nine o'clock train on Friday.",
+   "hash": "a41175adf5e7"
+  },
+  "l26-cc-2a": {
+   "file": "l26-cc-2a.mp3",
+   "duration": 2.4,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I'm going to visit the British Museum.",
+   "hash": "2fc4cdbac545"
+  },
+  "l26-cc-2b": {
+   "file": "l26-cc-2b.mp3",
+   "duration": 1.79,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Are we going to rent a car?",
+   "hash": "3de6dfd09c68"
+  },
+  "l26-cc-3a": {
+   "file": "l26-cc-3a.mp3",
+   "duration": 1.91,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "The train leaves at nine.",
+   "hash": "bb94386a8329"
+  },
+  "l26-cc-3b": {
+   "file": "l26-cc-3b.mp3",
+   "duration": 3.77,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "The flight arrives in London at seven fifteen.",
+   "hash": "93e1d7f92347"
+  },
+  "l26-dict-1": {
+   "file": "l26-dict-1.mp3",
+   "duration": 2.92,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.9,
+   "text": "You're taking the nine o'clock train on Friday.",
+   "hash": "44f3d9bc8e54"
+  },
+  "l26-dlg-01": {
+   "file": "l26-dlg-01.mp3",
+   "duration": 4.83,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Sarah, Maya sent the itinerary! We're flying out on Monday at six in the evening.",
+   "hash": "2225dd505409"
+  },
+  "l26-dlg-02": {
+   "file": "l26-dlg-02.mp3",
+   "duration": 3.23,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Perfect. And what are you doing on Tuesday?",
+   "hash": "bb0cd546f94b"
+  },
+  "l26-dlg-03": {
+   "file": "l26-dlg-03.mp3",
+   "duration": 4.64,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I'm giving a short talk at the conference in the afternoon. I'm so nervous!",
+   "hash": "5819b6b14d58"
+  },
+  "l26-dlg-04": {
+   "file": "l26-dlg-04.mp3",
+   "duration": 6.81,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "You'll be great. While you're at the conference, I'm going to explore the city. I want to see the British Museum.",
+   "hash": "8cb1c52184a9"
+  },
+  "l26-dlg-05": {
+   "file": "l26-dlg-05.mp3",
+   "duration": 4.06,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Good idea. And in Edinburgh, are we going to rent a car?",
+   "hash": "7394aea53b00"
+  },
+  "l26-dlg-06": {
+   "file": "l26-dlg-06.mp3",
+   "duration": 5.64,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I don't think so. We're going to walk everywhere and take a day trip to the Highlands by bus.",
+   "hash": "587847370cbc"
+  },
+  "l26-dlg-07": {
+   "file": "l26-dlg-07.mp3",
+   "duration": 3.81,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Sounds perfect. Did Maya book window seats for the train?",
+   "hash": "c5b9e9faf377"
+  },
+  "l26-dlg-08": {
+   "file": "l26-dlg-08.mp3",
+   "duration": 4.92,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Yes, and an aisle seat for me on the plane. I always need to stretch my legs!",
+   "hash": "bf839a7d1bec"
+  },
+  "l26-gd": {
+   "file": "l26-gd.mp3",
+   "duration": 7.24,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We're flying to London on Monday, and we're staying near the conference center. In Edinburgh, we're going to walk everywhere.",
+   "hash": "34836bfbd88e"
+  },
+  "l26-ph-departure-ex": {
+   "file": "l26-ph-departure-ex.mp3",
+   "duration": 3.64,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Please check in two hours before departure.",
+   "hash": "ec41eb5e835a"
+  },
+  "l26-ph-departure-slow": {
+   "file": "l26-ph-departure-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Departure.",
+   "hash": "30ece5b6e8b8"
+  },
+  "l26-ph-departure-uk": {
+   "file": "l26-ph-departure-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Departure.",
+   "hash": "ba3deaa719ec"
+  },
+  "l26-ph-departure-us": {
+   "file": "l26-ph-departure-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Departure.",
+   "hash": "716e311cfac5"
+  },
+  "l26-ph-europe-ex": {
+   "file": "l26-ph-europe-ex.mp3",
+   "duration": 1.96,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It's my first trip to Europe.",
+   "hash": "46dadf27a344"
+  },
+  "l26-ph-europe-slow": {
+   "file": "l26-ph-europe-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Europe.",
+   "hash": "3cffb23f70d6"
+  },
+  "l26-ph-europe-uk": {
+   "file": "l26-ph-europe-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Europe.",
+   "hash": "5d13ac5b5250"
+  },
+  "l26-ph-europe-us": {
+   "file": "l26-ph-europe-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Europe.",
+   "hash": "0e2523bf17aa"
+  },
+  "l26-ph-flight-ex": {
+   "file": "l26-ph-flight-ex.mp3",
+   "duration": 2.38,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I booked a direct flight to London.",
+   "hash": "5235365ae472"
+  },
+  "l26-ph-flight-slow": {
+   "file": "l26-ph-flight-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Flight.",
+   "hash": "fe342e3a21e2"
+  },
+  "l26-ph-flight-uk": {
+   "file": "l26-ph-flight-uk.mp3",
+   "duration": 1.1,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Flight.",
+   "hash": "e182da6bdbd0"
+  },
+  "l26-ph-flight-us": {
+   "file": "l26-ph-flight-us.mp3",
+   "duration": 1.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Flight.",
+   "hash": "20e4e95d8f37"
+  },
+  "l26-ph-journey-ex": {
+   "file": "l26-ph-journey-ex.mp3",
+   "duration": 2.55,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The train journey takes about four hours.",
+   "hash": "edaedefb964f"
+  },
+  "l26-ph-journey-slow": {
+   "file": "l26-ph-journey-slow.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Journey.",
+   "hash": "acf27225f5fc"
+  },
+  "l26-ph-journey-uk": {
+   "file": "l26-ph-journey-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Journey.",
+   "hash": "150cd52f3367"
+  },
+  "l26-ph-journey-us": {
+   "file": "l26-ph-journey-us.mp3",
+   "duration": 1.15,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Journey.",
+   "hash": "92fad3321cbc"
+  },
+  "l26-ph-station-ex": {
+   "file": "l26-ph-station-ex.mp3",
+   "duration": 3.32,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The station is a ten-minute walk from the hotel.",
+   "hash": "a6654f6cea66"
+  },
+  "l26-ph-station-slow": {
+   "file": "l26-ph-station-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Station.",
+   "hash": "28dbadedb9a8"
+  },
+  "l26-ph-station-uk": {
+   "file": "l26-ph-station-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Station.",
+   "hash": "23a8edda3385"
+  },
+  "l26-ph-station-us": {
+   "file": "l26-ph-station-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Station.",
+   "hash": "c7a803b68921"
+  },
+  "l26-reg-c1": {
+   "file": "l26-reg-c1.mp3",
+   "duration": 3.49,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "We're off to Scotland next week. So excited!",
+   "hash": "3dc157c879c1"
+  },
+  "l26-reg-c2": {
+   "file": "l26-reg-c2.mp3",
+   "duration": 3.06,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Road trip this weekend! Who's coming?",
+   "hash": "464de6de4bf4"
+  },
+  "l26-reg-f1": {
+   "file": "l26-reg-f1.mp3",
+   "duration": 3.41,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Your flight departs at 18:30 from Terminal 2.",
+   "hash": "089447c10548"
+  },
+  "l26-reg-f2": {
+   "file": "l26-reg-f2.mp3",
+   "duration": 6.03,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Passengers are kindly requested to check in at least two hours before departure.",
+   "hash": "db4aace778e2"
+  },
+  "l26-reg-n1": {
+   "file": "l26-reg-n1.mp3",
+   "duration": 2.32,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "We're flying to London on Monday.",
+   "hash": "da91192df430"
+  },
+  "l26-reg-n2": {
+   "file": "l26-reg-n2.mp3",
+   "duration": 2.92,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'm going to visit my parents in the summer.",
+   "hash": "05c221250fdc"
+  },
+  "l26-reg-n3": {
+   "file": "l26-reg-n3.mp3",
+   "duration": 2.04,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Could I have a window seat, please?",
+   "hash": "22dfd7da8791"
+  },
+  "l26-scn": {
+   "file": "l26-scn.mp3",
+   "duration": 26.93,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Hi Sarah and Priya, great news: everything is booked! You're flying to London on Monday, April 14, and you're staying at a hotel near the conference center for four nights. On Friday, you're taking the nine o'clock train to Edinburgh. It's a direct train, so you don't have to change. The journey takes about four and a half hours. I know you're going to love Scotland! If you need anything else, just let me know. Best, Maya",
+   "hash": "43936626bd01"
+  },
+  "l26-task-formal": {
+   "file": "l26-task-formal.mp3",
+   "duration": 10.25,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Your flight departs at 18:30 from Terminal 2. Passengers are kindly requested to check in at least two hours before departure.",
+   "hash": "c2f51abf5622"
+  },
+  "l26-task-model": {
+   "file": "l26-task-model.mp3",
+   "duration": 29.44,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Maya, I'm planning a trip to Canada in June, and I need your help. I'm flying to Vancouver on June 10. I already have the flight. I'm staying with my cousin for the first three nights, and then I'm going to travel to Vancouver Island by ferry. Could you book a hotel in Victoria for four nights? I'd like something near the harbor. Also, what time does the first ferry leave in the morning? Thanks a lot! Alex",
+   "hash": "e5493b66c73b"
+  },
+  "l27-cc-1a": {
+   "file": "l27-cc-1a.mp3",
+   "duration": 2.11,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I'll ask at the information desk.",
+   "hash": "7178a97c56da"
+  },
+  "l27-cc-1b": {
+   "file": "l27-cc-1b.mp3",
+   "duration": 2.0,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I'll get us some sandwiches.",
+   "hash": "b2ff5d101887"
+  },
+  "l27-cc-2a": {
+   "file": "l27-cc-2a.mp3",
+   "duration": 3.3,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Look at the queue! We're going to wait for ages.",
+   "hash": "1b728d787ce0"
+  },
+  "l27-cc-2b": {
+   "file": "l27-cc-2b.mp3",
+   "duration": 3.85,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "It's ten to two. We're going to miss the train!",
+   "hash": "21763da7b18f"
+  },
+  "l27-cc-3a": {
+   "file": "l27-cc-3a.mp3",
+   "duration": 3.02,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If we take that train, we'll arrive after eight.",
+   "hash": "fe989718fc8b"
+  },
+  "l27-cc-3b": {
+   "file": "l27-cc-3b.mp3",
+   "duration": 2.57,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "If there are no trains, we'll stay in London.",
+   "hash": "a0d0ffaaddc2"
+  },
+  "l27-dict-1": {
+   "file": "l27-dict-1.mp3",
+   "duration": 4.03,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "If there are no trains today, we'll stay another night in London.",
+   "hash": "0a6d3bbc6da2"
+  },
+  "l27-dlg-01": {
+   "file": "l27-dlg-01.mp3",
+   "duration": 3.55,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Priya, look at the board. Our train is cancelled!",
+   "hash": "2a0e729d0c9e"
+  },
+  "l27-dlg-02": {
+   "file": "l27-dlg-02.mp3",
+   "duration": 5.25,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Oh no, it's the strike. Okay, don't panic. I'll ask at the information desk.",
+   "hash": "ab359fd0153f"
+  },
+  "l27-dlg-03": {
+   "file": "l27-dlg-03.mp3",
+   "duration": 3.36,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Look at that queue. We're going to wait for ages.",
+   "hash": "ae009b30e068"
+  },
+  "l27-dlg-04": {
+   "file": "l27-dlg-04.mp3",
+   "duration": 4.7,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Then I'll check the app. There's a train at two, but it's delayed by forty minutes.",
+   "hash": "08965181be30"
+  },
+  "l27-dlg-05": {
+   "file": "l27-dlg-05.mp3",
+   "duration": 2.89,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "If we take that one, we'll arrive after eight.",
+   "hash": "84f656903c78"
+  },
+  "l27-dlg-06": {
+   "file": "l27-dlg-06.mp3",
+   "duration": 4.32,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "That's fine. I'll text the hotel and tell them we're arriving late.",
+   "hash": "312da5d20529"
+  },
+  "l27-dlg-07": {
+   "file": "l27-dlg-07.mp3",
+   "duration": 5.11,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Good idea. And I'll get us some sandwiches. It's going to be a long day!",
+   "hash": "d00f6f264942"
+  },
+  "l27-dlg-08": {
+   "file": "l27-dlg-08.mp3",
+   "duration": 3.45,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It certainly is. Get me a coffee, too, please!",
+   "hash": "8c8d17a5ba30"
+  },
+  "l27-gd": {
+   "file": "l27-gd.mp3",
+   "duration": 7.15,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Our train is cancelled? Okay, I'll ask at the information desk. Look at that queue! We're going to wait for ages.",
+   "hash": "2e33a12ddd05"
+  },
+  "l27-ph-connection-ex": {
+   "file": "l27-ph-connection-ex.mp3",
+   "duration": 2.36,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We're going to miss our connection.",
+   "hash": "6a3e60e88926"
+  },
+  "l27-ph-connection-slow": {
+   "file": "l27-ph-connection-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Connection.",
+   "hash": "cf1a8daa7c68"
+  },
+  "l27-ph-connection-uk": {
+   "file": "l27-ph-connection-uk.mp3",
+   "duration": 1.38,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Connection.",
+   "hash": "212f3d9f97d5"
+  },
+  "l27-ph-connection-us": {
+   "file": "l27-ph-connection-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Connection.",
+   "hash": "7916387be4e9"
+  },
+  "l27-ph-delayed-ex": {
+   "file": "l27-ph-delayed-ex.mp3",
+   "duration": 3.94,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "The two o'clock train is delayed by forty minutes.",
+   "hash": "3e685b573065"
+  },
+  "l27-ph-delayed-slow": {
+   "file": "l27-ph-delayed-slow.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Delayed.",
+   "hash": "5088d682310c"
+  },
+  "l27-ph-delayed-uk": {
+   "file": "l27-ph-delayed-uk.mp3",
+   "duration": 1.23,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Delayed.",
+   "hash": "653063d83b95"
+  },
+  "l27-ph-delayed-us": {
+   "file": "l27-ph-delayed-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Delayed.",
+   "hash": "90cb6371cee5"
+  },
+  "l27-ph-platform-ex": {
+   "file": "l27-ph-platform-ex.mp3",
+   "duration": 2.38,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The train leaves from platform nine.",
+   "hash": "9f6c6b8e1b4e"
+  },
+  "l27-ph-platform-slow": {
+   "file": "l27-ph-platform-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Platform.",
+   "hash": "36790af0b08f"
+  },
+  "l27-ph-platform-uk": {
+   "file": "l27-ph-platform-uk.mp3",
+   "duration": 1.42,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Platform.",
+   "hash": "c3fc44913626"
+  },
+  "l27-ph-platform-us": {
+   "file": "l27-ph-platform-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Platform.",
+   "hash": "1fcd0a4a46af"
+  },
+  "l27-ph-strike-ex": {
+   "file": "l27-ph-strike-ex.mp3",
+   "duration": 1.89,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "There's a train strike today.",
+   "hash": "4d41efbca2da"
+  },
+  "l27-ph-strike-slow": {
+   "file": "l27-ph-strike-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Strike.",
+   "hash": "9882d83ecfeb"
+  },
+  "l27-ph-strike-uk": {
+   "file": "l27-ph-strike-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Strike.",
+   "hash": "23281d064708"
+  },
+  "l27-ph-strike-us": {
+   "file": "l27-ph-strike-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Strike.",
+   "hash": "629926c420e8"
+  },
+  "l27-ph-yet-dj": {
+   "file": "l27-ph-yet-dj.mp3",
+   "duration": 2.02,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "The jet landed on time.",
+   "hash": "9256d79c1de8"
+  },
+  "l27-ph-yet-ex": {
+   "file": "l27-ph-yet-ex.mp3",
+   "duration": 2.08,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "The train hasn't arrived yet.",
+   "hash": "97e727988866"
+  },
+  "l27-ph-yet-j": {
+   "file": "l27-ph-yet-j.mp3",
+   "duration": 2.04,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Has the train arrived yet?",
+   "hash": "1712f0f4088b"
+  },
+  "l27-ph-yet-slow": {
+   "file": "l27-ph-yet-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Yet.",
+   "hash": "cd83b1a60c32"
+  },
+  "l27-ph-yet-uk": {
+   "file": "l27-ph-yet-uk.mp3",
+   "duration": 1.19,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Yet.",
+   "hash": "fad99e836475"
+  },
+  "l27-ph-yet-us": {
+   "file": "l27-ph-yet-us.mp3",
+   "duration": 1.15,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Yet.",
+   "hash": "14a32bbfef4b"
+  },
+  "l27-reg-c1": {
+   "file": "l27-reg-c1.mp3",
+   "duration": 3.47,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Ugh, my flight's delayed again. Typical!",
+   "hash": "8d4a3c4cbab7"
+  },
+  "l27-reg-c2": {
+   "file": "l27-reg-c2.mp3",
+   "duration": 2.66,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We missed the last bus, so we walked home.",
+   "hash": "4fdfdd49beb6"
+  },
+  "l27-reg-f1": {
+   "file": "l27-reg-f1.mp3",
+   "duration": 3.43,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We apologise for the delay to this service.",
+   "hash": "5e1d26fafe22"
+  },
+  "l27-reg-f2": {
+   "file": "l27-reg-f2.mp3",
+   "duration": 4.6,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Due to industrial action, all services to Edinburgh are cancelled today.",
+   "hash": "8fbdb36c7d16"
+  },
+  "l27-reg-n1": {
+   "file": "l27-reg-n1.mp3",
+   "duration": 2.55,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Our train is cancelled, so I'll check the app.",
+   "hash": "2415f9bde2eb"
+  },
+  "l27-reg-n2": {
+   "file": "l27-reg-n2.mp3",
+   "duration": 3.04,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'm afraid we're going to miss our connection.",
+   "hash": "f22a1ecbeadb"
+  },
+  "l27-reg-n3": {
+   "file": "l27-reg-n3.mp3",
+   "duration": 3.24,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I'll call the hotel and tell them we're arriving late.",
+   "hash": "f41cc454c207"
+  },
+  "l27-scn": {
+   "file": "l27-scn.mp3",
+   "duration": 24.15,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi Maya, it's Priya. We have a problem. There's a train strike, and our nine o'clock train to Edinburgh is cancelled. The next one is at two, but look at this queue: we're going to wait for hours! Don't worry, I'll ask at the information desk about buses. If we can't get a train today, we'll stay another night in London. I'll call the hotel in Edinburgh, too. Could you check if we can get a refund? Thanks!",
+   "hash": "a60d78c917ec"
+  },
+  "l27-task-formal": {
+   "file": "l27-task-formal.mp3",
+   "duration": 10.76,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "We apologise for the delay to this service. Due to a signal failure, the two o'clock train to Edinburgh will depart from platform nine at two forty.",
+   "hash": "acb56a34f0f9"
+  },
+  "l27-task-model": {
+   "file": "l27-task-model.mp3",
+   "duration": 22.58,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Oliver, it's Sarah. Bad news: our train to Edinburgh is cancelled because of a strike. There's a huge queue at the ticket office, so we're going to be late for dinner tonight. Don't worry, I'll check the app for other trains. If we get seats on the two o'clock train, we'll arrive at around seven. If not, I'll call you, and we can meet tomorrow instead. Sorry about this!",
+   "hash": "4febaff21cda"
+  },
+  "l28-cc-1a": {
+   "file": "l28-cc-1a.mp3",
+   "duration": 2.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Go straight on and take the second left.",
+   "hash": "a6d23911b817"
+  },
+  "l28-cc-1b": {
+   "file": "l28-cc-1b.mp3",
+   "duration": 2.55,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Turn right at the traffic lights.",
+   "hash": "50fd671279e3"
+  },
+  "l28-cc-2a": {
+   "file": "l28-cc-2a.mp3",
+   "duration": 2.43,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If you turn left, you'll see the square.",
+   "hash": "c1b26d693fa3"
+  },
+  "l28-cc-2b": {
+   "file": "l28-cc-2b.mp3",
+   "duration": 3.47,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "You'll find the café opposite the museum.",
+   "hash": "fae485f89902"
+  },
+  "l28-cc-3a": {
+   "file": "l28-cc-3a.mp3",
+   "duration": 2.4,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Could you tell me how to get to the castle?",
+   "hash": "3499c298c5fb"
+  },
+  "l28-cc-3b": {
+   "file": "l28-cc-3b.mp3",
+   "duration": 2.17,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Do you know where the nearest station is?",
+   "hash": "4c6744c1980b"
+  },
+  "l28-dict-1": {
+   "file": "l28-dict-1.mp3",
+   "duration": 3.58,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.9,
+   "text": "Go straight on and turn right at the traffic lights.",
+   "hash": "75ca12b2834a"
+  },
+  "l28-dlg-01": {
+   "file": "l28-dlg-01.mp3",
+   "duration": 3.21,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Excuse me, could you tell me how to get to the castle?",
+   "hash": "8c94cd46acad"
+  },
+  "l28-dlg-02": {
+   "file": "l28-dlg-02.mp3",
+   "duration": 8.43,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Of course. It's about fifteen minutes on foot. Go straight on up this street until you reach the traffic lights.",
+   "hash": "f59d2c0ee408"
+  },
+  "l28-dlg-03": {
+   "file": "l28-dlg-03.mp3",
+   "duration": 3.79,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Okay, straight on to the traffic lights. And then?",
+   "hash": "ca0210f1610f"
+  },
+  "l28-dlg-04": {
+   "file": "l28-dlg-04.mp3",
+   "duration": 5.9,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Then turn right. If you keep walking uphill, you'll see the castle in front of you.",
+   "hash": "f65b0dc7822d"
+  },
+  "l28-dlg-05": {
+   "file": "l28-dlg-05.mp3",
+   "duration": 3.15,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Great. Is there a cash machine on the way?",
+   "hash": "63cb27de7e5b"
+  },
+  "l28-dlg-06": {
+   "file": "l28-dlg-06.mp3",
+   "duration": 3.51,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Yes, there's one next to the post office, on the left.",
+   "hash": "abcc4ae4544e"
+  },
+  "l28-dlg-07": {
+   "file": "l28-dlg-07.mp3",
+   "duration": 3.53,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Perfect. And will I need a ticket for the castle?",
+   "hash": "07bd8e43ef47"
+  },
+  "l28-dlg-08": {
+   "file": "l28-dlg-08.mp3",
+   "duration": 5.3,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Yes, but if you book online, you'll skip the queue. I'd recommend it.",
+   "hash": "15302d52232a"
+  },
+  "l28-gd": {
+   "file": "l28-gd.mp3",
+   "duration": 6.03,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If you keep walking uphill, you'll see the castle in front of you. If you book online, you'll skip the queue.",
+   "hash": "4af223a32907"
+  },
+  "l28-ph-museum-ex": {
+   "file": "l28-ph-museum-ex.mp3",
+   "duration": 2.21,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The museum is free on Sundays.",
+   "hash": "dcb8119045d0"
+  },
+  "l28-ph-museum-slow": {
+   "file": "l28-ph-museum-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Museum.",
+   "hash": "d5bb926deb83"
+  },
+  "l28-ph-museum-uk": {
+   "file": "l28-ph-museum-uk.mp3",
+   "duration": 1.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Museum.",
+   "hash": "b792b6f970a9"
+  },
+  "l28-ph-museum-us": {
+   "file": "l28-ph-museum-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Museum.",
+   "hash": "04849448da69"
+  },
+  "l28-ph-opposite-ex": {
+   "file": "l28-ph-opposite-ex.mp3",
+   "duration": 3.21,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The café is opposite the museum.",
+   "hash": "5673cd25c320"
+  },
+  "l28-ph-opposite-slow": {
+   "file": "l28-ph-opposite-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Opposite.",
+   "hash": "b27518231efe"
+  },
+  "l28-ph-opposite-uk": {
+   "file": "l28-ph-opposite-uk.mp3",
+   "duration": 1.27,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Opposite.",
+   "hash": "7ff0d33c0e54"
+  },
+  "l28-ph-opposite-us": {
+   "file": "l28-ph-opposite-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Opposite.",
+   "hash": "abd437f4426f"
+  },
+  "l28-ph-square-ex": {
+   "file": "l28-ph-square-ex.mp3",
+   "duration": 2.85,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Cross the square and turn right.",
+   "hash": "eb908696c153"
+  },
+  "l28-ph-square-slow": {
+   "file": "l28-ph-square-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Square.",
+   "hash": "e3ecdc5a0f50"
+  },
+  "l28-ph-square-uk": {
+   "file": "l28-ph-square-uk.mp3",
+   "duration": 1.08,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Square.",
+   "hash": "d928ebee0d68"
+  },
+  "l28-ph-square-us": {
+   "file": "l28-ph-square-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Square.",
+   "hash": "050c1bb92605"
+  },
+  "l28-ph-straight-ex": {
+   "file": "l28-ph-straight-ex.mp3",
+   "duration": 3.41,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Go straight on until you reach the traffic lights.",
+   "hash": "5eca2b3dc735"
+  },
+  "l28-ph-straight-slow": {
+   "file": "l28-ph-straight-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Straight.",
+   "hash": "6db42c1f912b"
+  },
+  "l28-ph-straight-uk": {
+   "file": "l28-ph-straight-uk.mp3",
+   "duration": 1.15,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Straight.",
+   "hash": "fb0b9508f507"
+  },
+  "l28-ph-straight-us": {
+   "file": "l28-ph-straight-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Straight.",
+   "hash": "0462d7564d9d"
+  },
+  "l28-ph-street-ex": {
+   "file": "l28-ph-street-ex.mp3",
+   "duration": 2.81,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Take the first street on the left.",
+   "hash": "b170d16d4593"
+  },
+  "l28-ph-street-slow": {
+   "file": "l28-ph-street-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Street.",
+   "hash": "4ca324351c2c"
+  },
+  "l28-ph-street-uk": {
+   "file": "l28-ph-street-uk.mp3",
+   "duration": 1.38,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Street.",
+   "hash": "02ea1cbb47b1"
+  },
+  "l28-ph-street-us": {
+   "file": "l28-ph-street-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Street.",
+   "hash": "9de5fe15c05d"
+  },
+  "l28-reg-c1": {
+   "file": "l28-reg-c1.mp3",
+   "duration": 3.72,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Where's the nearest coffee place? I'm dying for a latte.",
+   "hash": "ebfd7537cf70"
+  },
+  "l28-reg-c2": {
+   "file": "l28-reg-c2.mp3",
+   "duration": 3.32,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Just follow the blue dot on the map. Easy!",
+   "hash": "35c5bbb306e9"
+  },
+  "l28-reg-f1": {
+   "file": "l28-reg-f1.mp3",
+   "duration": 4.49,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "The museum is a short walk from the hotel, just opposite the cathedral.",
+   "hash": "bede79e37a59"
+  },
+  "l28-reg-f2": {
+   "file": "l28-reg-f2.mp3",
+   "duration": 3.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Visitors are advised to use the main entrance on Market Street.",
+   "hash": "c5645173845b"
+  },
+  "l28-reg-n1": {
+   "file": "l28-reg-n1.mp3",
+   "duration": 2.4,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Could you tell me how to get to the castle?",
+   "hash": "3499c298c5fb"
+  },
+  "l28-reg-n2": {
+   "file": "l28-reg-n2.mp3",
+   "duration": 2.94,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Go straight on and take the second left.",
+   "hash": "02370fb8dab3"
+  },
+  "l28-reg-n3": {
+   "file": "l28-reg-n3.mp3",
+   "duration": 1.64,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Is it far from here?",
+   "hash": "340eedaed679"
+  },
+  "l28-scn": {
+   "file": "l28-scn.mp3",
+   "duration": 25.8,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Hi both! Here's how to find the café. When you come out of the hotel, turn left and go straight on until you reach a big square. Cross the square, and you'll see a church on your right. Take the first street on the left after the church. The café is opposite the museum, so you can't miss it. If you get lost, just call me. See you at ten!",
+   "hash": "775ce424f58b"
+  },
+  "l28-task-formal": {
+   "file": "l28-task-formal.mp3",
+   "duration": 8.46,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "The museum is a short walk from the hotel. On leaving the building, turn right, and you will find the entrance opposite the cathedral.",
+   "hash": "c9042e54f8d2"
+  },
+  "l28-task-model": {
+   "file": "l28-task-model.mp3",
+   "duration": 20.59,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Hi Sarah! Here's how to get to the restaurant from the hotel. When you come out, turn left and go straight on for about five minutes. At the bookshop, take the second right, and you'll see a small park. The restaurant is on the left, opposite the park. If you see a big church, you've gone too far! If you get lost, I'll send you my location. See you at eight!",
+   "hash": "66b5ba4cccae"
+  },
+  "l29-cc-1a": {
+   "file": "l29-cc-1a.mp3",
+   "duration": 2.68,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "I'll send someone up straight away.",
+   "hash": "24baf43f4fa1"
+  },
+  "l29-cc-1b": {
+   "file": "l29-cc-1b.mp3",
+   "duration": 2.72,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "I'll ask housekeeping to bring them.",
+   "hash": "bbe713f221bd"
+  },
+  "l29-cc-2a": {
+   "file": "l29-cc-2a.mp3",
+   "duration": 2.81,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Would it be possible to get some extra towels?",
+   "hash": "c6a4898bb450"
+  },
+  "l29-cc-2b": {
+   "file": "l29-cc-2b.mp3",
+   "duration": 2.23,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Could we have a late check-out?",
+   "hash": "a2a517c76d10"
+  },
+  "l29-cc-3a": {
+   "file": "l29-cc-3a.mp3",
+   "duration": 3.85,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "If you need the room until two, there will be a small charge.",
+   "hash": "a353f6006ca3"
+  },
+  "l29-cc-3b": {
+   "file": "l29-cc-3b.mp3",
+   "duration": 3.0,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If you book two nights, breakfast will be free.",
+   "hash": "2947b65fbd63"
+  },
+  "l29-dict-1": {
+   "file": "l29-dict-1.mp3",
+   "duration": 4.0,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.9,
+   "text": "If you need the room until two, there will be a small charge.",
+   "hash": "bdf445df5950"
+  },
+  "l29-dlg-01": {
+   "file": "l29-dlg-01.mp3",
+   "duration": 5.38,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Good morning. I'm afraid there's a problem with our room. The heating isn't working.",
+   "hash": "1e8a253b1fab"
+  },
+  "l29-dlg-02": {
+   "file": "l29-dlg-02.mp3",
+   "duration": 5.15,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "I'm so sorry about that. I'll send someone up straight away.",
+   "hash": "4d04a7779c8e"
+  },
+  "l29-dlg-03": {
+   "file": "l29-dlg-03.mp3",
+   "duration": 4.41,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Thank you. Also, would it be possible to get some extra towels?",
+   "hash": "a5e1b97fabee"
+  },
+  "l29-dlg-04": {
+   "file": "l29-dlg-04.mp3",
+   "duration": 4.75,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Of course. I'll ask housekeeping to bring them this morning.",
+   "hash": "776c525dc2c6"
+  },
+  "l29-dlg-05": {
+   "file": "l29-dlg-05.mp3",
+   "duration": 4.79,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Great. And we're checking out on Monday. Could we have a late check-out?",
+   "hash": "1093cb187c56"
+  },
+  "l29-dlg-06": {
+   "file": "l29-dlg-06.mp3",
+   "duration": 6.12,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Check-out is at eleven, but if you need the room until two, there will be a small charge of twenty pounds.",
+   "hash": "58ae6e386ed1"
+  },
+  "l29-dlg-07": {
+   "file": "l29-dlg-07.mp3",
+   "duration": 2.49,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "That's fine. We'll take it.",
+   "hash": "eb1225c4ac17"
+  },
+  "l29-dlg-08": {
+   "file": "l29-dlg-08.mp3",
+   "duration": 5.75,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Perfect. I'll put it on your bill. Enjoy your stay!",
+   "hash": "496321c9f603"
+  },
+  "l29-gd": {
+   "file": "l29-gd.mp3",
+   "duration": 5.49,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'll send someone up straight away. If you need the room until two, there will be a small charge.",
+   "hash": "a83ab6b11ab0"
+  },
+  "l29-ph-luggage-ex": {
+   "file": "l29-ph-luggage-ex.mp3",
+   "duration": 3.0,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "We can keep your luggage after check-out.",
+   "hash": "cd8adef087a3"
+  },
+  "l29-ph-luggage-slow": {
+   "file": "l29-ph-luggage-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Luggage.",
+   "hash": "88bcefe3c90e"
+  },
+  "l29-ph-luggage-uk": {
+   "file": "l29-ph-luggage-uk.mp3",
+   "duration": 1.49,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Luggage.",
+   "hash": "bf1db53b8748"
+  },
+  "l29-ph-luggage-us": {
+   "file": "l29-ph-luggage-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Luggage.",
+   "hash": "8bda948f099b"
+  },
+  "l29-ph-reservation-ex": {
+   "file": "l29-ph-reservation-ex.mp3",
+   "duration": 2.36,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I have a reservation for three nights.",
+   "hash": "146792d1a874"
+  },
+  "l29-ph-reservation-slow": {
+   "file": "l29-ph-reservation-slow.mp3",
+   "duration": 1.83,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Reservation.",
+   "hash": "9d1402cdb269"
+  },
+  "l29-ph-reservation-uk": {
+   "file": "l29-ph-reservation-uk.mp3",
+   "duration": 1.59,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Reservation.",
+   "hash": "8dedff080ecf"
+  },
+  "l29-ph-reservation-us": {
+   "file": "l29-ph-reservation-us.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Reservation.",
+   "hash": "5824d6fd8cbb"
+  },
+  "l29-ph-stairs-ex": {
+   "file": "l29-ph-stairs-ex.mp3",
+   "duration": 3.62,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "The lift is out of order, so please use the stairs.",
+   "hash": "b9cf9fdc0069"
+  },
+  "l29-ph-stairs-slow": {
+   "file": "l29-ph-stairs-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Stairs.",
+   "hash": "8cea44815918"
+  },
+  "l29-ph-stairs-uk": {
+   "file": "l29-ph-stairs-uk.mp3",
+   "duration": 1.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Stairs.",
+   "hash": "ab70ea4c8964"
+  },
+  "l29-ph-stairs-us": {
+   "file": "l29-ph-stairs-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Stairs.",
+   "hash": "2bddd3436f27"
+  },
+  "l29-ph-suite-ex": {
+   "file": "l29-ph-suite-ex.mp3",
+   "duration": 2.96,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "We can upgrade you to a suite tonight.",
+   "hash": "ea2f1d9716c3"
+  },
+  "l29-ph-suite-slow": {
+   "file": "l29-ph-suite-slow.mp3",
+   "duration": 1.57,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Suite.",
+   "hash": "31a00daf60ff"
+  },
+  "l29-ph-suite-uk": {
+   "file": "l29-ph-suite-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Suite.",
+   "hash": "b9405a5e808d"
+  },
+  "l29-ph-suite-us": {
+   "file": "l29-ph-suite-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Suite.",
+   "hash": "6b29a4c2e530"
+  },
+  "l29-ph-towels-ex": {
+   "file": "l29-ph-towels-ex.mp3",
+   "duration": 2.43,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Could we have some extra towels, please?",
+   "hash": "5a00d2a51b6e"
+  },
+  "l29-ph-towels-slow": {
+   "file": "l29-ph-towels-slow.mp3",
+   "duration": 1.59,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Towels.",
+   "hash": "fd2f63f881c4"
+  },
+  "l29-ph-towels-uk": {
+   "file": "l29-ph-towels-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Towels.",
+   "hash": "0274e1264b5c"
+  },
+  "l29-ph-towels-us": {
+   "file": "l29-ph-towels-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Towels.",
+   "hash": "88fdbea214a5"
+  },
+  "l29-reg-c1": {
+   "file": "l29-reg-c1.mp3",
+   "duration": 2.89,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "The room's tiny, but the view is amazing!",
+   "hash": "bdd88c46976f"
+  },
+  "l29-reg-c2": {
+   "file": "l29-reg-c2.mp3",
+   "duration": 3.45,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Do they have free Wi-Fi? I can't live without it.",
+   "hash": "0d4b13ac5897"
+  },
+  "l29-reg-f1": {
+   "file": "l29-reg-f1.mp3",
+   "duration": 2.94,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Would it be possible to arrange a late check-out?",
+   "hash": "e483c23def4c"
+  },
+  "l29-reg-f2": {
+   "file": "l29-reg-f2.mp3",
+   "duration": 4.11,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Should you require anything further, please contact reception.",
+   "hash": "500c6f36f23c"
+  },
+  "l29-reg-n1": {
+   "file": "l29-reg-n1.mp3",
+   "duration": 2.43,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Could we have some extra towels, please?",
+   "hash": "5a00d2a51b6e"
+  },
+  "l29-reg-n2": {
+   "file": "l29-reg-n2.mp3",
+   "duration": 2.28,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We're checking out on Monday morning.",
+   "hash": "b8bbdef9dbd8"
+  },
+  "l29-reg-n3": {
+   "file": "l29-reg-n3.mp3",
+   "duration": 1.98,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Is breakfast included?",
+   "hash": "060620c86011"
+  },
+  "l29-scn": {
+   "file": "l29-scn.mp3",
+   "duration": 25.81,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Dear Priya, thank you for your message, and I'm sorry to hear about the strike. Please don't worry about your late arrival: our reception is open twenty-four hours, so someone will be here when you arrive. I'll make sure your room is on a high floor, away from the street. If you need a taxi from the station, we'll be happy to book one for you. We look forward to welcoming you. Kind regards, Sophie Bennett, Reception",
+   "hash": "e6e8b556da79"
+  },
+  "l29-task-formal": {
+   "file": "l29-task-formal.mp3",
+   "duration": 9.18,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.95,
+   "text": "Should you require a late check-out, please inform reception by ten o'clock. There will be a charge of twenty pounds for departures after midday.",
+   "hash": "26ec42c5e43c"
+  },
+  "l29-task-model": {
+   "file": "l29-task-model.mp3",
+   "duration": 28.79,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Dear Sir or Madam, I have a reservation for two people from April 18 to April 21. Unfortunately, our train is delayed, so we're arriving at around eleven at night. Will someone be at reception? Also, would it be possible to have a quiet room on a high floor? If there is an extra charge, that will be fine. Finally, we're leaving for the airport at three on Monday. Could we leave our luggage at the hotel after check-out? Many thanks, Sarah",
+   "hash": "ba93c94ce08a"
+  },
+  "l30-cc-1a": {
+   "file": "l30-cc-1a.mp3",
+   "duration": 2.36,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We went to a traditional dance night.",
+   "hash": "b8bd2f0641e9"
+  },
+  "l30-cc-1b": {
+   "file": "l30-cc-1b.mp3",
+   "duration": 2.06,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It was better than I expected.",
+   "hash": "421dc2fbaaae"
+  },
+  "l30-cc-2a": {
+   "file": "l30-cc-2a.mp3",
+   "duration": 1.79,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I'm going back in August.",
+   "hash": "dbbb3d60c739"
+  },
+  "l30-cc-2b": {
+   "file": "l30-cc-2b.mp3",
+   "duration": 2.77,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'm going to visit Scotland next year.",
+   "hash": "fdf6af740d30"
+  },
+  "l30-cc-3a": {
+   "file": "l30-cc-3a.mp3",
+   "duration": 4.2,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "If you go in August, you'll see street performers everywhere.",
+   "hash": "46a9102c36dc"
+  },
+  "l30-cc-3b": {
+   "file": "l30-cc-3b.mp3",
+   "duration": 3.3,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If you visit in winter, you'll need a warm coat.",
+   "hash": "d15482becc4d"
+  },
+  "l30-dict-1": {
+   "file": "l30-dict-1.mp3",
+   "duration": 4.28,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.9,
+   "text": "If you go in August, you'll see street performers everywhere.",
+   "hash": "676d0b03694e"
+  },
+  "l30-dlg-01": {
+   "file": "l30-dlg-01.mp3",
+   "duration": 4.94,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "So, how was Edinburgh? Did you like my hometown?",
+   "hash": "1c4732fb15f1"
+  },
+  "l30-dlg-02": {
+   "file": "l30-dlg-02.mp3",
+   "duration": 6.24,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "We loved it! On Saturday, we went to a traditional dance night. Everyone was so friendly.",
+   "hash": "c828d645d584"
+  },
+  "l30-dlg-03": {
+   "file": "l30-dlg-03.mp3",
+   "duration": 5.9,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "That's very Scottish. Nobody stays in their seat at those dances.",
+   "hash": "03681738ae70"
+  },
+  "l30-dlg-04": {
+   "file": "l30-dlg-04.mp3",
+   "duration": 5.49,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "And the food! I tried haggis for the first time. It was better than I expected.",
+   "hash": "7e6cb047fbd2"
+  },
+  "l30-dlg-05": {
+   "file": "l30-dlg-05.mp3",
+   "duration": 3.32,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Brave! Are you going to go back?",
+   "hash": "8a358117be74"
+  },
+  "l30-dlg-06": {
+   "file": "l30-dlg-06.mp3",
+   "duration": 5.51,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Definitely. I'm going back in August for the festival. I've already booked my flight.",
+   "hash": "afd8465f49c9"
+  },
+  "l30-dlg-07": {
+   "file": "l30-dlg-07.mp3",
+   "duration": 9.71,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Great choice. If you go in August, you'll see street performers everywhere. But book your hotel soon, because prices go up.",
+   "hash": "e6ee5b7df01f"
+  },
+  "l30-dlg-08": {
+   "file": "l30-dlg-08.mp3",
+   "duration": 2.98,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Thanks for the tip! I'll book it this week.",
+   "hash": "a92bf50ab9a5"
+  },
+  "l30-gd": {
+   "file": "l30-gd.mp3",
+   "duration": 7.01,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "On Saturday, we went to a traditional dance night. I'm going back in August, and if you go too, you'll see the festival.",
+   "hash": "d13fd29f5754"
+  },
+  "l30-ph-festival-ex": {
+   "file": "l30-ph-festival-ex.mp3",
+   "duration": 3.45,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The festival takes place every August.",
+   "hash": "0614805c6962"
+  },
+  "l30-ph-festival-slow": {
+   "file": "l30-ph-festival-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Festival.",
+   "hash": "8e5e145fe52c"
+  },
+  "l30-ph-festival-uk": {
+   "file": "l30-ph-festival-uk.mp3",
+   "duration": 1.7,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Festival.",
+   "hash": "68669f537436"
+  },
+  "l30-ph-festival-us": {
+   "file": "l30-ph-festival-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Festival.",
+   "hash": "f16fd6b7ec77"
+  },
+  "l30-ph-special-ex": {
+   "file": "l30-ph-special-ex.mp3",
+   "duration": 1.89,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It was a very special night.",
+   "hash": "100d3801355c"
+  },
+  "l30-ph-special-slow": {
+   "file": "l30-ph-special-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Special.",
+   "hash": "fc3656803707"
+  },
+  "l30-ph-special-uk": {
+   "file": "l30-ph-special-uk.mp3",
+   "duration": 1.17,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Special.",
+   "hash": "c79799b86868"
+  },
+  "l30-ph-special-us": {
+   "file": "l30-ph-special-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Special.",
+   "hash": "c53d7a23ea7b"
+  },
+  "l30-ph-tradition-ex": {
+   "file": "l30-ph-tradition-ex.mp3",
+   "duration": 3.15,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Dancing is an important tradition in Scotland.",
+   "hash": "850939d3e851"
+  },
+  "l30-ph-tradition-slow": {
+   "file": "l30-ph-tradition-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Tradition.",
+   "hash": "f473f09fdaa3"
+  },
+  "l30-ph-tradition-uk": {
+   "file": "l30-ph-tradition-uk.mp3",
+   "duration": 1.42,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Tradition.",
+   "hash": "62552cab5814"
+  },
+  "l30-ph-tradition-us": {
+   "file": "l30-ph-tradition-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Tradition.",
+   "hash": "82fb3f530b5a"
+  },
+  "l30-ph-unique-ex": {
+   "file": "l30-ph-unique-ex.mp3",
+   "duration": 2.45,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The city has a unique atmosphere.",
+   "hash": "dde5bf962192"
+  },
+  "l30-ph-unique-slow": {
+   "file": "l30-ph-unique-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Unique.",
+   "hash": "fdb1e1e81a24"
+  },
+  "l30-ph-unique-uk": {
+   "file": "l30-ph-unique-uk.mp3",
+   "duration": 1.49,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Unique.",
+   "hash": "5f4841257b8a"
+  },
+  "l30-ph-unique-us": {
+   "file": "l30-ph-unique-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Unique.",
+   "hash": "fca31c8a7505"
+  },
+  "l30-ph-year-ear": {
+   "file": "l30-ph-year-ear.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "My left ear hurts.",
+   "hash": "97aea55e798e"
+  },
+  "l30-ph-year-ex": {
+   "file": "l30-ph-year-ex.mp3",
+   "duration": 3.28,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The festival gets bigger every year.",
+   "hash": "2f0751f6ecb8"
+  },
+  "l30-ph-year-j": {
+   "file": "l30-ph-year-j.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Every year in August.",
+   "hash": "edf1e4468575"
+  },
+  "l30-ph-year-slow": {
+   "file": "l30-ph-year-slow.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Year.",
+   "hash": "35c4fd5dd8ab"
+  },
+  "l30-ph-year-uk": {
+   "file": "l30-ph-year-uk.mp3",
+   "duration": 1.27,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Year.",
+   "hash": "e9b01dd6ecea"
+  },
+  "l30-ph-year-us": {
+   "file": "l30-ph-year-us.mp3",
+   "duration": 1.19,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Year.",
+   "hash": "48b441cf1666"
+  },
+  "l30-reg-c1": {
+   "file": "l30-reg-c1.mp3",
+   "duration": 3.23,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "That trip was epic! Best weekend ever.",
+   "hash": "b2f92b15119b"
+  },
+  "l30-reg-c2": {
+   "file": "l30-reg-c2.mp3",
+   "duration": 3.68,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "You've got to try the street food there. It's amazing!",
+   "hash": "e78f1763989d"
+  },
+  "l30-reg-f1": {
+   "file": "l30-reg-f1.mp3",
+   "duration": 3.3,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The festival attracts visitors from all over the world.",
+   "hash": "7b56eca47c2d"
+  },
+  "l30-reg-f2": {
+   "file": "l30-reg-f2.mp3",
+   "duration": 4.15,
+   "speaker": "george",
+   "voice": "bm_george",
+   "speed": 0.95,
+   "text": "Visitors are encouraged to respect local customs.",
+   "hash": "91de47fc3aad"
+  },
+  "l30-reg-n1": {
+   "file": "l30-reg-n1.mp3",
+   "duration": 3.53,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "If you go in August, you'll see street performers everywhere.",
+   "hash": "f7f1b5744787"
+  },
+  "l30-reg-n2": {
+   "file": "l30-reg-n2.mp3",
+   "duration": 4.17,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We went to a traditional dance night, and everyone was very friendly.",
+   "hash": "3e082512588d"
+  },
+  "l30-reg-n3": {
+   "file": "l30-reg-n3.mp3",
+   "duration": 2.77,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'm going to visit Scotland next year.",
+   "hash": "fdf6af740d30"
+  },
+  "l30-scn": {
+   "file": "l30-scn.mp3",
+   "duration": 21.03,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "Hi Maya! We're back, and the trip was amazing. In Edinburgh, we went to a traditional Scottish dance night, and I danced for hours! Oliver says there's going to be a much bigger one in August, during the festival, and I'm definitely going to go back. If you ever go to Scotland, you'll love it. Thanks so much for organizing everything!",
+   "hash": "b16bf959f8cb"
+  },
+  "l30-task-formal": {
+   "file": "l30-task-formal.mp3",
+   "duration": 6.99,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The festival attracts visitors from all over the world. Visitors are encouraged to book accommodation well in advance.",
+   "hash": "12a763c3486f"
+  },
+  "l30-task-model": {
+   "file": "l30-task-model.mp3",
+   "duration": 32.93,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Leo! You asked about cultural experiences abroad. Last October, Priya invited me to celebrate Canadian Thanksgiving with her family in Toronto. We had a huge dinner, and everyone said what they were thankful for. It was better than I expected! This year I'm going again: I've already booked my flight. If you ever get the chance to join a family celebration abroad, you'll learn more about a culture in one night than in a week of sightseeing. You've got to try it!",
+   "hash": "39977b6bcbd5"
+  },
+  "m06-rv-dict-1": {
+   "file": "m06-rv-dict-1.mp3",
+   "duration": 3.73,
+   "speaker": "sophie",
+   "voice": "bf_lily",
+   "speed": 0.9,
+   "text": "Go straight on and take the second street on the left.",
+   "hash": "cc5a15299ff5"
+  }
+ }
+}
