@@ -7,6 +7,7 @@ import { store } from "./store.js";
 import { audio } from "./audio.js";
 import { BLOCKS, RENDER, MOUNT, alertHTML } from "./blocks.js";
 import { renderItem, mountItems, resultCard } from "./exercises.js";
+import { t, setLang } from "./strings.js";
 
 const pad = (n) => String(n).padStart(2, "0");
 const lessonKey = (mod, l) => `${mod}-${l}`;
@@ -66,7 +67,7 @@ function bandHTML(course, summary, { link = false, current = null } = {}) {
 // isn't finished yet, otherwise the first unfinished lesson in course order.
 async function nextStep(summary) {
   const all = await data.modules();
-  const lm = store.last && /^(m\d\d)-(l\d\d)-(\w+)$/.exec(store.last);
+  const lm = store.last && /^(m\d\d)-(l\d{2,3})-(\w+)$/.exec(store.last);
   if (lm && all[lm[1]]) {
     const mod = await data.module(lm[1]);
     if (mod.lessons.includes(lm[2]) && !lessonDone(lm[1], lm[2])) {
@@ -88,8 +89,9 @@ export async function home() {
   const step = await nextStep(summary);
   const all = await data.modules();
   const info = all[step.modId];
-  const [mod, lessons, review] = await Promise.all([data.module(step.modId), data.allLessons(step.modId), data.review(step.modId)]);
-  const lesson = lessons.find((x) => x.id === step.lessonId);
+  const [mod, lessons, review] = await Promise.all([data.module(step.modId), data.allLessons(step.modId), data.review(step.modId).catch((err) => { if (err?.notFound) return null; throw err; })]);
+  // In a draft module the next lesson may not be written yet: fall back to the first one that is.
+  const lesson = lessons.find((x) => x && x.id === step.lessonId) || lessons.find(Boolean);
   const blockId = step.route.split("-").pop();
   const block = BLOCKS.find((b) => b.id === blockId);
   const p = lessonProgress(step.modId, lesson.id);
@@ -117,14 +119,14 @@ export async function home() {
         <div class="stack-lg">
           <article class="continue">
             <span class="eyebrow">${eyebrow}</span>
-            <h3 class="en">${esc(step.finished ? review.title : lesson.title)}</h3>
+            <h3 class="en">${esc(step.finished && review ? review.title : lesson.title)}</h3>
             <p class="meta">${meta}</p>
             <div class="bar" style="--w:${Math.round((step.finished ? 1 : p) * 100)}%"><i></i></div>
             <a class="btn" href="#${esc(step.route)}">${cta}${icon.arrowR}</a>
           </article>
           <section class="stack">
             <div class="section-head"><span class="eyebrow">${esc(info.code)} · Módulo ${pad(info.n)} · ${mod.hours} horas</span><h3 class="en">${esc(mod.title)}</h3></div>
-            <div class="lesson-list">${lessons.map((l) => lessonRow(step.modId, l)).join("")}${reviewRow(step.modId, review)}</div>
+            <div class="lesson-list">${lessons.map((l, i) => lessonRow(step.modId, l, i, info)).join("")}${reviewRow(step.modId, review)}</div>
             <a class="btn ghost" href="#${esc(step.modId)}">Ver el módulo completo${icon.arrowR}</a>
           </section>
           ${moduleList}
@@ -139,13 +141,16 @@ export async function home() {
   return { title: "Banda B", html };
 }
 
-function lessonRow(mod, l) {
+function lessonRow(mod, l, idx, meta) {
+  // A draft module may list lessons that are not written yet.
+  if (!l) return `<div class="lesson-row pending"><span class="num">${pad(meta.firstLesson + idx)}</span><span class="t"><strong class="muted">${esc(meta.meta.lessons[idx] || "")}</strong><span>Pendiente de redacción</span></span></div>`;
   const p = lessonProgress(mod, l.id);
   const done = lessonDone(mod, l.id);
   return `<a class="lesson-row ${done ? "done" : ""}" href="#${esc(lessonKey(mod, l.id))}"><span class="num">${done ? icon.check.replace("<svg", '<svg width="20" height="20"') : pad(l.n)}</span><span class="t"><strong>${esc(l.title)}</strong><span>${esc(l.titleEs)}</span></span><span class="ring" style="--v:${p.toFixed(3)}" aria-label="${Math.round(p * 100)}% completado"><span>${Math.round(p * 6)}/6</span></span></a>`;
 }
 
 function reviewRow(modId, review) {
+  if (!review) return "";
   const set = `${modId}-review`;
   const total = review.items.length;
   const sc = store.score(set);
@@ -208,7 +213,7 @@ function gateHTML(g) {
 
 // ---------------------------------------------------------------- module
 export async function moduleView(modId) {
-  const [course, info, mod, cast, lessons, review, clips] = await Promise.all([data.course(), data.info(modId), data.module(modId), data.cast(), data.allLessons(modId), data.review(modId), data.audio(modId)]);
+  const [course, info, mod, cast, lessons, review, clips] = await Promise.all([data.course(), data.info(modId), data.module(modId), data.cast(), data.allLessons(modId), data.review(modId).catch((err) => { if (err?.notFound) return null; throw err; }), data.audio(modId)]);
   const sub = course.sublevels.find((s) => s.id === info.sublevel);
   const sample = (spk) => Object.entries(clips).find(([id, m]) => m.speaker === spk && !id.includes("-ph-"))?.[0];
   const people = mod.cast.map((id) => {
@@ -236,7 +241,7 @@ export async function moduleView(modId) {
       <div class="grid-2" style="margin-top:20px">
         <section class="stack">
           <h3>Lecciones</h3>
-          <div class="lesson-list">${lessons.map((l) => lessonRow(modId, l)).join("")}${reviewRow(modId, review)}</div>
+          <div class="lesson-list">${lessons.map((l, i) => lessonRow(modId, l, i, info)).join("")}${reviewRow(modId, review)}</div>
         </section>
         <aside class="stack">
           <div class="panel stack"><span class="eyebrow">Al terminar podrás… (toca para autoevaluarte)</span><ul class="cando">${cando}</ul></div>
@@ -306,16 +311,17 @@ function wireOfflinePanel(root, modId) {
 // ---------------------------------------------------------------- lesson (overview + blocks)
 export async function lessonView(modId, lessonId, blockId) {
   const [info, mod, cast, lesson] = await Promise.all([data.info(modId), data.module(modId), data.cast(), data.lesson(modId, lessonId), data.audio(modId)]);
+  setLang(info.ui);
   const lk = lessonKey(modId, lessonId);
   const idx = mod.lessons.indexOf(lessonId);
   const nextLesson = mod.lessons[idx + 1];
-  const next = nextLesson ? { route: lessonKey(modId, nextLesson), label: `Lección ${pad(lesson.n + 1)}` } : { route: `${modId}-repaso`, label: "Repaso del módulo" };
+  const next = nextLesson ? { route: lessonKey(modId, nextLesson), label: t("lesson.nextLesson", { n: pad(lesson.n + 1) }) } : { route: `${modId}-repaso`, label: t("lesson.review") };
 
-  const stepper = (active) => `<nav class="stepper" aria-label="Bloques de la lección" data-stepper><div class="wrap"><ol>${BLOCKS.map((b, i) => `<li><a href="#${lk}-${b.id}" class="${store.isBlockDone(lk, b.id) ? "done" : ""}" ${active === b.id ? 'aria-current="step"' : ""}><span class="n">${store.isBlockDone(lk, b.id) ? "✓" : i + 1}</span><span class="lbl">${esc(b.short)}</span></a></li>`).join("")}</ol></div></nav>`;
+  const stepper = (active) => `<nav class="stepper" aria-label="${esc(t("lesson.stepperLabel"))}" data-stepper><div class="wrap"><ol>${BLOCKS.map((b, i) => `<li><a href="#${lk}-${b.id}" class="${store.isBlockDone(lk, b.id) ? "done" : ""}" ${active === b.id ? 'aria-current="step"' : ""}><span class="n">${store.isBlockDone(lk, b.id) ? "✓" : i + 1}</span><span class="lbl">${esc(b.short)}</span></a></li>`).join("")}</ol></div></nav>`;
 
   const head = `
     <div class="wrap lesson-head">
-      ${crumbs([{ label: "Ruta", href: "ruta" }, { label: info.code }, { label: `Módulo ${pad(mod.n)}`, href: modId }, { label: `Lección ${pad(lesson.n)}`, href: blockId ? lk : null }])}
+      ${crumbs([{ label: t("lesson.route"), href: "ruta" }, { label: info.code }, { label: t("lesson.module", { n: pad(mod.n) }), href: modId }, { label: t("lesson.n", { n: pad(lesson.n) }), href: blockId ? lk : null }])}
       <h1>${esc(lesson.title)}</h1>
       ${blockId ? "" : `<p class="es">${esc(lesson.titleEs)}</p>`}
     </div>`;
@@ -326,25 +332,25 @@ export async function lessonView(modId, lessonId, blockId) {
       ${head}
       ${stepper(null)}
       <div class="wrap block">
-        <div class="row"><span class="chip">Lección ${pad(lesson.n)} de 270</span><span class="chip tnum">${lesson.minutes} min</span><span class="chip accent wraps">${esc(lesson.focus.grammar)}</span></div>
+        <div class="row"><span class="chip">${esc(t("lesson.ofCourse", { n: pad(lesson.n), total: 270 }))}</span><span class="chip tnum">${esc(t("lesson.min", { n: lesson.minutes }))}</span><span class="chip accent wraps">${esc(lesson.focus.grammar)}</span></div>
         <div class="objectives">
-          <div class="panel stack"><span class="eyebrow">Objetivos · al terminar podrás</span><ul class="cando">${lesson.canDo.map((c) => `<li>${fmt(c)}</li>`).join("")}</ul></div>
+          <div class="panel stack"><span class="eyebrow">${esc(t("lesson.objectives"))}</span><ul class="cando">${lesson.canDo.map((c) => `<li>${fmt(c)}</li>`).join("")}</ul></div>
           <div class="stack">
-            <div class="warmup"><span class="eyebrow">Calentamiento</span><p>${fmt(lesson.warmup)}</p></div>
-            <div class="panel tight stack small"><div><span class="eyebrow">Léxico</span><p class="en">${esc(lesson.focus.lexis)}</p></div><div><span class="eyebrow">Fonética</span><p>${esc(lesson.focus.afh)}</p></div></div>
+            <div class="warmup"><span class="eyebrow">${esc(t("lesson.warmup"))}</span><p>${fmt(lesson.warmup)}</p></div>
+            <div class="panel tight stack small"><div><span class="eyebrow">${esc(t("lesson.lexis"))}</span><p class="en">${esc(lesson.focus.lexis)}</p></div><div><span class="eyebrow">${esc(t("lesson.phon"))}</span><p>${esc(lesson.focus.afh)}</p></div></div>
           </div>
         </div>
         <section class="stack">
-          <h3>Los seis bloques</h3>
-          <div class="blocks-overview">${BLOCKS.map((b, i) => `<a class="bo ${store.isBlockDone(lk, b.id) ? "done" : ""}" href="#${lk}-${b.id}"><span class="eyebrow"><span>Bloque ${i + 1}</span>${store.isBlockDone(lk, b.id) ? "<span>✓</span>" : ""}</span><b>${esc(b.name)}</b><span>${esc(mod.blocks[i]?.text || "")}</span></a>`).join("")}</div>
+          <h3>${esc(t("lesson.blocks"))}</h3>
+          <div class="blocks-overview">${BLOCKS.map((b, i) => `<a class="bo ${store.isBlockDone(lk, b.id) ? "done" : ""}" href="#${lk}-${b.id}"><span class="eyebrow"><span>${esc(t("lesson.block", { n: i + 1 }))}</span>${store.isBlockDone(lk, b.id) ? "<span>✓</span>" : ""}</span><b>${esc(b.name)}</b><span>${esc(mod.blocks[i]?.text || "")}</span></a>`).join("")}</div>
         </section>
-        <div class="row"><a class="btn" href="#${esc(firstOpen)}">${lessonProgress(modId, lessonId) > 0 ? "Continuar la lección" : "Empezar la lección"}${icon.arrowR}</a></div>
+        <div class="row"><a class="btn" href="#${esc(firstOpen)}">${esc(lessonProgress(modId, lessonId) > 0 ? t("lesson.continue") : t("lesson.start"))}${icon.arrowR}</a></div>
       </div>`;
     return { title: `${lesson.title} · Banda B`, html };
   }
 
   const bi = BLOCKS.findIndex((b) => b.id === blockId);
-  const prev = bi > 0 ? { route: `${lk}-${BLOCKS[bi - 1].id}`, label: BLOCKS[bi - 1].short } : { route: lk, label: "Objetivos" };
+  const prev = bi > 0 ? { route: `${lk}-${BLOCKS[bi - 1].id}`, label: BLOCKS[bi - 1].short } : { route: lk, label: t("lesson.prevObjectives") };
   const after = bi < BLOCKS.length - 1 ? BLOCKS[bi + 1] : null;
   const ctx = { mod, lesson, cast, lk, next, modId };
   const html = `
@@ -352,9 +358,9 @@ export async function lessonView(modId, lessonId, blockId) {
     ${stepper(blockId)}
     <div class="wrap block" data-block="${blockId}">
       ${RENDER[blockId](ctx)}
-      <nav class="block-nav" aria-label="Navegación entre bloques">
+      <nav class="block-nav" aria-label="${esc(t("lesson.blockNavLabel"))}">
         <a class="btn ghost" href="#${esc(prev.route)}">${icon.arrowL}<span>${esc(prev.label)}</span></a>
-        ${after ? `<a class="btn" href="#${lk}-${after.id}" data-complete-block="${blockId}"><span>Siguiente: ${esc(after.short)}</span>${icon.arrowR}</a>` : `<a class="btn ghost" href="#${esc(modId)}"><span>Volver al módulo</span></a>`}
+        ${after ? `<a class="btn" href="#${lk}-${after.id}" data-complete-block="${blockId}"><span>${esc(t("lesson.next", { name: after.short }))}</span>${icon.arrowR}</a>` : `<a class="btn ghost" href="#${esc(modId)}"><span>${esc(t("lesson.backToModule"))}</span></a>`}
       </nav>
     </div>`;
   return {
@@ -379,25 +385,26 @@ export async function lessonView(modId, lessonId, blockId) {
 // ---------------------------------------------------------------- review
 export async function reviewView(modId) {
   const [info, mod, review] = await Promise.all([data.info(modId), data.module(modId), data.review(modId), data.audio(modId)]);
+  setLang(info.ui);
   const set = `${modId}-review`;
   const html = `
     <div class="wrap block">
-      ${crumbs([{ label: "Ruta", href: "ruta" }, { label: info.code }, { label: `Módulo ${pad(mod.n)}`, href: modId }, { label: "Repaso" }])}
-      <header class="block-head"><span class="eyebrow">Repaso del módulo</span><h1 style="font-size:var(--s-2xl)" class="en">${esc(review.title)}</h1><p class="lead">${esc(review.intro)}</p></header>
+      ${crumbs([{ label: t("lesson.route"), href: "ruta" }, { label: info.code }, { label: t("lesson.module", { n: pad(mod.n) }), href: modId }, { label: t("review.crumb") }])}
+      <header class="block-head"><span class="eyebrow">${esc(t("review.eyebrow"))}</span><h1 style="font-size:var(--s-2xl)" class="en">${esc(review.title)}</h1><p class="lead">${esc(review.intro)}</p></header>
       <div data-score>${resultCard(set, review.items.length)}</div>
       <div class="practice narrow">${review.items.map((it, i) => renderItem(it, i, set)).join("")}</div>
       <div data-final></div>
-      <nav class="block-nav"><a class="btn ghost" href="#${esc(modId)}">${icon.arrowL}<span>Volver al módulo</span></a><a class="btn ghost" href="#ruta"><span>Ver la ruta completa</span>${icon.arrowR}</a></nav>
+      <nav class="block-nav"><a class="btn ghost" href="#${esc(modId)}">${icon.arrowL}<span>${esc(t("review.back"))}</span></a><a class="btn ghost" href="#ruta"><span>${esc(t("review.route"))}</span>${icon.arrowR}</a></nav>
     </div>`;
   return {
-    title: `Repaso · ${mod.title}`,
+    title: `${t("review.title")} · ${mod.title}`,
     html,
     mount(root) {
       const total = review.items.length;
       const refresh = () => {
         const sc = store.score(set);
         root.querySelector("[data-score]").innerHTML = sc.answered < total ? resultCard(set, total) : "";
-        root.querySelector("[data-final]").innerHTML = sc.answered >= total ? resultCard(set, total, { onRetryLabel: "Repetir el repaso" }) : "";
+        root.querySelector("[data-final]").innerHTML = sc.answered >= total ? resultCard(set, total, { onRetryLabel: t("review.retry") }) : "";
       };
       mountItems(root, review.items, set, refresh);
       refresh();

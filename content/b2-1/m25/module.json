@@ -1,0 +1,89 @@
+{
+  "id": "m25",
+  "sublevel": "b2-1",
+  "n": 25,
+  "title": "Long-Running Projects & Status Reporting",
+  "titleEs": "Proyectos de larga duración e informes de estado",
+  "hours": 5,
+  "domains": [
+    "WD"
+  ],
+  "intro": "Ryan and Oliver's team is migrating their company's customer portal to a new platform, and Helen Marsh, the client's program director, wants to know where things stand. Across the module you report work in progress, explain delays without sounding defensive, separate effort from results, manage what stakeholders expect and write a weekly status report that people actually read. The grammar at the center is the Present Perfect Continuous (activity still going on, how long) against the Present Perfect Simple (finished results, how many), and the pronunciation focus is linking: consonant to vowel across the chunks you use most, so that *work on it* sounds like one word, not three.",
+  "canDo": [
+    "Report work that is still in progress with the Present Perfect Continuous and *for / since / so far*.",
+    "Explain the causes of a delay diplomatically, with a clear next step.",
+    "Choose between the continuous (effort, duration) and the simple (results, quantities) on purpose.",
+    "Manage stakeholders' expectations with hedged, precise language about dates and risks.",
+    "Write a concise weekly status report with the right register for each reader."
+  ],
+  "focus": {
+    "grammar": "Present Perfect Continuous (activity in progress, duration) vs Present Perfect Simple (completed result, quantity) · for / since / so far / yet / still · How long…? vs How many…? · stative verbs",
+    "lexis": "be on track, be behind schedule, make progress, work on, roll out, sign off (on), a blocker, flag an issue, keep someone posted, loop someone in, as of today, in the pipeline, up and running, a workaround, a milestone, scope creep",
+    "afh": "linking consonant–vowel (work on it, roll it out, keep an eye on, sign it off) · weak been /bɪn/ · schedule US /ˈskedʒ-/ vs UK /ˈʃed-/ · PROgress (noun) vs proGRESS (verb) · since /sɪns/ with a short vowel"
+  },
+  "cast": [
+    "coach",
+    "ryan",
+    "oliver",
+    "priya",
+    "alex",
+    "sarah",
+    "maya",
+    "leo",
+    "emma",
+    "george",
+    "daniel",
+    "helen"
+  ],
+  "lessons": [
+    "l121",
+    "l122",
+    "l123",
+    "l124",
+    "l125"
+  ],
+  "blocks": [
+    {
+      "id": "lexical",
+      "n": 1,
+      "name": "Lexical input",
+      "short": "Input",
+      "text": "A real scenario, a conversation and the same message in three registers."
+    },
+    {
+      "id": "discovery",
+      "n": 2,
+      "name": "Guided discovery",
+      "short": "Discover",
+      "text": "Work out the rule from a real text: meaning, form and use, in your own words."
+    },
+    {
+      "id": "phonetics",
+      "n": 3,
+      "name": "Glosario fonético dual",
+      "short": "Fonética",
+      "text": "IPA US/UK + Anclaje Fonético Hispanohablante."
+    },
+    {
+      "id": "consolidation",
+      "n": 4,
+      "name": "Consolidation & L1",
+      "short": "Consolidate",
+      "text": "Structures, nuances and the Spanish speaker's blind spots."
+    },
+    {
+      "id": "practice",
+      "n": 5,
+      "name": "Practice",
+      "short": "Practise",
+      "text": "Exercises with instant feedback, organizers, stress and dictation."
+    },
+    {
+      "id": "task",
+      "n": 6,
+      "name": "Task & self-check",
+      "short": "Task",
+      "text": "Produce a real message from key words, compare it with the model and reflect on its effect."
+    }
+  ]
+}

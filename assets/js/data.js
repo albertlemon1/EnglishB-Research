@@ -12,7 +12,9 @@ const cache = new Map();
 async function getJSON(path) {
   if (!cache.has(path)) {
     cache.set(path, fetch(path, { cache: "no-cache" }).then((r) => {
-      if (!r.ok) throw new Error(`${path}: ${r.status}`);
+      // A missing file is "not found" (e.g. a draft module whose later lessons
+      // are still being written), not a connection error.
+      if (!r.ok) throw Object.assign(new Error(`${path}: ${r.status}`), { notFound: r.status === 404 });
       return r.json();
     }).catch((err) => { cache.delete(path); throw err; }));
   }
@@ -40,6 +42,8 @@ async function modules() {
         audio: `audio/${s.id}/${m.id}/`,
         firstLesson,
         draft: m.status === "draft",
+        // Lesson-shell language: "en" withdraws the Spanish scaffolding (B2).
+        ui: s.ui || "es",
         meta: m,
       };
     }
@@ -66,9 +70,12 @@ export const data = {
     return getJSON(`${(await info(mod)).dir}${id}.json`);
   },
   async review(mod) { return getJSON(`${(await info(mod)).dir}review.json`); },
+  // In a draft module, lessons that are not written yet come back as null and
+  // the module page lists them as pending.
   async allLessons(mod) {
     const m = await data.module(mod);
-    return Promise.all(m.lessons.map((l) => data.lesson(mod, l)));
+    const i = await info(mod);
+    return Promise.all(m.lessons.map((l) => data.lesson(mod, l).catch((err) => { if (i.draft && err?.notFound) return null; throw err; })));
   },
   // Loads a module's audio manifest once and registers its clips with the player.
   async audio(mod) {

@@ -105,6 +105,7 @@
       "nameEs": "Avanzado operativo",
       "hours": 75,
       "instructions": "100 % en inglés (el español solo en fonética AFH y autoevaluación)",
+      "ui": "en",
       "scaffolding": "Desaparecen las opciones múltiples: preguntas abiertas y organizadores gráficos semicompletos. Tareas con palabras clave y esquema, sin plantillas de frases.",
       "focus": {
         "grammar": "Present Perfect Continuous; Third Conditional (arrepentimiento); Reported Speech (afirmaciones y órdenes); modales de deducción.",
@@ -112,7 +113,7 @@
         "afh": "Connected speech y linking consonante–vocal; formas débiles (weak forms) en preposiciones."
       },
       "modules": [
-        { "id": "m25", "n": 25, "title": "Long-Running Projects & Status Reporting", "domains": ["WD"], "grammar": "Present Perfect Continuous vs Simple", "afh": "Linking consonante–vocal en chunks",
+        { "id": "m25", "n": 25, "title": "Long-Running Projects & Status Reporting", "domains": ["WD"], "grammar": "Present Perfect Continuous vs Simple", "afh": "Linking consonante–vocal en chunks", "status": "draft",
           "lessons": ["Reporting Ongoing Work: \"We've Been Working On…\"", "Explaining Delays & Their Causes Diplomatically", "Presenting Results vs. Effort: Simple vs. Continuous", "Managing Stakeholder Expectations", "Writing a Concise Weekly Status Report"] },
         { "id": "m26", "n": 26, "title": "Delivering Bad News & Declining Proposals", "domains": ["WD"], "grammar": "Hedging y atenuadores; anticipo de condicionales mixtos", "afh": "Formas débiles en palabras funcionales",
           "lessons": ["Softening Language: Hedges & Downtoners", "Declining Offers Without Damaging Relationships", "Explaining Constraints: Budget, Time & Scope", "Offering Alternatives & Counter-Proposals", "Breaking Bad News to a Key Client"] },
@@ -151,6 +152,7 @@
       "nameEs": "Avanzado ejecutivo",
       "hours": 75,
       "instructions": "100 % en inglés (el español solo en fonética AFH y autoevaluación)",
+      "ui": "en",
       "scaffolding": "El estudiante formula y escribe las reglas. Tareas con esquema general. Autoevaluación metacognitiva centrada en el impacto social de la lengua.",
       "focus": {
         "grammar": "Mixed Conditionals; pasivas impersonales y avanzadas; relativas complejas y reducidas; inversión estilística.",
