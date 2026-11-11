@@ -100,7 +100,7 @@ Los personajes nuevos se añaden a `cast.json` y a `cast` del `module.json`. El 
 
 ## Audio: generación y control de calidad
 
-El modelo TTS no está en el repositorio; en un contenedor nuevo hay que reinstalarlo (Hugging Face está bloqueado, se descarga de GitHub releases):
+El modelo TTS no está en el repositorio. En el entorno cloud **«EnglishB-Research»** (personal del usuario, creado el 2026-11-11), un script de instalación lo deja todo listo al arrancar cada sesión: dependencias de Python y modelo en `/opt/kokoro/kokoro-v1.0.onnx` y `/opt/kokoro/voices-v1.0.bin`. En otro entorno hay que reinstalarlo a mano (Hugging Face está bloqueado; se descarga de GitHub releases):
 
 ```bash
 pip install kokoro-onnx soundfile spacy regex pocketsphinx praat-parselmouth
@@ -137,6 +137,24 @@ python3 tools/build_structure_doc.py
 - **GitHub Pages:** `.github/workflows/pages.yml` ejecuta `check_content.py`, copia la app a `_site` y despliega al hacer push a `main` (o con workflow_dispatch). El entorno `github-pages` ya acepta `main`. No corre en los PR: si falla, lo verás tras fusionar. El contenedor de Claude no alcanza `github.io` (el proxy da 403), así que el sitio en vivo lo revisa el usuario en el móvil; desde aquí solo se puede consultar el estado del workflow con las herramientas de GitHub.
 - **Netlify:** `netlify.toml`, sin build, publica `.`. Las reglas de headers solo admiten un comodín final (`/audio/*`).
 - **Local:** `tools/serve.py`, sin caché; busca un puerto libre.
+
+## Ramas paralelas: B1 y B2.1 (decidido el 2026-11-11)
+
+El curso se trabaja en dos sesiones a la vez, cada una con su rama y su PR a `main`:
+
+- **Sesión B1** (rama `claude/modulo-3-inicio-akpkjk`): sigue con B1.1 desde el Módulo 7, revisa los audios de los Módulos 2 a 4 y después hace B1.2 y el Threshold Gate.
+- **Sesión B2.1** (rama `claude/b2-1-vantage`, modelo Fable): subnivel B2.1, módulos m25–m39 y lecciones l121–l195.
+
+Reglas para no pisarse:
+- **Código de la app:** solo lo cambia la sesión B2.1, en un **primer PR de infraestructura** que añade lo que pide el desvanecimiento del andamiaje: discovery con respuesta abierta (el alumno redacta la regla y la compara con un modelo), organizadores gráficos semicompletos e interfaz de las lecciones en inglés según el subnivel. Mientras ese PR esté abierto, la sesión B1 no toca `assets/js/`, `sw.js` ni `index.html`.
+- **Archivos propios de B2.1:** `content/b2-1/`, `audio/b2-1/`, `docs/B2-1.md` (documentación y decisiones de B2.1, en lugar de README y CLAUDE.md) y `assets/js/checks-b2.js` (comprobaciones L1 de B2).
+- **Archivos compartidos:** en `content/cast.json` y `content/course.json` solo se **añaden** entradas, nunca se reescriben las existentes. Los conflictos de `sw.js` (`VERSION`) se resuelven fusionando `main` en la rama.
+- **IDs de audio:** B2.1 usa los números globales l121–l195 y el prefijo `m25-rv-…` en los repasos, así que no chocan con B1.
+- **Decisiones del usuario sobre B2.1:**
+  - No hay ficha de estructura de B2.1: se usan los módulos derivados de `course.json`.
+  - Los condicionales mixtos se **anticipan** en B2.1 (m26, como en la lección de ejemplo del diseño curricular) y se estudian a fondo en B2.2.
+  - Los módulos de B2.1 se publican como **borrador** (`"status": "draft"`, visibles con `?borrador`) hasta que la ruta llegue a ellos.
+  - Los audios se generan con Kokoro, con el mismo control de calidad que en B1.
 
 ## Git
 
