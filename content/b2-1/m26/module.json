@@ -1,0 +1,87 @@
+{
+  "id": "m26",
+  "sublevel": "b2-1",
+  "n": 26,
+  "title": "Delivering Bad News & Declining Proposals",
+  "titleEs": "Dar malas noticias y rechazar propuestas",
+  "hours": 5,
+  "domains": [
+    "WD"
+  ],
+  "intro": "The full-scale search test has gone badly, three weeks before go-live. Across the module, Ryan's team softens unwelcome facts without hiding them, turns down a generous offer from Helen without hurting the relationship, explains the limits of time, budget and scope, builds counter-proposals instead of rival plans and, finally, tells Helen, the key client, that the full search will not make the launch. The grammar at the center is hedging (modals, *seem / appear to*, downtoners) and a first look at **mixed conditionals** (*If we had tested earlier, we would be in a better position now*), which you will study in depth in B2.2. The pronunciation focus is weak forms: the small words (*can, was, for, but, had, than, could, or, as, her, from*) that native speakers reduce to a schwa.",
+  "canDo": [
+    "Soften unwelcome facts with hedges and downtoners, and keep facts and commitments firm.",
+    "Decline an offer in five moves and keep the door open.",
+    "Explain time, budget and scope constraints neutrally, linking a past decision to the present with a mixed conditional.",
+    "Offer alternatives and build counter-proposals on the other person's plan.",
+    "Break bad news to a key client: warning, news, reason, ownership and plan."
+  ],
+  "focus": {
+    "grammar": "Hedging: may / might / could, seem / appear to, it looks as if, downtoners (slightly, a bit, somewhat), not + positive word · would for imagined acceptance and rejected alternatives · what if / would it help if + past · provided / as long as + present · preview of mixed conditionals (if + past perfect, would + bare infinitive + now)",
+    "lexis": "I'm afraid, not quite what we'd hoped, it looks as if, as far as we can tell, we'll have to pass, not in a position to, at this stage, leave the door open, be up against, the budget doesn't stretch to, out of scope, a change request, one option would be to, a fallback, a phased approach, as we discussed, in the meantime, go live",
+    "afh": "weak forms of function words: can /kən/ vs can't /kænt/, was /wəz/, some /səm/, for /fə(r)/, but /bət/, to /tə/ (strong /tuː/ at the end), 'd = had, than /ðən/, and /ənd/, could /kəd/, or /ə(r)/, as /əz/, her /ə(r)/, from /frəm/"
+  },
+  "cast": [
+    "coach",
+    "ryan",
+    "oliver",
+    "priya",
+    "alex",
+    "sarah",
+    "maya",
+    "leo",
+    "emma",
+    "helen"
+  ],
+  "lessons": [
+    "l126",
+    "l127",
+    "l128",
+    "l129",
+    "l130"
+  ],
+  "blocks": [
+    {
+      "id": "lexical",
+      "n": 1,
+      "name": "Lexical input",
+      "short": "Input",
+      "text": "A real scenario, a conversation and the same message in three registers."
+    },
+    {
+      "id": "discovery",
+      "n": 2,
+      "name": "Guided discovery",
+      "short": "Discover",
+      "text": "Work out the rule from a real text: meaning, form and use, in your own words."
+    },
+    {
+      "id": "phonetics",
+      "n": 3,
+      "name": "Glosario fonético dual",
+      "short": "Fonética",
+      "text": "IPA US/UK + Anclaje Fonético Hispanohablante."
+    },
+    {
+      "id": "consolidation",
+      "n": 4,
+      "name": "Consolidation & L1",
+      "short": "Consolidate",
+      "text": "Structures, nuances and the Spanish speaker's blind spots."
+    },
+    {
+      "id": "practice",
+      "n": 5,
+      "name": "Practice",
+      "short": "Practise",
+      "text": "Exercises with instant feedback, organizers, stress and dictation."
+    },
+    {
+      "id": "task",
+      "n": 6,
+      "name": "Task & self-check",
+      "short": "Task",
+      "text": "Produce a real message from key words, compare it with the model and reflect on its effect."
+    }
+  ]
+}

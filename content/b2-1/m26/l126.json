@@ -1,0 +1,1134 @@
+{
+  "id": "l126",
+  "n": 126,
+  "title": "Softening Language: Hedges & Downtoners",
+  "titleEs": "Suavizar el mensaje: atenuadores y matizadores",
+  "minutes": 60,
+  "summary": "Give unwelcome news so that it is clear but not brutal: modal hedges (*may, might, could*), *seem / appear to*, *it looks as if*, downtoners (*slightly, a bit, somewhat*) and *not* + a positive word (*not ideal*). Hedge what is uncertain; keep the facts and the commitments firm.",
+  "canDo": [
+    "Soften a negative fact with modals, *seem / appear to* and downtoners while keeping the fact itself clear.",
+    "Replace blunt words (*failed, bad, wrong*) with *not* + a positive word (*didn't go as well as we'd hoped, not ideal*).",
+    "Tell when hedging helps and when it becomes vague or evasive.",
+    "Hear and say the weak forms of *can, was* and *some*, and keep *can't* strong so that it is not mistaken for *can*."
+  ],
+  "focus": {
+    "grammar": "Hedging: may / might / could + bare infinitive · seem / appear + to-infinitive · it looks as if / it seems that + clause · downtoners (slightly, a bit, somewhat) · not + positive word (not ideal, not quite what we'd hoped) · I'm afraid + clause",
+    "lexis": "I'm afraid, not quite what we'd hoped, it looks as if, as far as we can tell, to be honest, not ideal, a bit of a, slightly, somewhat, fall short of, dress something up, a clearer picture",
+    "afh": "weak forms: can /kən/ vs strong can't /kænt/ · was /wəz/ (strong at the end: Yes, it was) · some /səm/ · a bit of a /ə ˈbɪt‿əv‿ə/ · slightly /ˈslaɪt.li/ without an extra vowel"
+  },
+  "warmup": "Think of the last time someone gave you bad news: a doctor, a mechanic, a manager. Do you remember the exact words? Did they make the news easier to hear, or just harder to understand?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Search test: first results",
+      "context": "The morning after the full-scale search test, Oliver sends the team a short summary. The decision on the search is due on Friday.",
+      "speaker": "oliver",
+      "to": "The migration team",
+      "audio": "l126-scn",
+      "text": "Hi all, here's a quick summary of yesterday's full-scale search test. {{I'm afraid}} the results {{weren't quite what we'd hoped}}. Under full load, searches took just over four seconds, twice our target, and the error rate was {{slightly}} higher than in the last run. {{It looks as if}} the indexing is the bottleneck, not the servers, but it {{might}} take a few days to confirm. {{To be honest}}, I don't think we can fix it properly before 20 June. That's {{not ideal}}, but it's better to know now. Full figures to follow this afternoon. Oliver",
+      "tts": "Hi all, here's a quick summary [of](/əv/) yesterday's full-scale search test. I'm afraid the results weren't quite what we'd hoped. Under full load, searches took just over four seconds, twice our target, [and](/ənd/) the error rate [was](/wəz/) slightly higher than in the last run. It looks [as](/əz/) if the indexing is the bottleneck, not the servers, [but](/bət/) it might take a few days to confirm. To be honest, I don't think we [can](/kən/) fix it properly before the twentieth [of](/əv/) June. That's not ideal, [but](/bət/) it's better to know now. Full figures to follow this afternoon. Oliver"
+    },
+    "dialogue": {
+      "title": "Same facts, softer words",
+      "context": "Oliver has drafted a two-line message to Helen about the test. Ryan reads it before it goes out.",
+      "lines": [
+        {
+          "speaker": "ryan",
+          "audio": "l126-dlg-01",
+          "text": "Oliver, your draft for Helen says: *The search failed the test. It won't be ready.* Is that the whole message?",
+          "tts": "Oliver, your draft [for](/fəɹ/) Helen says: The search failed the test. It won't be ready. Is that the whole message?"
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l126-dlg-02",
+          "text": "It's what happened. I'd rather not {{dress it up}}."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l126-dlg-03",
+          "text": "I'm not asking you to dress it up. But *failed* sounds {{a bit}} final, and we haven't decided anything yet.",
+          "tts": "I'm not asking you to dress it up. [But](/bət/) failed sounds a bit final, [and](/ənd/) we haven't decided anything yet."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l126-dlg-04",
+          "text": "Fair point. So what would you say? *The results {{weren't quite what we'd hoped}}?*",
+          "tts": "Fair point. So what [would](/wəd/) you say? The results weren't quite what we'd hoped?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l126-dlg-05",
+          "text": "Yes, and then the number: four seconds against a target of two. The number does the hard work; the softer words just set the tone.",
+          "tts": "Yes, [and](/ənd/) then the number: four seconds against a target [of](/əv/) two. The number does the hard work; the softer words just set the tone."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l126-dlg-06",
+          "text": "And *it won't be ready*? We can't promise that it will be.",
+          "tts": "[And](/ənd/) it won't be ready? We can't promise that it will be."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l126-dlg-07",
+          "text": "Then say it {{may not be}} ready for June 20, and say when we'll know. It {{seems to be}} the indexing, right?",
+          "tts": "Then say it may not be ready [for](/fəɹ/) June twentieth, [and](/ənd/) say when we'll know. It seems to be the indexing, right?"
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l126-dlg-08",
+          "text": "{{As far as we can tell}}. Okay: softer words, the same facts, and a date for the decision. I'll redo it.",
+          "tts": "[As](/əz/) far [as](/əz/) we [can](/kən/) tell. Okay: softer words, the same facts, [and](/ənd/) a date [for](/fə/) the decision. I'll redo it."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "Why does Ryan object to the word *failed*?",
+        "options": [
+          "It sounds final, and nothing has been decided yet",
+          "It is grammatically wrong in this sentence",
+          "Helen would not understand it"
+        ],
+        "answer": 0,
+        "explain": "*Failed sounds a bit final, and we haven't decided anything yet.* The word claims more than the team knows."
+      },
+      {
+        "q": "According to Ryan, what does \"the hard work\" in the message?",
+        "options": [
+          "The number: four seconds against a target of two",
+          "An apology at the start",
+          "The word *unfortunately*"
+        ],
+        "answer": 0,
+        "explain": "*The number does the hard work; the softer words just set the tone.* Hedges never replace the facts."
+      },
+      {
+        "q": "What will Oliver's new version contain?",
+        "options": [
+          "Softer words, the same facts and a date for the decision",
+          "Fewer facts and a friendlier tone",
+          "A promise that the search will be ready"
+        ],
+        "answer": 0,
+        "explain": "*Softer words, the same facts, and a date for the decision.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Chatting with a friend or a close colleague.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l126-reg-c1",
+            "text": "Bit of a letdown, the search test. Not looking great for June.",
+            "note": "*A letdown* = a disappointment; *not looking great* is a casual hedge. The subject is dropped, as in chat.",
+            "tts": "Bit [of](/əv/) a letdown, the search test. Not looking great [for](/fəɹ/) June."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l126-reg-c2",
+            "text": "So the search is kind of slow? That's a shame.",
+            "note": "*Kind of* softens an adjective in casual speech; *that's a shame* shows sympathy.",
+            "tts": "So the search is kind [of](/əv/) slow? That's a shame."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Team updates, meetings, messages to colleagues and clients you know.",
+        "items": [
+          {
+            "speaker": "oliver",
+            "audio": "l126-reg-n1",
+            "text": "I'm afraid the search test didn't go as well as we'd hoped.",
+            "note": "*I'm afraid* + *not as well as we'd hoped*: the standard neutral softener.",
+            "tts": "I'm afraid the search test didn't go [as](/əz/) well [as](/əz/) we'd hoped."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l126-reg-n2",
+            "text": "It looks as if the indexing is the problem, but we can't be sure yet.",
+            "note": "*It looks as if* + clause: a conclusion from what you can see, with room to be wrong.",
+            "tts": "It looks [as](/əz/) if the indexing is the problem, [but](/bət/) we can't be sure yet."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l126-reg-n3",
+            "text": "There may be some delays to the search, so let's plan for both dates.",
+            "note": "*There may be some delays*: a modal hedge plus a practical next step.",
+            "tts": "There may be [some](/səm/) delays to the search, so let's plan [for](/fəɹ/) both dates."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Reports, committees and messages to senior stakeholders.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l126-reg-f1",
+            "text": "Initial results suggest that the search function may not meet the agreed performance targets.",
+            "note": "*Initial results suggest that*: the evidence speaks, not a person; *may not meet*: a modal hedge."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l126-reg-f2",
+            "text": "I appreciate the early warning. Could you let me know when you expect to have a clearer picture?",
+            "note": "The stakeholder's reply: thanks, then a request for a date.",
+            "tts": "I appreciate the early warning. [Could](/kəd/) you let me know when you expect to have a clearer picture?"
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "I'm afraid (+ clause)",
+        "def": "a polite way to introduce unwelcome news; it does not express fear here",
+        "register": "neutral",
+        "syn": "unfortunately",
+        "example": "I'm afraid the results weren't quite what we'd hoped."
+      },
+      {
+        "en": "not quite what we'd hoped",
+        "def": "a softened way to say that something was disappointing",
+        "register": "neutral",
+        "syn": "disappointing",
+        "example": "The results weren't quite what we'd hoped."
+      },
+      {
+        "en": "it looks as if (+ clause)",
+        "def": "it seems, judging by what we can see",
+        "register": "neutral",
+        "syn": "it seems that",
+        "example": "It looks as if the indexing is the bottleneck."
+      },
+      {
+        "en": "seem / appear to (+ verb)",
+        "def": "to give the impression of being or doing something; appear is more formal",
+        "register": "neutral",
+        "example": "The search seems to slow down under load."
+      },
+      {
+        "en": "as far as we can tell",
+        "def": "based on what we know so far; we may be wrong",
+        "register": "neutral",
+        "syn": "as far as we know",
+        "example": "As far as we can tell, the servers are fine."
+      },
+      {
+        "en": "slightly / a bit / somewhat",
+        "def": "a little; to a small degree (a bit is casual, somewhat is formal)",
+        "register": "neutral",
+        "ant": "considerably",
+        "example": "The error rate was slightly higher than in the last run."
+      },
+      {
+        "en": "not ideal",
+        "def": "bad or inconvenient, said politely",
+        "register": "neutral",
+        "syn": "less than ideal",
+        "example": "That's not ideal, but it's better to know now."
+      },
+      {
+        "en": "a bit of a (+ noun)",
+        "def": "a softened way to name a problem or a disappointment",
+        "register": "casual",
+        "example": "It's a bit of a problem, but it's not the end of the world."
+      },
+      {
+        "en": "fall short of (a target)",
+        "def": "to fail to reach a target or a standard",
+        "register": "formal",
+        "syn": "not meet",
+        "example": "Search times fell short of the agreed target."
+      },
+      {
+        "en": "dress something up",
+        "def": "to make something sound better than it really is",
+        "register": "casual",
+        "example": "I'd rather not dress it up: the test went badly."
+      },
+      {
+        "en": "a clearer picture",
+        "def": "a better understanding of a situation",
+        "register": "neutral",
+        "example": "We'll have a clearer picture by Friday."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Not looking great for June.",
+        "answer": "casual",
+        "explain": "No subject and a vague *not looking great*: chat style."
+      },
+      {
+        "text": "Initial results suggest that the search function may not meet the agreed targets.",
+        "answer": "formal",
+        "explain": "An impersonal subject (*initial results*) and *suggest that*: report style."
+      },
+      {
+        "text": "I'm afraid the test didn't go as well as we'd hoped.",
+        "answer": "neutral",
+        "explain": "The everyday professional softener."
+      },
+      {
+        "text": "So the search is kind of slow? That's a shame.",
+        "answer": "casual",
+        "explain": "*Kind of* and a statement turned into a question: friendly chat."
+      },
+      {
+        "text": "Could you let me know when you expect to have a clearer picture?",
+        "answer": "formal",
+        "explain": "A polite, indirect request from a stakeholder."
+      },
+      {
+        "text": "It looks as if the indexing is the problem.",
+        "answer": "neutral",
+        "explain": "A hedged conclusion you would say in any team meeting."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Two versions of the same news: Oliver's first draft and the message he sent Helen after talking to Ryan. Listen to the second one and compare.",
+    "speaker": "oliver",
+    "audio": "l126-gd",
+    "text": "First draft: *The search failed the test. It won't be ready.* Sent: {{I'm afraid}} the search test {{didn't go as well as we'd hoped}}. Searches took just over four seconds, twice our target. {{It looks as if}} the indexing is the cause, and the search {{may not be}} ready for 20 June. We{{'ll know}} by Friday.",
+    "tts": "First draft: The search failed the test. It won't be ready. Sent: I'm afraid the search test didn't go [as](/əz/) well [as](/əz/) we'd hoped. Searches took just over four seconds, twice our target. It looks [as](/əz/) if the indexing is the cause, [and](/ənd/) the search may not be ready [for](/fə/) the twentieth [of](/əv/) June. We'll know by Friday.",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "What did Oliver change?",
+      "prompt": "Name the technique in each softened version: modal, downtoner, not + positive or introductory hedge.",
+      "columns": [
+        "Blunt",
+        "Softened",
+        "Technique"
+      ],
+      "rows": [
+        [
+          "It failed.",
+          "It didn't go as well as we'd hoped.",
+          {
+            "gap": "not + positive",
+            "hint": "modal / downtoner / not + positive / introductory hedge",
+            "accept": [
+              "not + positive",
+              "not positive",
+              "not + positive word",
+              "not + a positive word",
+              "negative + positive"
+            ]
+          }
+        ],
+        [
+          "It won't be ready.",
+          "It may not be ready.",
+          {
+            "gap": "modal",
+            "hint": "modal / downtoner / not + positive / introductory hedge",
+            "accept": [
+              "modal",
+              "a modal",
+              "modal verb",
+              "modal hedge",
+              "may"
+            ]
+          }
+        ],
+        [
+          "The indexing is the cause.",
+          "It looks as if the indexing is the cause.",
+          {
+            "gap": "introductory hedge",
+            "hint": "modal / downtoner / not + positive / introductory hedge",
+            "accept": [
+              "introductory hedge",
+              "introductory",
+              "introductory phrase",
+              "hedge",
+              "it looks as if"
+            ]
+          }
+        ],
+        [
+          "The error rate was higher.",
+          "The error rate was slightly higher.",
+          {
+            "gap": "downtoner",
+            "hint": "modal / downtoner / not + positive / introductory hedge",
+            "accept": [
+              "downtoner",
+              "a downtoner",
+              "downtoners",
+              "slightly"
+            ]
+          }
+        ]
+      ],
+      "explain": "Four ways to soften: a modal lowers certainty (*may not*), an introductory hedge marks a conclusion (*it looks as if*), a downtoner makes a negative smaller (*slightly*), and *not* + a positive word replaces a harsh one (*didn't go as well as we'd hoped*)."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "Compare the first draft and the message Oliver sent. Which facts are the same in both? What exactly has changed: the information, or how certain and how direct it sounds?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "same|fact|number|four|twice|target",
+            "label": "same facts"
+          },
+          {
+            "re": "certain|sure|possib|may|won't",
+            "label": "certainty"
+          },
+          {
+            "re": "direct|blunt|soft|tone|final|fail|harsh",
+            "label": "directness"
+          },
+          {
+            "re": "not (yet )?(confirm|decided|known|sure|proven)|evidence|don't know|unknown|undecided",
+            "label": "what is really known"
+          }
+        ],
+        "model": "The facts are the same: the test went badly (four seconds, twice the target), the cause is probably the indexing, and the search may miss 20 June. What changed is certainty and directness. *Won't* (certain) became *may not* (possible), because the decision has not been taken yet; *failed* became *didn't go as well as we'd hoped*, which sounds less final; and *it looks as if* presents the cause as a conclusion from evidence, not as a proven fact. Hedging adjusts certainty to what you really know. It does not remove facts.",
+        "criteria": [
+          "You said the facts (the number, the probable cause, the risk to the date) did not change.",
+          "You said what changed is certainty (*won't* → *may not*) and directness (*failed* → *didn't go as well as we'd hoped*).",
+          "You linked the hedges to what is really known: the decision is not taken and the cause is not confirmed."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "Look at these softeners: *may not be*, *it looks as if the indexing is…*, *seems to slow down*, *slightly higher*, *didn't go as well as we'd hoped*. Write the pattern of each one: what comes after it (a bare verb, a full clause, a *to*-infinitive, an adjective)?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "infinitive|base form|bare|modal",
+            "label": "modal + bare infinitive"
+          },
+          {
+            "re": "clause|subject \\+ verb|subject and verb",
+            "label": "as if + clause"
+          },
+          {
+            "re": "to \\+|to-infinitive|to infinitive|seem|appear",
+            "label": "seem + to"
+          },
+          {
+            "re": "adjective|comparative|before",
+            "label": "downtoner + adjective"
+          }
+        ],
+        "model": "*May / might / could* + bare infinitive: *may not be ready*. *It looks as if* + a full clause with its own subject and verb: *the indexing is the cause* (*it seems that* works the same way). *Seem / appear* + *to*-infinitive, with the real subject first: *the search seems to slow down*. A downtoner goes before an adjective or a comparative: *slightly higher*, *a bit slow*, *somewhat disappointing*. *Not* + a positive word replaces a negative one: *didn't go as well as we'd hoped* instead of *went badly*, *not ideal* instead of *bad*.",
+        "criteria": [
+          "You gave modal + bare infinitive and *it looks as if* + full clause.",
+          "You gave *seem / appear* + *to*-infinitive with the real subject first.",
+          "You placed downtoners before an adjective or comparative and described *not* + a positive word."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Ryan says the number does the hard work and the softer words only set the tone. The message ends with a firm *We'll know by Friday*. Why is that last sentence not hedged? What would happen to Helen's trust if every sentence were softened?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "uncertain|not sure|unsure|don't know|real doubt",
+            "label": "hedge real uncertainty"
+          },
+          {
+            "re": "promise|commit|firm|keep",
+            "label": "firm commitment"
+          },
+          {
+            "re": "evasive|vague|hiding|unclear|confus",
+            "label": "over-hedging is evasive"
+          },
+          {
+            "re": "trust|act|decide|plan",
+            "label": "Helen can act"
+          }
+        ],
+        "model": "Hedges belong where there is real uncertainty (the cause, the date); facts and commitments stay firm. *We'll know by Friday* is a promise the team can keep, so softening it (*we might possibly know at some point*) would sound evasive. Helen needs a message she can act on: the number shows how big the problem is, the hedges show honest uncertainty, and the firm date tells her when the decision will come. If every sentence is softened, she cannot tell what is known from what is a guess, and she starts to trust the message less, not more.",
+        "criteria": [
+          "You said hedges go where there is real uncertainty, while facts and commitments stay firm.",
+          "You said *We'll know by Friday* is a commitment the team can keep, so it should not be hedged.",
+          "You said over-hedging sounds evasive and hides what is certain."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "Hedging lowers the certainty of a statement to match what you really know: *won't* → *may not*, *is* → *seems to be*, *the cause is* → *it looks as if the cause is*.",
+        "Downtoners make a negative smaller (*slightly / a bit / somewhat higher*); *not* + a positive word replaces a harsh negative (*not ideal*, *didn't go as well as we'd hoped*).",
+        "Introductory phrases prepare the listener: *I'm afraid…*, *To be honest…*, *As far as we can tell…*.",
+        "Hedge the uncertainty, not the facts or the commitments: numbers and promises (*We'll know by Friday*) stay firm."
+      ],
+      "formulas": [
+        "may / might / could (+ not) + bare infinitive",
+        "it looks as if / it seems that + clause · subject + seems / appears + to + verb",
+        "slightly / a bit / somewhat + adjective or comparative · not + positive word"
+      ],
+      "note": "Spanish softens too (*parece que*, *un poco*, *me temo que*), so the instinct is right. The trap is the grammar: *parece que la búsqueda es lenta* becomes *the search seems to be slow* or *it seems that the search is slow*, never *the search seems that is slow*."
+    }
+  },
+  "phonetics": {
+    "intro": "Las palabras funcionales (*can, was, some, of, a*) casi nunca llevan su vocal plena dentro de la frase: se reducen a schwa /ə/, la vocal neutra y relajada. Al dar malas noticias esto importa por partida doble: si dices *can* con vocal plena, el oyente puede entender *can't*; y si no reconoces la forma débil, te pierdes el matiz. Regla general: débil dentro de la frase; fuerte al final, en respuestas cortas o cuando se enfatiza.",
+    "items": [
+      {
+        "id": "can",
+        "term": "we can meet",
+        "pos": "modal · weak form",
+        "meaning": "be able to; be possible (here in its weak, unstressed form)",
+        "ipa": {
+          "us": "/wi kən ˈmiːt/ · can't /kænt/",
+          "uk": "/wi kən ˈmiːt/ · can't /kɑːnt/"
+        },
+        "afh": "ui-kən-MIIT · can't: KANT (US) · KAANT (UK)",
+        "say": "We can meet.",
+        "ttsUs": "We [can](/kən/) meet.",
+        "ttsUk": "We [can](/kən/) meet.",
+        "variants": [
+          {
+            "label": "Weak can: /kən/",
+            "speaker": "coach",
+            "audio": "l126-ph-can-weak",
+            "text": "We can meet on Friday.",
+            "tts": "We [can](/kən/) meet on Friday."
+          },
+          {
+            "label": "Strong can't: /kænt/",
+            "speaker": "coach",
+            "audio": "l126-ph-can-cant",
+            "text": "We can't meet on Friday."
+          }
+        ],
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Can* sin acento se reduce a /kən/: «kən», casi «kn». Si dices «KAN» con a plena, un nativo puede entender *can't*."
+          },
+          {
+            "type": "vowel",
+            "text": "*Can't* lleva siempre vocal plena y acento: US /kænt/ «KANT», UK /kɑːnt/ «KAANT». La t final apenas se oye, así que la pista es la vocal: débil = sí se puede; plena = no se puede."
+          },
+          {
+            "type": "stress",
+            "text": "Al final o en respuestas cortas, *can* es fuerte: *Yes, we can* /kæn/. La reducción solo ocurre delante del verbo."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "We can't confirm the cause yet, but we can run the test again on Thursday.",
+          "tts": "We can't confirm the cause yet, [but](/bət/) we [can](/kən/) run the test again on Thursday."
+        }
+      },
+      {
+        "id": "was",
+        "term": "it was slower",
+        "pos": "auxiliary · weak form",
+        "meaning": "past of *be*, unstressed inside the sentence",
+        "ipa": {
+          "us": "/ɪt wəz ˈsloʊ.ɚ/",
+          "uk": "/ɪt wəz ˈsləʊ.ə/"
+        },
+        "afh": "it-uəz-SLOU-er (US) · it-uəz-SLOU-ə (UK)",
+        "say": "It was slower.",
+        "ttsUs": "It [was](/wəz/) slower.",
+        "ttsUk": "It [was](/wəz/) slower.",
+        "variants": [
+          {
+            "label": "Weak was: /wəz/",
+            "speaker": "coach",
+            "audio": "l126-ph-was-weak",
+            "text": "It was slower than we'd hoped.",
+            "tts": "It [was](/wəz/) slower than we'd hoped."
+          },
+          {
+            "label": "Strong was at the end: /wʌz/",
+            "speaker": "coach",
+            "audio": "l126-ph-was-strong",
+            "text": "Yes, it was."
+          }
+        ],
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "Dentro de la frase, *was* es /wəz/: «uəz», con schwa. No «uos» con o plena."
+          },
+          {
+            "type": "stress",
+            "text": "Al final o en respuestas cortas es fuerte: *Yes, it was* /wʌz/ (US) · /wɒz/ (UK). Escucha las dos variantes."
+          },
+          {
+            "type": "consonant",
+            "text": "La s final es sonora, /z/: «uəz», con zumbido. Igual en *is* y *as*."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "The error rate was slightly higher than in the last run.",
+          "tts": "The error rate [was](/wəz/) slightly higher than in the last run."
+        }
+      },
+      {
+        "id": "some",
+        "term": "some delays",
+        "pos": "determiner · weak form",
+        "meaning": "an amount or a number that is not stated",
+        "ipa": {
+          "us": "/səm dɪˈleɪz/",
+          "uk": "/səm dɪˈleɪz/"
+        },
+        "afh": "səm-di-LEIS",
+        "say": "Some delays.",
+        "ttsUs": "[Some](/səm/) [delays](/dɪlˈAz/).",
+        "ttsUk": "[Some](/səm/) delays.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "Delante de un sustantivo, *some* es /səm/: «səm», con vocal neutra y breve. No «SAM»."
+          },
+          {
+            "type": "stress",
+            "text": "Es fuerte, /sʌm/, cuando significa «algunos, no todos» o va solo: *some of the pages*, *I'll take some*."
+          },
+          {
+            "type": "consonant",
+            "text": "*Delays*: acento en LAY y s final sonora /z/: «di-LEIS», con zumbido."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "There may be some delays to the search, so let's plan for both dates.",
+          "tts": "There may be [some](/səm/) [delays](/dɪlˈAz/) to the search, so let's plan [for](/fəɹ/) both dates."
+        }
+      },
+      {
+        "id": "bit-of-a",
+        "term": "a bit of a problem",
+        "pos": "chunk",
+        "meaning": "a softened way to name a problem",
+        "ipa": {
+          "us": "/ə ˈbɪt̬‿əv‿ə ˈprɑː.bləm/",
+          "uk": "/ə ˈbɪt‿əv‿ə ˈprɒb.ləm/"
+        },
+        "afh": "a-BI-ra-va PRÁ-blem (US) · a-BI-ta-va PRÓ-blem (UK)",
+        "say": "A bit of a problem.",
+        "ttsUs": "A [bit](/bˈɪɾ/) [of](/əv/) a problem.",
+        "ttsUk": "A bit [of](/əv/) a problem.",
+        "alerts": [
+          {
+            "type": "linking",
+            "text": "Cuatro palabras en un solo bloque: «a-BI-ra-va», sin cortes. Solo *bit* lleva acento."
+          },
+          {
+            "type": "flap",
+            "text": "En EE. UU., la t de *bit* entre vocales suena como la r simple española: «BI-ra». En Reino Unido, t suave: «BI-ta»."
+          },
+          {
+            "type": "weak",
+            "text": "*Of* es /əv/ y los dos *a* son /ə/. *Bit* lleva /ɪ/ breve: no «biit», que sería *beat*."
+          }
+        ],
+        "example": {
+          "speaker": "leo",
+          "text": "It's a bit of a problem, but it's not the end of the world.",
+          "tts": "It's a bit [of](/əv/) a problem, [but](/bət/) it's not the end [of](/əv/) the world."
+        }
+      },
+      {
+        "id": "slightly",
+        "term": "slightly",
+        "pos": "adv. · downtoner",
+        "meaning": "a little; to a small degree",
+        "ipa": {
+          "us": "/ˈslaɪt.li/",
+          "uk": "/ˈslaɪt.li/"
+        },
+        "afh": "SLAIT-li",
+        "say": "Slightly.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "Empieza con /sl/: «SLAIT-li», sin e de apoyo. Nada de «es-LAIT-li»."
+          },
+          {
+            "type": "silent",
+            "text": "La *gh* no suena: *slight* = «slait», igual que *light*, *right* o *might*."
+          },
+          {
+            "type": "vowel",
+            "text": "/aɪ/ es el diptongo «ai» de *aire*. La t final de *slight* se corta antes de la l, pero no desaparece del todo."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "Response times were slightly higher than expected."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Modal hedges",
+        "formula": "may / might / could (+ not) + bare infinitive",
+        "usage": "A possibility, not a certainty: use it when the decision or the cause is still open.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l126-cc-1a",
+            "text": "The search {{may not be}} ready for June 20.",
+            "tts": "The search may not be ready [for](/fəɹ/) June twentieth."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l126-cc-1b",
+            "text": "The fix {{might take}} a few more days."
+          }
+        ]
+      },
+      {
+        "title": "Seem, appear, it looks as if",
+        "formula": "subject + seems / appears + to + verb · it looks as if / it seems that + clause",
+        "usage": "A conclusion drawn from what you can see, with room to be wrong. *Appear* is more formal than *seem*.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l126-cc-2a",
+            "text": "The search {{seems to slow down}} under load."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l126-cc-2b",
+            "text": "The indexing {{appears to be}} the main cause."
+          }
+        ]
+      },
+      {
+        "title": "Downtoners and not + positive",
+        "formula": "slightly / a bit / somewhat + adjective · not + positive word",
+        "usage": "Make a negative smaller without changing the fact. Do not use a downtoner to shrink a big number: *twice the target* is not *slightly* slower.",
+        "examples": [
+          {
+            "speaker": "oliver",
+            "audio": "l126-cc-3a",
+            "text": "The error rate was {{slightly}} higher than in the last run.",
+            "tts": "The error rate [was](/wəz/) slightly higher than in the last run."
+          },
+          {
+            "speaker": "ryan",
+            "audio": "l126-cc-3b",
+            "text": "That's {{not ideal}}, but it's better to know now.",
+            "tts": "That's not ideal, [but](/bət/) it's better to know now."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Seems that after a subject",
+        "text": "Spanish *la búsqueda parece que es lenta* has no word-for-word copy in English. Use the subject + *seems to*, or *it seems that* + a full clause.",
+        "wrong": "The search seems that is slow.",
+        "right": "The search seems to be slow. / It seems that the search is slow."
+      },
+      {
+        "title": "Sincerely for «sinceramente»",
+        "text": "*Sincerely* closes a formal letter (*Yours sincerely*). To introduce an honest opinion, use *to be honest*, *honestly* or *frankly*.",
+        "wrong": "Sincerely, the results were not good.",
+        "right": "To be honest, the results weren't good."
+      },
+      {
+        "title": "Maybe inside the verb",
+        "text": "*Maybe* is an adverb that starts the sentence. Inside the verb phrase, use the modal *may* or *might*.",
+        "wrong": "The search maybe will not be ready.",
+        "right": "The search may not be ready. / Maybe the search won't be ready."
+      },
+      {
+        "title": "I think + negative",
+        "text": "English usually puts the negative on *think*, not on the second verb. It sounds softer and more natural.",
+        "wrong": "I think we can't fix it in time.",
+        "right": "I don't think we can fix it in time."
+      },
+      {
+        "title": "Stacking softeners",
+        "text": "One or two hedges soften; four make the message vague. Choose the one that matches your real doubt.",
+        "wrong": "Maybe the results were possibly a little bit not so good.",
+        "right": "The results weren't quite what we'd hoped."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "The decision has not been taken. Choose the best form.",
+      "text": "The search ___ ready for June 20; we'll know on Friday.",
+      "options": [
+        "may not be",
+        "won't be",
+        "isn't"
+      ],
+      "answer": 0,
+      "explain": "The outcome is still open, so a modal hedge: *may not be*. *Won't* claims a certainty nobody has yet."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct pattern.",
+      "text": "The indexing ___ the main cause.",
+      "options": [
+        "seems to be",
+        "seems that is",
+        "seems be"
+      ],
+      "answer": 0,
+      "explain": "Subject + *seems* + *to*-infinitive. *Seems that is* copies the Spanish word order."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right opener for an honest opinion.",
+      "text": "___, I don't think we can fix it properly in time.",
+      "options": [
+        "To be honest",
+        "Sincerely",
+        "In sincerity"
+      ],
+      "answer": 0,
+      "explain": "*To be honest* (or *honestly*, *frankly*). *Sincerely* closes a letter."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the downtoner.",
+      "text": "The error rate was ___ higher than in the last run.",
+      "options": [
+        "slightly",
+        "lightly",
+        "few"
+      ],
+      "answer": 0,
+      "explain": "*Slightly* + comparative = a little. *Lightly* means gently (*lightly salted*)."
+    },
+    {
+      "type": "choice",
+      "prompt": "Searches took four seconds against a target of two. Which sentence is honest?",
+      "text": "Searches took ___ our target time.",
+      "options": [
+        "twice",
+        "slightly more than",
+        "a tiny bit more than"
+      ],
+      "answer": 0,
+      "explain": "Hedging must not shrink the facts: double the target is not *slightly*. Soften the tone, not the number."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "I'm ___ the results weren't quite what we'd hoped.",
+      "accept": [
+        "afraid"
+      ],
+      "explain": "*I'm afraid* + clause introduces unwelcome news politely."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "That's not ___, but it's better to know now.",
+      "accept": [
+        "ideal",
+        "great"
+      ],
+      "explain": "*Not* + a positive word (*not ideal*) replaces a harsh negative (*bad*)."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "As far as we can ___, the servers are fine.",
+      "accept": [
+        "tell",
+        "see"
+      ],
+      "explain": "*As far as we can tell* = based on what we know so far."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "It",
+        "looks",
+        "as",
+        "if",
+        "the",
+        "indexing",
+        "is",
+        "the",
+        "problem"
+      ],
+      "answer": "It looks as if the indexing is the problem",
+      "explain": "*It looks as if* + a full clause (subject + verb)."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "The",
+        "results",
+        "weren't",
+        "quite",
+        "what",
+        "we'd",
+        "hoped"
+      ],
+      "answer": "The results weren't quite what we'd hoped",
+      "explain": "*Not quite what we'd hoped*: *not* + a positive idea instead of *bad*. Here *we'd* = *we had*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the typical calque.",
+      "wrong": "The search seems that is slow.",
+      "accept": [
+        "The search seems to be slow.",
+        "It seems that the search is slow.",
+        "It seems the search is slow.",
+        "The search seems slow."
+      ],
+      "explain": "Subject + *seems to be*, or *it seems that* + clause."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the word order.",
+      "wrong": "The search maybe will not be ready.",
+      "accept": [
+        "The search may not be ready.",
+        "The search might not be ready.",
+        "Maybe the search won't be ready.",
+        "Maybe the search will not be ready."
+      ],
+      "explain": "Inside the verb, use *may / might*; *maybe* goes at the start."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the false friend.",
+      "wrong": "Sincerely, the results were not good.",
+      "accept": [
+        "To be honest, the results were not good.",
+        "To be honest, the results weren't good.",
+        "Honestly, the results were not good.",
+        "Honestly, the results weren't good.",
+        "Frankly, the results were not good.",
+        "Frankly, the results weren't good."
+      ],
+      "explain": "*To be honest / Honestly / Frankly*. *Sincerely* closes a letter."
+    },
+    {
+      "type": "organizer",
+      "kind": "table",
+      "prompt": "Certain or possible? Type *certain* or *possible* for each sentence.",
+      "columns": [
+        "Sentence",
+        "Certain or possible?"
+      ],
+      "rows": [
+        [
+          "Searches took just over four seconds.",
+          {
+            "gap": "certain",
+            "hint": "certain / possible",
+            "accept": [
+              "certain",
+              "certainty",
+              "sure"
+            ]
+          }
+        ],
+        [
+          "The search may not be ready for June 20.",
+          {
+            "gap": "possible",
+            "hint": "certain / possible",
+            "accept": [
+              "possible",
+              "possibility",
+              "probable"
+            ]
+          }
+        ],
+        [
+          "It looks as if the indexing is the cause.",
+          {
+            "gap": "possible",
+            "hint": "certain / possible",
+            "accept": [
+              "possible",
+              "possibility",
+              "probable"
+            ]
+          }
+        ],
+        [
+          "We'll know by Friday.",
+          {
+            "gap": "certain",
+            "hint": "certain / possible",
+            "accept": [
+              "certain",
+              "certainty",
+              "sure"
+            ]
+          }
+        ]
+      ],
+      "explain": "Facts and commitments are stated firmly; open questions (the date, the cause) are hedged."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *slightly* is stressed?",
+      "word": "slightly",
+      "syllables": [
+        "slight",
+        "ly"
+      ],
+      "answer": 0,
+      "audioRef": "l126-ph-slightly-us",
+      "explain": "**SLIGHT**-ly, with no vowel before the *s*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "priya",
+      "audio": "l126-dict-1",
+      "text": "It looks as if the indexing is the problem, but we can't be sure yet.",
+      "explain": "*It looks as if* + clause, and a strong *can't*: listen for the full vowel.",
+      "tts": "It looks [as](/əz/) if the indexing is the problem, [but](/bət/) we can't be sure yet."
+    }
+  ],
+  "task": {
+    "title": "Bad feedback to a supplier, softened but clear",
+    "format": "text",
+    "scenario": "You work with Alex on the help-center project. Tom's agency has delivered the new article templates. In yesterday's review, about a third of the articles displayed badly on phones, mostly the long ones with tables. Next Friday's launch may have to move. Write a message to Tom: clear about the facts, soft in tone, firm about the next step.",
+    "brief": "Give unwelcome feedback to a supplier with hedges and downtoners, without hiding the facts.",
+    "steps": [
+      "Thank Tom and introduce the news with a softener.",
+      "Give the fact with a number.",
+      "Give the probable cause, hedged.",
+      "Say what it may mean for the launch date.",
+      "Close with a firm request and a date."
+    ],
+    "length": "60–100 words",
+    "minWords": 45,
+    "keywords": [
+      "I'm afraid",
+      "weren't quite what we'd hoped",
+      "about a third",
+      "it looks as if",
+      "seems to",
+      "may need to",
+      "slightly",
+      "as far as we can tell",
+      "Could you",
+      "by Wednesday"
+    ],
+    "chunks": [
+      {
+        "label": "softened opener",
+        "re": "\\b(i'm|i am) afraid\\b|\\bunfortunately\\b|\\bto be honest\\b"
+      },
+      {
+        "label": "not + positive",
+        "re": "\\bnot quite\\b|\\bweren't quite\\b|\\bas well as (we|i) ('d|had)\\b|\\bnot ideal\\b|\\bless than ideal\\b"
+      },
+      {
+        "label": "hedged cause",
+        "re": "\\b(looks|seems) as if\\b|\\bseems? to\\b|\\bappears? to\\b|\\bas far as (we|i) can tell\\b|\\bit seems that\\b"
+      },
+      {
+        "label": "modal hedge",
+        "re": "\\b(may|might|could)\\s+(not\\s+)?(need|have|be|move|take|slip|affect)\\b"
+      },
+      {
+        "label": "the fact, with a number",
+        "re": "\\b(a third|one third|\\d+\\s*(%|percent)|half|a quarter|\\d+ of)\\b"
+      },
+      {
+        "label": "firm next step",
+        "re": "\\bcould you\\b[^.?!]*\\bby\\b|\\b(i'll|i will|we'll|we will)\\s+(confirm|send|call|let you know)\\b"
+      }
+    ],
+    "checks": [
+      "seemsThat",
+      "sincerelyHonest",
+      "maybeInside",
+      "hedgeStack",
+      "proDropIt",
+      "actuallyCurrently",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: one formal sentence for the project sponsor",
+      "brief": "Summarise the problem in one formal sentence: an impersonal subject (*Initial testing suggests that…*), the fact with a number, and a modal for the consequence.",
+      "keywords": [
+        "Initial testing suggests that",
+        "approximately one third",
+        "do not display correctly",
+        "consequently",
+        "may need to be revised"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l126-task-model",
+          "text": "Hi Tom, thanks for sending the new templates. {{I'm afraid}} the results of yesterday's review {{weren't quite what we'd hoped}}: {{about a third}} of the articles display badly on phones, mostly the long ones with tables. {{It looks as if}} the tables are wider than the screen, but we can't be sure yet. If that's the cause, the launch {{may need to}} move by a week. {{Could you}} take a look and send us a fix {{by Wednesday}}? I'll confirm the launch date on Thursday. Thanks, Alex",
+          "label": "Message to a supplier (neutral, written)",
+          "notes": [
+            "*Thanks for sending…* and *I'm afraid…*: thanks first, then the softener prepares Tom for the news.",
+            "*Weren't quite what we'd hoped*: *not* + a positive idea instead of *bad* or *failed*.",
+            "*About a third of the articles*: the fact stays exact. The number carries the message, not the adjectives.",
+            "*It looks as if… but we can't be sure yet* and *may need to move*: hedges only where the team is genuinely unsure (the cause and the date).",
+            "*Could you… by Wednesday? I'll confirm… on Thursday*: the request and the commitment are firm, with dates."
+          ],
+          "tts": "Hi Tom, thanks [for](/fəɹ/) sending the new templates. I'm afraid the results [of](/əv/) yesterday's review weren't quite what we'd hoped: about a third [of](/əv/) the articles display badly on phones, mostly the long ones with tables. It looks [as](/əz/) if the tables are wider than the screen, [but](/bət/) we can't be sure yet. If that's the cause, the launch may need to move by a week. [Could](/kəd/) you take a look [and](/ənd/) send us a fix by Wednesday? I'll confirm the launch date on Thursday. Thanks, Alex"
+        },
+        {
+          "speaker": "emma",
+          "audio": "l126-task-formal",
+          "text": "{{Initial testing suggests that}} approximately one third of the articles {{do not display correctly}} on mobile devices; {{consequently}}, the launch date {{may need to be revised}}.",
+          "label": "One sentence for the sponsor (formal)",
+          "notes": [
+            "*Initial testing suggests that*: the evidence is the subject, so nobody is blamed.",
+            "*Approximately one third*: the same fact in formal wording.",
+            "*Consequently* and *may need to be revised*: a formal linker and a modal passive for the consequence."
+          ],
+          "tts": "Initial testing suggests that approximately one third [of](/əv/) the articles do not display correctly on mobile devices; consequently, the launch date may need to be revised."
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "Si Tom lee tu mensaje, ¿sabe exactamente qué falló, cuánto y qué tiene que hacer y para cuándo? ¿O solo nota que estás preocupado? Copia la frase que lleva el dato principal.",
+        "reflect": true
+      },
+      {
+        "area": "register",
+        "text": "¿Suavizaste el tono (*I'm afraid*, *weren't quite what we'd hoped*) sin pasar al registro de chat (*kind of*, *a bummer*) ni al de comité (*Initial testing suggests*)?"
+      },
+      {
+        "area": "accuracy",
+        "text": "¿*Seem / appear* van con *to* + verbo, *it looks as if* con una oración completa, y los modales con el infinitivo sin *to* (*may need to move*, no *may needs*)?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Escribiste *seems that is*, *sincerely* por «sinceramente», *maybe will* o *I think we can't*? Debe ser *seems to be*, *to be honest*, *may / might* y *I don't think we can*."
+      },
+      {
+        "area": "strategy",
+        "text": "¿Atenuaste solo lo que de verdad es incierto (la causa, la fecha) y mantuviste firmes el dato y la petición? Si hay más de dos atenuadores en una frase, ¿cuál sobra?",
+        "reflect": true
+      }
+    ]
+  }
+}

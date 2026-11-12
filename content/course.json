@@ -115,7 +115,7 @@
       "modules": [
         { "id": "m25", "n": 25, "title": "Long-Running Projects & Status Reporting", "domains": ["WD"], "grammar": "Present Perfect Continuous vs Simple", "afh": "Linking consonante–vocal en chunks", "status": "draft",
           "lessons": ["Reporting Ongoing Work: \"We've Been Working On…\"", "Explaining Delays & Their Causes Diplomatically", "Presenting Results vs. Effort: Simple vs. Continuous", "Managing Stakeholder Expectations", "Writing a Concise Weekly Status Report"] },
-        { "id": "m26", "n": 26, "title": "Delivering Bad News & Declining Proposals", "domains": ["WD"], "grammar": "Hedging y atenuadores; anticipo de condicionales mixtos", "afh": "Formas débiles en palabras funcionales",
+        { "id": "m26", "n": 26, "title": "Delivering Bad News & Declining Proposals", "domains": ["WD"], "grammar": "Hedging y atenuadores; anticipo de condicionales mixtos", "afh": "Formas débiles en palabras funcionales", "status": "draft",
           "lessons": ["Softening Language: Hedges & Downtoners", "Declining Offers Without Damaging Relationships", "Explaining Constraints: Budget, Time & Scope", "Offering Alternatives & Counter-Proposals", "Breaking Bad News to a Key Client"] },
         { "id": "m27", "n": 27, "title": "Regrets, Lessons Learned & Retrospectives", "domains": ["BS", "WD"], "grammar": "Third Conditional; should have / could have", "afh": "Forma débil de have: would've /ˈwʊd.əv/",
           "lessons": ["Talking About Past Regrets & Missed Opportunities", "Analyzing What Went Wrong: Third Conditional", "Running a Project Retrospective", "Criticizing Past Decisions Constructively", "Turning Mistakes into Action Plans"] },

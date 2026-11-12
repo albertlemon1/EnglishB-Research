@@ -1,0 +1,241 @@
+{
+  "id": "review",
+  "title": "Module 26 Review",
+  "titleEs": "Repaso del Módulo 26",
+  "intro": "Fifteen questions across the five lessons, with an organizer, a word-stress item and a dictation. If you miss one, the explanation tells you which lesson to go back to.",
+  "items": [
+    {
+      "type": "choice",
+      "lesson": "l126",
+      "prompt": "The decision has not been taken yet. Choose the best form.",
+      "text": "The search ___ ready for the launch; we'll know on Friday.",
+      "options": [
+        "may not be",
+        "won't be",
+        "isn't"
+      ],
+      "answer": 0,
+      "explain": "An open question → a modal hedge. (Lesson 126)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l126",
+      "prompt": "Correct the typical calque.",
+      "wrong": "The indexing seems that is the problem.",
+      "accept": [
+        "The indexing seems to be the problem.",
+        "It seems that the indexing is the problem.",
+        "It seems the indexing is the problem."
+      ],
+      "explain": "Subject + *seems to be*, or *it seems that* + clause. (Lesson 126)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l126",
+      "prompt": "Searches took four seconds against a target of two. Choose the honest version.",
+      "text": "Searches took ___ our target time.",
+      "options": [
+        "twice",
+        "slightly more than",
+        "a tiny bit more than"
+      ],
+      "answer": 0,
+      "explain": "Soften the tone, not the number. (Lesson 126)"
+    },
+    {
+      "type": "gap",
+      "lesson": "l127",
+      "prompt": "Complete with one word.",
+      "text": "I'm afraid we'll have to pass on it at this ___.",
+      "accept": [
+        "stage",
+        "point"
+      ],
+      "explain": "*At this stage* limits the no to now: the door stays open. (Lesson 127)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l127",
+      "prompt": "Correct the typical slip.",
+      "wrong": "I'd love, but I'm away that weekend.",
+      "accept": [
+        "I'd love to, but I'm away that weekend.",
+        "I would love to, but I'm away that weekend."
+      ],
+      "explain": "*To* stands for the verb. (Lesson 127)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l127",
+      "prompt": "Choose the right verb.",
+      "text": "I'm afraid I can't ___ the meeting on Friday.",
+      "options": [
+        "attend",
+        "assist",
+        "assist to"
+      ],
+      "answer": 0,
+      "explain": "*Attend* a meeting; *assist* = help. (Lesson 127)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l128",
+      "prompt": "Choose the correct form.",
+      "text": "If we ___ at full scale in April, we would have more options now.",
+      "options": [
+        "had tested",
+        "would have tested",
+        "tested"
+      ],
+      "answer": 0,
+      "explain": "Mixed conditional: *if* + past perfect, *would* + bare infinitive + *now*. (Lesson 128)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l128",
+      "prompt": "The result is about today. Choose the correct form.",
+      "text": "If we had tested earlier, we ___ in a better position today.",
+      "options": [
+        "would be",
+        "would have been",
+        "will be"
+      ],
+      "answer": 0,
+      "explain": "*Today* → *would* + bare infinitive. (Lesson 128)"
+    },
+    {
+      "type": "gap",
+      "lesson": "l128",
+      "prompt": "Complete with one word.",
+      "text": "The budget doesn't ___ to extra servers this quarter.",
+      "accept": [
+        "stretch"
+      ],
+      "explain": "*The budget doesn't stretch to* + noun. (Lesson 128)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l129",
+      "prompt": "Choose the most diplomatic form.",
+      "text": "What if we ___ a filter by invoice number?",
+      "options": [
+        "added",
+        "will add",
+        "to add"
+      ],
+      "answer": 0,
+      "explain": "*What if* + past simple: a tentative suggestion. (Lesson 129)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l129",
+      "prompt": "Correct the calque.",
+      "wrong": "I suggest you to add a filter.",
+      "accept": [
+        "I suggest you add a filter.",
+        "I suggest that you add a filter.",
+        "I suggest adding a filter."
+      ],
+      "explain": "*Suggest* + -ing, or *suggest (that) you add*. (Lesson 129)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l130",
+      "prompt": "The decision has been made. Choose the best form.",
+      "text": "The full search ___ part of the go-live.",
+      "options": [
+        "will not be",
+        "may not be",
+        "might possibly not be"
+      ],
+      "answer": 0,
+      "explain": "Hedge the warning and the reason, never the decision. (Lesson 130)"
+    },
+    {
+      "type": "organizer",
+      "kind": "table",
+      "lesson": "l130",
+      "prompt": "Name the move of each sentence: warning, news, ownership or plan.",
+      "columns": [
+        "Sentence",
+        "Move"
+      ],
+      "rows": [
+        [
+          "I'm afraid I have some disappointing news about the reports page.",
+          {
+            "gap": "warning",
+            "hint": "warning / news / ownership / plan",
+            "accept": [
+              "warning",
+              "the warning",
+              "warning shot"
+            ]
+          }
+        ],
+        [
+          "Live data will not be available until 15 August.",
+          {
+            "gap": "news",
+            "hint": "warning / news / ownership / plan",
+            "accept": [
+              "news",
+              "the news",
+              "decision"
+            ]
+          }
+        ],
+        [
+          "If we had asked for written confirmation in May, we would have the live data now.",
+          {
+            "gap": "ownership",
+            "hint": "warning / news / ownership / plan",
+            "accept": [
+              "ownership",
+              "responsibility",
+              "taking responsibility"
+            ]
+          }
+        ],
+        [
+          "In the meantime, reports will be refreshed every Monday.",
+          {
+            "gap": "plan",
+            "hint": "warning / news / ownership / plan",
+            "accept": [
+              "plan",
+              "the plan",
+              "next steps"
+            ]
+          }
+        ]
+      ],
+      "explain": "Warning → news → (reason) → ownership → plan. (Lessons 128 and 130)"
+    },
+    {
+      "type": "stress",
+      "lesson": "l129",
+      "prompt": "Which syllable of *alternative* is stressed?",
+      "word": "alternative",
+      "syllables": [
+        "al",
+        "ter",
+        "na",
+        "tive"
+      ],
+      "answer": 1,
+      "audioRef": "l129-ph-alternative-us",
+      "explain": "al-**TER**-na-tive. (Lesson 129)"
+    },
+    {
+      "type": "dictation",
+      "lesson": "l126",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "oliver",
+      "audio": "m26-rv-dict-1",
+      "text": "I'm afraid the results weren't quite what we'd hoped, but we can test it again on Thursday.",
+      "explain": "Weak *but* and *can*: «bət-ui-kən-TEST». And *we'd hoped* = *we had hoped*. (Lessons 126 and 128)",
+      "tts": "I'm afraid the results weren't quite what we'd hoped, [but](/bət/) we [can](/kən/) test it again on Thursday."
+    }
+  ]
+}
