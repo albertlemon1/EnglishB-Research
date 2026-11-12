@@ -1,0 +1,1068 @@
+{
+  "id": "l124",
+  "n": 124,
+  "title": "Managing Stakeholder Expectations",
+  "titleEs": "Gestionar las expectativas de las partes interesadas",
+  "minutes": 60,
+  "summary": "Give a stakeholder a date they can plan around without promising what you cannot keep: evidence in the Present Perfect Continuous (*we've been seeing fewer errors since the fix*), a graded forecast (*should*, *is likely to*, *is expected to*), a firm commitment and the risks that could move it.",
+  "canDo": [
+    "Justify a forecast with a trend: *we've been seeing… since…, so…*",
+    "Grade how sure I am: *will* (firm), *should / is expected to* (probable), *is likely to / may* (possible), *it's too early to say* (no forecast).",
+    "Commit to a date and name the one I am aiming for, with the main risk.",
+    "Reduce *to* and *should* in *likely to* and *should be*, and say *at this stage* without an extra /e/."
+  ],
+  "focus": {
+    "grammar": "Present Perfect Continuous for the evidence behind a forecast · hedged predictions: should, is likely to, is expected to, may · firm vs tentative commitments: will vs should · it's too early to say whether · unless / provided that",
+    "lexis": "manage expectations, under-promise and over-deliver, a realistic timeline, build in a buffer, best-case / worst-case scenario, commit to (a date), a firm date / a tentative date, it's too early to say, a trade-off, no promises",
+    "afh": "weak forms: likely to /tə/, should be /ʃəd/ · linking and s-cluster in at this stage · sceNArio (four syllables, /s/) · comMIT to"
+  },
+  "warmup": "Someone asks you when something will be ready and you are not sure. In your language, how do you answer without lying and without sounding weak? Which words do you use to soften the date?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "I need a date the board can commit to",
+      "context": "Helen leaves Ryan a voice message after a board meeting. She needs a firm go-live date and the risks to it, not a story.",
+      "speaker": "helen",
+      "to": "Ryan",
+      "audio": "l124-scn",
+      "text": "Hi Ryan, Helen here. I've just come out of the board meeting, and they{{'ve been asking}} me for a {{firm}} go-live date. I know you{{'ve been dealing with}} the supplier issue, but I need something I can {{commit to}}. {{Realistically}}, what's the earliest we can go live, and what would have to go wrong for that date to slip? Call me back when you can. Thanks."
+    },
+    "dialogue": {
+      "title": "Deciding what to promise",
+      "context": "Ryan brings Helen's question to the team. They have to agree on a date they can keep.",
+      "lines": [
+        {
+          "speaker": "ryan",
+          "audio": "l124-dlg-01",
+          "text": "Helen needs a firm date for the board. What can we honestly promise?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l124-dlg-02",
+          "text": "Since the fix, we{{'ve been seeing}} far fewer export errors, so the reporting module {{should be}} ready by June 6.",
+          "tts": "Since the fix, we've been seeing far fewer export errors, so the reporting module [should](/ʃəd/) be ready by June sixth."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l124-dlg-03",
+          "text": "*Should* isn't *will*. If the supplier changes the format again, we{{'re likely to}} lose another week.",
+          "tts": "Should isn't will. If the supplier changes the format again, we're likely [to](/tə/) lose another week."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l124-dlg-04",
+          "text": "Then let's give her two dates: a {{best-case}} June 6 and a {{worst-case}} June 20, with the risk spelled out.",
+          "tts": "Then let's give her two dates: a best-case June sixth and a worst-case June twentieth, with the risk spelled out."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l124-dlg-05",
+          "text": "Agreed. I'd rather {{under-promise and over-deliver}}: we commit to June 20 and aim for the 6th.",
+          "tts": "Agreed. I'd rather under-promise and over-deliver: we commit to June twentieth and aim for the sixth."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l124-dlg-06",
+          "text": "And we {{build in a buffer}} for the final testing. Two weeks is realistic."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l124-dlg-07",
+          "text": "One more thing: {{at this stage}} it's {{too early to say}} whether the search will be in the first release. We should flag that as a {{trade-off}}, not hide it."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l124-dlg-08",
+          "text": "Good. I'll call Helen now and put it in writing afterwards."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "Why does Alex think the module should be ready by June 6?",
+        "options": [
+          "Because the team has been seeing far fewer export errors since the fix",
+          "Because Helen asked for that date",
+          "Because the supplier promised it"
+        ],
+        "answer": 0,
+        "explain": "The evidence comes first: *since the fix, we've been seeing far fewer export errors, so…*"
+      },
+      {
+        "q": "What does Oliver mean by *should isn't will*?",
+        "options": [
+          "A probable expectation is not a firm commitment",
+          "The module will certainly be late",
+          "They should not call Helen"
+        ],
+        "answer": 0,
+        "explain": "*Should* = probable, based on evidence. *Will* = a promise."
+      },
+      {
+        "q": "What does the team decide to commit to?",
+        "options": [
+          "June 20, aiming for June 6",
+          "June 6 with no buffer",
+          "No date at all"
+        ],
+        "answer": 0,
+        "explain": "*We commit to June 20 and aim for the 6th*: under-promise and over-deliver."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Friends and close colleagues, when nothing you say is official.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l124-reg-c1",
+            "text": "No promises, but it should be done by the 6th if nothing else blows up.",
+            "tts": "No promises, but it [should](/ʃəd/) be done by the sixth if nothing else blows up.",
+            "note": "*No promises* and *blows up* (= goes badly wrong) are chat-level hedges."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l124-reg-c2",
+            "text": "Worst case, it's a couple more weeks. Don't quote me on that!",
+            "note": "*Don't quote me on that* = this is not official."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Calls and emails with a client; team planning.",
+        "items": [
+          {
+            "speaker": "ryan",
+            "audio": "l124-reg-n1",
+            "text": "Realistically, we expect to go live on June 20, and we're aiming for the 6th.",
+            "tts": "Realistically, we expect to go live on June twentieth, and we're aiming for the sixth.",
+            "note": "*Realistically* frames it; *expect to* is the commitment, *aiming for* the hope."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l124-reg-n2",
+            "text": "We've been seeing fewer errors since the fix, so the module should be ready by the 6th.",
+            "tts": "We've been seeing fewer errors since the fix, so the module [should](/ʃəd/) be ready by the sixth.",
+            "note": "Evidence (*have been seeing since*) → forecast (*should be*)."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l124-reg-n3",
+            "text": "At this stage it's too early to say whether the search will be in the first release.",
+            "note": "*It's too early to say whether*: a risk named without a forecast."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Board papers, written commitments, contracts.",
+        "items": [
+          {
+            "speaker": "helen",
+            "audio": "l124-reg-f1",
+            "text": "The board would appreciate a firm date, together with the principal risks to it.",
+            "note": "*Would appreciate*, *principal risks*: a request with pressure behind it."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l124-reg-f2",
+            "text": "The reporting module is expected to be delivered by 20 June; an earlier release remains possible, provided that the supplier's data format does not change.",
+            "tts": "The reporting module is expected to be delivered by the twentieth of June; an earlier release remains possible, provided that the supplier's data format does not change.",
+            "note": "*Is expected to*, *remains possible*, *provided that*: written hedging."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "manage expectations",
+        "def": "to make sure people expect a realistic outcome, not the best possible one",
+        "register": "neutral",
+        "example": "Two dates and a risk: that's how you manage expectations."
+      },
+      {
+        "en": "under-promise and over-deliver",
+        "def": "to commit to less than you think you can do, so that the real result is better than promised",
+        "register": "neutral",
+        "example": "I'd rather under-promise and over-deliver."
+      },
+      {
+        "en": "a realistic timeline",
+        "def": "a plan whose dates are likely to be met",
+        "register": "neutral",
+        "ant": "an optimistic timeline",
+        "example": "Two weeks of testing is a realistic timeline."
+      },
+      {
+        "en": "build in a buffer",
+        "def": "to add extra time to a plan in case something goes wrong",
+        "register": "neutral",
+        "example": "We build in a buffer for the final testing."
+      },
+      {
+        "en": "best-case / worst-case scenario",
+        "def": "the most and the least favourable outcome you can reasonably expect",
+        "register": "neutral",
+        "example": "Best case, June 6; worst case, June 20."
+      },
+      {
+        "en": "commit to (a date)",
+        "def": "to promise a date firmly",
+        "register": "neutral",
+        "example": "We commit to June 20 and aim for the 6th."
+      },
+      {
+        "en": "a firm date / a tentative date",
+        "def": "a date you promise / a date that may still change",
+        "register": "neutral",
+        "example": "The board wants a firm date, not a tentative one."
+      },
+      {
+        "en": "it's too early to say",
+        "def": "we do not have enough information to predict yet",
+        "register": "neutral",
+        "example": "It's too early to say whether the search will be in the first release."
+      },
+      {
+        "en": "a trade-off",
+        "def": "a situation in which you accept less of one thing to get more of another",
+        "register": "neutral",
+        "example": "Leaving the search out is a trade-off, not a failure."
+      },
+      {
+        "en": "no promises",
+        "def": "informal: I will try, but I am not committing to it",
+        "register": "casual",
+        "syn": "don't quote me on that",
+        "example": "No promises, but it should be done by the 6th."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Don't quote me on that!",
+        "answer": "casual",
+        "explain": "An informal way of saying *this is not official*."
+      },
+      {
+        "text": "The module is expected to be delivered by 20 June.",
+        "answer": "formal",
+        "explain": "*Is expected to be delivered*: written, impersonal."
+      },
+      {
+        "text": "Realistically, we expect to go live on June 20.",
+        "answer": "neutral",
+        "explain": "Professional and direct."
+      },
+      {
+        "text": "No promises, but it should be done by the 6th.",
+        "answer": "casual",
+        "explain": "*No promises* is chat language."
+      },
+      {
+        "text": "The board would appreciate a firm date.",
+        "answer": "formal",
+        "explain": "*Would appreciate*: a formal request."
+      },
+      {
+        "text": "At this stage it's too early to say.",
+        "answer": "neutral",
+        "explain": "A standard professional hedge."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Ryan's answer to Helen in four sentences. Watch how sure each verb is: one is evidence, one is probable, one is possible, one is a promise.",
+    "speaker": "ryan",
+    "audio": "l124-gd",
+    "text": "Since the fix, we{{'ve been seeing}} far fewer export errors, so the reporting module {{should be}} ready by June 6. If the supplier changes the format again, we{{'re likely to}} lose another week. {{At this stage}}, it's too early to say whether the search will be in the first release. We{{'re committing to}} June 20 and aiming for the 6th.",
+    "tts": "Since the fix, we've been seeing far fewer export errors, so the reporting module [should](/ʃəd/) be ready by June sixth. If the supplier changes the format again, we're likely [to](/tə/) lose another week. At this stage, it's too early to say whether the search will be in the first release. We're committing to June twentieth and aiming for the sixth.",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "How firm is it?",
+      "prompt": "Complete the table: how firm is each sentence (firm, likely, possible, unknown), and which words signal it?",
+      "columns": [
+        "Sentence",
+        "Firmness",
+        "Signal"
+      ],
+      "rows": [
+        [
+          "The module {{should be}} ready by June 6.",
+          {
+            "gap": "likely",
+            "hint": "firm / likely / possible / unknown",
+            "accept": [
+              "likely",
+              "probable",
+              "tentative",
+              "an expectation",
+              "expectation",
+              "likely / tentative",
+              "probably"
+            ]
+          },
+          "should"
+        ],
+        [
+          "We{{'re likely to}} lose another week.",
+          "possible",
+          {
+            "gap": "likely to",
+            "hint": "the words after we're",
+            "accept": [
+              "likely to",
+              "be likely to",
+              "are likely to",
+              "'re likely to",
+              "likely",
+              "likely to lose"
+            ]
+          }
+        ],
+        [
+          "{{It's too early to say}} whether the search will be in the first release.",
+          {
+            "gap": "unknown",
+            "hint": "firm / likely / possible / unknown",
+            "accept": [
+              "unknown",
+              "not known",
+              "we don't know",
+              "no forecast",
+              "no prediction",
+              "open",
+              "uncertain",
+              "too early"
+            ]
+          },
+          "too early to say"
+        ],
+        [
+          "We{{'re committing to}} June 20.",
+          {
+            "gap": "firm",
+            "hint": "firm / likely / possible / unknown",
+            "accept": [
+              "firm",
+              "a firm commitment",
+              "commitment",
+              "certain",
+              "promised",
+              "a promise",
+              "definite"
+            ]
+          },
+          "commit to"
+        ]
+      ],
+      "explain": "*Commit to* and *will* are firm; *should* and *is expected to* are probable; *is likely to* and *may* are possible; *too early to say* makes no forecast at all."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "Alex says *we've been seeing fewer errors since the fix, so the module should be ready by June 6*. What is the evidence and what is the forecast? How sure is *should*: a promise, a probability or a wish?",
+        "minWords": 12,
+        "signals": [
+          {
+            "re": "evidence|trend|seeing|since the fix|observ|data",
+            "label": "evidence"
+          },
+          {
+            "re": "forecast|predict|expect|should be ready|estimate",
+            "label": "forecast"
+          },
+          {
+            "re": "probab|likely|expectation|not a promise|reasoned|based on",
+            "label": "probable, not a promise"
+          },
+          {
+            "re": "\\bwill\\b|promise|commit|hope|wish|hopefully",
+            "label": "will / hopefully"
+          }
+        ],
+        "model": "The evidence is the trend: *we've been seeing fewer errors since the fix*, an observation that started in the past and continues. The forecast is *should be ready by June 6*. *Should* here is a reasoned expectation: probable, based on evidence, but not a promise. A promise would be *will be ready*; a wish would be *hopefully it'll be ready*.",
+        "criteria": [
+          "You separated the evidence (*have been seeing… since*) from the forecast (*should be ready*).",
+          "You said *should* expresses a probable expectation based on evidence, not a promise.",
+          "You contrasted it with a firm *will* (promise) or a weaker form (*hopefully*, *might*)."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "List the hedging forms in the text and the dialogue: *should be*, *is likely to*, *is expected to*, *it's too early to say whether*, *at this stage*. Write the pattern of each (what comes after it) and put them in order from firmest to most open.",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "should \\+|should be|should \\w+",
+            "label": "should + verb"
+          },
+          {
+            "re": "likely to \\+|likely to \\w+|expected to",
+            "label": "likely / expected to + verb"
+          },
+          {
+            "re": "whether|clause|too early to say",
+            "label": "too early to say whether + clause"
+          },
+          {
+            "re": "\\bwill\\b|firm|order|first|last|most open",
+            "label": "order of firmness"
+          }
+        ],
+        "model": "From firmest to most open: *will + verb* (firm) > *is expected to + verb* and *should + verb* (probable, based on evidence) > *is likely to + verb* and *may + verb* (possible) > *it's too early to say whether + clause* (no forecast). *At this stage* and *realistically* are adverbials that frame any of them as provisional. Patterns: *should be ready*, *is likely to lose*, *is expected to be delivered*, *too early to say whether the search will…*.",
+        "criteria": [
+          "You listed the forms with what follows each (*should + verb*, *likely to + verb*, *too early to say whether + clause*).",
+          "You ordered them from firmest (*will*) to most open (*too early to say*).",
+          "You noted that *at this stage* / *realistically* mark the forecast as provisional."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Ryan chooses to *commit to June 20 and aim for the 6th*. What does the board gain, what does the team gain, and what is the risk of promising June 6 directly? Why is *it's too early to say* better than silence about the search?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "plan|firm|certain|rely|board|count on",
+            "label": "the board can plan"
+          },
+          {
+            "re": "buffer|over-deliver|room|margin|safe|protect",
+            "label": "the team gets room"
+          },
+          {
+            "re": "broken|break|fail|miss|disappoint|lose trust|credib",
+            "label": "a broken promise"
+          },
+          {
+            "re": "early|surprise|trust|honest|silence|hide|later",
+            "label": "risk named early"
+          }
+        ],
+        "model": "The board gets a firm date it can plan around; the team gets a buffer and the chance to over-deliver. Promising June 6 directly sounds better today but turns one supplier change into a broken promise. Saying *it's too early to say whether the search will be in the first release* names an open risk early, so the client can plan for it; silence would make the same news a surprise later, which costs more trust than the risk itself.",
+        "criteria": [
+          "You said the firm later date protects the team and gives the client something to plan with.",
+          "You said a direct promise of the early date risks becoming a broken promise.",
+          "You said naming an open risk early (*too early to say*) protects trust more than silence."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "Give the evidence first with the Present Perfect Continuous (*we've been seeing fewer errors since the fix*), then the forecast.",
+        "Grade the forecast: *will* (firm) > *is expected to / should* (probable) > *is likely to / may* (possible) > *it's too early to say whether* (no forecast yet). *At this stage*, *realistically* and *unless* frame it as provisional.",
+        "Commit to the date you can keep and name the one you are aiming for: *we're committing to June 20 and aiming for the 6th*.",
+        "Name open risks early (*whether the search will be in the first release*): a surprise later costs more trust than a risk stated now."
+      ],
+      "formulas": [
+        "have / has been + -ing + since / for (evidence) → should / is likely to / is expected to + verb (forecast)",
+        "best case + date · worst case + date · unless / provided that + clause",
+        "it's too early to say whether + clause · at this stage, … · realistically, …"
+      ],
+      "note": "Spanish often promises with the future (*estará listo el 6*) and softens it with the tone of voice. English softens with the verb: *should be ready*, *is likely to*, *we expect to*. A bare *will* is a commitment."
+    }
+  },
+  "phonetics": {
+    "intro": "Las previsiones se construyen con palabras funcionales que casi desaparecen: *likely to* es «LÁIK-li-ta» y *should be*, «shad-bi». El hispanohablante tiende a darles vocal plena y a añadir una /e/ delante de *stage*. Aquí trabajamos esas formas débiles, el enlace de *at this stage* y los acentos de *scenario* y *commit*.",
+    "items": [
+      {
+        "id": "likely-to",
+        "term": "likely to",
+        "pos": "adj. + to",
+        "meaning": "probably going to; used before a verb to make a possible prediction",
+        "ipa": {
+          "us": "/ˈlaɪk.li tə/",
+          "uk": "/ˈlaɪk.li tə/"
+        },
+        "afh": "LÁIK-li-ta",
+        "say": "Likely to.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*To* delante de consonante es /tə/, «ta», con schwa. Nunca «tu» con vocal plena: eso es *too* o *two*."
+          },
+          {
+            "type": "stress",
+            "text": "El acento está en LAIK; *to* no lleva ninguno. «LÁIK-li-ta», tres sílabas cuesta abajo."
+          },
+          {
+            "type": "linking",
+            "text": "*Likely to lose*: un solo bloque, «LÁIK-li-ta-LUUZ», sin pausa delante de *to*."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "If the format changes again, we're likely to lose another week.",
+          "tts": "If the format changes again, we're likely [to](/tə/) lose another week."
+        },
+        "ttsUs": "[Likely](/lˈIkli/) [to](/tə/).",
+        "ttsUk": "[Likely](/lˈIkli/) [to](/tə/)."
+      },
+      {
+        "id": "should-be",
+        "term": "should be (it should be ready)",
+        "pos": "modal + be",
+        "meaning": "will probably be, based on what we know",
+        "ipa": {
+          "us": "/ʃəd bi/ (weak) · /ʃʊd/ (strong)",
+          "uk": "/ʃəd bi/ (weak) · /ʃʊd/ (strong)"
+        },
+        "afh": "shad-bi",
+        "say": "Should be.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "En *it should be ready*, *should* se reduce a /ʃəd/, «shad». La vocal plena /ʊ/ solo aparece al final (*Yes, we should*) o al negar (*shouldn't*)."
+          },
+          {
+            "type": "silent",
+            "text": "La l de *should* es muda: «shad», nunca «shuld»."
+          },
+          {
+            "type": "vowel",
+            "text": "*Be* es /bi/, breve y sin énfasis: «shad-bi», dos sílabas rápidas antes de la palabra que importa (*ready*)."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "The module should be ready by the sixth.",
+          "tts": "The module [should](/ʃəd/) be ready by the sixth."
+        },
+        "ttsUs": "[Should](/ʃəd/) be.",
+        "ttsUk": "[Should](/ʃəd/) be."
+      },
+      {
+        "id": "at-this-stage",
+        "term": "at this stage",
+        "pos": "chunk",
+        "meaning": "at this point in the process; now, with the information we have",
+        "ipa": {
+          "us": "/ət‿ðɪs ˈsteɪdʒ/",
+          "uk": "/ət‿ðɪs ˈsteɪdʒ/"
+        },
+        "afh": "at-dhis-STÉIDY",
+        "say": "At this stage.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*Stage* empieza con /st/, sin e de apoyo: «at-dhis-STÉIDY», nunca «es-TÉIDY»."
+          },
+          {
+            "type": "linking",
+            "text": "*At* y *this* se funden: «a(t)-dhis», la t casi no explota; luego la s de *this* se pega a la de *stage*."
+          },
+          {
+            "type": "consonant",
+            "text": "*-ge* final es /dʒ/, «dy», con voz: «steidy». No «steish» ni «steich»."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "At this stage it's too early to say whether the search will be in the first release."
+        }
+      },
+      {
+        "id": "scenario",
+        "term": "scenario",
+        "pos": "n.",
+        "meaning": "a possible sequence of events; best-case / worst-case scenario",
+        "ipa": {
+          "us": "/səˈner.i.oʊ/",
+          "uk": "/sɪˈnɑː.ri.əʊ/"
+        },
+        "afh": "sa-NÉ-ri-ou (US) · si-NÁ-ri-ou (UK)",
+        "say": "Scenario.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba y cuatro sílabas: «sa-NÉ-ri-ou». No «es-ce-NA-rio» con tres."
+          },
+          {
+            "type": "vowel",
+            "text": "US: /e/ en NER. UK: /ɑː/ larga, «NAH». El final es el diptongo /oʊ/, «ou», no una o pura."
+          },
+          {
+            "type": "s-cluster",
+            "text": "La s inicial va sin e de apoyo, y la c es /s/, no /θ/ ni /k/: «sa-NÉ-ri-ou»."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "In the worst-case scenario, we go live on June 20.",
+          "tts": "In the worst-case scenario, we go live on June twentieth."
+        }
+      },
+      {
+        "id": "commit-to",
+        "term": "commit to",
+        "pos": "v. + to",
+        "meaning": "to promise firmly to do something or to meet a date",
+        "ipa": {
+          "us": "/kəˈmɪt tə/",
+          "uk": "/kəˈmɪt tə/"
+        },
+        "afh": "ka-MIT-ta",
+        "say": "Commit to.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en MIT; la primera sílaba es schwa: «ka-MIT», no «CO-mit» como *cometer*."
+          },
+          {
+            "type": "weak",
+            "text": "*To* vuelve a ser /tə/: «ka-MIT-ta». La t final de *commit* y la de *to* se funden en una."
+          },
+          {
+            "type": "consonant",
+            "text": "Una sola m aunque se escriban dos. Y ojo al significado: *commit to a date* es comprometerse; *compromise* es ceder."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "We're committing to June 20 and aiming for the 6th.",
+          "tts": "We're committing to June twentieth and aiming for the sixth."
+        },
+        "ttsUs": "[Commit](/kəmˈɪt/) [to](/tə/).",
+        "ttsUk": "[Commit](/kəmˈɪt/) [to](/tə/)."
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Evidence, then forecast",
+        "formula": "have / has been + -ing + since / for → so + should / is likely to / is expected to + verb",
+        "usage": "The trend justifies the expectation; the hedge grades how sure you are.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l124-cc-1a",
+            "text": "We{{'ve been seeing}} fewer errors since the fix, {{so}} the module {{should be}} ready by June 6.",
+            "tts": "We've been seeing fewer errors since the fix, so the module [should](/ʃəd/) be ready by June sixth."
+          },
+          {
+            "speaker": "oliver",
+            "audio": "l124-cc-1b",
+            "text": "The supplier {{has been changing}} the format every month, so we{{'re likely to}} lose another week.",
+            "tts": "The supplier has been changing the format [every](/ˈɛvɹi/) month, so we're likely [to](/tə/) lose another week."
+          }
+        ]
+      },
+      {
+        "title": "Grading a commitment",
+        "formula": "will (firm) · is expected to / should (probable) · is likely to / may (possible) · it's too early to say whether (no forecast)",
+        "usage": "Choose the verb for the certainty you actually have; a bare *will* is a promise.",
+        "examples": [
+          {
+            "speaker": "ryan",
+            "audio": "l124-cc-2a",
+            "text": "We {{will}} deliver by June 20. We {{should}} be able to deliver by the 6th.",
+            "tts": "We will deliver by June twentieth. We [should](/ʃəd/) be able to deliver by the sixth."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l124-cc-2b",
+            "text": "{{It's too early to say whether}} the search will be in the first release."
+          }
+        ]
+      },
+      {
+        "title": "Two dates and a condition",
+        "formula": "best case + date · worst case + date · unless / provided that + clause",
+        "usage": "Give the range and the condition that moves the date. *Unless* = *if not*; *provided that* = *only if* (formal).",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l124-cc-3a",
+            "text": "{{Best case}}, June 6; {{worst case}}, June 20.",
+            "tts": "Best case, June sixth; worst case, June twentieth."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l124-cc-3b",
+            "text": "June 6 is acceptable, {{unless}} the supplier changes the format again.",
+            "tts": "June sixth is acceptable, unless the supplier changes the format again."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "A bare future as a forecast",
+        "text": "Spanish *estará listo el 6* is softened by tone. English *will be ready on the 6th* is a commitment; for a forecast use *should* or *is expected to*.",
+        "wrong": "The module will be ready on June 6. (meaning: probably)",
+        "right": "The module should be ready by June 6."
+      },
+      {
+        "title": "Likely as an adverb",
+        "text": "Spanish *probablemente* tempts *likely* alone before the verb. Use *is likely to* + verb, or *probably*.",
+        "wrong": "We likely lose another week.",
+        "right": "We're likely to lose another week."
+      },
+      {
+        "title": "Compromise for «compromiso»",
+        "text": "*A compromise* is an agreement in which both sides give something up. For *comprometerse a una fecha* use *commit to a date*.",
+        "wrong": "We can compromise to June 20.",
+        "right": "We can commit to June 20."
+      },
+      {
+        "title": "In the worst of the cases",
+        "text": "*En el peor de los casos* becomes *in the worst case* or simply *worst case*, not *in the worst of the cases*.",
+        "wrong": "In the worst of the cases, we go live on the 20th.",
+        "right": "In the worst case, we go live on the 20th."
+      },
+      {
+        "title": "It's too early, with it",
+        "text": "Spanish drops the subject (*es pronto para saberlo*). English needs *it*: *it's too early to say*.",
+        "wrong": "Is too early to say whether the search will be ready.",
+        "right": "It's too early to say whether the search will be ready."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the best form for an evidence-based forecast.",
+      "text": "We've been seeing fewer errors since the fix, so the module ___ ready by the 6th.",
+      "options": [
+        "should be",
+        "will certainly be",
+        "is"
+      ],
+      "answer": 0,
+      "explain": "Probable, based on evidence → *should be*. *Will certainly* is a promise; *is* states a fact."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct form.",
+      "text": "If the format changes again, we ___ lose another week.",
+      "options": [
+        "are likely to",
+        "likely",
+        "are liking to"
+      ],
+      "answer": 0,
+      "explain": "*Be likely to* + verb."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct words.",
+      "text": "At this stage, it's too early to ___ whether the search will be included.",
+      "options": [
+        "say",
+        "tell to",
+        "know it"
+      ],
+      "answer": 0,
+      "explain": "*It's too early to say whether…*"
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right verb.",
+      "text": "We can ___ to June 20.",
+      "options": [
+        "commit",
+        "compromise",
+        "promise us"
+      ],
+      "answer": 0,
+      "explain": "*Commit to a date*. *Compromise* = reach an agreement by giving something up."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with the correct form of *commit*.",
+      "text": "We're ___ to June 20 and aiming for the 6th.",
+      "accept": [
+        "committing"
+      ],
+      "explain": "*We're committing to*: a double t before -ing."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete the chunk.",
+      "text": "In the worst-___ scenario, we go live on the 20th.",
+      "accept": [
+        "case"
+      ],
+      "explain": "*Worst-case scenario* / *best-case scenario*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "Let's build in a ___ of two weeks for final testing.",
+      "accept": [
+        "buffer"
+      ],
+      "explain": "*Build in a buffer* = add safety time to the plan."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "It's",
+        "too",
+        "early",
+        "to",
+        "say",
+        "whether",
+        "the",
+        "search",
+        "will",
+        "be",
+        "ready"
+      ],
+      "answer": "It's too early to say whether the search will be ready",
+      "explain": "*It's too early to say whether* + clause."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "The",
+        "module",
+        "is",
+        "expected",
+        "to",
+        "be",
+        "delivered",
+        "by",
+        "June",
+        "20"
+      ],
+      "answer": "The module is expected to be delivered by June 20",
+      "explain": "*Is expected to be + past participle*: a formal, probable forecast."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the typical slip.",
+      "wrong": "We likely lose another week.",
+      "accept": [
+        "We're likely to lose another week.",
+        "We are likely to lose another week.",
+        "We'll probably lose another week.",
+        "We will probably lose another week."
+      ],
+      "explain": "*Be likely to* + verb, or *probably*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the false friend.",
+      "wrong": "We can compromise to June 20.",
+      "accept": [
+        "We can commit to June 20."
+      ],
+      "explain": "*Commit to a date*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the missing word.",
+      "wrong": "Is too early to say whether the search will be ready.",
+      "accept": [
+        "It's too early to say whether the search will be ready.",
+        "It is too early to say whether the search will be ready."
+      ],
+      "explain": "English needs the subject *it*."
+    },
+    {
+      "type": "organizer",
+      "kind": "timeline",
+      "prompt": "Place the commitments on the time line. Type the missing hedge or verb.",
+      "points": [
+        {
+          "when": "Now",
+          "text": "Fewer export errors since the fix."
+        },
+        {
+          "when": "Best case · June 6",
+          "gap": "should be ready",
+          "hint": "the module … (should) ready",
+          "accept": [
+            "should be ready",
+            "should be",
+            "it should be ready",
+            "the module should be ready"
+          ]
+        },
+        {
+          "when": "Risk",
+          "gap": "likely to",
+          "hint": "if the format changes, we're … lose a week",
+          "accept": [
+            "likely to",
+            "likely to lose",
+            "are likely to",
+            "likely"
+          ]
+        },
+        {
+          "when": "Worst case · June 20",
+          "gap": "commit to",
+          "hint": "the date we … (commit)",
+          "accept": [
+            "commit to",
+            "are committing to",
+            "committing to",
+            "commit",
+            "we commit to",
+            "we're committing to"
+          ]
+        }
+      ],
+      "explain": "Evidence now → *should be ready* (probable) → *likely to lose* (possible risk) → *commit to* (firm)."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *scenario* is stressed?",
+      "word": "scenario",
+      "syllables": [
+        "sce",
+        "na",
+        "ri",
+        "o"
+      ],
+      "answer": 1,
+      "audioRef": "l124-ph-scenario-us",
+      "explain": "sce-**NA**-ri-o: four syllables, stress on the second."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "ryan",
+      "audio": "l124-dict-1",
+      "text": "Realistically, we expect to go live at the end of June.",
+      "explain": "*Realistically* + *expect to*: a framed commitment."
+    }
+  ],
+  "task": {
+    "title": "Calling a stakeholder back with a date",
+    "format": "voice",
+    "scenario": "Helen has asked you, by voice message, for a firm go-live date and the risks to it. Record (or write) your reply: the evidence, a date you can commit to, the date you are aiming for, the main risk and one open point that is too early to decide.",
+    "brief": "Reply to a stakeholder with a graded commitment: evidence → forecast → firm date → risks → next contact.",
+    "steps": [
+      "Thank her and say you have a date.",
+      "Give the evidence with *have been + -ing* and *since*.",
+      "Commit to one date and name the earlier date you are aiming for.",
+      "State the main risk with *unless* or *is likely to*, and one point that is too early to say.",
+      "Close with when you will confirm in writing."
+    ],
+    "length": "90–130 words",
+    "minWords": 60,
+    "keywords": [
+      "thanks for your message",
+      "since the fix, we've been",
+      "should be ready by",
+      "realistically",
+      "we're committing to",
+      "aiming for",
+      "unless",
+      "is likely to",
+      "at this stage",
+      "too early to say whether",
+      "I'll confirm in writing by"
+    ],
+    "chunks": [
+      {
+        "label": "evidence: have been + -ing",
+        "re": "\\b(have|has|'ve|'s)\\s+been\\s+\\w+ing\\b"
+      },
+      {
+        "label": "hedge",
+        "re": "\\b(should|is likely to|are likely to|'re likely to|is expected to|we expect to|may|realistically|at this stage)\\b"
+      },
+      {
+        "label": "firm commitment",
+        "re": "\\b(commit(ting)? to|we will|we'll)\\b"
+      },
+      {
+        "label": "aiming for / range",
+        "re": "\\b(aiming for|aim for|best case|worst case)\\b"
+      },
+      {
+        "label": "risk or condition",
+        "re": "\\b(unless|provided that|as long as|the (main|biggest) risk|if the)\\b"
+      },
+      {
+        "label": "too early to say",
+        "re": "\\btoo early to (say|tell)\\b"
+      }
+    ],
+    "checks": [
+      "likelyAdverb",
+      "compromiseTo",
+      "proDropIt",
+      "worstOfCases",
+      "presentForSince",
+      "sinceDuration",
+      "actuallyCurrently",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the written confirmation",
+      "brief": "Confirm the same commitment in one formal sentence for Helen's board paper: expected date, the condition, and the point still to be confirmed.",
+      "keywords": [
+        "is expected to be",
+        "remains possible",
+        "provided that",
+        "has yet to be confirmed"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "ryan",
+          "audio": "l124-task-model",
+          "text": "Hi Helen, {{thanks for your message}}; I have a date for you. {{Since the fix}} last week, we{{'ve been seeing}} far fewer export errors, and the other four modules {{have been running}} without issues for a month, so the reporting module {{should be ready by}} June 6. {{Realistically}}, we{{'re committing to}} June 20 for go-live and {{aiming for}} the 6th. The main risk is the supplier: {{unless}} they change the data format again, the earlier date {{is likely to}} hold. One open point: {{at this stage}} it's {{too early to say whether}} the search will be in the first release; we'll know after Friday's test. {{I'll confirm}} all of this {{in writing by}} tomorrow evening. Thanks!",
+          "tts": "Hi Helen, thanks for your message; I have a date for you. Since the fix last week, we've been seeing far fewer export errors, and the other four modules have been running without issues for a month, so the reporting module [should](/ʃəd/) be ready by June sixth. Realistically, we're committing to June twentieth for go-live and aiming for the sixth. The main risk is the supplier: unless they change the data format again, the earlier date is likely [to](/tə/) hold. One open point: at this stage it's too early to say whether the search will be in the first release; we'll know after Friday's test. I'll confirm all of this in writing by tomorrow evening. Thanks!",
+          "label": "Voice reply to the client (neutral, professional)",
+          "notes": [
+            "*Since the fix, we've been seeing… have been running for a month*: two trends as evidence, then *should be ready by*.",
+            "*Realistically, we're committing to June 20 and aiming for the 6th*: a firm date and a hope, clearly separated.",
+            "*Unless they change the format again, the earlier date is likely to hold*: the risk and its condition in one sentence.",
+            "*At this stage it's too early to say whether…*: the open point named, with the date it will be decided."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l124-task-formal",
+          "text": "The reporting module {{is expected to be}} delivered by 20 June, with an earlier release on 6 June {{remaining possible}} {{provided that}} the supplier's data format does not change; the inclusion of the search function {{has yet to be confirmed}}.",
+          "tts": "The reporting module is expected to be delivered by the twentieth of June, with an earlier release on the sixth of June remaining possible provided that the supplier's data format does not change; the inclusion of the search function has yet to be confirmed.",
+          "label": "Written confirmation for the board paper (formal)",
+          "notes": [
+            "*Is expected to be delivered by*: the probable date in the passive.",
+            "*Remaining possible provided that…*: the earlier date and its condition, in one clause.",
+            "*Has yet to be confirmed*: the formal version of *it's too early to say*."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "¿Helen sale de tu mensaje con una fecha que puede llevar a la junta y con el riesgo que la mueve? ¿Qué frase es el compromiso firme y cuál la previsión (*should*, *likely to*)?",
+        "reflect": true
+      },
+      {
+        "area": "accuracy",
+        "text": "¿La evidencia va en *have been + -ing* con *since / for*, y la previsión con *should* o *is likely to*, no con un *will* a secas?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Escribiste *we likely lose*, *compromise to a date*, *is too early* sin *it*, o *in the worst of the cases*?"
+      },
+      {
+        "area": "register",
+        "text": "¿El tono es el de una llamada profesional (*thanks for your message*, *realistically*), sin *no promises* ni *don't quote me*? ¿Y la frase extra suena a informe (*is expected to*, *provided that*)?"
+      },
+      {
+        "area": "strategy",
+        "text": "¿Nombraste el punto abierto (*too early to say whether…*) en lugar de callarlo? Anota cómo lo dijiste sin que suene a excusa.",
+        "reflect": true
+      }
+    ]
+  }
+}

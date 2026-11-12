@@ -1,0 +1,2132 @@
+{
+ "engine": "Kokoro-82M v1.0 (ONNX) + misaki G2P",
+ "sampleRate": 24000,
+ "format": "mp3 64 kbps mono",
+ "count": 236,
+ "clips": {
+  "l121-cc-1a": {
+   "file": "l121-cc-1a.mp3",
+   "duration": 2.81,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We've been working on the migration since March.",
+   "hash": "74430f523272"
+  },
+  "l121-cc-1b": {
+   "file": "l121-cc-1b.mp3",
+   "duration": 2.75,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I've been testing the new design for two weeks.",
+   "hash": "95abe3808c5c"
+  },
+  "l121-cc-2a": {
+   "file": "l121-cc-2a.mp3",
+   "duration": 3.28,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "So far, we've migrated three of the five modules.",
+   "hash": "88267d3307b5"
+  },
+  "l121-cc-2b": {
+   "file": "l121-cc-2b.mp3",
+   "duration": 4.49,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I've narrowed it down to the date format, but I haven't fixed it yet.",
+   "hash": "c1cce80d3038"
+  },
+  "l121-cc-3a": {
+   "file": "l121-cc-3a.mp3",
+   "duration": 3.88,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "How long has the client been waiting for the demo?",
+   "hash": "16afa53443ea"
+  },
+  "l121-cc-3b": {
+   "file": "l121-cc-3b.mp3",
+   "duration": 2.89,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "How many interviews have you completed so far?",
+   "hash": "f95ab2ea479a"
+  },
+  "l121-dict-1": {
+   "file": "l121-dict-1.mp3",
+   "duration": 3.17,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.9,
+   "text": "So far, we've migrated three of the five modules.",
+   "hash": "ca066f681469"
+  },
+  "l121-dlg-01": {
+   "file": "l121-dlg-01.mp3",
+   "duration": 6.34,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Morning, everyone. Oliver's back, so let's do a proper round. Priya, where are we with the user testing?",
+   "hash": "885058eaec5a"
+  },
+  "l121-dlg-02": {
+   "file": "l121-dlg-02.mp3",
+   "duration": 12.1,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Good, actually. I've been running sessions with real customers for two weeks, and we've completed twelve of the fifteen interviews. The main finding so far: people can't find the invoices page.",
+   "hash": "259d798ed37f"
+  },
+  "l121-dlg-03": {
+   "file": "l121-dlg-03.mp3",
+   "duration": 3.81,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Noted, thanks. Alex, what about the data export bug?",
+   "hash": "4f0b142f32ff"
+  },
+  "l121-dlg-04": {
+   "file": "l121-dlg-04.mp3",
+   "duration": 9.69,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I've been digging into it since Thursday. I've narrowed it down to the date format, but I haven't fixed it yet. I should have a fix by tomorrow.",
+   "hash": "4fdd38e99024"
+  },
+  "l121-dlg-05": {
+   "file": "l121-dlg-05.mp3",
+   "duration": 3.3,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Is that the blocker for the reporting module?",
+   "hash": "8eb393276622"
+  },
+  "l121-dlg-06": {
+   "file": "l121-dlg-06.mp3",
+   "duration": 4.79,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "It is. Everything else in that module is up and running.",
+   "hash": "7d8e4cd1cbc4"
+  },
+  "l121-dlg-07": {
+   "file": "l121-dlg-07.mp3",
+   "duration": 5.3,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Okay. And how long has the client been waiting for the demo?",
+   "hash": "25e46073365b"
+  },
+  "l121-dlg-08": {
+   "file": "l121-dlg-08.mp3",
+   "duration": 7.05,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Since the end of April. Helen has been asking for a date, so let's agree on one today and I'll keep her posted.",
+   "hash": "f5bbf821f776"
+  },
+  "l121-gd": {
+   "file": "l121-gd.mp3",
+   "duration": 14.51,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We've been working on the portal migration since March. So far, we've migrated three of the five modules, and Priya has been testing the new design with real users for two weeks. We haven't finished the reporting module yet, but we're on track.",
+   "hash": "8722fd66331a"
+  },
+  "l121-ph-been-ex": {
+   "file": "l121-ph-been-ex.mp3",
+   "duration": 2.77,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We've been testing the new design for two weeks.",
+   "hash": "5079c566b263"
+  },
+  "l121-ph-been-slow": {
+   "file": "l121-ph-been-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "We've been.",
+   "hash": "760ceaa161a2"
+  },
+  "l121-ph-been-uk": {
+   "file": "l121-ph-been-uk.mp3",
+   "duration": 1.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "We've been.",
+   "hash": "29b2ea3c4294"
+  },
+  "l121-ph-been-us": {
+   "file": "l121-ph-been-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We've been.",
+   "hash": "183182fdfecf"
+  },
+  "l121-ph-progress-ex": {
+   "file": "l121-ph-progress-ex.mp3",
+   "duration": 3.17,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "We've made a lot of progress on the new design this month.",
+   "hash": "467d8a23b706"
+  },
+  "l121-ph-progress-noun": {
+   "file": "l121-ph-progress-noun.mp3",
+   "duration": 2.28,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We've made good progress this month.",
+   "hash": "9f40beb0ac7a"
+  },
+  "l121-ph-progress-slow": {
+   "file": "l121-ph-progress-slow.mp3",
+   "duration": 1.66,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Progress.",
+   "hash": "ffd5cec7dbfe"
+  },
+  "l121-ph-progress-uk": {
+   "file": "l121-ph-progress-uk.mp3",
+   "duration": 1.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Progress.",
+   "hash": "c5529b989a9d"
+  },
+  "l121-ph-progress-us": {
+   "file": "l121-ph-progress-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Progress.",
+   "hash": "c22321c46211"
+  },
+  "l121-ph-progress-verb": {
+   "file": "l121-ph-progress-verb.mp3",
+   "duration": 2.04,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "The work is progressing well.",
+   "hash": "cec74ad074d7"
+  },
+  "l121-ph-roll-out-ex": {
+   "file": "l121-ph-roll-out-ex.mp3",
+   "duration": 4.07,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We're going to roll it out to the first fifty users on Monday.",
+   "hash": "9f9d25e28295"
+  },
+  "l121-ph-roll-out-slow": {
+   "file": "l121-ph-roll-out-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Roll it out.",
+   "hash": "3a34f8d1cd69"
+  },
+  "l121-ph-roll-out-uk": {
+   "file": "l121-ph-roll-out-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Roll it out.",
+   "hash": "09f4cdf14bd8"
+  },
+  "l121-ph-roll-out-us": {
+   "file": "l121-ph-roll-out-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Roll it out.",
+   "hash": "5fb4f4ae8cdc"
+  },
+  "l121-ph-schedule-ex": {
+   "file": "l121-ph-schedule-ex.mp3",
+   "duration": 3.49,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "The server upgrade is still on schedule for Friday.",
+   "hash": "66df43faf2a1"
+  },
+  "l121-ph-schedule-slow": {
+   "file": "l121-ph-schedule-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Schedule.",
+   "hash": "f2f7e9fef114"
+  },
+  "l121-ph-schedule-uk": {
+   "file": "l121-ph-schedule-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Schedule.",
+   "hash": "b1bbed5c5d15"
+  },
+  "l121-ph-schedule-us": {
+   "file": "l121-ph-schedule-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Schedule.",
+   "hash": "4e136e9587e8"
+  },
+  "l121-ph-work-on-it-ex": {
+   "file": "l121-ph-work-on-it-ex.mp3",
+   "duration": 3.94,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I'll work on it this afternoon and send you the results.",
+   "hash": "421657638aab"
+  },
+  "l121-ph-work-on-it-slow": {
+   "file": "l121-ph-work-on-it-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Work on it.",
+   "hash": "eee77216055d"
+  },
+  "l121-ph-work-on-it-uk": {
+   "file": "l121-ph-work-on-it-uk.mp3",
+   "duration": 1.51,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Work on it.",
+   "hash": "5c12c8c2608e"
+  },
+  "l121-ph-work-on-it-us": {
+   "file": "l121-ph-work-on-it-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Work on it.",
+   "hash": "8de44a795344"
+  },
+  "l121-reg-c1": {
+   "file": "l121-reg-c1.mp3",
+   "duration": 3.7,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Still plugging away at the migration. Nearly there, though!",
+   "hash": "62dae19054a2"
+  },
+  "l121-reg-c2": {
+   "file": "l121-reg-c2.mp3",
+   "duration": 3.94,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "How's the big project going? You've been at it for ages!",
+   "hash": "f14609d68b89"
+  },
+  "l121-reg-f1": {
+   "file": "l121-reg-f1.mp3",
+   "duration": 6.76,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Work on the migration has been progressing steadily since March, and three of the five modules have now been completed.",
+   "hash": "c6717521b717"
+  },
+  "l121-reg-f2": {
+   "file": "l121-reg-f2.mp3",
+   "duration": 6.46,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Please note that the reporting module remains pending while the data-export issue is being investigated.",
+   "hash": "886213f816b6"
+  },
+  "l121-reg-n1": {
+   "file": "l121-reg-n1.mp3",
+   "duration": 3.88,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We've been working on the migration since March, and we're on track.",
+   "hash": "db8bf3393bcf"
+  },
+  "l121-reg-n2": {
+   "file": "l121-reg-n2.mp3",
+   "duration": 5.26,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I've been testing the design for two weeks, and we've completed twelve interviews so far.",
+   "hash": "d4ba0ddc1a37"
+  },
+  "l121-reg-n3": {
+   "file": "l121-reg-n3.mp3",
+   "duration": 4.09,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "I've been looking into the bug, but I haven't found the cause yet.",
+   "hash": "feaa3daac8ee"
+  },
+  "l121-scn": {
+   "file": "l121-scn.mp3",
+   "duration": 31.45,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Hi Oliver, welcome back! Quick update before tomorrow's stand-up so you're not lost. We've been working on the portal migration non-stop since you left. So far, we've migrated three of the five modules, and Priya has been testing the new design with real users for two weeks now. The reporting module is still pending: Alex has been chasing a bug in the data export, and we haven't found the cause yet. Overall, we're on track for the June rollout. I'll loop you in on the client call on Wednesday. See you tomorrow!",
+   "hash": "6fdf524aabaf"
+  },
+  "l121-task-formal": {
+   "file": "l121-task-formal.mp3",
+   "duration": 12.03,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "As of today, work on the help-center project has been progressing steadily: forty of the eighty articles have now been published, while the video tutorials remain pending until the sound issue has been resolved.",
+   "hash": "c33842685356"
+  },
+  "l121-task-model": {
+   "file": "l121-task-model.mp3",
+   "duration": 37.19,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Sarah, welcome back! Here's where we are with the help-center project. We've been rewriting the support articles since the start of May, and we're about halfway. So far, we've published forty of the eighty articles, and we've set up the new search. The video tutorials are still pending: Leo has been editing them for a week, but we haven't signed off on the first one yet, because the sound quality is a blocker. Overall, we're on track for the end of June. I'll keep you posted and loop you in on Thursday's review. See you tomorrow!",
+   "hash": "11613603c907"
+  },
+  "l122-cc-1a": {
+   "file": "l122-cc-1a.mp3",
+   "duration": 4.96,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We've been waiting for the data since the 2nd, so the module has slipped by two weeks.",
+   "hash": "7b5768616194"
+  },
+  "l122-cc-1b": {
+   "file": "l122-cc-1b.mp3",
+   "duration": 6.44,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Adapting the scripts has taken longer than expected, which is why the export isn't ready yet.",
+   "hash": "acffddb4ee30"
+  },
+  "l122-cc-2a": {
+   "file": "l122-cc-2a.mp3",
+   "duration": 4.15,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The module has been held up by a change in the supplier's data format.",
+   "hash": "6a474560db80"
+  },
+  "l122-cc-2b": {
+   "file": "l122-cc-2b.mp3",
+   "duration": 3.02,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "There has been a delay in the data-export work.",
+   "hash": "10699afbe2bc"
+  },
+  "l122-cc-3a": {
+   "file": "l122-cc-3a.mp3",
+   "duration": 4.75,
+   "speaker": "daniel",
+   "voice": "bm_daniel",
+   "speed": 0.95,
+   "text": "Owing to a change in the data format, the delivery has been rescheduled.",
+   "hash": "bc7876e8bf53"
+  },
+  "l122-cc-3b": {
+   "file": "l122-cc-3b.mp3",
+   "duration": 5.09,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "We're behind because we've been waiting for the supplier, which is why the date has moved.",
+   "hash": "7314e196e568"
+  },
+  "l122-dict-1": {
+   "file": "l122-dict-1.mp3",
+   "duration": 3.36,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.9,
+   "text": "As a result, the module has slipped by about two weeks.",
+   "hash": "852f15046c3e"
+  },
+  "l122-dlg-01": {
+   "file": "l122-dlg-01.mp3",
+   "duration": 7.05,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Ryan, thanks for the email. I understand there's been a delay. Can you walk me through what happened?",
+   "hash": "d6ba60330d1e"
+  },
+  "l122-dlg-02": {
+   "file": "l122-dlg-02.mp3",
+   "duration": 10.5,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Of course. The supplier changed their data format at the start of the month, and we've been waiting for the final version since then. That's what has been holding up the export.",
+   "hash": "588cce7a14f7"
+  },
+  "l122-dlg-03": {
+   "file": "l122-dlg-03.mp3",
+   "duration": 3.62,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "So is the delay down to the supplier, or to the scripts?",
+   "hash": "d4ff2a10b13c"
+  },
+  "l122-dlg-04": {
+   "file": "l122-dlg-04.mp3",
+   "duration": 5.8,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Mostly the supplier, but partly us: adapting the scripts has taken longer than expected.",
+   "hash": "645c9ead16bb"
+  },
+  "l122-dlg-05": {
+   "file": "l122-dlg-05.mp3",
+   "duration": 7.86,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The good news is that it hasn't pushed back the go-live date. We've been using the time to test the other modules.",
+   "hash": "f61c878725cd"
+  },
+  "l122-dlg-06": {
+   "file": "l122-dlg-06.mp3",
+   "duration": 4.41,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "That's reassuring. What's the new date for the reporting module?",
+   "hash": "a2d0fe0a58ba"
+  },
+  "l122-dlg-07": {
+   "file": "l122-dlg-07.mp3",
+   "duration": 7.31,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "June 6, with a week of buffer. If the supplier's data arrives this week, we could still get back on track earlier.",
+   "hash": "0466eb7e012f"
+  },
+  "l122-dlg-08": {
+   "file": "l122-dlg-08.mp3",
+   "duration": 5.37,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Fine. Please keep me posted, and flag it early if the date slips again.",
+   "hash": "778f96ebf96b"
+  },
+  "l122-gd": {
+   "file": "l122-gd.mp3",
+   "duration": 16.56,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We've been waiting for the supplier's data since the 2nd, and adapting the scripts has taken longer than expected. As a result, the reporting module has slipped by two weeks. In the meantime, we've been testing the other modules, so the go-live date hasn't been pushed back.",
+   "hash": "9b3f7f8a1c08"
+  },
+  "l122-ph-as-a-result-ex": {
+   "file": "l122-ph-as-a-result-ex.mp3",
+   "duration": 2.75,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "As a result, the date has slipped by two weeks.",
+   "hash": "4d36db5037d2"
+  },
+  "l122-ph-as-a-result-slow": {
+   "file": "l122-ph-as-a-result-slow.mp3",
+   "duration": 1.96,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "As a result.",
+   "hash": "6e11e9b84291"
+  },
+  "l122-ph-as-a-result-uk": {
+   "file": "l122-ph-as-a-result-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "As a result.",
+   "hash": "190a3df453dd"
+  },
+  "l122-ph-as-a-result-us": {
+   "file": "l122-ph-as-a-result-us.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "As a result.",
+   "hash": "dd0824a76687"
+  },
+  "l122-ph-delay-ex": {
+   "file": "l122-ph-delay-ex.mp3",
+   "duration": 3.96,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "I understand there has been a delay in the data-export work.",
+   "hash": "a149f3f1f7b0"
+  },
+  "l122-ph-delay-slow": {
+   "file": "l122-ph-delay-slow.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Delay.",
+   "hash": "4e1f2f9075a7"
+  },
+  "l122-ph-delay-uk": {
+   "file": "l122-ph-delay-uk.mp3",
+   "duration": 1.15,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Delay.",
+   "hash": "006b33600033"
+  },
+  "l122-ph-delay-us": {
+   "file": "l122-ph-delay-us.mp3",
+   "duration": 1.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Delay.",
+   "hash": "cadc0442cdad"
+  },
+  "l122-ph-held-up-ex": {
+   "file": "l122-ph-held-up-ex.mp3",
+   "duration": 4.47,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The export has been held up by a change in the data format.",
+   "hash": "4862fae42232"
+  },
+  "l122-ph-held-up-slow": {
+   "file": "l122-ph-held-up-slow.mp3",
+   "duration": 1.57,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Held up.",
+   "hash": "e36b6845efde"
+  },
+  "l122-ph-held-up-uk": {
+   "file": "l122-ph-held-up-uk.mp3",
+   "duration": 1.23,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Held up.",
+   "hash": "0b037a5f9df1"
+  },
+  "l122-ph-held-up-us": {
+   "file": "l122-ph-held-up-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Held up.",
+   "hash": "d3b1bf37129c"
+  },
+  "l122-ph-setback-ex": {
+   "file": "l122-ph-setback-ex.mp3",
+   "duration": 4.69,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "The format change was a setback, but it hasn't pushed back the go-live date.",
+   "hash": "fb0d334e373f"
+  },
+  "l122-ph-setback-noun": {
+   "file": "l122-ph-setback-noun.mp3",
+   "duration": 1.96,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "It was a minor setback.",
+   "hash": "8f48ee810174"
+  },
+  "l122-ph-setback-slow": {
+   "file": "l122-ph-setback-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Setback.",
+   "hash": "021a03eb6bb4"
+  },
+  "l122-ph-setback-uk": {
+   "file": "l122-ph-setback-uk.mp3",
+   "duration": 1.25,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Setback.",
+   "hash": "a77ecf7e3dcc"
+  },
+  "l122-ph-setback-us": {
+   "file": "l122-ph-setback-us.mp3",
+   "duration": 1.36,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Setback.",
+   "hash": "b3aaefebcd9a"
+  },
+  "l122-ph-setback-verb": {
+   "file": "l122-ph-setback-verb.mp3",
+   "duration": 2.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "The format change set us back two weeks.",
+   "hash": "ee5fb472d410"
+  },
+  "l122-ph-than-expected-ex": {
+   "file": "l122-ph-than-expected-ex.mp3",
+   "duration": 3.83,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "It has taken longer than expected to adapt the scripts.",
+   "hash": "083d44f6c1b7"
+  },
+  "l122-ph-than-expected-slow": {
+   "file": "l122-ph-than-expected-slow.mp3",
+   "duration": 1.93,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Than expected.",
+   "hash": "ed8e5a30b243"
+  },
+  "l122-ph-than-expected-uk": {
+   "file": "l122-ph-than-expected-uk.mp3",
+   "duration": 1.66,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Than expected.",
+   "hash": "8c07eb667da5"
+  },
+  "l122-ph-than-expected-us": {
+   "file": "l122-ph-than-expected-us.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Than expected.",
+   "hash": "a6a786053985"
+  },
+  "l122-reg-c1": {
+   "file": "l122-reg-c1.mp3",
+   "duration": 5.35,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We've hit a snag: the supplier's data is a mess, and we've been waiting on them for weeks.",
+   "hash": "8805389b4b40"
+  },
+  "l122-reg-c2": {
+   "file": "l122-reg-c2.mp3",
+   "duration": 4.45,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Running a bit behind, sorry! The other team's been dragging their feet.",
+   "hash": "63f97fd62f07"
+  },
+  "l122-reg-f1": {
+   "file": "l122-reg-f1.mp3",
+   "duration": 6.93,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "I understand there has been a delay in the data-export work; could you outline the causes and the revised timeline?",
+   "hash": "e999f148f0fa"
+  },
+  "l122-reg-f2": {
+   "file": "l122-reg-f2.mp3",
+   "duration": 7.78,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The reporting module has been held up by a change in the supplier's data format, and its delivery has been rescheduled for 6 June.",
+   "hash": "9c51689ba217"
+  },
+  "l122-reg-n1": {
+   "file": "l122-reg-n1.mp3",
+   "duration": 5.75,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We're about two weeks behind on the reporting module because we've been waiting for the supplier's data.",
+   "hash": "a09410ce68da"
+  },
+  "l122-reg-n2": {
+   "file": "l122-reg-n2.mp3",
+   "duration": 5.63,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "It's taken longer than expected to adapt the scripts, but we're getting back on track.",
+   "hash": "db69f6855e03"
+  },
+  "l122-reg-n3": {
+   "file": "l122-reg-n3.mp3",
+   "duration": 5.24,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The date has slipped to June 6, but in the meantime we've been testing the other modules.",
+   "hash": "88f7d123963e"
+  },
+  "l122-scn": {
+   "file": "l122-scn.mp3",
+   "duration": 32.38,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Dear Helen, I'm writing to update you on the reporting module. There has been a delay in the data-export work: we've been waiting for the supplier's updated data format since the 2nd, and adapting our scripts to it has taken longer than expected. As a result, the module has slipped by about two weeks, from May 23 to June 6. In the meantime, we've been testing the other four modules with real users, so the overall go-live date is not affected. I'll send you a revised plan by Friday. Best regards, Ryan",
+   "hash": "8ecf4c61a7ed"
+  },
+  "l122-task-formal": {
+   "file": "l122-task-formal.mp3",
+   "duration": 10.21,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Owing to a change in the brand guidelines, delivery of the video tutorials has been rescheduled for 28 June; the launch date of the help center remains unchanged.",
+   "hash": "3dc8faa883a6"
+  },
+  "l122-task-model": {
+   "file": "l122-task-model.mp3",
+   "duration": 39.74,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Tom, I'm writing to update you on the video tutorials for the help center. There has been a delay in the editing work: we've been waiting for the new brand guidelines since the 5th, and re-recording the voice-over has taken longer than expected, partly because our first estimate was optimistic. As a result, the tutorials have slipped from June 14 to June 28. In the meantime, we've been publishing the written articles, so the launch of the help center is not affected. I'll send you a revised schedule by Friday and flag it early if anything else changes. Best, Alex",
+   "hash": "cd2ae2c80efd"
+  },
+  "l123-cc-1a": {
+   "file": "l123-cc-1a.mp3",
+   "duration": 2.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We've cut load time by forty percent.",
+   "hash": "6ffacbfda413"
+  },
+  "l123-cc-1b": {
+   "file": "l123-cc-1b.mp3",
+   "duration": 5.6,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We've just finished the indexing, and we've already migrated the four busiest pages.",
+   "hash": "ca93ed553fa6"
+  },
+  "l123-cc-2a": {
+   "file": "l123-cc-2a.mp3",
+   "duration": 2.83,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We've been optimizing the database for a month.",
+   "hash": "532cc09f976a"
+  },
+  "l123-cc-2b": {
+   "file": "l123-cc-2b.mp3",
+   "duration": 4.13,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We've been working on the search, but we don't have much to show for it yet.",
+   "hash": "f3fa58be4330"
+  },
+  "l123-cc-3a": {
+   "file": "l123-cc-3a.mp3",
+   "duration": 3.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I've read the report. I've been reading the report.",
+   "hash": "df56eed5ee1b"
+  },
+  "l123-cc-3b": {
+   "file": "l123-cc-3b.mp3",
+   "duration": 6.2,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "We've tried both approaches. We've been trying a third one since Monday.",
+   "hash": "26c0b7a6d65a"
+  },
+  "l123-dict-1": {
+   "file": "l123-dict-1.mp3",
+   "duration": 3.71,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "We've reduced the number of queries per page by half.",
+   "hash": "aa8391bb0aec"
+  },
+  "l123-dlg-01": {
+   "file": "l123-dlg-01.mp3",
+   "duration": 8.56,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Thank you, that was clear. One question: you said you've been optimizing the database. What have you actually achieved so far?",
+   "hash": "6bb4be6c67b5"
+  },
+  "l123-dlg-02": {
+   "file": "l123-dlg-02.mp3",
+   "duration": 10.17,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Three things. We've reduced the number of queries per page by half, we've removed two old tables, and we've just finished the indexing work.",
+   "hash": "18b1c55e5f45"
+  },
+  "l123-dlg-03": {
+   "file": "l123-dlg-03.mp3",
+   "duration": 4.3,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "And the search? Last month it was the slowest part.",
+   "hash": "154539c5124f"
+  },
+  "l123-dlg-04": {
+   "file": "l123-dlg-04.mp3",
+   "duration": 7.97,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We've been working on it for three weeks, but honestly we don't have much to show for it yet. The results so far are mixed.",
+   "hash": "cb24a2e6aa3f"
+  },
+  "l123-dlg-05": {
+   "file": "l123-dlg-05.mp3",
+   "duration": 3.94,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "I appreciate the honesty. What's the plan?",
+   "hash": "95b7fc033d26"
+  },
+  "l123-dlg-06": {
+   "file": "l123-dlg-06.mp3",
+   "duration": 11.85,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "We've been trying two approaches in parallel. One of them has paid off on the test server: searches are twice as fast. We'll know by Friday whether it works at scale.",
+   "hash": "cf61de103189"
+  },
+  "l123-dlg-07": {
+   "file": "l123-dlg-07.mp3",
+   "duration": 7.54,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "And on the design side, we've wrapped up the invoices page. Customers found it in eight seconds on average, down from forty.",
+   "hash": "b3df35bbe2ed"
+  },
+  "l123-dlg-08": {
+   "file": "l123-dlg-08.mp3",
+   "duration": 6.45,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Good. Send me those numbers in writing, please; they're exactly what the board wants to see.",
+   "hash": "0c8aea728201"
+  },
+  "l123-gd": {
+   "file": "l123-gd.mp3",
+   "duration": 12.29,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We've been optimizing the database for a month. We've reduced the queries per page by half, and we've just finished the indexing. We've been working on the search for three weeks, but we don't have much to show for it yet.",
+   "hash": "82bb8b60f70c"
+  },
+  "l123-ph-achieve-ex": {
+   "file": "l123-ph-achieve-ex.mp3",
+   "duration": 3.04,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We've achieved all three targets this quarter.",
+   "hash": "f12ddff0f5d5"
+  },
+  "l123-ph-achieve-slow": {
+   "file": "l123-ph-achieve-slow.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Achieve.",
+   "hash": "fdcfe09d58cd"
+  },
+  "l123-ph-achieve-uk": {
+   "file": "l123-ph-achieve-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Achieve.",
+   "hash": "4ab14663f3d9"
+  },
+  "l123-ph-achieve-us": {
+   "file": "l123-ph-achieve-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Achieve.",
+   "hash": "55a7e03f4b76"
+  },
+  "l123-ph-paid-off-ex": {
+   "file": "l123-ph-paid-off-ex.mp3",
+   "duration": 3.79,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "One of the approaches has paid off on the test server.",
+   "hash": "4a6cd269d152"
+  },
+  "l123-ph-paid-off-slow": {
+   "file": "l123-ph-paid-off-slow.mp3",
+   "duration": 1.57,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Paid off.",
+   "hash": "7e282a1c6a33"
+  },
+  "l123-ph-paid-off-uk": {
+   "file": "l123-ph-paid-off-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Paid off.",
+   "hash": "ea70d100920f"
+  },
+  "l123-ph-paid-off-us": {
+   "file": "l123-ph-paid-off-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Paid off.",
+   "hash": "efcb778bcb02"
+  },
+  "l123-ph-percent-ex": {
+   "file": "l123-ph-percent-ex.mp3",
+   "duration": 3.6,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We've cut the average load time by forty percent.",
+   "hash": "043d2e1569fc"
+  },
+  "l123-ph-percent-slow": {
+   "file": "l123-ph-percent-slow.mp3",
+   "duration": 1.98,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Forty percent.",
+   "hash": "aef668747a49"
+  },
+  "l123-ph-percent-uk": {
+   "file": "l123-ph-percent-uk.mp3",
+   "duration": 1.74,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Forty percent.",
+   "hash": "e705c5e7cee7"
+  },
+  "l123-ph-percent-us": {
+   "file": "l123-ph-percent-us.mp3",
+   "duration": 1.57,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Forty percent.",
+   "hash": "f42c2b93e225"
+  },
+  "l123-ph-result-ex": {
+   "file": "l123-ph-result-ex.mp3",
+   "duration": 4.11,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "The results so far are exactly what the board wants to see.",
+   "hash": "fe28f2d77738"
+  },
+  "l123-ph-result-slow": {
+   "file": "l123-ph-result-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Result.",
+   "hash": "38fa377e2157"
+  },
+  "l123-ph-result-uk": {
+   "file": "l123-ph-result-uk.mp3",
+   "duration": 1.27,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Result.",
+   "hash": "89eef5c6e3f4"
+  },
+  "l123-ph-result-us": {
+   "file": "l123-ph-result-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Result.",
+   "hash": "e231a755142a"
+  },
+  "l123-ph-wrapped-up-ex": {
+   "file": "l123-ph-wrapped-up-ex.mp3",
+   "duration": 2.19,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "We've wrapped up the invoices page.",
+   "hash": "8a8521345f34"
+  },
+  "l123-ph-wrapped-up-slow": {
+   "file": "l123-ph-wrapped-up-slow.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Wrapped up.",
+   "hash": "ab90b9e4b2e5"
+  },
+  "l123-ph-wrapped-up-uk": {
+   "file": "l123-ph-wrapped-up-uk.mp3",
+   "duration": 1.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Wrapped up.",
+   "hash": "16203fce5ea7"
+  },
+  "l123-ph-wrapped-up-us": {
+   "file": "l123-ph-wrapped-up-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Wrapped up.",
+   "hash": "793aa34b64ac"
+  },
+  "l123-reg-c1": {
+   "file": "l123-reg-c1.mp3",
+   "duration": 4.58,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We've been slogging away at the database all month, and it's finally paid off!",
+   "hash": "ef29aadec9b0"
+  },
+  "l123-reg-c2": {
+   "file": "l123-reg-c2.mp3",
+   "duration": 2.98,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Nailed it: the page is twice as fast now.",
+   "hash": "6426d25db8fc"
+  },
+  "l123-reg-f1": {
+   "file": "l123-reg-f1.mp3",
+   "duration": 5.75,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "The board will want to see measurable outcomes rather than a description of the effort involved.",
+   "hash": "c589514966da"
+  },
+  "l123-reg-f2": {
+   "file": "l123-reg-f2.mp3",
+   "duration": 6.67,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Average load time has been reduced by 40%, and the four highest-traffic pages have now been migrated.",
+   "hash": "b01eb2b4cf59"
+  },
+  "l123-reg-n1": {
+   "file": "l123-reg-n1.mp3",
+   "duration": 5.33,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We've reduced the number of queries by half, and we've just finished the indexing.",
+   "hash": "4ba85b026496"
+  },
+  "l123-reg-n2": {
+   "file": "l123-reg-n2.mp3",
+   "duration": 5.01,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "We've been testing the new page for two weeks, and the feedback has been very positive.",
+   "hash": "7cbdcd2fc2aa"
+  },
+  "l123-reg-n3": {
+   "file": "l123-reg-n3.mp3",
+   "duration": 4.79,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "We've put in a lot of hours on the search, but we don't have much to show for it yet.",
+   "hash": "da1231438c57"
+  },
+  "l123-scn": {
+   "file": "l123-scn.mp3",
+   "duration": 31.96,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Good morning, everyone, and thanks for joining. Over the past month we've been focusing on speed, and today I want to show you what that work has produced. So far we've cut the average load time by forty percent, from five seconds to three, and we've already migrated the four busiest pages. We've been testing the new invoices page with real customers for two weeks; it isn't finished yet, but the early feedback has been very positive. In the next ten minutes, Alex will walk you through the numbers, and I'll show you the new design.",
+   "hash": "ae0eedd1c714"
+  },
+  "l123-task-formal": {
+   "file": "l123-task-formal.mp3",
+   "duration": 12.26,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Average load time has been reduced by 40% and the four highest-traffic pages have now been migrated; search optimisation remains in progress, with a full-scale test scheduled for Friday.",
+   "hash": "a49b20657851"
+  },
+  "l123-task-model": {
+   "file": "l123-task-model.mp3",
+   "duration": 32.92,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Highlights, sprint 14. Over the past month we've cut the average load time by forty percent, from five seconds to three. We've already migrated the four busiest pages, and we've just wrapped up the new invoices page: customers now find it in eight seconds, down from forty. On the search, we've been working on two approaches for three weeks; one has paid off on the test server, where searches are twice as fast, but we don't have a result at scale yet. Next step: a full-scale test by Friday, and a go / no-go decision on Monday.",
+   "hash": "1ea9f64f7d86"
+  },
+  "l124-cc-1a": {
+   "file": "l124-cc-1a.mp3",
+   "duration": 5.5,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We've been seeing fewer errors since the fix, so the module should be ready by June 6.",
+   "hash": "a589570d32b5"
+  },
+  "l124-cc-1b": {
+   "file": "l124-cc-1b.mp3",
+   "duration": 5.92,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The supplier has been changing the format every month, so we're likely to lose another week.",
+   "hash": "01ad5ac643e4"
+  },
+  "l124-cc-2a": {
+   "file": "l124-cc-2a.mp3",
+   "duration": 4.64,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We will deliver by June 20. We should be able to deliver by the 6th.",
+   "hash": "cc46908a14c5"
+  },
+  "l124-cc-2b": {
+   "file": "l124-cc-2b.mp3",
+   "duration": 3.75,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It's too early to say whether the search will be in the first release.",
+   "hash": "8624cd5d7cb0"
+  },
+  "l124-cc-3a": {
+   "file": "l124-cc-3a.mp3",
+   "duration": 3.83,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Best case, June 6; worst case, June 20.",
+   "hash": "c45270253216"
+  },
+  "l124-cc-3b": {
+   "file": "l124-cc-3b.mp3",
+   "duration": 4.79,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "June 6 is acceptable, unless the supplier changes the format again.",
+   "hash": "0e258afc6ea1"
+  },
+  "l124-dict-1": {
+   "file": "l124-dict-1.mp3",
+   "duration": 3.73,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.9,
+   "text": "Realistically, we expect to go live at the end of June.",
+   "hash": "60f50cf9c3af"
+  },
+  "l124-dlg-01": {
+   "file": "l124-dlg-01.mp3",
+   "duration": 4.19,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Helen needs a firm date for the board. What can we honestly promise?",
+   "hash": "823949f08817"
+  },
+  "l124-dlg-02": {
+   "file": "l124-dlg-02.mp3",
+   "duration": 7.87,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Since the fix, we've been seeing far fewer export errors, so the reporting module should be ready by June 6.",
+   "hash": "412822c74511"
+  },
+  "l124-dlg-03": {
+   "file": "l124-dlg-03.mp3",
+   "duration": 7.33,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Should isn't will. If the supplier changes the format again, we're likely to lose another week.",
+   "hash": "6388a58a6bd4"
+  },
+  "l124-dlg-04": {
+   "file": "l124-dlg-04.mp3",
+   "duration": 6.63,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Then let's give her two dates: a best-case June 6 and a worst-case June 20, with the risk spelled out.",
+   "hash": "3075e29ac37f"
+  },
+  "l124-dlg-05": {
+   "file": "l124-dlg-05.mp3",
+   "duration": 7.07,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Agreed. I'd rather under-promise and over-deliver: we commit to June 20 and aim for the 6th.",
+   "hash": "645e1a7fea89"
+  },
+  "l124-dlg-06": {
+   "file": "l124-dlg-06.mp3",
+   "duration": 5.47,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "And we build in a buffer for the final testing. Two weeks is realistic.",
+   "hash": "34b7a22ead7c"
+  },
+  "l124-dlg-07": {
+   "file": "l124-dlg-07.mp3",
+   "duration": 9.67,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "One more thing: at this stage it's too early to say whether the search will be in the first release. We should flag that as a trade-off, not hide it.",
+   "hash": "9b2068770d41"
+  },
+  "l124-dlg-08": {
+   "file": "l124-dlg-08.mp3",
+   "duration": 4.21,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Good. I'll call Helen now and put it in writing afterwards.",
+   "hash": "9606b73e6149"
+  },
+  "l124-gd": {
+   "file": "l124-gd.mp3",
+   "duration": 20.14,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Since the fix, we've been seeing far fewer export errors, so the reporting module should be ready by June 6. If the supplier changes the format again, we're likely to lose another week. At this stage, it's too early to say whether the search will be in the first release. We're committing to June 20 and aiming for the 6th.",
+   "hash": "4f0eee1a5f35"
+  },
+  "l124-ph-at-this-stage-ex": {
+   "file": "l124-ph-at-this-stage-ex.mp3",
+   "duration": 4.6,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "At this stage it's too early to say whether the search will be in the first release.",
+   "hash": "cc6ca6cd5b46"
+  },
+  "l124-ph-at-this-stage-slow": {
+   "file": "l124-ph-at-this-stage-slow.mp3",
+   "duration": 2.06,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "At this stage.",
+   "hash": "d3e61b25a0f3"
+  },
+  "l124-ph-at-this-stage-uk": {
+   "file": "l124-ph-at-this-stage-uk.mp3",
+   "duration": 1.66,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "At this stage.",
+   "hash": "ebd6327cec32"
+  },
+  "l124-ph-at-this-stage-us": {
+   "file": "l124-ph-at-this-stage-us.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "At this stage.",
+   "hash": "fddfdd27f5e0"
+  },
+  "l124-ph-commit-to-ex": {
+   "file": "l124-ph-commit-to-ex.mp3",
+   "duration": 3.28,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We're committing to June 20 and aiming for the 6th.",
+   "hash": "abf1d1b03a87"
+  },
+  "l124-ph-commit-to-slow": {
+   "file": "l124-ph-commit-to-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Commit to.",
+   "hash": "4b730036ad49"
+  },
+  "l124-ph-commit-to-uk": {
+   "file": "l124-ph-commit-to-uk.mp3",
+   "duration": 1.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Commit to.",
+   "hash": "2d4fc4d38410"
+  },
+  "l124-ph-commit-to-us": {
+   "file": "l124-ph-commit-to-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Commit to.",
+   "hash": "bbdf43a44ed2"
+  },
+  "l124-ph-likely-to-ex": {
+   "file": "l124-ph-likely-to-ex.mp3",
+   "duration": 4.6,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "If the format changes again, we're likely to lose another week.",
+   "hash": "e301be4d078c"
+  },
+  "l124-ph-likely-to-slow": {
+   "file": "l124-ph-likely-to-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Likely to.",
+   "hash": "1277ec664b65"
+  },
+  "l124-ph-likely-to-uk": {
+   "file": "l124-ph-likely-to-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Likely to.",
+   "hash": "412bd8082b33"
+  },
+  "l124-ph-likely-to-us": {
+   "file": "l124-ph-likely-to-us.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Likely to.",
+   "hash": "661966fce29b"
+  },
+  "l124-ph-scenario-ex": {
+   "file": "l124-ph-scenario-ex.mp3",
+   "duration": 3.62,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "In the worst-case scenario, we go live on June 20.",
+   "hash": "c3ea02c430ed"
+  },
+  "l124-ph-scenario-slow": {
+   "file": "l124-ph-scenario-slow.mp3",
+   "duration": 1.66,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Scenario.",
+   "hash": "97feb11bd61c"
+  },
+  "l124-ph-scenario-uk": {
+   "file": "l124-ph-scenario-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Scenario.",
+   "hash": "ecc921a0874e"
+  },
+  "l124-ph-scenario-us": {
+   "file": "l124-ph-scenario-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Scenario.",
+   "hash": "d4c0d0c1cdc5"
+  },
+  "l124-ph-should-be-ex": {
+   "file": "l124-ph-should-be-ex.mp3",
+   "duration": 2.53,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The module should be ready by the sixth.",
+   "hash": "01ed739b156a"
+  },
+  "l124-ph-should-be-slow": {
+   "file": "l124-ph-should-be-slow.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Should be.",
+   "hash": "4f179f77d7da"
+  },
+  "l124-ph-should-be-uk": {
+   "file": "l124-ph-should-be-uk.mp3",
+   "duration": 1.51,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Should be.",
+   "hash": "9b0b2c6d56a7"
+  },
+  "l124-ph-should-be-us": {
+   "file": "l124-ph-should-be-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Should be.",
+   "hash": "7aaab9538b6f"
+  },
+  "l124-reg-c1": {
+   "file": "l124-reg-c1.mp3",
+   "duration": 4.52,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "No promises, but it should be done by the 6th if nothing else blows up.",
+   "hash": "2cf945cccbac"
+  },
+  "l124-reg-c2": {
+   "file": "l124-reg-c2.mp3",
+   "duration": 4.11,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Worst case, it's a couple more weeks. Don't quote me on that!",
+   "hash": "54cad0cd1500"
+  },
+  "l124-reg-f1": {
+   "file": "l124-reg-f1.mp3",
+   "duration": 4.54,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "The board would appreciate a firm date, together with the principal risks to it.",
+   "hash": "58d01cfda6bc"
+  },
+  "l124-reg-f2": {
+   "file": "l124-reg-f2.mp3",
+   "duration": 9.81,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The reporting module is expected to be delivered by 20 June; an earlier release remains possible, provided that the supplier's data format does not change.",
+   "hash": "18aab7c33366"
+  },
+  "l124-reg-n1": {
+   "file": "l124-reg-n1.mp3",
+   "duration": 5.37,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Realistically, we expect to go live on June 20, and we're aiming for the 6th.",
+   "hash": "5181ac335e1c"
+  },
+  "l124-reg-n2": {
+   "file": "l124-reg-n2.mp3",
+   "duration": 5.69,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We've been seeing fewer errors since the fix, so the module should be ready by the 6th.",
+   "hash": "37e54bb6f4ad"
+  },
+  "l124-reg-n3": {
+   "file": "l124-reg-n3.mp3",
+   "duration": 4.6,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "At this stage it's too early to say whether the search will be in the first release.",
+   "hash": "cc6ca6cd5b46"
+  },
+  "l124-scn": {
+   "file": "l124-scn.mp3",
+   "duration": 21.26,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Hi Ryan, Helen here. I've just come out of the board meeting, and they've been asking me for a firm go-live date. I know you've been dealing with the supplier issue, but I need something I can commit to. Realistically, what's the earliest we can go live, and what would have to go wrong for that date to slip? Call me back when you can. Thanks.",
+   "hash": "cb10609bd4fc"
+  },
+  "l124-task-formal": {
+   "file": "l124-task-formal.mp3",
+   "duration": 14.59,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The reporting module is expected to be delivered by 20 June, with an earlier release on 6 June remaining possible provided that the supplier's data format does not change; the inclusion of the search function has yet to be confirmed.",
+   "hash": "b71d8acf2bc1"
+  },
+  "l124-task-model": {
+   "file": "l124-task-model.mp3",
+   "duration": 39.78,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Hi Helen, thanks for your message; I have a date for you. Since the fix last week, we've been seeing far fewer export errors, and the other four modules have been running without issues for a month, so the reporting module should be ready by June 6. Realistically, we're committing to June 20 for go-live and aiming for the 6th. The main risk is the supplier: unless they change the data format again, the earlier date is likely to hold. One open point: at this stage it's too early to say whether the search will be in the first release; we'll know after Friday's test. I'll confirm all of this in writing by tomorrow evening. Thanks!",
+   "hash": "a1bdd6a7e4fa"
+  },
+  "l125-cc-1a": {
+   "file": "l125-cc-1a.mp3",
+   "duration": 3.98,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "As of Friday, the project is on track for June 20.",
+   "hash": "712136dc32ba"
+  },
+  "l125-cc-1b": {
+   "file": "l125-cc-1b.mp3",
+   "duration": 5.5,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "As of 24 May, the programme remains on track for go-live on 20 June.",
+   "hash": "93e6ad195b8c"
+  },
+  "l125-cc-2a": {
+   "file": "l125-cc-2a.mp3",
+   "duration": 2.96,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The four busiest pages have been migrated.",
+   "hash": "da762eda4c48"
+  },
+  "l125-cc-2b": {
+   "file": "l125-cc-2b.mp3",
+   "duration": 4.09,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The reporting module is being tested with the supplier's new data.",
+   "hash": "d077338187db"
+  },
+  "l125-cc-3a": {
+   "file": "l125-cc-3a.mp3",
+   "duration": 2.98,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Full-scale search test: Alex, due Friday.",
+   "hash": "7ee77eb333d6"
+  },
+  "l125-cc-3b": {
+   "file": "l125-cc-3b.mp3",
+   "duration": 4.26,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The updated plan will be sent to Helen by Tuesday.",
+   "hash": "b6f6474a2b18"
+  },
+  "l125-dict-1": {
+   "file": "l125-dict-1.mp3",
+   "duration": 4.43,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "Nothing is blocked this week, and the invoices page has been signed off.",
+   "hash": "4cacd42ae040"
+  },
+  "l125-dlg-01": {
+   "file": "l125-dlg-01.mp3",
+   "duration": 7.43,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Ryan, your first draft is three pages. Helen reads these on her phone between meetings.",
+   "hash": "301bdb81f443"
+  },
+  "l125-dlg-02": {
+   "file": "l125-dlg-02.mp3",
+   "duration": 4.66,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I know. I've been trying to cut it down all morning. What would you drop?",
+   "hash": "3850fc4c1aff"
+  },
+  "l125-dlg-03": {
+   "file": "l125-dlg-03.mp3",
+   "duration": 8.82,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The history. She knows what happened in May. Start with the headline: on track, at risk or off track.",
+   "hash": "3dd5c3007fcd"
+  },
+  "l125-dlg-04": {
+   "file": "l125-dlg-04.mp3",
+   "duration": 6.82,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Okay: As of Friday, the project is on track for June 20. Then Done, In progress, Blocked, Next steps.",
+   "hash": "c30e62a6d899"
+  },
+  "l125-dlg-05": {
+   "file": "l125-dlg-05.mp3",
+   "duration": 9.61,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Exactly. And under Done, only what's been completed, with a number if there is one. Effort goes under In progress.",
+   "hash": "2281efa3a484"
+  },
+  "l125-dlg-06": {
+   "file": "l125-dlg-06.mp3",
+   "duration": 3.87,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "What about the search? It's not blocked, but it's not safe either.",
+   "hash": "7d52c2235266"
+  },
+  "l125-dlg-07": {
+   "file": "l125-dlg-07.mp3",
+   "duration": 5.68,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "At risk. One line: what the risk is and when the decision is due.",
+   "hash": "c7955f93b720"
+  },
+  "l125-dlg-08": {
+   "file": "l125-dlg-08.mp3",
+   "duration": 6.09,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Got it. Every item gets an owner and a due date, and the whole thing fits on one screen.",
+   "hash": "be4a698d5775"
+  },
+  "l125-gd": {
+   "file": "l125-gd.mp3",
+   "duration": 16.11,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "As of Friday, the project is on track for June 20. Done: the four busiest pages have been migrated. In progress: the reporting module is being tested with the supplier's data. At risk: the search may not be in the first release; decision due Monday.",
+   "hash": "f0f9308eb564"
+  },
+  "l125-ph-ahead-of-schedule-ex": {
+   "file": "l125-ph-ahead-of-schedule-ex.mp3",
+   "duration": 2.68,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The design work is two days ahead of schedule.",
+   "hash": "74ccef9ff066"
+  },
+  "l125-ph-ahead-of-schedule-slow": {
+   "file": "l125-ph-ahead-of-schedule-slow.mp3",
+   "duration": 2.02,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Ahead of schedule.",
+   "hash": "86d4f428f26b"
+  },
+  "l125-ph-ahead-of-schedule-uk": {
+   "file": "l125-ph-ahead-of-schedule-uk.mp3",
+   "duration": 1.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Ahead of schedule.",
+   "hash": "562d6950b059"
+  },
+  "l125-ph-ahead-of-schedule-us": {
+   "file": "l125-ph-ahead-of-schedule-us.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Ahead of schedule.",
+   "hash": "7fffe63807c7"
+  },
+  "l125-ph-as-of-ex": {
+   "file": "l125-ph-as-of-ex.mp3",
+   "duration": 3.73,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "As of Friday, the project is on track for June 20.",
+   "hash": "a31c4ded611b"
+  },
+  "l125-ph-as-of-slow": {
+   "file": "l125-ph-as-of-slow.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "As of.",
+   "hash": "52dfde9caabd"
+  },
+  "l125-ph-as-of-uk": {
+   "file": "l125-ph-as-of-uk.mp3",
+   "duration": 1.55,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "As of.",
+   "hash": "9edc32cf49c4"
+  },
+  "l125-ph-as-of-us": {
+   "file": "l125-ph-as-of-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "As of.",
+   "hash": "a1e2e1a813e6"
+  },
+  "l125-ph-blocked-ex": {
+   "file": "l125-ph-blocked-ex.mp3",
+   "duration": 3.77,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The training is blocked until legal approves the terms.",
+   "hash": "9ff70f995563"
+  },
+  "l125-ph-blocked-slow": {
+   "file": "l125-ph-blocked-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Blocked.",
+   "hash": "6b68d0129c31"
+  },
+  "l125-ph-blocked-uk": {
+   "file": "l125-ph-blocked-uk.mp3",
+   "duration": 1.34,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Blocked.",
+   "hash": "d08f390d6bd6"
+  },
+  "l125-ph-blocked-us": {
+   "file": "l125-ph-blocked-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Blocked.",
+   "hash": "eb4b4f50df8f"
+  },
+  "l125-ph-due-ex": {
+   "file": "l125-ph-due-ex.mp3",
+   "duration": 3.02,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The decision is due on Monday.",
+   "hash": "2601c329c533"
+  },
+  "l125-ph-due-slow": {
+   "file": "l125-ph-due-slow.mp3",
+   "duration": 1.21,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Due.",
+   "hash": "e52005606bc1"
+  },
+  "l125-ph-due-uk": {
+   "file": "l125-ph-due-uk.mp3",
+   "duration": 1.19,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Due.",
+   "hash": "222eb82e5d1b"
+  },
+  "l125-ph-due-us": {
+   "file": "l125-ph-due-us.mp3",
+   "duration": 1.1,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Due.",
+   "hash": "0824ede8e0f7"
+  },
+  "l125-ph-outstanding-ex": {
+   "file": "l125-ph-outstanding-ex.mp3",
+   "duration": 4.39,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Please ensure that each outstanding item has an owner and a due date.",
+   "hash": "c022766427c2"
+  },
+  "l125-ph-outstanding-slow": {
+   "file": "l125-ph-outstanding-slow.mp3",
+   "duration": 1.72,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Outstanding.",
+   "hash": "23cbb9dee716"
+  },
+  "l125-ph-outstanding-uk": {
+   "file": "l125-ph-outstanding-uk.mp3",
+   "duration": 1.44,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Outstanding.",
+   "hash": "6d4a6ffec01e"
+  },
+  "l125-ph-outstanding-us": {
+   "file": "l125-ph-outstanding-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Outstanding.",
+   "hash": "d1c19fb59abb"
+  },
+  "l125-reg-c1": {
+   "file": "l125-reg-c1.mp3",
+   "duration": 4.0,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Quick one: we're on track, search is a bit dicey, more on Monday.",
+   "hash": "d9174b5b9ce9"
+  },
+  "l125-reg-c2": {
+   "file": "l125-reg-c2.mp3",
+   "duration": 3.91,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "All good this week! Just the search thing hanging over us.",
+   "hash": "c5351a29656b"
+  },
+  "l125-reg-f1": {
+   "file": "l125-reg-f1.mp3",
+   "duration": 10.94,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "As of 24 May, the programme remains on track for go-live on 20 June; the inclusion of the search function is at risk and will be decided on 27 May.",
+   "hash": "dd16774a0d41"
+  },
+  "l125-reg-f2": {
+   "file": "l125-reg-f2.mp3",
+   "duration": 4.39,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Please ensure that each outstanding item has an owner and a due date.",
+   "hash": "c022766427c2"
+  },
+  "l125-reg-n1": {
+   "file": "l125-reg-n1.mp3",
+   "duration": 5.6,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "As of Friday, we're on track for June 20; the only item at risk is the search.",
+   "hash": "3ef05f5ba490"
+  },
+  "l125-reg-n2": {
+   "file": "l125-reg-n2.mp3",
+   "duration": 5.28,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The full-scale search test is due Friday, and the decision is on Monday.",
+   "hash": "11284353963d"
+  },
+  "l125-reg-n3": {
+   "file": "l125-reg-n3.mp3",
+   "duration": 4.32,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Nothing is blocked this week, and the invoices page has been signed off.",
+   "hash": "3568ff368cab"
+  },
+  "l125-scn": {
+   "file": "l125-scn.mp3",
+   "duration": 34.93,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Portal migration, weekly status, week 21. As of Friday, the project is on track for go-live on June 20. Done: the four busiest pages have been migrated, and the invoices page has been signed off. In progress: the reporting module is being tested with the supplier's new data; the search is being evaluated at scale. Blocked: nothing this week. At risk: the search may not be in the first release; decision on Monday. Next steps: full-scale search test (Alex, due Friday); updated plan to Helen (Ryan, due Tuesday). Ryan",
+   "hash": "6f01197fdedd"
+  },
+  "l125-task-formal": {
+   "file": "l125-task-formal.mp3",
+   "duration": 12.79,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "As of 24 May, the programme remains on track for go-live on 20 June; the start of training is contingent on legal approval of the terms, which has been requested twice and remains outstanding.",
+   "hash": "6921ab1899c1"
+  },
+  "l125-task-input": {
+   "file": "l125-task-input.mp3",
+   "duration": 35.89,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hey Ryan, Friday update, sorry it's a bit all over the place. So, the indexing is done, finally; that was Tuesday. The full-scale search test: I've been running it all week, the numbers look good, but I want one more run on Monday before we decide. Training can't start; legal still hasn't approved the terms, and I've chased them twice. Oh, and Priya signed off the invoices page yesterday. Next week: I'll do the last search run on Monday, and someone needs to call legal, maybe Oliver. That's it, have a good weekend!",
+   "hash": "087c55cd4406"
+  },
+  "l125-task-model": {
+   "file": "l125-task-model.mp3",
+   "duration": 38.54,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Portal migration, status, week 21. As of Friday, the project is on track for June 20. Done: the indexing has been completed (Tuesday); the invoices page has been signed off (Priya, Thursday). In progress: the full-scale search test is being run; results look good, with one more run on Monday. Blocked: training cannot start until legal approves the terms (chased twice). At risk: the search may not be in the first release; decision Tuesday. Next steps: final search run (Alex, due Monday); call legal (Oliver, due Monday); updated plan to Helen (Ryan, due Tuesday). Ryan",
+   "hash": "9d63139ee042"
+  },
+  "m25-rv-dict-1": {
+   "file": "m25-rv-dict-1.mp3",
+   "duration": 4.17,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.9,
+   "text": "As of Friday, the project is on track, and nothing is blocked.",
+   "hash": "2d8ea94c0ec0"
+  }
+ }
+}

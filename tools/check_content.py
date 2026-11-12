@@ -183,12 +183,15 @@ def main() -> int:
                 problems.append(f"{mod_id}: cast member {spk} missing from cast.json")
         if b2:
             check_b2_lesson(module, "module.json", problems)
+        # A draft that already has a manifest (B2.1 keeps "draft" with audio) is checked like a published module.
+        if not needs_audio and (adir / "manifest.json").exists():
+            needs_audio = True
         manifest = json.loads((adir / "manifest.json").read_text(encoding="utf-8"))["clips"] if needs_audio else {}
         refs: set[str] = set()
         wanted = [cdir / f"{l}.json" for l in module["lessons"]] + [cdir / "review.json"]
         files = [f for f in wanted if f.exists()]
         pending = [f.name for f in wanted if not f.exists()]
-        if pending and (needs_audio or not (cdir / f"{module['lessons'][0]}.json").exists()):
+        if pending and (info["needs_audio"] or not (cdir / f"{module['lessons'][0]}.json").exists()):
             problems.append(f"{mod_id}: missing files {pending}")
         for path in files:
             data = json.loads(path.read_text(encoding="utf-8"))
@@ -261,7 +264,7 @@ def main() -> int:
         orphans = sorted(set(manifest) - refs)
         for o in orphans:
             problems.append(f"{mod_id}: clip {o} is never used")
-        state = f"{len(manifest)} clips" if needs_audio else "draft (audio pending" + (f", {len(pending)} file(s) still to write" if pending else "") + ")"
+        state = (f"{len(manifest)} clips" + (" (draft)" if not info["needs_audio"] else "")) if needs_audio else "draft (audio pending" + (f", {len(pending)} file(s) still to write" if pending else "") + ")"
         print(f"{mod_id}: {len(files)} files, {len(refs)} audio references, {state}")
 
     print(f"course: {len(course['sublevels'])} sublevels, {sum(len(s['modules']) for s in course['sublevels'])} modules, {total_lessons} lessons, {total_hours} h")

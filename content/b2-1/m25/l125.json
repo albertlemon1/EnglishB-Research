@@ -1,0 +1,1067 @@
+{
+  "id": "l125",
+  "n": 125,
+  "title": "Writing a Concise Weekly Status Report",
+  "titleEs": "Redactar un informe de estado semanal conciso",
+  "minutes": 60,
+  "summary": "Turn a week of work into one screen a stakeholder can read on a phone: a headline (*as of Friday, on track for…*), then Done, In progress, Blocked, At risk and Next steps, with passives and nouns instead of stories, and an owner and a due date for every action.",
+  "canDo": [
+    "Write a status headline with *as of* + date and *on track / at risk / off track*.",
+    "Report completed work in the Present Perfect passive and ongoing work in the present continuous passive.",
+    "Turn a chatty voice note into a structured report: mediation from informal speech to formal writing.",
+    "Say *as of* and *ahead of schedule* as single blocks, and *blocked* and *outstanding* without an extra syllable."
+  ],
+  "focus": {
+    "grammar": "Present Perfect passive for Done (has / have been + past participle) · present continuous passive for In progress (is / are being + past participle) · nominalisation (the inclusion of…, delay in…) · as of + date · due + date · can't … until",
+    "lexis": "a status report, the headline, as of, on track / at risk / off track, in progress, blocked, outstanding, due, an owner, carry over, a quick one",
+    "afh": "weak of: as of /əz‿əv/, ahead of schedule /əˌhed‿əv/ · clusters: blocked /blɑːkt/, risk /rɪsk/, outstanding /-tst-/ · due US /duː/ vs UK /dʒuː/"
+  },
+  "warmup": "Think of a report you receive regularly: a newsletter, a team update, a bank statement. What do you read first, and what do you skip? Now imagine your stakeholder doing the same with your report.",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Portal migration: weekly status, week 21",
+      "context": "Ryan's weekly report to Helen. It has to fit on one phone screen: she reads it between meetings.",
+      "speaker": "ryan",
+      "to": "Helen Marsh",
+      "audio": "l125-scn",
+      "text": "Portal migration, weekly status, week 21. {{As of}} Friday, the project is {{on track}} for go-live on June 20. {{Done}}: the four busiest pages {{have been migrated}}, and the invoices page {{has been signed off}}. {{In progress}}: the reporting module {{is being tested}} with the supplier's new data; the search is being evaluated at scale. {{Blocked}}: nothing this week. {{At risk}}: the search may not be in the first release; decision on Monday. {{Next steps}}: full-scale search test (Alex, {{due}} Friday); updated plan to Helen (Ryan, due Tuesday). Ryan",
+      "tts": "Portal migration, weekly status, week twenty-one. As [of](/əv/) Friday, the project is on track for go-live on June twentieth. Done: the four busiest pages have been migrated, and the invoices page has been signed off. In progress: the reporting module is being tested with the supplier's new data; the search is being evaluated at scale. Blocked: nothing this week. At risk: the search may not be in the first release; decision on Monday. Next steps: full-scale search test, Alex, due Friday; updated plan to Helen, Ryan, due Tuesday. Ryan"
+    },
+    "dialogue": {
+      "title": "Trimming the report",
+      "context": "Before sending it, Ryan shows Oliver his first draft. It is three pages long.",
+      "lines": [
+        {
+          "speaker": "oliver",
+          "audio": "l125-dlg-01",
+          "text": "Ryan, your first draft is three pages. Helen reads these on her phone between meetings."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l125-dlg-02",
+          "text": "I know. I{{'ve been trying}} to cut it down all morning. What would you drop?"
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l125-dlg-03",
+          "text": "The history. She knows what happened in May. Start with {{the headline}}: on track, at risk or off track."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l125-dlg-04",
+          "text": "Okay: *{{As of}} Friday, the project is on track for June 20.* Then Done, In progress, Blocked, Next steps.",
+          "tts": "Okay: As [of](/əv/) Friday, the project is on track for June twentieth. Then Done, In progress, Blocked, Next steps."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l125-dlg-05",
+          "text": "Exactly. And under Done, only what{{'s been completed}}, with a number if there is one. Effort goes under In progress."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l125-dlg-06",
+          "text": "What about the search? It's not blocked, but it's not safe either."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l125-dlg-07",
+          "text": "{{At risk}}. One line: what the risk is and when the decision is {{due}}."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l125-dlg-08",
+          "text": "Got it. Every item gets an {{owner}} and a {{due date}}, and the whole thing fits on one screen."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "Why does Oliver want the report shorter?",
+        "options": [
+          "Because Helen reads it on her phone between meetings",
+          "Because the project is off track",
+          "Because Ryan's English is poor"
+        ],
+        "answer": 0,
+        "explain": "*Helen reads these on her phone between meetings.* The reader decides the length."
+      },
+      {
+        "q": "What goes under Done, according to Oliver?",
+        "options": [
+          "Only completed work, with a number if there is one",
+          "Everything the team has been doing",
+          "The history of May"
+        ],
+        "answer": 0,
+        "explain": "*Only what's been completed, with a number if there is one. Effort goes under In progress.*"
+      },
+      {
+        "q": "How should the search be reported?",
+        "options": [
+          "As At risk, in one line, with the decision date",
+          "As Blocked",
+          "It should be left out"
+        ],
+        "answer": 0,
+        "explain": "*At risk. One line: what the risk is and when the decision is due.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "A quick chat message to a colleague.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l125-reg-c1",
+            "text": "Quick one: we're on track, search is a bit dicey, more on Monday.",
+            "note": "*A quick one* = a short message; *dicey* = risky (informal)."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l125-reg-c2",
+            "text": "All good this week! Just the search thing hanging over us.",
+            "note": "*The search thing* and *hanging over us*: vague and chatty, fine between friends."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "The weekly report itself; team meetings.",
+        "items": [
+          {
+            "speaker": "ryan",
+            "audio": "l125-reg-n1",
+            "text": "As of Friday, we're on track for June 20; the only item at risk is the search.",
+            "tts": "As [of](/əv/) Friday, we're on track for June twentieth; the only item at risk is the search.",
+            "note": "The headline: date of reference, status, the one risk."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l125-reg-n2",
+            "text": "The full-scale search test is due Friday, and the decision is on Monday.",
+            "note": "*Due* + day: when something is expected."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l125-reg-n3",
+            "text": "Nothing is blocked this week, and the invoices page has been signed off.",
+            "note": "*Has been signed off*: Done, in the passive."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "A programme report for a committee; a stakeholder's instruction.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l125-reg-f1",
+            "text": "As of 24 May, the programme remains on track for go-live on 20 June; the inclusion of the search function is at risk and will be decided on 27 May.",
+            "tts": "As [of](/əv/) the twenty-fourth of May, the programme remains on track for go-live on the twentieth of June; the inclusion of the search function is at risk and will be decided on the twenty-seventh of May.",
+            "note": "*Remains on track*, *the inclusion of*: nouns and passives for a committee."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l125-reg-f2",
+            "text": "Please ensure that each outstanding item has an owner and a due date.",
+            "note": "*Ensure that*, *outstanding item*: the stakeholder's instruction."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "as of (+ date)",
+        "def": "at or from that date, as the point of reference for the information",
+        "register": "neutral",
+        "example": "As of Friday, the project is on track."
+      },
+      {
+        "en": "the headline",
+        "def": "the single most important fact, given first",
+        "register": "neutral",
+        "example": "Start with the headline: on track, at risk or off track."
+      },
+      {
+        "en": "on track / at risk / off track",
+        "def": "the three status labels: as planned / in danger of slipping / already late",
+        "register": "neutral",
+        "example": "The search is at risk; everything else is on track."
+      },
+      {
+        "en": "in progress",
+        "def": "started but not finished",
+        "register": "neutral",
+        "syn": "ongoing",
+        "example": "In progress: the reporting module is being tested."
+      },
+      {
+        "en": "blocked",
+        "def": "unable to continue until something outside the task is resolved",
+        "register": "neutral",
+        "example": "Blocked: training can't start until legal approves the terms."
+      },
+      {
+        "en": "outstanding",
+        "def": "not yet done or dealt with (formal); note that an outstanding result means an excellent one",
+        "register": "formal",
+        "syn": "pending",
+        "example": "Each outstanding item has an owner and a due date."
+      },
+      {
+        "en": "due (+ date)",
+        "def": "expected or required by that date",
+        "register": "neutral",
+        "example": "Full-scale search test: Alex, due Friday."
+      },
+      {
+        "en": "an owner",
+        "def": "the person responsible for an item or an action",
+        "register": "neutral",
+        "example": "Every item gets an owner and a due date."
+      },
+      {
+        "en": "carry over",
+        "def": "to move an unfinished item to the next period",
+        "register": "neutral",
+        "example": "The training will carry over to next week."
+      },
+      {
+        "en": "a quick one",
+        "def": "informal: a short message or question",
+        "register": "casual",
+        "example": "Quick one: we're on track, more on Monday."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Search is a bit dicey, more on Monday.",
+        "answer": "casual",
+        "explain": "*Dicey* and the clipped syntax are chat language."
+      },
+      {
+        "text": "The programme remains on track for go-live on 20 June.",
+        "answer": "formal",
+        "explain": "*Remains on track* and the date format: committee style."
+      },
+      {
+        "text": "As of Friday, we're on track for June 20.",
+        "answer": "neutral",
+        "explain": "The standard headline of a weekly report."
+      },
+      {
+        "text": "All good this week!",
+        "answer": "casual",
+        "explain": "An exclamation with no verb."
+      },
+      {
+        "text": "Please ensure that each outstanding item has an owner.",
+        "answer": "formal",
+        "explain": "*Ensure that*, *outstanding*: formal instruction."
+      },
+      {
+        "text": "The full-scale search test is due Friday.",
+        "answer": "neutral",
+        "explain": "Plain and precise."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Four lines of Ryan's report. Each section has its own verb form, and none of them names a person.",
+    "speaker": "ryan",
+    "audio": "l125-gd",
+    "text": "{{As of}} Friday, the project is on track for June 20. Done: the four busiest pages {{have been migrated}}. In progress: the reporting module {{is being tested}} with the supplier's data. At risk: the search {{may not be}} in the first release; decision {{due}} Monday.",
+    "tts": "As [of](/əv/) Friday, the project is on track for June twentieth. Done: the four busiest pages have been migrated. In progress: the reporting module is being tested with the supplier's data. At risk: the search may not be in the first release; decision due Monday.",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "Where does each item go?",
+      "prompt": "Complete the table: the section of the report, and the verb form or marker that fits it.",
+      "columns": [
+        "Item",
+        "Section",
+        "Form or marker"
+      ],
+      "rows": [
+        [
+          "The invoices page {{has been signed off}}.",
+          {
+            "gap": "Done",
+            "hint": "Done / In progress / Blocked / Next steps",
+            "accept": [
+              "done",
+              "completed"
+            ]
+          },
+          "has been + past participle"
+        ],
+        [
+          "The reporting module {{is being tested}}.",
+          {
+            "gap": "In progress",
+            "hint": "Done / In progress / Blocked / Next steps",
+            "accept": [
+              "in progress",
+              "progress",
+              "in-progress",
+              "ongoing"
+            ]
+          },
+          "is being + past participle"
+        ],
+        [
+          "Training {{can't start until}} legal approves the terms.",
+          {
+            "gap": "Blocked",
+            "hint": "Done / In progress / Blocked / Next steps",
+            "accept": [
+              "blocked",
+              "block"
+            ]
+          },
+          "can't … until"
+        ],
+        [
+          "Full-scale search test: Alex, Friday.",
+          "Next steps",
+          {
+            "gap": "due",
+            "hint": "owner + … + date",
+            "accept": [
+              "due",
+              "due friday",
+              "owner + due date",
+              "owner and due date",
+              "is due",
+              "due date"
+            ]
+          }
+        ]
+      ],
+      "explain": "Done = Present Perfect passive; In progress = present continuous passive; Blocked = *can't… until* + the cause; Next steps = item + owner + *due* + date."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "Compare *the four busiest pages have been migrated* (Done) and *the reporting module is being tested* (In progress). What does each verb form say about the state of the work right now? Why does neither sentence say who did it?",
+        "minWords": 12,
+        "signals": [
+          {
+            "re": "complete|finish|done|result",
+            "label": "complete now"
+          },
+          {
+            "re": "in progress|ongoing|now|not finished|still|happening",
+            "label": "in progress now"
+          },
+          {
+            "re": "passive",
+            "label": "passive"
+          },
+          {
+            "re": "who|person|agent|owner|people|team|work itself|about the work",
+            "label": "no agent"
+          }
+        ],
+        "model": "*Have been migrated* is a Present Perfect passive: the work is complete, a result that exists now. *Is being tested* is a present continuous passive: the work is happening now and is not finished. Neither names the person, because a status report is about the work, not about people; the owner appears separately, next to the item, where it is actionable.",
+        "criteria": [
+          "You said *have been migrated* = complete now, and *is being tested* = in progress now.",
+          "You identified both as passives (*have been / is being + past participle*).",
+          "You explained why the agent is left out: the report is about the work; the owner goes next to the item."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "Write the patterns of the two passives (*have been migrated*, *is being tested*) and of the nominalised phrase *the inclusion of the search function is at risk*. Then say the same three things as you would in a casual chat message.",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "have been \\+|has been \\+|have been|has been|past participle",
+            "label": "have been + past participle"
+          },
+          {
+            "re": "being \\+|is being|are being",
+            "label": "is being + past participle"
+          },
+          {
+            "re": "noun|nominal|inclusion|the \\w+ of",
+            "label": "the + noun + of"
+          },
+          {
+            "re": "we've|we're|we have|we are|might not|chat|informal|active",
+            "label": "chat version"
+          }
+        ],
+        "model": "Present Perfect passive: *have / has been + past participle*. Present continuous passive: *is / are being + past participle*. Nominalisation: *the + noun (inclusion, migration, completion) + of + noun* as the subject of *is at risk*. In chat: *we've migrated the four busiest pages*, *we're testing the reporting module*, *the search might not make it into the first release*: active verbs, pronouns and an informal *make it*.",
+        "criteria": [
+          "You wrote both passive patterns correctly.",
+          "You described the nominalised pattern (*the inclusion of… is at risk*).",
+          "You gave active, personal chat versions of the same three ideas."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Oliver's advice: headline first, Done with numbers, effort under In progress, each risk in one line with its decision date. What does this order do for Helen, who reads on her phone? What is lost if the report starts with the story of what happened in May?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "first|top|phone|screen|first line|quick|scan|glance",
+            "label": "first line on a phone"
+          },
+          {
+            "re": "evidence|number|proof|done",
+            "label": "Done as evidence"
+          },
+          {
+            "re": "bur|hidden|hunt|justif|excuse|story|context|long",
+            "label": "the story buries the status"
+          },
+          {
+            "re": "decide|decision|risk|when|date",
+            "label": "decision and date"
+          }
+        ],
+        "model": "The order gives Helen the decision-relevant facts in the first line (*on track for June 20*), then the evidence (Done, with numbers), then what is moving, then what could hurt her and when she must decide. On a phone she may read only the first two lines, so they carry the status. A report that starts with May's story buries the status, reads like a justification and makes her hunt for the risk. Concise is not less information; it is information in the order the reader needs it.",
+        "criteria": [
+          "You said the headline gives the status in the first line, where a phone reader will see it.",
+          "You said Done with numbers is the evidence and In progress holds the effort.",
+          "You said starting with the history buries the status and reads like a justification."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "A status report has a fixed shape: headline (*As of + date, on track / at risk / off track for + date*), then Done, In progress, Blocked, At risk, Next steps with an owner and a due date.",
+        "Done takes results in the Present Perfect passive (or simple), with numbers: *the four busiest pages have been migrated*. In progress takes the present continuous passive or the Present Perfect Continuous: *is being tested*, *we've been testing*.",
+        "Nouns and passives keep it short and impersonal: *the inclusion of the search is at risk*, *decision due Monday*. The owner goes next to the item, not inside the sentence.",
+        "One screen: no history, no justification; each risk in one line with its decision date."
+      ],
+      "formulas": [
+        "As of + date, the project is on track / at risk / off track for + date",
+        "Done: has / have been + past participle (+ number) · In progress: is / are being + past participle",
+        "Next steps: item (owner, due + date) · Blocked: can't + verb + until + clause"
+      ],
+      "note": "Spanish reports tend to open with context and build towards the conclusion. English status reports do the opposite: conclusion first, evidence after. The reader can stop after the headline and still know where things stand."
+    }
+  },
+  "phonetics": {
+    "intro": "El informe se lee en voz alta en las reuniones, y sus bloques fijos tienen formas débiles y enlaces propios: *as of* es «a-zov» y *ahead of schedule*, «a-HE-dov SKÉ-dyul». También hay grupos consonánticos que el español simplifica: *blocked* termina en /kt/, *risk* en /sk/, y *outstanding* lleva /tst/ en medio sin e de apoyo.",
+    "items": [
+      {
+        "id": "as-of",
+        "term": "as of (as of Friday)",
+        "pos": "preposition",
+        "meaning": "at or from that date, as the point of reference",
+        "ipa": {
+          "us": "/ˌæz‿əv/",
+          "uk": "/ˌæz‿əv/"
+        },
+        "afh": "a-zov",
+        "say": "As of.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Of* es débil, /əv/: «ov», con schwa y v. No «of» con f ni con o plena."
+          },
+          {
+            "type": "linking",
+            "text": "La z de *as* se une a *of*: «a-zov», un solo bloque, y sigue sin pausa: «a-zov-FRAI-dei»."
+          },
+          {
+            "type": "consonant",
+            "text": "Las dos consonantes son sonoras: /z/ (zumbido) y /v/ (dientes sobre el labio). Con /s/ y /f/ suena a *as off*."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "As of Friday, the project is on track for June 20.",
+          "tts": "As [of](/əv/) Friday, the project is on track for June twentieth."
+        },
+        "ttsUs": "As [of](/əv/).",
+        "ttsUk": "As [of](/əv/)."
+      },
+      {
+        "id": "ahead-of-schedule",
+        "term": "ahead of schedule",
+        "pos": "chunk",
+        "meaning": "earlier than planned",
+        "ipa": {
+          "us": "/əˌhed‿əv ˈskedʒ.uːl/",
+          "uk": "/əˌhed‿əv ˈʃedʒ.uːl/"
+        },
+        "afh": "a-HE-dov SKÉ-dyul (US) · a-HE-dov SHÉ-dyul (UK)",
+        "say": "Ahead of schedule.",
+        "alerts": [
+          {
+            "type": "linking",
+            "text": "La d de *ahead* enlaza con *of*: «a-HE-dov». Tres palabras en dos golpes: «a-HE-dov SKÉ-dyul»."
+          },
+          {
+            "type": "weak",
+            "text": "*Of* otra vez /əv/; *ahead* empieza con schwa y lleva el acento en HED, con h aspirada suave."
+          },
+          {
+            "type": "variant",
+            "text": "*Schedule*: US «SKÉ-dyul», UK «SHÉ-dyul», siempre sin e inicial (Lección 121). *Behind schedule* y *on schedule* funcionan igual."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "The design work is two days ahead of schedule.",
+          "tts": "The design work is two days ahead [of](/əv/) schedule."
+        },
+        "ttsUs": "Ahead [of](/əv/) schedule.",
+        "ttsUk": "Ahead [of](/əv/) schedule."
+      },
+      {
+        "id": "outstanding",
+        "term": "outstanding",
+        "pos": "adj.",
+        "meaning": "not yet done or dealt with (an outstanding item); also: excellent (an outstanding result)",
+        "ipa": {
+          "us": "/ˌaʊtˈstæn.dɪŋ/",
+          "uk": "/ˌaʊtˈstæn.dɪŋ/"
+        },
+        "afh": "aut-STÁN-ding",
+        "say": "Outstanding.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "*-tst-* en medio de la palabra: «aut-STAN», sin e entre la t y la s. Nada de «aut-es-TAN-ding»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en STAN, la segunda sílaba: «aut-STÁN-ding»."
+          },
+          {
+            "type": "vowel",
+            "text": "/aʊ/ en *out*: el diptongo «au», breve; /æ/ en STAN: a abierta hacia la e."
+          }
+        ],
+        "example": {
+          "speaker": "helen",
+          "text": "Please ensure that each outstanding item has an owner and a due date."
+        }
+      },
+      {
+        "id": "blocked",
+        "term": "blocked",
+        "pos": "adj. · past participle",
+        "meaning": "unable to continue until something outside the task is resolved",
+        "ipa": {
+          "us": "/blɑːkt/",
+          "uk": "/blɒkt/"
+        },
+        "afh": "blakt (US) · blokt (UK)",
+        "say": "Blocked.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "Tras una k sorda, -ed es /t/: «blakt», una sola sílaba. Nunca «blo-ked»."
+          },
+          {
+            "type": "consonant",
+            "text": "Grupo final /kt/: se oyen las dos consonantes. El hispanohablante tiende a dejar solo «blok»."
+          },
+          {
+            "type": "vowel",
+            "text": "US /ɑː/, abierta: «blakt». UK /ɒ/, breve y redondeada: «blokt»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "The training is blocked until legal approves the terms."
+        }
+      },
+      {
+        "id": "due",
+        "term": "due (due Friday)",
+        "pos": "adj.",
+        "meaning": "expected or required by that date",
+        "ipa": {
+          "us": "/duː/",
+          "uk": "/djuː/ · /dʒuː/"
+        },
+        "afh": "duu (US) · dyuu (UK)",
+        "say": "Due.",
+        "alerts": [
+          {
+            "type": "variant",
+            "text": "US: «duu», con d limpia. UK: «dyuu» /djuː/ (así lo dice el audio) o, en habla rápida, «dyuu» con /dʒ/ como en *jewel*. Las dos se entienden; no mezcles."
+          },
+          {
+            "type": "vowel",
+            "text": "/uː/ larga: «duu», no «diu» ni «du» breve."
+          },
+          {
+            "type": "linking",
+            "text": "*Due on Monday*: la u enlaza con *on* sin cortar, «duu-on». *Due Friday* y *due on Friday* son las dos correctas."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "The decision is due on Monday."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "The headline",
+        "formula": "As of + date, + subject + is on track / at risk / off track + for + date",
+        "usage": "One line with the status and the date it refers to. Everything else is evidence.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l125-cc-1a",
+            "text": "{{As of}} Friday, the project is {{on track}} for June 20.",
+            "tts": "As [of](/əv/) Friday, the project is on track for June twentieth."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l125-cc-1b",
+            "text": "{{As of}} 24 May, the programme {{remains on track}} for go-live on 20 June.",
+            "tts": "As [of](/əv/) the twenty-fourth of May, the programme remains on track for go-live on the twentieth of June."
+          }
+        ]
+      },
+      {
+        "title": "Done and In progress: passives",
+        "formula": "has / have been + past participle (Done) · is / are being + past participle (In progress)",
+        "usage": "Complete results and ongoing work, without naming people in the sentence.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l125-cc-2a",
+            "text": "The four busiest pages {{have been migrated}}."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l125-cc-2b",
+            "text": "The reporting module {{is being tested}} with the supplier's new data."
+          }
+        ]
+      },
+      {
+        "title": "Next steps: item, owner, due date",
+        "formula": "noun phrase (+ owner, due + date) · will be + past participle + by + date",
+        "usage": "Every action has a name and a date; otherwise it is a wish.",
+        "examples": [
+          {
+            "speaker": "ryan",
+            "audio": "l125-cc-3a",
+            "text": "Full-scale search test: Alex, {{due}} Friday."
+          },
+          {
+            "speaker": "oliver",
+            "audio": "l125-cc-3b",
+            "text": "The updated plan {{will be}} sent to Helen {{by}} Tuesday."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "The story first",
+        "text": "Spanish reports build up to the conclusion. In English, the headline comes first and the context after, if at all.",
+        "wrong": "In May the supplier changed the format, so we had to adapt the scripts, and then… (the status at the end)",
+        "right": "As of Friday, the project is on track for June 20. (then the evidence)"
+      },
+      {
+        "title": "In process for «en proceso»",
+        "text": "*In process* exists but is rare and technical. The status label is *in progress*.",
+        "wrong": "Reporting module: in process.",
+        "right": "Reporting module: in progress."
+      },
+      {
+        "title": "Pendent for «pendiente»",
+        "text": "*Pending* is the adjective (*pending items*); *outstanding* is its formal equivalent. *Pendent* does not exist in this sense.",
+        "wrong": "Pendent: the legal approval.",
+        "right": "Outstanding: the legal approval."
+      },
+      {
+        "title": "The responsible",
+        "text": "Spanish *el responsable* is a noun. In English, *responsible* is only an adjective; the report word is *owner*.",
+        "wrong": "Search test: the responsible is Alex.",
+        "right": "Search test: owner Alex, due Friday."
+      },
+      {
+        "title": "Is been for a passive",
+        "text": "Spanish *está siendo probado* maps onto *is being tested*, with *being*. *Is been* does not exist.",
+        "wrong": "The reporting module is been tested.",
+        "right": "The reporting module is being tested."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the right words.",
+      "text": "___ Friday, the project is on track for June 20.",
+      "options": [
+        "As of",
+        "Since",
+        "From"
+      ],
+      "answer": 0,
+      "explain": "*As of* + date: the point of reference of a report."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the form for Done.",
+      "text": "The four busiest pages ___.",
+      "options": [
+        "have been migrated",
+        "have migrated",
+        "are migrating"
+      ],
+      "answer": 0,
+      "explain": "Done: Present Perfect passive. The pages were migrated by someone, not by themselves."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the form for In progress.",
+      "text": "The reporting module ___ with the supplier's new data.",
+      "options": [
+        "is being tested",
+        "is been tested",
+        "has being tested"
+      ],
+      "answer": 0,
+      "explain": "Present continuous passive: *is being + past participle*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right word.",
+      "text": "Each ___ item needs an owner and a due date.",
+      "options": [
+        "outstanding",
+        "pendent",
+        "outstand"
+      ],
+      "answer": 0,
+      "explain": "*Outstanding* = not yet dealt with. *Pendent* does not exist in this sense."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "The decision is ___ on Monday.",
+      "accept": [
+        "due"
+      ],
+      "explain": "*Due on Monday* = expected on Monday."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete the status label.",
+      "text": "The search is at ___: it may not be in the first release.",
+      "accept": [
+        "risk"
+      ],
+      "explain": "*At risk* = in danger of slipping."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete the section name.",
+      "text": "Blocked: nothing this week. Next ___: full-scale test (Alex, due Friday).",
+      "accept": [
+        "steps",
+        "step"
+      ],
+      "explain": "*Next steps*: every item with an owner and a due date."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "As",
+        "of",
+        "Friday,",
+        "the",
+        "project",
+        "is",
+        "on",
+        "track",
+        "for",
+        "June",
+        "20"
+      ],
+      "answer": "As of Friday, the project is on track for June 20",
+      "explain": "The headline: *as of* + date, status, target date."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "The",
+        "inclusion",
+        "of",
+        "the",
+        "search",
+        "is",
+        "at",
+        "risk"
+      ],
+      "answer": "The inclusion of the search is at risk",
+      "explain": "A nominalised subject (*the inclusion of…*) + *is at risk*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the label.",
+      "wrong": "Reporting module: in process.",
+      "accept": [
+        "Reporting module: in progress."
+      ],
+      "explain": "*In progress*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the typical calque.",
+      "wrong": "Search test: the responsible is Alex.",
+      "accept": [
+        "Search test: owner Alex.",
+        "Search test: the owner is Alex.",
+        "Search test: owner Alex, due Friday.",
+        "Search test: Alex is the owner.",
+        "Search test: owner, Alex."
+      ],
+      "explain": "*Owner*, not *the responsible*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the passive.",
+      "wrong": "The invoices page has been sign off.",
+      "accept": [
+        "The invoices page has been signed off."
+      ],
+      "explain": "Passive = *been* + past participle: *signed off*."
+    },
+    {
+      "type": "organizer",
+      "kind": "table",
+      "prompt": "Sort the items into the report. Type the section name.",
+      "columns": [
+        "Item",
+        "Section"
+      ],
+      "rows": [
+        [
+          "The four busiest pages have been migrated.",
+          {
+            "gap": "Done",
+            "hint": "Done / In progress / Blocked / At risk / Next steps",
+            "accept": [
+              "done"
+            ]
+          }
+        ],
+        [
+          "The search is being evaluated at scale.",
+          {
+            "gap": "In progress",
+            "hint": "Done / In progress / Blocked / At risk / Next steps",
+            "accept": [
+              "in progress"
+            ]
+          }
+        ],
+        [
+          "Training can't start until legal approves the terms.",
+          {
+            "gap": "Blocked",
+            "hint": "Done / In progress / Blocked / At risk / Next steps",
+            "accept": [
+              "blocked"
+            ]
+          }
+        ],
+        [
+          "The search may not be in the first release.",
+          {
+            "gap": "At risk",
+            "hint": "Done / In progress / Blocked / At risk / Next steps",
+            "accept": [
+              "at risk",
+              "risk"
+            ]
+          }
+        ],
+        [
+          "Updated plan to Helen: Ryan, due Tuesday.",
+          {
+            "gap": "Next steps",
+            "hint": "Done / In progress / Blocked / At risk / Next steps",
+            "accept": [
+              "next steps",
+              "next step",
+              "next"
+            ]
+          }
+        ]
+      ],
+      "explain": "Complete → Done; ongoing → In progress; waiting on something external → Blocked; a danger → At risk; an action with an owner and a date → Next steps."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *outstanding* is stressed?",
+      "word": "outstanding",
+      "syllables": [
+        "out",
+        "stand",
+        "ing"
+      ],
+      "answer": 1,
+      "audioRef": "l125-ph-outstanding-us",
+      "explain": "out-**STAND**-ing: stress on the second syllable, and no vowel between *t* and *st*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "priya",
+      "audio": "l125-dict-1",
+      "text": "Nothing is blocked this week, and the invoices page has been signed off.",
+      "explain": "*Is blocked* and *has been signed off*: two passives from a report."
+    }
+  ],
+  "task": {
+    "title": "From a voice note to a status report",
+    "format": "text",
+    "scenario": "It is Friday. Alex has left you a rambling voice note with everything that happened this week. Turn it into Ryan's weekly status report for Helen: headline, Done, In progress, Blocked, At risk and Next steps, with an owner and a due date for every action. One screen.",
+    "brief": "Mediate: from a chatty voice note to a concise status report for a stakeholder.",
+    "input": {
+      "title": "Alex's Friday voice note",
+      "speaker": "alex",
+      "audio": "l125-task-input",
+      "text": "Hey Ryan, Friday update, sorry it's a bit all over the place. So, the indexing is done, finally; that was Tuesday. The full-scale search test: I've been running it all week, the numbers look good, but I want one more run on Monday before we decide. Training can't start; legal still hasn't approved the terms, and I've chased them twice. Oh, and Priya signed off the invoices page yesterday. Next week: I'll do the last search run on Monday, and someone needs to call legal, maybe Oliver. That's it, have a good weekend!"
+    },
+    "steps": [
+      "Write the headline: *As of Friday, … on track / at risk for …*",
+      "Done: completed items in the passive, with the day or a number.",
+      "In progress: the search test. Blocked: the training, with the cause.",
+      "At risk: one line with the decision date.",
+      "Next steps: each item with an owner and a due date."
+    ],
+    "length": "70–110 words",
+    "minWords": 50,
+    "keywords": [
+      "As of Friday",
+      "on track for",
+      "Done:",
+      "has been completed",
+      "has been signed off",
+      "In progress:",
+      "is being",
+      "Blocked:",
+      "until legal approves",
+      "At risk:",
+      "Next steps:",
+      "owner",
+      "due Monday"
+    ],
+    "chunks": [
+      {
+        "label": "headline",
+        "re": "\\bas of\\b[^.!?]*\\b(on track|at risk|off track)\\b"
+      },
+      {
+        "label": "Done: has / have been + past participle",
+        "re": "\\b(has|have)\\s+been\\s+(completed|migrated|signed off|finished|approved|delivered|done|indexed)\\b"
+      },
+      {
+        "label": "In progress: is being",
+        "re": "\\b(is|are)\\s+being\\s+\\w+(ed|en|un)\\b|\\bin progress\\b"
+      },
+      {
+        "label": "Blocked + until",
+        "re": "\\bblocked\\b|\\buntil\\s+legal\\b"
+      },
+      {
+        "label": "At risk",
+        "re": "\\bat risk\\b"
+      },
+      {
+        "label": "owner + due date",
+        "re": "\\bdue\\s+(on\\s+)?(monday|tuesday|wednesday|thursday|friday|\\d)|\\bowner\\b"
+      }
+    ],
+    "checks": [
+      "inProcess",
+      "pendent",
+      "theResponsible",
+      "isBeenPassive",
+      "presentForSince",
+      "actuallyCurrently",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the one-line summary for the steering committee",
+      "brief": "Compress the whole report into one formal sentence: status, the blocked item as a condition, and what has been requested.",
+      "keywords": [
+        "remains on track",
+        "is contingent on",
+        "has been requested",
+        "outstanding"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "ryan",
+          "audio": "l125-task-model",
+          "text": "Portal migration, status, week 21. {{As of Friday}}, the project is {{on track for}} June 20. {{Done:}} the indexing {{has been completed}} (Tuesday); the invoices page {{has been signed off}} (Priya, Thursday). {{In progress:}} the full-scale search test {{is being}} run; results look good, with one more run on Monday. {{Blocked:}} training cannot start {{until legal approves}} the terms (chased twice). {{At risk:}} the search may not be in the first release; decision Tuesday. {{Next steps:}} final search run (Alex, {{due Monday}}); call legal (Oliver, due Monday); updated plan to Helen (Ryan, due Tuesday). Ryan",
+          "tts": "Portal migration, status, week twenty-one. As [of](/əv/) Friday, the project is on track for June twentieth. Done: the indexing has been completed, Tuesday; the invoices page has been signed off, Priya, Thursday. In progress: the full-scale search test is being run; results look good, with one more run on Monday. Blocked: training cannot start until legal approves the terms; chased twice. At risk: the search may not be in the first release; decision Tuesday. Next steps: final search run, Alex, due Monday; call legal, Oliver, due Monday; updated plan to Helen, Ryan, due Tuesday. Ryan",
+          "label": "Weekly status report (neutral, written)",
+          "notes": [
+            "The headline first: *As of Friday, on track for June 20*. Nothing from the voice note's apology survives.",
+            "*Has been completed (Tuesday)*, *has been signed off (Priya, Thursday)*: Done in the passive, with the day and the person in brackets.",
+            "*Is being run; results look good*: In progress keeps Alex's *I've been running it all week* without the *I*.",
+            "*Blocked: training cannot start until legal approves the terms (chased twice)*: the complaint becomes a condition and a fact.",
+            "*Next steps* turns *someone needs to call legal, maybe Oliver* into *call legal (Oliver, due Monday)*: an owner and a date."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l125-task-formal",
+          "text": "{{As of}} 24 May, the programme {{remains on track}} for go-live on 20 June; the start of training {{is contingent on}} legal approval of the terms, which {{has been requested}} twice and {{remains outstanding}}.",
+          "tts": "As [of](/əv/) the twenty-fourth of May, the programme remains on track for go-live on the twentieth of June; the start of training is contingent on legal approval of the terms, which has been requested twice and remains outstanding.",
+          "label": "One line for the steering committee (formal)",
+          "notes": [
+            "*Remains on track*: the headline in committee language.",
+            "*Is contingent on legal approval*: the blocked item as a condition, with a noun (*approval*) instead of *legal hasn't approved*.",
+            "*Has been requested twice and remains outstanding*: *I've chased them twice* in the passive, without a complaint."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "Si Helen solo lee la primera línea en el móvil, ¿sabe ya si el proyecto va bien, cuál es la fecha y qué está en riesgo? Copia tu primera línea aquí y júzgala.",
+        "reflect": true
+      },
+      {
+        "area": "register",
+        "text": "¿Desapareció el tono de la nota de voz (*sorry it's all over the place*, *finally*, *that's it*)? ¿Cada sección usa sustantivos y pasivas, y no *I've been running*?"
+      },
+      {
+        "area": "accuracy",
+        "text": "¿Done lleva *has / have been + participio*, In progress *is being + participio*, y Next steps un dueño y una fecha por línea? ¿Nada de *is been tested*?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Escribiste *in process*, *pendent*, *the responsible* o *the 20 of June*? Debe ser *in progress*, *outstanding / pending*, *owner*, *20 June* o *June 20*."
+      },
+      {
+        "area": "strategy",
+        "text": "¿Qué información de la nota de voz decidiste dejar fuera (la disculpa, *finally*, *have a good weekend*) y qué transformaste (la queja sobre legal → *Blocked: … until legal approves*)? Mediar es elegir.",
+        "reflect": true
+      }
+    ]
+  }
+}

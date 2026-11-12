@@ -81,8 +81,9 @@ export const data = {
   async audio(mod) {
     const i = await info(mod);
     if (audio.isRegistered(mod)) return audio.clips(mod);
-    // Drafts have no audio yet: skip the manifest instead of requesting a missing file.
-    const clips = i.draft ? {} : await getJSON(`${i.audio}manifest.json`).then((m) => m.clips).catch(() => ({}));
+    // A draft may or may not have audio yet (B2.1 modules keep "draft" until the
+    // route reaches them, audio included), so try the manifest and accept a miss.
+    const clips = await getJSON(`${i.audio}manifest.json`).then((m) => m.clips).catch(() => ({}));
     audio.register(mod, i.audio, clips);
     return clips;
   },
@@ -94,7 +95,7 @@ export const data = {
       `${i.dir}module.json`,
       ...m.lessons.map((l) => `${i.dir}${l}.json`),
       `${i.dir}review.json`,
-      ...(i.draft ? [] : [`${i.audio}manifest.json`]),
+      `${i.audio}manifest.json`,
     ];
   },
 };

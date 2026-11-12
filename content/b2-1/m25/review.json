@@ -1,0 +1,218 @@
+{
+  "id": "review",
+  "title": "Module 25 Review",
+  "titleEs": "Repaso del Módulo 25",
+  "intro": "Fourteen questions across the five lessons, with an organizer, a word-stress item and a dictation. If you miss one, the explanation tells you which lesson to go back to.",
+  "items": [
+    {
+      "type": "choice",
+      "lesson": "l121",
+      "prompt": "Choose the best form.",
+      "text": "We ___ on the migration since March, and we're on track.",
+      "options": [
+        "have been working",
+        "are working",
+        "worked"
+      ],
+      "answer": 0,
+      "explain": "An activity still in progress with *since* → Present Perfect Continuous. (Lesson 121)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l121",
+      "prompt": "Choose the best form.",
+      "text": "So far, we ___ three of the five modules.",
+      "options": [
+        "have migrated",
+        "have been migrating",
+        "are migrating"
+      ],
+      "answer": 0,
+      "explain": "A finished quantity with *so far* → Present Perfect Simple. (Lesson 121)"
+    },
+    {
+      "type": "order",
+      "lesson": "l121",
+      "prompt": "Put the words in order.",
+      "words": [
+        "How",
+        "many",
+        "interviews",
+        "have",
+        "you",
+        "completed",
+        "so",
+        "far"
+      ],
+      "answer": "How many interviews have you completed so far",
+      "explain": "*How many* asks about results: Present Perfect Simple. (Lesson 121)"
+    },
+    {
+      "type": "gap",
+      "lesson": "l122",
+      "prompt": "Complete with a noun.",
+      "text": "There has been a ___ in the data-export work.",
+      "accept": [
+        "delay"
+      ],
+      "explain": "*There has been a delay in* + the work affected: the delay as an event, nobody blamed. (Lesson 122)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l122",
+      "prompt": "Choose the right linker.",
+      "text": "The launch was postponed ___ a change in the data format.",
+      "options": [
+        "owing to",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explain": "*Owing to* + noun phrase. *Because* needs a clause. (Lesson 122)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l123",
+      "prompt": "Correct the typical slip.",
+      "wrong": "We haven't finished the search already.",
+      "accept": [
+        "We haven't finished the search yet."
+      ],
+      "explain": "Negative → *yet* at the end. (Lesson 123)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l123",
+      "prompt": "Choose the right words.",
+      "text": "Searches are ___ as fast as before.",
+      "options": [
+        "twice",
+        "the double",
+        "two times more"
+      ],
+      "answer": 0,
+      "explain": "*Twice as fast as*. (Lesson 123)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l124",
+      "prompt": "Choose the best form for an evidence-based forecast.",
+      "text": "We've been seeing fewer errors since the fix, so the module ___ ready by the 6th.",
+      "options": [
+        "should be",
+        "will certainly be",
+        "is"
+      ],
+      "answer": 0,
+      "explain": "Probable, based on evidence → *should be*. (Lesson 124)"
+    },
+    {
+      "type": "fix",
+      "lesson": "l124",
+      "prompt": "Correct the slip.",
+      "wrong": "We likely lose another week.",
+      "accept": [
+        "We're likely to lose another week.",
+        "We are likely to lose another week.",
+        "We'll probably lose another week.",
+        "We will probably lose another week."
+      ],
+      "explain": "*Be likely to* + verb, or *probably*. (Lesson 124)"
+    },
+    {
+      "type": "gap",
+      "lesson": "l124",
+      "prompt": "Complete with one word.",
+      "text": "It's too ___ to say whether the search will be in the first release.",
+      "accept": [
+        "early"
+      ],
+      "explain": "*It's too early to say whether…*: a risk named without a forecast. (Lesson 124)"
+    },
+    {
+      "type": "choice",
+      "lesson": "l125",
+      "prompt": "Choose the form for In progress.",
+      "text": "The reporting module ___ with the supplier's new data.",
+      "options": [
+        "is being tested",
+        "is been tested",
+        "has being tested"
+      ],
+      "answer": 0,
+      "explain": "Present continuous passive: *is being + past participle*. (Lesson 125)"
+    },
+    {
+      "type": "organizer",
+      "kind": "table",
+      "lesson": "l123",
+      "prompt": "Effort or result? Type *effort* or *result* for each sentence.",
+      "columns": [
+        "Sentence",
+        "Effort or result?"
+      ],
+      "rows": [
+        [
+          "We've been optimizing the database for a month.",
+          {
+            "gap": "effort",
+            "hint": "effort / result",
+            "accept": [
+              "effort",
+              "activity",
+              "an effort"
+            ]
+          }
+        ],
+        [
+          "We've cut load time by forty percent.",
+          {
+            "gap": "result",
+            "hint": "effort / result",
+            "accept": [
+              "result",
+              "a result",
+              "results"
+            ]
+          }
+        ],
+        [
+          "The four busiest pages have been migrated.",
+          {
+            "gap": "result",
+            "hint": "effort / result",
+            "accept": [
+              "result",
+              "a result",
+              "results"
+            ]
+          }
+        ]
+      ],
+      "explain": "Duration → effort (Continuous); a quantity or a completed passive → result. (Lessons 123 and 125)"
+    },
+    {
+      "type": "stress",
+      "lesson": "l122",
+      "prompt": "Which syllable of *delay* is stressed?",
+      "word": "delay",
+      "syllables": [
+        "de",
+        "lay"
+      ],
+      "answer": 1,
+      "audioRef": "l122-ph-delay-us",
+      "explain": "de-**LAY**. (Lesson 122)"
+    },
+    {
+      "type": "dictation",
+      "lesson": "l125",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "ryan",
+      "audio": "m25-rv-dict-1",
+      "text": "As of Friday, the project is on track, and nothing is blocked.",
+      "tts": "As [of](/əv/) Friday, the project is on track, and nothing is blocked.",
+      "explain": "The headline of a status report: *as of* + date + status. (Lesson 125)"
+    }
+  ]
+}

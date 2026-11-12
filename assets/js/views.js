@@ -236,7 +236,7 @@ export async function moduleView(modId) {
         <h1 style="font-size:var(--s-2xl)">${esc(mod.title)}</h1>
         <p class="lead">${esc(mod.titleEs)}</p>
         <p class="prose muted">${esc(mod.intro)}</p>
-        <div class="row">${mod.domains.map((d) => `<span class="chip">${esc(course.domains[d].name)}</span>`).join("")}${info.draft ? '<span class="chip">Borrador · audio pendiente</span>' : ""}</div>
+        <div class="row">${mod.domains.map((d) => `<span class="chip">${esc(course.domains[d].name)}</span>`).join("")}${info.draft ? `<span class="chip">${totalClips ? "Borrador" : "Borrador · audio pendiente"}</span>` : ""}</div>
       </section>
       <div class="grid-2" style="margin-top:20px">
         <section class="stack">

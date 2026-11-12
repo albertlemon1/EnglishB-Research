@@ -1,0 +1,1037 @@
+{
+  "id": "l123",
+  "n": 123,
+  "title": "Presenting Results vs. Effort: Simple vs. Continuous",
+  "titleEs": "Presentar resultados frente a esfuerzo: simple frente a continuo",
+  "minutes": 60,
+  "summary": "Present what you have achieved and what you have been doing as two different things: the Present Perfect Simple for results with numbers (*we've cut load time by 40%*) and the Continuous for the work behind them (*we've been optimizing the database*). Then decide which one your listener needs first.",
+  "canDo": [
+    "Present measurable results with the Present Perfect Simple, *already*, *just* and quantities.",
+    "Describe the effort behind them with the Continuous, including work that has not paid off yet.",
+    "Use verbs that change meaning between the two forms (*I've read the report* / *I've been reading the report*).",
+    "Pronounce *paid off* and *wrapped up* with the right -ed sound, linked to the next vowel."
+  ],
+  "focus": {
+    "grammar": "Present Perfect Simple for results (quantities, already / just / yet) vs Continuous for activity and effort · verbs whose meaning changes (read / been reading, try / been trying) · How much / how many vs How long · already vs yet",
+    "lexis": "achieve, hit a target, cut / reduce (something) by 40%, pay off, have (nothing) to show for it, wrap up, put in (hours), a quick win, slog away at, measurable outcomes, twice as fast, down from",
+    "afh": "-ed before a vowel: paid off /peɪ‿dɔːf/, wrapped up /ræp‿tʌp/ · achieve /əˈtʃiːv/ with a long /iː/ and a final /v/ · reSULT with /z/ · perCENT"
+  },
+  "warmup": "Think of something you have been working on for weeks. Say one sentence about a result you can measure, and one about the effort that has not produced a result yet. Which one would you tell your boss first?",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Opening the demo",
+      "context": "Demo day. Priya opens the session for Helen and the client team with the results of the last month. Alex will show the numbers afterwards.",
+      "speaker": "priya",
+      "to": "Helen and the client team",
+      "audio": "l123-scn",
+      "text": "Good morning, everyone, and thanks for joining. Over the past month we{{'ve been focusing on}} speed, and today I want to show you what that work has produced. {{So far}} we{{'ve cut}} the average load time {{by forty percent}}, from five seconds to three, and we{{'ve already}} migrated the four busiest pages. We{{'ve been testing}} the new invoices page with real customers for two weeks; it {{isn't finished yet}}, but the early feedback has been very positive. In the next ten minutes, Alex will walk you through the numbers, and I'll show you the new design."
+    },
+    "dialogue": {
+      "title": "Questions after the demo",
+      "context": "Helen asks the question every client asks: what has actually been achieved? Alex, Oliver and Priya answer, including the part that has not worked yet.",
+      "lines": [
+        {
+          "speaker": "helen",
+          "audio": "l123-dlg-01",
+          "text": "Thank you, that was clear. One question: you said you{{'ve been optimizing}} the database. What {{have}} you actually {{achieved}} so far?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l123-dlg-02",
+          "text": "Three things. We{{'ve reduced}} the number of queries per page by half, we{{'ve removed}} two old tables, and we{{'ve just}} finished the indexing work."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l123-dlg-03",
+          "text": "And the search? Last month it was the slowest part."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l123-dlg-04",
+          "text": "We{{'ve been working on}} it for three weeks, but honestly we {{don't have much to show for it}} yet. The results so far are mixed."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l123-dlg-05",
+          "text": "I appreciate the honesty. What's the plan?"
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l123-dlg-06",
+          "text": "We{{'ve been trying}} two approaches in parallel. One of them {{has paid off}} on the test server: searches are {{twice as fast}}. We'll know by Friday whether it works at scale."
+        },
+        {
+          "speaker": "priya",
+          "audio": "l123-dlg-07",
+          "text": "And on the design side, we{{'ve wrapped up}} the invoices page. Customers found it in eight seconds on average, {{down from}} forty."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l123-dlg-08",
+          "text": "Good. Send me those numbers in writing, please; they're exactly what the board wants to see."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "What has the team achieved in the database work so far?",
+        "options": [
+          "Reduced the queries by half, removed two tables and finished the indexing",
+          "Finished the search",
+          "Nothing measurable yet"
+        ],
+        "answer": 0,
+        "explain": "Three results in the Present Perfect Simple: *we've reduced… we've removed… we've just finished…*"
+      },
+      {
+        "q": "Why does Alex say *we don't have much to show for it yet* about the search?",
+        "options": [
+          "Because three weeks of work have not produced a clear result",
+          "Because nobody has been working on it",
+          "Because Helen asked him to stop"
+        ],
+        "answer": 0,
+        "explain": "*We've been working on it for three weeks, but… the results so far are mixed.* Effort without a result, stated honestly."
+      },
+      {
+        "q": "What does Helen want in writing?",
+        "options": [
+          "The numbers, because the board wants to see results",
+          "The two search approaches",
+          "A new demo"
+        ],
+        "answer": 0,
+        "explain": "*Send me those numbers in writing… they're exactly what the board wants to see.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Friends and close colleagues celebrating or complaining.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l123-reg-c1",
+            "text": "We've been slogging away at the database all month, and it's finally paid off!",
+            "note": "*Slog away at* = work hard at something tedious; *pay off* = produce the result you wanted."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l123-reg-c2",
+            "text": "Nailed it: the page is twice as fast now.",
+            "note": "*Nail it* = do something perfectly (informal)."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Demos, team updates, emails to a client you know.",
+        "items": [
+          {
+            "speaker": "alex",
+            "audio": "l123-reg-n1",
+            "text": "We've reduced the number of queries by half, and we've just finished the indexing.",
+            "note": "Results with a quantity and *just*: Present Perfect Simple."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l123-reg-n2",
+            "text": "We've been testing the new page for two weeks, and the feedback has been very positive.",
+            "note": "Effort with *for two weeks*: Continuous. *The feedback has been positive*: a state up to now."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l123-reg-n3",
+            "text": "We've put in a lot of hours on the search, but we don't have much to show for it yet.",
+            "note": "*Put in hours* = spend time working; *have (nothing) to show for it* = no visible result."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Board summaries, written reports.",
+        "items": [
+          {
+            "speaker": "helen",
+            "audio": "l123-reg-f1",
+            "text": "The board will want to see measurable outcomes rather than a description of the effort involved.",
+            "note": "*Measurable outcomes* vs *the effort involved*: the client's priority, in formal nouns."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l123-reg-f2",
+            "text": "Average load time has been reduced by 40%, and the four highest-traffic pages have now been migrated.",
+            "tts": "Average load time has been reduced by forty percent, and the four highest-traffic pages have now been migrated.",
+            "note": "Report style: passive (*has been reduced by*, *have now been migrated*) and the numbers up front."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "achieve (a result)",
+        "def": "to succeed in reaching a goal after effort",
+        "register": "neutral",
+        "syn": "accomplish",
+        "example": "What have you actually achieved so far?"
+      },
+      {
+        "en": "hit a target",
+        "def": "to reach the number or level you aimed for",
+        "register": "neutral",
+        "syn": "meet a target",
+        "ant": "miss a target",
+        "example": "We've hit all three targets this quarter."
+      },
+      {
+        "en": "cut / reduce (something) by 40%",
+        "def": "to make something smaller by that amount; by introduces the difference, to the new value",
+        "register": "neutral",
+        "example": "We've cut the average load time by forty percent, to three seconds."
+      },
+      {
+        "en": "pay off",
+        "def": "to produce the result you hoped for after effort",
+        "register": "neutral",
+        "syn": "bear fruit",
+        "example": "One of the approaches has paid off on the test server."
+      },
+      {
+        "en": "have (nothing) to show for it",
+        "def": "to have no visible result after effort",
+        "register": "neutral",
+        "example": "We don't have much to show for it yet."
+      },
+      {
+        "en": "wrap up",
+        "def": "to finish something completely",
+        "register": "neutral",
+        "syn": "finish off",
+        "example": "We've wrapped up the invoices page."
+      },
+      {
+        "en": "put in (hours)",
+        "def": "to spend time or effort on something",
+        "register": "neutral",
+        "example": "We've put in a lot of hours on the search."
+      },
+      {
+        "en": "a quick win",
+        "def": "a small improvement that is easy to get and shows progress early",
+        "register": "neutral",
+        "example": "Removing the two old tables was a quick win."
+      },
+      {
+        "en": "slog away at",
+        "def": "to work hard and for a long time at something boring or difficult",
+        "register": "casual",
+        "syn": "plug away at",
+        "example": "We've been slogging away at the database all month."
+      },
+      {
+        "en": "measurable outcomes",
+        "def": "results that can be counted or measured, as opposed to activity",
+        "register": "formal",
+        "ant": "the effort involved",
+        "example": "The board will want to see measurable outcomes."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Nailed it: the page is twice as fast now.",
+        "answer": "casual",
+        "explain": "*Nail it* is informal."
+      },
+      {
+        "text": "Average load time has been reduced by 40%.",
+        "answer": "formal",
+        "explain": "Passive and a figure: report style."
+      },
+      {
+        "text": "We've just finished the indexing.",
+        "answer": "neutral",
+        "explain": "A plain result for colleagues or a client."
+      },
+      {
+        "text": "We've been slogging away at the database all month.",
+        "answer": "casual",
+        "explain": "*Slog away at* is informal."
+      },
+      {
+        "text": "The board will want to see measurable outcomes.",
+        "answer": "formal",
+        "explain": "*Measurable outcomes*: formal nouns."
+      },
+      {
+        "text": "We've put in a lot of hours on the search.",
+        "answer": "neutral",
+        "explain": "Standard team language."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Ryan sums up the demo. Four sentences, two of them results and two of them effort. The verb form tells the listener which is which before the numbers do.",
+    "speaker": "ryan",
+    "audio": "l123-gd",
+    "text": "We{{'ve been optimizing}} the database for a month. We{{'ve reduced}} the queries per page by half, and we{{'ve just finished}} the indexing. We{{'ve been working on}} the search for three weeks, but we {{don't have}} much to show for it {{yet}}.",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "Effort or result?",
+      "prompt": "Complete the table: type *effort* or *result*, and the clue that tells you.",
+      "columns": [
+        "Sentence",
+        "Effort or result?",
+        "Clue"
+      ],
+      "rows": [
+        [
+          "We{{'ve been optimizing}} the database for a month.",
+          {
+            "gap": "effort",
+            "hint": "effort / result",
+            "accept": [
+              "effort",
+              "activity",
+              "the effort",
+              "an effort",
+              "effort / activity"
+            ]
+          },
+          "for a month: duration"
+        ],
+        [
+          "We{{'ve reduced}} the queries by half.",
+          {
+            "gap": "result",
+            "hint": "effort / result",
+            "accept": [
+              "result",
+              "a result",
+              "the result",
+              "results",
+              "achievement"
+            ]
+          },
+          "by half: a quantity"
+        ],
+        [
+          "We{{'ve just finished}} the indexing.",
+          "result",
+          {
+            "gap": "just",
+            "hint": "the word before finished",
+            "accept": [
+              "just",
+              "just finished",
+              "just: finished a moment ago",
+              "just (a moment ago)"
+            ]
+          }
+        ],
+        [
+          "We{{'ve been working on}} the search, but we don't have much to show for it yet.",
+          {
+            "gap": "effort",
+            "hint": "effort / result",
+            "accept": [
+              "effort",
+              "activity",
+              "the effort",
+              "effort without result",
+              "effort / activity",
+              "effort without a result"
+            ]
+          },
+          "yet: not finished"
+        ]
+      ],
+      "explain": "Duration and *still going* → effort (Continuous); quantities, *just*, *already* → result (Simple). *Yet* marks a result that does not exist yet."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "Alex says *we've been working on the search for three weeks, but we don't have much to show for it yet*. Why is the Continuous the honest choice here? What would *we've improved the search* claim that isn't true?",
+        "minWords": 12,
+        "signals": [
+          {
+            "re": "effort|activity|duration|three weeks|how long|work",
+            "label": "effort / duration"
+          },
+          {
+            "re": "result|achiev|outcome|improve|claim|promise",
+            "label": "a result claimed"
+          },
+          {
+            "re": "honest|true|not yet|unfinished|still|open|mixed",
+            "label": "honesty"
+          }
+        ],
+        "model": "The Continuous reports the activity and its duration without claiming a result: three weeks of work, outcome still open. *We've improved the search* is a Present Perfect Simple result: it would claim a finished, measurable improvement that does not exist yet. Choosing the form is choosing what you are prepared to promise.",
+        "criteria": [
+          "You said the Continuous reports activity and duration without claiming a result.",
+          "You said the Simple form claims a finished, measurable result.",
+          "You linked the choice of form to honesty about what has really been achieved."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "Compare *I've read the report* with *I've been reading the report*, and *we've tried two approaches* with *we've been trying two approaches*. What does each form say about whether the action is complete? Write the two patterns and add a pair of your own.",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "complete|finish|done|over",
+            "label": "complete"
+          },
+          {
+            "re": "in progress|not finished|still|continu|ongoing|middle",
+            "label": "in progress"
+          },
+          {
+            "re": "past participle|participle|-ed|third form",
+            "label": "have + past participle"
+          },
+          {
+            "re": "been \\+|been \\w+ing|-ing|\\bing\\b",
+            "label": "have been + -ing"
+          }
+        ],
+        "model": "*I've read the report*: the reading is complete; I know what is in it. *I've been reading the report*: I started and may not have finished; the focus is on the activity, perhaps with visible signs. *We've tried two approaches*: both tested, we have an outcome. *We've been trying two approaches*: the testing continues. Patterns: *have + past participle* = complete; *have been + -ing* = in progress or recently stopped. Your own pair, for example: *I've written the email* (it is sent) / *I've been writing the email* (it is still open).",
+        "criteria": [
+          "You said the Simple form means the action is complete and the Continuous that it is in progress or has recently stopped.",
+          "You wrote both patterns: *have + past participle* and *have been + -ing*.",
+          "You gave a correct pair of your own with a clear difference in meaning."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Helen says the board wants *measurable outcomes rather than a description of the effort involved*. In a demo or a report for decision-makers, which form should come first, and why? When is it still worth saying what you have been doing?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "result|outcome|number|figure|first|top|headline",
+            "label": "results first"
+          },
+          {
+            "re": "how|explain|open|still|honest|not (yet )?paid|context|process",
+            "label": "why mention effort"
+          },
+          {
+            "re": "next step|plan|what next|by friday|decision",
+            "label": "next step"
+          }
+        ],
+        "model": "Results first: decision-makers read for outcomes, so the Present Perfect Simple with numbers goes at the top (*we've cut load time by 40%*). The Continuous comes second, to explain how, to show work that is still open, or to be honest about effort that has not paid off (*we've been working on the search, but…*). Effort without results is not a reason to hide it; it is a reason to say what the next step is.",
+        "criteria": [
+          "You said results (Simple + numbers) come first for decision-makers.",
+          "You gave at least one reason to still mention the effort: to explain how, to show open work, or to be honest.",
+          "You said effort without results should come with a next step, not be hidden."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "Results: Present Perfect Simple with a quantity, *already*, *just* or *yet*. *We've cut load time by 40%. We've just finished the indexing. We haven't finished the search yet.*",
+        "Effort and activity: Present Perfect Continuous, often with *for / since* or *all week / all month*: *We've been optimizing the database for a month.* It does not claim a result.",
+        "Some verbs change meaning with the form: *I've read the report* (finished) vs *I've been reading it* (not finished, or just stopped); *we've tried two approaches* (both tested) vs *we've been trying* (still testing).",
+        "For decision-makers, results first and effort second; effort that hasn't paid off is worth stating, together with the next step."
+      ],
+      "formulas": [
+        "have / has + past participle + a number / already / just / yet (result)",
+        "have / has been + -ing + for / since / all + period (effort)",
+        "cut / reduce + noun + by + amount · twice as fast · down from X to Y"
+      ],
+      "note": "Spanish *llevamos un mes optimizando* and *hemos optimizado* keep the same contrast, but Spanish *ya* covers both *already* and *yet*. In English, *already* goes in affirmatives, before the participle; *yet* goes at the end of negatives and questions."
+    }
+  },
+  "phonetics": {
+    "intro": "Los resultados se dicen con cifras y con verbos en -ed, y ahí el hispanohablante corre dos riesgos: pronunciar *-ed* como sílaba extra («pei-ded», «rap-ped») y no enlazarlo con la vocal siguiente. *Paid off* es «pei-DOF» y *wrapped up*, «rap-TAP». Además, tres acentos que el español desplaza: *achieve*, *result* y *percent*.",
+    "items": [
+      {
+        "id": "paid-off",
+        "term": "paid off (has paid off)",
+        "pos": "phrasal verb",
+        "meaning": "produced the result you hoped for after effort",
+        "ipa": {
+          "us": "/ˌpeɪd‿ˈɔːf/ → /ˌpeɪ.ˈdɔːf/",
+          "uk": "/ˌpeɪd‿ˈɒf/ → /ˌpeɪ.ˈdɒf/"
+        },
+        "afh": "pei-DOF",
+        "say": "Paid off.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "*Paid* termina en /d/, sin sílaba extra: «peid», nunca «pei-ded». Tras una vocal, -ed es /d/."
+          },
+          {
+            "type": "linking",
+            "text": "Esa d pasa a *off*: «pei-DOF». Si separas «peid / of», pierdes el ritmo."
+          },
+          {
+            "type": "vowel",
+            "text": "US /ɔː/ en *off*: una o abierta y larga, «dof». UK /ɒ/, más breve."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "One of the approaches has paid off on the test server."
+        }
+      },
+      {
+        "id": "wrapped-up",
+        "term": "wrapped up (we've wrapped up)",
+        "pos": "phrasal verb",
+        "meaning": "finished completely",
+        "ipa": {
+          "us": "/ˌræpt‿ˈʌp/ → /ˌræp.ˈtʌp/",
+          "uk": "/ˌræpt‿ˈʌp/ → /ˌræp.ˈtʌp/"
+        },
+        "afh": "rap-TAP",
+        "say": "Wrapped up.",
+        "alerts": [
+          {
+            "type": "ed",
+            "text": "Tras una p sorda, -ed es /t/: «rapt», una sola sílaba. Nunca «ra-ped»."
+          },
+          {
+            "type": "linking",
+            "text": "Esa t enlaza con *up*: «rap-TAP». En EE. UU. puede sonar como un golpecito suave."
+          },
+          {
+            "type": "consonant",
+            "text": "La w de *wrapped* es muda; la r inicial no vibra. /æ/ es una a abierta que tira hacia la e."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "We've wrapped up the invoices page."
+        }
+      },
+      {
+        "id": "achieve",
+        "term": "achieve",
+        "pos": "v.",
+        "meaning": "to succeed in reaching a goal after effort",
+        "ipa": {
+          "us": "/əˈtʃiːv/",
+          "uk": "/əˈtʃiːv/"
+        },
+        "afh": "a-CHIIV",
+        "say": "Achieve.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba; la primera es una schwa: «a-CHIIV», no «Á-chiv»."
+          },
+          {
+            "type": "vowel",
+            "text": "/iː/ larga: «chiiv». Con /ɪ/ breve suena a otra palabra. Es la misma vocal que *feasible* y *seen*."
+          },
+          {
+            "type": "consonant",
+            "text": "Termina en /v/ labiodental, dientes sobre el labio: «chiiv», no «chiib» ni «chif». El sustantivo es *achievement*, «a-CHIIV-ment»."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "We've achieved all three targets this quarter."
+        }
+      },
+      {
+        "id": "result",
+        "term": "result",
+        "pos": "n.",
+        "meaning": "what happens or is produced because of an action; an outcome",
+        "ipa": {
+          "us": "/rɪˈzʌlt/",
+          "uk": "/rɪˈzʌlt/"
+        },
+        "afh": "ri-ZALT",
+        "say": "Result.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba: «ri-ZALT». En español, *resultado* lleva el acento en TA, y el hispanohablante tiende a «RE-sult»."
+          },
+          {
+            "type": "consonant",
+            "text": "La s es sonora /z/, un zumbido, y el final /lt/ conserva las dos consonantes: «zalt»."
+          },
+          {
+            "type": "vowel",
+            "text": "/ʌ/: una a corta y relajada, «zalt», no «zult»."
+          }
+        ],
+        "example": {
+          "speaker": "helen",
+          "text": "The results so far are exactly what the board wants to see."
+        }
+      },
+      {
+        "id": "percent",
+        "term": "percent (forty percent)",
+        "pos": "n.",
+        "meaning": "out of every hundred; written % after a number",
+        "ipa": {
+          "us": "/pɚˈsent/",
+          "uk": "/pəˈsent/"
+        },
+        "afh": "per-SENT",
+        "say": "Forty percent.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba: «per-SENT». En español, *por ciento* son dos palabras con dos acentos."
+          },
+          {
+            "type": "weak",
+            "text": "La primera sílaba es débil: «per» con schwa (con r en EE. UU., sin r en Reino Unido)."
+          },
+          {
+            "type": "linking",
+            "text": "*Forty percent* se dice de un tirón: «FOR-ti-per-SENT». La cifra va delante: nunca *percent forty*."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "We've cut the average load time by forty percent."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Results: Present Perfect Simple + a quantity",
+        "formula": "have / has + past participle + by + amount / a number / already / just",
+        "usage": "A finished, measurable outcome. The number is the evidence.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l123-cc-1a",
+            "text": "We{{'ve cut}} load time {{by forty percent}}."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l123-cc-1b",
+            "text": "We{{'ve just finished}} the indexing, and we{{'ve already}} migrated the four busiest pages."
+          }
+        ]
+      },
+      {
+        "title": "Effort: Present Perfect Continuous",
+        "formula": "have / has been + -ing + for / since / all month",
+        "usage": "The activity and its duration. It does not claim a result, so it is the honest form for work that is still open.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l123-cc-2a",
+            "text": "We{{'ve been optimizing}} the database for a month."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l123-cc-2b",
+            "text": "We{{'ve been working on}} the search, but we don't have much to show for it yet."
+          }
+        ]
+      },
+      {
+        "title": "Same verb, different meaning",
+        "formula": "have + past participle (complete) · have been + -ing (in progress or recently stopped)",
+        "usage": "*Read, try, write, talk, fix*: the Simple form says it is done; the Continuous says you are in the middle of it.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l123-cc-3a",
+            "text": "I{{'ve read}} the report. I{{'ve been reading}} the report."
+          },
+          {
+            "speaker": "oliver",
+            "audio": "l123-cc-3b",
+            "text": "We{{'ve tried}} both approaches. We{{'ve been trying}} a third one since Monday."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Ya for already and yet",
+        "text": "Spanish *ya* covers both. *Already* goes in affirmatives, before the participle; *yet* goes at the end of negatives and questions.",
+        "wrong": "We haven't finished the search already.",
+        "right": "We haven't finished the search yet."
+      },
+      {
+        "title": "A result claimed with the Continuous",
+        "text": "*We've been reducing load time by 40%* mixes an activity with a finished number. A measured result takes the Simple form.",
+        "wrong": "We've been reducing load time by 40%.",
+        "right": "We've reduced load time by 40%."
+      },
+      {
+        "title": "Reduce in 40%",
+        "text": "Spanish *reducir en un 40 %* becomes *reduce by 40%*: *by* introduces the difference, *to* the new value.",
+        "wrong": "We reduced load time in 40%.",
+        "right": "We reduced load time by 40%, to three seconds."
+      },
+      {
+        "title": "The double of fast",
+        "text": "*El doble de rápido* is *twice as fast*, with *as… as*; not *twice faster* and not *the double of*.",
+        "wrong": "Searches are the double of fast now.",
+        "right": "Searches are twice as fast now."
+      },
+      {
+        "title": "Effort offered as the result",
+        "text": "Spanish *hemos estado trabajando muchísimo* can close a report. In English, effort without a result needs a next step, or it sounds like an excuse.",
+        "wrong": "We've been working very hard on the search.",
+        "right": "We've been working on the search for three weeks; one approach has paid off on the test server, and we'll know by Friday."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the best form.",
+      "text": "We ___ the number of queries by half.",
+      "options": [
+        "have reduced",
+        "have been reducing",
+        "are reducing"
+      ],
+      "answer": 0,
+      "explain": "A measured result (*by half*) → Present Perfect Simple."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the best form.",
+      "text": "We ___ the database for a month, and it's finally paying off.",
+      "options": [
+        "have been optimizing",
+        "have optimized",
+        "optimized"
+      ],
+      "answer": 0,
+      "explain": "Effort over a period (*for a month*) → Continuous."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the best form.",
+      "text": "I ___ the report, so I know the figures.",
+      "options": [
+        "have read",
+        "have been reading",
+        "am reading"
+      ],
+      "answer": 0,
+      "explain": "You know the figures: the reading is complete → Simple."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right words.",
+      "text": "Searches are ___ as fast as before.",
+      "options": [
+        "twice",
+        "two times more",
+        "the double"
+      ],
+      "answer": 0,
+      "explain": "*Twice as fast as*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with the right preposition.",
+      "text": "We've cut load time ___ forty percent.",
+      "accept": [
+        "by"
+      ],
+      "explain": "*Cut / reduce by* + the difference."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "We haven't finished the search ___.",
+      "accept": [
+        "yet"
+      ],
+      "explain": "*Yet* at the end of a negative."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "We've ___ finished the indexing: five minutes ago.",
+      "accept": [
+        "just"
+      ],
+      "explain": "*Just* = a moment ago, between *have* and the participle."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "We've",
+        "been",
+        "working",
+        "on",
+        "the",
+        "search",
+        "for",
+        "three",
+        "weeks"
+      ],
+      "answer": "We've been working on the search for three weeks",
+      "explain": "Effort + *for* + duration."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "We",
+        "don't",
+        "have",
+        "much",
+        "to",
+        "show",
+        "for",
+        "it",
+        "yet"
+      ],
+      "answer": "We don't have much to show for it yet",
+      "explain": "*Have (nothing / not much) to show for it* + *yet* at the end."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the typical Spanish-speaker slip.",
+      "wrong": "We haven't finished the search already.",
+      "accept": [
+        "We haven't finished the search yet."
+      ],
+      "explain": "Negative → *yet* at the end."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the verb form.",
+      "wrong": "We've been reducing load time by 40%.",
+      "accept": [
+        "We've reduced load time by 40%.",
+        "We have reduced load time by 40%."
+      ],
+      "explain": "A finished number → Simple."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the comparison.",
+      "wrong": "Searches are the double of fast now.",
+      "accept": [
+        "Searches are twice as fast now."
+      ],
+      "explain": "*Twice as fast*."
+    },
+    {
+      "type": "organizer",
+      "kind": "table",
+      "prompt": "Sort the demo sentences: type *effort* or *result* for each one.",
+      "columns": [
+        "Sentence",
+        "Effort or result?"
+      ],
+      "rows": [
+        [
+          "We've migrated the four busiest pages.",
+          {
+            "gap": "result",
+            "hint": "effort / result",
+            "accept": [
+              "result",
+              "a result",
+              "results"
+            ]
+          }
+        ],
+        [
+          "We've been testing the invoices page for two weeks.",
+          {
+            "gap": "effort",
+            "hint": "effort / result",
+            "accept": [
+              "effort",
+              "activity",
+              "an effort"
+            ]
+          }
+        ],
+        [
+          "One approach has paid off on the test server.",
+          {
+            "gap": "result",
+            "hint": "effort / result",
+            "accept": [
+              "result",
+              "a result",
+              "results"
+            ]
+          }
+        ],
+        [
+          "We've been trying two approaches in parallel.",
+          {
+            "gap": "effort",
+            "hint": "effort / result",
+            "accept": [
+              "effort",
+              "activity",
+              "an effort"
+            ]
+          }
+        ]
+      ],
+      "explain": "*Have + past participle* with a finished outcome = result; *have been + -ing* with a duration = effort."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *achieve* is stressed?",
+      "word": "achieve",
+      "syllables": [
+        "a",
+        "chieve"
+      ],
+      "answer": 1,
+      "audioRef": "l123-ph-achieve-us",
+      "explain": "a-**CHIEVE**: the first syllable is a weak schwa."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "alex",
+      "audio": "l123-dict-1",
+      "text": "We've reduced the number of queries per page by half.",
+      "explain": "A result with a quantity: Present Perfect Simple + *by half*."
+    }
+  ],
+  "task": {
+    "title": "The Highlights section of a demo summary",
+    "format": "text",
+    "scenario": "After a demo or a sprint, you have to send a one-paragraph summary to a decision-maker who did not attend: what has been achieved (with numbers), what the team has been doing that is not finished, and the next step. Use your own project, or the portal migration.",
+    "brief": "Write a results-first summary: measurable outcomes in the Simple form, open work in the Continuous, and one next step with a date.",
+    "steps": [
+      "Open with the headline result and a number.",
+      "Add two more results with *already*, *just* or a quantity.",
+      "Say what the team has been doing that is still open, honestly (*not much to show for it yet*).",
+      "Close with the next step and a date."
+    ],
+    "length": "80–120 words",
+    "minWords": 55,
+    "keywords": [
+      "Over the past month",
+      "we've cut … by",
+      "down from … to",
+      "twice as fast",
+      "we've already",
+      "we've just",
+      "we've been working on",
+      "hasn't paid off yet",
+      "to show for it",
+      "next step",
+      "by Friday"
+    ],
+    "chunks": [
+      {
+        "label": "result: have + past participle",
+        "re": "\\b(have|has|'ve|'s)\\s+(already\\s+|just\\s+|now\\s+)?(cut|reduced|migrated|finished|completed|removed|achieved|delivered|wrapped up|hit|improved|launched|published|fixed)\\b"
+      },
+      {
+        "label": "a quantity",
+        "re": "\\b(by\\s+(half|\\d+|forty|thirty|twenty|ten|a third|a quarter)|\\d+\\s*%|percent|twice as|down from|from \\d+ to \\d+)"
+      },
+      {
+        "label": "already / just / yet",
+        "re": "\\b(already|just|yet)\\b"
+      },
+      {
+        "label": "effort: have been + -ing",
+        "re": "\\b(have|has|'ve|'s)\\s+been\\s+\\w+ing\\b"
+      },
+      {
+        "label": "honest open work",
+        "re": "\\b(to show for it|hasn't paid off|haven't (finished|found)|mixed|still open|not finished|no result yet)\\b"
+      },
+      {
+        "label": "next step",
+        "re": "\\b(next step|by (monday|tuesday|wednesday|thursday|friday)|we'll know|we will know|decision on)\\b"
+      }
+    ],
+    "checks": [
+      "continuousWithCount",
+      "alreadyNegative",
+      "reduceIn",
+      "doubleOfFast",
+      "stativeContinuous",
+      "actuallyCurrently",
+      "proDropPerfect",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the two-line version for the board pack",
+      "brief": "Condense your highlights into two formal sentences: results in the passive with figures, and what remains in progress.",
+      "keywords": [
+        "has been reduced by",
+        "have now been migrated",
+        "remains in progress",
+        "scheduled for"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "priya",
+          "audio": "l123-task-model",
+          "text": "Highlights, sprint 14. {{Over the past month}} we{{'ve cut}} the average load time {{by forty percent}}, {{from five seconds to three}}. We{{'ve already}} migrated the four busiest pages, and we{{'ve just}} wrapped up the new invoices page: customers now find it in eight seconds, {{down from}} forty. On the search, we{{'ve been working on}} two approaches for three weeks; one {{has paid off}} on the test server, where searches are {{twice as fast}}, but we {{don't have}} a result at scale {{yet}}. {{Next step}}: a full-scale test {{by Friday}}, and a go / no-go decision on Monday.",
+          "tts": "Highlights, sprint fourteen. Over the past month we've cut the average load time by forty percent, from five seconds to three. We've already migrated the four busiest pages, and we've just wrapped up the new invoices page: customers now find it in eight seconds, down from forty. On the search, we've been working on two approaches for three weeks; one has paid off on the test server, where searches are twice as fast, but we don't have a result at scale yet. Next step: a full-scale test by Friday, and a go, no-go decision on Monday.",
+          "label": "Highlights paragraph (neutral, written)",
+          "notes": [
+            "The first sentence is a result with two numbers: *cut by forty percent, from five seconds to three*.",
+            "*Already* and *just* mark two more finished results; *down from forty* gives the before-and-after.",
+            "*We've been working on two approaches for three weeks… don't have a result at scale yet*: the open work, honestly, with *yet* at the end.",
+            "*Next step… by Friday… on Monday*: effort without a result comes with a date."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l123-task-formal",
+          "text": "Average load time {{has been reduced by}} 40% and the four highest-traffic pages {{have now been migrated}}; search optimisation {{remains in progress}}, with a full-scale test {{scheduled for}} Friday.",
+          "tts": "Average load time has been reduced by forty percent and the four highest-traffic pages have now been migrated; search optimisation remains in progress, with a full-scale test scheduled for Friday.",
+          "label": "Two lines for the board pack (formal, written)",
+          "notes": [
+            "*Has been reduced by*, *have now been migrated*: passives with the figures first.",
+            "*Remains in progress* replaces *we've been working on it*; *scheduled for Friday* replaces *we'll know by Friday*."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "¿La primera frase que lee quien decide es un resultado con cifra (*we've cut… by 40%*) y no una descripción del esfuerzo? ¿Qué cifra elegiste como titular y por qué?",
+        "reflect": true
+      },
+      {
+        "area": "accuracy",
+        "text": "¿Cada resultado va en *have + participio* con una cantidad, *already* o *just*, y cada trabajo abierto en *have been + -ing*? ¿*Yet* al final de las negativas y *already* antes del participio?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Escribiste *reduce in 40%*, *the double of fast* o *haven't finished already*? Debe ser *by 40%*, *twice as fast*, *haven't finished yet*."
+      },
+      {
+        "area": "register",
+        "text": "¿El resumen suena a informe para quien decide (cifras, y pasiva en la versión extra) y no a chat (*nailed it*, *slogging away*)?"
+      },
+      {
+        "area": "strategy",
+        "text": "El esfuerzo sin resultado, ¿lo escondiste o lo dijiste con un paso siguiente (*we don't have a result yet; full-scale test by Friday*)? Anota la frase.",
+        "reflect": true
+      }
+    ]
+  }
+}

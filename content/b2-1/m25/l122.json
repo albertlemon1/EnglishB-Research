@@ -1,0 +1,1055 @@
+{
+  "id": "l122",
+  "n": 122,
+  "title": "Explaining Delays & Their Causes Diplomatically",
+  "titleEs": "Explicar retrasos y sus causas con diplomacia",
+  "minutes": 60,
+  "summary": "Explain why something is late without sounding defensive: the Present Perfect Continuous for a cause that is still active (*we've been waiting for the supplier's data since the 2nd*), nouns and passives for the delay itself (*there has been a delay in…*, *has been held up by…*) and hedges that keep the tone professional.",
+  "canDo": [
+    "Explain the cause of a delay with *have been + -ing* and link it to the present consequence.",
+    "Turn a blunt cause into diplomatic language: *there has been a delay in…*, *partly*, *it has taken longer than expected*.",
+    "Propose a revised date and say what is not affected, in the same message.",
+    "Say *as a result* and *held up* as single blocks and reduce *than* to /ðən/."
+  ],
+  "focus": {
+    "grammar": "Present Perfect Continuous for an active cause (*we've been waiting for…, so…*) · Present Perfect passive (*has been delayed / held up by*) · cause and consequence: because of, due to, owing to, as a result, which is why · hedges: partly, slightly, longer than expected",
+    "lexis": "fall behind schedule, a setback, push back (a date), slip, be held up by, take longer than expected, get back on track, in the meantime, hit a snag, owing to / due to",
+    "afh": "linking in as a result / held up / than expected · weak than /ðən/ · stress: a SETback vs set BACK, deLAY, unforeSEEN · -ed in expected /tɪd/"
+  },
+  "warmup": "Think of the last time something you were responsible for was late. What was the real cause, and how did you explain it? Would you explain it the same way to a friend and to a client?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Reporting module: revised date",
+      "context": "The reporting module is going to be two weeks late. Ryan writes to Helen Marsh, the client's program director, before she hears it from someone else.",
+      "speaker": "ryan",
+      "to": "Helen Marsh",
+      "audio": "l122-scn",
+      "text": "Dear Helen, I'm writing to update you on the reporting module. {{There has been a delay in}} the data-export work: we{{'ve been waiting for}} the supplier's updated data format since the 2nd, and adapting our scripts to it {{has taken longer than expected}}. {{As a result}}, the module {{has slipped}} by about two weeks, from May 23 to June 6. {{In the meantime}}, we{{'ve been testing}} the other four modules with real users, so the overall go-live date is not affected. I'll send you a revised plan by Friday. Best regards, Ryan",
+      "tts": "Dear Helen, I'm writing to update you on the reporting module. There has been a delay in the data-export work: we've been waiting for the supplier's updated data format since the second, and adapting our scripts to it has taken longer [than](/ðən/) expected. As a result, the module has slipped by about two weeks, from May twenty-third to June sixth. In the meantime, we've been testing the other four modules with real users, so the overall go-live date is not affected. I'll send you a revised plan by Friday. Best regards, Ryan"
+    },
+    "dialogue": {
+      "title": "A call with the client",
+      "context": "Helen calls Ryan and Oliver after reading the email. She wants the causes, not apologies.",
+      "lines": [
+        {
+          "speaker": "helen",
+          "audio": "l122-dlg-01",
+          "text": "Ryan, thanks for the email. I understand there's been a delay. Can you walk me through what happened?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l122-dlg-02",
+          "text": "Of course. The supplier changed their data format at the start of the month, and we{{'ve been waiting for}} the final version since then. That's what {{has been holding up}} the export."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l122-dlg-03",
+          "text": "So is the delay {{down to}} the supplier, or to the scripts?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l122-dlg-04",
+          "text": "Mostly the supplier, but {{partly}} us: adapting the scripts {{has taken longer than expected}}.",
+          "tts": "Mostly the supplier, but partly us: adapting the scripts has taken longer [than](/ðən/) expected."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l122-dlg-05",
+          "text": "The good news is that it hasn't {{pushed back}} the go-live date. We{{'ve been using}} the time to test the other modules."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l122-dlg-06",
+          "text": "That's reassuring. What's the new date for the reporting module?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l122-dlg-07",
+          "text": "June 6, with a week of buffer. If the supplier's data arrives this week, we could still {{get back on track}} earlier.",
+          "tts": "June sixth, with a week of buffer. If the supplier's data arrives this week, we could still get back on track earlier."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l122-dlg-08",
+          "text": "Fine. Please keep me posted, and {{flag it early}} if the date slips again."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "What has been holding up the data export?",
+        "options": [
+          "Waiting for the supplier's final data format",
+          "Testing the other four modules",
+          "The week of buffer"
+        ],
+        "answer": 0,
+        "explain": "*We've been waiting for the final version since then. That's what has been holding up the export.*"
+      },
+      {
+        "q": "Who is responsible for the delay, according to Ryan?",
+        "options": [
+          "Only the supplier",
+          "Mostly the supplier, partly the team",
+          "Only the team"
+        ],
+        "answer": 1,
+        "explain": "*Mostly the supplier, but partly us.* A share of responsibility, stated plainly."
+      },
+      {
+        "q": "Why is the go-live date not affected?",
+        "options": [
+          "Because the team has been testing the other modules in the meantime",
+          "Because the supplier has already sent the data",
+          "Because Helen moved the date"
+        ],
+        "answer": 0,
+        "explain": "*We've been using the time to test the other modules.* The waiting time was not wasted."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Friends and close colleagues, when nobody needs to be protected.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l122-reg-c1",
+            "text": "We've hit a snag: the supplier's data is a mess, and we've been waiting on them for weeks.",
+            "note": "*Hit a snag* = run into a small problem; *wait on someone* (informal, US) = wait for."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l122-reg-c2",
+            "text": "Running a bit behind, sorry! The other team's been dragging their feet.",
+            "note": "*Drag your feet* = delay on purpose. Blunt: fine among friends, never with a client."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Team updates, calls with a client you know well.",
+        "items": [
+          {
+            "speaker": "ryan",
+            "audio": "l122-reg-n1",
+            "text": "We're about two weeks behind on the reporting module because we've been waiting for the supplier's data.",
+            "note": "Cause with *because* + an active Present Perfect Continuous."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l122-reg-n2",
+            "text": "It's taken longer than expected to adapt the scripts, but we're getting back on track.",
+            "tts": "It's taken longer [than](/ðən/) expected to adapt the scripts, but we're getting back on track.",
+            "note": "*It's taken longer than expected*: an honest cause with no one blamed."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l122-reg-n3",
+            "text": "The date has slipped to June 6, but in the meantime we've been testing the other modules.",
+            "tts": "The date has slipped to June sixth, but in the meantime we've been testing the other modules.",
+            "note": "*Slip* = move later without anyone deciding it. *In the meantime* introduces what was done instead."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Written updates to a client, steering committees, anything that may be forwarded.",
+        "items": [
+          {
+            "speaker": "helen",
+            "audio": "l122-reg-f1",
+            "text": "I understand there has been a delay in the data-export work; could you outline the causes and the revised timeline?",
+            "note": "*There has been a delay in* + noun: the delay is an event, and no one is named as its cause."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l122-reg-f2",
+            "text": "The reporting module has been held up by a change in the supplier's data format, and its delivery has been rescheduled for 6 June.",
+            "tts": "The reporting module has been held up by a change in the supplier's data format, and its delivery has been rescheduled for the sixth of June.",
+            "note": "Passive (*has been held up by*, *has been rescheduled*): the focus stays on the work."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "fall behind (schedule)",
+        "def": "to make slower progress than planned, so that you are late",
+        "register": "neutral",
+        "ant": "be ahead of schedule",
+        "example": "We fell behind when the supplier changed the format."
+      },
+      {
+        "en": "a setback",
+        "def": "a problem that stops progress for a while or reverses it",
+        "register": "neutral",
+        "example": "The format change was a setback, but not a serious one."
+      },
+      {
+        "en": "push back (a date)",
+        "def": "to move a date or a deadline to a later time",
+        "register": "neutral",
+        "syn": "postpone",
+        "example": "It hasn't pushed back the go-live date."
+      },
+      {
+        "en": "slip (a date slips)",
+        "def": "(of a date or a deadline) to move later than planned, usually without anyone deciding it",
+        "register": "neutral",
+        "example": "The date has slipped by two weeks."
+      },
+      {
+        "en": "be held up by",
+        "def": "to be delayed by something",
+        "register": "neutral",
+        "syn": "be delayed by",
+        "example": "The export has been held up by a change in the data format."
+      },
+      {
+        "en": "take longer than expected",
+        "def": "to need more time than people planned for",
+        "register": "neutral",
+        "example": "Adapting the scripts has taken longer than expected."
+      },
+      {
+        "en": "get back on track",
+        "def": "to return to the planned schedule after a problem",
+        "register": "neutral",
+        "example": "We could still get back on track earlier."
+      },
+      {
+        "en": "in the meantime",
+        "def": "during the time while something else is happening or being waited for",
+        "register": "neutral",
+        "syn": "meanwhile",
+        "example": "In the meantime, we've been testing the other modules."
+      },
+      {
+        "en": "hit a snag",
+        "def": "to run into an unexpected small problem",
+        "register": "casual",
+        "example": "We've hit a snag with the supplier's data."
+      },
+      {
+        "en": "owing to / due to",
+        "def": "because of (owing to is the more formal of the two); both take a noun, not a clause",
+        "register": "formal",
+        "example": "The delivery was rescheduled owing to a change in the data format."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "We've hit a snag with the supplier's data.",
+        "answer": "casual",
+        "explain": "*Hit a snag* is informal."
+      },
+      {
+        "text": "Its delivery has been rescheduled for 6 June.",
+        "answer": "formal",
+        "explain": "Passive and *rescheduled*: written, impersonal style."
+      },
+      {
+        "text": "It's taken longer than expected to adapt the scripts.",
+        "answer": "neutral",
+        "explain": "A plain, honest cause for colleagues or a client on a call."
+      },
+      {
+        "text": "The other team's been dragging their feet.",
+        "answer": "casual",
+        "explain": "An idiom that blames: only among friends."
+      },
+      {
+        "text": "Could you outline the causes and the revised timeline?",
+        "answer": "formal",
+        "explain": "*Outline*, *revised timeline*: the client's formal request."
+      },
+      {
+        "text": "We're about two weeks behind on the reporting module.",
+        "answer": "neutral",
+        "explain": "Direct and professional, without jargon or idioms."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Ryan explains the delay in four sentences. Notice how the cause, the consequence and the mitigation each get their own verb form, and how nobody is named as the culprit.",
+    "speaker": "ryan",
+    "audio": "l122-gd",
+    "text": "We{{'ve been waiting for}} the supplier's data since the 2nd, and adapting the scripts {{has taken longer than expected}}. {{As a result}}, the reporting module {{has slipped}} by two weeks. {{In the meantime}}, we{{'ve been testing}} the other modules, so the go-live date {{hasn't been pushed back}}.",
+    "tts": "We've been waiting for the supplier's data since the second, and adapting the scripts has taken longer [than](/ðən/) expected. As a result, the reporting module has slipped by two weeks. In the meantime, we've been testing the other modules, so the go-live date hasn't been pushed back.",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "Cause, link, consequence",
+      "prompt": "Complete the table. Type the missing cause, link or consequence from the text.",
+      "columns": [
+        "Cause (still active)",
+        "Link",
+        "Consequence (now)"
+      ],
+      "rows": [
+        [
+          "We{{'ve been waiting for}} the supplier's data since the 2nd",
+          {
+            "gap": "as a result",
+            "hint": "as a …",
+            "accept": [
+              "as a result",
+              "so",
+              "which is why",
+              "therefore",
+              "consequently",
+              "as a consequence"
+            ]
+          },
+          "the reporting module has slipped by two weeks"
+        ],
+        [
+          {
+            "gap": "has taken longer than expected",
+            "hint": "adapting the scripts … (take) longer than …",
+            "accept": [
+              "has taken longer than expected",
+              "has taken longer than planned",
+              "took longer than expected",
+              "adapting the scripts has taken longer than expected",
+              "it has taken longer than expected",
+              "it's taken longer than expected"
+            ]
+          },
+          "which is why",
+          "the export isn't ready yet"
+        ],
+        [
+          "We{{'ve been testing}} the other modules in the meantime",
+          "so",
+          {
+            "gap": "the go-live date hasn't been pushed back",
+            "hint": "the go-live date … (not push back)",
+            "accept": [
+              "the go-live date hasn't been pushed back",
+              "the go-live date has not been pushed back",
+              "hasn't been pushed back",
+              "has not been pushed back",
+              "it hasn't been pushed back",
+              "the go-live date isn't affected",
+              "the go-live date is not affected",
+              "the go-live date hasn't moved",
+              "the go-live date hasn't slipped"
+            ]
+          }
+        ]
+      ],
+      "explain": "Active cause in the Present Perfect Continuous, an explicit link (*as a result*, *which is why*, *so*), and a present consequence in the Present Perfect Simple or the passive."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "In *we've been waiting for the supplier's data since the 2nd, so the module has slipped by two weeks*, which part is the cause and which is the consequence? Is the cause still active now, or is it over? How does that affect the way Helen hears the delay?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "cause",
+            "label": "cause"
+          },
+          {
+            "re": "consequence|result|effect",
+            "label": "consequence"
+          },
+          {
+            "re": "still|ongoing|active|continu|not over|going on",
+            "label": "still active"
+          },
+          {
+            "re": "depend|supplier|external|excuse|blame|fault|outside",
+            "label": "external dependency"
+          }
+        ],
+        "model": "The cause is *we've been waiting for the supplier's data since the 2nd*; the consequence is *the module has slipped by two weeks*. The cause is still active: the team is still waiting, which is why the continuous form is used. Helen hears a delay explained by an ongoing external dependency, not by a finished mistake, so the message reads as an account of the situation rather than as an excuse.",
+        "criteria": [
+          "You identified the cause (*have been waiting*) and the consequence (*has slipped*).",
+          "You said the cause is still going on, which is why the continuous form is used.",
+          "You linked the choice of form to how the client hears the delay: an ongoing dependency, not a closed error."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "Look at *has slipped by two weeks*, *hasn't been pushed back* and, from the formal register, *has been held up by a change*. Which forms are active and which are passive? Write the passive pattern, and say what *by* introduces.",
+        "minWords": 12,
+        "signals": [
+          {
+            "re": "active",
+            "label": "active"
+          },
+          {
+            "re": "passive",
+            "label": "passive"
+          },
+          {
+            "re": "been \\+|been \\w+ed|have been|has been|past participle|participle",
+            "label": "has been + past participle"
+          },
+          {
+            "re": "\\bby\\b|agent|cause",
+            "label": "by + cause"
+          }
+        ],
+        "model": "*Has slipped* is active (Present Perfect Simple: *has + past participle*). *Hasn't been pushed back* and *has been held up by a change* are passive: *has / have + been + past participle*, and *by* introduces the cause, the agent. The passive lets you name the delay without naming a person: the module was held up by a change in the data format, not by Alex.",
+        "criteria": [
+          "You separated the active form (*has slipped*) from the passive ones (*has been pushed back / held up*).",
+          "You wrote the passive pattern: *has / have been + past participle*.",
+          "You said *by* introduces the cause and that the passive avoids naming a person."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Compare *The supplier changed the format and we're late* with *There has been a delay in the export work; adapting the scripts has taken longer than expected, partly because our estimate was optimistic*. What do *there has been a delay*, *longer than expected* and *partly* do to the tone? Where is the line between diplomacy and hiding the truth?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "blame|fault|culprit|person|someone|who",
+            "label": "no blame"
+          },
+          {
+            "re": "partly|share|responsib|honest|admit|accept",
+            "label": "share of responsibility"
+          },
+          {
+            "re": "tone|calm|soft|polite|neutral|factual|professional|relationship",
+            "label": "tone"
+          },
+          {
+            "re": "date|cause|fact|truth|specific|real|new date|when",
+            "label": "facts and a new date"
+          }
+        ],
+        "model": "*There has been a delay in…* and *it has taken longer than expected* describe the delay as an event, not as somebody's fault; *partly* admits a share of responsibility without exaggerating it. The tone becomes factual and calm, which protects the relationship. The line is simple: the hedges must sit next to the real cause and a revised date (*owing to a change in the supplier's format; revised date 6 June*). Softening without facts is evasion, and clients notice.",
+        "criteria": [
+          "You said these phrases present the delay as an event rather than as blame.",
+          "You said *partly* accepts a share of responsibility honestly.",
+          "You said diplomatic language still has to state the real cause and a new date."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "To explain a delay, give the cause that is still active with the Present Perfect Continuous (*we've been waiting for… since…*) and the present consequence with the Present Perfect Simple (*the module has slipped*) or the present (*the export isn't ready yet*).",
+        "Link cause and consequence explicitly: *so*, *as a result*, *which is why*, or *because of / due to / owing to* + noun phrase (*because* + clause).",
+        "The passive and impersonal nouns keep people out of the sentence: *the module has been held up by a change*, *there has been a delay in the export work*.",
+        "Diplomatic language is specific: a hedge (*partly*, *slightly*, *longer than expected*) next to the real cause, what is not affected, and a revised date."
+      ],
+      "formulas": [
+        "have / has been + -ing (cause) + so / as a result + have / has + past participle (consequence)",
+        "There has been a delay in + noun · has / have been held up by + cause",
+        "due to / owing to + noun phrase · because / which is why + clause"
+      ],
+      "note": "Spanish often states the cause bluntly and in the present (*es que el proveedor cambió el formato y vamos tarde*). In English, *there has been a delay in…* + a hedged cause + a revised date reads as professional, not as evasive."
+    }
+  },
+  "phonetics": {
+    "intro": "Al explicar un retraso usas bloques fijos que el oído nativo espera enlazados: *as a result* suena «a-za-ri-ZALT» y *held up*, «hel-DAP». También se debilitan las palabras funcionales: *than* en *longer than expected* se reduce a /ðən/. Y dos acentos que el español coloca en otra sílaba: *delay* y *setback*.",
+    "items": [
+      {
+        "id": "as-a-result",
+        "term": "as a result",
+        "pos": "linker",
+        "meaning": "because of what was just said; used to introduce a consequence",
+        "ipa": {
+          "us": "/ˌæz‿ə‿rɪˈzʌlt/",
+          "uk": "/ˌæz‿ə‿rɪˈzʌlt/"
+        },
+        "afh": "a-za-ri-ZALT",
+        "say": "As a result.",
+        "alerts": [
+          {
+            "type": "linking",
+            "text": "La z de *as* se une a *a* («a-za») y el bloque sigue sin pausa hasta *result*: «a-za-ri-ZALT». Cuatro palabras, un solo golpe de voz."
+          },
+          {
+            "type": "stress",
+            "text": "*Result* lleva el acento en la última sílaba, «ri-ZALT», con s sonora /z/ (un zumbido). No «RE-sult»."
+          },
+          {
+            "type": "weak",
+            "text": "*A* es una schwa /ə/ brevísima, y *as* queda corto, casi /əz/, en habla rápida."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "As a result, the date has slipped by two weeks."
+        }
+      },
+      {
+        "id": "held-up",
+        "term": "held up (be held up by)",
+        "pos": "phrasal verb, passive",
+        "meaning": "delayed by something",
+        "ipa": {
+          "us": "/ˌheld‿ˈʌp/ → /ˌhel.ˈdʌp/",
+          "uk": "/ˌheld‿ˈʌp/ → /ˌhel.ˈdʌp/"
+        },
+        "afh": "hel-DAP",
+        "say": "Held up.",
+        "alerts": [
+          {
+            "type": "linking",
+            "text": "La d de *held* pasa a *up*: «hel-DAP», no «held / ap». Es la d la que enlaza."
+          },
+          {
+            "type": "consonant",
+            "text": "La h es una aspiración suave, nunca una jota. Y la d final se pronuncia: sin ella no hay enlace."
+          },
+          {
+            "type": "vowel",
+            "text": "/ʌ/ de *up* es una a corta y relajada, «ap», no «up» con u."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "The export has been held up by a change in the data format."
+        }
+      },
+      {
+        "id": "than-expected",
+        "term": "than expected (longer than expected)",
+        "pos": "chunk",
+        "meaning": "more than people had planned or predicted",
+        "ipa": {
+          "us": "/ðən‿ɪkˈspek.tɪd/",
+          "uk": "/ðən‿ɪkˈspek.tɪd/"
+        },
+        "afh": "dha-nik-SPEK-tid",
+        "say": "Than expected.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Than* casi siempre es débil: /ðən/, «dhan», con schwa. Ni «dan» ni «zan» ni «dán» con vocal plena."
+          },
+          {
+            "type": "linking",
+            "text": "La n de *than* enlaza con la vocal de *expected*: «dha-nik-SPEK-tid»."
+          },
+          {
+            "type": "ed",
+            "text": "*Expected* termina en /tɪd/: tras una t, el sufijo -ed añade una sílaba, «tid». Compara con *pushed* /t/ y *slipped* /t/, sin sílaba extra."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "It has taken longer than expected to adapt the scripts.",
+          "tts": "It has taken longer [than](/ðən/) expected to adapt the scripts."
+        },
+        "ttsUs": "[Than](/ðən/) expected.",
+        "ttsUk": "[Than](/ðən/) expected."
+      },
+      {
+        "id": "delay",
+        "term": "delay",
+        "pos": "n. · v.",
+        "meaning": "a situation in which something happens later than planned; to make something late",
+        "ipa": {
+          "us": "/dɪˈleɪ/",
+          "uk": "/dɪˈleɪ/"
+        },
+        "afh": "di-LÉI",
+        "say": "Delay.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba: «di-LÉI». El hispanohablante tiende a «DÉ-lei» por *demora*."
+          },
+          {
+            "type": "vowel",
+            "text": "La primera sílaba es /ɪ/ breve, «di»; la segunda es el diptongo /eɪ/, «lei», no «le»."
+          },
+          {
+            "type": "linking",
+            "text": "*A delay in*: «a-di-LÉI-in», la vocal final enlaza con *in* sin cortar."
+          }
+        ],
+        "example": {
+          "speaker": "helen",
+          "text": "I understand there has been a delay in the data-export work."
+        }
+      },
+      {
+        "id": "setback",
+        "term": "setback (n.) · set back (v.)",
+        "pos": "n. · phrasal verb",
+        "meaning": "a problem that reverses progress; to make something later",
+        "ipa": {
+          "us": "/ˈset.bæk/ · /ˌset‿ˈbæk/",
+          "uk": "/ˈset.bæk/ · /ˌset‿ˈbæk/"
+        },
+        "afh": "SET-bak · set-BAK",
+        "say": "Setback.",
+        "variants": [
+          {
+            "label": "Noun: SET-back",
+            "speaker": "coach",
+            "audio": "l122-ph-setback-noun",
+            "text": "It was a minor setback."
+          },
+          {
+            "label": "Verb: set BACK",
+            "speaker": "coach",
+            "audio": "l122-ph-setback-verb",
+            "text": "The format change set us back two weeks."
+          }
+        ],
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Sustantivo: «SET-bak», acento delante. Verbo: «set BAK», acento en la partícula. El mismo patrón que *REcord / reCORD*."
+          },
+          {
+            "type": "consonant",
+            "text": "La t de *set* delante de b se queda sin explosión: «se(t)-bak», nunca «sé-te-bak» con vocal añadida."
+          },
+          {
+            "type": "vowel",
+            "text": "/æ/ de *back*: una a abierta que tira hacia la e, «bak». No es la a española pura."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "The format change was a setback, but it hasn't pushed back the go-live date."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Active cause, present consequence",
+        "formula": "have / has been + -ing (cause) + so / as a result + have / has + past participle (consequence)",
+        "usage": "The cause is still going on (continuous); the consequence is a present result (simple) or a present state.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l122-cc-1a",
+            "text": "We{{'ve been waiting for}} the data since the 2nd, {{so}} the module {{has slipped}} by two weeks.",
+            "tts": "We've been waiting for the data since the second, so the module has slipped by two weeks."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l122-cc-1b",
+            "text": "Adapting the scripts {{has taken longer than expected}}, {{which is why}} the export isn't ready yet.",
+            "tts": "Adapting the scripts has taken longer [than](/ðən/) expected, which is why the export isn't ready yet."
+          }
+        ]
+      },
+      {
+        "title": "A delay without blame: passive and nouns",
+        "formula": "has / have been + past participle (+ by + cause) · There has been a delay in + noun",
+        "usage": "Keep people out of the sentence when the point is the work, not the person.",
+        "examples": [
+          {
+            "speaker": "emma",
+            "audio": "l122-cc-2a",
+            "text": "The module {{has been held up by}} a change in the supplier's data format."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l122-cc-2b",
+            "text": "{{There has been a delay in}} the data-export work."
+          }
+        ]
+      },
+      {
+        "title": "Linking cause and consequence",
+        "formula": "because of / due to / owing to + noun · because / since + clause · as a result / which is why + consequence",
+        "usage": "*Owing to* and *due to* are formal and take a noun phrase; *because* takes a full clause. *As a result* opens a sentence; *which is why* continues one.",
+        "examples": [
+          {
+            "speaker": "daniel",
+            "audio": "l122-cc-3a",
+            "text": "{{Owing to}} a change in the data format, the delivery has been rescheduled."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l122-cc-3b",
+            "text": "We're behind {{because}} we've been waiting for the supplier, {{which is why}} the date has moved."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "The cause in the present tense",
+        "text": "Spanish *es que estamos esperando desde el día 2* uses the present. English needs *we've been waiting since the 2nd*: the cause started in the past and continues.",
+        "wrong": "We are waiting for the data since the 2nd, so we are late.",
+        "right": "We've been waiting for the data since the 2nd, so we're late."
+      },
+      {
+        "title": "Due to + a whole clause",
+        "text": "*Due to* and *owing to* take a noun phrase, not a clause. With a clause, use *because*.",
+        "wrong": "The module is late due to the supplier changed the format.",
+        "right": "The module is late due to a change in the supplier's format."
+      },
+      {
+        "title": "Delay as «retrasarse»",
+        "text": "A project does not *delay*; it *is delayed* or *has slipped*. *Delay* as a verb needs an object (*delay the launch*).",
+        "wrong": "The reporting module has delayed two weeks.",
+        "right": "The reporting module has been delayed by two weeks."
+      },
+      {
+        "title": "Naming the culprit",
+        "text": "Spanish allows a direct *la culpa es del proveedor*. In a client message, name the event, not the person, and never *guilty*, which belongs in court.",
+        "wrong": "The supplier is guilty of the delay.",
+        "right": "The delay is largely down to a change in the supplier's data format."
+      },
+      {
+        "title": "For a deadline",
+        "text": "*Para el 6 de junio* is *by 6 June*, not *for*. *For* names a purpose or a recipient.",
+        "wrong": "We'll deliver the module for June 6.",
+        "right": "We'll deliver the module by June 6."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the best form.",
+      "text": "We ___ for the supplier's data since the 2nd.",
+      "options": [
+        "have been waiting",
+        "are waiting",
+        "waited"
+      ],
+      "answer": 0,
+      "explain": "An active cause with *since* → Present Perfect Continuous."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the best form.",
+      "text": "The module ___ by two weeks because of the change.",
+      "options": [
+        "has been delayed",
+        "has delayed",
+        "is delaying"
+      ],
+      "answer": 0,
+      "explain": "The module is the thing delayed → passive: *has been delayed*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right linker.",
+      "text": "The launch was postponed ___ a change in the data format.",
+      "options": [
+        "owing to",
+        "because",
+        "which is why"
+      ],
+      "answer": 0,
+      "explain": "*Owing to* + noun phrase. *Because* needs a clause; *which is why* introduces a consequence."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right word.",
+      "text": "It has taken longer ___ expected to adapt the scripts.",
+      "options": [
+        "than",
+        "that",
+        "of"
+      ],
+      "answer": 0,
+      "explain": "*Longer than expected*: a comparison, with weak *than* /ðən/."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with a noun.",
+      "text": "There has been a ___ in the data-export work.",
+      "accept": [
+        "delay"
+      ],
+      "explain": "*There has been a delay in* + the work affected."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete the hedge.",
+      "text": "Adapting the scripts has taken longer than ___.",
+      "accept": [
+        "expected",
+        "planned",
+        "anticipated"
+      ],
+      "explain": "*Longer than expected / planned / anticipated*: all three are natural."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "In the ___, we've been testing the other modules.",
+      "accept": [
+        "meantime"
+      ],
+      "explain": "*In the meantime* = meanwhile."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "As",
+        "a",
+        "result,",
+        "the",
+        "date",
+        "has",
+        "slipped",
+        "by",
+        "two",
+        "weeks"
+      ],
+      "answer": "As a result, the date has slipped by two weeks",
+      "explain": "*As a result* opens the consequence; *has slipped by* + the amount of time."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "The",
+        "export",
+        "has",
+        "been",
+        "held",
+        "up",
+        "by",
+        "a",
+        "change",
+        "in",
+        "the",
+        "format"
+      ],
+      "answer": "The export has been held up by a change in the format",
+      "explain": "Passive: *has been held up by* + the cause."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the typical Spanish-speaker slip.",
+      "wrong": "We are waiting for the data since the 2nd, so we are late.",
+      "accept": [
+        "We've been waiting for the data since the 2nd, so we're late.",
+        "We have been waiting for the data since the 2nd, so we are late.",
+        "We've been waiting for the data since the 2nd, so we are late.",
+        "We have been waiting for the data since the 2nd, so we're late."
+      ],
+      "explain": "An active cause with *since* → *have been waiting*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the linker.",
+      "wrong": "The module is late due to the supplier changed the format.",
+      "accept": [
+        "The module is late because the supplier changed the format.",
+        "The module is late due to a change in the supplier's format.",
+        "The module is late because of a change in the supplier's format.",
+        "The module is late due to the supplier's change of format."
+      ],
+      "explain": "*Due to* + noun phrase, or *because* + clause."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the verb.",
+      "wrong": "The reporting module has delayed two weeks.",
+      "accept": [
+        "The reporting module has been delayed by two weeks.",
+        "The reporting module has been delayed two weeks.",
+        "The reporting module has slipped by two weeks.",
+        "The reporting module has slipped two weeks."
+      ],
+      "explain": "*Delay* needs an object or the passive: *has been delayed*. Or use *has slipped*."
+    },
+    {
+      "type": "organizer",
+      "kind": "timeline",
+      "prompt": "Put the delay story on the time line. Type the missing verb forms.",
+      "points": [
+        {
+          "when": "May 2",
+          "text": "The supplier changes the data format."
+        },
+        {
+          "when": "May 2 → now",
+          "gap": "have been waiting",
+          "hint": "we … (wait) for the final version",
+          "accept": [
+            "have been waiting",
+            "'ve been waiting",
+            "have been waiting for the final version",
+            "we have been waiting",
+            "we've been waiting"
+          ]
+        },
+        {
+          "when": "Consequence",
+          "gap": "has slipped",
+          "hint": "the date … (slip) by two weeks",
+          "accept": [
+            "has slipped",
+            "'s slipped",
+            "has slipped by two weeks",
+            "has been pushed back"
+          ]
+        },
+        {
+          "when": "June 6",
+          "text": "Revised delivery date."
+        }
+      ],
+      "explain": "From May 2 to now: *have been waiting* (active cause). Consequence: *has slipped* (present result)."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *delay* is stressed?",
+      "word": "delay",
+      "syllables": [
+        "de",
+        "lay"
+      ],
+      "answer": 1,
+      "audioRef": "l122-ph-delay-us",
+      "explain": "de-**LAY**: stress on the second syllable, unlike Spanish *demora*."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "ryan",
+      "audio": "l122-dict-1",
+      "text": "As a result, the module has slipped by about two weeks.",
+      "explain": "*As a result* + consequence in the Present Perfect Simple."
+    }
+  ],
+  "task": {
+    "title": "Explaining a delay to a client",
+    "format": "email",
+    "scenario": "You lead a small team. A piece of work your client is waiting for is going to be two weeks late: an external dependency (a supplier, another department, a legal review) has been slower than planned, and your own estimate was optimistic. Write the email that explains the delay, keeps the client's trust and proposes a revised date.",
+    "brief": "Explain a delay diplomatically: the active cause, the consequence, what you have been doing in the meantime and a revised date.",
+    "steps": [
+      "Open with the purpose: an update on one specific deliverable.",
+      "State that there has been a delay and give the active cause with *have been + -ing* and *since*.",
+      "Accept your share honestly (*partly*, *longer than expected*) without blaming a person.",
+      "Say what you have been doing in the meantime and what is not affected.",
+      "Give a revised date and your next contact."
+    ],
+    "length": "100–140 words",
+    "minWords": 70,
+    "keywords": [
+      "I'm writing to update you on",
+      "there has been a delay in",
+      "we've been waiting for … since",
+      "partly",
+      "longer than expected",
+      "as a result",
+      "has slipped",
+      "in the meantime",
+      "is not affected",
+      "revised date",
+      "by Friday"
+    ],
+    "chunks": [
+      {
+        "label": "have been + -ing",
+        "re": "\\b(have|has|'ve|'s)\\s+been\\s+\\w+ing\\b"
+      },
+      {
+        "label": "the delay as an event",
+        "re": "\\b(a|the)\\s+delay\\s+(in|to|of)\\b|\\bbeen\\s+(delayed|held up|pushed back|rescheduled)\\b|\\bhas slipped\\b"
+      },
+      {
+        "label": "cause link",
+        "re": "\\b(as a result|which is why|due to|owing to|because of|because)\\b"
+      },
+      {
+        "label": "hedge",
+        "re": "\\b(partly|slightly|longer than (expected|planned|anticipated)|it appears|unfortunately)\\b"
+      },
+      {
+        "label": "in the meantime",
+        "re": "\\b(in the meantime|meanwhile)\\b"
+      },
+      {
+        "label": "revised date",
+        "re": "\\b(revised|new)\\s+(date|plan|timeline|schedule)\\b|\\bby\\s+(monday|tuesday|wednesday|thursday|friday|the end|\\d|january|february|march|april|may|june|july|august|september|october|november|december)"
+      }
+    ],
+    "checks": [
+      "presentForSince",
+      "sinceDuration",
+      "dueToClause",
+      "delayIntransitive",
+      "forDeadline",
+      "blameWords",
+      "actuallyCurrently",
+      "proDropPerfect",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the formal line for the steering committee",
+      "brief": "Condense the delay into one formal sentence for a written report: the cause as a noun phrase, the passive, and what remains unchanged.",
+      "keywords": [
+        "Owing to",
+        "has been held up by",
+        "has been rescheduled for",
+        "remains unchanged"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l122-task-model",
+          "text": "Hi Tom, {{I'm writing to update you on}} the video tutorials for the help center. {{There has been a delay in}} the editing work: we{{'ve been waiting for}} the new brand guidelines {{since}} the 5th, and re-recording the voice-over {{has taken longer than expected}}, {{partly}} because our first estimate was optimistic. {{As a result}}, the tutorials {{have slipped}} from June 14 to June 28. {{In the meantime}}, we{{'ve been publishing}} the written articles, so the launch of the help center {{is not affected}}. I'll send you a {{revised}} schedule {{by Friday}} and flag it early if anything else changes. Best, Alex",
+          "tts": "Hi Tom, I'm writing to update you on the video tutorials for the help center. There has been a delay in the editing work: we've been waiting for the new brand guidelines since the fifth, and re-recording the voice-over has taken longer [than](/ðən/) expected, partly because our first estimate was optimistic. As a result, the tutorials have slipped from June fourteenth to June twenty-eighth. In the meantime, we've been publishing the written articles, so the launch of the help center is not affected. I'll send you a revised schedule by Friday and flag it early if anything else changes. Best, Alex",
+          "label": "Email to a client contact (neutral, professional)",
+          "notes": [
+            "*There has been a delay in the editing work*: the delay is an event; nobody is named.",
+            "*We've been waiting for… since the 5th* (active cause) + *has taken longer than expected, partly because…* (honest share).",
+            "*As a result, the tutorials have slipped from… to…*: a consequence with real dates.",
+            "*In the meantime… is not affected*: what was done with the waiting time and what the client keeps.",
+            "*Revised schedule by Friday*: a delay with a plan attached."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l122-task-formal",
+          "text": "{{Owing to}} a change in the brand guidelines, delivery of the video tutorials {{has been rescheduled for}} 28 June; the launch date of the help center {{remains unchanged}}.",
+          "tts": "Owing to a change in the brand guidelines, delivery of the video tutorials has been rescheduled for the twenty-eighth of June; the launch date of the help center remains unchanged.",
+          "label": "Formal line for the steering committee (written)",
+          "notes": [
+            "*Owing to* + noun phrase: the cause in four words, no story.",
+            "*Delivery… has been rescheduled for*: the passive and a noun (*delivery*) instead of *we will deliver*.",
+            "*Remains unchanged*: the reassuring fact goes last, so it is what the reader remembers."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "¿Tu correo explica la causa sin señalar a una persona (*there has been a delay in…*, *has been held up by…*)? ¿Qué frase concreta evita la culpa y cuál asume tu parte (*partly*)?",
+        "reflect": true
+      },
+      {
+        "area": "register",
+        "text": "¿Está en el registro del cliente (*I'm writing to update you*, *revised date*), sin *hit a snag* ni *dragging their feet*? ¿Y la frase extra suena a informe (*owing to*, pasiva) y no a correo?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Pusiste la causa en presente (*we are waiting since*)? ¿*Due to* va seguido de un sustantivo y no de una oración? ¿*By* y no *for* con la fecha límite?"
+      },
+      {
+        "area": "accuracy",
+        "text": "¿La causa activa va en *have been + -ing* y la consecuencia en *has + participio* o en pasiva (*has been delayed*)? ¿*Delay* lleva objeto o pasiva, nunca *the module has delayed*?"
+      },
+      {
+        "area": "strategy",
+        "text": "¿Diste una fecha nueva y un próximo contacto? Un retraso sin fecha nueva es una excusa; con fecha y plan, es gestión.",
+        "reflect": true
+      }
+    ]
+  }
+}

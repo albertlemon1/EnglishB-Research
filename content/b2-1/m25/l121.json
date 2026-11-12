@@ -44,7 +44,7 @@
         {
           "speaker": "ryan",
           "audio": "l121-dlg-03",
-          "text": "Noted. Alex, what about the data export bug?"
+          "text": "Noted, thanks. Alex, what about the data export bug?"
         },
         {
           "speaker": "alex",
@@ -393,10 +393,22 @@
         "q": "Compare *we've been working on the migration since March* and *we've migrated three of the five modules*. Which one describes an activity that is still going on, and which one a finished result? Say how you know: look at the time words and at what comes after the verb.",
         "minWords": 12,
         "signals": [
-          { "re": "still|going on|ongoing|in progress|continu|not finished|unfinished", "label": "still going on" },
-          { "re": "finish|complet|result|done|achiev", "label": "finished result" },
-          { "re": "since|for two|for \\w+ weeks|so far", "label": "since / for / so far" },
-          { "re": "three|number|quantity|how many|count|amount", "label": "a number" }
+          {
+            "re": "still|going on|ongoing|in progress|continu|not finished|unfinished",
+            "label": "still going on"
+          },
+          {
+            "re": "finish|complet|result|done|achiev",
+            "label": "finished result"
+          },
+          {
+            "re": "since|for two|for \\w+ weeks|so far",
+            "label": "since / for / so far"
+          },
+          {
+            "re": "three|number|quantity|how many|count|amount",
+            "label": "a number"
+          }
         ],
         "model": "*We've been working on the migration since March* is an activity that started in the past and is still going on: *since March* gives the starting point, and the migration is not finished. *We've migrated three of the five modules* is a finished result: a number of things completed up to now, which is why *so far* goes with it. The continuous looks at the work; the simple counts what the work has produced.",
         "criteria": [
@@ -411,10 +423,22 @@
         "q": "How is each form built? Write both patterns (the auxiliaries and the form of the main verb), and say which time expressions go with each one: *since March*, *for two weeks*, *so far*, *yet*.",
         "minWords": 12,
         "signals": [
-          { "re": "have been|has been|been \\+|been working|been testing|\\bing\\b|-ing", "label": "have been + -ing" },
-          { "re": "past participle|participle|third form|-ed|\\bpp\\b|migrated|finished", "label": "have + past participle" },
-          { "re": "\\bsince\\b|\\bfor\\b", "label": "since / for" },
-          { "re": "so far|\\byet\\b", "label": "so far / yet" }
+          {
+            "re": "have been|has been|been \\+|been working|been testing|\\bing\\b|-ing",
+            "label": "have been + -ing"
+          },
+          {
+            "re": "past participle|participle|third form|-ed|\\bpp\\b|migrated|finished",
+            "label": "have + past participle"
+          },
+          {
+            "re": "\\bsince\\b|\\bfor\\b",
+            "label": "since / for"
+          },
+          {
+            "re": "so far|\\byet\\b",
+            "label": "so far / yet"
+          }
         ],
         "model": "Continuous: *have / has + been + verb-ing* (*we've been working*, *she has been testing*). It takes *since* + a starting point and *for* + a length of time. Simple: *have / has + past participle* (*we've migrated*, *we haven't finished*). It takes *so far*, *already*, *yet* in negatives and questions, and a quantity (*three of the five modules*).",
         "criteria": [
@@ -429,9 +453,18 @@
         "q": "Ryan says *we've been working on it since March*, not *we worked on it in March* or *we've done the migration*. What does the continuous form tell Helen, the client, about the team's effort and about the present? And when would a manager deliberately choose the simple form instead?",
         "minWords": 15,
         "signals": [
-          { "re": "effort|hard|busy|continu|duration|how long|sustain", "label": "effort / duration" },
-          { "re": "still|not finished|unfinished|ongoing|\\bnow\\b|present|in progress", "label": "not finished yet" },
-          { "re": "result|achiev|complet|deliver|number|how many|evidence|figures|proof", "label": "results" }
+          {
+            "re": "effort|hard|busy|continu|duration|how long|sustain",
+            "label": "effort / duration"
+          },
+          {
+            "re": "still|not finished|unfinished|ongoing|\\bnow\\b|present|in progress",
+            "label": "not finished yet"
+          },
+          {
+            "re": "result|achiev|complet|deliver|number|how many|evidence|figures|proof",
+            "label": "results"
+          }
         ],
         "model": "The continuous highlights sustained effort and duration (*how long*), and it makes clear that the work is not finished: a fair picture of an ongoing project, and a polite way of saying *we're still on it*. A manager chooses the simple form to show results and evidence (*we've migrated three modules*, *we've completed twelve interviews*): numbers reassure a client more than effort does, so a good status update combines both.",
         "criteria": [
@@ -499,9 +532,7 @@
           "uk": "/biːn/ · /bɪn/ (weak)"
         },
         "afh": "uiv-BIN wér-king → «uiv bin»",
-        "say": "Been. We've been working on it.",
-        "ttsUs": "[Been](/bɪn/). We've [been](/bɪn/) working on it.",
-        "ttsUk": "[Been](/biːn/). We've [been](/biːn/) working on it.",
+        "say": "We've been.",
         "alerts": [
           {
             "type": "weak",
@@ -520,7 +551,9 @@
           "speaker": "ryan",
           "text": "We've been testing the new design for two weeks.",
           "tts": "We've [been](/bɪn/) testing the new design for two weeks."
-        }
+        },
+        "ttsUs": "We've [been](/bɪn/).",
+        "ttsUk": "We've [been](/biːn/)."
       },
       {
         "id": "roll-out",
@@ -532,7 +565,7 @@
           "uk": "/ˌrəʊ‿ˈlaʊt/ · /ˌrəʊ.lɪ‿ˈtaʊt/"
         },
         "afh": "ro-LAUT · ro-li-RAUT",
-        "say": "Roll out. Roll it out.",
+        "say": "Roll it out.",
         "alerts": [
           {
             "type": "linking",
@@ -562,7 +595,7 @@
           "uk": "/ˈʃedʒ.uːl/"
         },
         "afh": "SKE-dyul (US) · SHE-dyul (UK)",
-        "say": "Schedule. On schedule. Behind schedule.",
+        "say": "Schedule.",
         "alerts": [
           {
             "type": "s-cluster",
@@ -592,9 +625,7 @@
           "uk": "/ˈprəʊ.ɡres/"
         },
         "afh": "PRA-gres (US) · PRÓU-gres (UK)",
-        "say": "Progress. Make progress.",
-        "ttsUs": "[Progress](/pɹˈɑɡɹɛs/). Make [progress](/pɹˈɑɡɹɛs/).",
-        "ttsUk": "[Progress](/pɹˈəʊɡɹɛs/). Make [progress](/pɹˈəʊɡɹɛs/).",
+        "say": "Progress.",
         "variants": [
           {
             "label": "Noun: PRO-gress",
@@ -629,7 +660,9 @@
           "speaker": "priya",
           "text": "We've made a lot of progress on the new design this month.",
           "tts": "We've made a lot of [progress](/pɹˈɑɡɹɛs/) on the new design this month."
-        }
+        },
+        "ttsUs": "[Progress](/pɹˈɑɡɹɛs/).",
+        "ttsUk": "[Progress](/pɹˈəʊɡɹɛs/)."
       }
     ]
   },
