@@ -1,0 +1,1087 @@
+{
+  "id": "l129",
+  "n": 129,
+  "title": "Offering Alternatives & Counter-Proposals",
+  "titleEs": "Ofrecer alternativas y contrapropuestas",
+  "minutes": 60,
+  "summary": "Turn a no into a way forward: offer options (*one option would be to…*, *alternatively…*), suggest tentatively with past forms (*What if we added…?*, *Would it help if I…?*), set conditions (*provided / as long as* + present) and build a counter-proposal on the other person's plan instead of replacing it.",
+  "canDo": [
+    "Present two or three options and recommend one, with *one option would be to*, *alternatively* and *rather than*.",
+    "Make tentative suggestions with *What if we + past?*, *Would it help if I + past?* and *How about + -ing?*",
+    "Set conditions with *provided (that)* and *as long as* + present simple.",
+    "Hear and say the weak forms of *could*, *or* and *as*, and link *what if* into one beat."
+  ],
+  "focus": {
+    "grammar": "What if / Would it help if + past simple (tentative suggestion) · How about + -ing · one option would be to + verb · rather than / instead of + -ing · provided (that) / as long as + present simple for the future · suggest + -ing / that-clause",
+    "lexis": "one option would be to, alternatively, what if we, how about, would it help if, rather than, as long as, provided (that), that could work, a phased approach, a fallback, meet someone halfway, put something to someone",
+    "afh": "weak forms: could /kəd/, or /ɚ/ · /ə/, as /əz/ (as long as) · linking what if /wʌt̬‿ˈɪf/ · alTERnative (stress on the second syllable)"
+  },
+  "warmup": "Think of a time when someone said no to your idea and then offered something else. Did the alternative feel like a real offer or like a polite way to end the conversation? What made the difference?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Options for tomorrow's call",
+      "context": "Thursday afternoon. Ryan sends the team the options he wants to put to Helen on Friday, when the search decision is due.",
+      "speaker": "ryan",
+      "to": "The migration team",
+      "audio": "l129-scn",
+      "text": "Hi all, here are the options I'd like to {{put to}} Helen tomorrow. {{One option would be to}} launch on June 20 with the basic keyword search we already have, and add the full search in the July update. {{Alternatively}}, we {{could}} move go-live to July, but that would mean new training dates and an extra month on the old platform's contract. A launch with no search at all isn't an option. I'd go with the first one, {{provided that}} the basic search passes Monday's check. Any thoughts before tomorrow? Ryan",
+      "tts": "Hi all, here are the options I'd like to put to Helen tomorrow. One option [would](/wəd/) be to launch on June twentieth with the basic keyword search we already have, [and](/ənd/) add the full search in the July update. Alternatively, we [could](/kəd/) move go-live to July, [but](/bət/) that [would](/wəd/) mean new training dates [and](/ənd/) an extra month on the old platform's contract. A launch with no search [at](/ət/) all isn't an option. I'd go with the first one, provided that the basic search passes Monday's check. Any thoughts before tomorrow? Ryan"
+    },
+    "dialogue": {
+      "title": "A better option one",
+      "context": "The team meets to discuss Ryan's options. Priya has an idea.",
+      "lines": [
+        {
+          "speaker": "priya",
+          "audio": "l129-dlg-01",
+          "text": "I like option one, but the basic search only matches exact words. {{What if we added}} a filter by invoice number? That's what most customers look for.",
+          "tts": "I like option one, [but](/bət/) the basic search only matches exact words. What if we added a filter by invoice number? That's what most customers look for."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l129-dlg-02",
+          "text": "{{That could work}}, {{as long as}} we keep it small. Filters on the full search would take weeks.",
+          "tts": "That [could](/kəd/) work, [as](/əz/) long [as](/əz/) we keep it small. Filters on the full search [would](/wəd/) take weeks."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l129-dlg-03",
+          "text": "{{How about}} just the invoice filter, then? The date filter can wait until July.",
+          "tts": "How about just the invoice filter, then? The date filter [can](/kən/) wait until July."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l129-dlg-04",
+          "text": "{{Would it help if}} I asked Helen which filter her customers use most?",
+          "tts": "[Would](/wəd/) it help if I asked Helen which filter [her](/əɹ/) customers use most?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l129-dlg-05",
+          "text": "Yes, {{rather than}} guessing. Her support team will know.",
+          "tts": "Yes, rather than guessing. [Her](/həɹ/) support team will know."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l129-dlg-06",
+          "text": "One condition: if we add the filter, Monday's check covers the filter too."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l129-dlg-07",
+          "text": "Fine by me. So: the basic search plus one filter at launch, and the full search in July.",
+          "tts": "Fine by me. So: the basic search plus one filter [at](/ət/) launch, [and](/ənd/) the full search in July."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l129-dlg-08",
+          "text": "Agreed. I'll put that to Helen tomorrow as our recommendation, with option two as {{a fallback}}.",
+          "tts": "Agreed. I'll put that to Helen tomorrow [as](/əz/) our recommendation, with option two [as](/əz/) a fallback."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "What is Priya's counter-proposal?",
+        "options": [
+          "To add a filter by invoice number to the basic search",
+          "To move go-live to July",
+          "To launch without any search"
+        ],
+        "answer": 0,
+        "explain": "*What if we added a filter by invoice number?* She improves option one instead of replacing it."
+      },
+      {
+        "q": "What condition does Oliver set?",
+        "options": [
+          "Keep it small, and include the filter in Monday's check",
+          "Add the date filter too",
+          "Ask Helen for more budget first"
+        ],
+        "answer": 0,
+        "explain": "*As long as we keep it small* and *Monday's check covers the filter too*."
+      },
+      {
+        "q": "What will Ryan recommend to Helen?",
+        "options": [
+          "The basic search plus one filter at launch, and the full search in July",
+          "Moving go-live to July",
+          "Two filters at launch and no full search"
+        ],
+        "answer": 0,
+        "explain": "*The basic search plus one filter at launch, and the full search in July*, with option two as a fallback."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Making plans with friends.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l129-reg-c1",
+            "text": "What if we just got pizza instead? Way easier.",
+            "note": "*What if we just…?* + *instead*: a casual counter-proposal; *way easier* = much easier."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l129-reg-c2",
+            "text": "Or we could do Sunday? Saturday's kind of packed.",
+            "note": "*Or we could…?* as a question: a light alternative; *packed* = very busy.",
+            "tts": "[Or](/əɹ/) we [could](/kəd/) do Sunday? Saturday's kind [of](/əv/) packed."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Team meetings and everyday client calls.",
+        "items": [
+          {
+            "speaker": "ryan",
+            "audio": "l129-reg-n1",
+            "text": "One option would be to launch with the basic search and add the full search in July.",
+            "note": "*One option would be to* + verb: an option, not an order.",
+            "tts": "One option [would](/wəd/) be to launch with the basic search [and](/ənd/) add the full search in July."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l129-reg-n2",
+            "text": "What if we added a filter by invoice number?",
+            "note": "*What if* + past simple: a tentative suggestion that is easy to discuss."
+          },
+          {
+            "speaker": "oliver",
+            "audio": "l129-reg-n3",
+            "text": "That could work, as long as we keep it small.",
+            "note": "Tentative agreement (*that could work*) + a condition (*as long as* + present).",
+            "tts": "That [could](/kəd/) work, [as](/əz/) long [as](/əz/) we keep it small."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Formal proposals and negotiation with senior stakeholders.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l129-reg-f1",
+            "text": "As an alternative, we would propose a phased approach, with the full search delivered in the July release.",
+            "note": "*We would propose* + *a phased approach*: a formal, softened proposal.",
+            "tts": "[As](/əz/) an alternative, we [would](/wəd/) propose a phased approach, with the full search delivered in the July release."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l129-reg-f2",
+            "text": "We would be prepared to accept a phased launch, provided that the full search is live by mid-July.",
+            "note": "A client's counter-proposal: *would be prepared to* + a condition with *provided that*.",
+            "tts": "We [would](/wəd/) be prepared to accept a phased launch, provided that the full search is live by mid-July."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "one option would be to (+ verb)",
+        "def": "introduces one possible course of action, without imposing it",
+        "register": "neutral",
+        "example": "One option would be to launch with the basic search."
+      },
+      {
+        "en": "alternatively",
+        "def": "introduces a second possible course of action",
+        "register": "neutral",
+        "syn": "or else",
+        "example": "Alternatively, we could move go-live to July."
+      },
+      {
+        "en": "what if we (+ past simple)?",
+        "def": "a tentative suggestion; the past form makes it softer than the present",
+        "register": "neutral",
+        "example": "What if we added a filter by invoice number?"
+      },
+      {
+        "en": "how about (+ -ing / noun)?",
+        "def": "an informal suggestion",
+        "register": "casual",
+        "example": "How about just the invoice filter, then?"
+      },
+      {
+        "en": "would it help if (+ past simple)?",
+        "def": "an offer of help that leaves the other person free to say no",
+        "register": "neutral",
+        "example": "Would it help if I asked Helen which filter matters most?"
+      },
+      {
+        "en": "rather than (+ verb / -ing)",
+        "def": "instead of; used to reject one option in favour of another",
+        "register": "neutral",
+        "syn": "instead of",
+        "example": "Rather than guessing, let's ask her support team."
+      },
+      {
+        "en": "as long as / provided (that) (+ present)",
+        "def": "only on this condition; *provided* is more formal",
+        "register": "neutral",
+        "example": "That could work, as long as we keep it small."
+      },
+      {
+        "en": "that could work",
+        "def": "a tentative yes to someone's suggestion",
+        "register": "neutral",
+        "example": "That could work, as long as we keep it small."
+      },
+      {
+        "en": "a phased approach",
+        "def": "doing something in stages instead of all at once",
+        "register": "formal",
+        "example": "We would propose a phased approach."
+      },
+      {
+        "en": "a fallback",
+        "def": "a second plan to use if the first one fails",
+        "register": "neutral",
+        "syn": "a plan B",
+        "example": "We'll keep option two as a fallback."
+      },
+      {
+        "en": "meet someone halfway",
+        "def": "to accept part of what the other person wants so that you both give something",
+        "register": "neutral",
+        "example": "If we add one filter, we meet the client halfway."
+      },
+      {
+        "en": "put something to someone",
+        "def": "to present an idea or a plan so that someone can decide",
+        "register": "neutral",
+        "example": "I'll put that to Helen tomorrow."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "What if we just got pizza instead? Way easier.",
+        "answer": "casual",
+        "explain": "*Just*, *way easier* and a fragment: chat."
+      },
+      {
+        "text": "We would be prepared to accept a phased launch, provided that the full search is live by mid-July.",
+        "answer": "formal",
+        "explain": "*Would be prepared to* and *provided that*: formal negotiation."
+      },
+      {
+        "text": "One option would be to launch with the basic search.",
+        "answer": "neutral",
+        "explain": "A clear option for a meeting."
+      },
+      {
+        "text": "Or we could do Sunday?",
+        "answer": "casual",
+        "explain": "A statement with question intonation and *do Sunday*: casual."
+      },
+      {
+        "text": "As an alternative, we would propose a phased approach.",
+        "answer": "formal",
+        "explain": "*As an alternative*, *we would propose*: formal proposal language."
+      },
+      {
+        "text": "That could work, as long as we keep it small.",
+        "answer": "neutral",
+        "explain": "Everyday professional agreement with a condition."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Before the meeting, Priya replies to Ryan's options email. She wants to change his plan without rejecting it.",
+    "speaker": "priya",
+    "audio": "l129-gd",
+    "text": "Ryan, I'd go with option one too, but {{what if we added}} an invoice-number filter to the basic search? {{Rather than}} waiting until July, customers {{would get}} the search they use most on day one. It would take Alex about three days, {{provided}} we {{keep}} it to that one filter. {{Would it help if}} I {{mocked}} it up today, so Helen can see it tomorrow? Priya",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "How Priya builds her counter-proposal",
+      "prompt": "Name the function of each part: suggestion, benefit, condition or offer.",
+      "columns": [
+        "Priya's words",
+        "Function"
+      ],
+      "rows": [
+        [
+          "What if we added an invoice-number filter to the basic search?",
+          {
+            "gap": "suggestion",
+            "hint": "suggestion / benefit / condition / offer",
+            "accept": [
+              "suggestion",
+              "a suggestion",
+              "proposal",
+              "counter-proposal",
+              "counterproposal"
+            ]
+          }
+        ],
+        [
+          "Customers would get the search they use most on day one.",
+          {
+            "gap": "benefit",
+            "hint": "suggestion / benefit / condition / offer",
+            "accept": [
+              "benefit",
+              "a benefit",
+              "advantage"
+            ]
+          }
+        ],
+        [
+          "…provided we keep it to that one filter.",
+          {
+            "gap": "condition",
+            "hint": "suggestion / benefit / condition / offer",
+            "accept": [
+              "condition",
+              "a condition"
+            ]
+          }
+        ],
+        [
+          "Would it help if I mocked it up today?",
+          {
+            "gap": "offer",
+            "hint": "suggestion / benefit / condition / offer",
+            "accept": [
+              "offer",
+              "an offer",
+              "offer of help"
+            ]
+          }
+        ]
+      ],
+      "explain": "A strong counter-proposal agrees first, then suggests a change, shows the benefit, limits the risk with a condition and offers effort."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "Priya writes *What if we added a filter?* and *Would it help if I mocked it up today?* The verbs are past (*added*, *mocked*), but the actions are in the future. What do the past forms do here? How would *What if we add a filter?* sound different?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "not (the )?past|future|hypothet|imagin|unreal|distance",
+            "label": "not past time"
+          },
+          {
+            "re": "soft|tentative|polite|less direct|diplomatic|easy to (say no|reject|refuse)",
+            "label": "softer"
+          },
+          {
+            "re": "direct|decided|plan|stronger|firmer",
+            "label": "present = more direct"
+          }
+        ],
+        "model": "The past forms do not refer to the past: they make the suggestion hypothetical, a possibility to consider rather than a plan already decided. That distance makes the counter-proposal tentative and easy to turn down without conflict. *What if we add a filter?* is also correct, but it sounds more direct, closer to a plan that has been decided. It is the same distance that the Second Conditional creates.",
+        "criteria": [
+          "You said the past forms do not refer to past time.",
+          "You said they make the suggestion hypothetical and softer, easy to turn down.",
+          "You said the present (*what if we add*) sounds more direct, closer to a decision."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "Write the pattern that follows each of these: *what if*, *would it help if*, *how about*, *rather than*, *provided (that)*. Which one takes a present form even though it refers to the future?",
+        "minWords": 20,
+        "signals": [
+          {
+            "re": "past simple|past",
+            "label": "what if / would it help if + past"
+          },
+          {
+            "re": "-ing|ing|gerund",
+            "label": "how about + -ing"
+          },
+          {
+            "re": "infinitive|base|bare|verb",
+            "label": "rather than + verb / -ing"
+          },
+          {
+            "re": "present|not will|no will|never will",
+            "label": "provided + present"
+          }
+        ],
+        "model": "*What if* + subject + past simple (or the present, which is more direct). *Would it help if* + subject + past simple. *How about* + -ing or a noun (*how about adding just the invoice filter?*). *Rather than* + bare infinitive or -ing (*rather than wait / waiting until July*). *Provided (that)* and *as long as* + present simple, even when they refer to the future: *provided we keep it to one filter*, never *provided we will keep*.",
+        "criteria": [
+          "You gave *what if* / *would it help if* + past simple and *how about* + -ing.",
+          "You gave *rather than* + verb or -ing.",
+          "You said *provided / as long as* take the present for the future, never *will*."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Priya changes part of Ryan's plan, but she never writes *no* or *I disagree*. How does she make the counter-proposal easy to accept? What does *Would it help if I mocked it up today* add?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "agree|option one too|builds|starts",
+            "label": "agrees first"
+          },
+          {
+            "re": "benefit|customers|cost|three days|condition|risk",
+            "label": "benefit, cost and condition"
+          },
+          {
+            "re": "effort|work|herself|offer|concrete|mock",
+            "label": "offers her own effort"
+          },
+          {
+            "re": "face|rival|replace|compet",
+            "label": "builds on, doesn't replace"
+          }
+        ],
+        "model": "She starts by agreeing (*I'd go with option one too*), then adds her idea as a hypothetical question, so Ryan can say no without losing face. She gives a benefit for the customers (*the search they use most on day one*), a cost (*about three days*) and a condition that limits the risk (*that one filter*). The offer to mock it up turns her idea into her own work: she takes on the effort, and Helen gets something concrete to look at. A counter-proposal that builds on the other person's plan and offers effort is much easier to accept than a rival plan.",
+        "criteria": [
+          "You said she agrees first and builds on Ryan's plan instead of replacing it.",
+          "You mentioned the benefit, the cost and the condition that limits the risk.",
+          "You said the offer to mock it up adds her own effort and something concrete for Helen."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "Offer alternatives as options, not orders: *one option would be to…*, *alternatively, we could…*, *rather than X, we could Y*. Recommend one, and keep another as a fallback.",
+        "Past forms after *what if* and *would it help if* make a suggestion hypothetical and easy to discuss: *What if we added a filter?* is softer than *What if we add a filter?*",
+        "A good counter-proposal builds on the other plan: agree first, add your change, give the benefit and the cost, set a condition, offer your effort.",
+        "After *provided (that)*, *as long as* and *unless*, use the present for the future: *provided we keep it small*, never *provided we will keep*."
+      ],
+      "formulas": [
+        "One option would be to + verb · Alternatively, we could + verb",
+        "What if / Would it help if + subject + past simple? · How about + -ing?",
+        "Rather than + verb / -ing · provided (that) / as long as + present simple"
+      ],
+      "note": "Spanish *¿y si añadimos un filtro?* uses the present, and English accepts *what if we add…?* too; the past (*what if we added…?*) is the more diplomatic choice. And Spanish *sugerir que añadamos* is *suggest (that) we add* or *suggest adding*, never *suggest us to add*."
+    },
+    "tts": "Ryan, I'd go with option one too, [but](/bət/) what if we added an invoice-number filter to the basic search? Rather than waiting until July, customers [would](/wəd/) get the search they use most on day one. It [would](/wəd/) take Alex about three days, provided we keep it to that one filter. [Would](/wəd/) it help if I mocked it up today, so Helen [can](/kən/) see it tomorrow? Priya"
+  },
+  "phonetics": {
+    "intro": "Las propuestas se construyen con palabras funcionales que casi no se oyen: *could* /kəd/, *or* /ə(r)/, *as* /əz/. Si las dices con vocal plena, la propuesta suena insistente, como una exigencia. Débiles, suenan a sugerencia. *What if* es un caso aparte: dos palabras que se pronuncian como una sola.",
+    "items": [
+      {
+        "id": "could",
+        "term": "we could try",
+        "pos": "modal · weak form",
+        "meaning": "a possibility or a tentative suggestion",
+        "ipa": {
+          "us": "/wi kəd ˈtraɪ/",
+          "uk": "/wi kəd ˈtraɪ/"
+        },
+        "afh": "ui-kəd-TRAI",
+        "say": "We could try.",
+        "ttsUs": "We [could](/kəd/) try.",
+        "ttsUk": "We [could](/kəd/) try.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Could* es /kəd/: «kəd», con schwa. No «kuld» ni «kud» con u plena."
+          },
+          {
+            "type": "silent",
+            "text": "La l de *could*, *would* y *should* nunca suena, ni en la forma fuerte: *could* fuerte es /kʊd/, «kud»."
+          },
+          {
+            "type": "stress",
+            "text": "Es fuerte al final o en negativa: *Yes, we could* /kʊd/; *we couldn't* /ˈkʊd.ənt/."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "We could try a filter by invoice number.",
+          "tts": "We [could](/kəd/) try a filter by invoice number."
+        }
+      },
+      {
+        "id": "or",
+        "term": "this week or next",
+        "pos": "conjunction · weak form",
+        "meaning": "introduces an alternative",
+        "ipa": {
+          "us": "/ðɪs ˈwiːk ɚ ˈnekst/",
+          "uk": "/ðɪs ˈwiːk ə ˈnekst/"
+        },
+        "afh": "dhis-UIIK-ər-NEKST (US) · dhis-UIIK-ə-NEKST (UK)",
+        "say": "This week or next.",
+        "ttsUs": "This week [or](/əɹ/) next.",
+        "ttsUk": "This week [or](/ə/) next.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Or* se reduce a /ɚ/ (US) o /ə/ (UK): «ər», casi una sola vocal. No «OR» con o plena."
+          },
+          {
+            "type": "linking",
+            "text": "En UK, delante de vocal reaparece la r: *July or August* «dyu-LAI-ə-RÓO-gəst»."
+          },
+          {
+            "type": "stress",
+            "text": "Cuando *or* contrasta dos opciones con énfasis (*now, OR in July?*), recupera la vocal plena: /ɔːr/."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "We could run the check this week or next.",
+          "tts": "We [could](/kəd/) run the check this week [or](/ə/) next."
+        }
+      },
+      {
+        "id": "as-long-as",
+        "term": "as long as",
+        "pos": "conjunction · weak as",
+        "meaning": "only on this condition",
+        "ipa": {
+          "us": "/əz ˈlɔːŋ‿əz/",
+          "uk": "/əz ˈlɒŋ‿əz/"
+        },
+        "afh": "əz-LÓ-ŋəz",
+        "say": "As long as.",
+        "ttsUs": "[As](/əz/) long [as](/əz/).",
+        "ttsUk": "[As](/əz/) long [as](/əz/).",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "Los dos *as* son /əz/: «əz», con schwa y z sonora. Solo *long* lleva acento."
+          },
+          {
+            "type": "linking",
+            "text": "*Long as* se une: «LÓ-ŋəz». La ng es /ŋ/, como la n de *tengo*: no añadas una g fuerte."
+          },
+          {
+            "type": "vowel",
+            "text": "*Long*: US /ɔː/, una o abierta y larga; UK /ɒ/, breve y redondeada."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "That could work, as long as we keep it small.",
+          "tts": "That [could](/kəd/) work, [as](/əz/) long [as](/əz/) we keep it small."
+        }
+      },
+      {
+        "id": "what-if",
+        "term": "what if",
+        "pos": "chunk",
+        "meaning": "introduces a suggestion or an imagined situation",
+        "ipa": {
+          "us": "/wʌt̬‿ˈɪf/",
+          "uk": "/wɒt‿ˈɪf/"
+        },
+        "afh": "ua-RIF (US) · uo-TIF (UK)",
+        "say": "What if?",
+        "ttsUs": "[What](/wˈʌɾ/) [if](/ˈɪf/)?",
+        "ttsUk": "What [if](/ˈɪf/)?",
+        "alerts": [
+          {
+            "type": "flap",
+            "text": "En EE. UU., la t de *what* entre vocales suena como una r simple: «ua-RIF». En Reino Unido, t suave: «uo-TIF»."
+          },
+          {
+            "type": "linking",
+            "text": "Dos palabras, un solo golpe: la t se une a *if* sin pausa. En *What if we added…?* la frase sigue sin cortes."
+          },
+          {
+            "type": "stress",
+            "text": "Sola, el acento cae en *if*: «ua-RIF?». Dentro de la pregunta, el acento principal pasa al verbo: *what if we ADDed a filter?*"
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "What if we added a filter by invoice number?"
+        }
+      },
+      {
+        "id": "alternative",
+        "term": "alternative",
+        "pos": "noun · adj.",
+        "meaning": "another possible option",
+        "ipa": {
+          "us": "/ɔːlˈtɝː.nə.t̬ɪv/",
+          "uk": "/ɔːlˈtɜː.nə.tɪv/"
+        },
+        "afh": "ol-TÉR-nə-riv (US) · ol-TƏƏ-nə-tiv (UK)",
+        "say": "Alternative.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba: al-TER-na-tive. El español «alternativa» lo lleva en TI."
+          },
+          {
+            "type": "vowel",
+            "text": "En TER, /ɜː/ es una vocal central y larga, ni e ni a; en UK, sin r. La tercera sílaba es schwa: «nə»."
+          },
+          {
+            "type": "flap",
+            "text": "En EE. UU., la t final entre vocales es una r simple: «-nə-riv». La v final es /v/, no f."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "As an alternative, we would propose a phased approach.",
+          "tts": "[As](/əz/) an alternative, we [would](/wəd/) propose a phased approach."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Offering an alternative",
+        "formula": "One option would be to + verb · Alternatively, we could + verb · Rather than + -ing, we could + verb",
+        "usage": "Present options; recommend one and keep another as a fallback.",
+        "examples": [
+          {
+            "speaker": "ryan",
+            "audio": "l129-cc-1a",
+            "text": "{{One option would be to}} launch with the basic search.",
+            "tts": "One option [would](/wəd/) be to launch with the basic search."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l129-cc-1b",
+            "text": "{{Rather than}} moving go-live, we {{could}} add the full search in July.",
+            "tts": "Rather than moving go-live, we [could](/kəd/) add the full search in July."
+          }
+        ]
+      },
+      {
+        "title": "Tentative suggestions with past forms",
+        "formula": "What if + subject + past simple? · Would it help if + subject + past simple? · How about + -ing?",
+        "usage": "The past adds distance: the idea is offered for discussion, not imposed.",
+        "examples": [
+          {
+            "speaker": "priya",
+            "audio": "l129-cc-2a",
+            "text": "{{What if we added}} a filter by invoice number?"
+          },
+          {
+            "speaker": "ryan",
+            "audio": "l129-cc-2b",
+            "text": "{{Would it help if}} I asked Helen which filter matters most?",
+            "tts": "[Would](/wəd/) it help if I asked Helen which filter matters most?"
+          }
+        ]
+      },
+      {
+        "title": "Conditions",
+        "formula": "provided (that) / as long as + present simple (future meaning)",
+        "usage": "Accept an idea on condition: the present refers to the future, as after *if*.",
+        "examples": [
+          {
+            "speaker": "oliver",
+            "audio": "l129-cc-3a",
+            "text": "That could work, {{as long as}} we {{keep}} it small.",
+            "tts": "That [could](/kəd/) work, [as](/əz/) long [as](/əz/) we keep it small."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l129-cc-3b",
+            "text": "We would accept a phased launch, {{provided that}} the full search {{is}} live by mid-July.",
+            "tts": "We [would](/wəd/) accept a phased launch, provided that the full search is live by mid-July."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Suggest + object + to",
+        "text": "Spanish *te sugiero que* has no direct copy. Use *suggest* + -ing, or *suggest (that)* + subject + base form.",
+        "wrong": "I suggest you to add a filter.",
+        "right": "I suggest adding a filter. / I suggest (that) you add a filter."
+      },
+      {
+        "title": "Instead of + base form",
+        "text": "*Instead of* is a preposition, so the verb takes -ing.",
+        "wrong": "Instead of move go-live, we could add the search in July.",
+        "right": "Instead of moving go-live, we could add the search in July."
+      },
+      {
+        "title": "Will after provided",
+        "text": "After *provided (that)*, *as long as* and *unless*, use the present for the future, as after *if*.",
+        "wrong": "Provided we will keep it small, it could work.",
+        "right": "Provided we keep it small, it could work."
+      },
+      {
+        "title": "Propose you something",
+        "text": "Spanish *le proponemos un enfoque* puts the person first. English *propose* takes the thing; the person goes after *to*, or disappears.",
+        "wrong": "We propose you a phased approach.",
+        "right": "We propose a phased approach."
+      },
+      {
+        "title": "How about + base form",
+        "text": "*About* is a preposition, so the verb takes -ing.",
+        "wrong": "How about add just the invoice filter?",
+        "right": "How about adding just the invoice filter?"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the most diplomatic form.",
+      "text": "What if we ___ a filter by invoice number?",
+      "options": [
+        "added",
+        "will add",
+        "to add"
+      ],
+      "answer": 0,
+      "explain": "*What if* + past simple: a tentative suggestion. *What if we add* is correct but more direct; *will add* is wrong."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct form.",
+      "text": "I suggest ___ just the invoice filter.",
+      "options": [
+        "adding",
+        "you to add",
+        "to add"
+      ],
+      "answer": 0,
+      "explain": "*Suggest* + -ing, or *suggest (that) you add*. Never *suggest you to add*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct form.",
+      "text": "Provided we ___ it small, it could work.",
+      "options": [
+        "keep",
+        "will keep",
+        "would keep"
+      ],
+      "answer": 0,
+      "explain": "*Provided* + present simple for the future."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct form.",
+      "text": "How about ___ just the invoice filter?",
+      "options": [
+        "adding",
+        "add",
+        "to add"
+      ],
+      "answer": 0,
+      "explain": "*How about* + -ing."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "As an ___, we would propose a phased approach.",
+      "accept": [
+        "alternative"
+      ],
+      "explain": "*As an alternative* introduces a formal proposal."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "___ than moving go-live, we could add the full search in July.",
+      "accept": [
+        "rather"
+      ],
+      "explain": "*Rather than* + -ing: one option instead of another."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "We'll keep option two as a ___ in case Monday's check fails.",
+      "accept": [
+        "fallback",
+        "backup"
+      ],
+      "explain": "*A fallback* = a second plan if the first one fails."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "Would it ___ if I mocked it up today?",
+      "accept": [
+        "help"
+      ],
+      "explain": "*Would it help if* + past: an offer the other person can turn down."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "One",
+        "option",
+        "would",
+        "be",
+        "to",
+        "launch",
+        "with",
+        "the",
+        "basic",
+        "search"
+      ],
+      "answer": "One option would be to launch with the basic search",
+      "explain": "*One option would be to* + verb."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "That",
+        "could",
+        "work,",
+        "as",
+        "long",
+        "as",
+        "we",
+        "keep",
+        "it",
+        "small"
+      ],
+      "answer": "That could work, as long as we keep it small",
+      "explain": "Tentative agreement + a condition with the present."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the typical calque.",
+      "wrong": "I suggest you to add a filter.",
+      "accept": [
+        "I suggest you add a filter.",
+        "I suggest that you add a filter.",
+        "I suggest adding a filter."
+      ],
+      "explain": "*Suggest* + -ing or + *(that) you add*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the verb form.",
+      "wrong": "Instead of move go-live, we could add the search in July.",
+      "accept": [
+        "Instead of moving go-live, we could add the search in July."
+      ],
+      "explain": "*Instead of* + -ing."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the calque.",
+      "wrong": "We propose you a phased approach.",
+      "accept": [
+        "We propose a phased approach.",
+        "We propose a phased approach to you.",
+        "We'd like to propose a phased approach.",
+        "We would like to propose a phased approach."
+      ],
+      "explain": "*Propose* + the thing; the person goes after *to*, or disappears."
+    },
+    {
+      "type": "organizer",
+      "kind": "table",
+      "prompt": "What is each sentence doing? Type *suggestion*, *condition* or *fallback*.",
+      "columns": [
+        "Sentence",
+        "Function"
+      ],
+      "rows": [
+        [
+          "What if we added a filter?",
+          {
+            "gap": "suggestion",
+            "hint": "suggestion / condition / fallback",
+            "accept": [
+              "suggestion",
+              "a suggestion",
+              "proposal"
+            ]
+          }
+        ],
+        [
+          "…as long as we keep it small.",
+          {
+            "gap": "condition",
+            "hint": "suggestion / condition / fallback",
+            "accept": [
+              "condition",
+              "a condition"
+            ]
+          }
+        ],
+        [
+          "If the check fails, we'll move go-live to July.",
+          {
+            "gap": "fallback",
+            "hint": "suggestion / condition / fallback",
+            "accept": [
+              "fallback",
+              "a fallback",
+              "plan b",
+              "backup"
+            ]
+          }
+        ],
+        [
+          "…provided that the full search is live by mid-July.",
+          {
+            "gap": "condition",
+            "hint": "suggestion / condition / fallback",
+            "accept": [
+              "condition",
+              "a condition"
+            ]
+          }
+        ]
+      ],
+      "explain": "A suggestion opens the idea; a condition limits it (*as long as*, *provided*); a fallback says what happens if the plan fails."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *alternative* is stressed?",
+      "word": "alternative",
+      "syllables": [
+        "al",
+        "ter",
+        "na",
+        "tive"
+      ],
+      "answer": 1,
+      "audioRef": "l129-ph-alternative-us",
+      "explain": "al-**TER**-na-tive, not al-ter-na-TI-ve as in Spanish."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "ryan",
+      "audio": "l129-dict-1",
+      "text": "One option would be to launch with the basic search and add the full search in July.",
+      "explain": "Listen for the weak *to* and *and*: «wəd-bi-tə-LAUNCH», «ənd-ADD».",
+      "tts": "One option [would](/wəd/) be to launch with the basic search [and](/ənd/) add the full search in July."
+    }
+  ],
+  "task": {
+    "title": "A counter-proposal that builds on the other plan",
+    "format": "email",
+    "scenario": "Help-center project, one week before launch. After your voice message, Laura (head of support) came back with a counter-proposal: at least one video at launch, for password resets, which are a third of her team's tickets. A video can't be ready in a week. Your alternative: an illustrated step-by-step guide for password resets at launch (about two days of work for your designer), and three short videos in phase two, provided her team writes the scripts by the end of June. Write your reply.",
+    "brief": "Build a counter-proposal on Laura's idea: agree first, suggest tentatively, give benefit and cost, set a condition, offer your effort.",
+    "steps": [
+      "Agree with the part of her proposal you can accept.",
+      "Suggest your alternative with *what if we* + past or *one option would be to*.",
+      "Give the benefit for customers and the cost in time.",
+      "Set a condition with *provided (that)* or *as long as* + present.",
+      "Offer your own effort with *would it help if I* + past."
+    ],
+    "length": "90–130 words",
+    "minWords": 70,
+    "keywords": [
+      "I agree that",
+      "What if we",
+      "instead",
+      "Rather than",
+      "customers would get",
+      "it would take",
+      "provided (that)",
+      "as long as",
+      "Would it help if I",
+      "phase two"
+    ],
+    "chunks": [
+      {
+        "label": "agreement first",
+        "re": "\\b(i agree|you're right|good point|that makes sense|i'd go with)\\b"
+      },
+      {
+        "label": "tentative suggestion",
+        "re": "\\bwhat if (we|i)\\s+\\w+ed\\b|\\bwhat if (we|i)\\s+(made|sent|wrote|put|built|took|gave|did|ran|got|kept|began)\\b|\\bone option would be to\\b|\\bhow about\\s+\\w+ing\\b"
+      },
+      {
+        "label": "alternative",
+        "re": "\\brather than\\b|\\binstead\\b|\\balternatively\\b"
+      },
+      {
+        "label": "benefit with would",
+        "re": "\\bwould (get|have|see|find|save|help|be)\\b"
+      },
+      {
+        "label": "condition + present",
+        "re": "\\b(provided( that)?|as long as)\\s+\\w+\\s+(\\w+s|send|write|keep|get|agree|have|are|is|can)\\b"
+      },
+      {
+        "label": "offer of effort",
+        "re": "\\bwould it help if (i|we)\\b|\\bi('d| would) be happy to\\b|\\bi can send\\b"
+      }
+    ],
+    "checks": [
+      "suggestTo",
+      "insteadOfBase",
+      "providedWill",
+      "proposeYou",
+      "howAboutBase",
+      "proDropIt",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the formal proposal for the steering committee",
+      "brief": "Turn your counter-proposal into one formal sentence: *As an alternative, we would propose…*, with the phased plan and a condition with *provided that*.",
+      "keywords": [
+        "As an alternative",
+        "we would propose",
+        "to follow in the second phase",
+        "provided that",
+        "are received by"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l129-task-model",
+          "text": "Hi Laura, thanks for coming back to me so quickly. {{I agree that}} password resets are the place to start: they're a third of your tickets. A video can't be ready in a week, though, so {{what if we}} launched with an illustrated step-by-step guide {{instead}}? {{Rather than}} a rushed video, {{customers would get}} clear screenshots on day one, and {{it would take}} our designer about two days. We could then produce three short videos for {{phase two}}, {{provided}} your team writes the scripts by the end of June. {{Would it help if I}} sent you a draft of the guide on Monday? Best, Alex",
+          "label": "Counter-proposal to a colleague (neutral email)",
+          "notes": [
+            "*I agree that password resets are the place to start*: Alex accepts the core of Laura's idea before changing it.",
+            "*What if we launched with… instead?*: past simple after *what if*, so the alternative is offered, not imposed.",
+            "*Customers would get clear screenshots on day one* and *it would take our designer about two days*: the benefit and the cost, with *would*.",
+            "*Provided your team writes the scripts by the end of June*: a condition with the present for the future; it also gives Laura a role in phase two.",
+            "*Would it help if I sent you a draft on Monday?*: Alex offers his own effort and something concrete to react to."
+          ],
+          "tts": "Hi Laura, thanks [for](/fəɹ/) coming back to me so quickly. I agree that password resets are the place to start: they're a third [of](/əv/) your tickets. A video can't be ready in a week, though, so what if we launched with an illustrated step-by-step guide instead? Rather than a rushed video, customers [would](/wəd/) get clear screenshots on day one, [and](/ənd/) it [would](/wəd/) take our designer about two days. We [could](/kəd/) then produce three short videos [for](/fəɹ/) phase two, provided your team writes the scripts by the end [of](/əv/) June. [Would](/wəd/) it help if I sent you a draft [of](/əv/) the guide on Monday? Best, Alex"
+        },
+        {
+          "speaker": "emma",
+          "audio": "l129-task-formal",
+          "text": "{{As an alternative}}, {{we would propose}} an illustrated guide at launch, with three video tutorials {{to follow in the second phase}}, {{provided that}} the scripts {{are received by}} 30 June.",
+          "tts": "[As](/əz/) an alternative, we [would](/wəd/) propose an illustrated guide [at](/ət/) launch, with three video tutorials to follow in the second phase, provided that the scripts are received by the thirtieth [of](/əv/) June.",
+          "label": "The formal proposal (committee style)",
+          "notes": [
+            "*As an alternative, we would propose*: the formal frame for a counter-proposal.",
+            "*To follow in the second phase*: the phased plan in a compact, formal phrase.",
+            "*Provided that the scripts are received by 30 June*: the condition in the passive, so nobody is named."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "¿Laura siente que mejoraste su idea o que la sustituiste por la tuya? Copia la frase en la que reconoces lo que ella tiene razón.",
+        "reflect": true
+      },
+      {
+        "area": "register",
+        "text": "¿Tus propuestas suenan a opción (*what if we launched*, *one option would be to*) y no a orden (*we will do a guide*)? ¿Evitaste el tono de chat (*how about we just…*, *way easier*)?"
+      },
+      {
+        "area": "accuracy",
+        "text": "¿*What if* y *would it help if* van con pasado, *how about* e *instead of* con -ing, y *provided / as long as* con presente (no *will*)?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Escribiste *suggest you to*, *propose you*, *instead of + infinitivo* o *provided we will*? Debe ser *suggest adding / that you add*, *propose a guide*, *instead of moving* y *provided we keep*."
+      },
+      {
+        "area": "strategy",
+        "text": "¿Diste a Laura algo que hacer (los guiones) y algo que ver (el borrador del lunes)? Una contrapropuesta con un papel para la otra persona se acepta con más facilidad. ¿Qué papel le diste?",
+        "reflect": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,1046 @@
+{
+  "id": "l128",
+  "n": 128,
+  "title": "Explaining Constraints: Budget, Time & Scope",
+  "titleEs": "Explicar las limitaciones: presupuesto, plazo y alcance",
+  "minutes": 60,
+  "summary": "Explain why something cannot be done without sounding defensive: name the constraint precisely (time, budget, scope), give the reason with *given (that)*, and use a first look at the **mixed conditional** (*If we had tested in April, we would have more options now*) to link a past decision to the situation today and take your share of responsibility.",
+  "canDo": [
+    "Name a time, budget or scope constraint precisely and neutrally (*we're up against…*, *the budget doesn't stretch to…*, *it's out of scope*).",
+    "Give reasons with *given (that)* and say what a change would require (*a change request*).",
+    "Link an unreal past to its effect now with a mixed conditional: *if* + past perfect, *would* + bare infinitive + *now*.",
+    "Tell *'d = had* from *'d = would* by ear, and say *than*, *and* and *scope* without extra vowels."
+  ],
+  "focus": {
+    "grammar": "Preview of mixed conditionals: If + had + past participle, … would + bare infinitive (now) · contrast with the Second and Third Conditionals · 'd = had / would · given + noun / given that + clause · it would need + noun",
+    "lexis": "be up against (a deadline), the budget doesn't stretch to, fixed-price, in scope / out of scope, a change request, be tied to, squeeze something in, given (that), it comes down to, realistically, that's on us",
+    "afh": "weak forms: had → 'd (if we'd known), than /ðən/, and /ənd/ · 'd = had or would, by context · scope /skoʊp/ without an e · FEAsible with a long /iː/ and /z/ · budget /ˈbʌdʒ.ɪt/"
+  },
+  "warmup": "Think of something you wanted to do at work or in your studies but couldn't. Was the obstacle time, money or the limits of the job? How did you explain it, and did the other person accept the explanation?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Why not just add servers?",
+      "context": "Helen has asked Ryan a simple question: couldn't more servers fix the search? Ryan answers in writing before their call.",
+      "speaker": "ryan",
+      "to": "Helen Marsh",
+      "audio": "l128-scn",
+      "text": "Hi Helen, thanks for asking; here's the short version. Time: {{we're up against}} go-live in three weeks, and a proper fix to the indexing would take about five. Budget: the contract is {{fixed-price}}, so extra servers would come out of your budget, and the test suggests they wouldn't solve the problem anyway. Scope: the search was {{in scope}}, but rebuilding the indexing wasn't, so it {{would need a change request}}. Looking back, {{if we had tested}} at full scale in April, we {{would have}} more options now. {{Given}} where we are, we'll come back to you on Friday with the options. Ryan",
+      "tts": "Hi Helen, thanks [for](/fəɹ/) asking; here's the short version. Time: we're up against go-live in three weeks, [and](/ənd/) a proper fix to the indexing [would](/wəd/) take about five. Budget: the contract is fixed-price, so extra servers [would](/wəd/) come out [of](/əv/) your budget, [and](/ənd/) the test suggests they wouldn't solve the problem anyway. Scope: the search [was](/wəz/) in scope, [but](/bət/) rebuilding the indexing wasn't, so it [would](/wəd/) need a change request. Looking back, if we [had](/həd/) tested [at](/ət/) full scale in April, we [would](/wəd/) have more options now. Given where we are, we'll come back to you on Friday with the options. Ryan"
+    },
+    "dialogue": {
+      "title": "Is it about money?",
+      "context": "Later that day, Helen calls Ryan. She wants to understand the constraints before she talks to her own board.",
+      "lines": [
+        {
+          "speaker": "helen",
+          "audio": "l128-dlg-01",
+          "text": "Ryan, I read your note. Help me understand: is this about money?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l128-dlg-02",
+          "text": "Not really. Money would buy servers, but servers aren't the problem. The indexing is.",
+          "tts": "Not really. Money [would](/wəd/) buy servers, [but](/bət/) servers aren't the problem. The indexing is."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l128-dlg-03",
+          "text": "And the indexing can't be fixed in three weeks?",
+          "tts": "[And](/ənd/) the indexing can't be fixed in three weeks?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l128-dlg-04",
+          "text": "Not properly. {{We're up against}} the go-live date, and a rushed fix could break other things.",
+          "tts": "Not properly. We're up against the go-live date, [and](/ənd/) a rushed fix [could](/kəd/) break other things."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l128-dlg-05",
+          "text": "What if we moved go-live?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l128-dlg-06",
+          "text": "We could, but the training dates and the old platform's contract are {{tied to}} June 20. {{It comes down to}} time as much as scope.",
+          "tts": "We could, [but](/bət/) the training dates [and](/ənd/) the old platform's contract are tied to June twentieth. It comes down to time [as](/əz/) much [as](/əz/) scope."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l128-dlg-07",
+          "text": "I see. So {{if we'd spotted}} this earlier, we{{'d have}} more room now."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l128-dlg-08",
+          "text": "Exactly. {{If we had tested}} at full scale in April, we {{would be}} in a different position today. {{That's on us}}, and it's a lesson for the next phase.",
+          "tts": "Exactly. If we [had](/həd/) tested [at](/ət/) full scale in April, we [would](/wəd/) be in a different position today. That's on us, [and](/ənd/) it's a lesson [for](/fəɹ/) the next phase."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "Is the search problem mainly about money?",
+        "options": [
+          "No: money would buy servers, but the indexing is the problem",
+          "Yes: the budget is too small for the servers",
+          "Yes: Helen's company has stopped paying"
+        ],
+        "answer": 0,
+        "explain": "*Money would buy servers, but servers aren't the problem. The indexing is.*"
+      },
+      {
+        "q": "Why can't go-live simply move?",
+        "options": [
+          "The training dates and the old platform's contract are tied to June 20",
+          "Helen's board has refused",
+          "The servers are booked until June 20"
+        ],
+        "answer": 0,
+        "explain": "*The training dates and the old platform's contract are tied to June 20.*"
+      },
+      {
+        "q": "What does Ryan admit at the end of the call?",
+        "options": [
+          "Testing at full scale in April would have helped, and that is the team's responsibility",
+          "The supplier caused the whole problem",
+          "Helen should have asked earlier"
+        ],
+        "answer": 0,
+        "explain": "*If we had tested at full scale in April, we would be in a different position today. That's on us.*"
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Talking to a friend or a close colleague.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l128-reg-c1",
+            "text": "We're totally maxed out on budget. There's nothing left to play with.",
+            "note": "*Maxed out* = at the limit; *nothing left to play with* = no spare money."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l128-reg-c2",
+            "text": "No way we can squeeze that in before June.",
+            "note": "*No way* + clause: a strong casual no; *squeeze something in* = fit it into a full schedule.",
+            "tts": "No way we [can](/kən/) squeeze that in before June."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Team meetings and everyday messages to clients.",
+        "items": [
+          {
+            "speaker": "ryan",
+            "audio": "l128-reg-n1",
+            "text": "The budget doesn't stretch to extra servers this quarter.",
+            "note": "*Doesn't stretch to* + noun: the limit is the budget, not anyone's will."
+          },
+          {
+            "speaker": "oliver",
+            "audio": "l128-reg-n2",
+            "text": "A proper fix would take about five weeks, and we've got three.",
+            "note": "Two numbers side by side: the time constraint explains itself.",
+            "tts": "A proper fix [would](/wəd/) take about five weeks, [and](/ənd/) we've got three."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l128-reg-n3",
+            "text": "Rebuilding the indexing is out of scope, so it would need a change request.",
+            "note": "*Out of scope* + what a change would require.",
+            "tts": "Rebuilding the indexing is out [of](/əv/) scope, so it [would](/wəd/) need a change request."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Formal emails, reports and committee meetings.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l128-reg-f1",
+            "text": "Given the fixed-price contract, any additional work would require a formal change request.",
+            "note": "*Given* + noun phrase, and *would require*: formal and impersonal.",
+            "tts": "Given the fixed-price contract, any additional work [would](/wəd/) require a formal change request."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l128-reg-f2",
+            "text": "If we had identified the issue earlier, we would not be facing this decision now.",
+            "note": "A mixed conditional in formal speech: an unreal past (*had identified*) and its effect now (*would not be facing*).",
+            "tts": "If we [had](/həd/) identified the issue earlier, we [would](/wəd/) not be facing this decision now."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "be up against (a deadline)",
+        "def": "to have very little time left before a fixed date",
+        "register": "neutral",
+        "example": "We're up against the go-live date."
+      },
+      {
+        "en": "the budget doesn't stretch to (+ noun)",
+        "def": "there is not enough money for something",
+        "register": "neutral",
+        "example": "The budget doesn't stretch to extra servers this quarter."
+      },
+      {
+        "en": "fixed-price (contract)",
+        "def": "with a total cost agreed in advance, whatever the work takes",
+        "register": "neutral",
+        "example": "The contract is fixed-price, so extra servers would come out of your budget."
+      },
+      {
+        "en": "in scope / out of scope",
+        "def": "included / not included in the work that was agreed",
+        "register": "neutral",
+        "example": "The search was in scope, but rebuilding the indexing wasn't."
+      },
+      {
+        "en": "a change request",
+        "def": "a formal request to change the agreed scope, cost or dates",
+        "register": "formal",
+        "example": "Any additional work would require a formal change request."
+      },
+      {
+        "en": "be tied to (+ date / thing)",
+        "def": "to depend on something, so that it cannot change on its own",
+        "register": "neutral",
+        "example": "The training dates are tied to June 20."
+      },
+      {
+        "en": "squeeze something in",
+        "def": "to manage to fit something into a full schedule",
+        "register": "casual",
+        "example": "No way we can squeeze that in before June."
+      },
+      {
+        "en": "given (+ noun) / given that (+ clause)",
+        "def": "considering; because of",
+        "register": "neutral",
+        "syn": "in view of",
+        "example": "Given where we are, we'll come back to you on Friday with the options."
+      },
+      {
+        "en": "it comes down to (+ noun)",
+        "def": "the main issue is; the deciding factor is",
+        "register": "neutral",
+        "example": "It comes down to time as much as scope."
+      },
+      {
+        "en": "realistically",
+        "def": "being practical about what can actually be done",
+        "register": "neutral",
+        "example": "Realistically, a proper fix would take five weeks."
+      },
+      {
+        "en": "that's on us",
+        "def": "that is our responsibility; we accept the blame",
+        "register": "casual",
+        "example": "We should have tested earlier. That's on us."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "No way we can squeeze that in before June.",
+        "answer": "casual",
+        "explain": "*No way* and *squeeze in*: casual."
+      },
+      {
+        "text": "Given the fixed-price contract, any additional work would require a formal change request.",
+        "answer": "formal",
+        "explain": "*Given* + noun phrase, *additional*, *require*: formal."
+      },
+      {
+        "text": "The budget doesn't stretch to extra servers this quarter.",
+        "answer": "neutral",
+        "explain": "A clear, everyday professional constraint."
+      },
+      {
+        "text": "We're totally maxed out on budget.",
+        "answer": "casual",
+        "explain": "*Totally maxed out*: chat with friends or close colleagues."
+      },
+      {
+        "text": "If we had identified the issue earlier, we would not be facing this decision now.",
+        "answer": "formal",
+        "explain": "Full forms and *facing this decision*: formal speech."
+      },
+      {
+        "text": "A proper fix would take about five weeks, and we've got three.",
+        "answer": "neutral",
+        "explain": "Plain facts with a contraction: neutral."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Two sentences Ryan says to Helen. Both talk about things that are not true. The question is: when?",
+    "speaker": "ryan",
+    "audio": "l128-gd",
+    "text": "{{If we had tested}} at full scale in April, we {{would have}} more options now. We didn't, so today the choice is narrower. And {{if the indexing weren't}} the problem, extra servers {{would solve}} it in a week. But it is, so they won't.",
+    "organizer": {
+      "type": "organizer",
+      "kind": "timeline",
+      "title": "Two times in one sentence",
+      "prompt": "Place each half of Ryan's first sentence on the time line. Copy the words from the text.",
+      "points": [
+        {
+          "when": "April (what really happened)",
+          "text": "We didn't test at full scale."
+        },
+        {
+          "when": "Imagined past",
+          "gap": "if we had tested at full scale",
+          "hint": "if + had + …",
+          "accept": [
+            "if we had tested at full scale",
+            "if we'd tested at full scale",
+            "if we had tested at full scale in april",
+            "if we had tested",
+            "if we'd tested",
+            "had tested"
+          ]
+        },
+        {
+          "when": "Imagined present",
+          "gap": "we would have more options now",
+          "hint": "we would + …",
+          "accept": [
+            "we would have more options now",
+            "we'd have more options now",
+            "we would have more options",
+            "we'd have more options",
+            "would have more options"
+          ]
+        },
+        {
+          "when": "Now (what is really true)",
+          "text": "The choice is narrower."
+        }
+      ],
+      "explain": "A mixed conditional joins an unreal past (*had* + past participle) with an unreal present (*would* + bare infinitive): a past that did not happen, and the present it would have created."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "In *If we had tested at full scale in April, we would have more options now*: did the team test in April? Do they have more options now? Which half talks about the past and which about the present?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "didn't|did not|not test|no test",
+            "label": "they didn't test"
+          },
+          {
+            "re": "don't|do not|not have|fewer|narrow|no more options",
+            "label": "they don't have more options"
+          },
+          {
+            "re": "past|april",
+            "label": "if-half = past"
+          },
+          {
+            "re": "present|now|today",
+            "label": "main half = now"
+          }
+        ],
+        "model": "No, they did not test at full scale in April, and no, they do not have more options now: both halves are unreal. The *if*-half imagines a different past (April); the main half describes the present result of that imagined past (*now*). That is why the times are mixed: the sentence links a past cause to a present situation. In a Third Conditional both halves would be past (*we would have had more options in May*).",
+        "criteria": [
+          "You said both halves are unreal: they didn't test, and they don't have more options.",
+          "You said the *if*-half is about the past (April) and the main half about the present (now).",
+          "You said the sentence links a past cause to a present result."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "Write the pattern of each half of *If we had tested… / we would have more options now*. Then compare *if the indexing weren't the problem, extra servers would solve it*. What changes in the *if*-half, and what stays the same in the main half? And what does *'d* mean in *if we'd spotted* and in *we'd have*?",
+        "minWords": 20,
+        "signals": [
+          {
+            "re": "past perfect|had \\+|had tested|had \\+ past participle",
+            "label": "if + past perfect"
+          },
+          {
+            "re": "would \\+|bare infinitive|would have more|infinitive",
+            "label": "would + infinitive"
+          },
+          {
+            "re": "past simple|weren't|were|second",
+            "label": "Second Conditional: past simple"
+          },
+          {
+            "re": "'d = had|had.*would|would.*had",
+            "label": "'d = had / would"
+          }
+        ],
+        "model": "Mixed conditional (past → present): *if* + past perfect (*had tested*), then *would* + bare infinitive (*would have*, where *have* is the main verb: *have more options*). The second sentence is a Second Conditional: *if* + past simple (*weren't*), *would* + bare infinitive. The main half is the same in both (*would* + infinitive = unreal present); the *if*-half changes: past perfect for an unreal past, past simple for an unreal present. *'d* is *had* in *if we'd spotted* (a past participle follows) and *would* in *we'd have* (a bare infinitive follows).",
+        "criteria": [
+          "You wrote *if* + past perfect, *would* + bare infinitive for the mixed conditional.",
+          "You said the Second Conditional uses *if* + past simple, with the same main half.",
+          "You said *'d* = *had* before a past participle and *would* before a bare infinitive."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Ryan tells Helen: *If we had tested at full scale in April, we would be in a different position today. That's on us.* Why does he say *we* and not *the supplier* or *Oliver*? What does this add to the list of constraints (time, budget, scope)?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "responsib|blame|own|accept|on us",
+            "label": "takes responsibility"
+          },
+          {
+            "re": "excuse|wall|defensive|blaming",
+            "label": "constraints alone can sound like excuses"
+          },
+          {
+            "re": "trust|credib|honest|believe",
+            "label": "builds trust"
+          }
+        ],
+        "model": "With *we* and *that's on us*, Ryan takes responsibility for the team instead of blaming a supplier or a colleague. The mixed conditional explains how the present constraint was created, without excuses: it names a past decision and its effect today. A list of constraints alone (budget, time, scope) can sound like a wall or a set of excuses; owning the team's part makes Ryan sound honest, so Helen is more likely to trust the options he brings on Friday.",
+        "criteria": [
+          "You said *we* and *that's on us* take responsibility instead of blaming others.",
+          "You said the conditional explains the origin of the constraint without sounding like an excuse.",
+          "You linked this honesty to trust in what Ryan proposes next."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "Name each constraint precisely and neutrally: time (*we're up against go-live*), budget (*the budget doesn't stretch to…*), scope (*it's out of scope, so it would need a change request*). Give the reason with *given (that)*.",
+        "**Preview:** a mixed conditional links an unreal past to its effect now: *if* + past perfect, *would* + bare infinitive (+ *now / today*). You will study mixed conditionals in depth in B2.2.",
+        "Compare: Second Conditional = unreal present (*if the indexing weren't the problem, servers would solve it*); Third = unreal past with a past result (*we would have had more options in May*).",
+        "*'d* can be *had* or *would*: before a past participle it is *had* (*if we'd spotted*); before a bare infinitive it is *would* (*we'd have more room*)."
+      ],
+      "formulas": [
+        "If + had + past participle, … would + bare infinitive (+ now / today)",
+        "given + noun phrase · given that + clause",
+        "… is out of scope, so it would need a change request"
+      ],
+      "note": "Spanish mixes times in the same way (*si hubiéramos probado en abril, ahora tendríamos más opciones*), so the logic is familiar. The typical error is putting *would* in the *if*-half: *if we would have tested*. The *if*-half never takes *would*."
+    },
+    "tts": "If we [had](/həd/) tested [at](/ət/) full scale in April, we [would](/wəd/) have more options now. We didn't, so today the choice is narrower. [And](/ənd/) if the indexing weren't the problem, extra servers [would](/wəd/) solve it in a week. [But](/bət/) it is, so they won't."
+  },
+  "phonetics": {
+    "intro": "Al explicar limitaciones, las frases se llenan de palabras funcionales que el nativo reduce: *had* se convierte en *'d*, *than* en «dhən» y *and* en «ənd». Si las pronuncias plenas, suenas lento y enfático, como si discutieras. Y hay un reto de comprensión: *'d* suena igual para *had* y para *would*; lo que viene detrás te dice cuál es.",
+    "items": [
+      {
+        "id": "if-wed",
+        "term": "if we'd known",
+        "pos": "had · weak form ('d)",
+        "meaning": "if we had known (an unreal past)",
+        "ipa": {
+          "us": "/ɪf wid ˈnoʊn/",
+          "uk": "/ɪf wiːd ˈnəʊn/"
+        },
+        "afh": "if-uid-NOUN",
+        "say": "If we'd known.",
+        "variants": [
+          {
+            "label": "'d = had (a past participle follows)",
+            "speaker": "coach",
+            "audio": "l128-ph-if-wed-had",
+            "text": "If we'd known in April…"
+          },
+          {
+            "label": "'d = would (a bare infinitive follows)",
+            "speaker": "coach",
+            "audio": "l128-ph-if-wed-would",
+            "text": "We'd be ready now."
+          }
+        ],
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Had* auxiliar se reduce a /həd/ o, más a menudo, a *'d* /d/: *if we'd known* «if-uid-NOUN». No «if-ui-JAD-noun» con *had* plena."
+          },
+          {
+            "type": "stress",
+            "text": "*'d* suena igual para *had* y para *would*. La pista es lo que sigue: participio (*known, tested*) = *had*; infinitivo (*be, have*) = *would*. Compara las dos variantes."
+          },
+          {
+            "type": "consonant",
+            "text": "*We'd known*: la d se une a la n sin vocal en medio: «uid-NOUN», no «ui-de-NOUN»."
+          }
+        ],
+        "example": {
+          "speaker": "helen",
+          "text": "If we'd known in April, we'd be in a different position now."
+        }
+      },
+      {
+        "id": "than",
+        "term": "longer than we have",
+        "pos": "conjunction · weak form",
+        "meaning": "used to compare two things",
+        "ipa": {
+          "us": "/ˈlɔːŋ.ɡɚ ðən wi ˈhæv/",
+          "uk": "/ˈlɒŋ.ɡə ðən wi ˈhæv/"
+        },
+        "afh": "LÓN-guer-dhən-ui-JAV",
+        "say": "Longer than we have.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Than* es /ðən/: «dhən», con schwa. La forma plena /ðæn/ solo aparece si se enfatiza."
+          },
+          {
+            "type": "consonant",
+            "text": "/ð/ es sonora: la lengua entre los dientes, vibrando, como la d suave de «nada». No «dan» ni «zan»."
+          },
+          {
+            "type": "spelling",
+            "text": "No confundas *than* (comparación) con *then* (luego): en habla rápida, *than* suena «dhən» y *then*, «dhen». *Longer* lleva g: «LÓN-guer»."
+          }
+        ],
+        "example": {
+          "speaker": "oliver",
+          "text": "A proper fix would take longer than we have.",
+          "tts": "A proper fix [would](/wəd/) take longer than we have."
+        }
+      },
+      {
+        "id": "time-and-budget",
+        "term": "time and budget",
+        "pos": "chunk · weak and",
+        "meaning": "the two most common limits on a project",
+        "ipa": {
+          "us": "/ˈtaɪm‿ənd ˈbʌdʒ.ɪt/",
+          "uk": "/ˈtaɪm‿ənd ˈbʌdʒ.ɪt/"
+        },
+        "afh": "TAI-mənd-BÁ-dyit",
+        "say": "Time and budget.",
+        "ttsUs": "Time [and](/ənd/) budget.",
+        "ttsUk": "Time [and](/ənd/) budget.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*And* es /ənd/ o /ən/: «ənd», casi «n», unido a la palabra anterior: «TAI-mənd». No «AND» con a plena."
+          },
+          {
+            "type": "vowel",
+            "text": "*Budget*: /ʌ/ en la primera sílaba, «BA» breve; la segunda es una /ɪ/ débil: «BÁ-dyit». No «bud-YET»."
+          },
+          {
+            "type": "consonant",
+            "text": "*dg* es /dʒ/, «dy» como en «yo» dicho con fuerza: «BÁ-dyit»."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "It comes down to time and budget, not effort.",
+          "tts": "It comes down to time [and](/ənd/) budget, not effort."
+        }
+      },
+      {
+        "id": "scope",
+        "term": "scope (out of scope)",
+        "pos": "noun",
+        "meaning": "the range of work that has been agreed",
+        "ipa": {
+          "us": "/skoʊp/",
+          "uk": "/skəʊp/"
+        },
+        "afh": "SKOUP",
+        "say": "Scope.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "Empieza con /sk/: «SKOUP», sin e delante. Nada de «es-KOUP»."
+          },
+          {
+            "type": "vowel",
+            "text": "US /oʊ/, «ou»; UK /əʊ/, «əu»: un diptongo, no una o pura."
+          },
+          {
+            "type": "linking",
+            "text": "*Out of scope*: la t de *out* se une a *of*: «au-rəv-SKOUP» (US), «au-təv-SKƏUP» (UK)."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "Rebuilding the indexing is out of scope, so it would need a change request.",
+          "tts": "Rebuilding the indexing is [out](/ˈWɾ/) [of](/əv/) scope, so it [would](/wəd/) need a change request."
+        }
+      },
+      {
+        "id": "feasible",
+        "term": "feasible",
+        "pos": "adj.",
+        "meaning": "possible to do in practice",
+        "ipa": {
+          "us": "/ˈfiː.zə.bəl/",
+          "uk": "/ˈfiː.zɪ.bəl/"
+        },
+        "afh": "FII-zə-bəl",
+        "say": "Feasible.",
+        "alerts": [
+          {
+            "type": "vowel",
+            "text": "/iː/ larga: «FII». No «fi» breve."
+          },
+          {
+            "type": "consonant",
+            "text": "La s suena /z/, sonora, con zumbido, como en *zoo*: «FII-zə-bəl»."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba, FII; *-ble* es /bəl/, sin vocal plena. No «fea-SI-ble»."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "A full rebuild is not feasible before the launch."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Naming the constraint",
+        "formula": "we're up against + deadline · the budget doesn't stretch to + noun · X is out of scope",
+        "usage": "One precise, neutral sentence per constraint, with a number where you can.",
+        "examples": [
+          {
+            "speaker": "ryan",
+            "audio": "l128-cc-1a",
+            "text": "{{We're up against}} the go-live date, and a proper fix would take five weeks.",
+            "tts": "We're up against the go-live date, [and](/ənd/) a proper fix [would](/wəd/) take five weeks."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l128-cc-1b",
+            "text": "Rebuilding the indexing is {{out of scope}}.",
+            "tts": "Rebuilding the indexing is out [of](/əv/) scope."
+          }
+        ]
+      },
+      {
+        "title": "Mixed conditional (preview): past → present",
+        "formula": "If + had + past participle, … would + bare infinitive (+ now / today)",
+        "usage": "A past that did not happen, and the present it would have created. Useful to explain where a constraint comes from and to accept responsibility.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l128-cc-2a",
+            "text": "{{If we had tested}} at full scale in April, we {{would have}} more options now.",
+            "tts": "If we [had](/həd/) tested [at](/ət/) full scale in April, we [would](/wəd/) have more options now."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l128-cc-2b",
+            "text": "{{If we'd spotted}} this earlier, we{{'d have}} more room now."
+          }
+        ]
+      },
+      {
+        "title": "Reasons with given",
+        "formula": "given + noun phrase · given that + clause",
+        "usage": "A neutral-to-formal way to state the circumstance that limits the options.",
+        "examples": [
+          {
+            "speaker": "emma",
+            "audio": "l128-cc-3a",
+            "text": "{{Given}} the fixed-price contract, any extra work would need a change request.",
+            "tts": "Given the fixed-price contract, any extra work [would](/wəd/) need a change request."
+          },
+          {
+            "speaker": "oliver",
+            "audio": "l128-cc-3b",
+            "text": "{{Given that}} the servers aren't the problem, more servers won't help."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Would in the if-half",
+        "text": "The *if*-half never takes *would*. For an unreal past, use the past perfect.",
+        "wrong": "If we would have tested in April, we would have more options now.",
+        "right": "If we had tested in April, we would have more options now."
+      },
+      {
+        "title": "Will in the result",
+        "text": "Both halves are unreal, so the result takes *would*, not *will*: the extra options do not exist.",
+        "wrong": "If we had tested in April, we will have more options now.",
+        "right": "If we had tested in April, we would have more options now."
+      },
+      {
+        "title": "Realize for «realizar»",
+        "text": "*Realize* means to understand suddenly. For work, use *carry out*, *do* or *complete*.",
+        "wrong": "We can't realize the rebuild in three weeks.",
+        "right": "We can't carry out the rebuild in three weeks."
+      },
+      {
+        "title": "Actual for «actual»",
+        "text": "*Actual* means real. For the one that exists now, use *current*.",
+        "wrong": "The actual budget doesn't stretch to extra servers.",
+        "right": "The current budget doesn't stretch to extra servers."
+      },
+      {
+        "title": "Economic for «económico»",
+        "text": "*Economic* is about the economy of a country. For money in a project, use *financial* or *budget*; for cheap, *inexpensive*.",
+        "wrong": "We have economic limits on this project.",
+        "right": "We have budget constraints on this project."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the correct form.",
+      "text": "If we ___ at full scale in April, we would have more options now.",
+      "options": [
+        "had tested",
+        "would have tested",
+        "tested"
+      ],
+      "answer": 0,
+      "explain": "Unreal past in the *if*-half: past perfect. Never *would* after *if*."
+    },
+    {
+      "type": "choice",
+      "prompt": "The result is about now. Choose the correct form.",
+      "text": "If we had tested earlier, we ___ in a better position today.",
+      "options": [
+        "would be",
+        "would have been",
+        "will be"
+      ],
+      "answer": 0,
+      "explain": "*Today* → *would* + bare infinitive. *Would have been* would describe a past result."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does *'d* mean here?",
+      "text": "If we'd spotted it earlier… → If we ___ spotted it earlier…",
+      "options": [
+        "had",
+        "would",
+        "did"
+      ],
+      "answer": 0,
+      "explain": "A past participle (*spotted*) follows, so *'d* = *had*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right verb.",
+      "text": "We can't ___ the rebuild in three weeks.",
+      "options": [
+        "carry out",
+        "realize",
+        "make real"
+      ],
+      "answer": 0,
+      "explain": "*Carry out* (or *do, complete*) a piece of work. *Realize* = understand suddenly."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "The budget doesn't ___ to extra servers this quarter.",
+      "accept": [
+        "stretch"
+      ],
+      "explain": "*The budget doesn't stretch to* + noun = there isn't enough money for it."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "We're up ___ the go-live date.",
+      "accept": [
+        "against"
+      ],
+      "explain": "*Be up against* a deadline = have very little time left."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "Rebuilding the indexing is out of ___, so it would need a change request.",
+      "accept": [
+        "scope"
+      ],
+      "explain": "*Out of scope* = not part of the agreed work."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "___ the fixed-price contract, any extra work would need a change request.",
+      "accept": [
+        "given"
+      ],
+      "explain": "*Given* + noun phrase = considering."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "If",
+        "we",
+        "had",
+        "tested",
+        "earlier,",
+        "we",
+        "would",
+        "have",
+        "more",
+        "options",
+        "now"
+      ],
+      "answer": "If we had tested earlier, we would have more options now",
+      "explain": "*If* + past perfect, *would* + bare infinitive (*have*) + *now*."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "A",
+        "proper",
+        "fix",
+        "would",
+        "take",
+        "longer",
+        "than",
+        "we",
+        "have"
+      ],
+      "answer": "A proper fix would take longer than we have",
+      "explain": "A time constraint in one sentence; *than* is weak, /ðən/."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the conditional.",
+      "wrong": "If we would have tested in April, we would have more options now.",
+      "accept": [
+        "If we had tested in April, we would have more options now.",
+        "If we'd tested in April, we would have more options now.",
+        "If we had tested in April, we'd have more options now.",
+        "If we'd tested in April, we'd have more options now."
+      ],
+      "explain": "No *would* in the *if*-half: *if we had tested*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the false friend.",
+      "wrong": "The actual budget doesn't stretch to extra servers.",
+      "accept": [
+        "The current budget doesn't stretch to extra servers."
+      ],
+      "explain": "*Current* = the one that exists now. *Actual* = real."
+    },
+    {
+      "type": "organizer",
+      "kind": "table",
+      "prompt": "Which constraint is it? Type *time*, *budget* or *scope*.",
+      "columns": [
+        "Sentence",
+        "Constraint"
+      ],
+      "rows": [
+        [
+          "We're up against the go-live date.",
+          {
+            "gap": "time",
+            "hint": "time / budget / scope",
+            "accept": [
+              "time",
+              "deadline"
+            ]
+          }
+        ],
+        [
+          "The budget doesn't stretch to extra servers.",
+          {
+            "gap": "budget",
+            "hint": "time / budget / scope",
+            "accept": [
+              "budget",
+              "money"
+            ]
+          }
+        ],
+        [
+          "Rebuilding the indexing wasn't part of the agreed work.",
+          {
+            "gap": "scope",
+            "hint": "time / budget / scope",
+            "accept": [
+              "scope"
+            ]
+          }
+        ],
+        [
+          "A proper fix would take five weeks, and we've got three.",
+          {
+            "gap": "time",
+            "hint": "time / budget / scope",
+            "accept": [
+              "time",
+              "deadline"
+            ]
+          }
+        ]
+      ],
+      "explain": "Time = dates and durations; budget = money; scope = what was agreed. Name the right one, precisely."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *feasible* is stressed?",
+      "word": "feasible",
+      "syllables": [
+        "fea",
+        "si",
+        "ble"
+      ],
+      "answer": 0,
+      "audioRef": "l128-ph-feasible-us",
+      "explain": "**FEA**-si-ble, with a long /iː/ and /z/."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "alex",
+      "audio": "l128-dict-1",
+      "text": "If we had tested earlier, we would have more options now.",
+      "explain": "Listen for the weak *had* and *would*: /həd/, /wəd/.",
+      "tts": "If we [had](/həd/) tested earlier, we [would](/wəd/) have more options now."
+    }
+  ],
+  "task": {
+    "title": "Explaining why it can't be done",
+    "format": "voice",
+    "scenario": "Help-center project, ten days before launch. Laura, the head of support, wants video tutorials in the help center at launch, and she isn't happy that the answer is no. Good videos take about a month to produce; there is no money for video in this phase, and videos were not in the agreed scope. Nobody asked about videos when the scope was agreed in March. Record a voice message for Laura that explains the constraints, takes your share of responsibility and suggests a way forward.",
+    "brief": "Explain time, budget and scope constraints neutrally, and use a mixed conditional to link a past decision to the situation now.",
+    "steps": [
+      "Show you understand why Laura wants the videos.",
+      "Time: the launch date against the production time, with numbers.",
+      "Budget and scope: what isn't covered and what a change would need.",
+      "A mixed conditional about March and now, and your share of responsibility.",
+      "A realistic way forward and a date to talk."
+    ],
+    "length": "70–110 words (about 45–60 seconds)",
+    "minWords": 55,
+    "keywords": [
+      "I understand why",
+      "we're up against",
+      "the budget doesn't stretch to",
+      "out of scope",
+      "a change request",
+      "if we had",
+      "we would",
+      "now",
+      "that's on us",
+      "given",
+      "phase two"
+    ],
+    "chunks": [
+      {
+        "label": "time constraint",
+        "re": "\\bup against\\b|\\b(launch|go-live)\\s+in\\b|\\btake\\s+(about\\s+)?(a|one|two|three|\\d+)\\s+(month|week)s?\\b"
+      },
+      {
+        "label": "budget constraint",
+        "re": "\\bbudget\\b"
+      },
+      {
+        "label": "scope constraint",
+        "re": "\\b(out of|in) (the )?scope\\b|\\bagreed scope\\b|\\bchange request\\b"
+      },
+      {
+        "label": "mixed conditional",
+        "re": "\\bif\\s+(we|you|they|i|someone|anyone)\\s*('d|had)\\s+\\w+(ed|en|known|done|made|told|thought)?\\b[^.!?]*\\b(would|'d)\\s+(be|have|know|need)\\b[^.!?]*\\b(now|today)\\b"
+      },
+      {
+        "label": "responsibility",
+        "re": "\\bthat's on us\\b|\\bthat is on us\\b|\\bour (responsibility|fault|mistake)\\b|\\bwe should have\\b"
+      },
+      {
+        "label": "way forward",
+        "re": "\\bgiven\\b|\\bphase two\\b|\\bsecond phase\\b|\\bcould we\\b|\\blet's\\b"
+      }
+    ],
+    "checks": [
+      "ifWouldHave",
+      "realizeWork",
+      "actualCurrent",
+      "economicBudget",
+      "proDropIt",
+      "actuallyCurrently",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the formal note for the steering committee",
+      "brief": "Write one or two formal sentences: the scope constraint with *given that*, what a change would require, and a proposal for the second phase.",
+      "keywords": [
+        "Given that",
+        "were not included in the agreed scope",
+        "would require a formal change request",
+        "we would therefore propose"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l128-task-model",
+          "text": "Hi Laura, it's Alex, about the video tutorials. {{I understand why}} your team wants them, so here's where we are. Time: {{we're up against}} the launch in ten days, and good videos take about a month to make. Budget: video production isn't in this phase, and {{the budget doesn't stretch to}} an agency. Scope: videos weren't in the agreed scope, so they would need {{a change request}}. To be honest, {{if we had talked}} about videos in March, {{we would have}} them ready {{now}}. Nobody raised it, and {{that's on us}} as much as anyone. {{Given}} where we are, could we plan three short videos for {{phase two}}? Let's talk on Thursday.",
+          "label": "Voice message to an unhappy stakeholder (neutral)",
+          "notes": [
+            "*I understand why your team wants them*: empathy before the constraints, so the no is not a wall.",
+            "Time, Budget, Scope as three labelled points, each with one fact: *ten days* against *a month*; *isn't in this phase*; *weren't in the agreed scope*.",
+            "*If we had talked about videos in March, we would have them ready now*: a mixed conditional; the past that did not happen and the present it would have created.",
+            "*That's on us as much as anyone*: Alex shares the responsibility instead of blaming the support team.",
+            "*Given where we are, could we plan… for phase two? Let's talk on Thursday*: a realistic way forward and a date."
+          ],
+          "tts": "Hi Laura, it's Alex, about the video tutorials. I understand why your team wants them, so here's where we are. Time: we're up against the launch in ten days, [and](/ənd/) good videos take about a month to make. Budget: video production isn't in this phase, [and](/ənd/) the budget doesn't stretch to an agency. Scope: videos weren't in the agreed scope, so they [would](/wəd/) need a change request. To be honest, if we [had](/həd/) talked about videos in March, we [would](/wəd/) have them ready now. Nobody raised it, [and](/ənd/) that's on us [as](/əz/) much [as](/əz/) anyone. Given where we are, [could](/kəd/) we plan three short videos [for](/fəɹ/) phase two? Let's talk on Thursday."
+        },
+        {
+          "speaker": "emma",
+          "audio": "l128-task-formal",
+          "text": "{{Given that}} video tutorials {{were not included in the agreed scope}}, their production {{would require a formal change request}}; {{we would therefore propose}} to include them in the second phase.",
+          "label": "One formal sentence for the committee",
+          "notes": [
+            "*Given that* + clause: the constraint as a neutral fact.",
+            "*Would require a formal change request*: the formal consequence, in the conditional.",
+            "*We would therefore propose*: a formal, softened proposal."
+          ],
+          "tts": "Given that video tutorials were not included in the agreed scope, their production [would](/wəd/) require a formal change request; we [would](/wəd/) therefore propose to include them in the second phase."
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "Si Laura escucha tu mensaje, ¿siente que la entiendes o que le pones un muro de excusas? ¿Qué frase reconoce su punto de vista y cuál reconoce tu parte de responsabilidad?",
+        "reflect": true
+      },
+      {
+        "area": "register",
+        "text": "¿Nombraste las limitaciones con frases neutras (*we're up against*, *the budget doesn't stretch to*) y no con chat (*no way*, *maxed out*) ni con frases de culpa (*your team never asked*)?"
+      },
+      {
+        "area": "accuracy",
+        "text": "¿Tu condicional mixto tiene *if* + *had* + participio y *would* + infinitivo sin *have* + participio (*we would have them ready now*)? ¿Ningún *would* en la parte del *if*?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Dijiste *realize* por «realizar», *actual* por «actual» o *economic* por «económico»? Debe ser *carry out / do*, *current* y *budget / financial*."
+      },
+      {
+        "area": "strategy",
+        "text": "Escúchate: ¿dijiste *had* y *would* en forma débil (*if we'd talked*, *we'd have*)? Si te faltó una palabra (*change request*), ¿la explicaste con otras (*a formal request to change what we agreed*) sin detenerte?",
+        "reflect": true
+      }
+    ]
+  }
+}

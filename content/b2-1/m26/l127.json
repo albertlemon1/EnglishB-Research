@@ -1,0 +1,1108 @@
+{
+  "id": "l127",
+  "n": 127,
+  "title": "Declining Offers Without Damaging Relationships",
+  "titleEs": "Rechazar ofrecimientos sin dañar la relación",
+  "minutes": 60,
+  "summary": "Say no to a generous offer and keep the relationship: thanks first, the no early and softened (*I'm afraid we'll have to pass at this stage*), a short reason about the situation (*it would take…, it wouldn't save…*), a smaller yes if you can, and an open door (*if things change, you'll be the first to know*).",
+  "canDo": [
+    "Decline an offer or an invitation in five moves: thanks, the no, the reason, an alternative and an open door.",
+    "Present the no as forced by the situation (*we'll have to pass*, *not in a position to*, *at this stage*), not as a judgement on the offer.",
+    "Explain the cost of saying yes with *would* (the imagined acceptance) and promise with *will* (the open door).",
+    "Say *thanks for*, *but I'm afraid* and *I'd love to* with their weak forms, and keep *to* strong at the end."
+  ],
+  "focus": {
+    "grammar": "Ellipsis with to (I'd love to, but…) · would for an imagined acceptance (it would take, it wouldn't save) · first conditional for the open door (if things change, you'll…) · thanks for + -ing · not in a position to + verb",
+    "lexis": "thanks for thinking of us, that's really kind of you, I'd love to but, I'm afraid we'll have to pass, not in a position to, at this stage, bring someone up to speed, leave the door open, take a rain check, we've got it covered, decline",
+    "afh": "weak forms: for /fə(r)/, but /bət/ · to weak /tə/ before a verb but strong /tuː/ at the end (I'd love to) · thanks /θ/ · deCLINE · appreciate /əˈpriː.ʃi.eɪt/ with /ʃ/"
+  },
+  "warmup": "Remember an invitation or an offer you turned down. How did you say no? Did the other person offer again later? What, in your words, kept the door open or closed it?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "An offer of help",
+      "context": "Helen has read Oliver's warning about the search. She replies to Ryan with an offer.",
+      "speaker": "helen",
+      "to": "Ryan",
+      "audio": "l127-scn",
+      "text": "Hi Ryan, thanks for the early warning about the search. I know how hard the team has been working, and {{I'd like to help}}. I could lend you two of our developers, Mark and Julia, for the next three weeks, {{at no cost to}} the project. They know our data well, so they might speed things up. {{Would that be useful}}? {{Let me know}} by Thursday and I'll arrange it. Best, Helen",
+      "tts": "Hi Ryan, thanks [for](/fəɹ/) the early warning about the search. I know how hard the team has been working, [and](/ənd/) I'd like to help. I [could](/kəd/) lend you two [of](/əv/) our developers, Mark [and](/ənd/) Julia, [for](/fəɹ/) the next three weeks, [at](/ət/) no cost to the project. They know our data well, so they might speed things up. [Would](/wəd/) that be useful? Let me know by Thursday [and](/ənd/) I'll arrange it. Best, Helen"
+    },
+    "dialogue": {
+      "title": "A generous offer",
+      "context": "Ryan reads Helen's email to Alex. They have to answer by Thursday.",
+      "lines": [
+        {
+          "speaker": "alex",
+          "audio": "l127-dlg-01",
+          "text": "So Helen's offering us two developers for three weeks? That's generous.",
+          "tts": "So Helen's offering us two developers [for](/fəɹ/) three weeks? That's generous."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l127-dlg-02",
+          "text": "It is, and that's what makes it hard. I don't think we can say yes.",
+          "tts": "It is, [and](/ənd/) that's what makes it hard. I don't think we [can](/kən/) say yes."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l127-dlg-03",
+          "text": "Why not? More people, more speed."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l127-dlg-04",
+          "text": "Not this late. Their access {{would take}} two weeks to set up, and we'd spend the third week {{bringing them up to speed}}.",
+          "tts": "Not this late. Their access [would](/wəd/) take two weeks to set up, [and](/ənd/) we'd spend the third week bringing them up to speed."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l127-dlg-05",
+          "text": "Fair enough. But you can't just say no to the client's program director.",
+          "tts": "Fair enough. [But](/bət/) you can't just say no to the client's program director."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l127-dlg-06",
+          "text": "No. I'll {{thank her for}} the offer, explain why the timing doesn't work, and {{leave the door open}}.",
+          "tts": "No. I'll thank [her](/əɹ/) [for](/fəɹ/) the offer, explain why the timing doesn't work, [and](/ənd/) leave the door open."
+        },
+        {
+          "speaker": "alex",
+          "audio": "l127-dlg-07",
+          "text": "Maybe there's something smaller she could help with?",
+          "tts": "Maybe there's something smaller she [could](/kəd/) help with?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l127-dlg-08",
+          "text": "Good idea. What we really need is quick answers from her data team. I'll ask for that instead.",
+          "tts": "Good idea. What we really need is quick answers [from](/fɹəm/) [her](/əɹ/) data team. I'll ask [for](/fəɹ/) that instead."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "Why does Ryan say the offer is hard to turn down?",
+        "options": [
+          "Because it is generous and it comes from the client's program director",
+          "Because Mark and Julia are already on the project",
+          "Because Helen wants an answer today"
+        ],
+        "answer": 0,
+        "explain": "*It is [generous], and that's what makes it hard* and *you can't just say no to the client's program director*."
+      },
+      {
+        "q": "Why wouldn't the two developers save time?",
+        "options": [
+          "Their access would take two weeks, and the third week would go on bringing them up to speed",
+          "They don't know Helen's data",
+          "They are only free for one week"
+        ],
+        "answer": 0,
+        "explain": "*Their access would take two weeks to set up, and we'd spend the third week bringing them up to speed.*"
+      },
+      {
+        "q": "What will Ryan ask Helen for instead?",
+        "options": [
+          "Quick answers from her data team",
+          "A later go-live date",
+          "More budget for servers"
+        ],
+        "answer": 0,
+        "explain": "*What we really need is quick answers from her data team.* A smaller yes after the no."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Turning down an invitation from a friend.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l127-reg-c1",
+            "text": "I'd love to, but I'm swamped this week. Can I take a rain check?",
+            "note": "*Swamped* = very busy; *take a rain check* = say no now, yes another time (casual, mostly US).",
+            "tts": "I'd love to, [but](/bət/) I'm swamped this week. [Can](/kən/) I take a rain check?"
+          },
+          {
+            "speaker": "maya",
+            "audio": "l127-reg-c2",
+            "text": "Thanks, but I'll pass this time. Next time for sure!",
+            "note": "*I'll pass* = no, thanks (casual); *next time for sure* keeps the door open.",
+            "tts": "Thanks, [but](/bət/) I'll pass this time. Next time [for](/fəɹ/) sure!"
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Colleagues and clients you work with every day.",
+        "items": [
+          {
+            "speaker": "ryan",
+            "audio": "l127-reg-n1",
+            "text": "Thanks for thinking of us, but I don't think it would help at this stage.",
+            "note": "Thanks, then a no about the timing (*at this stage*), not about the offer.",
+            "tts": "Thanks [for](/fəɹ/) thinking [of](/əv/) us, [but](/bət/) I don't think it [would](/wəd/) help [at](/ət/) this stage."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l127-reg-n2",
+            "text": "That's really kind of you, but we've got it covered.",
+            "note": "*We've got it covered* = we can manage it ourselves.",
+            "tts": "That's really kind [of](/əv/) you, [but](/bət/) we've got it covered."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l127-reg-n3",
+            "text": "It's a great idea, but I'm afraid I can't take on anything else before the launch.",
+            "note": "Praise the idea, then *I'm afraid* + the real constraint.",
+            "tts": "It's a great idea, [but](/bət/) I'm afraid I can't take on anything else before the launch."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Formal emails and letters; senior stakeholders.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l127-reg-f1",
+            "text": "Thank you for your generous offer; unfortunately, we are not in a position to accept it at this stage.",
+            "note": "*Not in a position to* + verb: the circumstances, not the will, prevent a yes.",
+            "tts": "Thank you [for](/fə/) your generous offer; unfortunately, we are not in a position to accept it [at](/ət/) this stage."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l127-reg-f2",
+            "text": "I quite understand. Please do let me know if the situation changes.",
+            "note": "*I quite understand* and the emphatic *please do*: a gracious formal reply."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "thanks for thinking of us",
+        "def": "a warm opening before you decline an offer or an invitation",
+        "register": "neutral",
+        "example": "Thanks for thinking of us, Helen. It's a really generous offer."
+      },
+      {
+        "en": "that's really kind of you, but…",
+        "def": "you value the offer, and a no is coming",
+        "register": "neutral",
+        "example": "That's really kind of you, but we've got it covered."
+      },
+      {
+        "en": "I'd love to, but…",
+        "def": "a friendly way to decline an invitation; *to* stands for the verb you have just heard",
+        "register": "casual",
+        "example": "I'd love to, but I'm away that weekend."
+      },
+      {
+        "en": "I'm afraid we'll have to pass (on it)",
+        "def": "a polite way to say no to an offer, as if the situation forced it",
+        "register": "neutral",
+        "syn": "we'll have to say no",
+        "example": "I'm afraid we'll have to pass on it at this stage."
+      },
+      {
+        "en": "not in a position to (+ verb)",
+        "def": "unable to, for reasons outside your control",
+        "register": "formal",
+        "example": "We are not in a position to accept it at this stage."
+      },
+      {
+        "en": "at this stage",
+        "def": "at this point in the project; it suggests the answer could change later",
+        "register": "neutral",
+        "syn": "for now",
+        "example": "It wouldn't help at this stage."
+      },
+      {
+        "en": "bring someone up to speed",
+        "def": "to give someone the information they need to join work already in progress",
+        "register": "neutral",
+        "example": "We'd spend the third week bringing them up to speed."
+      },
+      {
+        "en": "leave the door open",
+        "def": "to make it clear that you may say yes in the future",
+        "register": "neutral",
+        "example": "Thank her, explain the timing and leave the door open."
+      },
+      {
+        "en": "take a rain check",
+        "def": "to decline an invitation now and suggest doing it another time",
+        "register": "casual",
+        "example": "I'm swamped this week. Can I take a rain check?"
+      },
+      {
+        "en": "we've got it covered",
+        "def": "we can deal with it ourselves",
+        "register": "neutral",
+        "example": "That's really kind of you, but we've got it covered."
+      },
+      {
+        "en": "decline",
+        "def": "to say no politely to an offer or an invitation; *refuse* is stronger and *reject* stronger still",
+        "register": "formal",
+        "syn": "turn down",
+        "ant": "accept",
+        "example": "Unfortunately, we must decline the offer at this stage."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Thanks, but I'll pass this time.",
+        "answer": "casual",
+        "explain": "*I'll pass* is a casual no."
+      },
+      {
+        "text": "We are not in a position to accept it at this stage.",
+        "answer": "formal",
+        "explain": "*Not in a position to* + full forms: formal writing."
+      },
+      {
+        "text": "That's really kind of you, but we've got it covered.",
+        "answer": "neutral",
+        "explain": "Warm, clear and suitable for most colleagues and clients."
+      },
+      {
+        "text": "Can I take a rain check?",
+        "answer": "casual",
+        "explain": "An informal idiom for friends."
+      },
+      {
+        "text": "Please do let me know if the situation changes.",
+        "answer": "formal",
+        "explain": "Emphatic *please do* and *the situation*: formal and courteous."
+      },
+      {
+        "text": "Thanks for thinking of us, but I don't think it would help right now.",
+        "answer": "neutral",
+        "explain": "The everyday professional no."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Ryan's reply to Helen. It says no to a generous offer from the client, and it still makes her want to help next time. Look at how it is built.",
+    "speaker": "ryan",
+    "audio": "l127-gd",
+    "text": "Hi Helen, {{thank you so much for}} the offer of Mark and Julia; it's really generous. {{I'm afraid}} we{{'ll have to pass}} on it {{at this stage}}, though. Their access {{would take}} about two weeks to set up, and we'd need the third week to bring them up to speed, so it {{wouldn't save}} us any time. {{What would really help is}} a quick line to your data team: answers within a day. Could we arrange that? {{If things change}}, you{{'ll be}} the first to know. Best, Ryan",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "The five moves of a safe no",
+      "prompt": "Name the move in each part of Ryan's email.",
+      "columns": [
+        "Ryan's words",
+        "Move"
+      ],
+      "rows": [
+        [
+          "Thank you so much for the offer of Mark and Julia; it's really generous.",
+          {
+            "gap": "thanks",
+            "hint": "thanks / the no / the reason / an alternative / the open door",
+            "accept": [
+              "thanks",
+              "thank",
+              "thanks and appreciation",
+              "appreciation"
+            ]
+          }
+        ],
+        [
+          "I'm afraid we'll have to pass on it at this stage, though.",
+          {
+            "gap": "the no",
+            "hint": "thanks / the no / the reason / an alternative / the open door",
+            "accept": [
+              "the no",
+              "no",
+              "a no",
+              "refusal",
+              "the refusal",
+              "decline"
+            ]
+          }
+        ],
+        [
+          "Their access would take about two weeks to set up…",
+          {
+            "gap": "the reason",
+            "hint": "thanks / the no / the reason / an alternative / the open door",
+            "accept": [
+              "the reason",
+              "reason",
+              "a reason",
+              "reasons"
+            ]
+          }
+        ],
+        [
+          "What would really help is a quick line to your data team.",
+          {
+            "gap": "an alternative",
+            "hint": "thanks / the no / the reason / an alternative / the open door",
+            "accept": [
+              "an alternative",
+              "alternative",
+              "the alternative",
+              "a smaller yes"
+            ]
+          }
+        ],
+        [
+          "If things change, you'll be the first to know.",
+          {
+            "gap": "the open door",
+            "hint": "thanks / the no / the reason / an alternative / the open door",
+            "accept": [
+              "the open door",
+              "open door",
+              "an open door",
+              "door"
+            ]
+          }
+        ]
+      ],
+      "explain": "Thanks → the no, early and softened → a reason about the situation → a smaller yes → the open door. The no comes in the second sentence, not at the end."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "Ryan writes *we'll have to pass on it at this stage*. What does *at this stage* add? And how is *we'll have to pass* different from *we don't want it* or *we don't need it*?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "now|moment|later|change|future|timing|point",
+            "label": "the no is about now"
+          },
+          {
+            "re": "have to|forced|obligat|situation|circumstance|no choice",
+            "label": "forced by the situation"
+          },
+          {
+            "re": "judg|offer itself|reject|personal|offend|criticis|rude",
+            "label": "not a judgement"
+          }
+        ],
+        "model": "*At this stage* limits the no to the present moment of the project: the problem is the timing, not the offer, so the answer could change later. *We'll have to pass* presents the no as something the situation forces on the team (*have to*), not as a preference. *We don't want it* or *we don't need it* would sound like a judgement on the offer, and indirectly on Helen, who made it.",
+        "criteria": [
+          "You said *at this stage* limits the no to now and suggests it could change.",
+          "You said *have to* makes the no sound forced by the situation, not chosen.",
+          "You said *we don't want / need it* would judge the offer and the person who made it."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "Compare *Their access would take about two weeks*, *it wouldn't save us any time* and *If things change, you'll be the first to know*. Why does Ryan use *would* in the first two and *will* in the third? Write the patterns.",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "imagin|hypothet|unreal|if we accepted|if we said yes|not going to",
+            "label": "would = imagined yes"
+          },
+          {
+            "re": "real|possible|future|likely",
+            "label": "will = real possibility"
+          },
+          {
+            "re": "infinitive|base|bare|present simple|present",
+            "label": "the patterns"
+          }
+        ],
+        "model": "The first two describe an imagined situation, the one in which Ryan says yes, which is not going to happen: *would / wouldn't* + bare infinitive, with an unspoken *if we accepted*. That is a hidden Second Conditional, and it makes the reason sound hypothetical and soft. The third is a real possibility in the future: *if* + present simple, *will* + bare infinitive (First Conditional). *Will* makes the promise firm.",
+        "criteria": [
+          "You said *would* describes the imagined acceptance (an unspoken *if we accepted*).",
+          "You said *will* describes a real future possibility, a firm promise.",
+          "You wrote the patterns: *would* + bare infinitive; *if* + present simple, *will* + bare infinitive."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Helen offered two developers at no cost. Why does Ryan ask for something smaller (*a quick line to your data team*) after saying no? How might Helen feel if the email ended after the reason?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "reject|person|personal|goodwill|help|involved|accept",
+            "label": "accepts her goodwill"
+          },
+          {
+            "re": "cold|unwanted|hurt|offend|disappoint|ignored",
+            "label": "ending at the reason feels cold"
+          },
+          {
+            "re": "future|next time|again|relationship|door",
+            "label": "future relationship"
+          }
+        ],
+        "model": "A plain no to a generous offer can feel like a rejection of the person. By declining the big offer and asking for something smaller that really helps, Ryan accepts Helen's goodwill, keeps her involved and shows that the no is about timing, not about her. If the email ended after the reason, it would be logical but cold: Helen might feel her help was not wanted, and next time she might not offer. The open door (*you'll be the first to know*) protects the relationship for later.",
+        "criteria": [
+          "You said the smaller request accepts Helen's goodwill and keeps her involved.",
+          "You said an email ending at the reason would feel cold, as if her help were unwanted.",
+          "You linked the open door to the future of the relationship."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "A relationship-safe no has five moves: thanks → the no, early and softened → a short reason about the situation → if possible, a smaller yes → an open door.",
+        "Make the no sound forced by the circumstances: *we'll have to pass*, *we're not in a position to*, *at this stage*. Avoid judging the offer (*we don't need it*, *it isn't useful*).",
+        "The reason often uses *would* for the imagined yes (*it would take two weeks*, *it wouldn't save us any time*). The open door uses *will*: *if things change, you'll be the first to know*.",
+        "Say no clearly, once. Repeating *sorry* or explaining too much sounds unsure and invites the other person to insist."
+      ],
+      "formulas": [
+        "Thanks for + noun / -ing; I'm afraid we'll have to pass (on it) at this stage",
+        "it would + verb / it wouldn't + verb (= if we accepted)",
+        "What would really help is + noun · If + present simple, … will + verb"
+      ],
+      "note": "Spanish often builds up slowly before the *no*. In English, the no comes early, usually in the second sentence, and the reason is short: one or two facts. A long justification sounds defensive."
+    },
+    "tts": "Hi Helen, thank you so much [for](/fəɹ/) the offer [of](/əv/) Mark [and](/ənd/) Julia; it's really generous. I'm afraid we'll have to pass on it [at](/ət/) this stage, though. Their access [would](/wəd/) take about two weeks to set up, [and](/ənd/) we'd need the third week to bring them up to speed, so it wouldn't save us any time. What [would](/wəd/) really help is a quick line to your data team: answers within a day. [Could](/kəd/) we arrange that? If things change, you'll be the first to know. Best, Ryan"
+  },
+  "phonetics": {
+    "intro": "Para decir que no con amabilidad usarás tres bloques muy frecuentes: *thanks for…*, *I'd love to…* y *…but I'm afraid…*. En los tres, la palabra funcional se reduce: *for* /fə(r)/, *to* /tə/, *but* /bət/. Hay una excepción importante: cuando *to* queda al final, sin verbo detrás (*I'd love to*), recupera la vocal plena, /tuː/.",
+    "items": [
+      {
+        "id": "thanks-for",
+        "term": "thanks for thinking of us",
+        "pos": "chunk",
+        "meaning": "a warm opening before a polite no",
+        "ipa": {
+          "us": "/ˈθæŋks fɚ ˈθɪŋ.kɪŋ‿əv‿əs/",
+          "uk": "/ˈθæŋks fə ˈθɪŋ.kɪŋ‿əv‿əs/"
+        },
+        "afh": "ZANKS-fər-ZÍN-ki-ŋə-vəs (z de España)",
+        "say": "Thanks for thinking of us.",
+        "ttsUs": "Thanks [for](/fəɹ/) thinking [of](/əv/) [us](/əs/).",
+        "ttsUk": "Thanks [for](/fə/) thinking [of](/əv/) [us](/əs/).",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*For* es /fər/ (US) o /fə/ (UK): «fər», con schwa. *Of* es /əv/ y *us*, /əs/. No «for», «of», «us» con vocales plenas."
+          },
+          {
+            "type": "consonant",
+            "text": "/θ/ en *thanks* y *thinking*: la lengua entre los dientes, como la z de España. No «tanks» ni «sanks»."
+          },
+          {
+            "type": "linking",
+            "text": "*Thinking of us* va en un bloque: «ZÍN-ki-ŋə-vəs». La ng es /ŋ/, como la n de *tengo*: no añadas una g fuerte delante de *of*."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "Thanks for thinking of us, Helen. It's a really generous offer.",
+          "tts": "Thanks [for](/fəɹ/) thinking [of](/əv/) [us](/əs/), Helen. It's a really generous offer."
+        }
+      },
+      {
+        "id": "love-to",
+        "term": "I'd love to",
+        "pos": "chunk · strong to at the end",
+        "meaning": "a friendly yes or a friendly start to a no; *to* stands for the verb",
+        "ipa": {
+          "us": "/aɪd ˈlʌv tuː/ · /aɪd ˈlʌv tə ˈhelp/",
+          "uk": "/aɪd ˈlʌv tuː/ · /aɪd ˈlʌv tə ˈhelp/"
+        },
+        "afh": "aid-LAV-tuu (al final) · aid-LAV-tə-JELP (con verbo)",
+        "say": "I'd love to.",
+        "variants": [
+          {
+            "label": "Weak to before a verb: /tə/",
+            "speaker": "coach",
+            "audio": "l127-ph-love-to-weak",
+            "text": "I'd love to help, but I'm swamped.",
+            "tts": "I'd love to help, [but](/bət/) I'm swamped."
+          },
+          {
+            "label": "Strong to without a verb: /tuː/",
+            "speaker": "coach",
+            "audio": "l127-ph-love-to-strong",
+            "text": "I'd love to, but I can't.",
+            "tts": "I'd love [to](/tˈu/), [but](/bət/) I can't."
+          }
+        ],
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "Con un verbo detrás, *to* es /tə/: «aid-LAV-tə-JELP». Va pegado al verbo, sin acento."
+          },
+          {
+            "type": "stress",
+            "text": "Sin verbo detrás (al final o antes de una pausa), *to* es fuerte, /tuː/: «aid-LAV-tuu». Escucha las dos variantes."
+          },
+          {
+            "type": "vowel",
+            "text": "*Love* lleva /ʌ/, una a breve y central: «LAV». No «lov» con o."
+          }
+        ],
+        "example": {
+          "speaker": "maya",
+          "text": "I'd love to, but I'm away that weekend.",
+          "tts": "I'd love [to](/tˈu/), [but](/bət/) I'm away that weekend."
+        },
+        "ttsUs": "I'd love [to](/tˈu/)."
+      },
+      {
+        "id": "but-afraid",
+        "term": "but I'm afraid",
+        "pos": "chunk",
+        "meaning": "the turn from thanks to the no",
+        "ipa": {
+          "us": "/bət̬‿aɪm‿əˈfreɪd/",
+          "uk": "/bət‿aɪm‿əˈfreɪd/"
+        },
+        "afh": "bə-raim-ə-FREID (US) · bə-taim-ə-FREID (UK)",
+        "say": "But I'm afraid.",
+        "ttsUs": "[But](/bəɾ/) I'm afraid.",
+        "ttsUk": "[But](/bət/) I'm afraid.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*But* es /bət/: «bət», con schwa. No «BAT» ni «but» con u española."
+          },
+          {
+            "type": "flap",
+            "text": "En EE. UU., la t de *but* entre vocales suena como una r simple: «bə-RAIM». En Reino Unido, t suave: «bə-TAIM»."
+          },
+          {
+            "type": "stress",
+            "text": "*Afraid* empieza con schwa y lleva el acento en la segunda sílaba: «ə-FREID», con fr como en *fresa*."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "It's a great idea, but I'm afraid I can't take on anything else before the launch.",
+          "tts": "It's a great idea, [but](/bəɾ/) I'm afraid I can't take on anything else before the launch."
+        }
+      },
+      {
+        "id": "decline",
+        "term": "decline",
+        "pos": "verb",
+        "meaning": "to say no politely to an offer or an invitation",
+        "ipa": {
+          "us": "/dɪˈklaɪn/",
+          "uk": "/dɪˈklaɪn/"
+        },
+        "afh": "di-KLAIN",
+        "say": "Decline.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en la segunda sílaba: di-KLAIN. El español «declinar» lo lleva al final."
+          },
+          {
+            "type": "vowel",
+            "text": "La primera vocal es /ɪ/, breve y relajada: «di», no «de». La segunda es el diptongo /aɪ/: «KLAIN»."
+          },
+          {
+            "type": "ed",
+            "text": "*Declined* es /dɪˈklaɪnd/: tras n, -ed suena /d/ y no añade sílaba: «di-KLAIND», no «di-KLAI-ned»."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "Unfortunately, we must decline the offer at this stage.",
+          "tts": "Unfortunately, we must decline the offer [at](/ət/) this stage."
+        },
+        "ttsUs": "[Decline](/dɪklˈIn/)."
+      },
+      {
+        "id": "appreciate",
+        "term": "appreciate",
+        "pos": "verb",
+        "meaning": "to be grateful for something; also, to understand a situation",
+        "ipa": {
+          "us": "/əˈpriː.ʃi.eɪt/",
+          "uk": "/əˈpriː.ʃi.eɪt/"
+        },
+        "afh": "a-PRII-shi-eit",
+        "say": "Appreciate.",
+        "alerts": [
+          {
+            "type": "consonant",
+            "text": "La c suena /ʃ/, «sh»: «a-PRII-shi-eit». No «a-pri-SI-eit» como en «apreciar»."
+          },
+          {
+            "type": "vowel",
+            "text": "/iː/ larga en PRII. La primera vocal es schwa, /ə/: «a» muy breve."
+          },
+          {
+            "type": "stress",
+            "text": "Acento principal en la segunda sílaba, PRII; la última, /eɪt/, lleva un acento secundario: «a-PRII-shi-EIT»."
+          }
+        ],
+        "example": {
+          "speaker": "helen",
+          "text": "I appreciate the honest answer, Ryan."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "The relationship-safe no",
+        "formula": "thanks → the no (softened, early) → the reason → an alternative → the open door",
+        "usage": "The no comes in the second sentence; the reason is about the situation, not the offer.",
+        "examples": [
+          {
+            "speaker": "ryan",
+            "audio": "l127-cc-1a",
+            "text": "{{Thanks for thinking of us}}, Helen; {{I'm afraid}} we'll have to {{pass}} on it {{at this stage}}.",
+            "tts": "Thanks [for](/fəɹ/) thinking [of](/əv/) us, Helen; I'm afraid we'll have to pass on it [at](/ət/) this stage."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l127-cc-1b",
+            "text": "Thank you for your generous offer; unfortunately, we are {{not in a position to}} accept it.",
+            "tts": "Thank you [for](/fə/) your generous offer; unfortunately, we are not in a position to accept it."
+          }
+        ]
+      },
+      {
+        "title": "The imagined yes: would",
+        "formula": "it would + bare infinitive · it wouldn't + bare infinitive (= if we accepted)",
+        "usage": "Explain the cost of saying yes without saying *if we accepted*: the reason stays hypothetical and soft.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l127-cc-2a",
+            "text": "Their access {{would take}} about two weeks to set up.",
+            "tts": "Their access [would](/wəd/) take about two weeks to set up."
+          },
+          {
+            "speaker": "ryan",
+            "audio": "l127-cc-2b",
+            "text": "So it {{wouldn't save}} us any time."
+          }
+        ]
+      },
+      {
+        "title": "Ellipsis and the open door",
+        "formula": "I'd love to, but… · If + present simple, … will + bare infinitive",
+        "usage": "*To* stands for the verb you have just heard: never drop it. The open door is a real future possibility, so it takes *will*.",
+        "examples": [
+          {
+            "speaker": "maya",
+            "audio": "l127-cc-3a",
+            "text": "{{I'd love to}}, but I'm away that weekend.",
+            "tts": "I'd love [to](/tˈu/), [but](/bət/) I'm away that weekend."
+          },
+          {
+            "speaker": "ryan",
+            "audio": "l127-cc-3b",
+            "text": "{{If things change}}, you{{'ll be}} the first to know."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "I'd love, but…",
+        "text": "Spanish *me encantaría, pero…* needs no particle. In English, *to* must stay: it stands for the verb.",
+        "wrong": "I'd love, but I'm away that weekend.",
+        "right": "I'd love to, but I'm away that weekend."
+      },
+      {
+        "title": "Assist for «asistir»",
+        "text": "*Assist* means to help. To go to a meeting or an event is *attend*.",
+        "wrong": "I'm afraid I can't assist the meeting on Friday.",
+        "right": "I'm afraid I can't attend the meeting on Friday."
+      },
+      {
+        "title": "Thanks for + base form",
+        "text": "After a preposition (*for*), the verb takes *-ing*.",
+        "wrong": "Thanks for invite me, but I can't come.",
+        "right": "Thanks for inviting me, but I can't come."
+      },
+      {
+        "title": "Reject for «rechazar»",
+        "text": "*Reject* is harsh: it suits a proposal you judge as bad, not a kind offer. For a polite no, use *decline* or *turn down*.",
+        "wrong": "We reject your kind offer.",
+        "right": "We'll have to decline your kind offer."
+      },
+      {
+        "title": "Too many sorries",
+        "text": "One *sorry* or *I'm afraid* is enough. Repeating it makes the no sound unsure and invites the other person to insist.",
+        "wrong": "Sorry, really sorry, we can't, sorry about that.",
+        "right": "I'm afraid we can't, but thank you for asking."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the correct form.",
+      "text": "Thanks for ___ of us.",
+      "options": [
+        "thinking",
+        "think",
+        "to think"
+      ],
+      "answer": 0,
+      "explain": "Preposition + *-ing*: *thanks for thinking of us*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct form.",
+      "text": "I'd love ___, but I'm away that weekend.",
+      "options": [
+        "to",
+        "it",
+        "(nothing)"
+      ],
+      "answer": 0,
+      "explain": "*To* stands for the verb: *I'd love to (come)*. It is strong here, /tuː/."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right verb.",
+      "text": "I'm afraid I can't ___ the meeting on Friday.",
+      "options": [
+        "attend",
+        "assist",
+        "assist to"
+      ],
+      "answer": 0,
+      "explain": "*Attend* a meeting. *Assist* means to help."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which verb keeps the relationship safe?",
+      "text": "We'll have to ___ your kind offer.",
+      "options": [
+        "decline",
+        "reject",
+        "refuse"
+      ],
+      "answer": 0,
+      "explain": "*Decline* is the polite no; *refuse* is firm and *reject* judges the offer as bad."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the best reason for a no.",
+      "text": "I'm afraid we'll have to pass: ___.",
+      "options": [
+        "their access would take two weeks to set up",
+        "we don't really need your developers",
+        "your offer isn't useful to us"
+      ],
+      "answer": 0,
+      "explain": "The reason is about the situation (the timing), not a judgement on the offer."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "Unfortunately, we are not in a ___ to accept it at this stage.",
+      "accept": [
+        "position"
+      ],
+      "explain": "*Not in a position to* + verb: formal, and the circumstances are to blame."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "I'm afraid we'll have to pass ___ it at this stage.",
+      "accept": [
+        "on"
+      ],
+      "explain": "*Pass on* an offer = say no to it."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "If things change, you'll be the first to ___.",
+      "accept": [
+        "know"
+      ],
+      "explain": "The open door: a First Conditional promise."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "We'd spend the third week bringing them up to ___.",
+      "accept": [
+        "speed"
+      ],
+      "explain": "*Bring someone up to speed* = give them the information to join work in progress."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "I'm",
+        "afraid",
+        "we'll",
+        "have",
+        "to",
+        "pass",
+        "on",
+        "this",
+        "one"
+      ],
+      "answer": "I'm afraid we'll have to pass on this one",
+      "explain": "*I'm afraid* + *we'll have to pass*: the no as forced by the situation."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "That's",
+        "really",
+        "kind",
+        "of",
+        "you,",
+        "but",
+        "we've",
+        "got",
+        "it",
+        "covered"
+      ],
+      "answer": "That's really kind of you, but we've got it covered",
+      "explain": "Appreciation, then the no."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the typical slip.",
+      "wrong": "I'd love, but I'm away that weekend.",
+      "accept": [
+        "I'd love to, but I'm away that weekend.",
+        "I would love to, but I'm away that weekend.",
+        "I would love to, but I am away that weekend."
+      ],
+      "explain": "*I'd love to*: *to* stands for the verb."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the false friend.",
+      "wrong": "I'm afraid I can't assist the meeting on Friday.",
+      "accept": [
+        "I'm afraid I can't attend the meeting on Friday."
+      ],
+      "explain": "*Attend* a meeting; *assist* = help."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the verb form.",
+      "wrong": "Thanks for invite me, but I can't come.",
+      "accept": [
+        "Thanks for inviting me, but I can't come.",
+        "Thank you for inviting me, but I can't come."
+      ],
+      "explain": "*For* + *-ing*: *thanks for inviting me*."
+    },
+    {
+      "type": "organizer",
+      "kind": "table",
+      "prompt": "Does each sentence keep the relationship safe? Type *yes* or *no*.",
+      "columns": [
+        "Sentence",
+        "Safe?"
+      ],
+      "rows": [
+        [
+          "Thanks for thinking of us, but we'll have to pass at this stage.",
+          {
+            "gap": "yes",
+            "hint": "yes / no",
+            "accept": [
+              "yes",
+              "safe"
+            ]
+          }
+        ],
+        [
+          "We don't need extra people.",
+          {
+            "gap": "no",
+            "hint": "yes / no",
+            "accept": [
+              "no",
+              "not safe"
+            ]
+          }
+        ],
+        [
+          "I'm afraid it wouldn't save us any time.",
+          {
+            "gap": "yes",
+            "hint": "yes / no",
+            "accept": [
+              "yes",
+              "safe"
+            ]
+          }
+        ],
+        [
+          "Your offer isn't useful right now.",
+          {
+            "gap": "no",
+            "hint": "yes / no",
+            "accept": [
+              "no",
+              "not safe"
+            ]
+          }
+        ]
+      ],
+      "explain": "Safe: thanks, a no about the situation, a soft reason with *would*. Unsafe: a judgement on the offer (*we don't need*, *isn't useful*)."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *decline* is stressed?",
+      "word": "decline",
+      "syllables": [
+        "de",
+        "cline"
+      ],
+      "answer": 1,
+      "audioRef": "l127-ph-decline-us",
+      "explain": "de-**CLINE**, with a short /ɪ/ in the first syllable."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "sarah",
+      "audio": "l127-dict-1",
+      "text": "That's really kind of you, but we've got it covered.",
+      "explain": "Listen for the weak *of* and *but*: «KAIN-də-və-YU, bət…».",
+      "tts": "That's really kind [of](/əv/) you, [but](/bət/) we've got it covered."
+    }
+  ],
+  "task": {
+    "title": "Declining a supplier's goodwill offer",
+    "format": "email",
+    "scenario": "Help-center project, a week before launch. After the template problem, Tom's agency offers to add a free chatbot to the help center before the launch, as a goodwill gesture. Any chatbot needs a legal review, which takes about three weeks, and nobody would have time to test it. What you really need from Tom is the template fix by Wednesday. Write the email that says no and keeps Tom on your side.",
+    "brief": "Decline a generous offer in five moves, with *would* for the cost of saying yes and *will* for the open door.",
+    "steps": [
+      "Thank Tom and show you appreciate the offer.",
+      "Say no clearly once, softened (*at this stage*).",
+      "Give one or two reasons about the situation, with *would*.",
+      "Ask for something smaller that would really help.",
+      "Leave the door open with *if* + *will*."
+    ],
+    "length": "80–120 words",
+    "minWords": 60,
+    "keywords": [
+      "Thanks for",
+      "really generous",
+      "I'm afraid",
+      "we'll have to pass",
+      "at this stage",
+      "would take",
+      "wouldn't",
+      "What would really help is",
+      "If things change",
+      "you'll be the first to know"
+    ],
+    "chunks": [
+      {
+        "label": "thanks",
+        "re": "\\b(thanks|thank you)\\s+(so much\\s+)?for\\b"
+      },
+      {
+        "label": "the no, softened",
+        "re": "\\b(have to|'ll have to)\\s+(pass|decline|say no)\\b|\\bnot in a position to\\b|\\bturn (it|this) down\\b"
+      },
+      {
+        "label": "at this stage",
+        "re": "\\bat this (stage|point)\\b|\\bfor now\\b|\\bright now\\b"
+      },
+      {
+        "label": "the imagined yes: would",
+        "re": "\\bwould(n't| not)?\\s+(take|save|need|mean|delay|leave|be)\\b"
+      },
+      {
+        "label": "a smaller yes",
+        "re": "\\bwhat would (really )?help\\b|\\binstead\\b|\\bwhat we (really )?need\\b"
+      },
+      {
+        "label": "the open door",
+        "re": "\\bif\\s+(things|anything|the situation)\\s+changes?\\b|\\bthe first to know\\b|\\bphase two\\b|\\bin the future\\b|\\blater on\\b"
+      }
+    ],
+    "checks": [
+      "loveNoTo",
+      "assistAttend",
+      "forBaseVerb",
+      "rejectOffer",
+      "proDropIt",
+      "actuallyCurrently",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the formal version for your manager to sign",
+      "brief": "Rewrite the core of your email as one or two formal sentences: thanks, the no with *not in a position to*, and an invitation to propose it later.",
+      "keywords": [
+        "Thank you for your generous offer",
+        "unfortunately",
+        "we are not in a position to",
+        "we would welcome a proposal"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l127-task-model",
+          "text": "Hi Tom, {{thanks for}} the offer of a free chatbot for the help center; it's {{really generous}}, especially after this week. {{I'm afraid}} {{we'll have to pass}} on it {{at this stage}}, though. Any chatbot needs a legal review, which {{would take}} about three weeks, and we {{wouldn't}} have time to test it properly before the launch. {{What would really help is}} the template fix by Wednesday. {{If things change}} after the launch, {{you'll be the first to know}}: a chatbot could be a good fit for phase two. Best, Alex",
+          "label": "Declining a goodwill offer (neutral email)",
+          "notes": [
+            "*Thanks for the offer…; it's really generous, especially after this week*: the appreciation is specific, so it sounds sincere.",
+            "*I'm afraid we'll have to pass on it at this stage*: the no comes in the second sentence, softened and limited to now.",
+            "*Would take about three weeks* and *wouldn't have time*: the imagined yes, with *would*. The reason is about the situation (legal review, testing), not the chatbot.",
+            "*What would really help is the template fix by Wednesday*: a smaller, useful yes, with a date.",
+            "*If things change… you'll be the first to know* and *phase two*: the open door, with *will*."
+          ],
+          "tts": "Hi Tom, thanks [for](/fəɹ/) the offer [of](/əv/) a free chatbot [for](/fəɹ/) the help center; it's really generous, especially after this week. I'm afraid we'll have to pass on it [at](/ət/) this stage, though. Any chatbot needs a legal review, which [would](/wəd/) take about three weeks, [and](/ənd/) we wouldn't have time to test it properly before the launch. What [would](/wəd/) really help is the template fix by Wednesday. If things change after the launch, you'll be the first to know: a chatbot [could](/kəd/) be a good fit [for](/fəɹ/) phase two. Best, Alex"
+        },
+        {
+          "speaker": "emma",
+          "audio": "l127-task-formal",
+          "text": "{{Thank you for your generous offer}}; {{unfortunately}}, {{we are not in a position to}} accept it before the launch, but {{we would welcome a proposal}} for the second phase.",
+          "label": "The formal version (letter style)",
+          "notes": [
+            "*Thank you for your generous offer*: full forms and a formal adjective.",
+            "*We are not in a position to accept it*: the formal no; the circumstances decide.",
+            "*We would welcome a proposal for the second phase*: the open door as a formal invitation."
+          ],
+          "tts": "Thank you [for](/fə/) your generous offer; unfortunately, we are not in a position to accept it before the launch, [but](/bət/) we [would](/wəd/) welcome a proposal [for](/fə/) the second phase."
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "Imagina que eres Tom. Después de leer el correo, ¿volverías a ofrecer ayuda en el futuro? ¿Qué frase concreta te deja con ganas de hacerlo?",
+        "reflect": true
+      },
+      {
+        "area": "register",
+        "text": "¿El tono es cordial y profesional (*thanks for*, *I'm afraid*) sin pasar al chat (*I'll pass*, *rain check*)? ¿Dijiste que no una sola vez y con claridad?"
+      },
+      {
+        "area": "accuracy",
+        "text": "¿Usaste *would* para el sí imaginado (*it would take*, *we wouldn't have time*) y *if* + presente + *will* para la puerta abierta? ¿*Thanks for* va seguido de sustantivo o de *-ing*?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Escribiste *I'd love, but*, *assist* por «asistir», *thanks for invite* o *reject* para una oferta amable? Debe ser *I'd love to, but*, *attend*, *thanks for inviting* y *decline / turn down*."
+      },
+      {
+        "area": "strategy",
+        "text": "¿Cuántas razones diste? Si fueron más de dos, ¿cuál podrías quitar sin perder nada? Una negativa con demasiadas explicaciones suena a excusa.",
+        "reflect": true
+      }
+    ]
+  }
+}

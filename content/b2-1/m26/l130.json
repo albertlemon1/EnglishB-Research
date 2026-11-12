@@ -1,0 +1,1092 @@
+{
+  "id": "l130",
+  "n": 130,
+  "title": "Breaking Bad News to a Key Client",
+  "titleEs": "Dar una mala noticia a un cliente clave",
+  "minutes": 60,
+  "summary": "Tell a key client what they did not want to hear and keep their trust: a brief warning, the news in one clear sentence, a short reason without blame, your share of responsibility (a mixed conditional helps), and a plan with dates. Hedge the warning and the reason, never the decision.",
+  "canDo": [
+    "Break bad news in five moves: warning, news, reason, ownership and plan.",
+    "State a decision firmly (*will not be*) and keep the softness for the warning, the empathy and the reason.",
+    "Use *would* for rejected alternatives, a mixed conditional for ownership and *will* for commitments.",
+    "Say *let her know* and *hear it from me* with their weak forms, and *unfortunately*, *disappointing* and *go live* with the right stress and vowels."
+  ],
+  "focus": {
+    "grammar": "Integration: firm will / will not for decisions and commitments · would for rejected alternatives (a rushed fix would…) · mixed conditional for ownership (if we had tested…, we would be… now) · hedges only in the warning and the reason · in the meantime + will",
+    "lexis": "I'm afraid I have some disappointing news, I wanted you to hear it from me, as we discussed, that's a blow, count on, be straight with someone, we regret to inform you, in the meantime, put something at risk, accordingly, go live, hate to tell you this",
+    "afh": "weak forms with h-dropping: let her know /ˈlet̬‿ɚ/ · from /frəm/ in hear it from me · unFORtunately /ʌnˈfɔːr.tʃən.ət.li/ · disapPOINTing · go live /laɪv/, not /lɪv/"
+  },
+  "warmup": "Think of a time you received bad news from a company: a cancelled flight, a delayed order, a price increase. What made it worse: the news itself, the timing, or the way they told you?",
+  "lexical": {
+    "scenario": {
+      "format": "email",
+      "title": "Search: decision and next steps",
+      "context": "Friday afternoon. Ryan has called Helen to give her the decision. Now he confirms it in writing, so she can share it with her board.",
+      "speaker": "ryan",
+      "to": "Helen Marsh",
+      "audio": "l130-scn",
+      "text": "Dear Helen, thank you for your time on the phone this morning. {{As we discussed}}, the full search {{will not be}} part of the go-live on June 20. I realize this is {{disappointing}}, especially for your board. Our full-scale test showed that the search cannot yet handle peak traffic, and a rushed fix {{would put}} the rest of the launch {{at risk}}. {{If we had tested}} at full scale earlier, we {{would be}} in a better position now, and we have changed our test plan for phase two {{accordingly}}. {{In the meantime}}, customers will have the basic search with an invoice-number filter on day one, and the full search will {{go live}} in the July update. I will send you a one-page summary for your board by Wednesday. Kind regards, Ryan",
+      "tts": "Dear Helen, thank you [for](/fəɹ/) your time on the phone this morning. [As](/əz/) we discussed, the full search will not be part [of](/əv/) the go-live on June twentieth. I realize this is disappointing, especially [for](/fəɹ/) your board. Our full-scale test showed that the search cannot yet handle peak traffic, [and](/ənd/) a rushed fix [would](/wəd/) put the rest [of](/əv/) the launch [at](/ət/) risk. If we [had](/həd/) tested [at](/ət/) full scale earlier, we [would](/wəd/) be in a better position now, [and](/ənd/) we have changed our test plan [for](/fəɹ/) phase two accordingly. In the meantime, customers will have the basic search with an invoice-number filter on day one, [and](/ənd/) the full search will go live in the July update. I will send you a one-page summary [for](/fəɹ/) your board by Wednesday. Kind regards, Ryan"
+    },
+    "dialogue": {
+      "title": "The call",
+      "context": "Friday morning. Ryan calls Helen with the decision on the search. She was warned on Tuesday that it might not make the launch.",
+      "lines": [
+        {
+          "speaker": "ryan",
+          "audio": "l130-dlg-01",
+          "text": "Helen, thanks for making time. {{I'm afraid I have some disappointing news}} about the search.",
+          "tts": "Helen, thanks [for](/fəɹ/) making time. I'm afraid I have [some](/səm/) disappointing news about the search."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l130-dlg-02",
+          "text": "Go on. I had a feeling this was coming.",
+          "tts": "Go on. I had a feeling this [was](/wəz/) coming."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l130-dlg-03",
+          "text": "The full search won't be ready for June 20. We'll launch with the basic search and add the full one in the July update.",
+          "tts": "The full search won't be ready [for](/fəɹ/) June twentieth. We'll launch with the basic search [and](/ənd/) add the full one in the July update."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l130-dlg-04",
+          "text": "{{That's a blow}}, honestly. My board was {{counting on}} it for the launch.",
+          "tts": "That's a blow, honestly. My board [was](/wəz/) counting on it [for](/fəɹ/) the launch."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l130-dlg-05",
+          "text": "I understand, and I'm sorry. A rushed fix could put the whole launch at risk, and we won't take that risk with your customers.",
+          "tts": "I understand, [and](/ənd/) I'm sorry. A rushed fix [could](/kəd/) put the whole launch [at](/ət/) risk, [and](/ənd/) we won't take that risk with your customers."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l130-dlg-06",
+          "text": "So what do I tell them?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l130-dlg-07",
+          "text": "That customers will have a working search on day one, with the invoice filter they use most, and the full search by mid-July. I'll send you a one-page summary you can share.",
+          "tts": "That customers will have a working search on day one, with the invoice filter they use most, [and](/ənd/) the full search by mid-July. I'll send you a one-page summary you [can](/kən/) share."
+        },
+        {
+          "speaker": "helen",
+          "audio": "l130-dlg-08",
+          "text": "All right. I'd rather hear it now than on launch day. Thank you for {{being straight with me}}.",
+          "tts": "All right. I'd rather hear it now than on launch day. Thank you [for](/fəɹ/) being straight with me."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "How does Ryan start the call?",
+        "options": [
+          "He warns Helen that bad news is coming",
+          "He explains the whole history of the test",
+          "He apologizes several times before saying anything"
+        ],
+        "answer": 0,
+        "explain": "*I'm afraid I have some disappointing news about the search.* A short warning, then the news."
+      },
+      {
+        "q": "Why is the news a problem for Helen in particular?",
+        "options": [
+          "Her board was counting on the search for the launch",
+          "She has to pay for the July update",
+          "Her developers will lose their jobs"
+        ],
+        "answer": 0,
+        "explain": "*My board was counting on it for the launch.*"
+      },
+      {
+        "q": "What does Ryan offer to help Helen with her board?",
+        "options": [
+          "A one-page summary she can share",
+          "A meeting with the whole team",
+          "A discount on the project"
+        ],
+        "answer": 0,
+        "explain": "*I'll send you a one-page summary you can share.* He thinks about her next conversation."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Giving bad news to friends.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l130-reg-c1",
+            "text": "Bad news, I'm afraid: the concert's been cancelled. Sorry!",
+            "note": "The news straight after a two-word warning; one *sorry* is enough."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l130-reg-c2",
+            "text": "Hate to tell you this, but the tickets have sold out.",
+            "note": "*Hate to tell you this, but…*: a casual warning shot.",
+            "tts": "Hate to tell you this, [but](/bət/) the tickets have sold out."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Colleagues and clients you work with regularly.",
+        "items": [
+          {
+            "speaker": "ryan",
+            "audio": "l130-reg-n1",
+            "text": "I'm afraid I have some disappointing news about the search.",
+            "note": "The standard warning: it prepares the listener in one sentence.",
+            "tts": "I'm afraid I have [some](/səm/) disappointing news about the search."
+          },
+          {
+            "speaker": "sarah",
+            "audio": "l130-reg-n2",
+            "text": "I wanted you to hear it from me before the meeting.",
+            "note": "You deliver the news personally, before others do.",
+            "tts": "I wanted you to hear it [from](/fɹəm/) me before the meeting."
+          },
+          {
+            "speaker": "oliver",
+            "audio": "l130-reg-n3",
+            "text": "It's not the news we wanted to give you, but we'd rather be honest now.",
+            "note": "Empathy plus a reason for telling early.",
+            "tts": "It's not the news we wanted to give you, [but](/bət/) we'd rather be honest now."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Formal letters, official notices and senior stakeholders.",
+        "items": [
+          {
+            "speaker": "emma",
+            "audio": "l130-reg-f1",
+            "text": "We regret to inform you that the full search function will not be available at launch.",
+            "note": "*We regret to inform you that*: the formal warning and the news in one sentence.",
+            "tts": "We regret to inform you that the full search function will not be available [at](/ət/) launch."
+          },
+          {
+            "speaker": "helen",
+            "audio": "l130-reg-f2",
+            "text": "Thank you for informing us promptly. I will need a written summary for the board.",
+            "note": "A formal acknowledgement and a request: no emotion on paper.",
+            "tts": "Thank you [for](/fəɹ/) informing us promptly. I will need a written summary [for](/fəɹ/) the board."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "I'm afraid I have some disappointing news (about…)",
+        "def": "a short warning that bad news is coming",
+        "register": "neutral",
+        "example": "I'm afraid I have some disappointing news about the search."
+      },
+      {
+        "en": "I wanted you to hear it from me",
+        "def": "you are giving the news personally, before the person hears it from others",
+        "register": "neutral",
+        "example": "I wanted you to hear it from me before the meeting."
+      },
+      {
+        "en": "as we discussed",
+        "def": "refers back to an earlier conversation, often in a follow-up email",
+        "register": "formal",
+        "example": "As we discussed, the full search will not be part of the go-live."
+      },
+      {
+        "en": "that's a blow",
+        "def": "that is a serious disappointment",
+        "register": "neutral",
+        "example": "That's a blow, honestly."
+      },
+      {
+        "en": "count on (+ noun)",
+        "def": "to depend on something happening",
+        "register": "neutral",
+        "syn": "rely on",
+        "example": "My board was counting on it for the launch."
+      },
+      {
+        "en": "be straight with someone",
+        "def": "to be honest and direct with someone",
+        "register": "casual",
+        "example": "Thank you for being straight with me."
+      },
+      {
+        "en": "we regret to inform you that",
+        "def": "the formal written way to announce bad news",
+        "register": "formal",
+        "example": "We regret to inform you that the full search will not be available at launch."
+      },
+      {
+        "en": "in the meantime",
+        "def": "in the period until something planned happens",
+        "register": "neutral",
+        "syn": "meanwhile",
+        "example": "In the meantime, customers will have the basic search."
+      },
+      {
+        "en": "put something at risk",
+        "def": "to create a danger of losing or damaging something",
+        "register": "neutral",
+        "example": "A rushed fix would put the rest of the launch at risk."
+      },
+      {
+        "en": "accordingly",
+        "def": "in a way that matches what has just been said",
+        "register": "formal",
+        "example": "We have changed our test plan accordingly."
+      },
+      {
+        "en": "go live / the go-live",
+        "def": "to start working for real users; the moment when this happens",
+        "register": "neutral",
+        "example": "The full search will go live in the July update."
+      },
+      {
+        "en": "hate to tell you this, but…",
+        "def": "a casual warning before bad news",
+        "register": "casual",
+        "example": "Hate to tell you this, but the tickets have sold out."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Hate to tell you this, but the tickets have sold out.",
+        "answer": "casual",
+        "explain": "No subject (*[I] hate…*): chat with friends."
+      },
+      {
+        "text": "We regret to inform you that the full search function will not be available at launch.",
+        "answer": "formal",
+        "explain": "*We regret to inform you that*: official written style."
+      },
+      {
+        "text": "I'm afraid I have some disappointing news about the search.",
+        "answer": "neutral",
+        "explain": "The everyday professional warning."
+      },
+      {
+        "text": "Bad news, I'm afraid: the concert's been cancelled. Sorry!",
+        "answer": "casual",
+        "explain": "Clipped and friendly."
+      },
+      {
+        "text": "Thank you for informing us promptly.",
+        "answer": "formal",
+        "explain": "*Informing us promptly*: formal acknowledgement."
+      },
+      {
+        "text": "I wanted you to hear it from me before the meeting.",
+        "answer": "neutral",
+        "explain": "Personal and professional."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "The core of Ryan's call and email, in the order he used. Each sentence does one job, and each job has its own verb form.",
+    "speaker": "ryan",
+    "audio": "l130-gd",
+    "text": "{{I'm afraid I have some disappointing news}} about the search. The full search {{will not be}} part of the go-live on June 20. A rushed fix {{would put}} the rest of the launch at risk. {{If we had tested}} at full scale earlier, we {{would be}} in a better position now. {{In the meantime}}, customers {{will have}} the basic search on day one, and the full search {{will go live}} in the July update.",
+    "tts": "I'm afraid I have [some](/səm/) disappointing news about the search. The full search will not be part [of](/əv/) the go-live on June twentieth. A rushed fix [would](/wəd/) put the rest [of](/əv/) the launch [at](/ət/) risk. If we [had](/həd/) tested [at](/ət/) full scale earlier, we [would](/wəd/) be in a better position now. In the meantime, customers will have the basic search on day one, [and](/ənd/) the full search will go live in the July update.",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "Five sentences, five moves",
+      "prompt": "Name the move of each sentence: warning, news, reason, ownership or plan.",
+      "columns": [
+        "Ryan's words",
+        "Move"
+      ],
+      "rows": [
+        [
+          "I'm afraid I have some disappointing news about the search.",
+          {
+            "gap": "warning",
+            "hint": "warning / news / reason / ownership / plan",
+            "accept": [
+              "warning",
+              "the warning",
+              "warning shot",
+              "a warning"
+            ]
+          }
+        ],
+        [
+          "The full search will not be part of the go-live on June 20.",
+          {
+            "gap": "news",
+            "hint": "warning / news / reason / ownership / plan",
+            "accept": [
+              "news",
+              "the news",
+              "decision",
+              "the decision"
+            ]
+          }
+        ],
+        [
+          "A rushed fix would put the rest of the launch at risk.",
+          {
+            "gap": "reason",
+            "hint": "warning / news / reason / ownership / plan",
+            "accept": [
+              "reason",
+              "the reason",
+              "a reason"
+            ]
+          }
+        ],
+        [
+          "If we had tested at full scale earlier, we would be in a better position now.",
+          {
+            "gap": "ownership",
+            "hint": "warning / news / reason / ownership / plan",
+            "accept": [
+              "ownership",
+              "responsibility",
+              "taking responsibility",
+              "owning it"
+            ]
+          }
+        ],
+        [
+          "In the meantime, customers will have the basic search on day one.",
+          {
+            "gap": "plan",
+            "hint": "warning / news / reason / ownership / plan",
+            "accept": [
+              "plan",
+              "the plan",
+              "next steps",
+              "a plan"
+            ]
+          }
+        ]
+      ],
+      "explain": "Warning → news → reason → ownership → plan. The news comes in the second sentence, not after the explanation."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "On Tuesday the team wrote *the search may not be ready*. Now Ryan says *the full search will not be part of the go-live*. Why has the hedge disappeared? Which parts of the text are still soft, and why?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "decid|decision|certain|fact|confirmed",
+            "label": "the decision is made"
+          },
+          {
+            "re": "false hope|unsure|confus|mislead|uncertain",
+            "label": "hedging a decision misleads"
+          },
+          {
+            "re": "afraid|warning|disappointing|would|reason",
+            "label": "soft parts: warning and reason"
+          }
+        ],
+        "model": "On Tuesday the decision had not been taken, so *may not* matched the real uncertainty. Now it has been taken, and hedging it (*might not*) would give Helen false hope and make the team sound unsure. The news and the plan are firm (*will not be*, *will have*, *will go live*). The soft parts are the warning (*I'm afraid I have some disappointing news*), which prepares Helen, and the reason, given with *would* (an imagined rushed fix that will not happen) and a mixed conditional, which explains without arguing.",
+        "criteria": [
+          "You said the hedge disappeared because the decision is now made.",
+          "You said hedging a decision would give false hope or sound unsure.",
+          "You said the warning and the reason stay soft (*I'm afraid*, *would*, the conditional)."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "Find the verb form in each move: the news, the reason, the ownership sentence and the plan. Why does each move use the form it uses?",
+        "minWords": 20,
+        "signals": [
+          {
+            "re": "will not|won't",
+            "label": "news: will not"
+          },
+          {
+            "re": "would put|would \\+|imagin|rushed",
+            "label": "reason: would"
+          },
+          {
+            "re": "had tested|past perfect|mixed",
+            "label": "ownership: mixed conditional"
+          },
+          {
+            "re": "will have|will go|will \\+|commit|promise",
+            "label": "plan: will"
+          }
+        ],
+        "model": "The news: *will not be*, a firm future fact. The reason: *would put*, the imagined result of an alternative the team has rejected (a rushed fix). Ownership: a mixed conditional, *if we had tested* (unreal past) + *we would be… now* (its present effect). The plan: *will have*, *will go live*, firm commitments. Rule of thumb: *will* for what is decided or promised, *would* for what you imagine and reject.",
+        "criteria": [
+          "You identified *will not be* for the news and *will have / will go live* for the plan.",
+          "You identified *would put* for the rejected alternative.",
+          "You identified the mixed conditional (*had tested… would be… now*) for ownership."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Helen ends the call with *I'd rather hear it now than on launch day. Thank you for being straight with me.* What did Ryan do that made her react like this, even though the news is bad? Think about the timing, the order of the moves and what he offered her for her board.",
+        "minWords": 20,
+        "signals": [
+          {
+            "re": "early|now|tuesday|before|timing|in time",
+            "label": "timing"
+          },
+          {
+            "re": "call|phone|personally|himself|in person",
+            "label": "in person first"
+          },
+          {
+            "re": "clear|order|first|direct|one sentence|no excuse|blame",
+            "label": "clear order, no excuses"
+          },
+          {
+            "re": "board|summary|share|her problem",
+            "label": "helps her next conversation"
+          }
+        ],
+        "model": "Ryan gave the news early (after a warning on Tuesday and well before launch day), by phone before writing, and in his own words. He warned her, gave the news in one clear sentence, explained briefly without blaming anyone, owned the team's part and offered a plan with dates. He also thought about her next problem, the board: a one-page summary she can share helps her pass the news upwards. Bad news damages relationships when it arrives late, vague or wrapped in excuses; delivered like this, it builds trust.",
+        "criteria": [
+          "You mentioned the timing: early, after a first warning, by phone before email.",
+          "You mentioned the clear order: warning, news in one sentence, no blame, ownership, plan.",
+          "You mentioned that he helped with her next conversation (the summary for the board)."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "Bad news in five moves: a short warning (*I'm afraid I have some disappointing news*) → the news in one clear sentence → a brief reason, without blame → ownership of your part → the plan, with dates.",
+        "Once a decision is made, state it firmly (*will not be*). Hedging a decision gives false hope. Keep the softness for the warning, the empathy and the reason.",
+        "Use *would* for the alternatives you rejected (*a rushed fix would put the launch at risk*), a mixed conditional to own the past (*if we had tested earlier, we would be… now*) and *will* for commitments.",
+        "Think about the client's next conversation and give them something to share (*a one-page summary for your board*)."
+      ],
+      "formulas": [
+        "I'm afraid I have some disappointing news about + noun · X will not be + …",
+        "a rushed / different option would + verb · If we had + past participle, we would + bare infinitive + now",
+        "In the meantime, … will + verb · I'll send you + noun + by + day"
+      ],
+      "note": "Spanish politeness often delays bad news with context. In English business culture, the news comes in the first or second sentence, after a brief warning. A long delay makes the listener anxious, and they may suspect you are hiding something."
+    }
+  },
+  "phonetics": {
+    "intro": "Al dar malas noticias por teléfono, la claridad depende también del ritmo. Los pronombres y preposiciones átonos se reducen tanto que la h desaparece: *let her know* suena «LÉ-rər-NOU», y *from* se convierte en «frəm». Además, tres palabras clave tienen trampas para el hispanohablante: el acento de *unfortunately* y *disappointing*, y la vocal de *live* en *go live*.",
+    "items": [
+      {
+        "id": "let-her-know",
+        "term": "let her know",
+        "pos": "chunk · weak her",
+        "meaning": "tell her",
+        "ipa": {
+          "us": "/ˈlet̬‿ɚ ˈnoʊ/",
+          "uk": "/ˈlet‿ə ˈnəʊ/"
+        },
+        "afh": "LÉ-rər-NOU (US) · LÉ-tə-NƏU (UK)",
+        "say": "Let her know.",
+        "ttsUs": "[Let](/lˈɛɾ/) [her](/əɹ/) know.",
+        "ttsUk": "Let [her](/ə/) know.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*Her* sin acento pierde la h y se reduce a /ɚ/ (US) o /ə/ (UK): «LÉ-rər». Igual *him* /ɪm/ y *them* /ðəm/: *tell him* «TÉ-lim»."
+          },
+          {
+            "type": "flap",
+            "text": "En EE. UU., la t de *let* entre vocales es una r simple: «LÉ-rər-NOU». En Reino Unido, t suave: «LÉ-tə»."
+          },
+          {
+            "type": "stress",
+            "text": "La h vuelve cuando *her* abre la frase o se enfatiza: *Her board was counting on it* /hɚ/."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "I'll call Helen first and let her know before the board meeting.",
+          "tts": "I'll call Helen first [and](/ənd/) [let](/lˈɛɾ/) [her](/əɹ/) know before the board meeting."
+        }
+      },
+      {
+        "id": "from-me",
+        "term": "hear it from me",
+        "pos": "chunk · weak from",
+        "meaning": "be told something by me personally",
+        "ipa": {
+          "us": "/ˈhɪr‿ɪt frəm ˈmiː/",
+          "uk": "/ˈhɪər‿ɪt frəm ˈmiː/"
+        },
+        "afh": "JII-rit-frəm-MII",
+        "say": "Hear it from me.",
+        "ttsUs": "Hear it [from](/fɹəm/) me.",
+        "ttsUk": "Hear it [from](/fɹəm/) me.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "*From* es /frəm/: «frəm», con schwa. No «from» con o plena."
+          },
+          {
+            "type": "linking",
+            "text": "*Hear it*: la r de *hear* enlaza con *it*: «JII-rit». En UK también aparece esa r de enlace delante de vocal."
+          },
+          {
+            "type": "consonant",
+            "text": "La h de *hear* es una aspiración suave, como al empañar un cristal; no la j fuerte del español."
+          }
+        ],
+        "example": {
+          "speaker": "sarah",
+          "text": "I wanted you to hear it from me before the meeting.",
+          "tts": "I wanted you to hear it [from](/fɹəm/) me before the meeting."
+        }
+      },
+      {
+        "id": "unfortunately",
+        "term": "unfortunately",
+        "pos": "adv.",
+        "meaning": "used to introduce bad news; sadly",
+        "ipa": {
+          "us": "/ʌnˈfɔːr.tʃən.ət.li/",
+          "uk": "/ʌnˈfɔː.tʃən.ət.li/"
+        },
+        "afh": "an-FÓR-chə-nət-li (US) · an-FÓO-chə-nət-li (UK)",
+        "say": "Unfortunately.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en FOR, la segunda sílaba: «an-FÓR-chə-nət-li». En «desafortunadamente», el acento cae mucho más tarde."
+          },
+          {
+            "type": "consonant",
+            "text": "*tu* suena /tʃ/, «ch»: «FÓR-chə». No «for-tu»."
+          },
+          {
+            "type": "vowel",
+            "text": "Solo FOR lleva vocal plena; *-nate-* es /nət/, débil: «nət», no «NEIT». En habla rápida casi se oye «an-FÓR-chə-nli»."
+          }
+        ],
+        "example": {
+          "speaker": "emma",
+          "text": "Unfortunately, the full search will not be available at launch.",
+          "tts": "Unfortunately, the full search will not be available [at](/ət/) launch."
+        }
+      },
+      {
+        "id": "disappointing",
+        "term": "disappointing",
+        "pos": "adj.",
+        "meaning": "not as good as you hoped",
+        "ipa": {
+          "us": "/ˌdɪs.əˈpɔɪn.tɪŋ/",
+          "uk": "/ˌdɪs.əˈpɔɪn.tɪŋ/"
+        },
+        "afh": "dis-ə-PÓIN-ting",
+        "say": "Disappointing.",
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Acento en POIN, la tercera sílaba: «dis-ə-PÓIN-ting». La segunda es schwa."
+          },
+          {
+            "type": "vowel",
+            "text": "/ɔɪ/ es el diptongo «oi» de *hoy*."
+          },
+          {
+            "type": "spelling",
+            "text": "Una s y dos p: *dis-ap-point*. Y ojo al significado: «decepcionar» es *disappoint*; *deceive* es «engañar»."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "I realize this is disappointing, especially for your board.",
+          "tts": "I realize this is disappointing, especially [for](/fəɹ/) your board."
+        }
+      },
+      {
+        "id": "go-live",
+        "term": "go live (the go-live)",
+        "pos": "verb · noun",
+        "meaning": "to start working for real users; the moment when this happens",
+        "ipa": {
+          "us": "/ˌɡoʊ ˈlaɪv/",
+          "uk": "/ˌɡəʊ ˈlaɪv/"
+        },
+        "afh": "gou-LAIV",
+        "say": "Go live.",
+        "alerts": [
+          {
+            "type": "vowel",
+            "text": "Aquí *live* es adjetivo: /laɪv/, «laiv», como en *a live concert*. No /lɪv/, «liv», que es el verbo *vivir*."
+          },
+          {
+            "type": "consonant",
+            "text": "La v final es sonora, /v/: los dientes de arriba sobre el labio de abajo, con vibración. No «laif»."
+          },
+          {
+            "type": "spelling",
+            "text": "Como verbo, dos palabras: *the search will go live*. Como sustantivo, con guion: *the go-live*, *the go-live date*."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "The full search will go live in the July update."
+        }
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "The warning and the news",
+        "formula": "I'm afraid I have some disappointing news about + noun. · X will not + verb…",
+        "usage": "One sentence to prepare the listener, then the news, firmly, in the next sentence.",
+        "examples": [
+          {
+            "speaker": "ryan",
+            "audio": "l130-cc-1a",
+            "text": "{{I'm afraid I have some disappointing news}} about the search.",
+            "tts": "I'm afraid I have [some](/səm/) disappointing news about the search."
+          },
+          {
+            "speaker": "emma",
+            "audio": "l130-cc-1b",
+            "text": "{{We regret to inform you that}} the full search function {{will not be}} available at launch.",
+            "tts": "We regret to inform you that the full search function will not be available [at](/ət/) launch."
+          }
+        ]
+      },
+      {
+        "title": "The rejected alternative and ownership",
+        "formula": "a rushed fix would + verb · If we had + past participle, we would + bare infinitive + now",
+        "usage": "*Would* explains why you rejected the alternative; the mixed conditional owns the past without excuses.",
+        "examples": [
+          {
+            "speaker": "oliver",
+            "audio": "l130-cc-2a",
+            "text": "A rushed fix {{would put}} the rest of the launch at risk.",
+            "tts": "A rushed fix [would](/wəd/) put the rest [of](/əv/) the launch [at](/ət/) risk."
+          },
+          {
+            "speaker": "coach",
+            "audio": "l130-cc-2b",
+            "text": "{{If we had tested}} at full scale earlier, we {{would be}} in a better position now.",
+            "tts": "If we [had](/həd/) tested [at](/ət/) full scale earlier, we [would](/wəd/) be in a better position now."
+          }
+        ]
+      },
+      {
+        "title": "The plan",
+        "formula": "In the meantime, … will + verb · X will go live + time · I'll send you + noun + by + day",
+        "usage": "Firm commitments with dates: what happens now, what happens later and what you will send.",
+        "examples": [
+          {
+            "speaker": "alex",
+            "audio": "l130-cc-3a",
+            "text": "{{In the meantime}}, customers {{will have}} the basic search on day one."
+          },
+          {
+            "speaker": "ryan",
+            "audio": "l130-cc-3b",
+            "text": "I{{'ll send}} you a one-page summary {{by}} Wednesday."
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Deceive for «decepcionar»",
+        "text": "*Deceive* means to trick someone. «Decepcionar» is *disappoint*.",
+        "wrong": "We know this news will deceive you.",
+        "right": "We know this news will disappoint you."
+      },
+      {
+        "title": "Inform without the person",
+        "text": "*Inform* needs the person: *inform you that…*, *inform the board of…*.",
+        "wrong": "We regret to inform that the search will not be ready.",
+        "right": "We regret to inform you that the search will not be ready."
+      },
+      {
+        "title": "Sorry for the inconveniences",
+        "text": "*Inconvenience* is usually uncountable in apologies, and *any* sounds more natural than *the*.",
+        "wrong": "Sorry for the inconveniences.",
+        "right": "We apologize for any inconvenience."
+      },
+      {
+        "title": "The news are",
+        "text": "*News* looks plural but is uncountable: it takes a singular verb.",
+        "wrong": "The news are disappointing.",
+        "right": "The news is disappointing."
+      },
+      {
+        "title": "The story before the news",
+        "text": "Spanish politeness may start with the background. In English, the warning and the news come first; the background, briefly, after.",
+        "wrong": "As you know, in May the supplier changed the format, and then the test…, so in the end the search won't be ready.",
+        "right": "I'm afraid I have some disappointing news: the full search won't be ready for June 20."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the right word.",
+      "text": "I'm afraid I have some ___ news about the search.",
+      "options": [
+        "disappointing",
+        "deceiving",
+        "disappointed"
+      ],
+      "answer": 0,
+      "explain": "*Disappointing* news (it causes the feeling); you feel *disappointed*. *Deceiving* = tricking."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct form.",
+      "text": "We regret to inform ___ the full search will not be available at launch.",
+      "options": [
+        "you that",
+        "that",
+        "to you that"
+      ],
+      "answer": 0,
+      "explain": "*Inform* + person + *that*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the correct verb.",
+      "text": "The news ___ disappointing, but it's better to know now.",
+      "options": [
+        "is",
+        "are",
+        "were"
+      ],
+      "answer": 0,
+      "explain": "*News* is uncountable: singular verb."
+    },
+    {
+      "type": "choice",
+      "prompt": "The decision has been made. Choose the best form.",
+      "text": "The full search ___ part of the go-live on June 20.",
+      "options": [
+        "will not be",
+        "may not be",
+        "might possibly not be"
+      ],
+      "answer": 0,
+      "explain": "A decision is stated firmly. Hedging it would give false hope."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "___ the meantime, customers will have the basic search.",
+      "accept": [
+        "in"
+      ],
+      "explain": "*In the meantime* = until the planned thing happens."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "Thank you for being ___ with me.",
+      "accept": [
+        "straight",
+        "honest"
+      ],
+      "explain": "*Be straight with someone* = be honest and direct."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "My board was counting ___ it for the launch.",
+      "accept": [
+        "on"
+      ],
+      "explain": "*Count on* something = depend on it."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with one word.",
+      "text": "We apologize for any ___.",
+      "accept": [
+        "inconvenience",
+        "disruption"
+      ],
+      "explain": "*Any inconvenience*, uncountable."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "I'm",
+        "afraid",
+        "I",
+        "have",
+        "some",
+        "disappointing",
+        "news"
+      ],
+      "answer": "I'm afraid I have some disappointing news",
+      "explain": "The warning: one sentence before the news."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "The",
+        "full",
+        "search",
+        "will",
+        "go",
+        "live",
+        "in",
+        "the",
+        "July",
+        "update"
+      ],
+      "answer": "The full search will go live in the July update",
+      "explain": "A firm commitment with *will* and a date."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the false friend.",
+      "wrong": "We know this news will deceive you.",
+      "accept": [
+        "We know this news will disappoint you."
+      ],
+      "explain": "«Decepcionar» = *disappoint*. *Deceive* = engañar."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the apology.",
+      "wrong": "Sorry for the inconveniences.",
+      "accept": [
+        "Sorry for any inconvenience.",
+        "Sorry for the inconvenience.",
+        "We apologize for any inconvenience.",
+        "We apologise for any inconvenience.",
+        "I'm sorry for any inconvenience."
+      ],
+      "explain": "*Any inconvenience*, uncountable."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the verb pattern.",
+      "wrong": "We regret to inform that the search will not be ready.",
+      "accept": [
+        "We regret to inform you that the search will not be ready."
+      ],
+      "explain": "*Inform* + person + *that*."
+    },
+    {
+      "type": "organizer",
+      "kind": "timeline",
+      "prompt": "Complete the order of the five moves. Type the missing move.",
+      "points": [
+        {
+          "when": "1",
+          "gap": "warning",
+          "hint": "warning / reason / plan",
+          "accept": [
+            "warning",
+            "the warning",
+            "a warning",
+            "warning shot"
+          ]
+        },
+        {
+          "when": "2",
+          "text": "The news, in one clear sentence."
+        },
+        {
+          "when": "3",
+          "gap": "reason",
+          "hint": "warning / reason / plan",
+          "accept": [
+            "reason",
+            "the reason",
+            "a reason"
+          ]
+        },
+        {
+          "when": "4",
+          "text": "Ownership: your share of the problem."
+        },
+        {
+          "when": "5",
+          "gap": "plan",
+          "hint": "warning / reason / plan",
+          "accept": [
+            "plan",
+            "the plan",
+            "next steps",
+            "a plan"
+          ]
+        }
+      ],
+      "explain": "Warning → news → reason → ownership → plan. The news never waits until the end."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *unfortunately* is stressed?",
+      "word": "unfortunately",
+      "syllables": [
+        "un",
+        "for",
+        "tu",
+        "nate",
+        "ly"
+      ],
+      "answer": 1,
+      "audioRef": "l130-ph-unfortunately-us",
+      "explain": "un-**FOR**-tu-nate-ly; *-nate-* is weak, /nət/."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "helen",
+      "audio": "l130-dict-1",
+      "text": "I'd rather hear it now than on launch day.",
+      "explain": "Weak *than* /ðən/ and *on*: «dhə-non-LAUNCH-dei»."
+    }
+  ],
+  "task": {
+    "title": "Breaking new bad news to Helen",
+    "format": "email",
+    "scenario": "Early July. The full search is on track for the July update, but there is new bad news. Oliver has just sent you his notes on the reports page: the supplier's live data feed will not be ready until mid-August. Turn Oliver's notes into an email to Helen. She has not heard anything yet, and her board meets next week.",
+    "brief": "Mediate from a colleague's technical notes to a client email: warning, news, reason, ownership and plan.",
+    "input": {
+      "title": "Oliver's notes on the reports page",
+      "speaker": "oliver",
+      "audio": "l130-task-input",
+      "text": "Ryan, quick notes on the reports. The supplier's live feed won't be ready until 15 August; they told us yesterday. Their new format is still changing, so we can't build against it yet. What we can do: show data up to the end of the previous month, refreshed every Monday. Customers lose real-time figures, but nothing else breaks. Honestly, if we'd asked them to confirm the format in writing back in May, we'd have the live data now. I can have the weekly refresh running by Friday.",
+      "tts": "Ryan, quick notes on the reports. The supplier's live feed won't be ready until the fifteenth [of](/əv/) August; they told us yesterday. Their new format is still changing, so we can't build against it yet. What we [can](/kən/) do: show data up to the end [of](/əv/) the previous month, refreshed every Monday. Customers lose real-time figures, [but](/bət/) nothing else breaks. Honestly, if we'd asked them to confirm the format in writing back in May, we'd have the live data now. I [can](/kən/) have the weekly refresh running by Friday."
+    },
+    "steps": [
+      "Warn Helen in one sentence that bad news is coming.",
+      "Give the news in one clear sentence, with the date.",
+      "Give the reason briefly, without blaming the supplier.",
+      "Own your part with a mixed conditional (*if we had… we would… now*).",
+      "Give the plan with *will* and dates, and offer something for her board."
+    ],
+    "length": "100–140 words",
+    "minWords": 80,
+    "keywords": [
+      "I'm afraid I have some disappointing news",
+      "will not be available until",
+      "is still changing",
+      "If we had asked",
+      "we would",
+      "now",
+      "In the meantime",
+      "will show",
+      "refreshed every Monday",
+      "I will send you",
+      "for your board"
+    ],
+    "chunks": [
+      {
+        "label": "warning",
+        "re": "\\b(i'm|i am) afraid\\b|\\bregret to inform you\\b|\\bdisappointing news\\b|\\bunfortunately\\b"
+      },
+      {
+        "label": "the news, firm",
+        "re": "\\b(will not|won't)\\s+be\\s+(available|ready|live)\\b[^.!?]*\\buntil\\b"
+      },
+      {
+        "label": "ownership: mixed conditional",
+        "re": "\\bif\\s+we\\s*('d|had)\\s+\\w+[^.!?]*\\b(would|'d)\\s+(be|have)\\b[^.!?]*\\b(now|today)\\b"
+      },
+      {
+        "label": "in the meantime",
+        "re": "\\bin the meantime\\b|\\bmeanwhile\\b|\\buntil then\\b"
+      },
+      {
+        "label": "plan with will",
+        "re": "\\bwill\\s+(show|be refreshed|be updated|have|run|go live|be running)\\b"
+      },
+      {
+        "label": "something for her board",
+        "re": "\\bboard\\b|\\bsummary\\b|\\bnote you can share\\b"
+      }
+    ],
+    "checks": [
+      "deceiveDisappoint",
+      "informNoObject",
+      "inconveniences",
+      "newsAre",
+      "blameWords",
+      "ifWouldHave",
+      "proDropIt",
+      "actuallyCurrently",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the one-sentence notice for Helen's board",
+      "brief": "Write the formal notice in one sentence: *We regret to inform you that…*, the date, and what happens in the meantime.",
+      "keywords": [
+        "We regret to inform you that",
+        "will not be available until",
+        "in the meantime",
+        "will be updated weekly"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "ryan",
+          "audio": "l130-task-model",
+          "text": "Dear Helen, {{I'm afraid I have some disappointing news}} about the reports page. Live data {{will not be available until}} 15 August. The supplier's new data format {{is still changing}}, so we cannot build against it yet. {{If we had asked}} them to confirm the format in writing in May, {{we would}} have the live data {{now}}; we have added that step to our process. {{In the meantime}}, the reports page {{will show}} data up to the end of the previous month, {{refreshed every Monday}}, starting this Friday. Everything else in the July update is on track. {{I will send you}} a short note {{for your board}} tomorrow. Kind regards, Ryan",
+          "tts": "Dear Helen, I'm afraid I have [some](/səm/) disappointing news about the reports page. Live data will not be available until the fifteenth [of](/əv/) August. The supplier's new data format is still changing, so we cannot build against it yet. If we [had](/həd/) asked them to confirm the format in writing in May, we [would](/wəd/) have the live data now; we have added that step to our process. In the meantime, the reports page will show data up to the end [of](/əv/) the previous month, refreshed every Monday, starting this Friday. Everything else in the July update is on track. I will send you a short note [for](/fəɹ/) your board tomorrow. Kind regards, Ryan",
+          "label": "Bad news to a key client (neutral-formal email)",
+          "notes": [
+            "*I'm afraid I have some disappointing news about the reports page*: the warning, in the first sentence, and it names the area.",
+            "*Live data will not be available until 15 August*: the news, firm and dated, in the second sentence.",
+            "*The supplier's new data format is still changing*: the reason as a fact, without blame. Oliver's *they told us yesterday* is left out: it adds nothing for Helen.",
+            "*If we had asked them to confirm the format in writing in May, we would have the live data now*: Oliver's *if we'd asked…, we'd have…* in written form; the team owns its part and says what has changed.",
+            "*In the meantime… will show… starting this Friday* and *I will send you a short note for your board*: firm commitments, plus help with her next conversation."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l130-task-formal",
+          "text": "{{We regret to inform you that}} live reporting data {{will not be available until}} 15 August; {{in the meantime}}, reports {{will be updated weekly}}.",
+          "tts": "We regret to inform you that live reporting data will not be available until the fifteenth [of](/əv/) August; in the meantime, reports will be updated weekly.",
+          "label": "The notice for the board (formal)",
+          "notes": [
+            "*We regret to inform you that*: warning and news in one formal frame.",
+            "*Will not be available until 15 August*: firm, dated, impersonal.",
+            "*In the meantime, reports will be updated weekly*: the plan in the passive, so the focus stays on the service."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "Si Helen solo lee las dos primeras frases, ¿sabe ya qué pasa y desde cuándo? ¿Y la última frase la ayuda con su junta? Copia tu segunda frase.",
+        "reflect": true
+      },
+      {
+        "area": "register",
+        "text": "¿Mantuviste un registro neutro-formal (*I'm afraid*, *in the meantime*) sin el tono de las notas de Oliver (*honestly*, *quick notes*, *nothing else breaks*)?"
+      },
+      {
+        "area": "accuracy",
+        "text": "¿La noticia va con *will not* (sin atenuar), el condicional mixto con *if we had* + participio y *would* + infinitivo + *now*, y el plan con *will* y fechas?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Escribiste *deceive* por «decepcionar», *inform that* sin la persona, *sorry for the inconveniences* o *the news are*? Debe ser *disappoint*, *inform you that*, *any inconvenience* y *the news is*."
+      },
+      {
+        "area": "strategy",
+        "text": "¿Qué dejaste fuera de las notas de Oliver y qué transformaste? Por ejemplo, *if we'd asked them…* → tu frase de responsabilidad, sin culpar al proveedor. Mediar es elegir.",
+        "reflect": true
+      }
+    ]
+  }
+}

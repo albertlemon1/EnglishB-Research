@@ -124,4 +124,116 @@ export const CHECKS_B2 = {
     const s = sentencesOf(text).find((x) => /^(have|has|had)\s+(been|\w+ed|\w+en)\b/i.test(x) && !x.endsWith("?"));
     return s ? { msg: "Falta el sujeto. En inglés es obligatorio: *We have been working…*, *It has taken longer…*.", sample: s } : null;
   },
+  // m26 · l126 · hedging ----------------------------------------------------
+  // «la búsqueda parece que es lenta» → *the search seems that is slow*.
+  seemsThat(text) {
+    const m = text.match(/\b(?!it\b)\w+\s+(seems?|appears?|seemed|appeared)\s+that\s+(is|are|was|were|has|have|will|can|it's|isn't|doesn't|does)\b[^.!?]*/i);
+    return m ? { msg: "Con un sujeto delante, *seem* va con *to*: *the search seems to be slow*. O empieza por *it*: *it seems that the search is slow*.", sample: m[0] } : null;
+  },
+  // «sinceramente» → *Sincerely, …* inside the message (not as the sign-off).
+  sincerelyHonest(text) {
+    const m = text.match(/\bsincerely,?\s+(i|we|the|it|this|that|our|they|you|there)\b[^.!?\n]*/i);
+    return m ? { msg: "*Sincerely* solo cierra una carta (*Yours sincerely*). Para dar una opinión sincera: *to be honest*, *honestly* o *frankly*.", sample: m[0] } : null;
+  },
+  // «quizás no esté lista» → *the search maybe will not be ready*.
+  maybeInside(text) {
+    const m = text.match(/\b(we|they|it|he|she|i|you|search|test|launch|date|fix|team|this|that)\s+maybe\s+(will|won't|can|can't|is|are|be|need|needs|have|has)\b[^.!?]*/i);
+    return m ? { msg: "*Maybe* va al principio de la frase (*Maybe the search won't be ready*). Dentro del verbo usa *may* o *might*: *the search may not be ready*.", sample: m[0] } : null;
+  },
+  // Three or more softeners in one sentence make the message vague.
+  hedgeStack(text) {
+    const hedge = /\b(maybe|perhaps|possibly|probably|might|may|could|a (little )?bit|a little|slightly|somewhat|kind of|sort of|seems?|appears?|i think|not quite|not so)\b/gi;
+    const s = sentencesOf(text).find((x) => (x.match(hedge) || []).length >= 4);
+    return s ? { msg: "Demasiados atenuadores en una frase: el mensaje se vuelve vago. Elige uno o dos que reflejen tu duda real y deja firme el dato.", sample: s, soft: true } : null;
+  },
+  // m26 · l127 · declining ---------------------------------------------------
+  // «me encantaría, pero…» → *I'd love, but…* (to dropped).
+  loveNoTo(text) {
+    const m = text.match(/\b(i'd|i would|we'd|we would)\s+(love|like)\s*(,|but\b|\.)[^.!?]*/i);
+    return m ? { msg: "Falta *to*: *I'd love to, but…*, *I'd like to, but…*. El *to* sustituye al verbo que no repites.", sample: m[0] } : null;
+  },
+  // «asistir a una reunión» → *assist the meeting*.
+  assistAttend(text) {
+    const m = text.match(/\bassist(ed|ing|s)?\s+(to\s+)?(the|a|an|our|your|this|that|tomorrow's|friday's|next week's)\s+(meeting|event|conference|presentation|session|workshop|launch|party|dinner|call|training|course|class)\b[^.!?]*/i);
+    return m ? { msg: "*Assist* significa «ayudar». Para ir a una reunión o un evento: *attend the meeting*.", sample: m[0] } : null;
+  },
+  // «gracias por invitarme» → *thanks for invite me*.
+  forBaseVerb(text) {
+    const m = text.match(/\b(thanks|thank you|grateful)\s+for\s+(invite|think|come|send|let|make|give|take|ask|tell|consider|contact|share|offer|explain|include|remember)\b(?!s\b)[^.!?]*/i);
+    return m ? { msg: "Después de *for*, el verbo va en -ing: *thanks for inviting me*, *thank you for thinking of us*.", sample: m[0] } : null;
+  },
+  // «rechazar su amable oferta» → *reject your kind offer*.
+  rejectOffer(text) {
+    const m = text.match(/\breject(ed|ing|s)?\s+(your|the|this|their|his|her|tom's|helen's)\s+(kind\s+|generous\s+)?(offer|invitation|help|proposal)\b[^.!?]*/i);
+    return m ? { msg: "*Reject* juzga la propuesta como mala y suena duro. Para un no cortés: *decline* o *turn down* (*we'll have to decline your kind offer*).", sample: m[0], soft: true } : null;
+  },
+  // m26 · l128 · constraints and mixed conditionals ----------------------------
+  // *would* in the if-clause: *if we would have tested…*.
+  ifWouldHave(text) {
+    // Polite "if you would like / if it would help" is correct English, so those verbs are skipped.
+    const m = text.match(/\bif\s+(we|i|you|they|he|she|it|someone|anyone|the \w+)(\s+would\s+(?!like\b|prefer\b|mind\b|help\b|kindly\b|be willing\b|be so kind\b)(have\s+)?\w+|'d\s+have\s+(\w+(ed|en)|known|done|made|told|thought|sent|had))\b[^.!?]*/i);
+    return m ? { msg: "La parte del *if* no lleva *would*. Pasado irreal: *if we had tested* (o *if we'd tested*), y *would* va en la otra parte: *we would have more options now*.", sample: m[0] } : null;
+  },
+  // «realizar el proyecto» → *realize the project*.
+  realizeWork(text) {
+    const m = text.match(/\breali[sz](e|ed|ing)\s+(the|a|an|this|that|our|these|those)\s+(\w+\s+)?(project|rebuild|work|task|changes?|migration|test|tests|testing|analysis|study|tutorials?|videos?|fix|update|production|review)\b[^.!?]*/i);
+    return m ? { msg: "*Realize* significa «darse cuenta». Para «realizar» un trabajo: *carry out*, *do*, *complete* o *produce*.", sample: m[0] } : null;
+  },
+  // «el presupuesto actual» → *the actual budget*.
+  actualCurrent(text) {
+    const m = text.match(/\b(the|our|your|their)\s+actual\s+(budget|plan|schedule|situation|timeline|date|version|team|contract|scope|status|deadline|system|platform)\b[^.!?]*/i);
+    return m ? { msg: "*Actual* significa «real». Para «actual» (el de ahora) usa *current*: *the current budget*.", sample: m[0], soft: true } : null;
+  },
+  // «límites económicos» → *economic limits*.
+  economicBudget(text) {
+    const m = text.match(/\beconomic(al)?\s+(limits?|limitations?|constraints?|reasons?|resources|problems?|cost|costs|issues?)\b[^.!?]*/i);
+    return m ? { msg: "*Economic* se refiere a la economía de un país. En un proyecto: *budget constraints*, *financial reasons*; para «barato», *inexpensive*.", sample: m[0], soft: true } : null;
+  },
+  // m26 · l129 · alternatives and counter-proposals ----------------------------
+  // «te sugiero que añadas» → *I suggest you to add*.
+  suggestTo(text) {
+    const m = text.match(/\bsuggest(s|ed|ing)?\s+(you|him|her|them|us|me|laura|tom|helen)\s+to\s+\w+[^.!?]*/i);
+    return m ? { msg: "*Suggest* no lleva objeto + *to*: *I suggest adding a guide* o *I suggest (that) you add a guide*.", sample: m[0] } : null;
+  },
+  // «en vez de mover» → *instead of move*.
+  insteadOfBase(text) {
+    const m = text.match(/\binstead of\s+(move|add|wait|launch|make|do|send|produce|record|use|build|change|delay|cancel|go|have|create|write|try)\b(?!s\b)[^.!?]*/i);
+    return m ? { msg: "*Instead of* es una preposición: el verbo va en -ing. *Instead of moving go-live…*.", sample: m[0] } : null;
+  },
+  // *provided / as long as* + will: «siempre que lo mantengamos» → *provided we will keep*.
+  providedWill(text) {
+    const m = text.match(/\b(provided( that)?|providing( that)?|as long as|unless)\s+[^,.!?]{0,30}?\b(will|'ll|won't)\b[^.!?]*/i);
+    return m ? { msg: "Tras *provided (that)*, *as long as* y *unless*, el futuro va en presente: *provided your team writes the scripts*, no *will write*.", sample: m[0] } : null;
+  },
+  // «le proponemos un enfoque» → *we propose you a phased approach*.
+  proposeYou(text) {
+    const m = text.match(/\bpropos(e|ed|ing)\s+(you|him|her|them|us)\s+(a|an|the|to|that)\b[^.!?]*/i);
+    return m ? { msg: "*Propose* lleva la cosa propuesta: *we propose a phased approach* (o *we propose to you…*). La persona no va justo después del verbo.", sample: m[0] } : null;
+  },
+  // «¿qué tal añadir…?» → *how about add…*.
+  howAboutBase(text) {
+    const m = text.match(/\bhow about\s+(add|move|launch|make|do|send|produce|use|try|wait|keep|ask|start|record|write|create|have)\b(?!s\b)[^.!?]*/i);
+    return m ? { msg: "*How about* va con -ing (o con un sustantivo): *how about adding just the invoice filter?*", sample: m[0] } : null;
+  },
+  // m26 · l130 · bad news ------------------------------------------------------
+  // «os decepcionará» → *will deceive you*.
+  deceiveDisappoint(text) {
+    const m = text.match(/\b(deceiv\w*|deception)\b[^.!?]*/i);
+    return m ? { msg: "*Deceive* es «engañar». «Decepcionar» es *disappoint*; «decepción», *disappointment*.", sample: m[0] } : null;
+  },
+  // «lamentamos informar que» → *we regret to inform that*.
+  informNoObject(text) {
+    const m = text.match(/\binform(ed|ing|s)?\s+(that|about)\b[^.!?]*/i);
+    return m ? { msg: "*Inform* necesita a la persona: *we regret to inform you that…*, *I'll inform the board of…*.", sample: m[0] } : null;
+  },
+  // «disculpen las molestias» → *sorry for the inconveniences*.
+  inconveniences(text) {
+    const m = text.match(/\b(the|these|any|all the)\s+inconveniences\b[^.!?]*/i);
+    return m ? { msg: "En las disculpas, *inconvenience* va en singular: *we apologize for any inconvenience*.", sample: m[0] } : null;
+  },
+  // *The news are…*
+  newsAre(text) {
+    const m = text.match(/\b(the|this|that|some|bad|good|disappointing)\s+news\s+(are|were|have been)\b[^.!?]*/i);
+    return m ? { msg: "*News* es incontable y va en singular: *the news is disappointing*.", sample: m[0] } : null;
+  },
 };
