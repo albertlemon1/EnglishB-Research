@@ -1,4 +1,5 @@
 // Shared rendering helpers: escaping, inline markup, icons, small components.
+import { t } from "./strings.js";
 
 export const esc = (s = "") => String(s)
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
@@ -40,12 +41,9 @@ export const icon = {
   sparkle: svg('<path d="M12 3.5l1.9 5.1 5.1 1.9-5.1 1.9L12 17.5l-1.9-5.1L5 10.5l5.1-1.9z"/>'),
 };
 
-export const REG = {
-  casual: { label: "Casual / social", short: "Casual", level: 1 },
-  neutral: { label: "Neutro / estándar", short: "Neutro", level: 2 },
-  formal: { label: "Formal / escrito", short: "Formal", level: 3 },
-  model: { label: "Modelo", short: "Modelo", level: 0 },
-};
+// Labels follow the active lesson language (strings.js); levels are fixed.
+const reg = (id, level) => ({ id, level, get label() { return t(`reg.${id}`); }, get short() { return t(`reg.${id}.short`); } });
+export const REG = { casual: reg("casual", 1), neutral: reg("neutral", 2), formal: reg("formal", 3), model: reg("model", 0) };
 
 export const ALERTS = {
   "s-cluster": { sym: "s+", label: "S-cluster / epéntesis" },
@@ -62,7 +60,7 @@ export const ALERTS = {
   spelling: { sym: "Aa", label: "Ortografía" },
 };
 
-export function playBtn(id, { size = "", label = "Escuchar", solid = false } = {}) {
+export function playBtn(id, { size = "", label = "Listen", solid = false } = {}) {
   if (!id) return "";
   return `<button type="button" class="play ${size} ${solid ? "solid" : ""}" data-play="${esc(id)}" aria-label="${esc(label)}">${icon.play}${icon.pause}</button>`;
 }
@@ -81,7 +79,7 @@ export function regChip(level) {
 
 export function regMeter(level) {
   const n = REG[level]?.level || 0;
-  return `<span class="reg-meter" aria-label="Formalidad ${n} de 3">${[1, 2, 3].map((i) => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>`;
+  return `<span class="reg-meter" aria-label="${esc(t("reg.meter", { n }))}">${[1, 2, 3].map((i) => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>`;
 }
 
 export function fmtTime(sec = 0) {

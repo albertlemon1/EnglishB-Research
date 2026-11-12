@@ -1,0 +1,1090 @@
+{
+  "id": "l121",
+  "n": 121,
+  "title": "Reporting Ongoing Work: \"We've Been Working On…\"",
+  "titleEs": "Informar del trabajo en curso: «We've been working on…»",
+  "minutes": 60,
+  "summary": "Report work in progress to a colleague: the Present Perfect Continuous for the activity (*we've been working on it since March*) and the Present Perfect Simple for the results (*we've migrated three modules so far*).",
+  "canDo": [
+    "Report an activity that is still in progress with *have been + -ing* and *since / for*.",
+    "Give results so far with *have + past participle*, *so far* and numbers.",
+    "Ask for a status update with *How long…?* and *How many…?*",
+    "Link consonant to vowel in *work on it* and *roll it out*, and say *been* as a weak /bɪn/."
+  ],
+  "focus": {
+    "grammar": "Present Perfect Continuous (activity, duration: since / for) vs Present Perfect Simple (result: so far, yet, quantity) · How long…? vs How many…? · stative verbs",
+    "lexis": "work on, so far, be on track, a blocker, up and running, narrow something down to, keep someone posted, loop someone in, plug away at, remain pending, have now been completed",
+    "afh": "linking in work on it / roll it out · weak been /bɪn/ · schedule US /sk/ vs UK /ʃ/ · PROgress (n.) vs proGRESS (v.)"
+  },
+  "warmup": "Think of something you have been working on for a while: a project, a course, a move. What have you finished so far, and what is still open? Say one sentence about each.",
+  "lexical": {
+    "scenario": {
+      "format": "voice",
+      "title": "Welcome back: where we are",
+      "context": "Ryan coordinates the migration of his company's customer portal to a new platform. Oliver, his colleague, has been on leave for two weeks and comes back tomorrow. Ryan sends him a voice message on Sunday evening.",
+      "speaker": "ryan",
+      "to": "Oliver",
+      "audio": "l121-scn",
+      "text": "Hi Oliver, welcome back! Quick update before tomorrow's stand-up so you're not lost. We{{'ve been working on}} the portal migration non-stop since you left. {{So far}}, we{{'ve migrated}} three of the five modules, and Priya {{has been testing}} the new design with real users for two weeks now. The reporting module is {{still pending}}: Alex has been chasing a bug in the data export, and we haven't found the cause yet. Overall, we're {{on track}} for the June rollout. I'll {{loop you in}} on the client call on Wednesday. See you tomorrow!"
+    },
+    "dialogue": {
+      "title": "Monday stand-up",
+      "context": "Oliver is back. Ryan runs the team's short Monday meeting with Priya (UX designer) and Alex (developer).",
+      "lines": [
+        {
+          "speaker": "ryan",
+          "audio": "l121-dlg-01",
+          "text": "Morning, everyone. Oliver's back, so let's do a proper round. Priya, where are we with the user testing?"
+        },
+        {
+          "speaker": "priya",
+          "audio": "l121-dlg-02",
+          "text": "Good, actually. I{{'ve been running}} sessions with real customers for two weeks, and we{{'ve completed}} twelve of the fifteen interviews. The main finding {{so far}}: people can't find the invoices page."
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l121-dlg-03",
+          "text": "Noted, thanks. Alex, what about the data export bug?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l121-dlg-04",
+          "text": "I{{'ve been digging into}} it since Thursday. I{{'ve narrowed it down}} to the date format, but I haven't fixed it yet. I should have a fix by tomorrow."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l121-dlg-05",
+          "text": "Is that {{the blocker}} for the reporting module?"
+        },
+        {
+          "speaker": "alex",
+          "audio": "l121-dlg-06",
+          "text": "It is. Everything else in that module is {{up and running}}."
+        },
+        {
+          "speaker": "oliver",
+          "audio": "l121-dlg-07",
+          "text": "Okay. And {{how long has}} the client {{been waiting}} for the demo?"
+        },
+        {
+          "speaker": "ryan",
+          "audio": "l121-dlg-08",
+          "text": "Since the end of April. Helen has been asking for a date, so let's agree on one today and I'll {{keep her posted}}."
+        }
+      ]
+    },
+    "comprehension": [
+      {
+        "q": "How long has Priya been running sessions with customers?",
+        "options": [
+          "For two weeks",
+          "Since Thursday",
+          "Since the end of April"
+        ],
+        "answer": 0,
+        "explain": "*I've been running sessions with real customers for two weeks.* Activity in progress + *for* + length of time."
+      },
+      {
+        "q": "What has Alex found out about the bug so far?",
+        "options": [
+          "He has already fixed it.",
+          "He has narrowed it down to the date format.",
+          "He hasn't started looking at it yet."
+        ],
+        "answer": 1,
+        "explain": "*I've narrowed it down to the date format, but I haven't fixed it yet.* A result so far (simple), then what is still open (*yet*)."
+      },
+      {
+        "q": "Why does Ryan want to agree on a demo date today?",
+        "options": [
+          "Because Oliver is back from leave.",
+          "Because Helen has been asking for a date since the end of April.",
+          "Because the reporting module is finished."
+        ],
+        "answer": 1,
+        "explain": "*Helen has been asking for a date*: the client has been waiting since the end of April."
+      }
+    ],
+    "registers": [
+      {
+        "level": "casual",
+        "use": "Friends and close colleagues: chat messages, coffee-machine talk.",
+        "items": [
+          {
+            "speaker": "leo",
+            "audio": "l121-reg-c1",
+            "text": "Still plugging away at the migration. Nearly there, though!",
+            "note": "*Plug away at* = keep working hard at something slow. No subject: typical of chat."
+          },
+          {
+            "speaker": "maya",
+            "audio": "l121-reg-c2",
+            "text": "How's the big project going? You've been at it for ages!",
+            "note": "*Be at it* = be busy doing something; *for ages* = for a very long time."
+          }
+        ]
+      },
+      {
+        "level": "neutral",
+        "use": "Team meetings, updates to colleagues, everyday emails.",
+        "items": [
+          {
+            "speaker": "ryan",
+            "audio": "l121-reg-n1",
+            "text": "We've been working on the migration since March, and we're on track.",
+            "note": "The standard status line: activity + *since* + a judgement."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l121-reg-n2",
+            "text": "I've been testing the design for two weeks, and we've completed twelve interviews so far.",
+            "note": "Continuous for the activity, simple for the number."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l121-reg-n3",
+            "text": "I've been looking into the bug, but I haven't found the cause yet.",
+            "note": "*Look into* = investigate. *Yet* marks what is still open."
+          }
+        ]
+      },
+      {
+        "level": "formal",
+        "use": "Written reports, steering committees, messages to a client.",
+        "items": [
+          {
+            "speaker": "helen",
+            "audio": "l121-reg-f1",
+            "text": "Work on the migration has been progressing steadily since March, and three of the five modules have now been completed.",
+            "note": "Report style: a noun phrase as subject (*work on the migration*) and the passive (*have been completed*)."
+          },
+          {
+            "speaker": "daniel",
+            "audio": "l121-reg-f2",
+            "text": "Please note that the reporting module remains pending while the data-export issue is being investigated.",
+            "note": "*Remains pending* and *is being investigated* keep the tone impersonal: no one is blamed."
+          }
+        ]
+      }
+    ],
+    "chunks": [
+      {
+        "en": "work on (something)",
+        "def": "to spend time and effort trying to finish or improve something",
+        "register": "neutral",
+        "example": "We've been working on the migration since March."
+      },
+      {
+        "en": "so far",
+        "def": "up to now; used with the Present Perfect to sum up results",
+        "register": "neutral",
+        "syn": "up to now, to date",
+        "example": "So far, we've migrated three of the five modules."
+      },
+      {
+        "en": "be on track",
+        "def": "to be progressing as planned, so that you will finish on time",
+        "register": "neutral",
+        "ant": "be behind schedule",
+        "example": "We're on track for the June rollout."
+      },
+      {
+        "en": "a blocker",
+        "def": "a problem that stops a piece of work from moving forward until it is solved",
+        "register": "neutral",
+        "syn": "an obstacle",
+        "example": "Is that the blocker for the reporting module?"
+      },
+      {
+        "en": "up and running",
+        "def": "working normally after being set up or repaired",
+        "register": "neutral",
+        "syn": "operational",
+        "example": "Everything else in that module is up and running."
+      },
+      {
+        "en": "narrow (something) down to",
+        "def": "to reduce the possible causes or options to a smaller number",
+        "register": "neutral",
+        "example": "I've narrowed it down to the date format."
+      },
+      {
+        "en": "keep (someone) posted",
+        "def": "to give someone regular updates about something",
+        "register": "neutral",
+        "syn": "keep someone informed",
+        "example": "I'll keep her posted."
+      },
+      {
+        "en": "loop (someone) in",
+        "def": "to include someone in a conversation or an email thread so that they have the information",
+        "register": "neutral",
+        "syn": "bring someone in",
+        "example": "I'll loop you in on the client call."
+      },
+      {
+        "en": "plug away at (something)",
+        "def": "to keep working hard at something, especially something slow or difficult",
+        "register": "casual",
+        "syn": "keep at it",
+        "example": "Still plugging away at the migration."
+      },
+      {
+        "en": "remain pending",
+        "def": "to be still unfinished or waiting for a decision (formal)",
+        "register": "formal",
+        "syn": "be outstanding",
+        "ant": "have now been completed",
+        "example": "The reporting module remains pending."
+      }
+    ],
+    "registerQuiz": [
+      {
+        "text": "Still plugging away at it. Nearly there!",
+        "answer": "casual",
+        "explain": "*Plug away at*, no subject, an exclamation: chat between friends."
+      },
+      {
+        "text": "We've been working on the migration since March.",
+        "answer": "neutral",
+        "explain": "Clear, standard team language."
+      },
+      {
+        "text": "Three of the five modules have now been completed.",
+        "answer": "formal",
+        "explain": "Passive and *have now been*: report style."
+      },
+      {
+        "text": "You've been at it for ages!",
+        "answer": "casual",
+        "explain": "*Be at it* and *for ages* are informal."
+      },
+      {
+        "text": "The reporting module remains pending.",
+        "answer": "formal",
+        "explain": "*Remains pending* is written, impersonal English."
+      },
+      {
+        "text": "I haven't found the cause yet.",
+        "answer": "neutral",
+        "explain": "A plain update to colleagues."
+      }
+    ]
+  },
+  "discovery": {
+    "intro": "Ryan sums up the project. Two forms share the same auxiliary *have*, but they point at different things: the work itself, or what the work has produced.",
+    "speaker": "ryan",
+    "audio": "l121-gd",
+    "text": "We{{'ve been working on}} the portal migration since March. So far, we{{'ve migrated}} three of the five modules, and Priya {{has been testing}} the new design with real users for two weeks. We {{haven't finished}} the reporting module yet, but we're on track.",
+    "organizer": {
+      "type": "organizer",
+      "kind": "table",
+      "title": "Activity or result?",
+      "prompt": "Complete the table with the missing form or focus. Type the pattern, not the whole sentence.",
+      "columns": [
+        "Example",
+        "Form",
+        "What it highlights"
+      ],
+      "rows": [
+        [
+          "We{{'ve been working on}} the migration since March.",
+          {
+            "gap": "have been + -ing",
+            "hint": "have … + …",
+            "accept": [
+              "have been + -ing",
+              "have been + ing",
+              "have/has been + -ing",
+              "have/has been + ing",
+              "have / has been + -ing",
+              "have been + verb-ing",
+              "have/has been + verb-ing",
+              "have + been + -ing",
+              "have been working"
+            ]
+          },
+          "the activity: still going on, how long"
+        ],
+        [
+          "We{{'ve migrated}} three of the five modules.",
+          "have + past participle",
+          {
+            "gap": "the result",
+            "hint": "the …",
+            "accept": [
+              "the result",
+              "a result",
+              "result",
+              "results",
+              "the finished result",
+              "a finished result",
+              "the completed result",
+              "finished result",
+              "completed result",
+              "what is finished",
+              "the number",
+              "how many"
+            ]
+          }
+        ],
+        [
+          "Priya {{has been testing}} the design for two weeks.",
+          {
+            "gap": "has been + -ing",
+            "hint": "has … + …",
+            "accept": [
+              "has been + -ing",
+              "has been + ing",
+              "have/has been + -ing",
+              "have/has been + ing",
+              "have / has been + -ing",
+              "has been + verb-ing",
+              "has been testing",
+              "have been + -ing",
+              "have been + ing"
+            ]
+          },
+          {
+            "gap": "how long",
+            "hint": "how …",
+            "accept": [
+              "how long",
+              "the duration",
+              "duration",
+              "length of time",
+              "the length of time",
+              "the activity",
+              "activity",
+              "still going on",
+              "the activity, still going on",
+              "the activity: still going on, how long"
+            ]
+          }
+        ],
+        [
+          "We {{haven't finished}} the reporting module yet.",
+          {
+            "gap": "haven't + past participle",
+            "hint": "haven't + …",
+            "accept": [
+              "haven't + past participle",
+              "have not + past participle",
+              "haven't + participle",
+              "have not + participle",
+              "have + not + past participle",
+              "haven't + pp",
+              "have not + pp",
+              "haven't finished",
+              "have not finished",
+              "have + past participle (negative)",
+              "negative have + past participle"
+            ]
+          },
+          "the result: not complete (yet)"
+        ]
+      ],
+      "explain": "Continuous = activity and duration (*since / for*); simple = result and quantity (*so far*, numbers). *Yet* goes with the negative simple."
+    },
+    "questions": [
+      {
+        "kind": "semantic",
+        "type": "open",
+        "q": "Compare *we've been working on the migration since March* and *we've migrated three of the five modules*. Which one describes an activity that is still going on, and which one a finished result? Say how you know: look at the time words and at what comes after the verb.",
+        "minWords": 12,
+        "signals": [
+          {
+            "re": "still|going on|ongoing|in progress|continu|not finished|unfinished",
+            "label": "still going on"
+          },
+          {
+            "re": "finish|complet|result|done|achiev",
+            "label": "finished result"
+          },
+          {
+            "re": "since|for two|for \\w+ weeks|so far",
+            "label": "since / for / so far"
+          },
+          {
+            "re": "three|number|quantity|how many|count|amount",
+            "label": "a number"
+          }
+        ],
+        "model": "*We've been working on the migration since March* is an activity that started in the past and is still going on: *since March* gives the starting point, and the migration is not finished. *We've migrated three of the five modules* is a finished result: a number of things completed up to now, which is why *so far* goes with it. The continuous looks at the work; the simple counts what the work has produced.",
+        "criteria": [
+          "You said the continuous form (*have been working*) describes an activity that is still in progress.",
+          "You said the simple form (*have migrated*) describes a completed result.",
+          "You used the clues: *since March* / *for two weeks* with the continuous, *so far* and a number with the simple."
+        ]
+      },
+      {
+        "kind": "syntactic",
+        "type": "open",
+        "q": "How is each form built? Write both patterns (the auxiliaries and the form of the main verb), and say which time expressions go with each one: *since March*, *for two weeks*, *so far*, *yet*.",
+        "minWords": 12,
+        "signals": [
+          {
+            "re": "have been|has been|been \\+|been working|been testing|\\bing\\b|-ing",
+            "label": "have been + -ing"
+          },
+          {
+            "re": "past participle|participle|third form|-ed|\\bpp\\b|migrated|finished",
+            "label": "have + past participle"
+          },
+          {
+            "re": "\\bsince\\b|\\bfor\\b",
+            "label": "since / for"
+          },
+          {
+            "re": "so far|\\byet\\b",
+            "label": "so far / yet"
+          }
+        ],
+        "model": "Continuous: *have / has + been + verb-ing* (*we've been working*, *she has been testing*). It takes *since* + a starting point and *for* + a length of time. Simple: *have / has + past participle* (*we've migrated*, *we haven't finished*). It takes *so far*, *already*, *yet* in negatives and questions, and a quantity (*three of the five modules*).",
+        "criteria": [
+          "You wrote the continuous pattern: *have / has been + -ing*.",
+          "You wrote the simple pattern: *have / has + past participle*.",
+          "You matched *since / for* with the continuous and *so far / yet* (and quantities) with the simple."
+        ]
+      },
+      {
+        "kind": "pragmatic",
+        "type": "open",
+        "q": "Ryan says *we've been working on it since March*, not *we worked on it in March* or *we've done the migration*. What does the continuous form tell Helen, the client, about the team's effort and about the present? And when would a manager deliberately choose the simple form instead?",
+        "minWords": 15,
+        "signals": [
+          {
+            "re": "effort|hard|busy|continu|duration|how long|sustain",
+            "label": "effort / duration"
+          },
+          {
+            "re": "still|not finished|unfinished|ongoing|\\bnow\\b|present|in progress",
+            "label": "not finished yet"
+          },
+          {
+            "re": "result|achiev|complet|deliver|number|how many|evidence|figures|proof",
+            "label": "results"
+          }
+        ],
+        "model": "The continuous highlights sustained effort and duration (*how long*), and it makes clear that the work is not finished: a fair picture of an ongoing project, and a polite way of saying *we're still on it*. A manager chooses the simple form to show results and evidence (*we've migrated three modules*, *we've completed twelve interviews*): numbers reassure a client more than effort does, so a good status update combines both.",
+        "criteria": [
+          "You said the continuous emphasises effort and duration (*how long*).",
+          "You said it signals that the work is still unfinished (a diplomatic *we're still on it*).",
+          "You said the simple form is chosen to show results, numbers or evidence."
+        ]
+      }
+    ],
+    "rule": {
+      "points": [
+        "Present Perfect Continuous (*have / has been + -ing*) describes an activity that started in the past and is still going on. It answers *How long?*: *since* + starting point, *for* + length of time.",
+        "Present Perfect Simple (*have / has + past participle*) describes a result that is complete now. It answers *How many? What have you done?*: *so far*, *already*, a quantity, and *yet* in negatives and questions.",
+        "A good status update needs both: the activity first (*We've been working on the migration since March*), then the evidence (*So far, we've migrated three modules*).",
+        "Stative verbs (*know, have, need, be, own, believe*) stay in the simple form even for duration: *We've known about the bug since Monday*, never *We've been knowing*."
+      ],
+      "formulas": [
+        "have / has been + verb-ing + since / for",
+        "have / has + past participle + so far / already / yet",
+        "How long have you been + -ing? · How many have you + past participle?"
+      ],
+      "note": "Spanish says *llevamos tres meses trabajando* or *trabajamos en esto desde marzo* with a present tense. English needs the perfect: *We've been working on it for three months / since March*. Never *We are working on it since March*."
+    }
+  },
+  "phonetics": {
+    "intro": "Las frases de estado se dicen en bloques, no palabra por palabra: *work on it*, *roll it out*, *keep an eye on*. El hispanohablante tiende a separar cada palabra, a pronunciar *been* con vocal larga y a meter una /e/ en *schedule*. Aquí enlazamos consonante con vocal, debilitamos *been* y fijamos el acento de *progress*.",
+    "items": [
+      {
+        "id": "work-on-it",
+        "term": "work on it",
+        "pos": "chunk",
+        "meaning": "to spend time trying to finish or improve it",
+        "ipa": {
+          "us": "/ˌwɝːk‿ɑː‿nɪt/ → /ˈwɝː.kɑː.nɪt/",
+          "uk": "/ˌwɜːk‿ɒ‿nɪt/ → /ˈwɜː.kɒ.nɪt/"
+        },
+        "afh": "UÉR-ka-nit",
+        "say": "Work on it.",
+        "alerts": [
+          {
+            "type": "linking",
+            "text": "La k de *work* se une a *on* («uér-kon») y la n de *on* se une a *it* («ko-nit»). Tres palabras, un solo bloque: «UÉR-ka-nit». Si paras entre palabras, suena robótico."
+          },
+          {
+            "type": "vowel",
+            "text": "*Work* lleva la vocal con r /ɝ/ (US): ni «uork» ni «guork». No añadas una g delante de la u."
+          },
+          {
+            "type": "consonant",
+            "text": "La k final de *work* no se pierde: es justo la que enlaza con *on*."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "I'll work on it this afternoon and send you the results."
+        }
+      },
+      {
+        "id": "been",
+        "term": "been (we've been…)",
+        "pos": "aux.",
+        "meaning": "past participle of be; in have been + -ing it is unstressed",
+        "ipa": {
+          "us": "/bɪn/ (weak)",
+          "uk": "/biːn/ · /bɪn/ (weak)"
+        },
+        "afh": "uiv-BIN wér-king → «uiv bin»",
+        "say": "We've been.",
+        "alerts": [
+          {
+            "type": "weak",
+            "text": "En *we've been working*, *been* es átono y corto: /bɪn/, «bin», como *bin* (cubo). No digas «biiin». En Reino Unido se oye más /biːn/, pero también breve."
+          },
+          {
+            "type": "vowel",
+            "text": "/ɪ/ es una i relajada, entre la i y la e españolas. Compárala con *seen* /siːn/, que sí es larga."
+          },
+          {
+            "type": "linking",
+            "text": "*We've been* se dice de un tirón: la v de *we've* pasa directamente a *been*: «uiv-bin»."
+          }
+        ],
+        "example": {
+          "speaker": "ryan",
+          "text": "We've been testing the new design for two weeks.",
+          "tts": "We've [been](/bɪn/) testing the new design for two weeks."
+        },
+        "ttsUs": "We've [been](/bɪn/).",
+        "ttsUk": "We've [been](/biːn/)."
+      },
+      {
+        "id": "roll-out",
+        "term": "roll (it) out",
+        "pos": "phrasal verb",
+        "meaning": "to make a new product or system available to users, in stages",
+        "ipa": {
+          "us": "/ˌroʊ‿ˈlaʊt/ · /ˌroʊ.lɪ‿ˈɾaʊt/",
+          "uk": "/ˌrəʊ‿ˈlaʊt/ · /ˌrəʊ.lɪ‿ˈtaʊt/"
+        },
+        "afh": "ro-LAUT · ro-li-RAUT",
+        "say": "Roll it out.",
+        "alerts": [
+          {
+            "type": "linking",
+            "text": "La l de *roll* se une a *out*: «ro-LAUT», no «rol / aut». Con *it* en medio: «ro-li-RAUT»."
+          },
+          {
+            "type": "flap",
+            "text": "En inglés americano, la t de *it* queda entre vocales y suena como una r suave española: «ro-li-RAUT». En británico se oye la t: «ro-li-TAUT»."
+          },
+          {
+            "type": "consonant",
+            "text": "La r inicial de *roll* no vibra como la rr española: la lengua no toca el paladar."
+          }
+        ],
+        "example": {
+          "speaker": "alex",
+          "text": "We're going to roll it out to the first fifty users on Monday."
+        }
+      },
+      {
+        "id": "schedule",
+        "term": "schedule",
+        "pos": "n. · on / behind schedule",
+        "meaning": "a plan that says when things will happen; on schedule = on time",
+        "ipa": {
+          "us": "/ˈskedʒ.uːl/",
+          "uk": "/ˈʃedʒ.uːl/"
+        },
+        "afh": "SKE-dyul (US) · SHE-dyul (UK)",
+        "say": "Schedule.",
+        "alerts": [
+          {
+            "type": "s-cluster",
+            "text": "Empieza con /sk/, sin e de apoyo: «sss-KE-dyul», nunca «es-KE-dyul»."
+          },
+          {
+            "type": "variant",
+            "text": "En Reino Unido se oye sobre todo «SHE-dyul» /ˈʃedʒ.uːl/. Las dos formas se entienden en todas partes; elige una y mantenla."
+          },
+          {
+            "type": "stress",
+            "text": "Acento en la primera sílaba. La segunda es breve: «dyul», con /dʒ/ («dy»), no «dul»."
+          }
+        ],
+        "example": {
+          "speaker": "daniel",
+          "text": "The server upgrade is still on schedule for Friday."
+        }
+      },
+      {
+        "id": "progress",
+        "term": "progress",
+        "pos": "n. · make progress",
+        "meaning": "movement towards finishing something; improvement",
+        "ipa": {
+          "us": "/ˈprɑː.ɡres/",
+          "uk": "/ˈprəʊ.ɡres/"
+        },
+        "afh": "PRA-gres (US) · PRÓU-gres (UK)",
+        "say": "Progress.",
+        "variants": [
+          {
+            "label": "Noun: PRO-gress",
+            "speaker": "coach",
+            "audio": "l121-ph-progress-noun",
+            "text": "We've made good progress this month.",
+            "tts": "We've made good [progress](/pɹˈɑɡɹɛs/) this month."
+          },
+          {
+            "label": "Verb: pro-GRESS",
+            "speaker": "coach",
+            "audio": "l121-ph-progress-verb",
+            "text": "The work is progressing well.",
+            "tts": "The work is [progressing](/pɹəɡɹˈɛsɪŋ/) well."
+          }
+        ],
+        "alerts": [
+          {
+            "type": "stress",
+            "text": "Sustantivo: acento en la primera sílaba, «PRA-gres» (*make progress*). Verbo: acento en la segunda, «pra-GRES» (*the work is progressing*). En español «progreso» siempre lleva el acento en GRE."
+          },
+          {
+            "type": "vowel",
+            "text": "En EE. UU. la o del sustantivo es una a abierta /ɑː/: «PRA-gres». En Reino Unido es /əʊ/: «PRÓU-gres»."
+          },
+          {
+            "type": "consonant",
+            "text": "La *-ss* final es una s sorda /s/, igual que en español. No la hagas sonora."
+          }
+        ],
+        "example": {
+          "speaker": "priya",
+          "text": "We've made a lot of progress on the new design this month.",
+          "tts": "We've made a lot of [progress](/pɹˈɑɡɹɛs/) on the new design this month."
+        },
+        "ttsUs": "[Progress](/pɹˈɑɡɹɛs/).",
+        "ttsUk": "[Progress](/pɹˈəʊɡɹɛs/)."
+      }
+    ]
+  },
+  "consolidation": {
+    "structures": [
+      {
+        "title": "Activity in progress: Present Perfect Continuous",
+        "formula": "Subject + have / has + been + verb-ing (+ since / for)",
+        "usage": "For work that started in the past and is still going on. It stresses how long and how much effort, not whether the work is finished.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l121-cc-1a",
+            "text": "We{{'ve been working on}} the migration since March.",
+            "tts": "We've [been](/bɪn/) working on the migration since March."
+          },
+          {
+            "speaker": "priya",
+            "audio": "l121-cc-1b",
+            "text": "I{{'ve been testing}} the new design for two weeks."
+          }
+        ]
+      },
+      {
+        "title": "Result up to now: Present Perfect Simple",
+        "formula": "Subject + have / has + past participle (+ so far / already / yet)",
+        "usage": "For what is finished at the moment of speaking: results, numbers, milestones. *Yet* in negatives and questions.",
+        "examples": [
+          {
+            "speaker": "coach",
+            "audio": "l121-cc-2a",
+            "text": "So far, we{{'ve migrated}} three of the five modules."
+          },
+          {
+            "speaker": "alex",
+            "audio": "l121-cc-2b",
+            "text": "I{{'ve narrowed it down}} to the date format, but I {{haven't fixed}} it yet."
+          }
+        ]
+      },
+      {
+        "title": "Asking for status: How long…? and How many…?",
+        "formula": "How long + have / has + subject + been + -ing? · How many + noun + have / has + subject + past participle?",
+        "usage": "*How long* asks about the activity (continuous); *how many / how much* asks about the results (simple).",
+        "examples": [
+          {
+            "speaker": "oliver",
+            "audio": "l121-cc-3a",
+            "text": "{{How long has}} the client {{been waiting}} for the demo?"
+          },
+          {
+            "speaker": "ryan",
+            "audio": "l121-cc-3b",
+            "text": "{{How many}} interviews {{have}} you {{completed}} so far?"
+          }
+        ]
+      }
+    ],
+    "l1": [
+      {
+        "title": "Present tense for an unfinished period",
+        "text": "Spanish uses the present (*llevamos tres meses trabajando*, *trabajamos en esto desde marzo*). English needs the Present Perfect Continuous: the activity started in the past.",
+        "wrong": "We are working on the migration since March.",
+        "right": "We've been working on the migration since March."
+      },
+      {
+        "title": "Since with a length of time",
+        "text": "*Since* takes the starting point; *for* takes the duration. Spanish *desde hace tres semanas* covers both, which is why *since three weeks* appears.",
+        "wrong": "She has been testing the design since two weeks.",
+        "right": "She has been testing the design for two weeks."
+      },
+      {
+        "title": "Continuous with a counted result",
+        "text": "If you count what is finished, use the simple form. The continuous describes the activity, not the number.",
+        "wrong": "We've been migrating three modules so far.",
+        "right": "We've migrated three modules so far."
+      },
+      {
+        "title": "Stative verbs in the continuous",
+        "text": "*Know, need, have, be, own, believe* do not take the continuous, even with *since* or *for*.",
+        "wrong": "We've been knowing about the bug since Monday.",
+        "right": "We've known about the bug since Monday."
+      },
+      {
+        "title": "Actually for «actualmente»",
+        "text": "*Actually* means *in fact*: a correction or a surprise. For the present moment, use *currently* or *at the moment*.",
+        "wrong": "Actually we are testing the design with real users.",
+        "right": "We're currently testing the design with real users."
+      }
+    ]
+  },
+  "practice": [
+    {
+      "type": "choice",
+      "prompt": "Choose the best form.",
+      "text": "We ___ on the migration since March, and we're on track.",
+      "options": [
+        "have been working",
+        "are working",
+        "worked"
+      ],
+      "answer": 0,
+      "explain": "An activity still in progress with *since* → Present Perfect Continuous."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the best form.",
+      "text": "So far, we ___ three of the five modules.",
+      "options": [
+        "have migrated",
+        "have been migrating",
+        "are migrating"
+      ],
+      "answer": 0,
+      "explain": "A finished quantity (*three modules*) with *so far* → Present Perfect Simple."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the right word.",
+      "text": "Priya has been testing the design ___ two weeks.",
+      "options": [
+        "for",
+        "since",
+        "during"
+      ],
+      "answer": 0,
+      "explain": "A length of time → *for*. *Since* needs a starting point; *during* answers *when*, not *how long*."
+    },
+    {
+      "type": "choice",
+      "prompt": "Choose the best form.",
+      "text": "We ___ about the bug since Monday.",
+      "options": [
+        "have known",
+        "have been knowing",
+        "know"
+      ],
+      "answer": 0,
+      "explain": "*Know* is a stative verb: no continuous. *Since* rules out the present simple."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with the correct form of *dig*.",
+      "text": "Alex has ___ into the bug since Thursday.",
+      "accept": [
+        "been digging"
+      ],
+      "explain": "An activity in progress since a point in time → *has been digging*."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete the question with one word.",
+      "text": "How ___ has the client been waiting for the demo?",
+      "accept": [
+        "long"
+      ],
+      "explain": "*How long* asks about duration and goes with the continuous."
+    },
+    {
+      "type": "gap",
+      "prompt": "Complete with the word that goes with a negative Present Perfect.",
+      "text": "We haven't fixed the date-format bug ___.",
+      "accept": [
+        "yet"
+      ],
+      "explain": "*Yet* = up to now, in negatives and questions."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "We've",
+        "been",
+        "working",
+        "on",
+        "it",
+        "since",
+        "March"
+      ],
+      "answer": "We've been working on it since March",
+      "explain": "Continuous for an unfinished activity + *since* + starting point."
+    },
+    {
+      "type": "order",
+      "prompt": "Put the words in order.",
+      "words": [
+        "How",
+        "many",
+        "interviews",
+        "have",
+        "you",
+        "completed",
+        "so",
+        "far"
+      ],
+      "answer": "How many interviews have you completed so far",
+      "explain": "*How many* asks about results: Present Perfect Simple."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the typical Spanish-speaker slip.",
+      "wrong": "We are working on the portal since March.",
+      "accept": [
+        "We've been working on the portal since March.",
+        "We have been working on the portal since March."
+      ],
+      "explain": "*Since* + an unfinished activity → Present Perfect Continuous, not the present."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the mistake.",
+      "wrong": "She has been testing the design since two weeks.",
+      "accept": [
+        "She has been testing the design for two weeks.",
+        "She's been testing the design for two weeks."
+      ],
+      "explain": "A duration takes *for*."
+    },
+    {
+      "type": "fix",
+      "prompt": "Correct the false friend.",
+      "wrong": "Actually we are testing the design with real users.",
+      "accept": [
+        "Currently we are testing the design with real users.",
+        "Currently, we are testing the design with real users.",
+        "We are currently testing the design with real users.",
+        "We're currently testing the design with real users.",
+        "At the moment we are testing the design with real users.",
+        "At the moment, we are testing the design with real users."
+      ],
+      "explain": "*Actually* = in fact. For the present moment: *currently* or *at the moment*."
+    },
+    {
+      "type": "organizer",
+      "kind": "timeline",
+      "prompt": "Place Alex's bug hunt on the time line. Type the missing verb forms.",
+      "points": [
+        {
+          "when": "Thursday",
+          "text": "The export bug appears."
+        },
+        {
+          "when": "Thursday → now",
+          "gap": "has been digging",
+          "hint": "has … (dig)",
+          "accept": [
+            "has been digging",
+            "'s been digging",
+            "has been digging into it"
+          ]
+        },
+        {
+          "when": "So far",
+          "gap": "has narrowed it down",
+          "hint": "has … (narrow) it down",
+          "accept": [
+            "has narrowed it down",
+            "'s narrowed it down",
+            "has narrowed",
+            "has narrowed down"
+          ]
+        },
+        {
+          "when": "Still open",
+          "gap": "hasn't fixed it yet",
+          "hint": "hasn't … (fix) it yet",
+          "accept": [
+            "hasn't fixed it yet",
+            "has not fixed it yet",
+            "hasn't fixed",
+            "hasn't fixed it"
+          ]
+        }
+      ],
+      "explain": "Activity from Thursday to now: *has been digging*. Results so far: *has narrowed it down*. Still open: *hasn't fixed it yet*."
+    },
+    {
+      "type": "stress",
+      "prompt": "Which syllable of *progress* (the noun, as in *make progress*) is stressed?",
+      "word": "progress",
+      "syllables": [
+        "pro",
+        "gress"
+      ],
+      "answer": 0,
+      "audioRef": "l121-ph-progress-us",
+      "explain": "**PRO**-gress as a noun; pro-**GRESS** as a verb."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and write exactly what you hear.",
+      "speaker": "ryan",
+      "audio": "l121-dict-1",
+      "text": "So far, we've migrated three of the five modules.",
+      "explain": "A result with a number: Present Perfect Simple + *so far*."
+    }
+  ],
+  "task": {
+    "title": "A status update for a colleague back from leave",
+    "format": "voice",
+    "scenario": "A colleague on your team has been away for two weeks and comes back tomorrow. Record (or write) a short voice message so that they are not lost at the stand-up: what the team has been doing, what is finished, what is still open and what happens next. Use a real or an imagined project you know well.",
+    "brief": "Give an ongoing-work update: activity in progress, results so far, open issues and the next step.",
+    "steps": [
+      "Open with a welcome and the purpose of the message.",
+      "Say what the team has been working on and since when (activity + duration).",
+      "Give two or three results so far, with numbers (finished work).",
+      "Name one issue that is still open and what someone has been doing about it.",
+      "Close with the overall status and the next step for your colleague."
+    ],
+    "length": "90–130 words",
+    "minWords": 60,
+    "keywords": [
+      "welcome back",
+      "we've been working on",
+      "since",
+      "for two weeks",
+      "so far",
+      "we've completed",
+      "still pending",
+      "a blocker",
+      "hasn't … yet",
+      "on track",
+      "loop you in",
+      "keep you posted"
+    ],
+    "chunks": [
+      {
+        "label": "have been + -ing",
+        "re": "\\b(have|has|'ve|'s)\\s+been\\s+\\w+ing\\b"
+      },
+      {
+        "label": "since / for",
+        "re": "\\b(since\\s+\\w+|for\\s+(the\\s+)?(last\\s+|past\\s+)?(a|an|two|three|four|five|six|seven|eight|nine|ten|\\d+|several|a few|a couple of)\\s+\\w+)"
+      },
+      {
+        "label": "so far",
+        "re": "\\bso far\\b"
+      },
+      {
+        "label": "result: have + past participle",
+        "re": "\\b(have|has|'ve|'s)\\s+(already\\s+|now\\s+)?(completed|finished|migrated|done|fixed|delivered|sent|tested|found|published|set up|signed off|agreed|launched)\\b"
+      },
+      {
+        "label": "yet / still",
+        "re": "\\b(yet|still)\\b"
+      },
+      {
+        "label": "status chunk",
+        "re": "\\b(on track|behind schedule|up and running|blocker|pending|workaround|loop you in|keep you posted)\\b"
+      }
+    ],
+    "checks": [
+      "presentForSince",
+      "sinceDuration",
+      "stativeContinuous",
+      "continuousWithCount",
+      "actuallyCurrently",
+      "proDropPerfect",
+      "capitalI"
+    ],
+    "extra": {
+      "title": "Extra: the formal status line",
+      "brief": "Rewrite your overall status as one formal sentence for the client's weekly report: an impersonal subject, the passive where it helps, no *we've been busy*.",
+      "keywords": [
+        "Work on … has been progressing",
+        "as of today",
+        "have now been completed",
+        "remains pending",
+        "is being investigated"
+      ]
+    },
+    "model": {
+      "parts": [
+        {
+          "speaker": "alex",
+          "audio": "l121-task-model",
+          "text": "Hi Sarah, welcome back! Here's where we are with the help-center project. We{{'ve been rewriting}} the support articles since the start of May, and we're about halfway. {{So far}}, we{{'ve published}} forty of the eighty articles, and we{{'ve set up}} the new search. The video tutorials are {{still pending}}: Leo {{has been editing}} them for a week, but we {{haven't signed off}} on the first one {{yet}}, because the sound quality is {{a blocker}}. Overall, we're {{on track}} for the end of June. I'll {{keep you posted}} and {{loop you in}} on Thursday's review. See you tomorrow!",
+          "tts": "Hi Sarah, welcome back! Here's where we are with the help-center project. We've been rewriting the support articles since the start of May, and we're about halfway. So far, we've published forty of the eighty articles, and we've set up the new search. The video tutorials are still pending: Leo has been editing them for a week, but we haven't signed off on the first one yet, because the sound quality is a blocker. Overall, we're on track for the end of June. I'll keep you posted and loop you in on Thursday's review. See you tomorrow!",
+          "label": "Voice message to a colleague (neutral)",
+          "notes": [
+            "*We've been rewriting… since the start of May*: the activity and its starting point come first.",
+            "*So far, we've published forty of the eighty articles*: results with numbers in the simple form.",
+            "*Still pending*, *hasn't… yet*, *a blocker*: what is open, without drama.",
+            "*Keep you posted* and *loop you in* close with a next step; the tone stays friendly (*welcome back*, *see you tomorrow*)."
+          ]
+        },
+        {
+          "speaker": "emma",
+          "audio": "l121-task-formal",
+          "text": "{{As of today}}, work on the help-center project {{has been progressing}} steadily: forty of the eighty articles {{have now been published}}, while the video tutorials {{remain pending}} until the sound issue {{has been resolved}}.",
+          "label": "Formal status line for the client's report (written)",
+          "notes": [
+            "*As of today* dates the report. *Work on the project* is an impersonal subject: no *we've been busy*.",
+            "*Have now been published*, *has been resolved*: the passive keeps the focus on the work, not on people.",
+            "*Remain pending* replaces the conversational *still not done*."
+          ]
+        }
+      ]
+    },
+    "selfCheck": [
+      {
+        "area": "impact",
+        "text": "¿Tu mensaje transmite a la vez esfuerzo sostenido (continuo + *since / for*) y resultados concretos (simple + números)? Si solo hay esfuerzo, quien escucha no sabe qué está hecho; si solo hay resultados, no sabe cuánto ha costado.",
+        "reflect": true
+      },
+      {
+        "area": "register",
+        "text": "¿El tono es el de un compañero (*welcome back*, *quick update*, *see you tomorrow*) y no el de un informe? ¿Y la frase extra suena a informe (sujeto impersonal, pasiva) y no a chat?"
+      },
+      {
+        "area": "l1",
+        "text": "¿Escribiste *we are working… since* o *since two weeks*? En inglés: *we've been working… since March*, *for two weeks*."
+      },
+      {
+        "area": "accuracy",
+        "text": "¿Los verbos de estado (*know, need, have*) van en forma simple (*we've known about it since Monday*)? ¿Pusiste *yet* al final de las negativas?"
+      },
+      {
+        "area": "strategy",
+        "text": "Si te faltó una palabra técnica, ¿la rodeaste con una paráfrasis (*the thing that stops the export from working*) en lugar de pasar al español o dejar la frase a medias?",
+        "reflect": true
+      }
+    ]
+  }
+}

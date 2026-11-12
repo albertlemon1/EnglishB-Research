@@ -4,7 +4,7 @@
 // Only the shell and the course structure are precached. Module content is cached the
 // first time it is viewed, or all at once by the module page's "download" button, so
 // publishing a new module never requires editing this file.
-const VERSION = "bandb-2026-11-10-m01-audio";
+const VERSION = "bandb-2026-11-11-b2-infra";
 const SHELL = `bandb-shell-${VERSION}`;
 const AUDIO = "bandb-audio-v1";
 const FONTS = "bandb-fonts-v1";
@@ -23,6 +23,8 @@ const PRECACHE = [
   "assets/js/blocks.js",
   "assets/js/exercises.js",
   "assets/js/checks.js",
+  "assets/js/checks-b2.js",
+  "assets/js/strings.js",
   "assets/js/recorder.js",
   "assets/img/icon.svg",
   "content/course.json",

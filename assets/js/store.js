@@ -52,7 +52,12 @@ export const store = {
     state.results[setKey] = set;
     save();
   },
-  resetResults(setKey) { delete state.results[setKey]; save(); },
+  resetResults(setKey) {
+    delete state.results[setKey];
+    // Open answers keep their draft, comparison and ratings under "<set>-<i>".
+    for (const k of Object.keys(state.tasks)) if (k.startsWith(`${setKey}-`)) delete state.tasks[k];
+    save();
+  },
   score(setKey) {
     const set = state.results[setKey] || {};
     const values = Object.values(set);

@@ -1,5 +1,7 @@
 // Heuristic "assisted self-check": scans the learner's text for typical Spanish-L1 slips.
 // These are hints for review, never verdicts — the final judgement is the learner's.
+// B2 lessons add their own heuristics in checks-b2.js; both sets share one namespace.
+import { CHECKS_B2 } from "./checks-b2.js";
 
 const sentencesOf = (text) => text.split(/(?<=[.!?])\s+|\n+/).map((s) => s.trim()).filter(Boolean);
 const DETERMINERS = new Set(["the", "a", "an", "my", "your", "our", "his", "her", "their", "its", "this", "that", "these", "those", "it", "them", "me", "us", "him", "you", "some", "any", "all", "each", "every", "no", "new", "being", "having"]);
@@ -322,7 +324,7 @@ export const CHECKS = {
 
 export function runChecks(text, ids = []) {
   return ids.map((id) => {
-    const fn = CHECKS[id];
+    const fn = CHECKS[id] || CHECKS_B2[id];
     if (!fn) return null;
     const r = fn(text);
     return r ? { id, ...r } : null;

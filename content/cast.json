@@ -126,6 +126,15 @@
       "voice": "bf_lily",
       "lang": "en-gb",
       "bio": "Recepcionista del hotel de Edimburgo donde se alojan Sarah y Priya. Atenta y resolutiva, en registro formal británico."
+    },
+    "helen": {
+      "name": "Helen",
+      "role": "Directora de programa del cliente (Helen Marsh)",
+      "register": "formal",
+      "accent": "US",
+      "voice": "af_sky",
+      "lang": "en-us",
+      "bio": "Dirige el programa de migración por parte del cliente. Recibe los informes de estado del equipo de Ryan y Oliver y toma decisiones sobre plazos. Registro formal estadounidense (B2.1, Módulo 25)."
     }
   }
 }

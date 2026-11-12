@@ -1,5 +1,6 @@
 // Boot, hash routing and app-wide controls (audio buttons, theme, speed, glosses).
 import { icon, esc, toast } from "./ui.js";
+import { t, setLang } from "./strings.js";
 import { audio } from "./audio.js";
 import { store } from "./store.js";
 import { home, map, moduleView, lessonView, reviewView, methodView } from "./views.js";
@@ -22,7 +23,7 @@ function resolve(hash) {
   if (h === "metodo") return { nav: "metodo", load: () => methodView() };
   if ((m = /^(m\d\d)$/.exec(h))) return { nav: "ruta", load: guard(() => moduleView(m[1])) };
   if ((m = /^(m\d\d)-repaso$/.exec(h))) return { nav: "ruta", load: guard(() => reviewView(m[1])) };
-  if ((m = new RegExp(`^(m\\d\\d)-(l\\d\\d)(?:-(${BLOCK_IDS}))?$`).exec(h))) return { nav: "ruta", load: guard(() => lessonView(m[1], m[2], m[3])), lesson: true };
+  if ((m = new RegExp(`^(m\\d\\d)-(l\\d{2,3})(?:-(${BLOCK_IDS}))?$`).exec(h))) return { nav: "ruta", load: guard(() => lessonView(m[1], m[2], m[3])), lesson: true };
   return { nav: "", load: async () => NOT_FOUND };
 }
 
@@ -35,6 +36,8 @@ async function render() {
     if (a.dataset.nav === route.nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
   closeGloss();
+  // The shell is Spanish; a lesson or review view switches to its sublevel's language.
+  setLang("es");
   let view;
   try {
     view = await route.load();
@@ -104,7 +107,7 @@ document.addEventListener("click", (ev) => {
   const play = ev.target.closest("[data-play]");
   if (play) {
     // Draft modules (?borrador) have texts but no audio yet.
-    if (!audio.has(play.dataset.play)) { toast("Audio pendiente: este módulo aún no tiene audio"); return; }
+    if (!audio.has(play.dataset.play)) { toast(t("audio.pending")); return; }
     audio.toggle(play.dataset.play, play);
     return;
   }
@@ -112,7 +115,7 @@ document.addEventListener("click", (ev) => {
   const seq = ev.target.closest("[data-seq]");
   if (seq) {
     const ids = seq.dataset.seq.split(",");
-    if (!ids.every((id) => audio.has(id))) { toast("Audio pendiente: este módulo aún no tiene audio"); return; }
+    if (!ids.every((id) => audio.has(id))) { toast(t("audio.pending")); return; }
     const label = seq.querySelector("span");
     const started = audio.sequence(ids, {
       onStep: (id) => {
@@ -123,10 +126,10 @@ document.addEventListener("click", (ev) => {
       },
       onEnd: () => {
         document.querySelectorAll(".line.is-active").forEach((l) => l.classList.remove("is-active"));
-        if (label) label.textContent = "Escuchar la conversación";
+        if (label) label.textContent = seq.dataset.seqLabel || t("lex.listenDialogue");
       },
     });
-    if (started && label) label.textContent = "Detener";
+    if (started && label) label.textContent = seq.dataset.seqStop || t("lex.stop");
     return;
   }
 
