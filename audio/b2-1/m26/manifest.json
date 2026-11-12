@@ -1,0 +1,2168 @@
+{
+ "engine": "Kokoro-82M v1.0 (ONNX) + misaki G2P",
+ "sampleRate": 24000,
+ "format": "mp3 64 kbps mono",
+ "count": 240,
+ "clips": {
+  "l126-cc-1a": {
+   "file": "l126-cc-1a.mp3",
+   "duration": 3.0,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "The search may not be ready for June 20.",
+   "hash": "00260ec20bdb"
+  },
+  "l126-cc-1b": {
+   "file": "l126-cc-1b.mp3",
+   "duration": 2.47,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The fix might take a few more days.",
+   "hash": "f8f551e73225"
+  },
+  "l126-cc-2a": {
+   "file": "l126-cc-2a.mp3",
+   "duration": 2.45,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "The search seems to slow down under load.",
+   "hash": "6ef935325d9d"
+  },
+  "l126-cc-2b": {
+   "file": "l126-cc-2b.mp3",
+   "duration": 2.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "The indexing appears to be the main cause.",
+   "hash": "c63665b68c5e"
+  },
+  "l126-cc-3a": {
+   "file": "l126-cc-3a.mp3",
+   "duration": 4.03,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The error rate was slightly higher than in the last run.",
+   "hash": "1e1dfa760580"
+  },
+  "l126-cc-3b": {
+   "file": "l126-cc-3b.mp3",
+   "duration": 2.66,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "That's not ideal, but it's better to know now.",
+   "hash": "2a5e0b8e1914"
+  },
+  "l126-dict-1": {
+   "file": "l126-dict-1.mp3",
+   "duration": 4.41,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.9,
+   "text": "It looks as if the indexing is the problem, but we can't be sure yet.",
+   "hash": "e65e6c9ba2eb"
+  },
+  "l126-dlg-01": {
+   "file": "l126-dlg-01.mp3",
+   "duration": 6.9,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Oliver, your draft for Helen says: The search failed the test. It won't be ready. Is that the whole message?",
+   "hash": "f347d034daa8"
+  },
+  "l126-dlg-02": {
+   "file": "l126-dlg-02.mp3",
+   "duration": 4.43,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "It's what happened. I'd rather not dress it up.",
+   "hash": "9cf2df090dae"
+  },
+  "l126-dlg-03": {
+   "file": "l126-dlg-03.mp3",
+   "duration": 6.5,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'm not asking you to dress it up. But failed sounds a bit final, and we haven't decided anything yet.",
+   "hash": "0bd20163ad13"
+  },
+  "l126-dlg-04": {
+   "file": "l126-dlg-04.mp3",
+   "duration": 6.83,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Fair point. So what would you say? The results weren't quite what we'd hoped?",
+   "hash": "a620ae7cc3db"
+  },
+  "l126-dlg-05": {
+   "file": "l126-dlg-05.mp3",
+   "duration": 7.82,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Yes, and then the number: four seconds against a target of two. The number does the hard work; the softer words just set the tone.",
+   "hash": "0bdea9a24916"
+  },
+  "l126-dlg-06": {
+   "file": "l126-dlg-06.mp3",
+   "duration": 4.87,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "And it won't be ready? We can't promise that it will be.",
+   "hash": "41136e13fc0e"
+  },
+  "l126-dlg-07": {
+   "file": "l126-dlg-07.mp3",
+   "duration": 6.47,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Then say it may not be ready for June 20, and say when we'll know. It seems to be the indexing, right?",
+   "hash": "7affbe35e9cb"
+  },
+  "l126-dlg-08": {
+   "file": "l126-dlg-08.mp3",
+   "duration": 9.33,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "As far as we can tell. Okay: softer words, the same facts, and a date for the decision. I'll redo it.",
+   "hash": "7cbef1eab5bc"
+  },
+  "l126-gd": {
+   "file": "l126-gd.mp3",
+   "duration": 22.57,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "First draft: The search failed the test. It won't be ready. Sent: I'm afraid the search test didn't go as well as we'd hoped. Searches took just over four seconds, twice our target. It looks as if the indexing is the cause, and the search may not be ready for 20 June. We'll know by Friday.",
+   "hash": "fc44dab925cc"
+  },
+  "l126-ph-bit-of-a-ex": {
+   "file": "l126-ph-bit-of-a-ex.mp3",
+   "duration": 3.45,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "It's a bit of a problem, but it's not the end of the world.",
+   "hash": "f719ae9c8cb3"
+  },
+  "l126-ph-bit-of-a-slow": {
+   "file": "l126-ph-bit-of-a-slow.mp3",
+   "duration": 2.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "A bit of a problem.",
+   "hash": "cb514b2534f0"
+  },
+  "l126-ph-bit-of-a-uk": {
+   "file": "l126-ph-bit-of-a-uk.mp3",
+   "duration": 1.81,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "A bit of a problem.",
+   "hash": "03288ed5a6f6"
+  },
+  "l126-ph-bit-of-a-us": {
+   "file": "l126-ph-bit-of-a-us.mp3",
+   "duration": 1.76,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "A bit of a problem.",
+   "hash": "fbf01b5eb275"
+  },
+  "l126-ph-can-cant": {
+   "file": "l126-ph-can-cant.mp3",
+   "duration": 1.91,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We can't meet on Friday.",
+   "hash": "1165761d0c1d"
+  },
+  "l126-ph-can-ex": {
+   "file": "l126-ph-can-ex.mp3",
+   "duration": 4.56,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "We can't confirm the cause yet, but we can run the test again on Thursday.",
+   "hash": "74d4408da232"
+  },
+  "l126-ph-can-slow": {
+   "file": "l126-ph-can-slow.mp3",
+   "duration": 1.81,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "We can meet.",
+   "hash": "12aeff18c81b"
+  },
+  "l126-ph-can-uk": {
+   "file": "l126-ph-can-uk.mp3",
+   "duration": 1.57,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "We can meet.",
+   "hash": "4bb74b6f65ce"
+  },
+  "l126-ph-can-us": {
+   "file": "l126-ph-can-us.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We can meet.",
+   "hash": "7b8dfcba5eb9"
+  },
+  "l126-ph-can-weak": {
+   "file": "l126-ph-can-weak.mp3",
+   "duration": 1.81,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We can meet on Friday.",
+   "hash": "1bcf66af2b08"
+  },
+  "l126-ph-slightly-ex": {
+   "file": "l126-ph-slightly-ex.mp3",
+   "duration": 3.17,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Response times were slightly higher than expected.",
+   "hash": "1259c5a8bbbb"
+  },
+  "l126-ph-slightly-slow": {
+   "file": "l126-ph-slightly-slow.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Slightly.",
+   "hash": "9e4e9c5b3af4"
+  },
+  "l126-ph-slightly-uk": {
+   "file": "l126-ph-slightly-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Slightly.",
+   "hash": "a3a6ccfebeda"
+  },
+  "l126-ph-slightly-us": {
+   "file": "l126-ph-slightly-us.mp3",
+   "duration": 1.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Slightly.",
+   "hash": "f742d4c3425d"
+  },
+  "l126-ph-some-ex": {
+   "file": "l126-ph-some-ex.mp3",
+   "duration": 4.6,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "There may be some delays to the search, so let's plan for both dates.",
+   "hash": "a37f30644c94"
+  },
+  "l126-ph-some-slow": {
+   "file": "l126-ph-some-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Some delays.",
+   "hash": "6adf9a66cd4e"
+  },
+  "l126-ph-some-uk": {
+   "file": "l126-ph-some-uk.mp3",
+   "duration": 1.55,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Some delays.",
+   "hash": "2dfc1ff0205d"
+  },
+  "l126-ph-some-us": {
+   "file": "l126-ph-some-us.mp3",
+   "duration": 1.42,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Some delays.",
+   "hash": "db1fa3dc89b0"
+  },
+  "l126-ph-was-ex": {
+   "file": "l126-ph-was-ex.mp3",
+   "duration": 4.03,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "The error rate was slightly higher than in the last run.",
+   "hash": "1e1dfa760580"
+  },
+  "l126-ph-was-slow": {
+   "file": "l126-ph-was-slow.mp3",
+   "duration": 1.79,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "It was slower.",
+   "hash": "b3425f3fc7d5"
+  },
+  "l126-ph-was-strong": {
+   "file": "l126-ph-was-strong.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Yes, it was.",
+   "hash": "7438bd0d161c"
+  },
+  "l126-ph-was-uk": {
+   "file": "l126-ph-was-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "It was slower.",
+   "hash": "eff43a371f75"
+  },
+  "l126-ph-was-us": {
+   "file": "l126-ph-was-us.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "It was slower.",
+   "hash": "bad0e9cb9f1f"
+  },
+  "l126-ph-was-weak": {
+   "file": "l126-ph-was-weak.mp3",
+   "duration": 1.98,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "It was slower than we'd hoped.",
+   "hash": "131f11a60e5e"
+  },
+  "l126-reg-c1": {
+   "file": "l126-reg-c1.mp3",
+   "duration": 4.0,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Bit of a letdown, the search test. Not looking great for June.",
+   "hash": "46fc54dd7c87"
+  },
+  "l126-reg-c2": {
+   "file": "l126-reg-c2.mp3",
+   "duration": 3.36,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "So the search is kind of slow? That's a shame.",
+   "hash": "f89c00f0193f"
+  },
+  "l126-reg-f1": {
+   "file": "l126-reg-f1.mp3",
+   "duration": 5.2,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Initial results suggest that the search function may not meet the agreed performance targets.",
+   "hash": "2a0822a6185d"
+  },
+  "l126-reg-f2": {
+   "file": "l126-reg-f2.mp3",
+   "duration": 5.56,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "I appreciate the early warning. Could you let me know when you expect to have a clearer picture?",
+   "hash": "ee7050b2dc85"
+  },
+  "l126-reg-n1": {
+   "file": "l126-reg-n1.mp3",
+   "duration": 4.3,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "I'm afraid the search test didn't go as well as we'd hoped.",
+   "hash": "9bd711c41d8e"
+  },
+  "l126-reg-n2": {
+   "file": "l126-reg-n2.mp3",
+   "duration": 4.2,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It looks as if the indexing is the problem, but we can't be sure yet.",
+   "hash": "33b080684238"
+  },
+  "l126-reg-n3": {
+   "file": "l126-reg-n3.mp3",
+   "duration": 4.62,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "There may be some delays to the search, so let's plan for both dates.",
+   "hash": "a29afd0c3e33"
+  },
+  "l126-scn": {
+   "file": "l126-scn.mp3",
+   "duration": 36.05,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Hi all, here's a quick summary of yesterday's full-scale search test. I'm afraid the results weren't quite what we'd hoped. Under full load, searches took just over four seconds, twice our target, and the error rate was slightly higher than in the last run. It looks as if the indexing is the bottleneck, not the servers, but it might take a few days to confirm. To be honest, I don't think we can fix it properly before 20 June. That's not ideal, but it's better to know now. Full figures to follow this afternoon. Oliver",
+   "hash": "350af83bf5bf"
+  },
+  "l126-task-formal": {
+   "file": "l126-task-formal.mp3",
+   "duration": 10.17,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Initial testing suggests that approximately one third of the articles do not display correctly on mobile devices; consequently, the launch date may need to be revised.",
+   "hash": "1a482093bba4"
+  },
+  "l126-task-model": {
+   "file": "l126-task-model.mp3",
+   "duration": 32.02,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Tom, thanks for sending the new templates. I'm afraid the results of yesterday's review weren't quite what we'd hoped: about a third of the articles display badly on phones, mostly the long ones with tables. It looks as if the tables are wider than the screen, but we can't be sure yet. If that's the cause, the launch may need to move by a week. Could you take a look and send us a fix by Wednesday? I'll confirm the launch date on Thursday. Thanks, Alex",
+   "hash": "4e75ee7731de"
+  },
+  "l127-cc-1a": {
+   "file": "l127-cc-1a.mp3",
+   "duration": 4.88,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Thanks for thinking of us, Helen; I'm afraid we'll have to pass on it at this stage.",
+   "hash": "35ae343b4c0f"
+  },
+  "l127-cc-1b": {
+   "file": "l127-cc-1b.mp3",
+   "duration": 5.31,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Thank you for your generous offer; unfortunately, we are not in a position to accept it.",
+   "hash": "0c583b223521"
+  },
+  "l127-cc-2a": {
+   "file": "l127-cc-2a.mp3",
+   "duration": 3.34,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Their access would take about two weeks to set up.",
+   "hash": "d025728c85bf"
+  },
+  "l127-cc-2b": {
+   "file": "l127-cc-2b.mp3",
+   "duration": 2.0,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "So it wouldn't save us any time.",
+   "hash": "015f4852bfe4"
+  },
+  "l127-cc-3a": {
+   "file": "l127-cc-3a.mp3",
+   "duration": 2.75,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I'd love to, but I'm away that weekend.",
+   "hash": "ae9e40451844"
+  },
+  "l127-cc-3b": {
+   "file": "l127-cc-3b.mp3",
+   "duration": 2.51,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If things change, you'll be the first to know.",
+   "hash": "51104b692aab"
+  },
+  "l127-dict-1": {
+   "file": "l127-dict-1.mp3",
+   "duration": 3.02,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.9,
+   "text": "That's really kind of you, but we've got it covered.",
+   "hash": "e74741c3df6a"
+  },
+  "l127-dlg-01": {
+   "file": "l127-dlg-01.mp3",
+   "duration": 5.34,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "So Helen's offering us two developers for three weeks? That's generous.",
+   "hash": "aa3cee628b93"
+  },
+  "l127-dlg-02": {
+   "file": "l127-dlg-02.mp3",
+   "duration": 4.04,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "It is, and that's what makes it hard. I don't think we can say yes.",
+   "hash": "03af2a82890d"
+  },
+  "l127-dlg-03": {
+   "file": "l127-dlg-03.mp3",
+   "duration": 3.32,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Why not? More people, more speed.",
+   "hash": "9ab411d986c1"
+  },
+  "l127-dlg-04": {
+   "file": "l127-dlg-04.mp3",
+   "duration": 7.18,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Not this late. Their access would take two weeks to set up, and we'd spend the third week bringing them up to speed.",
+   "hash": "31f3cf6cd173"
+  },
+  "l127-dlg-05": {
+   "file": "l127-dlg-05.mp3",
+   "duration": 4.88,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Fair enough. But you can't just say no to the client's program director.",
+   "hash": "1179cc301199"
+  },
+  "l127-dlg-06": {
+   "file": "l127-dlg-06.mp3",
+   "duration": 6.3,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "No. I'll thank her for the offer, explain why the timing doesn't work, and leave the door open.",
+   "hash": "7aeb3891a1c1"
+  },
+  "l127-dlg-07": {
+   "file": "l127-dlg-07.mp3",
+   "duration": 3.04,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Maybe there's something smaller she could help with?",
+   "hash": "129cd3d5a0cf"
+  },
+  "l127-dlg-08": {
+   "file": "l127-dlg-08.mp3",
+   "duration": 6.17,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Good idea. What we really need is quick answers from her data team. I'll ask for that instead.",
+   "hash": "22d544c790c7"
+  },
+  "l127-gd": {
+   "file": "l127-gd.mp3",
+   "duration": 25.91,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Hi Helen, thank you so much for the offer of Mark and Julia; it's really generous. I'm afraid we'll have to pass on it at this stage, though. Their access would take about two weeks to set up, and we'd need the third week to bring them up to speed, so it wouldn't save us any time. What would really help is a quick line to your data team: answers within a day. Could we arrange that? If things change, you'll be the first to know. Best, Ryan",
+   "hash": "19032889d1ca"
+  },
+  "l127-ph-appreciate-ex": {
+   "file": "l127-ph-appreciate-ex.mp3",
+   "duration": 2.85,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "I appreciate the honest answer, Ryan.",
+   "hash": "de5c368aeeb0"
+  },
+  "l127-ph-appreciate-slow": {
+   "file": "l127-ph-appreciate-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Appreciate.",
+   "hash": "5d1f210af15a"
+  },
+  "l127-ph-appreciate-uk": {
+   "file": "l127-ph-appreciate-uk.mp3",
+   "duration": 1.55,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Appreciate.",
+   "hash": "ed1fc3b01b74"
+  },
+  "l127-ph-appreciate-us": {
+   "file": "l127-ph-appreciate-us.mp3",
+   "duration": 1.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Appreciate.",
+   "hash": "be99caad0eee"
+  },
+  "l127-ph-but-afraid-ex": {
+   "file": "l127-ph-but-afraid-ex.mp3",
+   "duration": 4.71,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It's a great idea, but I'm afraid I can't take on anything else before the launch.",
+   "hash": "62a1f9e67498"
+  },
+  "l127-ph-but-afraid-slow": {
+   "file": "l127-ph-but-afraid-slow.mp3",
+   "duration": 1.83,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "But I'm afraid.",
+   "hash": "a14361aa6429"
+  },
+  "l127-ph-but-afraid-uk": {
+   "file": "l127-ph-but-afraid-uk.mp3",
+   "duration": 1.7,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "But I'm afraid.",
+   "hash": "31a1b5ba75f4"
+  },
+  "l127-ph-but-afraid-us": {
+   "file": "l127-ph-but-afraid-us.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "But I'm afraid.",
+   "hash": "1ac06aebb47c"
+  },
+  "l127-ph-decline-ex": {
+   "file": "l127-ph-decline-ex.mp3",
+   "duration": 3.36,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Unfortunately, we must decline the offer at this stage.",
+   "hash": "41f2f625dcb3"
+  },
+  "l127-ph-decline-slow": {
+   "file": "l127-ph-decline-slow.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Decline.",
+   "hash": "d347940a3484"
+  },
+  "l127-ph-decline-uk": {
+   "file": "l127-ph-decline-uk.mp3",
+   "duration": 1.76,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Decline.",
+   "hash": "45ea0ff22a6a"
+  },
+  "l127-ph-decline-us": {
+   "file": "l127-ph-decline-us.mp3",
+   "duration": 1.32,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Decline.",
+   "hash": "ff422fc2c08f"
+  },
+  "l127-ph-love-to-ex": {
+   "file": "l127-ph-love-to-ex.mp3",
+   "duration": 2.75,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "I'd love to, but I'm away that weekend.",
+   "hash": "ae9e40451844"
+  },
+  "l127-ph-love-to-slow": {
+   "file": "l127-ph-love-to-slow.mp3",
+   "duration": 1.83,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "I'd love to.",
+   "hash": "d947491950ad"
+  },
+  "l127-ph-love-to-strong": {
+   "file": "l127-ph-love-to-strong.mp3",
+   "duration": 2.04,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I'd love to, but I can't.",
+   "hash": "12d3eeb2a1e2"
+  },
+  "l127-ph-love-to-uk": {
+   "file": "l127-ph-love-to-uk.mp3",
+   "duration": 1.72,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "I'd love to.",
+   "hash": "1e559a23bab4"
+  },
+  "l127-ph-love-to-us": {
+   "file": "l127-ph-love-to-us.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I'd love to.",
+   "hash": "7b83b12f6489"
+  },
+  "l127-ph-love-to-weak": {
+   "file": "l127-ph-love-to-weak.mp3",
+   "duration": 2.25,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "I'd love to help, but I'm swamped.",
+   "hash": "139d6213374d"
+  },
+  "l127-ph-thanks-for-ex": {
+   "file": "l127-ph-thanks-for-ex.mp3",
+   "duration": 3.74,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Thanks for thinking of us, Helen. It's a really generous offer.",
+   "hash": "dfa80a446ffb"
+  },
+  "l127-ph-thanks-for-slow": {
+   "file": "l127-ph-thanks-for-slow.mp3",
+   "duration": 2.47,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Thanks for thinking of us.",
+   "hash": "3d857f68f654"
+  },
+  "l127-ph-thanks-for-uk": {
+   "file": "l127-ph-thanks-for-uk.mp3",
+   "duration": 2.0,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Thanks for thinking of us.",
+   "hash": "20a6bdefe9f3"
+  },
+  "l127-ph-thanks-for-us": {
+   "file": "l127-ph-thanks-for-us.mp3",
+   "duration": 1.89,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Thanks for thinking of us.",
+   "hash": "e738201bd369"
+  },
+  "l127-reg-c1": {
+   "file": "l127-reg-c1.mp3",
+   "duration": 3.94,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "I'd love to, but I'm swamped this week. Can I take a rain check?",
+   "hash": "56e34fe92116"
+  },
+  "l127-reg-c2": {
+   "file": "l127-reg-c2.mp3",
+   "duration": 3.59,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Thanks, but I'll pass this time. Next time for sure!",
+   "hash": "f76bfd16ba4f"
+  },
+  "l127-reg-f1": {
+   "file": "l127-reg-f1.mp3",
+   "duration": 6.01,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Thank you for your generous offer; unfortunately, we are not in a position to accept it at this stage.",
+   "hash": "2222fe339c3a"
+  },
+  "l127-reg-f2": {
+   "file": "l127-reg-f2.mp3",
+   "duration": 5.39,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "I quite understand. Please do let me know if the situation changes.",
+   "hash": "bcc6c74ea174"
+  },
+  "l127-reg-n1": {
+   "file": "l127-reg-n1.mp3",
+   "duration": 3.88,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Thanks for thinking of us, but I don't think it would help at this stage.",
+   "hash": "00e9133463e5"
+  },
+  "l127-reg-n2": {
+   "file": "l127-reg-n2.mp3",
+   "duration": 2.96,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "That's really kind of you, but we've got it covered.",
+   "hash": "385c893f5fd5"
+  },
+  "l127-reg-n3": {
+   "file": "l127-reg-n3.mp3",
+   "duration": 4.71,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "It's a great idea, but I'm afraid I can't take on anything else before the launch.",
+   "hash": "11bf5ef84f8d"
+  },
+  "l127-scn": {
+   "file": "l127-scn.mp3",
+   "duration": 22.86,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Hi Ryan, thanks for the early warning about the search. I know how hard the team has been working, and I'd like to help. I could lend you two of our developers, Mark and Julia, for the next three weeks, at no cost to the project. They know our data well, so they might speed things up. Would that be useful? Let me know by Thursday and I'll arrange it. Best, Helen",
+   "hash": "deb900d3397a"
+  },
+  "l127-task-formal": {
+   "file": "l127-task-formal.mp3",
+   "duration": 8.78,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Thank you for your generous offer; unfortunately, we are not in a position to accept it before the launch, but we would welcome a proposal for the second phase.",
+   "hash": "89f139ae861d"
+  },
+  "l127-task-model": {
+   "file": "l127-task-model.mp3",
+   "duration": 32.66,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Tom, thanks for the offer of a free chatbot for the help center; it's really generous, especially after this week. I'm afraid we'll have to pass on it at this stage, though. Any chatbot needs a legal review, which would take about three weeks, and we wouldn't have time to test it properly before the launch. What would really help is the template fix by Wednesday. If things change after the launch, you'll be the first to know: a chatbot could be a good fit for phase two. Best, Alex",
+   "hash": "cef780644713"
+  },
+  "l128-cc-1a": {
+   "file": "l128-cc-1a.mp3",
+   "duration": 4.45,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We're up against the go-live date, and a proper fix would take five weeks.",
+   "hash": "9d86fd6c5d0d"
+  },
+  "l128-cc-1b": {
+   "file": "l128-cc-1b.mp3",
+   "duration": 2.87,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Rebuilding the indexing is out of scope.",
+   "hash": "30b37da2409d"
+  },
+  "l128-cc-2a": {
+   "file": "l128-cc-2a.mp3",
+   "duration": 4.6,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If we had tested at full scale in April, we would have more options now.",
+   "hash": "20a8587a5018"
+  },
+  "l128-cc-2b": {
+   "file": "l128-cc-2b.mp3",
+   "duration": 3.47,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "If we'd spotted this earlier, we'd have more room now.",
+   "hash": "278373dd3d7b"
+  },
+  "l128-cc-3a": {
+   "file": "l128-cc-3a.mp3",
+   "duration": 4.73,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Given the fixed-price contract, any extra work would need a change request.",
+   "hash": "43f7a159fbe0"
+  },
+  "l128-cc-3b": {
+   "file": "l128-cc-3b.mp3",
+   "duration": 4.41,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Given that the servers aren't the problem, more servers won't help.",
+   "hash": "597f9f01ad95"
+  },
+  "l128-dict-1": {
+   "file": "l128-dict-1.mp3",
+   "duration": 4.3,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.9,
+   "text": "If we had tested earlier, we would have more options now.",
+   "hash": "3f2776cd83ea"
+  },
+  "l128-dlg-01": {
+   "file": "l128-dlg-01.mp3",
+   "duration": 5.09,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Ryan, I read your note. Help me understand: is this about money?",
+   "hash": "2baf04ebc77b"
+  },
+  "l128-dlg-02": {
+   "file": "l128-dlg-02.mp3",
+   "duration": 6.02,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Not really. Money would buy servers, but servers aren't the problem. The indexing is.",
+   "hash": "77c5689c69ca"
+  },
+  "l128-dlg-03": {
+   "file": "l128-dlg-03.mp3",
+   "duration": 3.02,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "And the indexing can't be fixed in three weeks?",
+   "hash": "de6a2c0d4ed9"
+  },
+  "l128-dlg-04": {
+   "file": "l128-dlg-04.mp3",
+   "duration": 5.86,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Not properly. We're up against the go-live date, and a rushed fix could break other things.",
+   "hash": "650d216ee8ef"
+  },
+  "l128-dlg-05": {
+   "file": "l128-dlg-05.mp3",
+   "duration": 2.21,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "What if we moved go-live?",
+   "hash": "222a08766b89"
+  },
+  "l128-dlg-06": {
+   "file": "l128-dlg-06.mp3",
+   "duration": 8.12,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "We could, but the training dates and the old platform's contract are tied to June 20. It comes down to time as much as scope.",
+   "hash": "5b961e2bfafd"
+  },
+  "l128-dlg-07": {
+   "file": "l128-dlg-07.mp3",
+   "duration": 5.02,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "I see. So if we'd spotted this earlier, we'd have more room now.",
+   "hash": "3c491a38bab9"
+  },
+  "l128-dlg-08": {
+   "file": "l128-dlg-08.mp3",
+   "duration": 9.54,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Exactly. If we had tested at full scale in April, we would be in a different position today. That's on us, and it's a lesson for the next phase.",
+   "hash": "a034b0b165d4"
+  },
+  "l128-gd": {
+   "file": "l128-gd.mp3",
+   "duration": 14.01,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "If we had tested at full scale in April, we would have more options now. We didn't, so today the choice is narrower. And if the indexing weren't the problem, extra servers would solve it in a week. But it is, so they won't.",
+   "hash": "30aa4048301a"
+  },
+  "l128-ph-feasible-ex": {
+   "file": "l128-ph-feasible-ex.mp3",
+   "duration": 3.21,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "A full rebuild is not feasible before the launch.",
+   "hash": "fabe88593bd1"
+  },
+  "l128-ph-feasible-slow": {
+   "file": "l128-ph-feasible-slow.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Feasible.",
+   "hash": "9aa44c2227c6"
+  },
+  "l128-ph-feasible-uk": {
+   "file": "l128-ph-feasible-uk.mp3",
+   "duration": 1.7,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Feasible.",
+   "hash": "39ba0825e1d9"
+  },
+  "l128-ph-feasible-us": {
+   "file": "l128-ph-feasible-us.mp3",
+   "duration": 1.34,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Feasible.",
+   "hash": "827d3fef2493"
+  },
+  "l128-ph-if-wed-ex": {
+   "file": "l128-ph-if-wed-ex.mp3",
+   "duration": 3.92,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "If we'd known in April, we'd be in a different position now.",
+   "hash": "e986b430a283"
+  },
+  "l128-ph-if-wed-had": {
+   "file": "l128-ph-if-wed-had.mp3",
+   "duration": 1.87,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If we'd known in April…",
+   "hash": "fbd6afdfa7bd"
+  },
+  "l128-ph-if-wed-slow": {
+   "file": "l128-ph-if-wed-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "If we'd known.",
+   "hash": "39920b93021f"
+  },
+  "l128-ph-if-wed-uk": {
+   "file": "l128-ph-if-wed-uk.mp3",
+   "duration": 1.61,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "If we'd known.",
+   "hash": "4a529d836bcb"
+  },
+  "l128-ph-if-wed-us": {
+   "file": "l128-ph-if-wed-us.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If we'd known.",
+   "hash": "0a6be5bdedbe"
+  },
+  "l128-ph-if-wed-would": {
+   "file": "l128-ph-if-wed-would.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We'd be ready now.",
+   "hash": "536ea85c6a90"
+  },
+  "l128-ph-scope-ex": {
+   "file": "l128-ph-scope-ex.mp3",
+   "duration": 5.18,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Rebuilding the indexing is out of scope, so it would need a change request.",
+   "hash": "1f0a3c62dccf"
+  },
+  "l128-ph-scope-slow": {
+   "file": "l128-ph-scope-slow.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Scope.",
+   "hash": "60a46f398b82"
+  },
+  "l128-ph-scope-uk": {
+   "file": "l128-ph-scope-uk.mp3",
+   "duration": 1.08,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Scope.",
+   "hash": "edae4e9acb99"
+  },
+  "l128-ph-scope-us": {
+   "file": "l128-ph-scope-us.mp3",
+   "duration": 1.17,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Scope.",
+   "hash": "163f807085be"
+  },
+  "l128-ph-than-ex": {
+   "file": "l128-ph-than-ex.mp3",
+   "duration": 3.53,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "A proper fix would take longer than we have.",
+   "hash": "f30f8fa8f218"
+  },
+  "l128-ph-than-slow": {
+   "file": "l128-ph-than-slow.mp3",
+   "duration": 2.15,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Longer than we have.",
+   "hash": "35bc1a22bc72"
+  },
+  "l128-ph-than-uk": {
+   "file": "l128-ph-than-uk.mp3",
+   "duration": 1.85,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Longer than we have.",
+   "hash": "fcdaea405110"
+  },
+  "l128-ph-than-us": {
+   "file": "l128-ph-than-us.mp3",
+   "duration": 1.64,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Longer than we have.",
+   "hash": "bd794b4c2828"
+  },
+  "l128-ph-time-and-budget-ex": {
+   "file": "l128-ph-time-and-budget-ex.mp3",
+   "duration": 2.77,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "It comes down to time and budget, not effort.",
+   "hash": "8fbe41b49e70"
+  },
+  "l128-ph-time-and-budget-slow": {
+   "file": "l128-ph-time-and-budget-slow.mp3",
+   "duration": 1.96,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Time and budget.",
+   "hash": "09fe07990201"
+  },
+  "l128-ph-time-and-budget-uk": {
+   "file": "l128-ph-time-and-budget-uk.mp3",
+   "duration": 1.76,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Time and budget.",
+   "hash": "eef40bb099bb"
+  },
+  "l128-ph-time-and-budget-us": {
+   "file": "l128-ph-time-and-budget-us.mp3",
+   "duration": 1.57,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Time and budget.",
+   "hash": "b21bbe2b94cb"
+  },
+  "l128-reg-c1": {
+   "file": "l128-reg-c1.mp3",
+   "duration": 4.13,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "We're totally maxed out on budget. There's nothing left to play with.",
+   "hash": "87b4aee93c68"
+  },
+  "l128-reg-c2": {
+   "file": "l128-reg-c2.mp3",
+   "duration": 2.62,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "No way we can squeeze that in before June.",
+   "hash": "eb403203bb2d"
+  },
+  "l128-reg-f1": {
+   "file": "l128-reg-f1.mp3",
+   "duration": 5.52,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Given the fixed-price contract, any additional work would require a formal change request.",
+   "hash": "41d07dab841c"
+  },
+  "l128-reg-f2": {
+   "file": "l128-reg-f2.mp3",
+   "duration": 5.13,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "If we had identified the issue earlier, we would not be facing this decision now.",
+   "hash": "821ddd7da847"
+  },
+  "l128-reg-n1": {
+   "file": "l128-reg-n1.mp3",
+   "duration": 3.28,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "The budget doesn't stretch to extra servers this quarter.",
+   "hash": "e526ed06175d"
+  },
+  "l128-reg-n2": {
+   "file": "l128-reg-n2.mp3",
+   "duration": 4.35,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "A proper fix would take about five weeks, and we've got three.",
+   "hash": "24a7460ebaf9"
+  },
+  "l128-reg-n3": {
+   "file": "l128-reg-n3.mp3",
+   "duration": 5.2,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Rebuilding the indexing is out of scope, so it would need a change request.",
+   "hash": "68089029e98d"
+  },
+  "l128-scn": {
+   "file": "l128-scn.mp3",
+   "duration": 34.91,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Hi Helen, thanks for asking; here's the short version. Time: we're up against go-live in three weeks, and a proper fix to the indexing would take about five. Budget: the contract is fixed-price, so extra servers would come out of your budget, and the test suggests they wouldn't solve the problem anyway. Scope: the search was in scope, but rebuilding the indexing wasn't, so it would need a change request. Looking back, if we had tested at full scale in April, we would have more options now. Given where we are, we'll come back to you on Friday with the options. Ryan",
+   "hash": "94b8422a7767"
+  },
+  "l128-task-formal": {
+   "file": "l128-task-formal.mp3",
+   "duration": 10.45,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Given that video tutorials were not included in the agreed scope, their production would require a formal change request; we would therefore propose to include them in the second phase.",
+   "hash": "8ac5fa02b3ea"
+  },
+  "l128-task-model": {
+   "file": "l128-task-model.mp3",
+   "duration": 41.65,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Laura, it's Alex, about the video tutorials. I understand why your team wants them, so here's where we are. Time: we're up against the launch in ten days, and good videos take about a month to make. Budget: video production isn't in this phase, and the budget doesn't stretch to an agency. Scope: videos weren't in the agreed scope, so they would need a change request. To be honest, if we had talked about videos in March, we would have them ready now. Nobody raised it, and that's on us as much as anyone. Given where we are, could we plan three short videos for phase two? Let's talk on Thursday.",
+   "hash": "13b360c73b64"
+  },
+  "l129-cc-1a": {
+   "file": "l129-cc-1a.mp3",
+   "duration": 2.94,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "One option would be to launch with the basic search.",
+   "hash": "720116670c1b"
+  },
+  "l129-cc-1b": {
+   "file": "l129-cc-1b.mp3",
+   "duration": 4.54,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Rather than moving go-live, we could add the full search in July.",
+   "hash": "dcfe481e6399"
+  },
+  "l129-cc-2a": {
+   "file": "l129-cc-2a.mp3",
+   "duration": 2.85,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "What if we added a filter by invoice number?",
+   "hash": "b301813893c9"
+  },
+  "l129-cc-2b": {
+   "file": "l129-cc-2b.mp3",
+   "duration": 3.45,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Would it help if I asked Helen which filter matters most?",
+   "hash": "9449f163c283"
+  },
+  "l129-cc-3a": {
+   "file": "l129-cc-3a.mp3",
+   "duration": 3.64,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "That could work, as long as we keep it small.",
+   "hash": "4d94effa3972"
+  },
+  "l129-cc-3b": {
+   "file": "l129-cc-3b.mp3",
+   "duration": 5.09,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "We would accept a phased launch, provided that the full search is live by mid-July.",
+   "hash": "b10a4c6e156f"
+  },
+  "l129-dict-1": {
+   "file": "l129-dict-1.mp3",
+   "duration": 5.35,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.9,
+   "text": "One option would be to launch with the basic search and add the full search in July.",
+   "hash": "e60f36fa3473"
+  },
+  "l129-dlg-01": {
+   "file": "l129-dlg-01.mp3",
+   "duration": 9.37,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "I like option one, but the basic search only matches exact words. What if we added a filter by invoice number? That's what most customers look for.",
+   "hash": "13bc44b6027a"
+  },
+  "l129-dlg-02": {
+   "file": "l129-dlg-02.mp3",
+   "duration": 7.18,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "That could work, as long as we keep it small. Filters on the full search would take weeks.",
+   "hash": "e8a189c48489"
+  },
+  "l129-dlg-03": {
+   "file": "l129-dlg-03.mp3",
+   "duration": 5.77,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "How about just the invoice filter, then? The date filter can wait until July.",
+   "hash": "44d5aa3355c3"
+  },
+  "l129-dlg-04": {
+   "file": "l129-dlg-04.mp3",
+   "duration": 4.13,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Would it help if I asked Helen which filter her customers use most?",
+   "hash": "a8c63b4289ce"
+  },
+  "l129-dlg-05": {
+   "file": "l129-dlg-05.mp3",
+   "duration": 3.26,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Yes, rather than guessing. Her support team will know.",
+   "hash": "b44ff1303865"
+  },
+  "l129-dlg-06": {
+   "file": "l129-dlg-06.mp3",
+   "duration": 5.26,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "One condition: if we add the filter, Monday's check covers the filter too.",
+   "hash": "9d63e9731eca"
+  },
+  "l129-dlg-07": {
+   "file": "l129-dlg-07.mp3",
+   "duration": 6.84,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Fine by me. So: the basic search plus one filter at launch, and the full search in July.",
+   "hash": "8d681cb948c1"
+  },
+  "l129-dlg-08": {
+   "file": "l129-dlg-08.mp3",
+   "duration": 6.62,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Agreed. I'll put that to Helen tomorrow as our recommendation, with option two as a fallback.",
+   "hash": "fd8d10232411"
+  },
+  "l129-gd": {
+   "file": "l129-gd.mp3",
+   "duration": 21.59,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "Ryan, I'd go with option one too, but what if we added an invoice-number filter to the basic search? Rather than waiting until July, customers would get the search they use most on day one. It would take Alex about three days, provided we keep it to that one filter. Would it help if I mocked it up today, so Helen can see it tomorrow? Priya",
+   "hash": "3d4e7e9605fa"
+  },
+  "l129-ph-alternative-ex": {
+   "file": "l129-ph-alternative-ex.mp3",
+   "duration": 3.32,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "As an alternative, we would propose a phased approach.",
+   "hash": "b6da11d71e04"
+  },
+  "l129-ph-alternative-slow": {
+   "file": "l129-ph-alternative-slow.mp3",
+   "duration": 1.68,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Alternative.",
+   "hash": "3bd755435f25"
+  },
+  "l129-ph-alternative-uk": {
+   "file": "l129-ph-alternative-uk.mp3",
+   "duration": 1.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Alternative.",
+   "hash": "7ee865842664"
+  },
+  "l129-ph-alternative-us": {
+   "file": "l129-ph-alternative-us.mp3",
+   "duration": 1.38,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Alternative.",
+   "hash": "3ca800dbf993"
+  },
+  "l129-ph-as-long-as-ex": {
+   "file": "l129-ph-as-long-as-ex.mp3",
+   "duration": 3.64,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "That could work, as long as we keep it small.",
+   "hash": "4d94effa3972"
+  },
+  "l129-ph-as-long-as-slow": {
+   "file": "l129-ph-as-long-as-slow.mp3",
+   "duration": 1.79,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "As long as.",
+   "hash": "e6b4750a0f77"
+  },
+  "l129-ph-as-long-as-uk": {
+   "file": "l129-ph-as-long-as-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "As long as.",
+   "hash": "c39c3efa0482"
+  },
+  "l129-ph-as-long-as-us": {
+   "file": "l129-ph-as-long-as-us.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "As long as.",
+   "hash": "433e0c3cf8e5"
+  },
+  "l129-ph-could-ex": {
+   "file": "l129-ph-could-ex.mp3",
+   "duration": 2.94,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "We could try a filter by invoice number.",
+   "hash": "0f30acf750f2"
+  },
+  "l129-ph-could-slow": {
+   "file": "l129-ph-could-slow.mp3",
+   "duration": 1.74,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "We could try.",
+   "hash": "ddfba19c3c0d"
+  },
+  "l129-ph-could-uk": {
+   "file": "l129-ph-could-uk.mp3",
+   "duration": 1.51,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "We could try.",
+   "hash": "f1d0747f5496"
+  },
+  "l129-ph-could-us": {
+   "file": "l129-ph-could-us.mp3",
+   "duration": 1.44,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "We could try.",
+   "hash": "8349eda07c47"
+  },
+  "l129-ph-or-ex": {
+   "file": "l129-ph-or-ex.mp3",
+   "duration": 3.32,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "We could run the check this week or next.",
+   "hash": "0946bd131013"
+  },
+  "l129-ph-or-slow": {
+   "file": "l129-ph-or-slow.mp3",
+   "duration": 2.11,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "This week or next.",
+   "hash": "b2aca2710403"
+  },
+  "l129-ph-or-uk": {
+   "file": "l129-ph-or-uk.mp3",
+   "duration": 1.83,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "This week or next.",
+   "hash": "38d0d0fb2cc9"
+  },
+  "l129-ph-or-us": {
+   "file": "l129-ph-or-us.mp3",
+   "duration": 1.61,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "This week or next.",
+   "hash": "714c486ae507"
+  },
+  "l129-ph-what-if-ex": {
+   "file": "l129-ph-what-if-ex.mp3",
+   "duration": 2.85,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "What if we added a filter by invoice number?",
+   "hash": "b301813893c9"
+  },
+  "l129-ph-what-if-slow": {
+   "file": "l129-ph-what-if-slow.mp3",
+   "duration": 1.49,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "What if?",
+   "hash": "184ea600db15"
+  },
+  "l129-ph-what-if-uk": {
+   "file": "l129-ph-what-if-uk.mp3",
+   "duration": 1.7,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "What if?",
+   "hash": "13e55854fb3c"
+  },
+  "l129-ph-what-if-us": {
+   "file": "l129-ph-what-if-us.mp3",
+   "duration": 1.27,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "What if?",
+   "hash": "71af79cd149a"
+  },
+  "l129-reg-c1": {
+   "file": "l129-reg-c1.mp3",
+   "duration": 3.47,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "What if we just got pizza instead? Way easier.",
+   "hash": "14d64c7f1a13"
+  },
+  "l129-reg-c2": {
+   "file": "l129-reg-c2.mp3",
+   "duration": 3.42,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Or we could do Sunday? Saturday's kind of packed.",
+   "hash": "fb276b91318c"
+  },
+  "l129-reg-f1": {
+   "file": "l129-reg-f1.mp3",
+   "duration": 5.95,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "As an alternative, we would propose a phased approach, with the full search delivered in the July release.",
+   "hash": "f6d3a622858b"
+  },
+  "l129-reg-f2": {
+   "file": "l129-reg-f2.mp3",
+   "duration": 5.92,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "We would be prepared to accept a phased launch, provided that the full search is live by mid-July.",
+   "hash": "518f60e6f401"
+  },
+  "l129-reg-n1": {
+   "file": "l129-reg-n1.mp3",
+   "duration": 5.16,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "One option would be to launch with the basic search and add the full search in July.",
+   "hash": "93594134bf40"
+  },
+  "l129-reg-n2": {
+   "file": "l129-reg-n2.mp3",
+   "duration": 2.85,
+   "speaker": "priya",
+   "voice": "af_aoede",
+   "speed": 0.95,
+   "text": "What if we added a filter by invoice number?",
+   "hash": "b301813893c9"
+  },
+  "l129-reg-n3": {
+   "file": "l129-reg-n3.mp3",
+   "duration": 3.64,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "That could work, as long as we keep it small.",
+   "hash": "4d94effa3972"
+  },
+  "l129-scn": {
+   "file": "l129-scn.mp3",
+   "duration": 31.5,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Hi all, here are the options I'd like to put to Helen tomorrow. One option would be to launch on June 20 with the basic keyword search we already have, and add the full search in the July update. Alternatively, we could move go-live to July, but that would mean new training dates and an extra month on the old platform's contract. A launch with no search at all isn't an option. I'd go with the first one, provided that the basic search passes Monday's check. Any thoughts before tomorrow? Ryan",
+   "hash": "0aefd8bc78ac"
+  },
+  "l129-task-formal": {
+   "file": "l129-task-formal.mp3",
+   "duration": 10.98,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "As an alternative, we would propose an illustrated guide at launch, with three video tutorials to follow in the second phase, provided that the scripts are received by 30 June.",
+   "hash": "dd187de3d5a2"
+  },
+  "l129-task-model": {
+   "file": "l129-task-model.mp3",
+   "duration": 37.67,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "Hi Laura, thanks for coming back to me so quickly. I agree that password resets are the place to start: they're a third of your tickets. A video can't be ready in a week, though, so what if we launched with an illustrated step-by-step guide instead? Rather than a rushed video, customers would get clear screenshots on day one, and it would take our designer about two days. We could then produce three short videos for phase two, provided your team writes the scripts by the end of June. Would it help if I sent you a draft of the guide on Monday? Best, Alex",
+   "hash": "f304b4f50bca"
+  },
+  "l130-cc-1a": {
+   "file": "l130-cc-1a.mp3",
+   "duration": 3.47,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'm afraid I have some disappointing news about the search.",
+   "hash": "57aefd45c980"
+  },
+  "l130-cc-1b": {
+   "file": "l130-cc-1b.mp3",
+   "duration": 4.81,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "We regret to inform you that the full search function will not be available at launch.",
+   "hash": "bb4ce13de699"
+  },
+  "l130-cc-2a": {
+   "file": "l130-cc-2a.mp3",
+   "duration": 3.85,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "A rushed fix would put the rest of the launch at risk.",
+   "hash": "868c652e6ffc"
+  },
+  "l130-cc-2b": {
+   "file": "l130-cc-2b.mp3",
+   "duration": 4.94,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "If we had tested at full scale earlier, we would be in a better position now.",
+   "hash": "dad4584a94c4"
+  },
+  "l130-cc-3a": {
+   "file": "l130-cc-3a.mp3",
+   "duration": 4.56,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "In the meantime, customers will have the basic search on day one.",
+   "hash": "68f646d16fe8"
+  },
+  "l130-cc-3b": {
+   "file": "l130-cc-3b.mp3",
+   "duration": 2.75,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'll send you a one-page summary by Wednesday.",
+   "hash": "59fe6db70dea"
+  },
+  "l130-dict-1": {
+   "file": "l130-dict-1.mp3",
+   "duration": 2.92,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.9,
+   "text": "I'd rather hear it now than on launch day.",
+   "hash": "2c410884da04"
+  },
+  "l130-dlg-01": {
+   "file": "l130-dlg-01.mp3",
+   "duration": 5.45,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Helen, thanks for making time. I'm afraid I have some disappointing news about the search.",
+   "hash": "c84799437a87"
+  },
+  "l130-dlg-02": {
+   "file": "l130-dlg-02.mp3",
+   "duration": 3.66,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Go on. I had a feeling this was coming.",
+   "hash": "d59bde7624bb"
+  },
+  "l130-dlg-03": {
+   "file": "l130-dlg-03.mp3",
+   "duration": 7.26,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "The full search won't be ready for June 20. We'll launch with the basic search and add the full one in the July update.",
+   "hash": "6e25c3f83035"
+  },
+  "l130-dlg-04": {
+   "file": "l130-dlg-04.mp3",
+   "duration": 4.9,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "That's a blow, honestly. My board was counting on it for the launch.",
+   "hash": "64bba2dfa238"
+  },
+  "l130-dlg-05": {
+   "file": "l130-dlg-05.mp3",
+   "duration": 7.61,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I understand, and I'm sorry. A rushed fix could put the whole launch at risk, and we won't take that risk with your customers.",
+   "hash": "9d33bf10045f"
+  },
+  "l130-dlg-06": {
+   "file": "l130-dlg-06.mp3",
+   "duration": 2.15,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "So what do I tell them?",
+   "hash": "55b6d981d0f4"
+  },
+  "l130-dlg-07": {
+   "file": "l130-dlg-07.mp3",
+   "duration": 10.74,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "That customers will have a working search on day one, with the invoice filter they use most, and the full search by mid-July. I'll send you a one-page summary you can share.",
+   "hash": "0688ac00ecae"
+  },
+  "l130-dlg-08": {
+   "file": "l130-dlg-08.mp3",
+   "duration": 6.56,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "All right. I'd rather hear it now than on launch day. Thank you for being straight with me.",
+   "hash": "c318a6a01984"
+  },
+  "l130-gd": {
+   "file": "l130-gd.mp3",
+   "duration": 22.74,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'm afraid I have some disappointing news about the search. The full search will not be part of the go-live on June 20. A rushed fix would put the rest of the launch at risk. If we had tested at full scale earlier, we would be in a better position now. In the meantime, customers will have the basic search on day one, and the full search will go live in the July update.",
+   "hash": "69e1102752f5"
+  },
+  "l130-ph-disappointing-ex": {
+   "file": "l130-ph-disappointing-ex.mp3",
+   "duration": 3.77,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I realize this is disappointing, especially for your board.",
+   "hash": "c6e65e6ae666"
+  },
+  "l130-ph-disappointing-slow": {
+   "file": "l130-ph-disappointing-slow.mp3",
+   "duration": 1.81,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Disappointing.",
+   "hash": "db86b4d7b06f"
+  },
+  "l130-ph-disappointing-uk": {
+   "file": "l130-ph-disappointing-uk.mp3",
+   "duration": 1.66,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Disappointing.",
+   "hash": "a2cbf19fc24f"
+  },
+  "l130-ph-disappointing-us": {
+   "file": "l130-ph-disappointing-us.mp3",
+   "duration": 1.53,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Disappointing.",
+   "hash": "41410fbee8da"
+  },
+  "l130-ph-from-me-ex": {
+   "file": "l130-ph-from-me-ex.mp3",
+   "duration": 2.75,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I wanted you to hear it from me before the meeting.",
+   "hash": "f36c3b79963d"
+  },
+  "l130-ph-from-me-slow": {
+   "file": "l130-ph-from-me-slow.mp3",
+   "duration": 1.89,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Hear it from me.",
+   "hash": "dda555a2207d"
+  },
+  "l130-ph-from-me-uk": {
+   "file": "l130-ph-from-me-uk.mp3",
+   "duration": 1.68,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Hear it from me.",
+   "hash": "7a34c7ac6c6a"
+  },
+  "l130-ph-from-me-us": {
+   "file": "l130-ph-from-me-us.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Hear it from me.",
+   "hash": "3b244d21dc55"
+  },
+  "l130-ph-go-live-ex": {
+   "file": "l130-ph-go-live-ex.mp3",
+   "duration": 3.36,
+   "speaker": "alex",
+   "voice": "am_michael",
+   "speed": 0.95,
+   "text": "The full search will go live in the July update.",
+   "hash": "93e84741c6be"
+  },
+  "l130-ph-go-live-slow": {
+   "file": "l130-ph-go-live-slow.mp3",
+   "duration": 1.51,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Go live.",
+   "hash": "f597ebe8045f"
+  },
+  "l130-ph-go-live-uk": {
+   "file": "l130-ph-go-live-uk.mp3",
+   "duration": 1.64,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Go live.",
+   "hash": "72d3dbe18ea7"
+  },
+  "l130-ph-go-live-us": {
+   "file": "l130-ph-go-live-us.mp3",
+   "duration": 1.29,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Go live.",
+   "hash": "4143c3b9afba"
+  },
+  "l130-ph-let-her-know-ex": {
+   "file": "l130-ph-let-her-know-ex.mp3",
+   "duration": 3.85,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'll call Helen first and let her know before the board meeting.",
+   "hash": "373990be66b6"
+  },
+  "l130-ph-let-her-know-slow": {
+   "file": "l130-ph-let-her-know-slow.mp3",
+   "duration": 1.7,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Let her know.",
+   "hash": "11b922bc0e03"
+  },
+  "l130-ph-let-her-know-uk": {
+   "file": "l130-ph-let-her-know-uk.mp3",
+   "duration": 1.47,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Let her know.",
+   "hash": "38b453d80cab"
+  },
+  "l130-ph-let-her-know-us": {
+   "file": "l130-ph-let-her-know-us.mp3",
+   "duration": 1.4,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Let her know.",
+   "hash": "33a1c376b7ec"
+  },
+  "l130-ph-unfortunately-ex": {
+   "file": "l130-ph-unfortunately-ex.mp3",
+   "duration": 3.73,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "Unfortunately, the full search will not be available at launch.",
+   "hash": "97d960f2dca1"
+  },
+  "l130-ph-unfortunately-slow": {
+   "file": "l130-ph-unfortunately-slow.mp3",
+   "duration": 1.93,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.72,
+   "text": "Unfortunately.",
+   "hash": "8caa24cc39c1"
+  },
+  "l130-ph-unfortunately-uk": {
+   "file": "l130-ph-unfortunately-uk.mp3",
+   "duration": 1.74,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.92,
+   "text": "Unfortunately.",
+   "hash": "9945d0015e12"
+  },
+  "l130-ph-unfortunately-us": {
+   "file": "l130-ph-unfortunately-us.mp3",
+   "duration": 1.55,
+   "speaker": "coach",
+   "voice": "af_heart",
+   "speed": 0.92,
+   "text": "Unfortunately.",
+   "hash": "eccb29e695f3"
+  },
+  "l130-reg-c1": {
+   "file": "l130-reg-c1.mp3",
+   "duration": 4.21,
+   "speaker": "leo",
+   "voice": "am_puck",
+   "speed": 0.95,
+   "text": "Bad news, I'm afraid: the concert's been cancelled. Sorry!",
+   "hash": "5be2244376f3"
+  },
+  "l130-reg-c2": {
+   "file": "l130-reg-c2.mp3",
+   "duration": 3.39,
+   "speaker": "maya",
+   "voice": "af_bella",
+   "speed": 0.95,
+   "text": "Hate to tell you this, but the tickets have sold out.",
+   "hash": "a086106451b6"
+  },
+  "l130-reg-f1": {
+   "file": "l130-reg-f1.mp3",
+   "duration": 4.81,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "We regret to inform you that the full search function will not be available at launch.",
+   "hash": "bb4ce13de699"
+  },
+  "l130-reg-f2": {
+   "file": "l130-reg-f2.mp3",
+   "duration": 5.32,
+   "speaker": "helen",
+   "voice": "af_sky",
+   "speed": 0.95,
+   "text": "Thank you for informing us promptly. I will need a written summary for the board.",
+   "hash": "91356e8bd339"
+  },
+  "l130-reg-n1": {
+   "file": "l130-reg-n1.mp3",
+   "duration": 3.47,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "I'm afraid I have some disappointing news about the search.",
+   "hash": "57aefd45c980"
+  },
+  "l130-reg-n2": {
+   "file": "l130-reg-n2.mp3",
+   "duration": 2.75,
+   "speaker": "sarah",
+   "voice": "af_sarah",
+   "speed": 0.95,
+   "text": "I wanted you to hear it from me before the meeting.",
+   "hash": "f36c3b79963d"
+  },
+  "l130-reg-n3": {
+   "file": "l130-reg-n3.mp3",
+   "duration": 4.67,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "It's not the news we wanted to give you, but we'd rather be honest now.",
+   "hash": "3156c1cea31f"
+  },
+  "l130-scn": {
+   "file": "l130-scn.mp3",
+   "duration": 43.81,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Dear Helen, thank you for your time on the phone this morning. As we discussed, the full search will not be part of the go-live on June 20. I realize this is disappointing, especially for your board. Our full-scale test showed that the search cannot yet handle peak traffic, and a rushed fix would put the rest of the launch at risk. If we had tested at full scale earlier, we would be in a better position now, and we have changed our test plan for phase two accordingly. In the meantime, customers will have the basic search with an invoice-number filter on day one, and the full search will go live in the July update. I will send you a one-page summary for your board by Wednesday. Kind regards, Ryan",
+   "hash": "7a5eccf4cf21"
+  },
+  "l130-task-formal": {
+   "file": "l130-task-formal.mp3",
+   "duration": 9.29,
+   "speaker": "emma",
+   "voice": "bf_emma",
+   "speed": 0.95,
+   "text": "We regret to inform you that live reporting data will not be available until 15 August; in the meantime, reports will be updated weekly.",
+   "hash": "7656cc4da21b"
+  },
+  "l130-task-input": {
+   "file": "l130-task-input.mp3",
+   "duration": 34.7,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.95,
+   "text": "Ryan, quick notes on the reports. The supplier's live feed won't be ready until 15 August; they told us yesterday. Their new format is still changing, so we can't build against it yet. What we can do: show data up to the end of the previous month, refreshed every Monday. Customers lose real-time figures, but nothing else breaks. Honestly, if we'd asked them to confirm the format in writing back in May, we'd have the live data now. I can have the weekly refresh running by Friday.",
+   "hash": "800c171f6df4"
+  },
+  "l130-task-model": {
+   "file": "l130-task-model.mp3",
+   "duration": 37.85,
+   "speaker": "ryan",
+   "voice": "am_fenrir",
+   "speed": 0.95,
+   "text": "Dear Helen, I'm afraid I have some disappointing news about the reports page. Live data will not be available until 15 August. The supplier's new data format is still changing, so we cannot build against it yet. If we had asked them to confirm the format in writing in May, we would have the live data now; we have added that step to our process. In the meantime, the reports page will show data up to the end of the previous month, refreshed every Monday, starting this Friday. Everything else in the July update is on track. I will send you a short note for your board tomorrow. Kind regards, Ryan",
+   "hash": "d6e77fd7617d"
+  },
+  "m26-rv-dict-1": {
+   "file": "m26-rv-dict-1.mp3",
+   "duration": 5.73,
+   "speaker": "oliver",
+   "voice": "bm_fable",
+   "speed": 0.9,
+   "text": "I'm afraid the results weren't quite what we'd hoped, but we can test it again on Thursday.",
+   "hash": "56b95ff5ff29"
+  }
+ }
+}
