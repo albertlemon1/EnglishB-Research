@@ -1,5 +1,7 @@
 # Inglés Banda B · B1–B2 para hispanohablantes
 
+> **Repositorio congelado (2026-11-12).** Queda como copia de consulta y su web en GitHub Pages sigue en línea. El trabajo continúa en el repositorio nuevo **EnglishB-On**, donde el curso se reconstruye módulo a módulo.
+
 App web de autoaprendizaje para la Banda B del MCER (270 horas, de B1.1 a B2.2). Combina Enfoque Léxico, Descubrimiento Guiado, Enseñanza Basada en Tareas (TBLT) y el **Anclaje Fonético Hispanohablante (AFH)**.
 
 - **Estructura completa** de la Banda B: 4 subniveles, 54 módulos y 270 lecciones, con dominios temáticos, foco gramatical (EGP), léxico (EVP) y fonético (AFH) por módulo, y la prueba de transición *The Threshold Gate*. Ver [`docs/ESTRUCTURA_BANDA_B.md`](docs/ESTRUCTURA_BANDA_B.md).
